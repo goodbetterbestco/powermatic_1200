@@ -3,7 +3,7 @@
 **Revision:** J  
 **Date:** 2026-08-05  
 **Circuit:** nominal 208/240 V, 3-phase VFD input power circuit  
-**Status:** **SELECTED POWER-CIRCUIT COMPONENT CHECK PASSED - final panel sign-off requires source verification**
+**Status:** **SELECTED POWER-CIRCUIT COMPONENT CHECK PASSED - personal-shop due-diligence worksheet**
 
 ## 1. Design target and source assumption
 
@@ -12,7 +12,9 @@
 - The breaker's 10 kA interrupting rating is not a calculation or measurement of available fault current.
   Treat `available fault current <= 10 kA` as a provisional design assumption until confirmed from the
   serving transformer and conductor impedance or by a qualified field calculation.
-- The finished panel SCCR must be at least the available fault current at the machine connection point.
+- For a listed product panel, the marked SCCR would need to be at least the available fault current at the machine
+  connection point. For this personal-shop retrofit, use this worksheet as a conservative design check and field
+  record, not as a substitute for formal UL 508A certification.
 
 ## 2. Power-circuit path
 
@@ -32,7 +34,7 @@
 The former `LC1D09BD` was replaced by `LC1D18BD`. This clears the contactor/fuse mismatch: the selected
 35 A Class T fuse is below Schneider's 40 A maximum for the contactor's 100 kA high-fault combination.
 
-Before applying the final panel SCCR marking:
+Before treating the power-circuit design as field-ready:
 
 1. Retain the Schneider combination-table page in the panel file and record `LC1D18BD`, 35 A Class T,
    and 100 kA component/combination SCCR.
@@ -40,20 +42,22 @@ Before applying the final panel SCCR marking:
    100 kA short-circuit-withstand statement.
 3. Confirm available fault current at the machine by qualified calculation. The branch breaker's 10 kA
    interrupting rating alone does not establish available fault current.
-4. Complete the final sign-off fields below and mark the panel at the lowest supported circuit value.
+4. Complete the field-record entries below. If this design is ever sold as a product, have the final panel and
+   documentation evaluated under the appropriate certification/listing process.
 
-The contactor and VFD no longer present unresolved procurement holds. Do not apply the final panel SCCR label
-until the available-fault-current entry and final field sign-off are complete.
+The contactor and VFD no longer present unresolved procurement holds. The available-fault-current entry remains
+useful evidence for a conservative personal-shop installation and would become mandatory documentation for a
+certified product build.
 
-## 4. Final sign-off fields
+## 4. Field record fields
 
 - Available fault current at machine: __________ kA RMS symmetrical at __________ V
 - Calculation/source and date: _________________________________________________
 - Final Contactor A catalog number: ____________________________________________
 - Final fuse catalog/rating: ___________________________________________________
 - VFD manufacturer SCCR condition verified: **Yes - GS20(X) manual, 1st Edition Rev E, pp. A-2/A-4 and 2-21**
-- Lowest component/combination SCCR: __________ kA
-- Final panel SCCR marking: __________ kA RMS symmetrical at __________ V
+- Lowest component/combination SCCR basis: __________ kA
+- Personal-shop panel marking / note, if applied: __________ kA RMS symmetrical at __________ V
 - Reviewed by / date: __________________________________________________________
 
 ## 5. Manufacturer references

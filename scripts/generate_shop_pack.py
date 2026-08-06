@@ -21,8 +21,9 @@ from reportlab.platypus import (
 )
 
 
-ROOT = Path(__file__).resolve().parent
-OUTPUT = ROOT / "Powermatic_1200_Shop_Pack_rJ.pdf"
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+DOCS = PROJECT_ROOT / "docs"
+OUTPUT = DOCS / "Powermatic_1200_Shop_Pack_rJ.pdf"
 
 NAVY = colors.HexColor("#16324F")
 BLUE = colors.HexColor("#245B8A")
@@ -213,7 +214,7 @@ story.extend(
             "Ladder Logic Rev J is the CLICK PLUS programming authority.",
             "This Shop Pack supplies the one-line, safety loop, VFD card, and validation sequence.",
             "The owner-maintained BOM Rev J is the sourcing authority.",
-            "The SCCR Worksheet Rev J controls release of the power circuit and panel SCCR marking.",
+            "The SCCR Worksheet Rev J records personal-shop SCCR due diligence and field verification.",
         ]
     )
 )
@@ -248,14 +249,14 @@ story.append(Spacer(1, 8))
 story.append(
     notice(
         "POWER-CIRCUIT PROCUREMENT CHECK PASSED",
-        "The LC1D18BD is rated 100 kA with fuses through 40 A. The GS20 manual specifies TJN35 Class T protection for GS23-22P0 and rates GS20 drives for circuits up to 100 kA. Final panel marking still requires available-fault-current confirmation and field sign-off.",
+        "The LC1D18BD is rated 100 kA with fuses through 40 A. The GS20 manual specifies TJN35 Class T protection for GS23-22P0 and rates GS20 drives for circuits up to 100 kA. For this personal-shop retrofit, the worksheet is due diligence and a field record, not a product-certification gate.",
     )
 )
 story.append(Spacer(1, 7))
 story.append(
     notice(
         "STOP-TIME LIMITATION",
-        "At 2,000 RPM a linear 0.50 s stop represents about 16.7 spindle revolutions; 0.25 s represents about 8.3. This design materially improves coast-down but is not contact-triggered SawStop behavior.",
+        "At 2,000 RPM a linear 0.50 s stop represents about 8.3 spindle revolutions; 0.25 s represents about 4.2. This design materially improves coast-down but is not contact-triggered SawStop behavior.",
     )
 )
 story.append(PageBreak())
@@ -294,7 +295,7 @@ story.append(
 story.append(Spacer(1, 7))
 story.append(notice("ORDER OF DEVICES", "Line -> OT30F3 -> LFT300603C/TJN35 -> LC1D18BD -> GS23-22P0 -> motor. Disconnect line-side terminals remain live with the switch OFF."))
 story.append(Spacer(1, 7))
-story.append(notice("SCCR SIGN-OFF", "The selected contactor, fuse, disconnect, and VFD conditions pass the 10 kA target. Confirm available fault current and complete the field sign-off before applying the final panel SCCR label."))
+story.append(notice("SCCR FIELD RECORD", "The selected contactor, fuse, disconnect, and VFD conditions pass the 10 kA target. Confirm available fault current for the personal-shop record; formal certification/listing would be a separate future product step."))
 story.append(PageBreak())
 
 
@@ -398,7 +399,7 @@ story.append(PageBreak())
 
 # Sheet 5
 page_title("Commissioning - Before Power and VFD Setup", "Check in order - LOTO before wiring work - begin motor uncoupled where practical")
-story.append(notice("SCCR SIGN-OFF REQUIRED", "LC1D18BD and GS23-22P0 are verified with the selected 35 A TJN35 Class T protection. Confirm available fault current and complete the field sign-off before applying the final panel SCCR label."))
+story.append(notice("SCCR FIELD RECORD", "LC1D18BD and GS23-22P0 are verified with the selected 35 A TJN35 Class T protection. Confirm available fault current for the personal-shop field record; formal product certification would be separate."))
 story.append(p("Before first power-up", H1))
 story.extend(
     bullets(
@@ -464,7 +465,7 @@ story.extend(
             "Final state: X011=0 after KA opens; red remains solid. Valid reset re-energizes KA and restores X011 without restarting.",
             "DRILL: FWD and REV latch separately; opposite button stops first; second press starts opposite direction; no plug reversal.",
             "TAP: lever-OFF proof required; bottom reverses; top stops; lever engagement mid-cycle faults and stops.",
-            "JOG: 5 s FWD hold only arms mode; fresh hold-to-run FWD/REV at 30 Hz; drum OFF and any trip inhibit motion.",
+            "JOG: 5 s FWD hold only arms mode; the held entry press never moves the spindle. Drum OFF inhibits motion but does not exit jog. Any STOP press exits jog.",
         ]
     )
 )
@@ -472,7 +473,7 @@ story.append(p("Acceptance boundary", H1))
 story.extend(
     bullets(
         [
-            "SCCR worksheet signed; final panel marking is not greater than the verified available fault current basis.",
+            "SCCR worksheet completed as a personal-shop field record; certification/listing deferred unless this becomes a product.",
             "No nuisance drive faults, DC-bus overvoltage, or contactor opening before the spindle reaches zero.",
             "No belt/CVT upset, chuck/arbor release, abnormal motor noise, or DB-resistor thermal trip over the planned stop frequency.",
             "If <=0.50 s cannot be demonstrated with margin, do not claim the target. Increase delay and revisit braking hardware/drive architecture.",
@@ -485,7 +486,7 @@ story.append(
     table(
         [
             ["Recorded item", "Result"],
-            ["Available fault current / final panel SCCR", "____________________________________________"],
+            ["Available fault current / SCCR field note", "____________________________________________"],
             ["Worst-case measured stop time", "____________________________________________"],
             ["Final BH5928 delay setting", "____________________________________________"],
             ["Maximum validated chuck/tool inertia", "____________________________________________"],
