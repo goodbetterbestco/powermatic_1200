@@ -1,9 +1,4 @@
-"""Generate the Rev J CLICK PLUS ladder programming reference PDF.
-
-The authoritative ladder listing lives in section 7 of
-Powermatic_1200_Retrofit_Documentation_rJ.md. This script renders that section
-as a shop-friendly PDF so the PDF cannot drift from the markdown source.
-"""
+"""Generate the Rev J CLICK PLUS ladder programming reference PDF."""
 
 from __future__ import annotations
 
@@ -18,16 +13,8 @@ from reportlab.pdfgen import canvas
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DOCS = PROJECT_ROOT / "docs"
-SOURCE = DOCS / "Powermatic_1200_Retrofit_Documentation_rJ.md"
+SOURCE = DOCS / "05_ladder_logic_rJ.md"
 OUTPUT = DOCS / "05_ladder_logic_rJ.pdf"
-
-
-def section_7() -> str:
-    text = SOURCE.read_text(encoding="utf-8")
-    match = re.search(r"^## 7\. Ladder logic.*?^---\n", text, re.M | re.S)
-    if not match:
-        raise RuntimeError("Could not find section 7 ladder logic block")
-    return match.group(0)
 
 
 def plain(text: str) -> str:
@@ -97,7 +84,7 @@ def draw_pdf(lines: list[str]) -> None:
     def header() -> float:
         c.setFont("Helvetica-Bold", 9)
         c.drawString(left, height - 0.28 * inch, "Powermatic 1200 retrofit - CLICK PLUS ladder logic")
-        c.drawRightString(width - left, height - 0.28 * inch, "Rev J - generated from section 7")
+        c.drawRightString(width - left, height - 0.28 * inch, "Rev J - generated from 05_ladder_logic_rJ.md")
         c.setFont("Courier", 7)
         return top - 0.1 * inch
 
@@ -120,11 +107,11 @@ def draw_pdf(lines: list[str]) -> None:
 
 
 def main() -> None:
-    text = plain(section_7())
+    text = plain(SOURCE.read_text(encoding="utf-8"))
     lines = [
         "POWERMATIC 1200 RETROFIT - CLICK PLUS LADDER LOGIC",
         "",
-        "Programming reference generated from Powermatic_1200_Retrofit_Documentation_rJ.md section 7.",
+        "Programming reference generated from docs/05_ladder_logic_rJ.md.",
         "Key Rev J jog rules: any STOP press exits jog; drum OFF inhibits motion but not jog mode;",
         "the 5 s FWD entry hold is consumed by C50 and cannot command spindle motion.",
         "",

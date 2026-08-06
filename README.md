@@ -4,17 +4,19 @@ Design and shop documentation for the safety and controls retrofit of a 1967 Pow
 
 ## Current controlled revision
 
-- `docs/Powermatic_1200_Retrofit_Documentation_rJ.md` — design basis, I/O, safety architecture, VFD configuration, ladder narrative, and commissioning requirements
+- `docs/Powermatic_1200_Retrofit_Documentation_rJ.md` — design intent, power topology, sequence of operations, I/O assignments, VFD configuration, and safety architecture
+- `docs/05_ladder_logic_rJ.md` — CLICK PLUS ladder-logic source
 - `docs/Powermatic_1200_Retrofit_Wire_Schedule_rJ.md` — point-to-point build authority
 - `docs/Powermatic_1200_SCCR_Worksheet_rJ.md` — personal-shop SCCR due-diligence worksheet and field record
-- `docs/05_ladder_logic_rJ.pdf` — CLICK PLUS programming reference
+- `docs/05_ladder_logic_rJ.pdf` — CLICK PLUS programming reference generated from the ladder source
 - `docs/Powermatic_1200_Shop_Pack_rJ.pdf` — power one-line, safety loop, VFD card, and commissioning checklists
 - `docs/Powermatic_1200_Retrofit_BOM_rJ.numbers` — owner-maintained procurement authority
 - `docs/Powermatic_1200_Retrofit_BOM_rJ.pdf` — frozen Rev J procurement snapshot
+- `TODO.md` — open build and validation items
 
 Local helper scripts for regenerating the PDFs live in `scripts/`.
 
-Earlier revisions are retained for history but are superseded by Rev J.
+Rev J is the controlled revision in this repository.
 
 ## Rev J safety basis
 
