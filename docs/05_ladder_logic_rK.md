@@ -4,7 +4,7 @@ Transcribe into the free **CLICK Programming Software**. Symbols:
 `─] [─` N.O. · `─]/[─` N.C. · `─]↑[─` leading-edge (press) · `─]↓[─` trailing-edge (release) ·
 `─( )─` OUT · `─(S)─` SET · `─(R)─` RST · `[TMR …]` timer.
 
-> **Scan order is load-bearing in Rev J.** The bidirectional stop-first behavior and the jog-mode
+> **Scan order is load-bearing in Rev K.** The bidirectional stop-first behavior and the jog-mode
 > short-press logic depend on rungs executing in the order listed. Two rules to preserve: (a) the DRILL
 > **latch-SET** rungs (4, 5) run **before** the **opposite-stop** rung (7); (b) the jog/consume flag `C50`
 > is set by the 5 s entry hold before the jog output rung can act on that held FWD input. Transcribe in
@@ -141,9 +141,11 @@ RUNG 20 · JOG IDLE TIMEOUT   (60 s with no jog button → auto-exit)
    T60
  ──] [─────────────────────────────────────────────(R)── C60
 
-RUNG 21 · JOG FORCE-EXIT   (any latched fault or safety trip)
+RUNG 21 · JOG FORCE-EXIT   (any latched fault, thermal trip, or safety trip)
    C10
  ──] [───┬─────────────────────────────────────────(R)── C60
+   C11   │
+ ──] [───┤ (DB thermal trip/cooldown)
    X011  │
  ──]/[───┤ (final safe state lost)
    X013  │
@@ -153,7 +155,7 @@ RUNG 22 · STOP EXIT (jog)   (any STOP press exits jog mode)
    C60       X004
  ──] [─────]/[─────────────────────────────────────(R)── C60
 
-RUNG 23 · RESERVED   (Rev J deletes the former STOP-hold distinction)
+RUNG 23 · RESERVED   (the former STOP-hold distinction remains deleted)
 
 RUNG 23A · JOG RUN PERMISSIVE → C61
    C60       X011      X013       X008        X004       C10       C11
@@ -211,13 +213,16 @@ RUNG 28 · GREEN → Y005      (solid = all-good; blink = jog armed)
    X011  │  X013       C10       C11       C60       C99
  ──] [───┴─]/[───────]/[──────]/[──────] [──────] [──   (jog: blink via C99)
 
-RUNG 29 · RED → Y006        (solid = safety/hard fault; blink = over-temp)
-   X011
- ──]/[───┬─────────────────────────────────────────( )── Y006  RED
-   X013  │
- ──] [───┤ (immediate safety trip)
-   C10   │ (¬final-safe OR immediate-trip OR fault → solid)
- ──] [───┤
-   C11   │ X011      X013       C10       C99
- ──] [───┴─] [──────]/[───────]/[──────] [──   (over-temp blink only when no solid-red)
+RUNG 29 · RED → Y006        (solid = safety/hard fault; blink = thermal trip/cooldown)
+   X013
+ ──] [───┬─────────────────────────────────────────( )── Y006  RED
+   C10   │
+ ──] [───┤ (immediate safety trip OR hard fault → solid)
+   X011     C11
+ ──]/[────]/[───┤ (KA not proved, except while thermal state explains its intentional dropout)
+   C11      X013       C10       C99
+ ──] [────]/[────────]/[───────] [────────────────┘ (thermal blink when no solid-red cause)
+
+  RED_SOLID = X013 OR C10 OR (NOT X011 AND NOT C11)
+  RED_BLINK = C11 AND NOT X013 AND NOT C10 AND C99
 ```

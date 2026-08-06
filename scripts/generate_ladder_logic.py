@@ -1,4 +1,4 @@
-"""Generate the Rev J CLICK PLUS ladder programming reference PDF."""
+"""Generate the Rev K CLICK PLUS ladder programming reference PDF."""
 
 from __future__ import annotations
 
@@ -13,8 +13,8 @@ from reportlab.pdfgen import canvas
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DOCS = PROJECT_ROOT / "docs"
-SOURCE = DOCS / "05_ladder_logic_rJ.md"
-OUTPUT = DOCS / "05_ladder_logic_rJ.pdf"
+SOURCE = DOCS / "05_ladder_logic_rK.md"
+OUTPUT = DOCS / "05_ladder_logic_rK.pdf"
 
 
 def plain(text: str) -> str:
@@ -74,6 +74,8 @@ def wrapped_lines(text: str, width: int = 96) -> list[str]:
 
 def draw_pdf(lines: list[str]) -> None:
     c = canvas.Canvas(str(OUTPUT), pagesize=letter)
+    c.setTitle("Powermatic 1200 Retrofit CLICK PLUS Ladder Logic Rev K")
+    c.setAuthor("GoodBetterBestCo - E. Thayer")
     width, height = letter
     left = 0.45 * inch
     top = height - 0.42 * inch
@@ -84,14 +86,15 @@ def draw_pdf(lines: list[str]) -> None:
     def header() -> float:
         c.setFont("Helvetica-Bold", 9)
         c.drawString(left, height - 0.28 * inch, "Powermatic 1200 retrofit - CLICK PLUS ladder logic")
-        c.drawRightString(width - left, height - 0.28 * inch, "Rev J - generated from 05_ladder_logic_rJ.md")
+        c.drawRightString(width - left, height - 0.28 * inch, "Rev K - generated from 05_ladder_logic_rK.md")
         c.setFont("Courier", 7)
         return top - 0.1 * inch
 
     y = header()
     c.setFont("Courier", 7)
     for line in lines:
-        if y < bottom:
+        keep_rung_together = line.startswith("RUNG ") and y < bottom + 6 * line_height
+        if y < bottom or keep_rung_together:
             c.setFont("Helvetica", 7)
             c.drawRightString(width - left, 0.24 * inch, f"Sheet {page_no}")
             c.showPage()
@@ -111,8 +114,8 @@ def main() -> None:
     lines = [
         "POWERMATIC 1200 RETROFIT - CLICK PLUS LADDER LOGIC",
         "",
-        "Programming reference generated from docs/05_ladder_logic_rJ.md.",
-        "Key Rev J jog rules: any STOP press exits jog; drum OFF inhibits motion but not jog mode;",
+        "Programming reference generated from docs/05_ladder_logic_rK.md.",
+        "Key Rev K jog rules: any STOP press exits jog; drum OFF inhibits motion but not jog mode;",
         "the 5 s FWD entry hold is consumed by C50 and cannot command spindle motion.",
         "",
     ]

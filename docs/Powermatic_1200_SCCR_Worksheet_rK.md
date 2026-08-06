@@ -1,7 +1,7 @@
 # Powermatic 1200 Retrofit - SCCR Worksheet
 
-**Revision:** J  
-**Date:** 2026-08-05  
+**Revision:** K
+**Date:** 2026-08-06
 **Circuit:** nominal 208/240 V, 3-phase VFD input power circuit  
 **Status:** **SELECTED POWER-CIRCUIT COMPONENT CHECK PASSED - personal-shop due-diligence worksheet**
 
@@ -30,6 +30,10 @@
 | Feeder breaker | Siemens Type QP, 3-pole | 10 kA interrupting rating at 240 V; this is not the panel SCCR and not proof of available fault current | Source assumption only |
 
 ## 3. Resolution and remaining release items
+
+Rev K adds only 24 VDC control components (`DB-FU`, `CR-DB`, and `TD-DB`) and
+a second 24 VDC pilot light. These additions do not change the power-circuit
+path or the SCCR basis evaluated here.
 
 The former `LC1D09BD` was replaced by `LC1D18BD`. This clears the contactor/fuse mismatch: the selected
 35 A Class T fuse is below Schneider's 40 A maximum for the contactor's 100 kA high-fault combination.

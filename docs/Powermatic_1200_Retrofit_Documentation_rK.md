@@ -2,11 +2,11 @@
 
 **Machine:** 1967 Powermatic 1200, 3-phase tapping/drilling drill press  
 **Owner / designer:** Evan Thayer - GoodBetterBestCo  
-**Document revision:** J  
-**Date:** 2026-08-05  
+**Document revision:** K
+**Date:** 2026-08-06
 **Design references:** NFPA 79, UL 508A construction practices
 
-This document defines the Rev J control-system design.
+This document defines the Rev K control-system design.
 
 ---
 
@@ -28,6 +28,8 @@ Design objectives:
 6. Retain one vintage Furnas contactor only as an unloaded audible "chunk"
    device.
 7. Keep the safety stop independent of the PLC.
+8. Provide a hardwired DB-resistor thermal stop that commands controlled
+   deceleration before removing VFD input power.
 
 The PLC controls operating sequence only. It is not the safety system and is not
 credited with making the machine safe after an E-stop.
@@ -84,15 +86,23 @@ The white power-on lamp is wired directly from the protected 24 V bus. It is on
 whenever the disconnect is closed and the 24 V bus is energized, including fault
 conditions where the PLC is stopped, faulted, or not commanding outputs.
 
+The DB-resistor thermal-control branch is protected by `DB-FU`, a 1 A
+Bussmann `GMC1` fuse in a `DN-F10MN` holder. This branch supplies the
+`TD-DB` timer continuously and feeds the resistor thermostat, `CR-DB`, and
+PLC input `X012`. The timer manufacturer's installation limit is 4 A maximum;
+the selected 1 A branch fuse satisfies that requirement.
+
 ### 2.4 Contactor Roles
 
 | Device | Role | Control authority |
 |---|---|---|
-| Contactor A, Schneider `LC1D18BD` | Safety/line contactor feeding the VFD input | Safety relay delayed output only |
+| Contactor A, Schneider `LC1D18BD` | Safety/line contactor feeding the VFD input | BH5928 delayed output in series with `TD-DB` thermal-delay contact |
 | Contactor B, vintage Furnas | Unloaded audible feedback contactor | PLC output `Y004` through interposing relay `CR-B` |
 
-Contactor A is never driven by the PLC. Contactor B switches no motor current
-and no VFD input or output current.
+Contactor A is never driven by the PLC. `TD-DB` can only interrupt the
+Contactor A coil path; it cannot energize the contactor when BH5928 contact
+47-48 is open. Contactor B switches no motor current and no VFD input or output
+current.
 
 The original overload heaters are removed. Motor overload protection is provided
 by the VFD electronic thermal model using the motor nameplate FLA.
@@ -143,7 +153,7 @@ The E-stop station is the sole safety input.
 |---|---|
 | Channel 1 | E-stop N.C. contact 1 |
 | Channel 2 | E-stop N.C. contact 2 |
-| Reset/EDM loop | Manual reset pushbutton in series with Contactor A mirror N.C. |
+| Reset/EDM loop | Black `SAFETY RESET` pushbutton in series with Contactor A mirror N.C. |
 
 The TAP bottom and top travel limits are sequence inputs, not safety relay
 inputs. TAP mode uses the limits during normal operation, so they cannot be in
@@ -168,7 +178,7 @@ The BH5928 instantaneous N.C. monitoring contact drives two interposing relays:
 
 | Relay | Function |
 |---|---|
-| `CR-S1` | Commands GS20 DI4 Force to Stop |
+| `CR-S1` | Commands GS20 DI4 Force to Stop on a safety trip |
 | `CR-S2` | Reports immediate safety trip to PLC input `X013` |
 
 `CR-S1`, `CR-S2`, DI4, and `X013` are supplementary control/indication paths.
@@ -180,30 +190,59 @@ The three delayed N.O. safety contacts establish the final safe state:
 
 | Safety contact | Controlled circuit |
 |---|---|
-| 47-48 | Contactor A coil |
+| 47-48 | Contactor A coil through the series `TD-DB` N.O. contact |
 | 57-58 | VFD STO1 |
 | 67-68 | VFD STO2 |
 
 STO1 and STO2 remain separate channels. They are not paralleled on one relay
 contact.
 
-Rev J does not include a mechanical brake. No delayed safety output remains
+Rev K does not include a mechanical brake. No delayed safety output remains
 spare.
 
 ### 3.6 Monitoring
 
 | Signal | Source | Meaning |
 |---|---|---|
-| `X011` | Contactor A mechanically linked N.O. auxiliary | Final safety state proved OK after reset |
+| `X011` | Contactor A mechanically linked N.O. auxiliary | Contactor A energized; falls after a safety delay or DB thermal delay |
 | `X013` | `CR-S2` from BH5928 immediate monitoring contact | Immediate safety trip active |
 
-`X011` falls only after the delayed output opens Contactor A. The PLC uses it as
-a run permissive and state-clear signal. `X013` reports the immediate trip
-interval before `X011` falls.
+`X011` falls when either the BH5928 delayed output or the `TD-DB` delayed
+thermal contact opens Contactor A. The PLC uses it as a run permissive and
+state-clear signal. `X013` distinguishes an immediate safety trip from a DB
+thermal shutdown.
 
 No auto-restart is permitted. After an E-stop or power interruption, the safety
 relay requires manual reset and the PLC sequence requires a fresh operator start
 command.
+
+### 3.7 DB-Resistor Thermal Protection
+
+The Crohm `BR-N1-280W50` N.C. thermostat is an equipment-protection input, not
+a safety-rated input. Its hardware path does not depend on PLC scan or PLC
+outputs:
+
+1. With the thermostat healthy, `X012` and `TD-DB` control input `B1` receive
+   fused +24 V and `CR-DB` is energized.
+2. If the thermostat opens, `X012` falls and `CR-DB` de-energizes immediately.
+   The de-energized `CR-DB` N.C. contact connects VFD DCM to DI4, commanding
+   Force to Stop with deceleration time 2.
+3. `TD-DB`, Phoenix Contact `2910140`, remains powered at `A1-A2`. Loss of its
+   `A1-B1` control signal starts the release delay while output contact 11-14
+   remains closed.
+4. After the commissioned delay, nominally about 1.00 s, `TD-DB` contact 11-14
+   opens the Contactor A coil circuit. The BH5928 still controls the same circuit
+   in series and independently controls STO1 and STO2.
+5. When the thermostat recloses, `CR-DB`, `TD-DB`, and Contactor A recover
+   automatically. The PLC holds `C11` for 10 seconds of continuously healthy
+   `X012`, then clears the thermal state. A fresh motion command is required.
+
+Configure `TD-DB` with `S4=ON`, `S3=OFF` (`Rs`, release delay with control
+contact) and `S2=OFF`, `S1=OFF` (0.1-10 s range). Begin commissioning at a
+nominal 1.00 s setting and measure the actual Contactor A dropout time. The
+timer's setting accuracy is specified as 2.5% of the 10 s range end, so the
+final setting must be based on measured operation rather than dial position
+alone.
 
 ---
 
@@ -305,21 +344,28 @@ distinction in jog mode; any STOP press exits jog.
 
 ### 4.6 Operator Indicators
 
-The machine-front green and red lamps are PLC outputs and are advisory. They do
-not perform a safety function.
+The machine-front green lamp, machine-front red lamp, and enclosure-panel red
+lamp are PLC outputs and are advisory. The two red lamps are wired in parallel
+to `Y006` and always show the same state. They do not perform a safety function.
 
 | State | Indication |
 |---|---|
 | Safe, no fault, not jogging | Green solid |
 | Jog armed | Green blink |
-| DB resistor over-temperature | Red blink |
-| Safety trip or latched hard fault | Red solid |
+| DB resistor over-temperature or cooldown | Both red lamps blink |
+| Safety trip, Contactor A not proved for a nonthermal reason, or latched hard fault | Both red lamps solid |
 
 Red solid has priority over red blink. Red blink has priority over green blink.
 Green blink has priority over green solid.
 
 The white power-on lamp is not a PLC output. It remains on whenever the
 disconnect is closed and the 24 V bus is energized.
+
+The enclosure controls are labeled `SAFETY RESET`, `DRILL / TAP`, `CONTROL
+POWER`, and `FAULT / NOT READY`. The black safety-reset button resets only the
+BH5928/EDM safety circuit. PLC hard fault `C10` clears with STOP while fully
+stopped, and DB thermal state `C11` clears automatically; therefore the red lamp
+must not be labeled `RESET REQUIRED`.
 
 ---
 
@@ -347,7 +393,7 @@ outputs.
 | `X008` | Drum LOW | Retained drum switch contact | 1 = LOW selected |
 | `X009` | Drum HIGH | Retained drum switch contact | 1 = HIGH selected |
 | `X010` | Feed-lever-OFF proof | PNP-NO proximity sensor | 1 = feed lever confirmed OFF |
-| `X011` | Final safety/KA OK | Contactor A mechanically linked N.O. auxiliary | 1 = Contactor A energized after safety reset |
+| `X011` | Contactor A energized | Contactor A mechanically linked N.O. auxiliary | 1 = Contactor A energized |
 | `X012` | DB resistor thermal OK | DB resistor N.C. thermal switch | 1 = normal, 0 = over-temperature or broken circuit |
 | `X013` | Immediate safety trip | `CR-S2` interposing relay | 1 = safety relay tripped |
 
@@ -360,7 +406,7 @@ outputs.
 | `Y003` | VFD Preset LOW | GS20 DI3 | On = 30 Hz preset |
 | `Y004` | Contactor B chunk | `CR-B` interposing relay | Pulsed on run/direction transitions |
 | `Y005` | Green lamp | Machine-front green 24 V pilot | Solid all-good, blink jog armed |
-| `Y006` | Red lamp | Machine-front red 24 V pilot | Solid safety/hard fault, blink DB over-temp |
+| `Y006` | Red lamps | Machine-front and enclosure-panel red 24 V pilots in parallel | Solid safety/hard fault, blink DB over-temp |
 
 Contactor A is not a PLC output.
 
@@ -386,7 +432,7 @@ Motor data basis: 208 V, 60 Hz, 6.42 A FLA, permanent 4-pole delta connection.
 | DI1 | Run-FWD | Commanded by `Y001`, interrupted by safety relay |
 | DI2 | Run-REV | Commanded by `Y002`, interrupted by safety relay |
 | DI3 | Preset 1 select | Commanded by `Y003` |
-| DI4 | Function 18, Force to Stop | Commanded by `CR-S1` on safety trip |
+| DI4 | Function 18, Force to Stop | Commanded by `CR-S1` on safety trip or de-energized `CR-DB` on DB over-temperature |
 | Stop method `P00.22` | 0, ramp to stop | Loss of run command decelerates instead of coasting |
 | Decel time 1 `P01.13` | 0.50 s initial | Normal stop ramp basis |
 | Decel time 2 `P01.15` | 0.50 s initial | E-stop force-stop ramp basis |
@@ -400,10 +446,13 @@ Motor data basis: 208 V, 60 Hz, 6.42 A FLA, permanent 4-pole delta connection.
 DI function 28 is not used for E-stop because it removes drive output
 immediately and produces a coast/free-run stop.
 
-The braking resistor thermal switch is monitored at `X012`. Over-temperature
-inhibits run and produces red blink indication until the thermal condition
-clears.
+The braking resistor thermal switch drives the independent `CR-DB`/`TD-DB`
+hardware stop and is monitored at `X012`. Over-temperature immediately commands
+DI4 controlled deceleration, opens Contactor A after the measured timer delay,
+inhibits run, and produces red blink indication through the thermal trip and
+10-second healthy cooldown. Recovery is automatic, but motion requires a fresh
+operator command.
 
 ---
 
-*End of document - GoodBetterBestCo, Rev J, 2026-08-05.*
+*End of document - GoodBetterBestCo, Rev K, 2026-08-06.*
