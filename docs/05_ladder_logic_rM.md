@@ -4,7 +4,7 @@ Transcribe into the free **CLICK Programming Software**. Symbols:
 `─] [─` N.O. · `─]/[─` N.C. · `─]↑[─` leading-edge (press) · `─]↓[─` trailing-edge (release) ·
 `─( )─` OUT · `─(S)─` SET · `─(R)─` RST · `[TMR …]` timer.
 
-> **Scan order is load-bearing in Rev K.** The bidirectional stop-first behavior and the jog-mode
+> **Scan order is load-bearing in Rev M.** The bidirectional stop-first behavior and the jog-mode
 > short-press logic depend on rungs executing in the order listed. Two rules to preserve: (a) the DRILL
 > **latch-SET** rungs (4, 5) run **before** the **opposite-stop** rung (7); (b) the jog/consume flag `C50`
 > is set by the 5 s entry hold before the jog output rung can act on that held FWD input. Transcribe in
@@ -91,7 +91,7 @@ RUNG 12 · TAP BACK_OUT → IDLE   (top limit)
    C3         X007
  ──] [──────]/[───────────────────────────────────(R)── C3
 
-RUNG 13 · TAP ABORT   (stop / not TAP / fault / lost-permit-or-safety)   ← Rev H: adds ¬C20 leg
+RUNG 13 · TAP ABORT   (stop / not TAP / fault / lost-permit-or-safety)
    X004
  ──]/[───┬───────────────────────────────┬───────(R)── C2
    X002  │                                └───────(R)── C3
@@ -126,14 +126,14 @@ RUNG 17 · FAULT RESET   (STOP while fully stopped clears the hard-fault latch)
 
 ────────────────────────────────  JOG mode  ────────────────────────────────
 
-RUNG 18 · FWD HOLD TIMER   (times how long FWD is held)
-   X003
- ──] [──────────────────────────────[TMR  T5FWD  K5000ms]
+RUNG 18 · FWD HOLD TIMER   (times FWD only while fully permissive and stopped)
+   X003      C20       C30       C31       C2        C3
+ ──] [─────] [───────]/[───────]/[───────]/[───────]/[──[TMR  T5FWD  K5000ms]
 
-RUNG 19 · ENTER JOG   (FWD held ≥5 s, safe, not already armed; consume the press so release won't latch a run)
-   T5FWD     C50       C60       X011      X013      C10
- ──] [─────]/[───────]/[───────] [───────]/[──────]/[──────┬─(S)── C60  JOG_MODE
-                                                  └─(S)── C50  (consumed)
+RUNG 19 · ENTER JOG   (FWD held ≥5 s at standstill; repeat all motion-state interlocks and consume the press)
+   T5FWD     C50       C60       C20       C30       C31       C2        C3
+ ──] [─────]/[───────]/[───────] [───────]/[───────]/[───────]/[───────]/[──┬─(S)── C60  JOG_MODE
+                                                                      └─(S)── C50  (consumed)
 
 RUNG 20 · JOG IDLE TIMEOUT   (60 s with no jog button → auto-exit)
    C60      X003      X005

@@ -26,7 +26,13 @@ Open build and validation items for the Powermatic 1200 controls retrofit.
   A -> VFD.
 - Verify Contactor A mirror N.C. contact is in the safety-relay EDM/reset loop.
 - Verify Contactor A N.O. auxiliary drives `X011`.
-- Verify `CR-S1` commands GS20 DI4 and `CR-S2` commands PLC `X013`.
+- Verify both option modules are `C2-14D2`; CLICK System Configuration shows
+  Slot 0 as `X001-X008` / `Y001-Y006` and Slot 1 as `X009-X016`; enable the
+  startup I/O configuration check before ladder download.
+- Verify Slot 0 `V1` and `V2` receive protected +24 V, `CO` receives grounded
+  0 V, and Slot 1 output-power terminals remain unconnected.
+- Verify the GS20 selector is set to PNP, `Y001-Y003` source external +24 V to
+  DI1-DI3, `CR-S1` sources +24 V to DI4, and `CR-S2` sources +24 V to `X013`.
 - Verify `DB-FU` is a `GMC1` 1 A fuse in a `DN-F10MN` holder and supplies
   `TD-DB` continuously plus the DB thermostat branch.
 - Verify `CR-DB` is energized when the DB thermostat is healthy and its N.C.
@@ -39,15 +45,23 @@ Open build and validation items for the Powermatic 1200 controls retrofit.
   A1, and `TD-DB` B1 on over-temperature.
 - Verify the machine-front and enclosure-panel red pilots are wired in parallel
   to `Y006`, draw no more than 36 mA total, and always indicate identically.
-- Verify the GS20 DI mode is NPN/sink internal-power mode and no external +24 V
-  is landed on DCM.
+- Verify the NDR-240-24 `-V` has one and only one bond to PE adjacent to the
+  supply; verify no second 0V-to-PE bond exists with downstream devices lifted.
+- Verify every grounded 0 V conductor is white with permanent blue heat-shrink
+  identification at both terminations; verify fused 240 V control conductors
+  22A, 23, and 24A are red.
+- Verify VFD `DCM` is the grounded external-control reference and the drive's
+  internal +24 V terminal is unused for DI1-DI4.
+- Clean/burnish as appropriate and measure continuity/contact resistance of the
+  retained drum switch, pendant, and travel-limit contacts before landing them
+  on the PLC's low-current input circuits.
 
 ## VFD / Safety Validation
 
 - Enter motor nameplate data, including 6.42 A FLA.
 - Set 60 Hz main frequency and 30 Hz preset-1.
 - Set `P00.22=0`, `P01.13=0.50 s`, `P01.15=0.50 s`, `P01.26=0.00 s`,
-  `P01.27=0.00 s`, and `P07.20=2`.
+  `P01.27=0.00 s`, `P02.35=0`, and `P07.20=2`.
 - Enable the braking chopper and verify DB resistor operation.
 - Enable over-torque/stall detection and tune it just above real tapping torque.
 - Start BH5928 commissioning at 1.00 s release delay.
@@ -60,6 +74,9 @@ Open build and validation items for the Powermatic 1200 controls retrofit.
 - Set and seal the final BH5928 delay only after measured stop-time data proves
   adequate margin.
 - Prove no auto-restart after E-stop, safety reset, or power interruption.
+- With a RUN command deliberately present during drive reset and power-up,
+  prove `P02.35=0` blocks motion. Remove the command and prove that only a fresh
+  operator command can start the spindle.
 - Prove EDM prevents safety reset with Contactor A simulated welded.
 - Force the DB thermostat circuit open while running: DI4 must assert
   immediately, the spindle must complete its ramp, and Contactor A must drop
@@ -76,8 +93,11 @@ Open build and validation items for the Powermatic 1200 controls retrofit.
 - Verify TAP will not start unless the feed lever is proved OFF.
 - Verify TAP clears to IDLE on STOP, E-stop, lost permissive, loss of TAP
   selection, hard fault, or DB over-temperature.
-- Verify jog enters only after a 5 second FWD hold and the entry hold cannot
-  start spindle motion.
+- Verify jog enters only after a 5 second FWD hold at full permissive and
+  standstill, and the entry hold cannot start spindle motion.
+- During each of `DRILL_RUN`, `DRILL_REV`, `TAP_DOWN`, and `BACK_OUT`, hold FWD
+  longer than 5 seconds and verify the timer does not accumulate and jog cannot
+  arm or force the 30 Hz preset.
 - Verify every STOP press exits jog mode.
 - Verify a DB thermal trip exits jog mode.
 - Verify drum OFF inhibits jog motion without exiting jog mode.

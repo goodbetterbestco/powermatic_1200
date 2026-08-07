@@ -1,4 +1,4 @@
-"""Generate the Rev K CLICK PLUS ladder programming reference PDF."""
+"""Generate the Rev M CLICK PLUS ladder programming reference PDF."""
 
 from __future__ import annotations
 
@@ -13,8 +13,8 @@ from reportlab.pdfgen import canvas
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DOCS = PROJECT_ROOT / "docs"
-SOURCE = DOCS / "05_ladder_logic_rK.md"
-OUTPUT = DOCS / "05_ladder_logic_rK.pdf"
+SOURCE = DOCS / "05_ladder_logic_rM.md"
+OUTPUT = DOCS / "05_ladder_logic_rM.pdf"
 
 
 def plain(text: str) -> str:
@@ -74,7 +74,7 @@ def wrapped_lines(text: str, width: int = 96) -> list[str]:
 
 def draw_pdf(lines: list[str]) -> None:
     c = canvas.Canvas(str(OUTPUT), pagesize=letter)
-    c.setTitle("Powermatic 1200 Retrofit CLICK PLUS Ladder Logic Rev K")
+    c.setTitle("Powermatic 1200 Retrofit CLICK PLUS Ladder Logic Rev M")
     c.setAuthor("GoodBetterBestCo - E. Thayer")
     width, height = letter
     left = 0.45 * inch
@@ -86,7 +86,7 @@ def draw_pdf(lines: list[str]) -> None:
     def header() -> float:
         c.setFont("Helvetica-Bold", 9)
         c.drawString(left, height - 0.28 * inch, "Powermatic 1200 retrofit - CLICK PLUS ladder logic")
-        c.drawRightString(width - left, height - 0.28 * inch, "Rev K - generated from 05_ladder_logic_rK.md")
+        c.drawRightString(width - left, height - 0.28 * inch, "Rev M - generated from 05_ladder_logic_rM.md")
         c.setFont("Courier", 7)
         return top - 0.1 * inch
 
@@ -114,9 +114,9 @@ def main() -> None:
     lines = [
         "POWERMATIC 1200 RETROFIT - CLICK PLUS LADDER LOGIC",
         "",
-        "Programming reference generated from docs/05_ladder_logic_rK.md.",
-        "Key Rev K jog rules: any STOP press exits jog; drum OFF inhibits motion but not jog mode;",
-        "the 5 s FWD entry hold is consumed by C50 and cannot command spindle motion.",
+        "Programming reference generated from docs/05_ladder_logic_rM.md.",
+        "Key Rev M jog rules: the 5 s hold times only at standstill; any STOP press exits jog;",
+        "drum OFF inhibits motion but not jog mode; the entry hold is consumed and cannot move the spindle.",
         "",
     ]
     lines.extend(wrapped_lines(text))

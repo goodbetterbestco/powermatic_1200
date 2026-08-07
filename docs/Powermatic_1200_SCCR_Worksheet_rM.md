@@ -1,7 +1,7 @@
 # Powermatic 1200 Retrofit - SCCR Worksheet
 
-**Revision:** K
-**Date:** 2026-08-06
+**Revision:** M
+**Date:** 2026-08-07
 **Circuit:** nominal 208/240 V, 3-phase VFD input power circuit  
 **Status:** **SELECTED POWER-CIRCUIT COMPONENT CHECK PASSED - personal-shop due-diligence worksheet**
 
@@ -31,9 +31,11 @@
 
 ## 3. Resolution and remaining release items
 
-Rev K adds only 24 VDC control components (`DB-FU`, `CR-DB`, and `TD-DB`) and
-a second 24 VDC pilot light. These additions do not change the power-circuit
-path or the SCCR basis evaluated here.
+Rev M retains the 24 VDC thermal-control components (`DB-FU`, `CR-DB`, and
+`TD-DB`) and second pilot light, replaces both CLICK option modules with
+`C2-14D2` sourcing-output modules, and adopts a single-point grounded 24 VDC
+control circuit. These control-circuit changes do not alter the power-circuit
+path or the SCCR basis evaluated here. Revision L was intentionally skipped.
 
 The former `LC1D09BD` was replaced by `LC1D18BD`. This clears the contactor/fuse mismatch: the selected
 35 A Class T fuse is below Schneider's 40 A maximum for the contactor's 100 kA high-fault combination.

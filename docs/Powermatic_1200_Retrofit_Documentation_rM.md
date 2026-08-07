@@ -2,11 +2,12 @@
 
 **Machine:** 1967 Powermatic 1200, 3-phase tapping/drilling drill press  
 **Owner / designer:** Evan Thayer - GoodBetterBestCo  
-**Document revision:** K
-**Date:** 2026-08-06
+**Document revision:** M
+**Date:** 2026-08-07
 **Design references:** NFPA 79, UL 508A construction practices
 
-This document defines the Rev K control-system design.
+This document defines the Rev M control-system design. Revision L is intentionally
+skipped.
 
 ---
 
@@ -82,6 +83,17 @@ operator controls, safety relay control, and status lamps. The 24 V bus is
 provided by the Mean Well NDR-240-24 supply and is protected at the supply
 output.
 
+The NDR-240-24 output is operated as a grounded control circuit. Supply `-V`
+feeds the 0 V distribution bus, and one intentional 0V-to-PE bond is installed
+adjacent to the supply. No other 0V-to-PE bond is permitted. Grounded 0 V
+conductors are white with permanent blue identification at both terminations;
+ungrounded `+24 VDC` control conductors are blue.
+
+Both CLICK PLUS `C2-14D2` modules have sourcing transistor outputs. On the
+used Slot 0 module, `V1` and `V2` connect to the protected `+24 VDC` bus and
+`CO` connects to grounded 0 V. Each energized output therefore applies
+`+24 VDC` to its load, and the load returns directly to the grounded 0 V bus.
+
 The white power-on lamp is wired directly from the protected 24 V bus. It is on
 whenever the disconnect is closed and the 24 V bus is energized, including fault
 conditions where the PLC is stopped, faulted, or not commanding outputs.
@@ -145,6 +157,11 @@ final value is about 0.75 s if worst-case spindle stop time is no more than
 0.50 s, preserving margin between completed deceleration and torque/power
 removal.
 
+The selected BH5928 variant has no adjustment above 1.00 s. If the required
+stop-time margin cannot be demonstrated within that range, do not release the
+machine; correct the braking/drive configuration or perform a formal safety-
+timing redesign using a different relay variant.
+
 ### 3.3 Safety Inputs
 
 The E-stop station is the sole safety input.
@@ -178,7 +195,7 @@ The BH5928 instantaneous N.C. monitoring contact drives two interposing relays:
 
 | Relay | Function |
 |---|---|
-| `CR-S1` | Commands GS20 DI4 Force to Stop on a safety trip |
+| `CR-S1` | Applies +24 V to GS20 DI4 Force to Stop on a safety trip |
 | `CR-S2` | Reports immediate safety trip to PLC input `X013` |
 
 `CR-S1`, `CR-S2`, DI4, and `X013` are supplementary control/indication paths.
@@ -197,7 +214,7 @@ The three delayed N.O. safety contacts establish the final safe state:
 STO1 and STO2 remain separate channels. They are not paralleled on one relay
 contact.
 
-Rev K does not include a mechanical brake. No delayed safety output remains
+Rev M does not include a mechanical brake. No delayed safety output remains
 spare.
 
 ### 3.6 Monitoring
@@ -214,7 +231,10 @@ thermal shutdown.
 
 No auto-restart is permitted. After an E-stop or power interruption, the safety
 relay requires manual reset and the PLC sequence requires a fresh operator start
-command.
+command. GS20 parameter `P02.35` is fixed at `0`, so a run command that remains
+present during drive reset or reboot cannot start the drive. Rev M does not use
+a separate Drive Ready feedback input; the line-start lockout setting and the
+commissioning power-cycle tests are mandatory.
 
 ### 3.7 DB-Resistor Thermal Protection
 
@@ -225,7 +245,7 @@ outputs:
 1. With the thermostat healthy, `X012` and `TD-DB` control input `B1` receive
    fused +24 V and `CR-DB` is energized.
 2. If the thermostat opens, `X012` falls and `CR-DB` de-energizes immediately.
-   The de-energized `CR-DB` N.C. contact connects VFD DCM to DI4, commanding
+   The de-energized `CR-DB` N.C. contact applies fused +24 V to DI4, commanding
    Force to Stop with deceleration time 2.
 3. `TD-DB`, Phoenix Contact `2910140`, remains powered at `A1-A2`. Loss of its
    `A1-B1` control signal starts the release delay while output contact 11-14
@@ -320,14 +340,18 @@ After reset/recovery, a fresh FWD press is required.
 
 ### 4.5 JOG Mode
 
-Jog mode is a setup/inching mode entered by holding FWD for at least 5 seconds.
-Entering jog mode never starts the spindle.
+Jog mode is a setup/inching mode entered by holding FWD for at least 5 seconds
+while the controller is fully permissive and no DRILL or TAP run state is
+active. The five-second timer does not accumulate during `DRILL_RUN`,
+`DRILL_REV`, `TAP_DOWN`, or `BACK_OUT`. Entering jog mode never starts the
+spindle.
 
 Required jog behavior:
 
 | Condition | Required behavior |
 |---|---|
-| FWD held for at least 5 s while safe | Arm jog mode and consume that FWD press |
+| FWD held for at least 5 s while safe and fully stopped | Arm jog mode and consume that FWD press |
+| FWD held during any DRILL or TAP run state | Do not time or arm jog mode |
 | FWD still held after jog arms | No spindle motion from the entry hold |
 | Fresh FWD press while jog armed | Momentary forward jog |
 | Fresh REV press while jog armed | Momentary reverse jog |
@@ -373,11 +397,24 @@ must not be labeled `RESET REQUIRED`.
 
 ### 5.1 CLICK PLUS Hardware
 
-Controller: **CLICK PLUS C2-01CPU-2** with two **C2-14D1** option modules.
+Controller: **CLICK PLUS C2-01CPU-2** with two **C2-14D2** option modules.
 
-The C2-14D1 input commons are configured for sinking inputs. Field contacts and
-PNP sensors source 24 V into the input points. C2-14D1 outputs are sinking
-outputs.
+The `C2-14D2` input commons are configured for sinking inputs. Field contacts
+and the PNP sensor source 24 V into the input points. The outputs are 24 VDC
+sourcing outputs rated 0.1 A per point and 0.6 A per common. Slot 0 output
+terminals `V1` and `V2` receive protected +24 V and `CO` receives grounded 0 V.
+
+The CLICK System Configuration shall be set to the following physical mapping
+before ladder transcription or download:
+
+| CPU location | Module | Input allocation | Output allocation |
+|---|---|---|---|
+| Option Slot 0 | `C2-14D2` | `X001-X008` | `Y001-Y006`, all used |
+| Option Slot 1 | `C2-14D2` | `X009-X016` | Unused and reserved; verify displayed addresses before future use |
+
+The field wire numbers remain the build identifiers regardless of software
+address notation. Enable the CLICK startup I/O configuration check so a module
+or slot mismatch prevents RUN mode.
 
 ### 5.2 Inputs
 
@@ -438,13 +475,19 @@ Motor data basis: 208 V, 60 Hz, 6.42 A FLA, permanent 4-pole delta connection.
 | Decel time 2 `P01.15` | 0.50 s initial | E-stop force-stop ramp basis |
 | Decel S-curve `P01.26` / `P01.27` | 0.00 s / 0.00 s | Prevents hidden extension of stop time |
 | EF/force-stop selection `P07.20` | 2 | DI4 function 18 uses decel time 2 |
+| External operation after reset/reboot `P02.35` | 0, disabled | A maintained RUN command cannot start the drive after reset or reboot |
 | Braking chopper | Enabled | DB resistor absorbs decel/reversal energy |
 | STO | STO1 and STO2 separate | Both opened after relay delay |
 | Over-torque/stall detection | Enabled | Backstop for failed tap reversal/stop or jam |
-| DI mode | NPN/sink internal-power mode | Compatible with CLICK sinking outputs and safety contacts |
+| DI mode | PNP selector; drive inputs are sinking loads | `C2-14D2` outputs and relay contacts apply external +24 V; DCM is grounded 0 V |
 
 DI function 28 is not used for E-stop because it removes drive output
 immediately and produces a coast/free-run stop.
+
+GS20 `DCM` connects to the grounded 0 V bus. `Y001`, `Y002`, and `Y003`
+source external +24 V to DI1, DI2, and DI3. `CR-S1` and `CR-DB` independently
+source external +24 V to DI4. The drive's internal `+24 V` terminal is not used
+for DI1-DI4 command power.
 
 The braking resistor thermal switch drives the independent `CR-DB`/`TD-DB`
 hardware stop and is monitored at `X012`. Over-temperature immediately commands
@@ -455,4 +498,4 @@ operator command.
 
 ---
 
-*End of document - GoodBetterBestCo, Rev K, 2026-08-06.*
+*End of document - GoodBetterBestCo, Rev M, 2026-08-07.*
