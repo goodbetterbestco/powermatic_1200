@@ -2,6 +2,27 @@
 
 Open build and validation items for the Powermatic 1200 controls retrofit.
 
+## Procurement Gate
+
+The Rev M BOM is **GO for Phase 1 procurement** of the internal electrical and
+control components plus the selected panel-front devices needed for controls
+layout. Owner-approved facts do not need to be reopened: the motor nameplate and
+two WAGO `221-413` splices are verified; McMaster `6513T5` / `6513T6` are
+accepted MTW; all `GBB` items are verified on-hand; wire quantities are stocking
+estimates; and RS `70008070` is the Schneider `XB4BVB1` white pilot. Retain the
+Rev M front controls and indication exactly as designed, with no panel-side
+clearing of PLC fault `C10`. Furnas coil suppression is not a procurement
+blocker; the powered-layout test below determines whether to add it.
+
+All enclosure-dependent scope remains a **hard NO-GO** until the complete
+controls layout passes. Hold the enclosure, cooling/ventilation, backpanel, DIN
+rail and duct, cable-entry hardware, permanent mounting and door-bonding
+hardware, and any still-unselected disconnect shaft/hardware; already-sourced
+front controls and handle may be used as layout articles. The BOM subtotal is
+not a final installed cost, and procurement approval does not release the
+machine for service: all build, stop-time, safety, and sequence validation below
+remains mandatory.
+
 ## Mechanical / Installation
 
 - Select the ABB-compatible external disconnect handle and shaft after enclosure
@@ -55,6 +76,11 @@ Open build and validation items for the Powermatic 1200 controls retrofit.
 - Clean/burnish as appropriate and measure continuity/contact resistance of the
   retained drum switch, pendant, and travel-limit contacts before landing them
   on the PLC's low-current input circuits.
+- During powered controls-layout testing, exercise the `Y004` / `CR-B` 300 ms
+  Contactor B pulse and check for PLC, I/O, or communications disturbance and
+  excessive `CR-B` contact arcing. If observed, install a rated 208/240 VAC RC
+  suppressor directly across the Furnas `D2936-32` coil, record the selected
+  part and values, and repeat the test.
 
 ## VFD / Safety Validation
 
