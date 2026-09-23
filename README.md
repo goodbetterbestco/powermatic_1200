@@ -12,6 +12,7 @@ Design and shop documentation for the safety and controls retrofit of a 1967 Pow
 - `docs/Powermatic_1200_Shop_Pack_rM.pdf` — power one-line, safety loop, VFD card, and commissioning checklists
 - `docs/Powermatic_1200_Retrofit_BOM_rM.numbers` — owner-maintained procurement authority
 - `docs/Powermatic_1200_Retrofit_BOM_rM.pdf` — frozen Rev M procurement snapshot
+- [Datasheet collection and source index](docs/Powermatic_1200_Datasheet_Index_rM.md) — local PDFs in shared `_parts`, coverage and remaining identity gaps
 - `TODO.md` — open build and validation items
 
 Local helper scripts for regenerating the PDFs live in `scripts/`.
