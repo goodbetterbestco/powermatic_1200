@@ -1,0 +1,239 @@
+[
+  {
+    "path": "/Users/evanthayer/Desktop/DN-R35S1.step",
+    "roots": 1,
+    "solids": 1,
+    "bounds_mm": [
+      -17.5,
+      -130.5,
+      0.0,
+      17.5,
+      130.5,
+      7.5
+    ],
+    "extent_xyz_mm": [
+      35.0,
+      261.0,
+      7.5
+    ],
+    "valid_brep": true
+  },
+  {
+    "path": "/Users/evanthayer/Desktop/T1-1530G1-1.step",
+    "roots": 1,
+    "solids": 2,
+    "bounds_mm": [
+      -20.0,
+      -0.0,
+      -500.0,
+      20.0,
+      80.0,
+      500.0
+    ],
+    "extent_xyz_mm": [
+      40.0,
+      80.0,
+      1000.0
+    ],
+    "valid_brep": true
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/mechanical/vendor_models/step/HMC-9B30-11-DS.step",
+    "roots": 1,
+    "solids": 4,
+    "bounds_mm": [
+      -22.5,
+      -58.8,
+      -37.75,
+      22.5,
+      44.8,
+      37.75
+    ],
+    "extent_xyz_mm": [
+      45.0,
+      103.6,
+      75.5
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/mechanical/vendor_models/step/HMX1-MI.step",
+    "roots": 1,
+    "solids": 9,
+    "bounds_mm": [
+      -41.5,
+      -47.5,
+      -11.2,
+      41.5,
+      33.0,
+      10.0
+    ],
+    "extent_xyz_mm": [
+      83.0,
+      80.5,
+      21.2
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/mechanical/vendor_models/step/HTOR32-6-S.step",
+    "roots": 1,
+    "solids": 11,
+    "bounds_mm": [
+      -22.5,
+      -48.0,
+      -48.4,
+      22.5,
+      42.0,
+      26.15
+    ],
+    "extent_xyz_mm": [
+      45.0,
+      90.0,
+      74.55
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/mechanical/vendor_models/step/NDR-240.stp",
+    "roots": 1,
+    "solids": 12,
+    "bounds_mm": [
+      -13.897,
+      12.7361,
+      -54.1124,
+      110.3595,
+      75.7361,
+      74.6
+    ],
+    "extent_xyz_mm": [
+      124.2565,
+      63.0,
+      128.7124
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/mechanical/vendor_models/step/HC3096N-52-900-24.step",
+    "roots": 1,
+    "solids": 1,
+    "bounds_mm": [
+      -52.7057,
+      -8.95,
+      -33.05,
+      54.0865,
+      8.95,
+      32.0
+    ],
+    "extent_xyz_mm": [
+      106.7922,
+      17.9,
+      65.05
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/mechanical/vendor_models/step/FAZ-D4-2-NA-L.step",
+    "roots": 1,
+    "solids": 2,
+    "bounds_mm": [
+      -12.5,
+      -0.0,
+      -26.55,
+      92.5,
+      73.0409,
+      8.85
+    ],
+    "extent_xyz_mm": [
+      105.0,
+      73.0409,
+      35.4
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/mechanical/vendor_models/step/RM25030-3SR.step",
+    "roots": 1,
+    "solids": 33,
+    "bounds_mm": [
+      -70.6326,
+      -15.1875,
+      -3.4335,
+      9.7674,
+      34.9628,
+      71.3176
+    ],
+    "extent_xyz_mm": [
+      80.4,
+      50.1503,
+      74.7511
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/mechanical/vendor_models/step/22013003.step",
+    "roots": 1,
+    "solids": 1,
+    "bounds_mm": [
+      -512.6534,
+      854.8441,
+      -1152.9588,
+      -448.6825,
+      933.6521,
+      -1010.229
+    ],
+    "extent_xyz_mm": [
+      63.9709,
+      78.808,
+      142.7298
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/mechanical/vendor_models/step/KN-EB7-10.step",
+    "roots": 1,
+    "solids": 5,
+    "bounds_mm": [
+      -26.0,
+      -5.4866,
+      -4.75,
+      26.0,
+      35.85,
+      4.75
+    ],
+    "extent_xyz_mm": [
+      52.0,
+      41.3366,
+      9.5
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/mechanical/vendor_models/step/KN-T12GRY-25.step",
+    "roots": 1,
+    "solids": 1,
+    "bounds_mm": [
+      -23.2,
+      -17.504,
+      -2.5,
+      21.0,
+      24.9996,
+      2.5
+    ],
+    "extent_xyz_mm": [
+      44.2,
+      42.5036,
+      5.0
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Desktop/DN-R35S1_350mm.step",
+    "roots": 1,
+    "solids": 1,
+    "bounds_mm": [
+      -17.5,
+      -175.0,
+      0.0,
+      17.5,
+      175.0,
+      7.5
+    ],
+    "extent_xyz_mm": [
+      35.0,
+      350.0,
+      7.5
+    ],
+    "valid_brep": true
+  }
+]

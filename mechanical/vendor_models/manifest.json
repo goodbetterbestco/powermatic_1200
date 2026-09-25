@@ -1,0 +1,453 @@
+{
+  "date": "2026-09-25",
+  "layout_scope": {
+    "focus": "Panel enclosure",
+    "deferred_external_models": ["L15-20 plug", "365-TAV2111 drum switch", "Allen-Bradley 800 Type 3SA button station"],
+    "reason": "User deferred modeling these external components; they do not block panel layout."
+  },
+  "bom": "Powermatic_BOM_revP.csv",
+  "bom_sha256": "fe2764d03c73972387b2016742f3f4832eca9ed919cde22f6614b61099fbdb83",
+  "rail_reference": {
+    "profile": "35 x 7.5 mm top-hat DIN rail",
+    "width_mm": 35,
+    "height_mm": 7.5,
+    "example": "AutomationDirect DN-R35S1",
+    "source": "https://www.automationdirect.com/adc/shopping/catalog/wire_-a-_cable_management/din_rail/din_rail/dn-r35s1"
+  },
+  "model_policy": "Unmodified vendor geometry and orientation. No rotation, simplification, modeling, footprint assignment or assembly placement performed.",
+  "validation_scope": "All STEP files checked for headers/footers, entity uniqueness, reference integrity and declared length units. Selected vendor files imported and measured in mechanical/layout_models/step_measurements.json; M12 socket imported and passed BRep validity in geometry_checks.json. Full dimension, mounting datum, terminal-position and assembly-clearance review remains pending.",
+  "parts": [
+    {
+      "bom_part_no": "HMC-9B30-11-DS",
+      "part_name": "Power Contactor",
+      "bom_quantity": 5.0,
+      "active": true,
+      "mpn": "HMC-9B30-11-DS",
+      "model": "step/HMC-9B30-11-DS.step",
+      "status": "downloaded_exact",
+      "source": "https://cdn.automationdirect.com/static/drawings/3d/step/HMC-9B30-11-DS.STEP",
+      "page": "https://www.automationdirect.com/adc/shopping/catalog/motor_controls/iec_magnetic_contactors/iec_contactors/hmc-9b30-11-ds",
+      "note": "Supplier model linked from the exact SKU page.",
+      "bytes": 1929526,
+      "sha256": "3af77b10fa2b83753dc28c00c35bf312ad113ebbbd2eee5dc7390c4e1bee2692",
+      "declared_length_units": [
+        "inch"
+      ],
+      "structure_pass": true
+    },
+    {
+      "bom_part_no": "HMX1-MI",
+      "part_name": "Contactor Interlock",
+      "bom_quantity": 2.0,
+      "active": true,
+      "mpn": "HMX1-MI",
+      "model": "step/HMX1-MI.step",
+      "status": "downloaded_exact",
+      "source": "https://cdn.automationdirect.com/static/drawings/3d/step/HMX1-MI.STEP",
+      "page": "https://www.automationdirect.com/adc/shopping/catalog/motor_controls/iec_magnetic_contactors/magnetic_contactor_accessories/hmx1-mi",
+      "note": "Supplier model linked from the exact SKU page.",
+      "bytes": 897355,
+      "sha256": "98cd51a949a80da513bb8ce108ce34cb2e33cbcae08704fd38e77b3097474b0c",
+      "declared_length_units": [
+        "inch"
+      ],
+      "structure_pass": true
+    },
+    {
+      "bom_part_no": "HC3096N-52-900-24",
+      "part_name": "Coil Enable Relay",
+      "bom_quantity": 1.0,
+      "active": true,
+      "mpn": "HC3096N-52-900-24",
+      "model": "step/HC3096N-52-900-24.step",
+      "status": "downloaded_exact",
+      "source": "https://ftp.automationdirect.com/support/drawings/3d/step/HC3096N-52-900-24.STEP",
+      "page": "https://www.automationdirect.com/adc/shopping/catalog/relays_-z-_timers/electro-mechanical_relays/hc3096n-52-900-24",
+      "note": "Supplier model linked from the exact SKU page.",
+      "bytes": 9961840,
+      "sha256": "59fbc83df159a18801b98cee362c80976931ce80eacebfd3b8fc901b2b41a0b8",
+      "declared_length_units": [
+        "inch"
+      ],
+      "structure_pass": true
+    },
+    {
+      "bom_part_no": "HMX1-BBREV",
+      "part_name": "Reversing Busbars",
+      "bom_quantity": 1.0,
+      "active": true,
+      "mpn": "HMX1-BBREV",
+      "model": "step/HMX1-BBREV.step",
+      "status": "downloaded_exact",
+      "source": "https://cdn.automationdirect.com/static/drawings/3d/step/HMX1-BBREV.STEP",
+      "page": "https://www.automationdirect.com/adc/shopping/catalog/motor_controls/iec_magnetic_contactors/magnetic_contactor_accessories/hmx1-bbrev",
+      "note": "Supplier model linked from the exact SKU page.",
+      "bytes": 663559,
+      "sha256": "b114f43f54531928b9e43c6b7397dd1c6b0a9717e52a34fdac1a9e40f499048e",
+      "declared_length_units": [
+        "inch"
+      ],
+      "structure_pass": true
+    },
+    {
+      "bom_part_no": "HMX1-AUX11-F",
+      "part_name": "Auxiliary Contact Block",
+      "bom_quantity": 0.0,
+      "active": false,
+      "mpn": "HMX1-AUX11-F",
+      "model": "step/HMX1-AUX11-F.step",
+      "status": "downloaded_exact",
+      "source": "https://cdn.automationdirect.com/static/drawings/3d/step/HMX1-AUX11-F.STEP",
+      "page": "https://www.automationdirect.com/adc/shopping/catalog/motor_controls/iec_magnetic_contactors/magnetic_contactor_accessories/hmx1-aux11-f",
+      "note": "Supplier model linked from the exact SKU page. BOM quantity is zero; supplied for reference only.",
+      "bytes": 797092,
+      "sha256": "c038c678c7200c44497804e1a9da0f81b5e4dad99346c8842dc901fc310a2453",
+      "declared_length_units": [
+        "inch"
+      ],
+      "structure_pass": true
+    },
+    {
+      "bom_part_no": "NDR-240-24",
+      "part_name": "DC Power Supply",
+      "bom_quantity": 1.0,
+      "active": true,
+      "mpn": "NDR-240-24",
+      "model": "step/NDR-240.stp",
+      "status": "downloaded_family",
+      "source": "https://www.meanwell.com/upload/pdf/NDR-240/NDR-240-3D.zip",
+      "page": "https://www.meanwell.eu/productPdf.aspx?a=3&i=144&pdf=TkRSLTI0MC1DRS1kZWMucGRm",
+      "note": "Manufacturer NDR-240 series geometry; voltage variant is not separately identified in this family CAD file.",
+      "bytes": 3591449,
+      "sha256": "3924b03f53699d6d17aad75cadc1da6add0b4dc01271f641414602ccebe3faba",
+      "declared_length_units": [
+        "mm"
+      ],
+      "structure_pass": true
+    },
+    {
+      "bom_part_no": "FAZ-D4-2-NA-L",
+      "part_name": "Circuit Breaker",
+      "bom_quantity": 1.0,
+      "active": true,
+      "mpn": "FAZ-D4-2-NA-L",
+      "model": "step/FAZ-D4-2-NA-L.step",
+      "status": "downloaded_exact",
+      "source": "https://ftp.automationdirect.com/support/drawings/3d/step/FAZ-D4-2-NA-L.STEP",
+      "page": "https://www.automationdirect.com/adc/shopping/catalog/circuit_protection_-z-_fuses_-z-_disconnects/circuit_breakers_-a-_circuit_protectors/miniature_circuit_breakers_(mcb)/faz-d4-2-na-l",
+      "note": "Supplier model linked from the exact SKU page.",
+      "bytes": 6447954,
+      "sha256": "322eaad23be0c4804b7e95e8fdd492b537facdfd842dea07cd0683cf64ed6032",
+      "declared_length_units": [
+        "inch"
+      ],
+      "structure_pass": true
+    },
+    {
+      "bom_part_no": "22013003",
+      "part_name": "Motor Disconnect",
+      "bom_quantity": 1.0,
+      "active": true,
+      "mpn": "22013003",
+      "model": "step/22013003.step",
+      "status": "downloaded_exact",
+      "source": "https://ftp.automationdirect.com/support/drawings/3d/step/22013003.STEP",
+      "page": "https://www.automationdirect.com/adc/shopping/catalog/circuit_protection_-z-_fuses_-z-_disconnects/disconnects_-a-_switches/non-fused_disconnects/22013003",
+      "note": "Supplier model linked from the exact SKU page.",
+      "bytes": 785197,
+      "sha256": "a1df48fc82ea9bc7aa2c1ba44fc51c4eec2e19b1ce2811f378e809fdd10119cd",
+      "declared_length_units": [
+        "inch"
+      ],
+      "structure_pass": true
+    },
+    {
+      "bom_part_no": "148E1111",
+      "part_name": "Disconnect Handle",
+      "bom_quantity": 1.0,
+      "active": true,
+      "mpn": "148E1111",
+      "model": "step/148E1111.step",
+      "status": "downloaded_exact",
+      "source": "https://ftp.automationdirect.com/support/drawings/3d/step/148E1111.STEP",
+      "page": "https://www.automationdirect.com/adc/shopping/catalog/circuit_protection_-z-_fuses_-z-_disconnects/disconnects_-a-_switches/disconnect_external_handles_-a-_components/148e1111",
+      "note": "Supplier model linked from the exact SKU page.",
+      "bytes": 16387698,
+      "sha256": "cf91a37d1ad393d66ec693eb20259b8963abe1dbd5b33bc187836b68772de54f",
+      "declared_length_units": [
+        "inch"
+      ],
+      "structure_pass": true
+    },
+    {
+      "bom_part_no": "14070532",
+      "part_name": "Disconnect Shaft",
+      "bom_quantity": 1.0,
+      "active": true,
+      "mpn": "14070532",
+      "model": "step/14070532.step",
+      "status": "downloaded_exact",
+      "source": "https://ftp.automationdirect.com/support/drawings/3d/step/14070532.STEP",
+      "page": "https://www.automationdirect.com/adc/shopping/catalog/circuit_protection_-z-_fuses_-z-_disconnects/disconnects_-a-_switches/disconnect_external_handles_-a-_components/14070532",
+      "note": "Supplier model linked from the exact SKU page. Vendor stock shaft geometry; final cut length depends on enclosure placement.",
+      "bytes": 26264,
+      "sha256": "cfce53244e4abc843b4a6c6352d0b83ce88303591eeaa1a77b0a9950cf164414",
+      "declared_length_units": [
+        "mm"
+      ],
+      "structure_pass": true
+    },
+    {
+      "bom_part_no": "22943016",
+      "part_name": "Terminal Cover Pack",
+      "bom_quantity": 1.0,
+      "active": true,
+      "mpn": "22943016",
+      "model": "step/22943016.step",
+      "status": "downloaded_exact",
+      "source": "https://ftp.automationdirect.com/support/drawings/3d/step/22943016.STEP",
+      "page": "https://www.automationdirect.com/adc/shopping/catalog/circuit_protection_-z-_fuses_-z-_disconnects/disconnects_-a-_switches/disconnect_-a-_switch_accessories/22943016",
+      "note": "Supplier model linked from the exact SKU page. Confirm how many cover pieces are represented before laying out the pack.",
+      "bytes": 343871,
+      "sha256": "48bcd47f8a288890ea2434b1a5adb687e951de5e27691ed6c93d7987a878516e",
+      "declared_length_units": [
+        "inch"
+      ],
+      "structure_pass": true
+    },
+    {
+      "bom_part_no": "FRN-R-10",
+      "part_name": "Class RK5 Fuse",
+      "bom_quantity": 3.0,
+      "active": true,
+      "mpn": "FRN-R-10",
+      "model": "",
+      "status": "not_required",
+      "source": "",
+      "page": "https://www.eaton.com/us/en-us/skuPage.FRN-R-10.html",
+      "note": "User excluded the fuse itself from STEP sourcing on 2026-09-25. The fuse holder and fuse cover models are downloaded; BOM quantity is unchanged."
+    },
+    {
+      "bom_part_no": "RM25030-3SR",
+      "part_name": "Class R Fuse Holder",
+      "bom_quantity": 1.0,
+      "active": true,
+      "mpn": "RM25030-3SR",
+      "model": "step/RM25030-3SR.step",
+      "status": "downloaded_exact",
+      "source": "https://ftp.automationdirect.com/support/drawings/3d/step/RM25030-3SR.STEP",
+      "page": "https://www.automationdirect.com/adc/shopping/catalog/circuit_protection_-z-_fuses_-z-_disconnects/fuse_blocks/modular_fuse_blocks/rm25030-3sr",
+      "note": "Supplier model linked from the exact SKU page.",
+      "bytes": 15236298,
+      "sha256": "ce20b673ab125fb19366587d14efa9169865ad7dacbd32f1b333d86b6c00a105",
+      "declared_length_units": [
+        "inch"
+      ],
+      "structure_pass": true
+    },
+    {
+      "bom_part_no": "CVR-RH-25030",
+      "part_name": "Fuse Cover",
+      "bom_quantity": 3.0,
+      "active": true,
+      "mpn": "CVR-RH-25030",
+      "model": "step/CVR-RH-25030.step",
+      "status": "downloaded_exact",
+      "source": "https://ftp.automationdirect.com/support/drawings/3d/step/CVR-RH-25030.STEP",
+      "page": "https://www.automationdirect.com/adc/shopping/catalog/circuit_protection_-z-_fuses_-z-_disconnects/fuse_blocks/modular_fuse_block_covers_-a-_accessories/cvr-rh-25030",
+      "note": "Supplier model linked from the exact SKU page.",
+      "bytes": 13176545,
+      "sha256": "fc676927c8bc631d2814ab97293060c47c2e8e02ca687c35e758ef9d9052b898",
+      "declared_length_units": [
+        "inch"
+      ],
+      "structure_pass": true
+    },
+    {
+      "bom_part_no": "365_TAV2111",
+      "part_name": "Speed Switch",
+      "bom_quantity": 1.0,
+      "active": true,
+      "mpn": "365-TAV2111",
+      "model": "",
+      "status": "deferred_external",
+      "source": "",
+      "page": "",
+      "note": "User deferred modeling the retained drum switch because it is outside the panel enclosure. Supporting saved reference: drawings/365-TAV2111_saved_reference.pdf."
+    },
+    {
+      "bom_part_no": "800S_3SA",
+      "part_name": "Control Pendant",
+      "bom_quantity": 1.0,
+      "active": true,
+      "mpn": "800S-3SA",
+      "model": "",
+      "status": "deferred_external",
+      "source": "",
+      "page": "https://www.rockwellautomation.com/en-us/products/details.800s-3sa.html",
+      "note": "User deferred modeling the retained fixed station because it is outside the panel enclosure. Actual marking is 800 / 3SA. Later 800S-3SA literature is a family cross-reference; exact mechanical equivalence is not established. The part_name above preserves the current BOM metadata. See 800_3SA_identification.md.",
+      "physical_identification": "Allen-Bradley Bulletin 800, Type 3SA standard-duty surface-mounted FOR/REV/STOP station"
+    },
+    {
+      "bom_part_no": "HTOR32-6-S",
+      "part_name": "Thermal Overload",
+      "bom_quantity": 2.0,
+      "active": true,
+      "mpn": "HTOR32-6-S",
+      "model": "step/HTOR32-6-S.step",
+      "status": "downloaded_exact",
+      "source": "https://cdn.automationdirect.com/static/drawings/3d/step/HTOR32-6-S.STEP",
+      "page": "https://www.automationdirect.com/adc/shopping/catalog/motor_controls/iec_overload_relays/thermal_overload_relays/htor32-6-s",
+      "note": "Supplier model linked from the exact SKU page.",
+      "bytes": 1633750,
+      "sha256": "0bc38956346b2f78b3ba795751b51c1d9e80fdc9038a03028fcdfa518b7b4977",
+      "declared_length_units": [
+        "inch"
+      ],
+      "structure_pass": true
+    },
+    {
+      "bom_part_no": "HMX1-SSVRC-DC",
+      "part_name": "Coil Surge Suppressor",
+      "bom_quantity": 5.0,
+      "active": true,
+      "mpn": "HMX1-SSVRC-DC",
+      "model": "step/HMX1-SSVRC-DC.step",
+      "status": "downloaded_exact",
+      "source": "https://cdn.automationdirect.com/static/drawings/3d/step/HMX1-SSVRC-DC.STEP",
+      "page": "https://www.automationdirect.com/adc/shopping/catalog/motor_controls/iec_magnetic_contactors/magnetic_contactor_accessories/hmx1-ssvrc-dc",
+      "note": "Supplier model linked from the exact SKU page.",
+      "bytes": 460765,
+      "sha256": "18e9dda638a0323661946b279d786c953aedeb9a02583784e569781571cfcd54",
+      "declared_length_units": [
+        "inch"
+      ],
+      "structure_pass": true
+    },
+    {
+      "bom_part_no": "4008-XB4BVB1-ND",
+      "part_name": "White Indicator",
+      "bom_quantity": 1.0,
+      "active": true,
+      "mpn": "XB4BVB1",
+      "model": "step/XB4BVB1.stp",
+      "status": "downloaded_exact",
+      "source": "https://download.se.com/files?p_File_Name=XB4BVB1.stp&p_Doc_Ref=XB4BVB1_NEW_2024&p_enDocType=CAD",
+      "page": "https://www.se.com/us/en/product/XB4BVB1/",
+      "note": "Official XB4BVB1_NEW_2024 CAD package, downloaded using manufacturer product-page CAD control.",
+      "bytes": 4396190,
+      "sha256": "62aa9c313769a793abab6a9d22b19d98ecbc7798c655cdd5642ea90f29d9364d",
+      "declared_length_units": [
+        "mm"
+      ],
+      "structure_pass": true
+    },
+    {
+      "bom_part_no": "A125513-ND",
+      "part_name": "M12 Panel Socket",
+      "bom_quantity": 1.0,
+      "active": true,
+      "mpn": "T4171310004-001",
+      "model": "step/T4171310004-001.stp",
+      "status": "downloaded_exact",
+      "source": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=CVM_T4171310004-001&DocType=Customer%20View%20Model&DocLang=English&DocFormat=3d_stp.zip&PartCntxt=T4171310004-001",
+      "page": "https://www.te.com/en/product-T4171310004-001.html",
+      "note": "TE manufacturer revision B STEP, supplied by user as the downloaded ZIP. Imported successfully as one valid solid; native origin and orientation preserved. Physical mounting datum not yet established.",
+      "archive": "archives/ENG_CVM_CVM_T4171310004-001_B.3d_stp.zip",
+      "archive_member": "c-t4171310004-001-b-3d.stp",
+      "delivery": "user_supplied_manufacturer_download",
+      "bytes": 495456,
+      "sha256": "b6a6d6d6def6bede5e484a19ef6505bb1f2ac6fbb96471e2c8d9cf8c5219bb0e",
+      "declared_length_units": [
+        "mm"
+      ],
+      "structure_pass": true,
+      "cad_import_pass": true,
+      "valid_brep": true
+    },
+    {
+      "bom_part_no": "KN-T12GRY-25",
+      "part_name": "Feedthrough Terminal",
+      "bom_quantity": 1.0,
+      "active": true,
+      "mpn": "KN-T12GRY-25",
+      "model": "step/KN-T12GRY-25.step",
+      "status": "downloaded_exact",
+      "source": "https://ftp.automationdirect.com/support/drawings/3d/step/KN-T12GRY-25.STEP",
+      "page": "https://www.automationdirect.com/adc/shopping/catalog/wire_-a-_cable_termination/terminal_blocks/single-level_feedthrough_terminal_blocks/kn-t12gry-25",
+      "note": "Supplier model linked from the exact SKU page. CAD represents the physical component; pack quantity suffix does not mean the file contains a full pack.",
+      "bytes": 477028,
+      "sha256": "bf37202bfcaed3040409ade4007a7eda6efe555d18f2c68e27c10219ea5a4440",
+      "declared_length_units": [
+        "mm"
+      ],
+      "structure_pass": true
+    },
+    {
+      "bom_part_no": "KN-ECT6GRY-25",
+      "part_name": "Terminal End Cover",
+      "bom_quantity": 1.0,
+      "active": true,
+      "mpn": "KN-ECT6GRY-25",
+      "model": "step/KN-ECT6GRY-25.step",
+      "status": "downloaded_exact",
+      "source": "https://cdn.automationdirect.com/static/drawings/3d/step/KN-ECT6GRY-25.STEP",
+      "page": "https://www.automationdirect.com/adc/shopping/catalog/wire_-a-_cable_termination/terminal_blocks/end_covers/kn-ect6gry-25",
+      "note": "Supplier model linked from the exact SKU page. CAD represents the physical component; pack quantity suffix does not mean the file contains a full pack.",
+      "bytes": 168743,
+      "sha256": "7ad5a211b5a155ec8f14d4b69051233ed8d19cafa0274f11d4774672e042f747",
+      "declared_length_units": [
+        "mm"
+      ],
+      "structure_pass": true
+    },
+    {
+      "bom_part_no": "KN-EB7-10",
+      "part_name": "DIN End Stop",
+      "bom_quantity": 1.0,
+      "active": true,
+      "mpn": "KN-EB7-10",
+      "model": "step/KN-EB7-10.step",
+      "status": "downloaded_exact",
+      "source": "https://cdn.automationdirect.com/static/drawings/3d/step/KN-EB7-10.STEP",
+      "page": "https://www.automationdirect.com/adc/shopping/catalog/wire_-a-_cable_termination/terminal_blocks/end_brackets/kn-eb7-10",
+      "note": "Supplier model linked from the exact SKU page. CAD represents the physical component; pack quantity suffix does not mean the file contains a full pack.",
+      "bytes": 1054819,
+      "sha256": "b5d7da5b6a3a19cc5bd30912ba3b086f98b6250225b986ce0c36a44e7b8d475c",
+      "declared_length_units": [
+        "mm"
+      ],
+      "structure_pass": true
+    },
+    {
+      "bom_part_no": "KN-10J12",
+      "part_name": "Terminal Jumper",
+      "bom_quantity": 1.0,
+      "active": true,
+      "mpn": "KN-10J12",
+      "model": "step/KN-10J12.step",
+      "status": "downloaded_exact",
+      "source": "https://ftp.automationdirect.com/support/drawings/3d/step/KN-10J12.STEP",
+      "page": "https://www.automationdirect.com/adc/shopping/catalog/wire_-a-_cable_termination/terminal_blocks/jumpers/kn-10j12",
+      "note": "Supplier model linked from the exact SKU page. CAD represents the physical component; pack quantity suffix does not mean the file contains a full pack.",
+      "bytes": 2288733,
+      "sha256": "2c0165e401a9c3e1c6392685f041911169bae6a9132f4a25ac5290cdd9bf9697",
+      "declared_length_units": [
+        "mm"
+      ],
+      "structure_pass": true
+    },
+    {
+      "bom_part_no": "KN-L5X-BLNK-220",
+      "part_name": "Terminal Marker",
+      "bom_quantity": 1.0,
+      "active": true,
+      "mpn": "KN-L5X-BLNK-220",
+      "model": "",
+      "status": "not_found",
+      "source": "",
+      "page": "https://www.automationdirect.com/adc/shopping/catalog/wire_-a-_cable_termination/terminal_blocks/marking_tags/kn-l5x-blnk-220",
+      "note": "No STEP or drawing ZIP link found on the checked AutomationDirect product page."
+    }
+  ]
+}

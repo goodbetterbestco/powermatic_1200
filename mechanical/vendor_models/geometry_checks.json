@@ -1,0 +1,21 @@
+[
+  {
+    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/mechanical/vendor_models/step/T4171310004-001.stp",
+    "roots": 1,
+    "solids": 1,
+    "bounds_mm": [
+      -9.0,
+      -9.95,
+      -22.4,
+      9.0,
+      9.95,
+      0.0
+    ],
+    "extent_xyz_mm": [
+      18.0,
+      19.9,
+      22.4
+    ],
+    "valid_brep": true
+  }
+]

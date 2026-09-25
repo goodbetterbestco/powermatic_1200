@@ -1,0 +1,478 @@
+[
+  {
+    "part": "HMC-9B30-11-DS",
+    "name": "Power Contactor",
+    "bom_quantity": "5",
+    "page_url": "https://www.automationdirect.com/adc/shopping/catalog/motor_controls/iec_magnetic_contactors/iec_contactors/hmc-9b30-11-ds",
+    "files": [
+      {
+        "url": "https://cdn.automationdirect.com/static/drawings/2d/HMC-9B30-11-DS.zip",
+        "resolved_url": "https://cdn.automationdirect.com/static/drawings/2d/HMC-9B30-11-DS.zip",
+        "path": "drawings/HMC-9B30-11-DS.zip",
+        "bytes": 114469,
+        "sha256": "4ff4c1fed04559a528ea75564e0be9c1f1795aab121f083875c966fb319d4d82",
+        "valid_container": true,
+        "error": ""
+      },
+      {
+        "url": "https://cdn.automationdirect.com/static/drawings/3d/step/HMC-9B30-11-DS.STEP",
+        "resolved_url": "https://cdn.automationdirect.com/static/drawings/3d/step/HMC-9B30-11-DS.STEP",
+        "path": "step/HMC-9B30-11-DS.step",
+        "bytes": 1929526,
+        "sha256": "3af77b10fa2b83753dc28c00c35bf312ad113ebbbd2eee5dc7390c4e1bee2692",
+        "valid_container": true,
+        "error": ""
+      }
+    ],
+    "error": ""
+  },
+  {
+    "part": "HMX1-MI",
+    "name": "Contactor Interlock",
+    "bom_quantity": "2",
+    "page_url": "https://www.automationdirect.com/adc/shopping/catalog/motor_controls/iec_magnetic_contactors/magnetic_contactor_accessories/hmx1-mi",
+    "files": [
+      {
+        "url": "https://cdn.automationdirect.com/static/drawings/2d/HMX1-MI.zip",
+        "resolved_url": "https://cdn.automationdirect.com/static/drawings/2d/HMX1-MI.zip",
+        "path": "drawings/HMX1-MI.zip",
+        "bytes": 61918,
+        "sha256": "f543d485f865adab5816e5891d55c241320c5da1bab98485316b7c7604b7414d",
+        "valid_container": true,
+        "error": ""
+      },
+      {
+        "url": "https://cdn.automationdirect.com/static/drawings/3d/step/HMX1-MI.STEP",
+        "resolved_url": "https://cdn.automationdirect.com/static/drawings/3d/step/HMX1-MI.STEP",
+        "path": "step/HMX1-MI.step",
+        "bytes": 897355,
+        "sha256": "98cd51a949a80da513bb8ce108ce34cb2e33cbcae08704fd38e77b3097474b0c",
+        "valid_container": true,
+        "error": ""
+      }
+    ],
+    "error": ""
+  },
+  {
+    "part": "HC3096N-52-900-24",
+    "name": "Coil Enable Relay",
+    "bom_quantity": "1",
+    "page_url": "https://www.automationdirect.com/adc/shopping/catalog/relays_-z-_timers/electro-mechanical_relays/hc3096n-52-900-24",
+    "files": [
+      {
+        "url": "https://ftp.automationdirect.com/support/drawings/2d/HC3096N-52-900-24.zip",
+        "resolved_url": "https://ftp.automationdirect.com/support/drawings/2d/HC3096N-52-900-24.zip",
+        "path": "drawings/HC3096N-52-900-24.zip",
+        "bytes": 569975,
+        "sha256": "5f94bcb223d96c41fa046bb71c3de269d90a95ffd28855a285e80287cb292398",
+        "valid_container": true,
+        "error": ""
+      },
+      {
+        "url": "https://ftp.automationdirect.com/support/drawings/3d/step/HC3096N-52-900-24.STEP",
+        "resolved_url": "https://ftp.automationdirect.com/support/drawings/3d/step/HC3096N-52-900-24.STEP",
+        "path": "step/HC3096N-52-900-24.step",
+        "bytes": 9961840,
+        "sha256": "59fbc83df159a18801b98cee362c80976931ce80eacebfd3b8fc901b2b41a0b8",
+        "valid_container": true,
+        "error": ""
+      }
+    ],
+    "error": ""
+  },
+  {
+    "part": "HMX1-BBREV",
+    "name": "Reversing Busbars",
+    "bom_quantity": "1",
+    "page_url": "https://www.automationdirect.com/adc/shopping/catalog/motor_controls/iec_magnetic_contactors/magnetic_contactor_accessories/hmx1-bbrev",
+    "files": [
+      {
+        "url": "https://cdn.automationdirect.com/static/drawings/2d/HMX1-BBREV.zip",
+        "resolved_url": "https://cdn.automationdirect.com/static/drawings/2d/HMX1-BBREV.zip",
+        "path": "drawings/HMX1-BBREV.zip",
+        "bytes": 96175,
+        "sha256": "25785ce80444574233e99a94615d8b5f813b443ca87e8f9387dd26a86e337564",
+        "valid_container": true,
+        "error": ""
+      },
+      {
+        "url": "https://cdn.automationdirect.com/static/drawings/3d/step/HMX1-BBREV.STEP",
+        "resolved_url": "https://cdn.automationdirect.com/static/drawings/3d/step/HMX1-BBREV.STEP",
+        "path": "step/HMX1-BBREV.step",
+        "bytes": 663559,
+        "sha256": "b114f43f54531928b9e43c6b7397dd1c6b0a9717e52a34fdac1a9e40f499048e",
+        "valid_container": true,
+        "error": ""
+      }
+    ],
+    "error": ""
+  },
+  {
+    "part": "HMX1-AUX11-F",
+    "name": "Auxiliary Contact Block",
+    "bom_quantity": "0",
+    "page_url": "https://www.automationdirect.com/adc/shopping/catalog/motor_controls/iec_magnetic_contactors/magnetic_contactor_accessories/hmx1-aux11-f",
+    "files": [
+      {
+        "url": "https://cdn.automationdirect.com/static/drawings/2d/HMX1-AUX11-F.zip",
+        "resolved_url": "https://cdn.automationdirect.com/static/drawings/2d/HMX1-AUX11-F.zip",
+        "path": "drawings/HMX1-AUX11-F.zip",
+        "bytes": 57275,
+        "sha256": "63f611cf7b1d6934a1e8600ca9495944a3c3ad51ab0473cf39e69294182592e6",
+        "valid_container": true,
+        "error": ""
+      },
+      {
+        "url": "https://cdn.automationdirect.com/static/drawings/3d/step/HMX1-AUX11-F.STEP",
+        "resolved_url": "https://cdn.automationdirect.com/static/drawings/3d/step/HMX1-AUX11-F.STEP",
+        "path": "step/HMX1-AUX11-F.step",
+        "bytes": 797092,
+        "sha256": "c038c678c7200c44497804e1a9da0f81b5e4dad99346c8842dc901fc310a2453",
+        "valid_container": true,
+        "error": ""
+      }
+    ],
+    "error": ""
+  },
+  {
+    "part": "FAZ-D4-2-NA-L",
+    "name": "Circuit Breaker",
+    "bom_quantity": "1",
+    "page_url": "https://www.automationdirect.com/adc/shopping/catalog/circuit_protection_-z-_fuses_-z-_disconnects/circuit_breakers_-a-_circuit_protectors/miniature_circuit_breakers_(mcb)/faz-d4-2-na-l",
+    "files": [
+      {
+        "url": "https://ftp.automationdirect.com/support/drawings/2d/FAZ-D4-2-NA-L.zip",
+        "resolved_url": "https://ftp.automationdirect.com/support/drawings/2d/FAZ-D4-2-NA-L.zip",
+        "path": "drawings/FAZ-D4-2-NA-L.zip",
+        "bytes": 329960,
+        "sha256": "07fae262f87c9b3ea22b61c713eefa74131f5742e79778a9a08320962c3b2fff",
+        "valid_container": true,
+        "error": ""
+      },
+      {
+        "url": "https://ftp.automationdirect.com/support/drawings/3d/step/FAZ-D4-2-NA-L.STEP",
+        "resolved_url": "https://ftp.automationdirect.com/support/drawings/3d/step/FAZ-D4-2-NA-L.STEP",
+        "path": "step/FAZ-D4-2-NA-L.step",
+        "bytes": 6447954,
+        "sha256": "322eaad23be0c4804b7e95e8fdd492b537facdfd842dea07cd0683cf64ed6032",
+        "valid_container": true,
+        "error": ""
+      }
+    ],
+    "error": ""
+  },
+  {
+    "part": "22013003",
+    "name": "Motor Disconnect",
+    "bom_quantity": "1",
+    "page_url": "https://www.automationdirect.com/adc/shopping/catalog/circuit_protection_-z-_fuses_-z-_disconnects/disconnects_-a-_switches/non-fused_disconnects/22013003",
+    "files": [
+      {
+        "url": "https://ftp.automationdirect.com/support/drawings/2d/22013003.zip",
+        "resolved_url": "https://ftp.automationdirect.com/support/drawings/2d/22013003.zip",
+        "path": "drawings/22013003.zip",
+        "bytes": 190906,
+        "sha256": "fdcb722cae1ba45ba43e53ba8448363859662919ffc29ea48235b5fd0e0ee64c",
+        "valid_container": true,
+        "error": ""
+      },
+      {
+        "url": "https://ftp.automationdirect.com/support/drawings/3d/step/22013003.STEP",
+        "resolved_url": "https://ftp.automationdirect.com/support/drawings/3d/step/22013003.STEP",
+        "path": "step/22013003.step",
+        "bytes": 785197,
+        "sha256": "a1df48fc82ea9bc7aa2c1ba44fc51c4eec2e19b1ce2811f378e809fdd10119cd",
+        "valid_container": true,
+        "error": ""
+      }
+    ],
+    "error": ""
+  },
+  {
+    "part": "148E1111",
+    "name": "Disconnect Handle",
+    "bom_quantity": "1",
+    "page_url": "https://www.automationdirect.com/adc/shopping/catalog/circuit_protection_-z-_fuses_-z-_disconnects/disconnects_-a-_switches/disconnect_external_handles_-a-_components/148e1111",
+    "files": [
+      {
+        "url": "https://ftp.automationdirect.com/support/drawings/2d/148E1111.zip",
+        "resolved_url": "https://ftp.automationdirect.com/support/drawings/2d/148E1111.zip",
+        "path": "drawings/148E1111.zip",
+        "bytes": 130760,
+        "sha256": "efbf145730ea47543c58794afae0119519283e4dd8f33e6be499f47df11d61db",
+        "valid_container": true,
+        "error": ""
+      },
+      {
+        "url": "https://ftp.automationdirect.com/support/drawings/3d/step/148E1111.STEP",
+        "resolved_url": "https://ftp.automationdirect.com/support/drawings/3d/step/148E1111.STEP",
+        "path": "step/148E1111.step",
+        "bytes": 16387698,
+        "sha256": "cf91a37d1ad393d66ec693eb20259b8963abe1dbd5b33bc187836b68772de54f",
+        "valid_container": true,
+        "error": ""
+      }
+    ],
+    "error": ""
+  },
+  {
+    "part": "14070532",
+    "name": "Disconnect Shaft",
+    "bom_quantity": "1",
+    "page_url": "https://www.automationdirect.com/adc/shopping/catalog/circuit_protection_-z-_fuses_-z-_disconnects/disconnects_-a-_switches/disconnect_external_handles_-a-_components/14070532",
+    "files": [
+      {
+        "url": "https://ftp.automationdirect.com/support/drawings/2d/14070532.zip",
+        "resolved_url": "https://ftp.automationdirect.com/support/drawings/2d/14070532.zip",
+        "path": "drawings/14070532.zip",
+        "bytes": 116936,
+        "sha256": "c0101b73e0753cf0ea020e16479a7dc48ae9edd6f0504b7b38873b0dc812718f",
+        "valid_container": true,
+        "error": ""
+      },
+      {
+        "url": "https://ftp.automationdirect.com/support/drawings/3d/step/14070532.STEP",
+        "resolved_url": "https://ftp.automationdirect.com/support/drawings/3d/step/14070532.STEP",
+        "path": "step/14070532.step",
+        "bytes": 26264,
+        "sha256": "cfce53244e4abc843b4a6c6352d0b83ce88303591eeaa1a77b0a9950cf164414",
+        "valid_container": true,
+        "error": ""
+      }
+    ],
+    "error": ""
+  },
+  {
+    "part": "22943016",
+    "name": "Terminal Cover Pack",
+    "bom_quantity": "1",
+    "page_url": "https://www.automationdirect.com/adc/shopping/catalog/circuit_protection_-z-_fuses_-z-_disconnects/disconnects_-a-_switches/disconnect_-a-_switch_accessories/22943016",
+    "files": [
+      {
+        "url": "https://ftp.automationdirect.com/support/drawings/2d/22943016.zip",
+        "resolved_url": "https://ftp.automationdirect.com/support/drawings/2d/22943016.zip",
+        "path": "drawings/22943016.zip",
+        "bytes": 87361,
+        "sha256": "97ad8df3efa3b75b57c56c7730aac9d25f60251f42f9e6e0268c51917595a3c4",
+        "valid_container": true,
+        "error": ""
+      },
+      {
+        "url": "https://ftp.automationdirect.com/support/drawings/3d/step/22943016.STEP",
+        "resolved_url": "https://ftp.automationdirect.com/support/drawings/3d/step/22943016.STEP",
+        "path": "step/22943016.step",
+        "bytes": 343871,
+        "sha256": "48bcd47f8a288890ea2434b1a5adb687e951de5e27691ed6c93d7987a878516e",
+        "valid_container": true,
+        "error": ""
+      }
+    ],
+    "error": ""
+  },
+  {
+    "part": "RM25030-3SR",
+    "name": "Class R Fuse Holder",
+    "bom_quantity": "1",
+    "page_url": "https://www.automationdirect.com/adc/shopping/catalog/circuit_protection_-z-_fuses_-z-_disconnects/fuse_blocks/modular_fuse_blocks/rm25030-3sr",
+    "files": [
+      {
+        "url": "https://ftp.automationdirect.com/support/drawings/2d/RM25030-3SR.zip",
+        "resolved_url": "https://ftp.automationdirect.com/support/drawings/2d/RM25030-3SR.zip",
+        "path": "drawings/RM25030-3SR.zip",
+        "bytes": 2143596,
+        "sha256": "7cee8ecab273a5a9c7ae6e3a0ef18bd4605a96cf4a5c9864be2ff56bd802d56a",
+        "valid_container": true,
+        "error": ""
+      },
+      {
+        "url": "https://ftp.automationdirect.com/support/drawings/3d/step/RM25030-3SR.STEP",
+        "resolved_url": "https://ftp.automationdirect.com/support/drawings/3d/step/RM25030-3SR.STEP",
+        "path": "step/RM25030-3SR.step",
+        "bytes": 15236298,
+        "sha256": "ce20b673ab125fb19366587d14efa9169865ad7dacbd32f1b333d86b6c00a105",
+        "valid_container": true,
+        "error": ""
+      }
+    ],
+    "error": ""
+  },
+  {
+    "part": "CVR-RH-25030",
+    "name": "Fuse Cover",
+    "bom_quantity": "3",
+    "page_url": "https://www.automationdirect.com/adc/shopping/catalog/circuit_protection_-z-_fuses_-z-_disconnects/fuse_blocks/modular_fuse_block_covers_-a-_accessories/cvr-rh-25030",
+    "files": [
+      {
+        "url": "https://ftp.automationdirect.com/support/drawings/2d/CVR-RH-25030.zip",
+        "resolved_url": "https://ftp.automationdirect.com/support/drawings/2d/CVR-RH-25030.zip",
+        "path": "drawings/CVR-RH-25030.zip",
+        "bytes": 334538,
+        "sha256": "fab5532d809fa7fea9ed3efce63e6758704a8708b1893614e33ff7ecb9ff5ef5",
+        "valid_container": true,
+        "error": ""
+      },
+      {
+        "url": "https://ftp.automationdirect.com/support/drawings/3d/step/CVR-RH-25030.STEP",
+        "resolved_url": "https://ftp.automationdirect.com/support/drawings/3d/step/CVR-RH-25030.STEP",
+        "path": "step/CVR-RH-25030.step",
+        "bytes": 13176545,
+        "sha256": "fc676927c8bc631d2814ab97293060c47c2e8e02ca687c35e758ef9d9052b898",
+        "valid_container": true,
+        "error": ""
+      }
+    ],
+    "error": ""
+  },
+  {
+    "part": "HTOR32-6-S",
+    "name": "Thermal Overload",
+    "bom_quantity": "2",
+    "page_url": "https://www.automationdirect.com/adc/shopping/catalog/motor_controls/iec_overload_relays/thermal_overload_relays/htor32-6-s",
+    "files": [
+      {
+        "url": "https://cdn.automationdirect.com/static/drawings/2d/HTOR32-6-S.zip",
+        "resolved_url": "https://cdn.automationdirect.com/static/drawings/2d/HTOR32-6-S.zip",
+        "path": "drawings/HTOR32-6-S.zip",
+        "bytes": 102520,
+        "sha256": "01a1f816506ce78293487bd44ed373c1d7c3068b69e815ee97f865911b8fa086",
+        "valid_container": true,
+        "error": ""
+      },
+      {
+        "url": "https://cdn.automationdirect.com/static/drawings/3d/step/HTOR32-6-S.STEP",
+        "resolved_url": "https://cdn.automationdirect.com/static/drawings/3d/step/HTOR32-6-S.STEP",
+        "path": "step/HTOR32-6-S.step",
+        "bytes": 1633750,
+        "sha256": "0bc38956346b2f78b3ba795751b51c1d9e80fdc9038a03028fcdfa518b7b4977",
+        "valid_container": true,
+        "error": ""
+      }
+    ],
+    "error": ""
+  },
+  {
+    "part": "HMX1-SSVRC-DC",
+    "name": "Coil Surge Suppressor",
+    "bom_quantity": "5",
+    "page_url": "https://www.automationdirect.com/adc/shopping/catalog/motor_controls/iec_magnetic_contactors/magnetic_contactor_accessories/hmx1-ssvrc-dc",
+    "files": [
+      {
+        "url": "https://cdn.automationdirect.com/static/drawings/2d/HMX1-SSVRC-DC.zip",
+        "resolved_url": "https://cdn.automationdirect.com/static/drawings/2d/HMX1-SSVRC-DC.zip",
+        "path": "drawings/HMX1-SSVRC-DC.zip",
+        "bytes": 92953,
+        "sha256": "11ed6eaee5b65e881c6e25b5aa05694764db7f7aef5c81f47d4add415bede58e",
+        "valid_container": true,
+        "error": ""
+      },
+      {
+        "url": "https://cdn.automationdirect.com/static/drawings/3d/step/HMX1-SSVRC-DC.STEP",
+        "resolved_url": "https://cdn.automationdirect.com/static/drawings/3d/step/HMX1-SSVRC-DC.STEP",
+        "path": "step/HMX1-SSVRC-DC.step",
+        "bytes": 460765,
+        "sha256": "18e9dda638a0323661946b279d786c953aedeb9a02583784e569781571cfcd54",
+        "valid_container": true,
+        "error": ""
+      }
+    ],
+    "error": ""
+  },
+  {
+    "part": "KN-T12GRY-25",
+    "name": "Feedthrough Terminal",
+    "bom_quantity": "1",
+    "page_url": "https://www.automationdirect.com/adc/shopping/catalog/wire_-a-_cable_termination/terminal_blocks/single-level_feedthrough_terminal_blocks/kn-t12gry-25",
+    "files": [
+      {
+        "url": "https://ftp.automationdirect.com/support/drawings/2d/KN-T12GRY-25.zip",
+        "resolved_url": "https://ftp.automationdirect.com/support/drawings/2d/KN-T12GRY-25.zip",
+        "path": "drawings/KN-T12GRY-25.zip",
+        "bytes": 44013,
+        "sha256": "856b2da453e30088427181365cc45932cb9fe59cd80e57d42ee8fea933d735ad",
+        "valid_container": true,
+        "error": ""
+      },
+      {
+        "url": "https://ftp.automationdirect.com/support/drawings/3d/step/KN-T12GRY-25.STEP",
+        "resolved_url": "https://ftp.automationdirect.com/support/drawings/3d/step/KN-T12GRY-25.STEP",
+        "path": "step/KN-T12GRY-25.step",
+        "bytes": 477028,
+        "sha256": "bf37202bfcaed3040409ade4007a7eda6efe555d18f2c68e27c10219ea5a4440",
+        "valid_container": true,
+        "error": ""
+      }
+    ],
+    "error": ""
+  },
+  {
+    "part": "KN-ECT6GRY-25",
+    "name": "Terminal End Cover",
+    "bom_quantity": "1",
+    "page_url": "https://www.automationdirect.com/adc/shopping/catalog/wire_-a-_cable_termination/terminal_blocks/end_covers/kn-ect6gry-25",
+    "files": [
+      {
+        "url": "https://cdn.automationdirect.com/static/drawings/3d/step/KN-ECT6GRY-25.STEP",
+        "resolved_url": "https://cdn.automationdirect.com/static/drawings/3d/step/KN-ECT6GRY-25.STEP",
+        "path": "step/KN-ECT6GRY-25.step",
+        "bytes": 168743,
+        "sha256": "7ad5a211b5a155ec8f14d4b69051233ed8d19cafa0274f11d4774672e042f747",
+        "valid_container": true,
+        "error": ""
+      }
+    ],
+    "error": ""
+  },
+  {
+    "part": "KN-EB7-10",
+    "name": "DIN End Stop",
+    "bom_quantity": "1",
+    "page_url": "https://www.automationdirect.com/adc/shopping/catalog/wire_-a-_cable_termination/terminal_blocks/end_brackets/kn-eb7-10",
+    "files": [
+      {
+        "url": "https://cdn.automationdirect.com/static/drawings/3d/step/KN-EB7-10.STEP",
+        "resolved_url": "https://cdn.automationdirect.com/static/drawings/3d/step/KN-EB7-10.STEP",
+        "path": "step/KN-EB7-10.step",
+        "bytes": 1054819,
+        "sha256": "b5d7da5b6a3a19cc5bd30912ba3b086f98b6250225b986ce0c36a44e7b8d475c",
+        "valid_container": true,
+        "error": ""
+      }
+    ],
+    "error": ""
+  },
+  {
+    "part": "KN-10J12",
+    "name": "Terminal Jumper",
+    "bom_quantity": "1",
+    "page_url": "https://www.automationdirect.com/adc/shopping/catalog/wire_-a-_cable_termination/terminal_blocks/jumpers/kn-10j12",
+    "files": [
+      {
+        "url": "https://ftp.automationdirect.com/support/drawings/2d/KN-10J12.zip",
+        "resolved_url": "https://ftp.automationdirect.com/support/drawings/2d/KN-10J12.zip",
+        "path": "drawings/KN-10J12.zip",
+        "bytes": 54155,
+        "sha256": "506def44c19663d4e519026b2b72a600cc7413041273e356927ee24068c68c12",
+        "valid_container": true,
+        "error": ""
+      },
+      {
+        "url": "https://ftp.automationdirect.com/support/drawings/3d/step/KN-10J12.STEP",
+        "resolved_url": "https://ftp.automationdirect.com/support/drawings/3d/step/KN-10J12.STEP",
+        "path": "step/KN-10J12.step",
+        "bytes": 2288733,
+        "sha256": "2c0165e401a9c3e1c6392685f041911169bae6a9132f4a25ac5290cdd9bf9697",
+        "valid_container": true,
+        "error": ""
+      }
+    ],
+    "error": ""
+  },
+  {
+    "part": "KN-L5X-BLNK-220",
+    "name": "Terminal Marker",
+    "bom_quantity": "1",
+    "page_url": "https://www.automationdirect.com/adc/shopping/catalog/wire_-a-_cable_termination/terminal_blocks/marking_tags/kn-l5x-blnk-220",
+    "files": [],
+    "error": ""
+  }
+]

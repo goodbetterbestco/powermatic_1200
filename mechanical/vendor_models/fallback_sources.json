@@ -1,0 +1,42 @@
+[
+  {
+    "path": "drawings/FRN-R_dimensions.pdf",
+    "url": "https://www.eaton.com/content/dam/eaton/products/electrical-circuit-protection/fuses/bussmann-series-branch-circuit-fuses/class-rk5/bus-ele-ds-1019-frn-r-1-10-60a.pdf",
+    "bytes": 0,
+    "sha256": "",
+    "valid_pdf": false,
+    "error": "curl: (28) Operation timed out after 45004 milliseconds with 0 bytes received\n"
+  },
+  {
+    "path": "drawings/800S_Repair_Parts.pdf",
+    "url": "https://configurator.rockwellautomation.com/api/Doc/800S%20Repair%20Parts%205-14-2021.pdf",
+    "bytes": 168743,
+    "sha256": "20d83a0fa53d332c2d81ac67848a7e1f5090d501106177ac35bef62cac2f6c46",
+    "valid_pdf": true,
+    "error": ""
+  },
+  {
+    "path": "drawings/800S_Technical_Data.pdf",
+    "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/td/800-td009_-en-p.pdf",
+    "bytes": 5001578,
+    "sha256": "9461592a053739be8877f568007fbfed834c2472c3240cb665f89bd449ea50c1",
+    "valid_pdf": true,
+    "error": ""
+  },
+  {
+    "path": "drawings/FRN-R_dimensions.pdf",
+    "source_local": "/Users/evanthayer/Projects/_parts/datasheets/FRN-R-10_FRN-R_1019_Archive.pdf",
+    "bytes": 77876,
+    "sha256": "4009270ce49b39a25862458cd9a225fdfedb68ff88f64131edabbb3cde814355",
+    "valid_pdf": true,
+    "note": "Existing saved catalog document copied as a dimensional/reference fallback; not a newly downloaded STEP model."
+  },
+  {
+    "path": "drawings/365-TAV2111_saved_reference.pdf",
+    "source_local": "/Users/evanthayer/Projects/_parts/datasheets/365-TAV2111_365-TAV2111.pdf",
+    "bytes": 896413,
+    "sha256": "2042d5414199fa612d624c932447ce6b0b19b43f59baebca1b98cda09463ed16",
+    "valid_pdf": true,
+    "note": "Existing saved catalog document copied as a dimensional/reference fallback; not a newly downloaded STEP model."
+  }
+]

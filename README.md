@@ -2,7 +2,23 @@
 
 Design and shop documentation for the safety and controls retrofit of a 1967 Powermatic 1200 variable-speed tapping/drilling press.
 
-## Current controlled revision
+> **Current baseline — Rev O, updated 2026-09-24:** Retain the existing motor, OFF/LOW/HIGH drum switch and FWD/REV/STOP pendant. All operator controls carry only 24 VDC; all motor-power switching moves into the panel. The basic BOM uses five three-pole contactors, two mechanical interlocks, the existing 24 VDC supply, and a three-pole disconnect followed by a separate Class R motor fuse block. See the [current scope decision](docs/Scope_Reset_2026-09-23.md#rev-o-basic-contactor-bom-current).
+
+## Current working BOM
+
+[Rev P CSV](Powermatic_BOM_revP.csv) is the active BOM for live changes. Its **20 unique-part rows** include five `HMC-9B30-11-DS` contactors ($31 each), two `HMX1-MI` interlocks ($16.50 each), one Dold `HC3096N-52-900-24` coil-enable relay ($46.50), the existing supply and controls, four selected Socomec disconnect components, the selected fuses/block/covers, an Eaton PSU input breaker, two motor overloads, five coil suppressors, one white indicator, one M12 E-stop panel socket, one reversing busbar kit, and one conditional auxiliary-block row with quantity zero. Each contactor includes 1 NO + 1 NC auxiliary contacts; each interlock includes two NC electrical-interlock contacts.
+
+The earlier five-pole KH specification is replaced by separate three-pole KH (high-speed supply) and KS (high-speed shorting) contactors. The **current component total is $735.24**: $205.00 contactors/interlocks/reversing busbars, $119.22 motor fuses/block/covers, $122.50 Socomec disconnect assembly, $55.00 PSU input breaker, $63.00 overloads, $60.00 suppressors, $52.92 indicator, $46.50 coil-enable relay and $11.10 M12 panel socket. See the [fuse and breaker selection record](docs/Fuse_Selection_2026-09-24.md), [disconnect selection](Disconnect_Distributor_Comparison_2026-09-24.md) and [overload, indicator and suppression selection](docs/Overload_Indicator_Suppression_2026-09-24.md). This excludes tax, shipping and Allfuses' $5 small-order fee. One `HMX1-BBREV` reversing busbar kit is included at $17.00 for KF/KR; it includes line-side and load-side bars. The `HMX1-AUX11-F` extra auxiliary block remains $8.50 each with quantity pending the final control schematic. Only the conditional auxiliary-block row has quantity zero and is excluded. All included rows are priced; enclosure and installation materials remain separate work.
+
+OL-L and OL-H are matching IronHorse `HTOR32-6-S` 4–6 A relays, directly mounted on KL and KH, with manual reset and nameplate settings of 4.0 A LOW / 4.4 A HIGH. Both trips must inhibit both speeds. Five `HMX1-SSVRC-DC` suppressors cover all five 24 VDC coils. PL1 is a white `XB4BVB1` 22 mm indicator connected across the control supply. PL1 is sourced as DigiKey 4008-XB4BVB1-ND at $52.92; the US listing showed two available when checked September 24. The overloads and suppressors remain sourced from AD.
+
+CB-PS1 is Eaton `FAZ-D4-2-NA-L`, 4 A, two-pole, D curve, UL 489, 35 mm DIN mounted. It feeds the NDR-240-24 from two phases downstream of DS1 at 208 V line-to-line; both L and N input conductors pass through the breaker, while FG connects directly to PE. Separate 24 VDC branch fuses/breakers are omitted per the owner's September 24 decision; final wiring and device ratings must suit the supply's available output current.
+
+DS1 uses Socomec `22013003` ($75), red/yellow S0 handle `148E1111` ($27.50), shaft `14070532` ($9, includes alignment guide), and one two-cover pack `22943016` ($11). The handle operates through the fixed right enclosure wall. The owner will order the eBay handle; purchase/receipt is not yet confirmed. The other three components are sourced from AutomationDirect. Its switch page showed a backorder with earliest October 14, 2026 availability when checked September 24; the shaft and covers showed stock. The shaft cut length awaits enclosure layout.
+
+The CSV columns are `cat`, `part name`, `qua`, `unit`, `line`, `supplier`, `part no`, in that order. Each part number has one row with quantities combined. `unit` is unit cost and `line` is line cost; calculate `line` as `qua` × `unit`, rounded to cents. Values are numeric snapshots, not spreadsheet formulas. Quantity zero means an accessory is not included. Leave unknown costs blank and keep TOTAL blank until all included items are priced. PRICED SUBTOTAL counts item rows only; never add it again into TOTAL. The new control schematic remains pending.
+
+## Rev M reference package
 
 - `docs/Powermatic_1200_Retrofit_Documentation_rM.md` — design intent, power topology, sequence of operations, I/O assignments, VFD configuration, and safety architecture
 - `docs/05_ladder_logic_rM.md` — CLICK PLUS ladder-logic source
@@ -10,14 +26,14 @@ Design and shop documentation for the safety and controls retrofit of a 1967 Pow
 - `docs/Powermatic_1200_SCCR_Worksheet_rM.md` — personal-shop SCCR due-diligence worksheet and field record
 - `docs/05_ladder_logic_rM.pdf` — CLICK PLUS programming reference generated from the ladder source
 - `docs/Powermatic_1200_Shop_Pack_rM.pdf` — power one-line, safety loop, VFD card, and commissioning checklists
-- `docs/Powermatic_1200_Retrofit_BOM_rM.numbers` — owner-maintained procurement authority
+- `Powermatic_1200_Retrofit_BOM_rM.numbers` — prior BOM; live changes now use Rev O CSV
 - `docs/Powermatic_1200_Retrofit_BOM_rM.pdf` — frozen Rev M procurement snapshot
 - [Datasheet collection and source index](docs/Powermatic_1200_Datasheet_Index_rM.md) — local PDFs in shared `_parts`, coverage and remaining identity gaps
 - `TODO.md` — open build and validation items
 
 Local helper scripts for regenerating the PDFs live in `scripts/`.
 
-Rev M is the controlled revision in this repository. Revision L was intentionally skipped.
+Rev M is the prior design package; Rev N is the earlier reduced BOM, and Rev O is the current basic component baseline. Revision L was intentionally skipped. The sections below describe the historical Rev M design and do not reinstate items omitted from Rev O.
 
 ## Rev M safety and thermal basis
 
