@@ -1,0 +1,1611 @@
+411287080994432
+Controls_Review
+RM25030-3SR_Front
+RM25030-3SR uncovered front elevation, 6 terminals; supplier RM25030-3SR_Drawing.pdf and DWG; centered nominal projected outline 74.49 x 80.40 mm
+RM25030-3SR DIN panel front elevation 6-terminal
+0
+0
+0
+LCSC
+ANT-SMD_L5.2-W2.0
+YC0010AA 2 pin 6.26x2.16mm horizontal SMD Quectel approved derivation land pattern
+YC0010AA 2P 6.26x2.16mm SMD C6759795
+0
+2
+2
+LCSC
+BT_tht_CR2032_1
+CR2032-BS-5-1 2 pin 17.7x5.88mm horizontal through-hole MYOUNG approved derivation land pattern
+CR2032-BS-5-1 2P 17.7x5.88mm through-hole C70379
+0
+3
+2
+LCSC
+BT_tht_CR2032_2
+CR2032-BS-6-1 2 pin 32.98x9.93mm horizontal SMD MYOUNG approved derivation land pattern
+CR2032-BS-6-1 2P 32.98x9.93mm SMD C70377
+0
+2
+2
+LCSC
+CAP-TH_BD6.3-P2.50-D1.0-FD
+6.3X11MM P2.50MM THT 2 pin 6.3x11mm horizontal through-hole Lelon approved derivation land pattern
+6.3X11MM-P2.50MM-THT 2P 6.3x11mm through-hole C503218
+0
+2
+2
+LCSC
+CAP-TH_BD8.0-P3.50-D0.6-FD
+8X11.5MM P3.50MM THT 2 pin 8x11.5mm horizontal through-hole Aishi approved derivation land pattern
+8X11.5MM-P3.50MM-THT 2P 8x11.5mm through-hole C398833
+0
+2
+2
+LCSC
+CAP-TH_BD10.0-P5.00-D1.0-FD
+10X12.5MM P5.00MM THT 2 pin 10x12.5mm horizontal through-hole Rubycon approved derivation land pattern
+10X12.5MM-P5.00MM-THT 2P 10x12.5mm through-hole C88832
+0
+2
+2
+LCSC
+CONN-SMD_B2B-PH-SM4-TB-LF-SN
+B2B-PH-SM4-TB(LF)(SN) 2 pin 8.5x7.02mm horizontal SMD JST approved derivation land pattern
+B2B-PH-SM4-TB(LF)(SN) 2P 8.5x7.02mm SMD C160352
+0
+4
+2
+LCSC
+CONN-SMD_B3B-PH-SM4-TB-LF-SN
+B3B-PH-SM4-TB(LF)(SN) 3 pin 10.5x7.02mm horizontal SMD JST approved derivation land pattern
+B3B-PH-SM4-TB(LF)(SN) 3P 10.5x7.02mm SMD C160353
+0
+5
+3
+LCSC
+CONN-TH_2P-P5.00_282836-2
+282836-2 2 pin 7x2mm horizontal through-hole TE Connectivity manufacturer-recommended land pattern
+282836-2 2P 7x2mm through-hole C590402
+0
+2
+2
+LCSC
+CONN-TH_3P-P5.00_282836-3
+282836-3 3 pin 12x2mm horizontal through-hole TE Connectivity manufacturer-recommended land pattern
+282836-3 3P 12x2mm through-hole C5172715
+0
+3
+3
+LCSC
+C_smd_cer_3.2mm
+CASE-A 2 pin 4.59x1.48mm horizontal SMD AVX approved derivation land pattern
+CASE-A 2P 4.59x1.48mm SMD C7171
+0
+2
+2
+LCSC
+C_smd_cer_3.5mm
+CASE-B 2 pin 5.7x2.62mm horizontal SMD AVX approved derivation land pattern
+CASE-B 2P 5.7x2.62mm SMD C7194
+0
+2
+2
+LCSC
+C_smd_cer_0201_Murata_GRM03
+0201 SMD, 2 terminals, 0.6 x 0.3 mm body. Two opposing lands, 0.5 mm center spacing. Murata GRM03 specification p25; 0.25 x 0.30 mm lands, 0.25 mm gap within recommended range.
+0201 SMD 2pin 0.6x0.3mm Murata 0603Metric
+0
+2
+2
+LCSC
+C_smd_cer_0402
+C0402 2 pin 1.34x0.55mm horizontal SMD Yageo manufacturer-recommended land pattern
+C0402 2P 1.34x0.55mm SMD C106203
+0
+2
+2
+LCSC
+C_smd_cer_0402_Fenghua
+Fenghua 0402 (1005 metric) 2-terminal ceramic chip capacitor, manufacturer-recommended land pattern
+capacitor ceramic MLCC C0402 0402 1005 metric Fenghua SMD SMT
+0
+2
+2
+LCSC
+C_smd_cer_0402_Murata_GRM158
+0402 SMD, 2 terminals, 1 x 0.5 mm body. Two opposing lands, 1 mm center spacing. Murata GRM158 specification p26; 0.50 x 0.50 mm lands, 0.50 mm gap within recommended range.
+0402 SMD 2pin 1x0.5mm Murata 1005Metric
+0
+2
+2
+LCSC
+C_smd_cer_0402_Samsung
+multilayer ceramic capacitor, 0402 (1005 metric), samsung cl05 series land pattern
+capacitor ceramic mlcc smd 0402 1005 samsung cl05
+0
+2
+2
+LCSC
+C_smd_cer_0402_Yageo
+multilayer ceramic capacitor, 0402 (1005 metric), yageo cc series land pattern
+capacitor ceramic mlcc smd 0402 1005 yageo cc
+0
+2
+2
+LCSC
+C_smd_cer_0603_Fenghua
+Fenghua 0603 (1608 metric) 2-terminal ceramic chip capacitor; common land pattern within the manufacturer's recommended ranges for DA and DB dimensional families
+capacitor ceramic MLCC C0603 0603 1608 metric Fenghua SMD SMT 2-terminal
+0
+2
+2
+LCSC
+C_smd_cer_0603_Murata_GRM18
+0603 SMD, 2 terminals, 1.6 x 0.8 mm body. Two opposing lands, 1.45 mm center spacing. Murata GRM188 specification p26; 0.70 x 0.80 mm lands, 0.75 mm gap within recommended range.
+0603 SMD 2pin 1.6x0.8mm Murata 1608Metric
+0
+2
+2
+LCSC
+C_smd_cer_0805
+Samsung 0805 (2012) MLCC, 2.00x1.25mm nominal body; shared Samsung recommended reflow land pattern
+Samsung C0805 2012 MLCC ceramic capacitor 2 pin SMD
+0
+2
+2
+LCSC
+C_smd_cer_1206
+Samsung 1206 (3216) MLCC, 3.20x1.60mm nominal body; manufacturer-recommended reflow land pattern
+Samsung C1206 3216 MLCC ceramic capacitor 2 pin SMD
+0
+2
+2
+LCSC
+C_smd_cer_1206_Yageo
+Yageo CC 1206 (3216 metric) 2-terminal ceramic chip; nominal 3.2x1.6x1.6mm, maximum 3.5x1.8x1.8mm; 3mm land pitch; manufacturer-recommended reflow lands 1.0x1.8mm (Yageo General Data V25 p11); courtyard includes occupied-area recommendation
+1206 3216 2P 3.2x1.6mm 3mm-pitch SMD Yageo CC
+0
+2
+2
+LCSC
+C_smd_cer_1210_Murata
+multilayer ceramic capacitor, 1210 (3225 metric), murata grm32 series reflow land pattern
+capacitor ceramic mlcc smd 1210 3225 murata grm32 c397312
+0
+2
+2
+LCSC
+C_smd_elec_4.0mm_2
+4.0X5.4MM SMD 2 pin 4.0x5.4mm horizontal SMD Panasonic approved derivation land pattern
+4.0X5.4MM-SMD 2P 4.0x5.4mm SMD C401604
+0
+2
+2
+LCSC
+C_smd_elec_5.0mm
+5.0X5.4MM SMD 2 pin 5.0x5.4mm horizontal SMD Panasonic approved derivation land pattern
+5.0X5.4MM-SMD 2P 5.0x5.4mm SMD C178621
+0
+2
+2
+LCSC
+C_smd_elec_6.3mm_1
+6.3X5.8MM SMD 2 pin 6.3x5.8mm horizontal SMD Panasonic approved derivation land pattern
+6.3X5.8MM-SMD 2P 6.3x5.8mm SMD C165974
+0
+2
+2
+LCSC
+C_smd_elec_6.3x7.7mm
+6.3 x 7.7 mm SMD aluminum electrolytic capacitor, 2 terminals, 6.6 x 6.6 mm platform; Panasonic D8 3.2 x 1.6 mm recommended land pattern with 1.8 mm gap, verified against the Lelon RVT terminal envelope
+aluminum electrolytic capacitor SMD polarized D6.3 H7.7 D8 6.6mm platform 1.8mm terminal gap Panasonic FT Lelon RVT C344072 C72478
+0
+2
+2
+LCSC
+C_smd_elec_10.0x10.5mm_ACMECON_GVM
+10.0 x 10.5 mm SMD aluminum electrolytic capacitor, 2 terminals, 10.3 x 10.3 mm platform and 4.7 mm terminal gap; land pattern derived from ACMECON GVM1C158M1010CN package dimensions
+aluminum electrolytic capacitor SMD polarized D10 H10.5 10.3mm platform 4.7mm terminal gap ACMECON GVM1C158M1010CN C22383520
+0
+2
+2
+LCSC
+C_smd_tant_B
+CASE-B 2 pin 5.23x2.62mm horizontal SMD AVX approved derivation land pattern
+CASE-B 2P 5.23x2.62mm SMD C8020
+0
+2
+2
+LCSC
+C_tht_film_5.0mm
+7.3X4.5MM P5.00MM THT 2 pin 7.3x4.5mm horizontal through-hole TDK approved derivation land pattern
+7.3X4.5MM-P5.00MM-THT 2P 7.3x4.5mm through-hole C125386
+0
+2
+2
+LCSC
+D_smd_LED_0.7x0.4mm
+LED0201 2 pin 0.75x0.36mm horizontal SMD XINGLIGHT approved derivation land pattern
+LED0201 2P 0.75x0.36mm SMD C3646922
+0
+2
+2
+LCSC
+D_smd_LED_5.0x5.0mm
+5.0X5.0MM LED ARRAY 6 pin 5.0x5.0mm vertical SMD Lite-On approved derivation land pattern
+5.0X5.0MM-LED-ARRAY 6P 5.0x5.0mm SMD C284911
+0
+6
+6
+LCSC
+D_smd_LED_0201
+LED0201 2 pin 0.77x0.45mm horizontal SMD XINGLIGHT approved derivation land pattern
+LED0201 2P 0.77x0.45mm SMD C3646923
+0
+2
+2
+LCSC
+D_smd_LED_0402_1
+LED0402 2 pin 1.99x0.6mm horizontal SMD XINGLIGHT manufacturer-recommended land pattern
+LED0402 2P 1.99x0.6mm SMD C71911
+0
+2
+2
+LCSC
+D_smd_LED_0402_2
+NationStar NCD0402G1 0402 (1005 metric) horizontal 2-terminal SMD package; nominal body 1.00x0.50x0.35mm; 0.75mm pad pitch; manufacturer-recommended 0.35x0.50mm rectangular lands per C130723 datasheet page 2; cathode pad 1 left
+0402 1005 2P 1.00x0.50mm 0.75mm-pitch SMD NationStar NCD0402G1
+0
+2
+2
+LCSC
+D_smd_LED_0603_1
+LED0603 2 pin 2.24x0.9mm horizontal SMD XINGLIGHT manufacturer-recommended land pattern
+LED0603 2P 2.24x0.9mm SMD C72041
+0
+2
+2
+LCSC
+D_smd_LED_0603_2
+LED0603 2 pin 2.4x0.83mm horizontal SMD XINGLIGHT manufacturer-recommended land pattern
+LED0603 2P 2.4x0.83mm SMD C72038
+0
+2
+2
+LCSC
+D_smd_LED_0603_3
+LED0603 2 pin 2.3x0.83mm horizontal SMD Hubei Kento approved derivation land pattern
+LED0603 2P 2.3x0.83mm SMD C2286
+0
+2
+2
+LCSC
+D_smd_LED_0603_4
+LED0603 2 pin 2.4x0.83mm horizontal SMD XINGLIGHT approved derivation land pattern
+LED0603 2P 2.4x0.83mm SMD C7371905
+0
+2
+2
+LCSC
+D_smd_LED_0805
+NationStar NCD0805R1 0805 horizontal 2-terminal SMD package; nominal body 2.00x1.20mm, 1.10mm total height; 1.70mm pad pitch; manufacturer-recommended 0.80x1.20mm rectangular lands per C84256 datasheet page 2; cathode pad 1 left
+0805 2P 2.00x1.20mm 1.70mm-pitch SMD NationStar NCD0805R1
+0
+2
+2
+LCSC
+D_smd_LED_HSMF
+Avago HSMF-C165 4-pin SMD dual LED; 1.6x0.8x0.5mm body; horizontal; 1.3x0.7mm pad-center pitch; AV02-0584EN p2 and Fig8
+HSMF-C165 0603 4P LED SMD red green independent
+0
+4
+4
+LCSC
+D_smd_SOD-123
+SOD-123 2-terminal horizontal SMD, cathode-left orientation, 2.60-2.80x1.50-1.70mm body, 3.24mm pad pitch, 0.80x1.00mm rectangular pads; JSCJ B5819W SL manufacturer suggested land pattern, datasheet page 3
+SOD-123 2-terminal 2.8x1.7mm 3.24mm-pitch SMD SMT horizontal cathode-left JSCJ B5819W SL C8598
+0
+2
+2
+LCSC
+D_smd_SOD-123FL
+ROHM PMDU (SOD-123FL) 2-terminal horizontal SMD, cathode-left orientation, 2.50-2.70x1.50-1.70mm body, 3.05mm pad pitch, 1.20x0.85mm rectangular pads; KDZVTR5.1B manufacturer land pattern, datasheet page 6
+ROHM PMDU SOD-123FL 2-terminal 2.7x1.7mm 3.05mm-pitch SMD SMT horizontal cathode-left zener diode KDZVTR5.1B C209590
+0
+2
+2
+LCSC
+D_smd_SOT23_3P
+Diodes SOT23 Standard 3-pin SMD; 2.90x1.30mm body; 1.90mm pad pitch; horizontal suggested pad layout DS11005 Rev 34-2 p4
+SOT23 SOT-23 3P SMD P0.95 2.9x1.3mm Diodes
+0
+3
+3
+LCSC
+D_smd_TVS_SOD882T
+SOD882T SMD, 2 terminals, 1 x 0.6 mm body. Two opposing lands, 0.95 mm center spacing. ST ESDAXLC6-1BT2Y Figure 12 recommended footprint; 0.55 x 0.50 mm lands, 0.40 mm gap.
+SOD882T SMD 2pin 1x0.6mm STMicroelectronics
+0
+2
+2
+LCSC
+D_smd_melf_SOD80_1
+LL-34 MiniMELF 2-terminal horizontal SMD, cathode-left orientation, 3.40-3.60x1.40-1.50mm body, 3.60mm pad pitch, 1.40x1.60mm D-shaped pads; approved derivation for Semtech ZMM5V6-M using Semtech package drawing page 1 and ROHM glass-sealed diode soldering conditions Rev.C LLDS JEDEC LL-34 reference copper pattern page 5
+LL-34 MiniMELF SOD-80 2-terminal 3.5x1.5mm 3.6mm-pitch D-shaped-pad SMD SMT horizontal cathode-left Semtech ZMM5V6-M C8062
+0
+2
+2
+LCSC
+D_smd_melf_SOD80_2
+MiniMELF SOD-80 2-terminal horizontal SMD, cathode-left orientation, 3.30-3.70x1.40-1.60mm body, 3.54mm pad pitch, 1.44x2.00mm rectangular pads; approved instantiation within Vishay LL4148-M-08 manufacturer footprint recommendation, datasheet page 3
+MiniMELF SOD-80 2-terminal 3.5x1.5mm 3.54mm-pitch SMD SMT horizontal cathode-left Vishay LL4148-M-08 C335606
+0
+2
+2
+LCSC
+D_smd_pwr_SMA_MDD
+MDD SMA (DO-214AC) 2-pin horizontal SMD, manufacturer-suggested land pattern for SS12-SS1200 and SS32-SS3200
+MDD SMA DO-214AC Schottky diode 2 pin SMD SS14 SS34 C2480 C8678
+0
+2
+2
+LCSC
+D_smd_pwr_SMA_ST
+STMicroelectronics SMA (DO-214AC) 2-pin horizontal SMD, manufacturer-recommended land pattern for STPS2L30A
+STMicroelectronics SMA DO-214AC Schottky diode 2 pin SMD STPS2L30A C133102
+0
+2
+2
+LCSC
+D_smd_pwr_SMB
+MDD and LGE SMB (DO-214AA) TVS diode, 4.50x3.60mm shared nominal body and common land pattern
+MDD LGE SMB DO-214AA TVS diode 2 pin SMD C123820 C713666
+0
+2
+2
+LCSC
+D_smd_pwr_SMC
+SMC (DO-214AB) 2 pin 7.11x6.22mm max body, 8.13mm max terminal span horizontal SMD Diodes Inc. manufacturer-suggested land pattern
+SMC DO-214AB 2P 7.11x6.22mm body 8.13mm span SMD C460944
+0
+2
+2
+LCSC
+D_smd_rect_SOD323_1
+SOD-323 2-terminal horizontal SMD, cathode-left orientation, 1.60-1.80x1.20-1.40mm body, 2.15mm pad pitch, 0.70x0.70mm rectangular pads; KUU K1N5819HWS-7-F manufacturer-provided soldering pattern, datasheet page 4
+SOD-323 2-terminal 1.8x1.4mm 2.15mm-pitch SMD SMT horizontal cathode-left KUU K1N5819HWS-7-F C2891705
+0
+2
+2
+LCSC
+D_smd_rect_SOD323_2
+SOD-323 2-terminal horizontal SMD, cathode-left orientation, 1.60-1.80x1.20-1.40mm body, 2.15mm pad pitch, 0.70x0.70mm rectangular pads; JSCJ 1N4148WS manufacturer-suggested reference pad layout, datasheet page 4
+SOD-323 2-terminal 1.8x1.4mm 2.15mm-pitch SMD SMT horizontal cathode-left JSCJ 1N4148WS C2128
+0
+2
+2
+LCSC
+D_smd_rect_SOD323_ST
+STMicroelectronics SOD-323 2-terminal horizontal SMD, cathode-left orientation, 1.52-1.80x1.11-1.45mm body, 2.14mm pad pitch, 0.86x0.54mm rectangular pads; ST SOD323 manufacturer-recommended footprint from BAT54 DocID5505 Rev 12 page 7, BAT60JFILM package envelope from datasheet page 5
+SOD-323 2-terminal 1.8x1.45mm 2.14mm-pitch SMD SMT horizontal cathode-left STMicroelectronics BAT60JFILM C133103
+0
+2
+2
+LCSC
+FPC-SMD_24P-P0.50_HC-FPC-05-09-24RLTAG
+HC-FPC-05-09-24RLTAG 26 pin 13.98x3.48mm horizontal SMD HCTL approved derivation land pattern
+HC-FPC-05-09-24RLTAG 26P 13.98x3.48mm SMD C5213757
+0
+26
+26
+LCSC
+FPC-SMD_527452097
+527452097 22 pin 16.8x4.08mm horizontal SMD Molex approved derivation land pattern
+527452097 22P 16.8x4.08mm SMD C164167
+0
+22
+22
+LCSC
+F_smd_OMNI_BLOK_01550900M
+Littelfuse 01550900M OMNI-BLOK, 2-terminal SMD, 9.73x5.03mm reference body; 6.38mm pad pitch; manufacturer-recommended 4.24x3.81mm rectangular lands, 154 series datasheet p2. Maximum mechanical tolerances unavailable; see review.
+OMNI-BLOK Nano2 01550900M 2P SMD 9.73x5.03 P6.38
+0
+2
+2
+LCSC
+F_smd_PTC_1210
+F1210 2 pin 4.69x2.78mm horizontal SMD Littelfuse manufacturer-recommended land pattern
+F1210 2P 4.69x2.78mm SMD C20617440
+0
+2
+2
+LCSC
+F_smd_PTC_1210_KUU
+KUU 1210 2-terminal SMD; body maximum 3.43x2.80x1.00mm; 2.20mm pad pitch; manufacturer recommended 1.00x1.50mm rectangular lands, 1.20mm gap; K1210L200/8AR datasheet page 1
+1210 3225 2P KUU SMD 3.43x2.80mm 2.20mm-pitch
+0
+2
+2
+LCSC
+F_smd_PTC_1812
+LUTE 1812L Series 2 pin 4.73x3.41mm horizontal SMD manufacturer-recommended land pattern
+1812 1812L 1812L300/16GR 2P 4.73x3.41mm SMD LUTE C18198349
+0
+2
+2
+LCSC
+F_tht_MINI_blade_holder_178.6764.0001
+Littelfuse 178.6764.0001; 2-pin THT, 14.2x6.0mm main body; manufacturer-permitted 7.62mm pitch variant of 8mm nominal pattern; PTH 1.50mm finished +0.10/-0.00mm; 2.70mm NPTH locator at y=0.80mm; derived from C142933_178.6764.0001_mechanical.pdf p1 Rev 111616; courtyard includes 0.75/0.70mm projections
+MINI FL1 Littelfuse 178.6764.0001 2P THT 7.62mm 14.2x6.0mm NPTH locator C142933
+0
+2
+2
+LCSC
+HDR-TH_3P-P2.54-V-F
+Boomele 2.54-1*3P 1x3 female socket header, 8.12 x 2.40 mm body, 2.54 mm pitch, vertical top-entry, through-hole, manufacturer-recommended 1.00 mm holes
+Boomele 2.54-1x3P connector female header socket 1x3 3P 8.12x2.40mm 2.54mm vertical top-entry through-hole THT
+0
+3
+3
+LCSC
+H_npth_M3_D3.4_HeadD5.5
+Generic M3 mounting clearance hole; 3.40 mm finished NPTH at origin, no copper annulus or electrical bond; _parts kicad_rules.csv mounting_m3_3.40 (FP-MOUNT-001/002). Mask expansion and hole-edge copper clearance 0.25 mm. Reserves a 5.50 mm maximum hardware envelope plus 0.25 mm courtyard clearance; hole only, not a verified keepout for unspecified installed hardware. No paste or supplied fastener.
+mounting hole m3 npth unplated 3.4mm clearance head5.5mm mechanical
+0
+0
+0
+LCSC
+IND-SMD_L2.0-W1.6
+2.0X1.6MM SMD 2 pin 2.0x1.6mm horizontal SMD TDK approved derivation land pattern
+2.0X1.6MM-SMD 2P 2.0x1.6mm SMD C404809
+0
+2
+2
+LCSC
+IND-SMD_L6.9-W6.5_IHLP2525CZER
+Vishay IHLP-2525EZ-01 shielded power inductor, 6.86x6.47mm nominal envelope, 5.0mm max height; 8.225x3.429mm two-pad land pattern
+Vishay IHLP-2525EZ-01 IHLP2525EZER1R0M01 C845036 1uH shielded power inductor high current 13A 15A
+0
+2
+2
+LCSC
+J_smd_FPC_24P
+FPC-05F-24PH20 26 pin 16.88x4.455mm horizontal SMD XUNPU approved derivation land pattern
+FPC-05F-24PH20 26P 16.88x4.455mm SMD C2856805
+0
+26
+26
+LCSC
+J_smd_IDC
+BH-00143 32 pin 43.71x10.5mm horizontal SMD BOOMELE approved derivation land pattern
+BH-00143 32P 43.71x10.5mm SMD C2685069
+0
+32
+32
+LCSC
+J_smd_Molex_PicoLock_5040501291_12P
+Molex Pico-Lock 5040501291, 12 contacts plus two mechanical SMT anchors, 21.75 x 6.10 x 2.00 mm body, 1.50 mm pitch, right-angle; manufacturer land pattern 5040500000-SD PSD000 Rev B sheet 2; 100% paste, 0.10 mm stencil
+Molex Pico-Lock 5040501291 12P SMT RA 1.50mm 21.75x6.10mm anchors
+0
+14
+12
+LCSC
+J_smd_PH_1x02_P2.00_JST_RightAngle
+JST PH side-entry 2-contact SMT, 2mm pitch; 7.9x7.6mm nominal U-shaped housing projection, 5.5mm height; two unnumbered solder hold-downs; manufacturer PH recommended lands p2, minimum signal lands selected; pin 1 left, mating face positive Y; provisional courtyard: maximum housing tolerances unavailable
+PH 1x02 2P 2mm-pitch 7.9x7.6mm RightAngle SideEntry SMD JST S2B-PH-SM4-TB mechanical-tabs
+0
+4
+2
+LCSC
+J_smd_UFL_Hirose
+U.FL SMD, 3 terminals, 2.6 x 2.6 mm body. Hirose recommended land/stencil pattern, EDC3-302540-01. Grounds 1/3, signal 2; nonuniform ground paste, signal paste -0.10 mm per edge. F.Cu under-body keepout.
+U.FL SMD 3pin 2.6x2.6mm Hirose UFL asymmetric-paste
+0
+5
+3
+LCSC
+J_smd_USB-C_16P
+TYPE-C3.1MT16P 16 pin 12.36x7.475mm horizontal through-hole SHOU HAN approved derivation land pattern
+TYPE-C3.1MT16P 16P 12.36x7.475mm through-hole C168688
+0
+16
+16
+LCSC
+J_smd_USB-C_16P_GSB1C41110SSHR
+Top-mount hybrid SMD/THT 16 pin 9.14x7.6mm horizontal SMD Amphenol approved derivation land pattern
+Top-mount-hybrid-SMD/THT 16P 9.14x7.6mm SMD C34260841
+0
+16
+16
+LCSC
+J_tht_IDC_2x06_P2.54
+Megastar ZX-IDC2.54-2-6PZZ shrouded IDC header, 2x6 pins, vertical THT, 2.54mm pitch, 22.84x8.90mm body; manufacturer-recommended PCB land pattern
+IDC shrouded header Megastar ZX-IDC2.54-2-6PZZ 2x6 12P THT 2.54mm 22.84x8.90mm C7501192
+0
+12
+12
+LCSC
+J_tht_IDC_6P
+BH254V-6P 6 pin 11.08x6.77mm horizontal through-hole BOOMELE approved derivation land pattern
+BH254V-6P 6P 11.08x6.77mm through-hole C492441
+0
+6
+6
+LCSC
+J_tht_IDC_16P
+HDR-IDC-2.54-2X8P 16 pin 23.64x6.46mm horizontal through-hole BOOMELE approved derivation land pattern
+HDR-IDC-2.54-2X8P 16P 23.64x6.46mm through-hole C3406
+0
+16
+16
+LCSC
+J_tht_IDC_30P
+2.54MM2*15 30 pin 41.76x4.27mm horizontal through-hole BOOMELE approved derivation land pattern
+2.54MM2*15 30P 41.76x4.27mm through-hole C79824
+0
+30
+30
+LCSC
+J_tht_PH_6P
+S6B-PH-K-S-(LF)(SN) 6 pin 12.73x7.03mm horizontal through-hole JST approved derivation land pattern
+S6B-PH-K-S-(LF)(SN) 6P 12.73x7.03mm through-hole C157920
+0
+6
+6
+LCSC
+J_tht_RA_5P_2.54mm
+W-2510R05P-0000 5 pin 11.96x1.8mm horizontal through-hole Ckmtw approved derivation land pattern
+W-2510R05P-0000 5P 11.96x1.8mm through-hole C169029
+0
+5
+5
+LCSC
+J_tht_XH_1x02_P2.50_JST
+JST XH 2-pin vertical THT header; 7.4x5.75mm body; 2.5mm pitch; JST XH catalog p1 and p3; source-defined 1mm holes
+JST XH 2P THT P2.50 vertical
+0
+2
+2
+LCSC
+J_tht_XH_1x02_P2.50_JST_RightAngle
+JST XH S2B-XH-A-1 2-pin right-angle THT; 7.4x11.5mm body; 2.50mm pitch; horizontal row; JST eXH pp2/5 hole layout with 1.2mm FR4 assembly drill modification; provisional maximum-body courtyard
+JST XH S2B-XH-A-1 2P THT right-angle horizontal 7.4x11.5mm P2.50
+0
+2
+2
+LCSC
+J_tht_XH_1x04_P2.50
+HCTL XH-family 1x4 2.50mm pitch horizontal through-hole connector, 12.50x5.90mm body, pin-row-to-body datum approved derivation
+HCTL XH XH-4A THT 1x4 2.50mm 4P 12.50x5.90mm through-hole C2908602
+0
+4
+4
+LCSC
+J_tht_XH_1x06_P2.50
+HCTL XH-family 1x6 2.50mm pitch horizontal through-hole connector, 17.50x5.90mm body, pin-row-to-body datum approved derivation
+HCTL XH XH-6A THT 1x6 2.50mm 6P 17.50x5.90mm through-hole C2908604
+0
+6
+6
+LCSC
+J_tht_XT30PW-M
+Right-angle THT 2 pin 13.3x13.95mm vertical through-hole AMASS approved derivation land pattern
+Right-angle-THT 2P 13.3x13.95mm through-hole C431092
+0
+4
+2
+LCSC
+J_tht_Xinyangze_YZ120215036P_1P
+Xinyangze YZ120215036P-01, one round barrel D1.50 +/-0.05 mm, collar D2.0 mm; derived 1.80 mm finished PTH and 2.40 mm circular copper, 0.30 mm annular ring. Circular courtyard offset 0.25 mm; documented pad-ratio exception for staggered 2.54 mm printer contacts. Source drawing D.0, 2015-12-17.
+tht round single terminal
+0
+1
+1
+LCSC
+J_tht_hdr_8P
+PH-00250 8 pin 19.83x2.03mm horizontal through-hole DEALON approved derivation land pattern
+PH-00250 8P 19.83x2.03mm through-hole C2829996
+0
+8
+8
+LCSC
+J_tht_socket_1x20_P2.54
+Kinghelm KH-2.54FH 1x20 2.54mm pitch vertical through-hole female socket, 51.20x2.50mm body, manufacturer-recommended hole pattern
+Kinghelm KH-2.54FH-1X20P-H8.5 THT 1x20 2.54mm female socket 20P 51.20x2.50mm C2905423
+0
+20
+20
+LCSC
+J_tht_term_2P
+WJ500V-5.08-2P-14-00A 2 pin 7.08x2mm horizontal through-hole Ningbo Kangnex approved derivation land pattern
+WJ500V-5.08-2P-14-00A 2P 7.08x2mm through-hole C8465
+0
+2
+2
+LCSC
+J_tht_term_2P_5.0mm
+DB301V-5.0-2P-BU-S 2 pin 7.4x2.4mm horizontal through-hole DIBO approved derivation land pattern
+DB301V-5.0-2P-BU-S 2P 7.4x2.4mm through-hole C395882
+0
+2
+2
+LCSC
+J_tht_term_3P
+WJ500V-5.08-3P-14-00A 3 pin 13.73x6.53mm horizontal through-hole Ningbo Kangnex approved derivation land pattern
+WJ500V-5.08-3P-14-00A 3P 13.73x6.53mm through-hole C72334
+0
+3
+3
+LCSC
+J_tht_term_3P_5.08mm_TE_282837
+282837-3 3 pin 13.71x5.13mm horizontal through-hole TE Connectivity approved derivation land pattern
+282837-3 3P 13.71x5.13mm through-hole C589616
+0
+3
+3
+LCSC
+J_tht_term_5P_5.0mm_TE_282836
+282836-5 5 pin 25x8.2mm horizontal through-hole TE Connectivity manufacturer-recommended land pattern
+282836-5 5P 25x8.2mm through-hole C3816800
+0
+5
+5
+LCSC
+K7805-2000R3
+SIP-3 3 pin 6.68x1.6mm horizontal through-hole DEXU approved derivation land pattern
+SIP-3 3P 6.68x1.6mm through-hole C2931187
+0
+3
+3
+LCSC
+K_tht_reed_HVR05_1A10_06
+HVR05-1A10-06 4 pin 65.23x18.23mm horizontal through-hole MiRelay approved derivation land pattern
+HVR05-1A10-06 4P 65.23x18.23mm through-hole C22388650
+0
+4
+4
+LCSC
+K_tht_relay
+K_tht_relay 4 pin 19.92x9.74mm horizontal through-hole Omron approved derivation land pattern
+K_tht_relay 4P 19.92x9.74mm through-hole C397224
+0
+4
+4
+LCSC
+LS_smd_piezo_9.6mm
+GSD9605YB-3V2800 2 pin 5.83x12.6mm vertical SMD INGHAi approved derivation land pattern
+GSD9605YB-3V2800 2P 5.83x12.6mm SMD C255327
+0
+2
+2
+LCSC
+L_smd_FXL0630
+7.5x7.2x7.0mm SMD 2 pin 7.2x7.0mm horizontal SMD cjiang manufacturer-recommended land pattern
+7.5x7.2x7.0mm-SMD 2P 7.2x7.0mm SMD C167212
+0
+2
+2
+LCSC
+L_smd_SPM4030_HZ_TDK
+TDK SPM4030-HZ 4.1x4.0x3.0mm shielded power inductor; manufacturer-recommended 1.8x1.9mm land pattern
+TDK SPM4030T-1R0M-HZ C435273 1uH shielded power inductor AEC-Q200
+0
+2
+2
+LCSC
+L_smd_XAL5030
+5.3x5.5x3.1mm SMD 2 pin 5.5x3.1mm vertical SMD Coilcraft manufacturer-recommended land pattern
+5.3x5.5x3.1mm-SMD 2P 5.5x3.1mm SMD C920280
+0
+2
+2
+LCSC
+L_smd_chip_0201_Murata_LQP03TN
+0201 SMD, 2 terminals, 0.6 x 0.3 mm body. Two opposing lands, 0.55 mm center spacing. Murata LQP03TN specification section 12.1; 0.30 x 0.25 mm lands, 0.25 mm gap within recommended range.
+0201 SMD 2pin 0.6x0.3mm Murata 0603Metric
+0
+2
+2
+LCSC
+L_smd_chip_0402
+L0402 2 pin 1.34x0.55mm horizontal SMD Sunlord approved derivation land pattern
+L0402 2P 1.34x0.55mm SMD C52051
+0
+2
+2
+LCSC
+L_smd_chip_0402_Murata_LQG15HS
+0402 SMD, 2 terminals, 1 x 0.5 mm body. Two opposing lands, 0.925 mm center spacing. Murata LQG15HS specification section 11.1; 0.525 x 0.55 mm lands, 0.40 mm gap within recommended range.
+0402 SMD 2pin 1x0.5mm Murata 1005Metric
+0
+2
+2
+LCSC
+L_smd_chip_0402_TDK_MLG1005S
+0402 SMD, 2 terminals, 1 x 0.5 mm body. Two opposing lands, 0.9 mm center spacing. TDK MLG1005S recommended land pattern p12; 0.50 x 0.50 mm lands, 0.40 mm gap.
+0402 SMD 2pin 1x0.5mm TDK 1005Metric
+0
+2
+2
+LCSC
+L_smd_chip_0603
+L0603 2 pin 2.2x0.86mm horizontal SMD Sunlord approved derivation land pattern
+L0603 2P 2.2x0.86mm SMD C1002
+0
+2
+2
+LCSC
+L_smd_chip_0805
+L0805 2 pin 3.07x1.38mm horizontal SMD Sunlord approved derivation land pattern
+L0805 2P 3.07x1.38mm SMD C99366
+0
+2
+2
+LCSC
+L_smd_pwr_1.7mm
+1.7X1.0MM SMD 2 pin 1.7x1.0mm horizontal SMD Fenghua approved derivation land pattern
+1.7X1.0MM-SMD 2P 1.7x1.0mm SMD C346307
+0
+2
+2
+LCSC
+L_smd_pwr_3.0mm
+3.0X3.0MM SMD 2 pin 3.0x3.0mm horizontal SMD Sumida manufacturer-recommended land pattern
+3.0X3.0MM-SMD 2P 3.0x3.0mm SMD C312973
+0
+2
+2
+LCSC
+L_smd_pwr_4.4mm
+4.4X4.2MM SMD 2 pin 4.4x4.2mm horizontal SMD Sunlord manufacturer-recommended land pattern
+4.4X4.2MM-SMD 2P 4.4x4.2mm SMD C167203
+0
+2
+2
+LCSC
+L_smd_pwr_6.0mm
+6.0X6.0MM SMD 2 pin 6.0x6.0mm horizontal SMD Sumida approved derivation land pattern
+6.0X6.0MM-SMD 2P 6.0x6.0mm SMD C354622
+0
+2
+2
+LCSC
+L_smd_pwr_2016_DFE201612E
+2016 SMD, 2 terminals, 2 x 1.6 mm body. Two opposing lands, 1.6 mm center spacing. Murata DFE201612E recommended land pattern p5; 0.80 x 1.80 mm lands, 0.80 mm gap.
+2016 SMD 2pin 2x1.6mm Murata
+0
+2
+2
+LCSC
+L_smd_shld_12.5mm
+12.5X12.5MM SMD 4 pin 12.5x12.5mm horizontal SMD Sunlord manufacturer-recommended land pattern
+12.5X12.5MM-SMD 4P 12.5x12.5mm SMD C2846223
+0
+4
+4
+LCSC
+MK_smd_MEMS
+3.5X2.7MM 6P SMD 6 pin 3.5x2.7mm horizontal SMD TDK InvenSense manufacturer-recommended land pattern
+3.5X2.7MM-6P-SMD 6P 3.5x2.7mm SMD C5656610
+0
+9
+6
+LCSC
+MountingHole_3.2mm_M3_ISO7380_Pad
+Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py
+mountinghole M3 ISO7380
+0
+1
+1
+LCSC
+MountingHole_M2_Clearance_D2.4_HeadD4.0
+Unplated M2 clearance passage, 2.40 mm drill per _parts mounting_m2_2.40 standard; generic hole only. Reserve 4.0 mm maximum screw-head/washer diameter, with 0.25 mm radial clearance. No supplied fastener or electrical bond.
+mounting hole m2 npth clearance 2.4mm head 4.0mm
+0
+0
+0
+LCSC
+PAD_tht_9V_1P
+Single through-hole solder pad for a low-voltage off-board wire
+pad wire solder low-voltage 9V 1P
+0
+1
+1
+LCSC
+PAD_tht_1500V_1P
+Single through-hole solder pad for a 1500 V off-board wire
+pad wire solder high-voltage 1500V 1P
+0
+1
+1
+LCSC
+PAD_tht_Wire_28AWG_1P
+Single soldered stripped 28 AWG wire termination, derived 0.80 mm PTH and 1.30 mm copper; no purchased component, no paste. Accept maximum tinned conductor diameter 0.60 mm.
+tht round single terminal
+0
+1
+1
+LCSC
+Q_smd_DFN_8P_3x3
+DFN3x3-8 8 pin 3.2x3.2mm vertical SMD VBsemi approved derivation land pattern
+DFN3x3-8 8P 3.2x3.2mm SMD C693293
+0
+9
+8
+LCSC
+Q_smd_DFN_8P_AOS_3x3A
+AOS DFN3x3A_8L_EP1_P, 8 terminals, 3x3mm body, 0.65mm pitch, continuous notched exposed drain with side tabs; PO-00047 version I manufacturer copper; derived four-window drain paste; provisional flash allowance in courtyard, see review
+AOS DFN3x3A_8L_EP1_P DFN-8 3x3mm 0.65mm exposed-drain SMD
+0
+13
+8
+LCSC
+Q_smd_POWERDI5060_8P
+PowerDI5060-8 8 pin 5.15x5.8mm vertical SMD Diodes Inc. manufacturer-suggested land pattern
+PowerDI5060-8 8P 5.15x5.8mm SMD C397981
+0
+10
+8
+LCSC
+Q_smd_SOT23_1
+SOT-23-3 3 pin 3.25x2.6mm horizontal SMD Changjiang approved derivation land pattern
+SOT-23-3 3P 3.25x2.6mm SMD C20526
+0
+3
+3
+LCSC
+Q_smd_SOT23_2
+SOT-23-3 3 pin 3.75x2.78mm horizontal SMD Diodes Inc manufacturer-recommended land pattern
+SOT-23-3 3P 3.75x2.78mm SMD C96616
+0
+3
+3
+LCSC
+Q_smd_SOT23_3
+SOT-23-3 3 pin 3.55x2.74mm horizontal SMD Changjiang approved derivation land pattern
+SOT-23-3 3P 3.55x2.74mm SMD C109431
+0
+3
+3
+LCSC
+Q_smd_SOT23_4
+SOT-23-3 3 pin 3.24x2.745mm horizontal SMD UMW approved derivation land pattern
+SOT-23-3 3P 3.24x2.745mm SMD C347373
+0
+3
+3
+LCSC
+Q_smd_SOT23_5
+AOS SOT23 3-pin SMD; 2.90x1.60mm body; 0.95mm pitch; horizontal manufacturer recommended land pattern PO-00001 Rev N
+SOT23 SOT-23 3P SMD P0.95 2.9x1.6mm AOS
+0
+3
+3
+LCSC
+Q_smd_SOT23_6
+SOT-23-3 3 pin 3.25x2.78mm horizontal SMD Changjiang approved derivation land pattern
+SOT-23-3 3P 3.25x2.78mm SMD C8512
+0
+3
+3
+LCSC
+Q_smd_SOT223_1
+SOT-223-4 4 pin 8.36x6.13mm horizontal SMD ST manufacturer-recommended land pattern
+SOT-223-4 4P 8.36x6.13mm SMD C134077
+0
+4
+4
+LCSC
+Q_smd_SOT223_2
+SOT-223-4 4 pin 8.18x6.105mm horizontal SMD Advanced Monolithic Systems approved derivation land pattern
+SOT-223-4 4P 8.18x6.105mm SMD C6187
+0
+4
+4
+LCSC
+Q_smd_SOT235_1
+SOT-23-5 5 pin 3.2x2.73mm horizontal SMD Aerosemi approved derivation land pattern
+SOT-23-5 5P 3.2x2.73mm SMD C5156572
+0
+5
+5
+LCSC
+Q_smd_SOT235_2
+SOT-23-5 5 pin 2.745x3.55mm vertical SMD etasolution approved derivation land pattern
+SOT-23-5 5P 2.745x3.55mm SMD C7436029
+0
+5
+5
+LCSC
+Q_smd_SOT235_3
+SOT-23-5 5 pin 3.7x2.73mm horizontal SMD Microchip manufacturer-recommended land pattern
+SOT-23-5 5P 3.7x2.73mm SMD C14879
+0
+5
+5
+LCSC
+Q_smd_SOT236_1
+SOT-23-6 6 pin 2.705x3.37mm vertical SMD Aerosemi manufacturer-recommended land pattern
+SOT-23-6 6P 2.705x3.37mm SMD C84817
+0
+6
+6
+LCSC
+Q_smd_SOT236_2
+SOT-23-6 6 pin 3.8x2.73mm horizontal SMD TI manufacturer-recommended land pattern
+SOT-23-6 6P 3.8x2.73mm SMD C131941
+0
+6
+6
+LCSC
+Q_smd_TO252_3P
+DPAK TO-252-3 3 pin 6.73x7.5mm vertical SMD Infineon approved derivation land pattern
+DPAK-TO-252-3 3P 6.73x7.5mm SMD C81137
+0
+9
+3
+LCSC
+Q_smd_TO263_5P
+TO-263-5 6 pin 15.955x10.43mm horizontal SMD HGSEMI manufacturer-recommended land pattern
+TO-263-5 6P 15.955x10.43mm SMD C194472
+0
+6
+6
+LCSC
+Q_smd_TSMT3_3P
+TSMT3-3 3 pin 3.18x2.6mm horizontal SMD ROHM approved derivation land pattern
+TSMT3-3 3P 3.18x2.6mm SMD C3281896
+0
+3
+3
+LCSC
+Q_smd_VSON_8P_TI_Q3
+Texas Instruments Q3 VSON-CLIP-8; 3.3x3.3mm body, 0.65mm pitch, continuous exposed drain copper and 10 separate paste windows; CSD17308Q3 SLPS262C pp9-10 manufacturer land; pin1 bottom left
+TI Texas Instruments Q3 VSON-CLIP-8 8P 3.3x3.3mm 0.65mm exposed-drain segmented-paste SMD
+0
+19
+8
+LCSC
+RJ11-TH_DS1133-S60BPX
+DS1133-S60BPX 6 pin 14.21x13.54mm horizontal through-hole Connfly approved derivation land pattern
+DS1133-S60BPX 6P 14.21x13.54mm through-hole C77859
+0
+6
+6
+LCSC
+RV_tht_trim_3296W
+3296W-1-103LF 3 pin 1.6x6.68mm vertical through-hole BOURNS approved derivation land pattern
+3296W-1-103LF 3P 1.6x6.68mm through-hole C34846
+0
+3
+3
+LCSC
+RV_tht_trim_3362P-1-104LF
+3362P-1-104LF 3 pin 6.85x6.69mm horizontal through-hole BOURNS approved derivation land pattern
+3362P-1-104LF 3P 6.85x6.69mm through-hole C81266
+0
+3
+3
+LCSC
+R_offboard_THS50_no_pads
+Off-board THS50 chassis resistor placeholder; intentionally has no PCB pads
+off-board chassis resistor no-pads THS50
+0
+0
+0
+LCSC
+R_smd_array_0603_8P
+R0603X4 8 pin 3.155x2.4mm horizontal SMD Yageo manufacturer-recommended land pattern
+R0603X4 8P 3.155x2.4mm SMD C110924
+0
+8
+8
+LCSC
+R_smd_chip_0402_Fojan
+Fojan FRC-series 0402 (1005 metric) 2-terminal thick-film chip resistor footprint; 0.45 mm x 0.50 mm pads on 1.00 mm pitch, using the midpoint of the manufacturer's recommended land-pattern ranges
+R0402 0402 1005 metric resistor chip thick-film SMD SMT 2-terminal Fojan Fosan FRC
+0
+2
+2
+LCSC
+R_smd_chip_0402_UniOhm
+UniOhm 0402 (1005 metric) horizontal 2-terminal chip package; nominal body 1.00x0.50x0.35mm, maximum 1.10x0.55x0.40mm; 0.95mm pad pitch; manufacturer-recommended 0.45x0.50mm rectangular lands per 0402-series datasheet pages 4-5
+0402 1005 2P 1.00x0.50mm 0.95mm-pitch SMD UniOhm Uniroyal
+0
+2
+2
+LCSC
+R_smd_chip_0402_Yageo
+Yageo 0402 (1005 metric) 2-terminal chip resistor footprint; 0.50 mm x 0.60 mm pads on 1.00 mm pitch per the Yageo Chip Resistors Mounting V.10 reflow land pattern
+R0402 0402 1005 metric resistor chip SMD SMT 2-terminal Yageo Phycomp RC AC RT thick-film thin-film reflow
+0
+2
+2
+LCSC
+R_smd_chip_0603_UniOhm
+UniOhm 0603 (1608 metric) 2-terminal thick-film chip resistor footprint; 0.65 mm x 0.80 mm pads with 2.10 mm overall land span per the UniOhm 0603-series recommended land pattern
+R0603 0603 1608 metric resistor chip thick-film SMD SMT 2-terminal UniOhm Uniroyal
+0
+2
+2
+LCSC
+R_smd_chip_0805
+R0805 2 pin 3.13x1.38mm horizontal SMD UniOhm approved derivation land pattern
+R0805 2P 3.13x1.38mm SMD C149504
+0
+2
+2
+LCSC
+R_smd_chip_0805_Yageo
+Yageo RT 0805 (2012 metric), 2 terminals, 2.00x1.25 mm nominal body; horizontal reflow lands 0.90x1.20 mm on 2.10 mm pitch per Chip Resistors Mounting V10 Table 1; RT V17 body and manufacturer maximum-envelope STEP
+Yageo RT 0805 2012 2P 2.00x1.25mm P2.10mm SMD reflow
+0
+2
+2
+LCSC
+R_smd_chip_1210_UniOhm
+UniOhm 1210 2-terminal SMD; body 3.10x2.60mm; horizontal manufacturer land pattern 1.10x2.60mm rectangular pads on 3.10mm pitch; Thick Film Chip Resistors V3 p5
+resistor SMD 1210 3225 2P UniOhm Uni-Royal P3.10
+0
+2
+2
+LCSC
+R_smd_chip_1210_Yageo
+Resistor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+LCSC
+R_smd_chip_2512_UniOhm
+R2512 2 pin 6.45x3.4mm horizontal SMD UniOhm approved derivation land pattern
+R2512 2P 6.45x3.4mm SMD C55485
+0
+2
+2
+LCSC
+R_smd_chip_2512_Yageo
+Yageo PA2512_E, 2 terminals, horizontal 6.35 x 3.18 mm body; 4.32 mm pad pitch; manufacturer-recommended 1-4 mOhm land pattern with 3.05 x 3.68 mm lands and 1.27 mm gap. Yageo PA_E V.10 (2018-01-31), pp. 3-4 and 7; reviewed for PA2512FKF7W0R002E.
+Yageo PA2512_E 2512 6332 SMD 2-pin 6.35x3.18mm pitch4.32mm
+0
+2
+2
+LCSC
+SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR
+SOT-23-5 5 pin 3.7x2.73mm horizontal SMD Silergy manufacturer-recommended land pattern
+SOT-23-5 5P 3.7x2.73mm SMD C78988
+0
+5
+5
+LCSC
+SOT-457
+SOT-23-6 6 pin 3.1x3.1mm horizontal SMD TECH PUBLIC manufacturer-recommended land pattern
+SOT-23-6 6P 3.1x3.1mm SMD C2987082
+0
+6
+6
+LCSC
+SW_smd_SP3T_slide
+SS-3235D-03-L2 3 pin 7.66x7.8mm vertical SMD C&K approved derivation land pattern
+SS-3235D-03-L2 3P 7.66x7.8mm SMD C381097
+0
+3
+3
+LCSC
+SW_smd_SPDT_slide
+K3-2235S-K1 6 pin 7.8x7.68mm horizontal SMD Korean Hroparts approved derivation land pattern
+K3-2235S-K1 6P 7.8x7.68mm SMD C145845
+0
+6
+6
+LCSC
+SW_smd_gen_5.1mm
+TS-1187A-B-A-B 4 pin 7x4.805mm horizontal SMD XKB approved derivation land pattern
+TS-1187A-B-A-B 4P 7x4.805mm SMD C318884
+0
+4
+4
+LCSC
+SW_smd_gen_6.2mm
+DTSMG-68K-S-V-T_R 5 pin 10x6.08mm horizontal SMD Diptronics approved derivation land pattern
+DTSMG-68K-S-V-T_R 5P 10x6.08mm SMD C495917
+0
+5
+5
+LCSC
+SW_smd_tact_6.0mm
+K2-1102SP-C4SC-04 4 pin 5.77x10.74mm vertical SMD Korean Hroparts approved derivation land pattern
+K2-1102SP-C4SC-04 4P 5.77x10.74mm SMD C127509
+0
+4
+4
+LCSC
+SW_smd_tact_6mm
+B3S-1002 4 pin 9.5x6.63mm horizontal SMD Omron approved derivation land pattern
+B3S-1002 4P 9.5x6.63mm SMD C271751
+0
+4
+4
+LCSC
+SW_tht_DIP
+100AWDP1T2B4M2QE 6 pin 12.86x11.84mm horizontal through-hole Dailywell approved derivation land pattern
+100AWDP1T2B4M2QE 6P 12.86x11.84mm through-hole C273347
+0
+6
+6
+LCSC
+SW_tht_SPDT_slide
+HXSK12D07VG3 5 pin 10.3x6.53mm horizontal through-hole HXWH approved derivation land pattern
+HXSK12D07VG3 5P 10.3x6.53mm through-hole C5149832
+0
+5
+5
+LCSC
+SW_tht_SPDT_slide_2
+SS-12D10L5 3 pin 12.21x5.01mm horizontal through-hole C&K approved derivation land pattern
+SS-12D10L5 3P 12.21x5.01mm through-hole C319012
+0
+3
+3
+LCSC
+SW_tht_enc_11mm
+EC11E18244A5 7 pin 13.33x16.33mm vertical through-hole Alps approved derivation land pattern
+EC11E18244A5 7P 13.33x16.33mm through-hole C255515
+0
+7
+7
+LCSC
+SW_tht_toggle
+2AS3T1A1M2QES 3 pin 3.5x7.6mm vertical through-hole Dailywell approved derivation land pattern
+2AS3T1A1M2QES 3P 3.5x7.6mm through-hole C908284
+0
+3
+3
+LCSC
+TP_tht_Keystone_5001
+Keystone 5001 miniature single-terminal THM body, diameter 2.54 mm; source-defined 1.02 mm finished hole from 0.040 inch mounting callout, derived 1.60 mm square copper land. Keystone miniature color-keyed THM datasheet, p56.
+keystone 5001 miniature tht single terminal 2.54mm snap-fit
+0
+1
+1
+LCSC
+TestPoint_Pad_D1.0mm
+SMD pad as test Point, diameter 1.0mm
+test point SMD pad
+0
+1
+1
+LCSC
+TestPoint_Pad_D2.0mm
+SMD pad as test Point, diameter 2.0mm
+test point SMD pad
+0
+1
+1
+LCSC
+TestPoint_Pad_D3.0mm
+SMD pad as test Point, diameter 3.0mm
+test point SMD pad
+0
+1
+1
+LCSC
+USB-C-TH_TYPEC-306DDW-ARP16
+TYPEC-306DDW-ARP16 16 pin 9.94x9.875mm horizontal through-hole XunPu approved derivation land pattern
+TYPEC-306DDW-ARP16 16P 9.94x9.875mm through-hole C2840393
+0
+20
+16
+LCSC
+U_smd_DFN_6P_1
+DFN-6 8 pin 1.87x2.5mm vertical SMD JSMSEMI approved derivation land pattern
+DFN-6 8P 1.87x2.5mm SMD C2874704
+0
+8
+8
+LCSC
+U_smd_DFN_6P_2
+DFN-6 7 pin 3.66x2.73mm horizontal SMD ST manufacturer-recommended land pattern
+DFN-6 7P 3.66x2.73mm SMD C132827
+0
+7
+7
+LCSC
+U_smd_ESOP_8P
+ESOP-8 9 pin 4.69x7.02mm vertical SMD TOPPOWER approved derivation land pattern
+ESOP-8 9P 4.69x7.02mm SMD C16581
+0
+9
+9
+LCSC
+U_smd_HTSSOP_28P
+HTSSOP-28 29 pin 9.28x7.47mm horizontal through-hole TI manufacturer-recommended land pattern
+HTSSOP-28 29P 9.28x7.47mm through-hole C92482
+0
+37
+29
+LCSC
+U_smd_HTSSOP_32P
+HTSSOP-32 33 pin 10.58x9.17mm horizontal through-hole TI manufacturer-recommended land pattern
+HTSSOP-32 33P 10.58x9.17mm through-hole C202199
+0
+42
+33
+LCSC
+U_smd_LGA_20P
+LGA-20 20 pin 3.195x4.65mm vertical SMD Bosch manufacturer-recommended land pattern
+LGA-20 20P 3.195x4.65mm SMD C94022
+0
+20
+20
+LCSC
+U_smd_LQFP_48P
+LQFP-48 48 pin 10x10mm horizontal SMD ST manufacturer-recommended land pattern
+LQFP-48 48P 10x10mm SMD C23922
+0
+48
+48
+LCSC
+U_smd_LQFP_64P
+LQFP-64 64 pin 12.9x12.88mm horizontal SMD ST manufacturer-recommended land pattern
+LQFP-64 64P 12.9x12.88mm SMD C46046
+0
+64
+64
+LCSC
+U_smd_PowerWCSP_8P_1.239x1.319_TI_YWF0008A
+TI YWF0008A PowerWCSP/DSBGA, 8 contacts, 1.239 x 1.319 mm nominal body; 0.4 mm signal pitch, two asymmetric power lands. Manufacturer-recommended R0.05 lands, +0.025 mm NSMD mask, 1:1 paste for 0.075 mm stencil. INA700 datasheet SBOSAB4B pp40-42.
+PowerWCSP DSBGA YWF0008A 8pin 1.239x1.319mm 0.4mmPitch SMD TI
+0
+8
+8
+LCSC
+U_smd_QFN_10P
+UQFN-10 10 pin 2.3x1.88mm horizontal SMD TI manufacturer-recommended land pattern
+UQFN-10 10P 2.3x1.88mm SMD C128396
+0
+10
+10
+LCSC
+U_smd_QFN_20P
+QFN-20 20 pin 3x5mm vertical SMD MPS manufacturer-recommended land pattern
+QFN-20 20P 3x5mm SMD C5173872
+0
+20
+20
+LCSC
+U_smd_QFN_24P_EP
+WQFN-24 4x4mm EP 25 pin 4x4mm horizontal SMD Texas Instruments datasheet land-pattern example
+WQFN-24-4x4mm-EP 25P 4x4mm SMD C80200
+0
+29
+25
+LCSC
+U_smd_QFN_28P
+QFN-28 29 pin 4.48x4.48mm horizontal SMD ISSI manufacturer-recommended land pattern
+QFN-28 29P 4.48x4.48mm SMD C191206
+0
+29
+29
+LCSC
+U_smd_QFN_56P_7x7_ESP32S3FN8
+QFN-56-EP SMD, 57 terminals, 7 x 7 mm body. Espressif ESP32-S3_Footprint.asc reference copper, 0.40 mm pitch, nine 1 mm lands sharing exposed pad 57. Twelve F.Fab-only via guides. Mask and 1:1 paste derived from lands; stencil process requires board-level review.
+QFN-56-EP SMD 57pin 7x7mm Espressif-Systems QFN56 EP 0.4mmPitch via-guides
+0
+65
+57
+LCSC
+U_smd_QFN_128P
+QFN-128 129 pin 12.78x12.78mm horizontal SMD Rockchip approved derivation land pattern
+QFN-128 129P 12.78x12.78mm SMD C5328706
+0
+129
+129
+LCSC
+U_smd_SOIC_8P
+SOIC-8 8 pin 3.9x4.9mm body 1.27mm pitch horizontal SMD shared library land pattern
+SOIC-8 SOIC8 8P 3.9x4.9mm 1.27mm pitch SMD
+0
+8
+8
+LCSC
+U_smd_SOIC_14P
+SOIC-14 14 pin 3.9x8.65mm vertical SMD Nexperia approved derivation land pattern
+SOIC-14 14P 3.9x8.65mm SMD C5605
+0
+14
+14
+LCSC
+U_smd_SOIC_16P_1
+SOIC-16 16 pin 10.17x7.74mm horizontal SMD NXP approved derivation land pattern
+SOIC-16 16P 10.17x7.74mm SMD C148206
+0
+16
+16
+LCSC
+U_smd_SOIC_16P_2
+SOIC-16 16 pin 9.49x6.95mm horizontal SMD NXP manufacturer-recommended land pattern
+SOIC-16 16P 9.49x6.95mm SMD C5947
+0
+16
+16
+LCSC
+U_smd_SOIC_18P
+SOIC-18 18 pin 10.72x11.7mm vertical SMD TI approved derivation land pattern
+SOIC-18 18P 10.72x11.7mm SMD C9683
+0
+18
+18
+LCSC
+U_smd_SOIC_20P
+SOIC-20 20 pin 12.435x11.82mm horizontal SMD TI manufacturer-recommended land pattern
+SOIC-20 20P 12.435x11.82mm SMD C7094
+0
+20
+20
+LCSC
+U_smd_SOJ
+SOJ-4 4 pin 7.63x5.1mm horizontal SMD Abracon approved derivation land pattern
+SOJ-4 4P 7.63x5.1mm SMD C1985642
+0
+4
+4
+LCSC
+U_smd_SOP_8P_1
+SOP-8 8 pin 4.695x7.22mm vertical SMD WCH approved derivation land pattern
+SOP-8 8P 4.695x7.22mm SMD C2977777
+0
+8
+8
+LCSC
+U_smd_SOP_8P_2
+SOP-8 8 pin 4.665x7.58mm vertical SMD VBsemi approved derivation land pattern
+SOP-8 8P 4.665x7.58mm SMD C693250
+0
+8
+8
+LCSC
+U_smd_SOT23_3P
+SOT-23-3 3 pin 3.4x2.5mm horizontal SMD TI manufacturer-recommended land pattern
+SOT-23-3 3P 3.4x2.5mm SMD C183104
+0
+3
+3
+LCSC
+U_smd_SOT23_6P_TI_DBV
+Texas Instruments DBV0006A SOT-23-6; 2.9x1.6mm nominal body, 3.05x1.75mm maximum envelope; 1.1x0.6mm R0.05 pads, 2.6mm rows, 0.95mm pitch; 4214840/G 08/2024 manufacturer land, rotated 180 degrees
+TI Texas Instruments DBV DBV0006A SOT-23-6 6P 2.9x1.6mm 0.95mm SMD
+0
+6
+6
+LCSC
+U_smd_SOT25_5P
+SOT-23-5 5 pin 2.52x3.7mm vertical SMD Diodes Inc manufacturer-recommended land pattern
+SOT-23-5 5P 2.52x3.7mm SMD C51118
+0
+5
+5
+LCSC
+U_smd_SOT563_6P
+SOT-563-6 6 pin 2.1x1.48mm horizontal SMD TI manufacturer-recommended land pattern
+SOT-563-6 6P 2.1x1.48mm SMD C919459
+0
+6
+6
+LCSC
+U_smd_SOT666_6P
+SOT-666-6 6 pin 1.3x2mm vertical SMD TECH PUBLIC approved derivation land pattern
+SOT-666-6 6P 1.3x2mm SMD C2827693
+0
+6
+6
+LCSC
+U_smd_SOT_23_5
+SOT-23-5 5 pin 3.7x2.5mm horizontal SMD TI manufacturer-recommended land pattern
+SOT-23-5 5P 3.7x2.5mm SMD C6290353
+0
+5
+5
+LCSC
+U_smd_SSOP_8P_TI_DCT
+Texas Instruments SSOP-8 DCT; 3x3mm body; 0.65mm pitch; 1.1x0.4mm R0.05 lands at 3.8mm rows; manufacturer land and 1:1 paste, 4220784/D 10/2025
+TI Texas Instruments DCT DCT0008A SSOP-8 SM8 8P 3.0x3.0mm 0.65mm SMD
+0
+8
+8
+LCSC
+U_smd_TDFN_8P_EP
+TDFN-8 2x2mm EP 9 pin 2x2mm horizontal SMD Analog Devices approved derivation land pattern
+TDFN-8-2x2mm-EP 9P 2x2mm SMD C2682616
+0
+13
+9
+LCSC
+U_smd_TQFP_32P
+TQFP-32 32 pin 10.41x10.39mm horizontal SMD Microchip manufacturer-recommended land pattern
+TQFP-32 32P 10.41x10.39mm SMD C132230
+0
+32
+32
+LCSC
+U_smd_TQFP_100P
+TQFP-100 100 pin 17x17mm horizontal SMD Microchip approved derivation land pattern
+TQFP-100 100P 17x17mm SMD C22460
+0
+100
+100
+LCSC
+U_smd_TSOT23_6P
+Analog Devices 21-0114 TSOT-23-6, 6 pin 1.60x2.90mm nominal body, 0.95mm pitch horizontal SMD package land pattern
+Analog Devices ADI 21-0114 TSOT-23-6 TSOT23-6 6P 1.60x2.90mm 0.95mm pitch SMD
+0
+6
+6
+LCSC
+U_smd_TSOT23_8P_ADI
+Analog Devices TSOT-23-8 (TS8), 8-pin 2.9x1.6mm body, 0.65mm pitch, manufacturer-recommended land pattern
+ADI Analog Devices TS8 TSOT-23-8 8P 2.9x1.6mm 0.65mm SMD
+0
+8
+8
+LCSC
+U_smd_TSSOP_14P_TI_PW
+Texas Instruments TSSOP-14 PW; 4.4x5mm body; 0.65mm pitch; 1.5x0.45mm R0.05 lands at 5.8mm rows; manufacturer land and 1:1 paste, 4220202/B 12/2023
+TI Texas Instruments PW PW0014A TSSOP-14 14P 4.4x5.0mm 0.65mm SMD
+0
+14
+14
+LCSC
+U_smd_TSSOP_16P
+TSSOP-16 16 pin 4.4x5mm horizontal SMD Texas Instruments manufacturer-recommended land pattern
+TSSOP-16 16P 4.4x5mm SMD C2155885
+0
+16
+16
+LCSC
+U_smd_TSSOP_28P
+TSSOP-28 28 pin 8.2x9.315mm vertical SMD NXP manufacturer-recommended land pattern
+TSSOP-28 28P 8.2x9.315mm SMD C2678753
+0
+28
+28
+LCSC
+U_smd_USON_10P
+USON-10 2.5x1.0mm 10 pin 2.5x1.0mm horizontal SMD Texas Instruments approved derivation land pattern
+USON-10-2.5x1.0mm 10P 2.5x1.0mm SMD C90627
+0
+10
+10
+LCSC
+U_smd_VQFN_20P_EP
+VQFN-20 4.5x3.5mm EP 21 pin 4.5x3.5mm vertical SMD Texas Instruments manufacturer-recommended land pattern
+VQFN-20-4.5x3.5mm-EP 21P 4.5x3.5mm SMD C87357
+0
+21
+21
+LCSC
+U_smd_VQFN_HR_10P_2x2_TI_RPW
+Texas Instruments RPW0010A VQFN-HR-10, 10-pin 2.0x2.0mm nominal body, 0.45mm pitch, vertical SMD, nonuniform L-shaped corner lands and segmented paste apertures, manufacturer-recommended land and stencil pattern
+VQFN-HR-10 VQFN10 HotRod QFN RPW RPW0010A 10P 2.0x2.0mm 0.45mm pitch SMD nonuniform lands split paste TI
+0
+22
+10
+LCSC
+U_smd_VSON_8P
+VSON-8 8 pin 1.905x1.91mm vertical SMD TI manufacturer-recommended land pattern
+VSON-8 8P 1.905x1.91mm SMD C469860
+0
+8
+8
+LCSC
+U_smd_VSON_HR_10P_2x3_DLA0010A
+VSON-HR-10 SMD, 10 terminals, 2 x 3 mm body. TI DLA0010A example land pattern, 0.50 mm pitch, R0.05 asymmetric lands. Pin 8 split stencil, +0.05 mm NSMD mask; no separate exposed pad.
+VSON-HR-10 SMD 10pin 2x3mm Texas-Instruments VSON DLA0010A 0.5mmPitch split-paste
+0
+12
+10
+LCSC
+U_smd_VSSOP_10P
+TI VSSOP-10 DGS0010A; 3x3mm nominal body, 0.5mm pitch; manufacturer land pattern: 1.45x0.30mm R0.05 pads, 4.4mm rows; mask +0.05mm, 1:1 paste; drawing 4221984/A 05/2015 (https://www.ti.com/lit/ds/symlink/ina226.pdf)
+VSSOP-10 DGS DGS0010A 10P SMD 3x3mm P0.5mm
+0
+10
+10
+LCSC
+U_smd_WSON_8P
+WSON-8 9 pin 9.18x5.22mm horizontal through-hole Winbond approved derivation land pattern
+WSON-8 9P 9.18x5.22mm through-hole C88868
+0
+18
+9
+LCSC
+U_smd_WSON_8P_2x2_EP
+WSON-8 2X2MM EP 9 pin 2x2mm horizontal SMD TI manufacturer-recommended land pattern
+WSON-8-2X2MM-EP 9P 2x2mm SMD C324077
+0
+9
+9
+LCSC
+U_smd_WSON_10P_EP_TI
+Texas Instruments DML0010A WSON-10, 3.0x2.0mm body, 0.50mm pitch, exposed thermal pad, solder-mask-defined VOUT plate, segmented stencil apertures, manufacturer-recommended land and stencil pattern
+TI Texas-Instruments WSON-10 DML0010A 10P 3.0x2.0mm P0.50 EP SMD solder-mask-defined segmented-paste
+0
+18
+11
+LCSC
+U_smd_X2QFN_12P_TI
+Texas Instruments RWB0012A X2QFN-12, 1.6x1.6mm body, 0.40mm pitch, manufacturer-recommended land pattern with reduced paste apertures on pads 1, 2, 7 and 8
+TI Texas-Instruments X2QFN-12 RWB0012A 12P 1.6x1.6mm P0.40 SMD
+0
+16
+12
+LCSC
+U_smd_module_ESP32C3
+ESP32-C3-MINI-1-N4 53 pin 12.93x16.33mm vertical SMD Espressif manufacturer-recommended land pattern
+ESP32-C3-MINI-1-N4 53P 12.93x16.33mm SMD C2838502
+0
+61
+53
+LCSC
+U_smd_module_ESP32S3
+ESP32-S3-WROOM-1(N16R8) 41 pin 19x26.06mm vertical SMD Espressif manufacturer-recommended land pattern
+ESP32-S3-WROOM-1(N16R8) 41P 19x26.06mm SMD C2913202
+0
+49
+41
+LCSC
+U_smd_module_RTL8189
+E103-RTL8189FTV 44 pin 13.2x13.2mm horizontal SMD EBYTE approved derivation land pattern
+E103-RTL8189FTV 44P 13.2x13.2mm SMD C42411897
+0
+44
+44
+LCSC
+U_tht_DIP_16P
+DIP-16 16 pin 19.795x9.645mm horizontal through-hole SHOU HAN approved derivation land pattern
+DIP-16 16P 19.795x9.645mm through-hole C146580
+0
+16
+16
+LCSC
+Y_smd_xtal_1148
+3.2X2.5MM SMD 2 pin 3.2x2.5mm horizontal SMD YXC approved derivation land pattern
+3.2X2.5MM-SMD 2P 3.2x2.5mm SMD C12674
+0
+2
+2
+LCSC
+Y_smd_xtal_2520
+TXC 2520 4-pad SMD crystal; 2.50x2.00 mm body; 1.85x1.55 mm pad-center pitch; manufacturer suggested layout, 8Z40000030 Rev A2 p4
+TXC 2520 4P SMD 2.5x2.0mm P1.85x1.55
+0
+4
+4
+LCSC
+Y_smd_xtal_3215_ABS07
+3215 SMD, 2 terminals, 3.2 x 1.5 mm body. Two opposing lands, 2.5 mm center spacing. Abracon ABS07 recommended land pattern p2; 1.10 x 1.90 mm lands, 1.40 mm gap.
+3215 SMD 2pin 3.2x1.5mm Abracon
+0
+2
+2
+LCSC
+Y_smd_xtal_3225
+3.2X2.5MM SMD 4 pin 3.2x2.5mm horizontal SMD Abracon manufacturer-recommended land pattern
+3.2X2.5MM-SMD 4P 3.2x2.5mm SMD C2682775
+0
+4
+4
+LCSC
+Y_tht_HC49
+HC-49S 2 pin 8.61x3mm horizontal through-hole YXC approved derivation land pattern
+HC-49S 2P 8.61x3mm through-hole C240916
+0
+2
+2
+LCSC
+ind-smd_l5.4-w5.2
+5.4X5.2MM SMD 2 pin 5.4x5.2mm horizontal SMD Sunlord approved derivation land pattern
+5.4X5.2MM-SMD 2P 5.4x5.2mm SMD C408412
+0
+2
+2

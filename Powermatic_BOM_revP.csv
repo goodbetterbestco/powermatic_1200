@@ -1,28 +1,28 @@
 cat,part name,qua,unit,line,supplier,part no
-Contactor,Power Contactor,5,31.00,155.00,AutomationDirect,HMC-9B30-11-DS
-Interlock,Contactor Interlock,2,16.50,33.00,AutomationDirect,HMX1-MI
-Relay,Coil Enable Relay,1,46.50,46.50,AutomationDirect,HC3096N-52-900-24
-Accessory,Reversing Busbars,1,17.00,17.00,AutomationDirect,HMX1-BBREV
-Accessory,Auxiliary Contact Block,0,8.50,0.00,AutomationDirect,HMX1-AUX11-F
-Power,DC Power Supply,1,0.00,0.00,GBB,NDR-240-24
-Circuit breaker,Circuit Breaker,1,55.00,55.00,AutomationDirect,FAZ-D4-2-NA-L
-Power,Motor Disconnect,1,75.00,75.00,AutomationDirect,22013003
-Disconnect handle,Disconnect Handle,1,27.50,27.50,eBay - Surplus Electrical Connections LLC,148E1111
-Disconnect shaft,Disconnect Shaft,1,9.00,9.00,AutomationDirect,14070532
-Disconnect cover,Terminal Cover Pack,1,11.00,11.00,AutomationDirect,22943016
-Fuse,Class RK5 Fuse,3,7.74,23.22,Allfuses,FRN-R-10
-Fuse holder,Class R Fuse Holder,1,54.00,54.00,AutomationDirect,RM25030-3SR
-Fuse cover,Fuse Cover,3,14.00,42.00,AutomationDirect,CVR-RH-25030
-Operator,Speed Switch,1,0.00,0.00,GBB,365_TAV2111
-Operator,Control Pendant,1,0.00,0.00,GBB,800S_3SA
-Overload,Thermal Overload,2,31.50,63.00,AutomationDirect,HTOR32-6-S
-Surge suppression,Coil Surge Suppressor,5,12.00,60.00,AutomationDirect,HMX1-SSVRC-DC
-Indicator,White Indicator,1,52.92,52.92,DigiKey,4008-XB4BVB1-ND
-Connector,M12 Panel Socket,1,11.10,11.10,DigiKey,A125513-ND
-Terminal,Feedthrough Terminal,1,9.75,9.75,AutomationDirect,KN-T12GRY-25
-Terminal accessory,Terminal End Cover,1,6.75,6.75,AutomationDirect,KN-ECT6GRY-25
-Terminal accessory,DIN End Stop,1,11.50,11.50,AutomationDirect,KN-EB7-10
-Terminal accessory,Terminal Jumper,1,13.50,13.50,AutomationDirect,KN-10J12
-Terminal accessory,Terminal Marker,1,12.00,12.00,AutomationDirect,KN-L5X-BLNK-220
+Contactor,Power Contactor,5,31.00,155.00,AD,'HMC-9B30-11-DS
+Contactor,Contactor Interlock,2,16.50,33.00,AD,'HMX1-MI
+Contactor,Coil Enable Relay,1,46.50,46.50,AD,'HC3096N-52-900-24
+Contactor,Reversing Busbars,1,17.00,17.00,AD,'HMX1-BBREV
+Contactor,Auxiliary Contact Block,0,8.50,0.00,AD,'HMX1-AUX11-F
+Power,DC Power Supply,1,0.00,0.00,GBB,'NDR-240-24
+Power,Circuit Breaker,1,55.00,55.00,AD,'FAZ-D4-2-NA-L
+Disconnect,Motor Disconnect,1,75.00,75.00,AD,'22013003
+Disconnect,Disconnect Handle,1,27.50,27.50,GBB,'148E1111
+Disconnect,Disconnect Shaft,1,9.00,9.00,AD,'14070532
+Disconnect,Terminal Cover Pack,1,11.00,11.00,AD,'22943016
+Fuse,Class RK5 Fuse,3,7.74,23.22,AllFuses,'FRN-R-10
+Fuse,Class R Fuse Holder,1,54.00,54.00,AD,'RM25030-3SR
+Fuse,Fuse Cover,3,14.00,42.00,AD,'CVR-RH-25030
+Operator,Speed Switch,1,0.00,0.00,GBB,'365_TAV2111
+Operator,Control Pendant,1,0.00,0.00,GBB,'800S_3SA
+Contactor,Thermal Overload,2,31.50,63.00,AD,'HTOR32-6-S
+Contactor,Coil Surge Suppressor,5,12.00,60.00,AD,'HMX1-SSVRC-DC
+Operator,White Indicator,1,52.92,52.92,DK,'4008-XB4BVB1-ND
+Terminal,M12 Panel Socket,1,11.10,11.10,DK,'A125513-ND
+Terminal,Feedthrough Terminal,1,9.75,9.75,AD,'KN-T12GRY-25
+Terminal,Terminal End Cover,1,6.75,6.75,AD,'KN-ECT6GRY-25
+Terminal,DIN End Stop,1,11.50,11.50,AD,'KN-EB7-10
+Terminal,Terminal Jumper,1,13.50,13.50,AD,'KN-10J12
+Terminal,Terminal Marker,1,12.00,12.00,AD,'KN-L5X-BLNK-220
 ,Subtotal,,,788.74,,
 ,Total,,,788.74,,
