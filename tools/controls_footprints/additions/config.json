@@ -1,0 +1,242 @@
+{
+  "pad_mm": 3,
+  "drill_mm": 2,
+  "parts": [
+    {
+      "part": "NDR-240-24",
+      "model": "NDR-240.stp",
+      "projection": "NDR-240-24-projected.json",
+      "projection_center": [
+        -44.2361369999612,
+        -10.243796987778
+      ],
+      "normal": [
+        -1,
+        0,
+        0
+      ],
+      "right": [
+        0,
+        -1,
+        0
+      ],
+      "rotation": [
+        90,
+        -90,
+        0
+      ],
+      "offset": [
+        44.2361369999612,
+        -10.243796987778,
+        110.359452529231
+      ],
+      "pads": [
+        [
+          "TB1.1",
+          [
+            -10.497042,
+            47.760688,
+            -43.05
+          ]
+        ],
+        [
+          "TB1.2",
+          [
+            -10.497042,
+            39.885688,
+            -43.05
+          ]
+        ],
+        [
+          "TB1.3",
+          [
+            -10.497042,
+            32.260688,
+            -43.05
+          ]
+        ],
+        [
+          "TB2.1",
+          [
+            -10.397042,
+            55.147797,
+            65.5
+          ]
+        ],
+        [
+          "TB2.2",
+          [
+            -10.397042,
+            48.860297,
+            65.5
+          ]
+        ],
+        [
+          "TB2.3",
+          [
+            -10.397042,
+            42.460297,
+            65.5
+          ]
+        ],
+        [
+          "TB2.4",
+          [
+            -10.397042,
+            35.960297,
+            65.5
+          ]
+        ]
+      ],
+      "datum": "Center of projected full envelope, Z=0 at rearmost modeled DIN clip. Not a DIN bearing plane.",
+      "dimensions": {
+        "case_width_published": 63,
+        "case_width_cad": 63,
+        "case_height_published": 125.2,
+        "case_height_cad": 125.2,
+        "case_depth_published": 113.5,
+        "case_depth_cad": 113.25,
+        "published_tolerance": 1.0,
+        "full_projected_height_cad": 128.712406641123
+      },
+      "package": "DIN rail 63 x 125.2 x 113.5 mm"
+    },
+    {
+      "part": "XB4BVB1",
+      "model": "XB4BVB1.stp",
+      "projection": "XB4BVB1-projected.json",
+      "projection_center": [
+        14.95,
+        -22.4385327718
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "right": [
+        1,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        -14.95,
+        -22.4385327718,
+        0.001420278737
+      ],
+      "pads": [
+        [
+          "X1",
+          [
+            15.05,
+            31.24516,
+            3.53065
+          ]
+        ],
+        [
+          "X2",
+          [
+            15.05,
+            13.23191,
+            3.53065
+          ]
+        ]
+      ],
+      "datum": "Lens/mounting axis; Z=0 at rear model envelope. Lens faces +Z. Rear terminal pads shown at their projected locations, viewed from the lens side.",
+      "dimensions": {
+        "width_published": 30,
+        "width_cad": 29.9,
+        "height_published": 46.5,
+        "height_cad": 46.2,
+        "depth_published": 54,
+        "depth_cad": 53.751420278737,
+        "panel_cutout_recommended": 22.5
+      },
+      "package": "22 mm panel mount"
+    },
+    {
+      "part": "T4171310004-001",
+      "model": "T4171310004-001.stp",
+      "projection": "T4171310004-001-projected.json",
+      "projection_center": [
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "right": [
+        1,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        22.4
+      ],
+      "pads": [
+        [
+          "1",
+          [
+            -1.767766953,
+            1.767766953,
+            0
+          ]
+        ],
+        [
+          "2",
+          [
+            1.767766953,
+            1.767766953,
+            0
+          ]
+        ],
+        [
+          "3",
+          [
+            1.767766953,
+            -1.767766953,
+            0
+          ]
+        ],
+        [
+          "4",
+          [
+            -1.767766953,
+            -1.767766953,
+            0
+          ]
+        ]
+      ],
+      "datum": "Connector axis; Z=0 at rear modeled contact-stub ends. Mating face points +Z, key at top. Pads locate the four mating contacts; flexible 200 mm wire routing is not modeled.",
+      "dimensions": {
+        "across_flats_published": 18,
+        "across_flats_cad": 18,
+        "body_length_published": 20,
+        "body_length_cad": 20,
+        "front_length_published": 10.2,
+        "front_length_cad": 10.2,
+        "rear_diameter_published": 13.5,
+        "rear_diameter_cad": 13.5,
+        "full_depth_with_contact_stubs": 22.4,
+        "full_projected_height_cad": 19.9,
+        "panel_cutout_diameter": 15.4,
+        "panel_cutout_across_flats": 13.6
+      },
+      "package": "M12 A-coded panel mount"
+    }
+  ]
+}

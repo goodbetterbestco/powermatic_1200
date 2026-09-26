@@ -1,0 +1,1165 @@
+[
+  {
+    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/14070532_Front.kicad_mod",
+    "before_sha256": "da6742b1793144bb6d3d4db603ceadfd3179164e6706afa1fdf1aad0139df47d",
+    "after_sha256": "6f6ce7b17c0b1cbcce5da8e33dc04d34c50d306e7b28b5724d740b05eefc323c",
+    "labels": [
+      {
+        "reference": "REF**",
+        "at_mm": [
+          0.0,
+          -0.8
+        ],
+        "bounds_mm": [
+          -160.003013,
+          -2.525,
+          160.003013,
+          2.525
+        ],
+        "text_box_fits_upper_half": false,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "14070532_Front"
+      }
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/148E1111_Front.kicad_mod",
+    "before_sha256": "b98d9307ae84a3c68e832b8db3eb656ff6cfcdbd8bafc900587ec648a4312516",
+    "after_sha256": "41803adf0d7e5e54988224c420032012a43239dbfec6b07a58c081199c8b1fba",
+    "labels": [
+      {
+        "reference": "REF**",
+        "at_mm": [
+          0.0,
+          -17.75186
+        ],
+        "bounds_mm": [
+          -44.247352,
+          -35.50372,
+          44.247353,
+          35.50372
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "148E1111_Front"
+      }
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/22013003_Front.kicad_mod",
+    "before_sha256": "47eed05de0fe2e6b03991540a9f0283555e6be33b9e8ab3b3fcc1f5db64b14b9",
+    "after_sha256": "da91fb00b726468d250161b817cc5c4c5c03f3f801c105d9141afa5e96ddd851",
+    "labels": [
+      {
+        "reference": "REF**",
+        "at_mm": [
+          0.0,
+          -35.55
+        ],
+        "bounds_mm": [
+          -39.428997,
+          -71.389892,
+          39.428997,
+          71.389892
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "22013003_Front"
+      }
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/22013003_LeftWall.kicad_mod",
+    "before_sha256": "1a72b161fd390ceb262dce6180b2b019cc0795fdb618bbbd032ff48e751ff1bf",
+    "after_sha256": "1e7819fdba1dcddf18589d63df7d6d8c3dcb7b435f71c0b7aa6594867276bbc8",
+    "labels": [
+      {
+        "reference": "REF**",
+        "at_mm": [
+          3.2e-05,
+          -44.6
+        ],
+        "bounds_mm": [
+          -32.010393,
+          -71.389892,
+          32.010457,
+          71.389892
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "22013003_LeftWall"
+      }
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/22943016_Front.kicad_mod",
+    "before_sha256": "3d1bc269308a893958136c5f1e0a5ed23f44b85f99f7af2da4a3ab83f40c0e2d",
+    "after_sha256": "fd354fd111cce91451c048ebbb7936544e3d867d4f2c74b1941d1be4126be463",
+    "labels": [
+      {
+        "reference": "REF**",
+        "at_mm": [
+          0.0,
+          -47.256515
+        ],
+        "bounds_mm": [
+          -39.025005,
+          -94.51303,
+          39.025005,
+          94.51303
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "22943016_Front"
+      }
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/CVR-RH-25030_Front.kicad_mod",
+    "before_sha256": "b7b5876970d01c41c2e5981ec44e15369a86179d8257749d73a1fc8e73ddc4d7",
+    "after_sha256": "3bb40e5cef81c5c1d509f8f505ed8a15a448f898cb7c2ebe5b58f52f8c272ddd",
+    "labels": [
+      {
+        "reference": "REF**",
+        "at_mm": [
+          0.0,
+          -17.55
+        ],
+        "bounds_mm": [
+          -10.615932,
+          -49.570825,
+          10.615932,
+          49.570825
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "CVR-RH-25030_Front"
+      }
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/FAZ-D4-2-NA-L_Front.kicad_mod",
+    "before_sha256": "841e809b6e5342ae38371ee47440e13275f839f2cbc4e1edc830af06f92fdb21",
+    "after_sha256": "24c5958c466924a9dad731c9f10887843e51004052b38d7a1a5de634d595609e",
+    "labels": [
+      {
+        "reference": "REF**",
+        "at_mm": [
+          0.0,
+          -14.7
+        ],
+        "bounds_mm": [
+          -17.725,
+          -52.525,
+          17.725,
+          52.525
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 1,
+        "shapes_within_0_2mm": 1,
+        "name": "FAZ-D4-2-NA-L_Front"
+      }
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/HC3096N-52-900-24_Front.kicad_mod",
+    "before_sha256": "c8aaeabe10c948e90f5eed22a4b34bd19adbebc4ca81c9adf48c8f54c853acc2",
+    "after_sha256": "15d97d9fbf5a98ec095bdc6f1062cd41a4feeba0d4300b01aaaf97f0b5766ead",
+    "labels": [
+      {
+        "reference": "REF**",
+        "at_mm": [
+          0.0,
+          -25.45
+        ],
+        "bounds_mm": [
+          -8.976254,
+          -53.421079,
+          8.976254,
+          53.421079
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "HC3096N-52-900-24_Front"
+      }
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/HMC-9B30-11-DS_Front.kicad_mod",
+    "before_sha256": "f0eee51fc838a0cbf116a45dcc50d1a79a46c2a45a375bb96c64736cce71a816",
+    "after_sha256": "e9c300f4d78d6f6c093a7eb95a9e3a15d4dcf9e2da99f1c5e64f711f9df94996",
+    "labels": [
+      {
+        "reference": "REF**",
+        "at_mm": [
+          0.0,
+          -15.7
+        ],
+        "bounds_mm": [
+          -22.525,
+          -37.775,
+          22.525,
+          37.775
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "HMC-9B30-11-DS_Front"
+      }
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/HMX1-AUX11-F_Front.kicad_mod",
+    "before_sha256": "6339333e9ceee5f65f2a890535f0e549ac0f1875b2d58bba4ea46c4164914283",
+    "after_sha256": "3176c61cf8842772f83843121d9779674964dbf6d81725114db2dba67b05c3be",
+    "labels": [
+      {
+        "reference": "REF**",
+        "at_mm": [
+          0.0,
+          -9.3
+        ],
+        "bounds_mm": [
+          -12.525,
+          -24.025,
+          12.525,
+          24.025
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "HMX1-AUX11-F_Front"
+      }
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/HMX1-BBREV_Line_Front.kicad_mod",
+    "before_sha256": "e099d869e9da16603e9600bb0847b5b56ead69c6b8f376a33f034c20e111e755",
+    "after_sha256": "bc601687143fb847e7c31ae2d068115ba4eabd969143bbefc0872898c0b5acf3",
+    "labels": [
+      {
+        "reference": "REF**",
+        "at_mm": [
+          0.0,
+          -6.6375
+        ],
+        "bounds_mm": [
+          -45.375,
+          -13.275,
+          45.375,
+          13.275
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "HMX1-BBREV_Line_Front"
+      }
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/HMX1-BBREV_Load_Front.kicad_mod",
+    "before_sha256": "1551465f73ebd65929d97ea7acf8b64022579abb2012019ad268065ed83dff68",
+    "after_sha256": "d3c84fb36ec9caa395c92c6663ef1b731432c2447cd25cd358894bc9f71e2701",
+    "labels": [
+      {
+        "reference": "REF**",
+        "at_mm": [
+          0.0,
+          -4.8875
+        ],
+        "bounds_mm": [
+          -45.375,
+          -9.775,
+          45.375,
+          9.775
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "HMX1-BBREV_Load_Front"
+      }
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/HMX1-MI_Front.kicad_mod",
+    "before_sha256": "0baf7ed86a13974d80e5d6aae93cb7570ab27d5ce9e22b92e413056141114397",
+    "after_sha256": "11c70a6e8c1c6c781e6389dcb581d7f6e93ac9085dc75b5b4b686e969590b45b",
+    "labels": [
+      {
+        "reference": "REF**",
+        "at_mm": [
+          -3.6e-05,
+          -13.3
+        ],
+        "bounds_mm": [
+          -10.625018,
+          -41.525,
+          10.624945,
+          41.525
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "HMX1-MI_Front"
+      }
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/HMX1-SSVRC-DC_Front.kicad_mod",
+    "before_sha256": "aac986a605774d1838d2024c62e44e6b8b32b2700a020d5c6468bb7880c45734",
+    "after_sha256": "0af0e1c136a3b1e11da9438ca3ce7deab8fed388fd80bddc65baac57075cd72d",
+    "labels": [
+      {
+        "reference": "REF**",
+        "at_mm": [
+          0.0,
+          -9.880871
+        ],
+        "bounds_mm": [
+          -18.725,
+          -19.761742,
+          18.725,
+          19.761742
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "HMX1-SSVRC-DC_Front"
+      }
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/HTOR32-6-S_Front.kicad_mod",
+    "before_sha256": "fdf3d04d2ae666f328f95066d89b0b027d51906855ca912b02b2f3aaa3e8cce6",
+    "after_sha256": "e1198a354add8b28932b24f5f8b7609e300f127c0e2c70a16328bf7540b493ab",
+    "labels": [
+      {
+        "reference": "REF**",
+        "at_mm": [
+          0.0,
+          -18.65
+        ],
+        "bounds_mm": [
+          -22.525,
+          -37.3,
+          22.525,
+          37.3
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "HTOR32-6-S_Front"
+      }
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/KN-10J12_Front.kicad_mod",
+    "before_sha256": "5b8cee3906450c274150ef6f91784669f8a50f7a0419dde5cc808e88b007ffc7",
+    "after_sha256": "e38cafa8dfe849cc225e16049f369226fe70517141c1d9b10e0da468271f9962",
+    "labels": [
+      {
+        "reference": "REF**",
+        "at_mm": [
+          0.0,
+          -2.5
+        ],
+        "bounds_mm": [
+          -25.5875,
+          -2.525,
+          25.5875,
+          2.525
+        ],
+        "text_box_fits_upper_half": false,
+        "intersected_shapes": 5,
+        "shapes_within_0_2mm": 1,
+        "name": "KN-10J12_Front"
+      }
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/KN-T12GRY-25_Front.kicad_mod",
+    "before_sha256": "465b308a2ca8caf6025c6b09303a66c93b7d3f3dc0c3765eb1dbd4a37f769119",
+    "after_sha256": "4404eb0bbedd509f72d0245c66ce5c2adf47f4eab9c79669f8e9b6dfc29275f6",
+    "labels": [
+      {
+        "reference": "REF**",
+        "at_mm": [
+          0.0,
+          -11.0625
+        ],
+        "bounds_mm": [
+          -2.525,
+          -22.125,
+          2.525,
+          22.125
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 1,
+        "shapes_within_0_2mm": 1,
+        "name": "KN-T12GRY-25_Front"
+      }
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/NDR-240-24_Front.kicad_mod",
+    "before_sha256": "44b0937a0917f58b1c1b9a3a1276128d35f888f9e2cf2a021d9ee271fd2bafde",
+    "after_sha256": "2c5d91800080fa607b3e7a7eab68a4cfbf7e7b799dbf2eb0c7c6741fc31d5819",
+    "labels": [
+      {
+        "reference": "REF**",
+        "at_mm": [
+          0.0,
+          -32.190602
+        ],
+        "bounds_mm": [
+          -31.525,
+          -64.381203,
+          31.525,
+          64.381203
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "NDR-240-24_Front"
+      }
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/RM25030-3SR_Front.kicad_mod",
+    "before_sha256": "76b5cb64c3d239fc542f3a70b52333b9fff61f03f81824fd6629b4690026b90f",
+    "after_sha256": "83f016d13d8e6ad0b83d3003d03430fd16d85b91f9a0cfdb1e2105bd6da0afc6",
+    "labels": [
+      {
+        "reference": "REF**",
+        "at_mm": [
+          0.0,
+          -29.55
+        ],
+        "bounds_mm": [
+          -37.270415,
+          -40.225001,
+          37.270415,
+          40.225001
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 1,
+        "shapes_within_0_2mm": 1,
+        "name": "RM25030-3SR_Front"
+      }
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/T4171310004-001_Front.kicad_mod",
+    "before_sha256": "7eb0a9c0ddbd1b3e4c30aca98b9d9e79bcbd667b588b05cded0403d872fb8f70",
+    "after_sha256": "9fd94b9eb3c92becc2ed92e08bb618dd813af5d1b1f4d95d1a9314034708dba9",
+    "labels": [
+      {
+        "reference": "REF**",
+        "at_mm": [
+          0.0,
+          -5.45
+        ],
+        "bounds_mm": [
+          -9.025,
+          -9.975,
+          9.025,
+          9.975
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 3,
+        "shapes_within_0_2mm": 3,
+        "name": "T4171310004-001_Front"
+      }
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/T4171310004-001_LeftWall.kicad_mod",
+    "before_sha256": "34abf16f578b7639d80203b3c590843fd6bfad22bfcc48f27991f52baf82a4f3",
+    "after_sha256": "62f99ffff0ecc4e82e7b29e8e75c7ebecd957a84859db2b4279ef33e25d6164d",
+    "labels": [
+      {
+        "reference": "REF**",
+        "at_mm": [
+          0.0,
+          -5.9
+        ],
+        "bounds_mm": [
+          -11.225,
+          -9.975,
+          11.225,
+          9.975
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 7,
+        "shapes_within_0_2mm": 17,
+        "name": "T4171310004-001_LeftWall"
+      }
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/XB4BVB1_Front.kicad_mod",
+    "before_sha256": "bd0326d14fe3dba1106d1e483644a5fb93f1cdb5ba58f57d6e725b9cdbc447c5",
+    "after_sha256": "b587e726cbea41279061414ad98526a42ca3e91ada040d3b78dbbe81c2a43512",
+    "labels": [
+      {
+        "reference": "REF**",
+        "at_mm": [
+          0.0,
+          -18.25
+        ],
+        "bounds_mm": [
+          -14.975,
+          -23.786467,
+          14.975,
+          22.463533
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "XB4BVB1_Front"
+      }
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/XB4BVB1_LeftWall.kicad_mod",
+    "before_sha256": "d2a0a73edae77b05864dba35e768b23e19cc875701fa93e3214db09289dff8eb",
+    "after_sha256": "b063f0d0cb10aa05378999962de132af950ca50d9036114387a6663db3a92c6c",
+    "labels": [
+      {
+        "reference": "REF**",
+        "at_mm": [
+          -2e-06,
+          -8.5
+        ],
+        "bounds_mm": [
+          -26.90071,
+          -23.786467,
+          26.900706,
+          22.463533
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 2,
+        "shapes_within_0_2mm": 1,
+        "name": "XB4BVB1_LeftWall"
+      }
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/22013003_Front.kicad_mod",
+    "before_sha256": "47eed05de0fe2e6b03991540a9f0283555e6be33b9e8ab3b3fcc1f5db64b14b9",
+    "after_sha256": "da91fb00b726468d250161b817cc5c4c5c03f3f801c105d9141afa5e96ddd851",
+    "labels": [
+      {
+        "reference": "REF**",
+        "at_mm": [
+          0.0,
+          -35.55
+        ],
+        "bounds_mm": [
+          -39.428997,
+          -71.389892,
+          39.428997,
+          71.389892
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "22013003_Front"
+      }
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/FAZ-D4-2-NA-L_Front.kicad_mod",
+    "before_sha256": "841e809b6e5342ae38371ee47440e13275f839f2cbc4e1edc830af06f92fdb21",
+    "after_sha256": "24c5958c466924a9dad731c9f10887843e51004052b38d7a1a5de634d595609e",
+    "labels": [
+      {
+        "reference": "REF**",
+        "at_mm": [
+          0.0,
+          -14.7
+        ],
+        "bounds_mm": [
+          -17.725,
+          -52.525,
+          17.725,
+          52.525
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 1,
+        "shapes_within_0_2mm": 1,
+        "name": "FAZ-D4-2-NA-L_Front"
+      }
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/HMC-9B30-11-DS_Front.kicad_mod",
+    "before_sha256": "f0eee51fc838a0cbf116a45dcc50d1a79a46c2a45a375bb96c64736cce71a816",
+    "after_sha256": "e9c300f4d78d6f6c093a7eb95a9e3a15d4dcf9e2da99f1c5e64f711f9df94996",
+    "labels": [
+      {
+        "reference": "REF**",
+        "at_mm": [
+          0.0,
+          -15.7
+        ],
+        "bounds_mm": [
+          -22.525,
+          -37.775,
+          22.525,
+          37.775
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "HMC-9B30-11-DS_Front"
+      }
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/HMX1-MI_Front.kicad_mod",
+    "before_sha256": "0baf7ed86a13974d80e5d6aae93cb7570ab27d5ce9e22b92e413056141114397",
+    "after_sha256": "11c70a6e8c1c6c781e6389dcb581d7f6e93ac9085dc75b5b4b686e969590b45b",
+    "labels": [
+      {
+        "reference": "REF**",
+        "at_mm": [
+          -3.6e-05,
+          -13.3
+        ],
+        "bounds_mm": [
+          -10.625018,
+          -41.525,
+          10.624945,
+          41.525
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "HMX1-MI_Front"
+      }
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/HMX1-SSVRC-DC_Front.kicad_mod",
+    "before_sha256": "aac986a605774d1838d2024c62e44e6b8b32b2700a020d5c6468bb7880c45734",
+    "after_sha256": "0af0e1c136a3b1e11da9438ca3ce7deab8fed388fd80bddc65baac57075cd72d",
+    "labels": [
+      {
+        "reference": "REF**",
+        "at_mm": [
+          0.0,
+          -9.880871
+        ],
+        "bounds_mm": [
+          -18.725,
+          -19.761742,
+          18.725,
+          19.761742
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "HMX1-SSVRC-DC_Front"
+      }
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/HTOR32-6-S_Front.kicad_mod",
+    "before_sha256": "fdf3d04d2ae666f328f95066d89b0b027d51906855ca912b02b2f3aaa3e8cce6",
+    "after_sha256": "e1198a354add8b28932b24f5f8b7609e300f127c0e2c70a16328bf7540b493ab",
+    "labels": [
+      {
+        "reference": "REF**",
+        "at_mm": [
+          0.0,
+          -18.65
+        ],
+        "bounds_mm": [
+          -22.525,
+          -37.3,
+          22.525,
+          37.3
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "HTOR32-6-S_Front"
+      }
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/KN-T12GRY-25_Front.kicad_mod",
+    "before_sha256": "465b308a2ca8caf6025c6b09303a66c93b7d3f3dc0c3765eb1dbd4a37f769119",
+    "after_sha256": "4404eb0bbedd509f72d0245c66ce5c2adf47f4eab9c79669f8e9b6dfc29275f6",
+    "labels": [
+      {
+        "reference": "REF**",
+        "at_mm": [
+          0.0,
+          -11.0625
+        ],
+        "bounds_mm": [
+          -2.525,
+          -22.125,
+          2.525,
+          22.125
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 1,
+        "shapes_within_0_2mm": 1,
+        "name": "KN-T12GRY-25_Front"
+      }
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/NDR-240-24_Front.kicad_mod",
+    "before_sha256": "44b0937a0917f58b1c1b9a3a1276128d35f888f9e2cf2a021d9ee271fd2bafde",
+    "after_sha256": "2c5d91800080fa607b3e7a7eab68a4cfbf7e7b799dbf2eb0c7c6741fc31d5819",
+    "labels": [
+      {
+        "reference": "REF**",
+        "at_mm": [
+          0.0,
+          -32.190602
+        ],
+        "bounds_mm": [
+          -31.525,
+          -64.381203,
+          31.525,
+          64.381203
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "NDR-240-24_Front"
+      }
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/RM25030-3SR_Front.kicad_mod",
+    "before_sha256": "76b5cb64c3d239fc542f3a70b52333b9fff61f03f81824fd6629b4690026b90f",
+    "after_sha256": "83f016d13d8e6ad0b83d3003d03430fd16d85b91f9a0cfdb1e2105bd6da0afc6",
+    "labels": [
+      {
+        "reference": "REF**",
+        "at_mm": [
+          0.0,
+          -29.55
+        ],
+        "bounds_mm": [
+          -37.270415,
+          -40.225001,
+          37.270415,
+          40.225001
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 1,
+        "shapes_within_0_2mm": 1,
+        "name": "RM25030-3SR_Front"
+      }
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/T4171310004-001_Front.kicad_mod",
+    "before_sha256": "7eb0a9c0ddbd1b3e4c30aca98b9d9e79bcbd667b588b05cded0403d872fb8f70",
+    "after_sha256": "9fd94b9eb3c92becc2ed92e08bb618dd813af5d1b1f4d95d1a9314034708dba9",
+    "labels": [
+      {
+        "reference": "REF**",
+        "at_mm": [
+          0.0,
+          -5.45
+        ],
+        "bounds_mm": [
+          -9.025,
+          -9.975,
+          9.025,
+          9.975
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 3,
+        "shapes_within_0_2mm": 3,
+        "name": "T4171310004-001_Front"
+      }
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/XB4BVB1_Front.kicad_mod",
+    "before_sha256": "bd0326d14fe3dba1106d1e483644a5fb93f1cdb5ba58f57d6e725b9cdbc447c5",
+    "after_sha256": "b587e726cbea41279061414ad98526a42ca3e91ada040d3b78dbbe81c2a43512",
+    "labels": [
+      {
+        "reference": "REF**",
+        "at_mm": [
+          0.0,
+          -18.25
+        ],
+        "bounds_mm": [
+          -14.975,
+          -23.786467,
+          14.975,
+          22.463533
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "XB4BVB1_Front"
+      }
+    ]
+  },
+  {
+    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/powermatic_1200.kicad_pcb",
+    "before_sha256": "81b8cf336417ae96b443d0f7d70b94b746f6671531c4232325a2a35414a4e5aa",
+    "after_sha256": "b835e57b807d14b555b1b2693e3ca94e8c1b08859603e1628ee7b2b5f3ea504b",
+    "labels": [
+      {
+        "reference": "SP5",
+        "at_mm": [
+          0.0,
+          -9.880871
+        ],
+        "bounds_mm": [
+          -18.725,
+          -19.761742,
+          18.725,
+          19.761742
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "HMX1-SSVRC-DC_Front"
+      },
+      {
+        "reference": "SP2",
+        "at_mm": [
+          0.0,
+          -9.880871
+        ],
+        "bounds_mm": [
+          -18.725,
+          -19.761742,
+          18.725,
+          19.761742
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "HMX1-SSVRC-DC_Front"
+      },
+      {
+        "reference": "KF1",
+        "at_mm": [
+          0.0,
+          -15.7
+        ],
+        "bounds_mm": [
+          -22.525,
+          -37.775,
+          22.525,
+          37.775
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "HMC-9B30-11-DS_Front"
+      },
+      {
+        "reference": "Q1",
+        "at_mm": [
+          0.0,
+          -17.45
+        ],
+        "bounds_mm": [
+          -17.725,
+          -52.525,
+          17.725,
+          52.525
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 1,
+        "shapes_within_0_2mm": 0,
+        "name": "FAZ-D4-2-NA-L_Front"
+      },
+      {
+        "reference": "SP1",
+        "at_mm": [
+          0.0,
+          -9.880871
+        ],
+        "bounds_mm": [
+          -18.725,
+          -19.761742,
+          18.725,
+          19.761742
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "HMX1-SSVRC-DC_Front"
+      },
+      {
+        "reference": "TB1",
+        "at_mm": [
+          0.0,
+          -11.0625
+        ],
+        "bounds_mm": [
+          -2.525,
+          -22.125,
+          2.525,
+          22.125
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 2,
+        "shapes_within_0_2mm": 0,
+        "name": "KN-T12GRY-25_Front"
+      },
+      {
+        "reference": "KR1",
+        "at_mm": [
+          0.0,
+          -15.7
+        ],
+        "bounds_mm": [
+          -22.525,
+          -37.775,
+          22.525,
+          37.775
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "HMC-9B30-11-DS_Front"
+      },
+      {
+        "reference": "SP4",
+        "at_mm": [
+          0.0,
+          -9.880871
+        ],
+        "bounds_mm": [
+          -18.725,
+          -19.761742,
+          18.725,
+          19.761742
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "HMX1-SSVRC-DC_Front"
+      },
+      {
+        "reference": "PS1",
+        "at_mm": [
+          0.0,
+          -32.190602
+        ],
+        "bounds_mm": [
+          -31.525,
+          -64.381203,
+          31.525,
+          64.381203
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "NDR-240-24_Front"
+      },
+      {
+        "reference": "FH1",
+        "at_mm": [
+          0.0,
+          -20.1125
+        ],
+        "bounds_mm": [
+          -37.270415,
+          -40.225001,
+          37.270415,
+          40.225001
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "RM25030-3SR_Front"
+      },
+      {
+        "reference": "H1",
+        "at_mm": [
+          -2e-06,
+          -9.05
+        ],
+        "bounds_mm": [
+          -26.90071,
+          -23.786467,
+          26.900706,
+          22.463533
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "XB4BVB1_LeftWall"
+      },
+      {
+        "reference": "SP3",
+        "at_mm": [
+          0.0,
+          -9.880871
+        ],
+        "bounds_mm": [
+          -18.725,
+          -19.761742,
+          18.725,
+          19.761742
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "HMX1-SSVRC-DC_Front"
+      },
+      {
+        "reference": "OL1",
+        "at_mm": [
+          0.0,
+          -18.65
+        ],
+        "bounds_mm": [
+          -22.525,
+          -37.3,
+          22.525,
+          37.3
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "HTOR32-6-S_Front"
+      },
+      {
+        "reference": "KH1",
+        "at_mm": [
+          0.0,
+          -15.7
+        ],
+        "bounds_mm": [
+          -22.525,
+          -37.775,
+          22.525,
+          37.775
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "HMC-9B30-11-DS_Front"
+      },
+      {
+        "reference": "MI1",
+        "at_mm": [
+          -3.6e-05,
+          -13.3
+        ],
+        "bounds_mm": [
+          -10.625018,
+          -41.525,
+          10.624945,
+          41.525
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "HMX1-MI_Front"
+      },
+      {
+        "reference": "OL2",
+        "at_mm": [
+          0.0,
+          -18.65
+        ],
+        "bounds_mm": [
+          -22.525,
+          -37.3,
+          22.525,
+          37.3
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "HTOR32-6-S_Front"
+      },
+      {
+        "reference": "SW1",
+        "at_mm": [
+          3.2e-05,
+          -45.9
+        ],
+        "bounds_mm": [
+          -32.010393,
+          -71.389892,
+          32.010457,
+          71.389892
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "22013003_LeftWall"
+      },
+      {
+        "reference": "J1",
+        "at_mm": [
+          0.0,
+          -7.0
+        ],
+        "bounds_mm": [
+          -11.225,
+          -9.975,
+          11.225,
+          9.975
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 11,
+        "shapes_within_0_2mm": 20,
+        "name": "T4171310004-001_LeftWall"
+      },
+      {
+        "reference": "KL1",
+        "at_mm": [
+          0.0,
+          -15.7
+        ],
+        "bounds_mm": [
+          -22.525,
+          -37.775,
+          22.525,
+          37.775
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "HMC-9B30-11-DS_Front"
+      },
+      {
+        "reference": "KS1",
+        "at_mm": [
+          0.0,
+          -15.7
+        ],
+        "bounds_mm": [
+          -22.525,
+          -37.775,
+          22.525,
+          37.775
+        ],
+        "text_box_fits_upper_half": true,
+        "intersected_shapes": 0,
+        "shapes_within_0_2mm": 0,
+        "name": "HMC-9B30-11-DS_Front"
+      }
+    ]
+  }
+]

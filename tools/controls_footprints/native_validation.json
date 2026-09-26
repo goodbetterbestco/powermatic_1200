@@ -1,0 +1,214 @@
+{
+  "kicad_version": "9.0.7",
+  "footprints": [
+    {
+      "name": "14070532_Front",
+      "pad_count": 0,
+      "pads": [],
+      "native_load": true,
+      "native_svg_export": true,
+      "catalog_pin_set_matches": null
+    },
+    {
+      "name": "148E1111_Front",
+      "pad_count": 0,
+      "pads": [],
+      "native_load": true,
+      "native_svg_export": true,
+      "catalog_pin_set_matches": null
+    },
+    {
+      "name": "22013003_Front",
+      "pad_count": 6,
+      "pads": [
+        "1",
+        "3",
+        "5",
+        "2",
+        "4",
+        "6"
+      ],
+      "native_load": true,
+      "native_svg_export": true,
+      "catalog_pin_set_matches": true
+    },
+    {
+      "name": "22943016_Front",
+      "pad_count": 0,
+      "pads": [],
+      "native_load": true,
+      "native_svg_export": true,
+      "catalog_pin_set_matches": null
+    },
+    {
+      "name": "CVR-RH-25030_Front",
+      "pad_count": 0,
+      "pads": [],
+      "native_load": true,
+      "native_svg_export": true,
+      "catalog_pin_set_matches": null
+    },
+    {
+      "name": "FAZ-D4-2-NA-L_Front",
+      "pad_count": 4,
+      "pads": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "native_load": true,
+      "native_svg_export": true,
+      "catalog_pin_set_matches": true
+    },
+    {
+      "name": "HC3096N-52-900-24_Front",
+      "pad_count": 10,
+      "pads": [
+        "13",
+        "14",
+        "23",
+        "A1+",
+        "A2",
+        "41",
+        "42",
+        "24",
+        "31",
+        "32"
+      ],
+      "native_load": true,
+      "native_svg_export": true,
+      "catalog_pin_set_matches": true
+    },
+    {
+      "name": "HMC-9B30-11-DS_Front",
+      "pad_count": 14,
+      "pads": [
+        "1",
+        "3",
+        "5",
+        "2",
+        "4",
+        "6",
+        "43",
+        "31",
+        "32",
+        "44",
+        "A1.TOP",
+        "A2.TOP",
+        "A1.BOT",
+        "A2.BOT"
+      ],
+      "native_load": true,
+      "native_svg_export": true,
+      "catalog_pin_set_matches": true
+    },
+    {
+      "name": "HMX1-AUX11-F_Front",
+      "pad_count": 4,
+      "pads": [
+        "51",
+        "63",
+        "52",
+        "64"
+      ],
+      "native_load": true,
+      "native_svg_export": true,
+      "catalog_pin_set_matches": null
+    },
+    {
+      "name": "HMX1-BBREV_Line_Front",
+      "pad_count": 0,
+      "pads": [],
+      "native_load": true,
+      "native_svg_export": true,
+      "catalog_pin_set_matches": null
+    },
+    {
+      "name": "HMX1-BBREV_Load_Front",
+      "pad_count": 0,
+      "pads": [],
+      "native_load": true,
+      "native_svg_export": true,
+      "catalog_pin_set_matches": null
+    },
+    {
+      "name": "HMX1-MI_Front",
+      "pad_count": 4,
+      "pads": [
+        "111",
+        "121",
+        "112",
+        "122"
+      ],
+      "native_load": true,
+      "native_svg_export": true,
+      "catalog_pin_set_matches": true
+    },
+    {
+      "name": "HMX1-SSVRC-DC_Front",
+      "pad_count": 2,
+      "pads": [
+        "1",
+        "2"
+      ],
+      "native_load": true,
+      "native_svg_export": true,
+      "catalog_pin_set_matches": true
+    },
+    {
+      "name": "HTOR32-6-S_Front",
+      "pad_count": 10,
+      "pads": [
+        "IN1",
+        "IN2",
+        "IN3",
+        "2",
+        "4",
+        "6",
+        "95",
+        "96",
+        "97",
+        "98"
+      ],
+      "native_load": true,
+      "native_svg_export": true,
+      "catalog_pin_set_matches": true
+    },
+    {
+      "name": "KN-10J12_Front",
+      "pad_count": 0,
+      "pads": [],
+      "native_load": true,
+      "native_svg_export": true,
+      "catalog_pin_set_matches": null
+    },
+    {
+      "name": "KN-T12GRY-25_Front",
+      "pad_count": 2,
+      "pads": [
+        "1",
+        "2"
+      ],
+      "native_load": true,
+      "native_svg_export": true,
+      "catalog_pin_set_matches": true
+    },
+    {
+      "name": "RM25030-3SR_Front",
+      "pad_count": 6,
+      "pads": [
+        "P1.A",
+        "P2.A",
+        "P3.A",
+        "P1.B",
+        "P2.B",
+        "P3.B"
+      ],
+      "native_load": true,
+      "native_svg_export": true,
+      "catalog_pin_set_matches": true
+    }
+  ],
+  "total_pads": 62
+}

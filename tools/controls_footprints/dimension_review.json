@@ -1,0 +1,2780 @@
+{
+  "purpose": "Panel-layout wiring targets, not PCB fabrication. 14 AWG review convention reused; final wire sizes not selected.",
+  "parts": {
+    "14070532": {
+      "drawing": "datasheets/14070532_CAD_Drawing.pdf",
+      "drawing_sha256": "afc49a63a461c16a85800fdd349baa7864f009a5b537cea07cdf97b976b31111",
+      "dxf_sha256": "428b80d6ed2ef48636044d4eee64c7bc20c5099790948967593e07ee99285421",
+      "notes": "Stock shaft side elevation; length remains untrimmed. No electrical terminal.",
+      "checks": [
+        {
+          "feature": "Stock length",
+          "handle": "31C47",
+          "published_mm": 320,
+          "measured_mm": 319.9560253579153,
+          "definition_points": {
+            "defpoint": [
+              925.8507507516698,
+              0.9057667672944376,
+              0.0
+            ],
+            "defpoint2": [
+              913.2540568399409,
+              -0.06349655903388474,
+              0.0
+            ],
+            "defpoint3": [
+              925.8507507516698,
+              -0.06349655903412632,
+              0.0
+            ]
+          },
+          "delta_mm": -0.04397464208472002,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Shaft width",
+          "handle": "31C56",
+          "published_mm": 5,
+          "measured_mm": 5.0000000000040075,
+          "definition_points": {
+            "defpoint": [
+              912.8657517283568,
+              -0.2603469527349932,
+              0.0
+            ],
+            "defpoint2": [
+              913.2540568399409,
+              -0.06349655903404816,
+              0.0
+            ],
+            "defpoint3": [
+              913.2540568399407,
+              -0.2603469527349933,
+              0.0
+            ]
+          },
+          "delta_mm": 4.007461029686965e-12,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Cross-pin span",
+          "handle": "31C6E",
+          "published_mm": 11.7,
+          "measured_mm": 11.666666666666613,
+          "definition_points": {
+            "defpoint": [
+              927.937103495561,
+              -2.046357298874306,
+              0.0
+            ],
+            "defpoint2": [
+              929.0005062997662,
+              -1.587039713572471,
+              0.0
+            ],
+            "defpoint3": [
+              929.0005062997669,
+              -2.046357298874306,
+              0.0
+            ]
+          },
+          "delta_mm": -0.033333333333386506,
+          "within_drawing_rounding": true
+        }
+      ]
+    },
+    "148E1111": {
+      "drawing": "datasheets/148E1111_CAD_Drawing.pdf",
+      "drawing_sha256": "0934cd4aaa87b81a0c268e4a85159ad9dd99a2d59bac82151808064e23dec87a",
+      "dxf_sha256": "2f40395d4b729065c157bc540a58e9061e570ab0d95b95abf8c6039617ddf791",
+      "notes": "Operating face. Outline includes a small protrusion outside the 88 mm dimension. No distortion to force the envelope to 88 mm. Rotation center is not the footprint origin.",
+      "checks": [
+        {
+          "feature": "Escutcheon diameter",
+          "handle": "325E4",
+          "published_mm": 71,
+          "measured_mm": 70.95744000000272,
+          "definition_points": {
+            "defpoint": [
+              916.2653322929355,
+              2.562559178628987,
+              0.0
+            ],
+            "defpoint4": [
+              917.6255268417623,
+              5.002655846661298,
+              0.0
+            ]
+          },
+          "delta_mm": -0.04255999999728033,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Handle dimension",
+          "handle": "327A5",
+          "published_mm": 88,
+          "measured_mm": 87.97126610314427,
+          "definition_points": {
+            "defpoint": [
+              915.5484276222197,
+              11.74084206197816,
+              0.0
+            ],
+            "defpoint2": [
+              919.0118632955719,
+              13.44196120316242,
+              0.0
+            ],
+            "defpoint3": [
+              915.5484276222197,
+              12.77319479440158,
+              0.0
+            ]
+          },
+          "delta_mm": -0.02873389685572647,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Depth",
+          "handle": "327AA",
+          "published_mm": 37,
+          "measured_mm": 37.01547420053194,
+          "definition_points": {
+            "defpoint": [
+              914.3131822625817,
+              12.77319479440158,
+              0.0
+            ],
+            "defpoint2": [
+              915.5891270307166,
+              14.23049692828079,
+              0.0
+            ],
+            "defpoint3": [
+              918.9448016765518,
+              12.77319479440158,
+              0.0
+            ]
+          },
+          "delta_mm": 0.015474200531940596,
+          "within_drawing_rounding": true
+        }
+      ]
+    },
+    "22013003": {
+      "drawing": "datasheets/22013003_CAD_Drawing.pdf",
+      "drawing_sha256": "c11d802dfe2c4447f4dbddd926b4e964a90b1dbf8d9dcffce00541d612575e31",
+      "dxf_sha256": "45c17c60580518d754a540a3d3e2539dbb855f723d55f1f5444114ebc32c8588",
+      "notes": "Bare screw-facing projection from manufacturer STEP; the DXF front view obscures the face with a handle. 78 mm is body width, not the complete 78.808 mm clip envelope. Bare height 142.730 mm is CAD-derived; 189 mm applies to the cover pair. Use the STEP mounting-hole center span of 131.3 mm for this layout. The published drawing gives 131.4 mm and the DXF dimension endpoints give 131.351 mm; those values remain recorded as source evidence.",
+      "checks": [
+        {
+          "feature": "Body width",
+          "handle": "37094",
+          "published_mm": 78,
+          "measured_mm": 78.00000905990416,
+          "definition_points": {
+            "defpoint": [
+              902.7752896168721,
+              41.39651643218926,
+              0.0
+            ],
+            "defpoint2": [
+              899.7044231184507,
+              39.54403913931031,
+              0.0
+            ],
+            "defpoint3": [
+              902.7752896168721,
+              39.54403913931031,
+              0.0
+            ]
+          },
+          "delta_mm": 9.059904158448262e-06,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Pole pitch",
+          "handle": "37038",
+          "published_mm": 26,
+          "measured_mm": 26.000014138759184,
+          "definition_points": {
+            "defpoint": [
+              901.7516672129389,
+              22.96051462914522,
+              0.0
+            ],
+            "defpoint2": [
+              900.7280446090507,
+              20.73228533400046,
+              0.0
+            ],
+            "defpoint3": [
+              901.7516672129389,
+              21.56900673892232,
+              0.0
+            ]
+          },
+          "delta_mm": 1.4138759183879301e-05,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Mounting span",
+          "handle": "371F0",
+          "published_mm": 131.4,
+          "measured_mm": 131.35077416562783,
+          "definition_points": {
+            "defpoint": [
+              890.3205593300836,
+              15.27848320149542,
+              0.0
+            ],
+            "defpoint2": [
+              900.447532798027,
+              20.44977352297683,
+              0.0
+            ],
+            "defpoint3": [
+              901.4711539563853,
+              15.27848320149542,
+              0.0
+            ]
+          },
+          "delta_mm": -0.04922583437218009,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Depth including shaft socket",
+          "handle": "36EEB",
+          "published_mm": 75,
+          "measured_mm": 74.98255919227115,
+          "definition_points": {
+            "defpoint": [
+              922.7975115345496,
+              25.64767071368805,
+              0.0
+            ],
+            "defpoint2": [
+              919.8454422750114,
+              17.88078737009904,
+              0.0
+            ],
+            "defpoint3": [
+              922.7975115345496,
+              20.67476925957595,
+              0.0
+            ]
+          },
+          "delta_mm": -0.017440807728846153,
+          "within_drawing_rounding": true
+        }
+      ],
+      "step": "3dmodels/Controls/22013003.step",
+      "step_sha256": "a1df48fc82ea9bc7aa2c1ba44fc51c4eec2e19b1ce2811f378e809fdd10119cd",
+      "projection_checks": [
+        {
+          "feature": "STEP mounting-hole center span",
+          "published_mm": 131.4,
+          "measured_mm": 131.2999998911,
+          "delta_mm": -0.1000001089,
+          "status": "Accepted for layout: retain STEP geometry at 131.3 mm.",
+          "preferred_layout_mm": 131.3,
+          "preferred_source": "Manufacturer STEP"
+        }
+      ]
+    },
+    "22943016": {
+      "drawing": "datasheets/22943016_CAD_Drawing.pdf",
+      "drawing_sha256": "f26cbd5e7eb5fcd3a4bfdf4982a0ad96af365d905033ece1afc1b655c9bf1536",
+      "dxf_sha256": "3a7c21930c60f131cbdb62ac3c28bd4f846cf4c929dbaabf6919273b4d994a78",
+      "notes": "Both terminal covers shown at manufacturer installed spacing. Empty center remains empty. Overlay registration to the disconnect requires assembly alignment; each footprint is independently centered.",
+      "checks": [
+        {
+          "feature": "Width",
+          "handle": "37094",
+          "published_mm": 78,
+          "measured_mm": 78.00000905990416,
+          "definition_points": {
+            "defpoint": [
+              902.7752896168721,
+              35.45901643218926,
+              0.0
+            ],
+            "defpoint2": [
+              899.7044231184507,
+              33.54403913931031,
+              0.0
+            ],
+            "defpoint3": [
+              902.7752896168721,
+              33.54403913931031,
+              0.0
+            ]
+          },
+          "delta_mm": 9.059904158448262e-06,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Individual cover length",
+          "handle": "376F7",
+          "published_mm": 71.6,
+          "measured_mm": 71.63053750992015,
+          "definition_points": {
+            "defpoint": [
+              905.224148523346,
+              18.76503545983421,
+              0.0
+            ],
+            "defpoint2": [
+              902.6374931398021,
+              21.58513536179958,
+              0.0
+            ],
+            "defpoint3": [
+              902.775287814653,
+              18.76503545983422,
+              0.0
+            ]
+          },
+          "delta_mm": 0.03053750992015125,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Installed pair envelope",
+          "handle": "37239",
+          "published_mm": 189,
+          "measured_mm": 188.97599999999997,
+          "definition_points": {
+            "defpoint": [
+              895.4591358339101,
+              14.14513301516046,
+              0.0
+            ],
+            "defpoint2": [
+              899.8422177933015,
+              21.58513301516046,
+              0.0
+            ],
+            "defpoint3": [
+              899.8422177933015,
+              14.14513301516046,
+              0.0
+            ]
+          },
+          "delta_mm": -0.02400000000002933,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Depth",
+          "handle": "36EF5",
+          "published_mm": 50.1,
+          "measured_mm": 50.10692709533184,
+          "definition_points": {
+            "defpoint": [
+              918.7235313758414,
+              11.42454158291613,
+              0.0
+            ],
+            "defpoint2": [
+              916.7508177106708,
+              16.90026294789473,
+              0.0
+            ],
+            "defpoint3": [
+              918.7235313758414,
+              15.12539710439943,
+              0.0
+            ]
+          },
+          "delta_mm": 0.006927095331839439,
+          "within_drawing_rounding": true
+        }
+      ]
+    },
+    "CVR-RH-25030": {
+      "drawing": "datasheets/CVR-RH-25030_CAD_Drawing.pdf",
+      "drawing_sha256": "9da4af0d6c0f2252b7938ea69bcd1ea32006e60d12a57b6de45f35f5e60fbafc",
+      "dxf_sha256": "ccfb101f67e223e6db0328efa0a719b1e32e25ac9e37b0b7f67f60d5f3942826",
+      "notes": "Single-pole cover rotated to align with fuse-holder orientation; one footprint is one cover.",
+      "checks": [
+        {
+          "feature": "Length",
+          "handle": "4C2C0",
+          "published_mm": 99.1,
+          "measured_mm": 99.09165072549074,
+          "definition_points": {
+            "defpoint": [
+              906.0022969442178,
+              1.193936515172325,
+              0.0
+            ],
+            "defpoint2": [
+              902.1010508526631,
+              0.385940363050608,
+              0.0
+            ],
+            "defpoint3": [
+              906.0022969442178,
+              0.3859403630506062,
+              0.0
+            ]
+          },
+          "delta_mm": -0.008349274509257043,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Width",
+          "handle": "4C2FC",
+          "published_mm": 21.2,
+          "measured_mm": 21.18186466395734,
+          "definition_points": {
+            "defpoint": [
+              909.0254323897976,
+              -4.648510006749202,
+              0.0
+            ],
+            "defpoint2": [
+              908.1915007101143,
+              -3.71416279115823,
+              0.0
+            ],
+            "defpoint3": [
+              909.0254323897976,
+              -3.714162791158229,
+              0.0
+            ]
+          },
+          "delta_mm": -0.018135336042657713,
+          "within_drawing_rounding": true
+        }
+      ]
+    },
+    "FAZ-D4-2-NA-L": {
+      "drawing": "datasheets/FAZ-D4-2-NA-L_Drawing.pdf",
+      "drawing_sha256": "1ed3855f066ffdcc97fb69e00c3b3d939da7abcc951a92558ef41a5060a607c5",
+      "dxf_sha256": "a063935b7569091084bd521975d48f4c07960a975ac1e822b5913cb30965b162",
+      "notes": "Screw-facing elevation; four terminals, two poles.",
+      "checks": [
+        {
+          "feature": "Width",
+          "handle": "445",
+          "published_mm": 35.4,
+          "measured_mm": 35.39999999999999,
+          "definition_points": {
+            "defpoint": [
+              4.589740546126508,
+              7.243260576161425,
+              0.0
+            ],
+            "defpoint2": [
+              3.196039758724929,
+              6.187470988128446,
+              0.0
+            ],
+            "defpoint3": [
+              4.589740546126504,
+              6.187470988128442,
+              0.0
+            ]
+          },
+          "delta_mm": -7.105427357601002e-15,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Height",
+          "handle": "599",
+          "published_mm": 105,
+          "measured_mm": 105.00000000000001,
+          "definition_points": {
+            "defpoint": [
+              12.87511168245693,
+              2.654006421199311,
+              0.0
+            ],
+            "defpoint2": [
+              10.9902678807653,
+              6.787864688915847,
+              0.0
+            ],
+            "defpoint3": [
+              10.9979403760305,
+              2.654006421199311,
+              0.0
+            ]
+          },
+          "delta_mm": 1.4210854715202004e-14,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Pole pitch",
+          "handle": "430",
+          "published_mm": 17.7,
+          "measured_mm": 17.700000000000014,
+          "definition_points": {
+            "defpoint": [
+              4.241315349276092,
+              2.207171967709961,
+              0.0
+            ],
+            "defpoint2": [
+              3.544464955575308,
+              3.421722956632383,
+              0.0
+            ],
+            "defpoint3": [
+              4.241315349276095,
+              3.421722956632381,
+              0.0
+            ]
+          },
+          "delta_mm": 1.4210854715202004e-14,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Screw row pitch",
+          "handle": "41B",
+          "published_mm": 66,
+          "measured_mm": 66.00000000000001,
+          "definition_points": {
+            "defpoint": [
+              2.432583883791201,
+              3.421722956632387,
+              0.0
+            ],
+            "defpoint2": [
+              3.544464955575317,
+              6.020148153482777,
+              0.0
+            ],
+            "defpoint3": [
+              3.544464955575308,
+              3.421722956632383,
+              0.0
+            ]
+          },
+          "delta_mm": 1.4210854715202004e-14,
+          "within_drawing_rounding": true
+        }
+      ]
+    },
+    "HC3096N-52-900-24": {
+      "drawing": "datasheets/HC3096N-52-900-24_Drawing.pdf",
+      "drawing_sha256": "023509adbaaa5e2cd7b096ff5cf10dc526838d5708ada1e3569515f1fb6e460d",
+      "dxf_sha256": "d9a342f29071ccd11e60b65f254cbcd2fda352dc3b5c45c115f6994540e58368",
+      "notes": "Terminal numbering uses the 2NO/2NC variant in the manufacturer datasheet. Screw centers fitted to supplier spline geometry; small real top/bottom offsets retained. Envelope 106.792 mm includes detail beyond the height dimension endpoints.",
+      "checks": [
+        {
+          "feature": "Body width",
+          "handle": "933",
+          "published_mm": 17.9,
+          "measured_mm": 17.89999999999435,
+          "definition_points": {
+            "defpoint": [
+              291.1174036453715,
+              181.6463359552548,
+              0.0
+            ],
+            "defpoint2": [
+              273.2174036453774,
+              162.8904258260247,
+              0.0
+            ],
+            "defpoint3": [
+              291.1174036453717,
+              162.8904258260182,
+              0.0
+            ]
+          },
+          "delta_mm": -5.6488147492927965e-12,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Height dimension",
+          "handle": "971",
+          "published_mm": 106.8,
+          "measured_mm": 106.7694214489527,
+          "definition_points": {
+            "defpoint": [
+              233.2137282952628,
+              166.5490020505821,
+              0.0
+            ],
+            "defpoint2": [
+              273.9174036453728,
+              59.7795806016295,
+              0.0
+            ],
+            "defpoint3": [
+              277.4174036453726,
+              166.5490020505822,
+              0.0
+            ]
+          },
+          "delta_mm": -0.030578551047298674,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Depth",
+          "handle": "393",
+          "published_mm": 65.1,
+          "measured_mm": 65.0500000841593,
+          "definition_points": {
+            "defpoint": [
+              110.7406512999161,
+              209.3072322131784,
+              0.0
+            ],
+            "defpoint2": [
+              175.7906513840757,
+              135.2837387227383,
+              0.0
+            ],
+            "defpoint3": [
+              110.7406512999164,
+              137.8951337028409,
+              0.0
+            ]
+          },
+          "delta_mm": -0.04999991584070074,
+          "within_drawing_rounding": true
+        }
+      ]
+    },
+    "HMC-9B30-11-DS": {
+      "drawing": "datasheets/HMC-9B30-11-DS_Drawing.pdf",
+      "drawing_sha256": "958890a53e3763498ef67cf1cc7a8e0b3b2a0ecdd5dc3bd45de7dbd453ace81f",
+      "dxf_sha256": "dbb43c5ebc7d76c404a7022a4e511324e907afa975484336b0c8393759c47577",
+      "notes": "All 14 terminals retained, including four separate coil-access screws. Built-in auxiliary terminals are 43/44 NO and 31/32 NC. Pole pitch 10.9 mm in supplied model; overload mating needs assembly verification.",
+      "checks": [
+        {
+          "feature": "Width",
+          "handle": "22F",
+          "published_mm": 45,
+          "measured_mm": 44.999999999999986,
+          "definition_points": {
+            "defpoint": [
+              95.33262315270935,
+              260.5531746776707,
+              0.0
+            ],
+            "defpoint2": [
+              50.33262315270936,
+              228.170476623651,
+              0.0
+            ],
+            "defpoint3": [
+              95.33262315270935,
+              233.4204766236514,
+              0.0
+            ]
+          },
+          "delta_mm": -1.4210854715202004e-14,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Height",
+          "handle": "21A",
+          "published_mm": 75.5,
+          "measured_mm": 75.5,
+          "definition_points": {
+            "defpoint": [
+              127.3326231527093,
+              160.9204766236514,
+              0.0
+            ],
+            "defpoint2": [
+              83.43262315270935,
+              236.4204766236514,
+              0.0
+            ],
+            "defpoint3": [
+              83.43262315270935,
+              160.9204766236514,
+              0.0
+            ]
+          },
+          "delta_mm": 0.0,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Mounting pitch X",
+          "handle": "38D",
+          "published_mm": 34,
+          "measured_mm": 33.999999999999886,
+          "definition_points": {
+            "defpoint": [
+              437.8077198275857,
+              260.4162168770962,
+              0.0
+            ],
+            "defpoint2": [
+              403.8077198275858,
+              235.9104766236514,
+              0.0
+            ],
+            "defpoint3": [
+              437.8077198275857,
+              235.9104766236514,
+              0.0
+            ]
+          },
+          "delta_mm": -1.1368683772161603e-13,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Mounting pitch Y",
+          "handle": "3A1",
+          "published_mm": 65,
+          "measured_mm": 65.0,
+          "definition_points": {
+            "defpoint": [
+              473.179898432049,
+              166.1704766236514,
+              0.0
+            ],
+            "defpoint2": [
+              442.5477198275858,
+              231.1704766236514,
+              0.0
+            ],
+            "defpoint3": [
+              443.5477198275858,
+              166.1704766236514,
+              0.0
+            ]
+          },
+          "delta_mm": 0.0,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Depth",
+          "handle": "316",
+          "published_mm": 103.6,
+          "measured_mm": 103.59999999999997,
+          "definition_points": {
+            "defpoint": [
+              185.3842396736918,
+              283.6571746844149,
+              0.0
+            ],
+            "defpoint2": [
+              288.9842396736918,
+              235.4204766236514,
+              0.0
+            ],
+            "defpoint3": [
+              185.3842396736918,
+              194.0704766236514,
+              0.0
+            ]
+          },
+          "delta_mm": -2.842170943040401e-14,
+          "within_drawing_rounding": true
+        }
+      ],
+      "terminal_photo_url": "https://cdn.automationdirect.com/images/products/large/l_hmc9b3011ds.jpg"
+    },
+    "HMX1-AUX11-F": {
+      "drawing": "datasheets/HMX1-AUX11-F_CAD_Drawing.pdf",
+      "drawing_sha256": "f91efe10e160ad3639cec6d8ae8fbe08ee43b221bab2b41782039993aef4f27a",
+      "dxf_sha256": "9fb7f760a554b1085f2602a36518ef40506f1d8c6309c92f5ae00025fa33c02d",
+      "notes": "Manufacturer STEP supplies the screw-facing view absent from DXF. Actual product photograph identifies left NC 51/52 and right NO 63/64. No matching Controls symbol currently exists; these are manufacturer terminal IDs.",
+      "checks": [
+        {
+          "feature": "Width",
+          "handle": "13D",
+          "published_mm": 25,
+          "measured_mm": 24.999999999999993,
+          "definition_points": {
+            "defpoint": [
+              60.93571674876849,
+              64.04878232758618,
+              0.0
+            ],
+            "defpoint2": [
+              85.93571674876848,
+              78.0566209800175,
+              0.0
+            ],
+            "defpoint3": [
+              60.93571674876849,
+              78.0566209800175,
+              0.0
+            ]
+          },
+          "delta_mm": -7.105427357601002e-15,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Front length",
+          "handle": "234",
+          "published_mm": 48,
+          "measured_mm": 47.999999999999716,
+          "definition_points": {
+            "defpoint": [
+              191.2352918492547,
+              129.5201315057028,
+              0.0
+            ],
+            "defpoint2": [
+              143.235291849255,
+              110.0566209800169,
+              0.0
+            ],
+            "defpoint3": [
+              191.2352918492547,
+              110.0566209800168,
+              0.0
+            ]
+          },
+          "delta_mm": -2.8421709430404007e-13,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Depth",
+          "handle": "248",
+          "published_mm": 35,
+          "measured_mm": 35.0,
+          "definition_points": {
+            "defpoint": [
+              205.6704784482759,
+              78.0566209800175,
+              0.0
+            ],
+            "defpoint2": [
+              181.535291849255,
+              113.0566209800175,
+              0.0
+            ],
+            "defpoint3": [
+              184.935291849255,
+              78.0566209800175,
+              0.0
+            ]
+          },
+          "delta_mm": 0.0,
+          "within_drawing_rounding": true
+        }
+      ],
+      "step": "3dmodels/Controls/HMX1-AUX11-F.step",
+      "step_sha256": "c038c678c7200c44497804e1a9da0f81b5e4dad99346c8842dc901fc310a2453",
+      "terminal_photo_url": "https://cdn.automationdirect.com/images/products/large/l_hmx1aux11f.jpg"
+    },
+    "HMX1-BBREV": {
+      "drawing": "datasheets/HMX1-BBREV_CAD_Drawing.pdf",
+      "drawing_sha256": "309d24ea4c85b60718a442352b6ee2f780c274e00f01b85df78bd2a06a368f40",
+      "dxf_sha256": "6a1a04643b855f8465f37e0d5f5464877f67082779ff9a2e822d7c7f3fa96c13",
+      "notes": "Kit split into line and load pieces. Graphics-only accessory: connections occur at mating contactor terminals, not independent wire terminals. Load-piece height 19.5 mm is CAD-derived.",
+      "checks": [
+        {
+          "feature": "Line bar length",
+          "handle": "1C3",
+          "published_mm": 90.7,
+          "measured_mm": 90.69999999999999,
+          "definition_points": {
+            "defpoint": [
+              99.51174907635473,
+              135.3569284482759,
+              0.0
+            ],
+            "defpoint2": [
+              8.811749076354737,
+              119.3569284482758,
+              0.0
+            ],
+            "defpoint3": [
+              99.51174907635473,
+              119.3569284482758,
+              0.0
+            ]
+          },
+          "delta_mm": -1.4210854715202004e-14,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Line bar height",
+          "handle": "3E0",
+          "published_mm": 26.5,
+          "measured_mm": 26.500000000000014,
+          "definition_points": {
+            "defpoint": [
+              133.9163748007415,
+              92.85692844827568,
+              0.0
+            ],
+            "defpoint2": [
+              161.7144727170229,
+              119.3569284482758,
+              0.0
+            ],
+            "defpoint3": [
+              162.714472717023,
+              92.85692844827578,
+              0.0
+            ]
+          },
+          "delta_mm": 1.4210854715202004e-14,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Load bar length",
+          "handle": "1AE",
+          "published_mm": 90.7,
+          "measured_mm": 90.69999999999996,
+          "definition_points": {
+            "defpoint": [
+              105.3117490763547,
+              36.81585144197199,
+              0.0
+            ],
+            "defpoint2": [
+              14.61174907635474,
+              49.55692844827579,
+              0.0
+            ],
+            "defpoint3": [
+              105.3117490763547,
+              49.55692844827579,
+              0.0
+            ]
+          },
+          "delta_mm": -4.263256414560601e-14,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Load bar depth",
+          "handle": "41E",
+          "published_mm": 22.8,
+          "measured_mm": 22.799999999999926,
+          "definition_points": {
+            "defpoint": [
+              172.2144727170232,
+              37.1426403516048,
+              0.0
+            ],
+            "defpoint2": [
+              149.4144727170232,
+              49.55692844827573,
+              0.0
+            ],
+            "defpoint3": [
+              172.2144727170231,
+              49.55692844827582,
+              0.0
+            ]
+          },
+          "delta_mm": -7.460698725481052e-14,
+          "within_drawing_rounding": true
+        }
+      ]
+    },
+    "HMX1-MI": {
+      "drawing": "datasheets/HMX1-MI_Drawing.pdf",
+      "drawing_sha256": "259569df8030c9a51d64235e0b7582b49e0dd0e39350ce0b014849f409f1ea8d",
+      "dxf_sha256": "d1d672a3f668e9e8d190a02e99b963cefe2bff724b0a9a8f26a670798ad27234",
+      "notes": "Screw-facing manufacturer STEP projection, not the large flat side in DXF. Four screws at different depths project separately; no fan-out required. Terminal order top to bottom: 111,121,112,122. Outer two screws are hidden by nearer model geometry in the true front projection; their wiring pads retain the measured screw centers and depths.",
+      "checks": [
+        {
+          "feature": "Front height",
+          "handle": "12A",
+          "published_mm": 83,
+          "measured_mm": 83.00000000000006,
+          "definition_points": {
+            "defpoint": [
+              92.55702401477825,
+              149.9295215517241,
+              0.0
+            ],
+            "defpoint2": [
+              175.5570240147783,
+              178.3793947270995,
+              0.0
+            ],
+            "defpoint3": [
+              92.55702401477825,
+              178.3793947270995,
+              0.0
+            ]
+          },
+          "delta_mm": 5.684341886080802e-14,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Body width",
+          "handle": "2E8",
+          "published_mm": 12,
+          "measured_mm": 12.0,
+          "definition_points": {
+            "defpoint": [
+              339.8706012239679,
+              279.7837349364175,
+              0.0
+            ],
+            "defpoint2": [
+              327.8706012239679,
+              255.8214328428494,
+              0.0
+            ],
+            "defpoint3": [
+              339.8706012239679,
+              255.8214328428494,
+              0.0
+            ]
+          },
+          "delta_mm": 0.0,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Actuator span",
+          "handle": "2FD",
+          "published_mm": 21.2,
+          "measured_mm": 21.200013503033787,
+          "definition_points": {
+            "defpoint": [
+              345.0692289934711,
+              157.8798621224461,
+              0.0
+            ],
+            "defpoint2": [
+              323.8705661730522,
+              235.8969338230901,
+              0.0
+            ],
+            "defpoint3": [
+              345.070601223968,
+              237.1413792716495,
+              0.0
+            ]
+          },
+          "delta_mm": 1.350303378799822e-05,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Depth",
+          "handle": "115",
+          "published_mm": 80.5,
+          "measured_mm": 80.50000000000011,
+          "definition_points": {
+            "defpoint": [
+              207.5570240147783,
+              177.8793947270995,
+              0.0
+            ],
+            "defpoint2": [
+              149.0570240147783,
+              258.3793947270995,
+              0.0
+            ],
+            "defpoint3": [
+              175.0570240147783,
+              177.8793947270995,
+              0.0
+            ]
+          },
+          "delta_mm": 1.1368683772161603e-13,
+          "within_drawing_rounding": true
+        }
+      ],
+      "step": "3dmodels/Controls/HMX1-MI.step",
+      "step_sha256": "98cd51a949a80da513bb8ce108ce34cb2e33cbcae08704fd38e77b3097474b0c",
+      "terminal_photo_url": "https://cdn.automationdirect.com/images/products/large/l_hmx1mi.jpg",
+      "review_status": "Projected terminal arrangement accepted; preserve true projected centers."
+    },
+    "HMX1-SSVRC-DC": {
+      "drawing": "datasheets/HMX1-SSVRC-DC_Drawing.pdf",
+      "drawing_sha256": "2e57c9e269281ac354088e0e35341fd3b6fc38c9ed64ae5e25ce768cbda5860c",
+      "dxf_sha256": "ab20ed3c98ad1c23c4d09b45492368dc31178b83a572d18c8c69f3abb3094ff8",
+      "notes": "Terminal-facing view includes the supplier lead shape. The two flexible factory lead wires terminate in forks and connect across the contactor coil terminals; the body clips into the contactor mounting space. These are supplied suppressor leads, separate from the HMX1-BBREV reversing busbars. Their 24 mm CAD spacing is a depicted wire position, not a fixed mating pitch. Final installed wire routing can vary. Numbers 1/2 match the catalog symbol, not polarity.",
+      "checks": [
+        {
+          "feature": "Width",
+          "handle": "14D",
+          "published_mm": 37.4,
+          "measured_mm": 37.40000000000001,
+          "definition_points": {
+            "defpoint": [
+              80.27052278325445,
+              119.3405862068945,
+              0.0
+            ],
+            "defpoint2": [
+              42.87052278325194,
+              95.39330981721716,
+              0.0
+            ],
+            "defpoint3": [
+              80.27052278325195,
+              95.39330981721716,
+              0.0
+            ]
+          },
+          "delta_mm": 1.4210854715202004e-14,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Body span in terminal-facing view",
+          "handle": "36C",
+          "published_mm": 15,
+          "measured_mm": 15.0,
+          "definition_points": {
+            "defpoint": [
+              94.61226293103444,
+              193.1751051247108,
+              0.0
+            ],
+            "defpoint2": [
+              80.27052278325195,
+              178.1751051247107,
+              0.0
+            ],
+            "defpoint3": [
+              80.27052278325185,
+              193.1751051247107,
+              0.0
+            ]
+          },
+          "delta_mm": 0.0,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Inner body width",
+          "handle": "162",
+          "published_mm": 35,
+          "measured_mm": 35.00000000000146,
+          "definition_points": {
+            "defpoint": [
+              79.07052278325197,
+              58.59079310344839,
+              0.0
+            ],
+            "defpoint2": [
+              44.07052278325052,
+              72.89330981721716,
+              0.0
+            ],
+            "defpoint3": [
+              79.07052278325197,
+              72.89330981721716,
+              0.0
+            ]
+          },
+          "delta_mm": 1.4566126083082054e-12,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Body span in other view",
+          "handle": "2AA",
+          "published_mm": 22.5,
+          "measured_mm": 22.5,
+          "definition_points": {
+            "defpoint": [
+              203.7720474137931,
+              72.89330981721716,
+              0.0
+            ],
+            "defpoint2": [
+              186.9645262843106,
+              95.39330981721716,
+              0.0
+            ],
+            "defpoint3": [
+              186.9645262843106,
+              72.89330981721716,
+              0.0
+            ]
+          },
+          "delta_mm": 0.0,
+          "within_drawing_rounding": true
+        }
+      ],
+      "installation_reference": {
+        "file": "datasheets/IronHorse_HMC_HTOR.pdf",
+        "page": 21,
+        "url": "https://cdn.automationdirect.com/static/specs/ironhorsehmcandhtor.pdf"
+      }
+    },
+    "HTOR32-6-S": {
+      "drawing": "datasheets/HTOR32-6-S_Drawing.pdf",
+      "drawing_sha256": "af8ffb024db84abcf05d8d32a34d2d31ddfc4ca115a029222da65fc97da2845a",
+      "dxf_sha256": "2a25e72db5657e42759e81f797b915edbc48517b8936d7fc2623e7af224ec0e1",
+      "notes": "Front includes three input blades and seven screw terminals. The overload mounts below the contactor, directly into its three load terminals (2/T1, 4/T2, 6/T3). Input pad centers are at the blade tips. Supplier CAD input pitch is 14.3 mm, whereas HMC-9B30-11-DS has 10.9 mm pole pitch; the manufacturer lists compatibility, but the exact installed blade arrangement is not represented by these separate models. No scaling or bending was invented.",
+      "checks": [
+        {
+          "feature": "Width",
+          "handle": "29D",
+          "published_mm": 45,
+          "measured_mm": 44.9999999999978,
+          "definition_points": {
+            "defpoint": [
+              165.5745714285707,
+              85.3828663793103,
+              0.0
+            ],
+            "defpoint2": [
+              120.5745714285729,
+              111.9049938650194,
+              0.0
+            ],
+            "defpoint3": [
+              165.5745714285707,
+              111.9049938650194,
+              0.0
+            ]
+          },
+          "delta_mm": -2.2026824808563106e-12,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Body height",
+          "handle": "648",
+          "published_mm": 57.9,
+          "measured_mm": 57.900000000010095,
+          "definition_points": {
+            "defpoint": [
+              209.5745714285704,
+              359.4484094827652,
+              0.0
+            ],
+            "defpoint2": [
+              165.5745714285707,
+              301.5484094827548,
+              0.0
+            ],
+            "defpoint3": [
+              165.5745714285702,
+              359.4484094827649,
+              0.0
+            ]
+          },
+          "delta_mm": 1.0096812275151024e-11,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Prong extension",
+          "handle": "65C",
+          "published_mm": 16.7,
+          "measured_mm": 16.64999999999759,
+          "definition_points": {
+            "defpoint": [
+              209.5745714285707,
+              376.0984094827628,
+              0.0
+            ],
+            "defpoint2": [
+              165.5745714285702,
+              359.4484094827649,
+              0.0
+            ],
+            "defpoint3": [
+              154.224571428572,
+              376.0984094827624,
+              0.0
+            ]
+          },
+          "delta_mm": -0.05000000000240945,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Depth",
+          "handle": "288",
+          "published_mm": 90,
+          "measured_mm": 90.00000000002242,
+          "definition_points": {
+            "defpoint": [
+              79.52232588729807,
+              111.9049938650194,
+              0.0
+            ],
+            "defpoint2": [
+              141.5245714285721,
+              201.9049938650419,
+              0.0
+            ],
+            "defpoint3": [
+              120.5745714285729,
+              111.9049938650194,
+              0.0
+            ]
+          },
+          "delta_mm": 2.2424728740588762e-11,
+          "within_drawing_rounding": true
+        }
+      ],
+      "terminal_photo_url": "https://cdn.automationdirect.com/images/products/large/l_htor326s.jpg",
+      "installation_reference": {
+        "file": "datasheets/IronHorse_HMC_HTOR.pdf",
+        "page": 20,
+        "url": "https://cdn.automationdirect.com/static/specs/ironhorsehmcandhtor.pdf"
+      }
+    },
+    "KN-10J12": {
+      "drawing": "datasheets/KN-10J12_CAD_Drawing.pdf",
+      "drawing_sha256": "5523d08c102f3b4eb02a095d3fd6d6a29952c4ce6d1b7cd98cf5b3b48c31ea78",
+      "dxf_sha256": "ee48b4a5de4e718cac58045e456abfbb6bd15ea27870738136b7877086e10884",
+      "notes": "Screw-facing jumper. 4.4 mm drawing dimension describes the bar; head envelope is 5 mm. Graphics-only accessory, without independent wire terminals.",
+      "checks": [
+        {
+          "feature": "Length",
+          "handle": "1A158",
+          "published_mm": 51.1,
+          "measured_mm": 51.1249999999999,
+          "definition_points": {
+            "defpoint": [
+              106.175338742449,
+              117.3812190082633,
+              0.0
+            ],
+            "defpoint2": [
+              157.3003387424489,
+              107.0249351451791,
+              0.0
+            ],
+            "defpoint3": [
+              106.175338742449,
+              107.0249351451791,
+              0.0
+            ]
+          },
+          "delta_mm": 0.024999999999899103,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Bar width excluding screw heads",
+          "handle": "1A13A",
+          "published_mm": 4.4,
+          "measured_mm": 4.349999999999994,
+          "definition_points": {
+            "defpoint": [
+              164.9109418272705,
+              138.0021109615359,
+              0.0
+            ],
+            "defpoint2": [
+              156.6253387424489,
+              133.6521109615359,
+              0.0
+            ],
+            "defpoint3": [
+              156.6253387424489,
+              138.0021109615359,
+              0.0
+            ]
+          },
+          "delta_mm": -0.05000000000000604,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Depth",
+          "handle": "1A174",
+          "published_mm": 15.8,
+          "measured_mm": 15.751972851859037,
+          "definition_points": {
+            "defpoint": [
+              94.53761654900079,
+              91.52296229332008,
+              0.0
+            ],
+            "defpoint2": [
+              106.425338742449,
+              107.2749351451791,
+              0.0
+            ],
+            "defpoint3": [
+              107.5664271769878,
+              91.52296229332006,
+              0.0
+            ]
+          },
+          "delta_mm": -0.04802714814096376,
+          "within_drawing_rounding": true
+        }
+      ]
+    },
+    "KN-T12GRY-25": {
+      "drawing": "datasheets/KN-T12GRY-25_CAD_Drawing.pdf",
+      "drawing_sha256": "e9ca5817c0cd8fe2cce3a2842275b8ec25f7be525a175c7c25f4da9d0b3451a5",
+      "dxf_sha256": "587ed93a2254e53644712f4faeeb4ce5b3912301053c427ce92a129b9fe2466b",
+      "notes": "Rotated into installed vertical terminal orientation on a horizontal DIN rail. Two actual wire terminals; jumper is separate.",
+      "checks": [
+        {
+          "feature": "Length",
+          "handle": "163FF",
+          "published_mm": 44.2,
+          "measured_mm": 44.19999999917363,
+          "definition_points": {
+            "defpoint": [
+              142.2155540793368,
+              69.25149126414186,
+              0.0
+            ],
+            "defpoint2": [
+              98.01555408016318,
+              82.72560928174232,
+              0.0
+            ],
+            "defpoint3": [
+              142.2155540793368,
+              85.40314026359727,
+              0.0
+            ]
+          },
+          "delta_mm": -8.263754125437117e-10,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Thickness",
+          "handle": "1641B",
+          "published_mm": 5,
+          "measured_mm": 4.999999999999886,
+          "definition_points": {
+            "defpoint": [
+              150.8190406764467,
+              157.8493547954458,
+              0.0
+            ],
+            "defpoint2": [
+              142.0040562782552,
+              162.8493547954457,
+              0.0
+            ],
+            "defpoint3": [
+              141.9357550081765,
+              157.8493547954458,
+              0.0
+            ]
+          },
+          "delta_mm": -1.1368683772161603e-13,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Depth",
+          "handle": "163E3",
+          "published_mm": 42.5,
+          "measured_mm": 42.50364119580247,
+          "definition_points": {
+            "defpoint": [
+              84.04308830919346,
+              81.72560928286885,
+              0.0
+            ],
+            "defpoint2": [
+              107.0209255123205,
+              124.2292504786713,
+              0.0
+            ],
+            "defpoint3": [
+              99.01555407903666,
+              81.72560928286883,
+              0.0
+            ]
+          },
+          "delta_mm": 0.0036411958024729074,
+          "within_drawing_rounding": true
+        }
+      ]
+    },
+    "RM25030-3SR": {
+      "drawing": "datasheets/RM25030-3SR_Drawing.pdf",
+      "drawing_sha256": "909da53e500c724f006e37e902162aa540c89f1c0be95efa22cbe3bcb0e477cd",
+      "dxf_sha256": "a54e54b023189744ea7a33a3abba3439ea1c09f8652c28c99faf866c967eefdb",
+      "notes": "Approved uncovered sample preserved byte-for-byte. 80.400 mm uncovered height is from CAD; published 99.1 mm is the covered height. Six approved 14 AWG review pads retained.",
+      "checks": [
+        {
+          "feature": "Width dimension",
+          "handle": "3AAE0",
+          "published_mm": 74.5,
+          "measured_mm": 74.48684615222639,
+          "definition_points": {
+            "defpoint": [
+              904.3410298912797,
+              -3.020965748460114,
+              0.0
+            ],
+            "defpoint2": [
+              901.4084768931606,
+              -1.325198679084203,
+              0.0
+            ],
+            "defpoint3": [
+              904.3410298912797,
+              -1.319698637884129,
+              0.0
+            ]
+          },
+          "delta_mm": -0.013153847773608618,
+          "within_drawing_rounding": true
+        },
+        {
+          "feature": "Covered height",
+          "handle": "3AAF4",
+          "published_mm": 99.1,
+          "measured_mm": 99.09165366039915,
+          "definition_points": {
+            "defpoint": [
+              905.468828409505,
+              -2.488225558861791,
+              0.0
+            ],
+            "defpoint2": [
+              906.3065044449451,
+              1.413020648240538,
+              0.0
+            ],
+            "defpoint3": [
+              906.3065044449451,
+              -2.488225558861791,
+              0.0
+            ]
+          },
+          "delta_mm": -0.008346339600848296,
+          "within_drawing_rounding": true
+        }
+      ]
+    }
+  },
+  "footprints": [
+    {
+      "name": "14070532_Front",
+      "part": "14070532",
+      "size_mm": [
+        319.9560253579182,
+        5.000000000008169
+      ],
+      "source_center": [
+        919.5524037958053,
+        -0.1619217558844389
+      ],
+      "rotation_deg": 0,
+      "source_kind": "DXF selected elevation",
+      "shapes": {
+        "circle": 1,
+        "line": 4
+      },
+      "cleanup": {},
+      "pads": [],
+      "sha256": "da6742b1793144bb6d3d4db603ceadfd3179164e6706afa1fdf1aad0139df47d"
+    },
+    {
+      "name": "148E1111_Front",
+      "part": "148E1111",
+      "size_mm": [
+        88.4447042138329,
+        70.95743999999999
+      ],
+      "source_center": [
+        917.289667051873,
+        3.782607512645116
+      ],
+      "rotation_deg": 0,
+      "source_kind": "DXF selected elevation",
+      "shapes": {
+        "line": 50,
+        "arc": 35,
+        "circle": 1
+      },
+      "cleanup": {},
+      "pads": [],
+      "sha256": "b98d9307ae84a3c68e832b8db3eb656ff6cfcdbd8bafc900587ec648a4312516"
+    },
+    {
+      "name": "22013003_Front",
+      "part": "22013003",
+      "size_mm": [
+        78.80799421824668,
+        142.72978392252367
+      ],
+      "source_center": [
+        894.24813285141,
+        -1081.5938590696323
+      ],
+      "rotation_deg": 0,
+      "source_kind": "STEP visible-edge projection",
+      "shapes": {
+        "line": 2876
+      },
+      "cleanup": {
+        "duplicate_primitives_removed": 10
+      },
+      "pads": [
+        {
+          "number": "1",
+          "source_center": [
+            867.652129960318,
+            -1041.81885912408
+          ],
+          "true_center_mm": [
+            -26.596003,
+            -39.775
+          ],
+          "center_mm": [
+            -26.596003,
+            -39.775
+          ]
+        },
+        {
+          "number": "3",
+          "source_center": [
+            893.6521299603181,
+            -1041.81885912408
+          ],
+          "true_center_mm": [
+            -0.596003,
+            -39.775
+          ],
+          "center_mm": [
+            -0.596003,
+            -39.775
+          ]
+        },
+        {
+          "number": "5",
+          "source_center": [
+            919.6521299603179,
+            -1041.81885912408
+          ],
+          "true_center_mm": [
+            25.403997,
+            -39.775
+          ],
+          "center_mm": [
+            25.403997,
+            -39.775
+          ]
+        },
+        {
+          "number": "2",
+          "source_center": [
+            867.652129960764,
+            -1121.36885901518
+          ],
+          "true_center_mm": [
+            -26.596003,
+            39.775
+          ],
+          "center_mm": [
+            -26.596003,
+            39.775
+          ]
+        },
+        {
+          "number": "4",
+          "source_center": [
+            893.652129960764,
+            -1121.36885901518
+          ],
+          "true_center_mm": [
+            -0.596003,
+            39.775
+          ],
+          "center_mm": [
+            -0.596003,
+            39.775
+          ]
+        },
+        {
+          "number": "6",
+          "source_center": [
+            919.6521299607641,
+            -1121.36885901518
+          ],
+          "true_center_mm": [
+            25.403997,
+            39.775
+          ],
+          "center_mm": [
+            25.403997,
+            39.775
+          ]
+        }
+      ],
+      "sha256": "6cdcd2eda44c318cbde395a862ab0cd05ba02598674be873a81ec403398fb02e"
+    },
+    {
+      "name": "22943016_Front",
+      "part": "22943016",
+      "size_mm": [
+        78.00000905990704,
+        188.97605960465654
+      ],
+      "source_center": [
+        901.2398563676613,
+        17.86513418848002
+      ],
+      "rotation_deg": 0,
+      "source_kind": "DXF selected elevation",
+      "shapes": {
+        "line": 74,
+        "curve": 4,
+        "arc": 24
+      },
+      "cleanup": {},
+      "pads": [],
+      "sha256": "3d1bc269308a893958136c5f1e0a5ed23f44b85f99f7af2da4a3ab83f40c0e2d"
+    },
+    {
+      "name": "CVR-RH-25030_Front",
+      "part": "CVR-RH-25030",
+      "size_mm": [
+        21.18186466395854,
+        99.09165072549074
+      ],
+      "source_center": [
+        904.0516738984404,
+        0.07910548981578325
+      ],
+      "rotation_deg": 90,
+      "source_kind": "DXF selected elevation",
+      "shapes": {
+        "circle": 2,
+        "line": 923,
+        "curve": 1972,
+        "arc": 58
+      },
+      "cleanup": {},
+      "pads": [],
+      "sha256": "b7b5876970d01c41c2e5981ec44e15369a86179d8257749d73a1fc8e73ddc4d7"
+    },
+    {
+      "name": "FAZ-D4-2-NA-L_Front",
+      "part": "FAZ-D4-2-NA-L",
+      "size_mm": [
+        35.40000000000003,
+        104.99999999999999
+      ],
+      "source_center": [
+        3.892890152425718,
+        4.720935555057579
+      ],
+      "rotation_deg": 0,
+      "source_kind": "DXF selected elevation",
+      "shapes": {
+        "line": 558,
+        "arc": 50,
+        "circle": 4,
+        "curve": 966
+      },
+      "cleanup": {},
+      "pads": [
+        {
+          "number": "1",
+          "source_center": [
+            3.544464955575325,
+            6.020148153482777
+          ],
+          "source_handle": "2E1",
+          "true_center_mm": [
+            -8.85,
+            -33.0
+          ],
+          "center_mm": [
+            -8.85,
+            -33.0
+          ]
+        },
+        {
+          "number": "2",
+          "source_center": [
+            3.544464955575324,
+            3.421722956632383
+          ],
+          "source_handle": "2E6",
+          "true_center_mm": [
+            -8.85,
+            33.0
+          ],
+          "center_mm": [
+            -8.85,
+            33.0
+          ]
+        },
+        {
+          "number": "3",
+          "source_center": [
+            4.241315349276112,
+            6.020148153482777
+          ],
+          "source_handle": "135",
+          "true_center_mm": [
+            8.85,
+            -33.0
+          ],
+          "center_mm": [
+            8.85,
+            -33.0
+          ]
+        },
+        {
+          "number": "4",
+          "source_center": [
+            4.241315349276112,
+            3.421722956632383
+          ],
+          "source_handle": "13A",
+          "true_center_mm": [
+            8.85,
+            33.0
+          ],
+          "center_mm": [
+            8.85,
+            33.0
+          ]
+        }
+      ],
+      "sha256": "c3249b292540be91fa2d1ba5d8e60d03fb9812cfcab23f2c40f92c8999e56065"
+    },
+    {
+      "name": "HC3096N-52-900-24_Front",
+      "part": "HC3096N-52-900-24",
+      "size_mm": [
+        17.90250837802887,
+        106.79215741017475
+      ],
+      "source_center": [
+        282.16740364537276,
+        113.1699951965436
+      ],
+      "rotation_deg": 0,
+      "source_kind": "DXF selected elevation",
+      "shapes": {
+        "line": 875,
+        "arc": 23,
+        "curve": 1532,
+        "circle": 4
+      },
+      "cleanup": {},
+      "pads": [
+        {
+          "number": "13",
+          "source_center": [
+            277.36740308895656,
+            157.11957334577448
+          ],
+          "source_handle": "5CD",
+          "true_center_mm": [
+            -4.800001,
+            -43.949578
+          ],
+          "center_mm": [
+            -4.800001,
+            -43.949578
+          ]
+        },
+        {
+          "number": "14",
+          "source_center": [
+            282.44740308895655,
+            157.11957334577448
+          ],
+          "source_handle": "5CE",
+          "true_center_mm": [
+            0.279999,
+            -43.949578
+          ],
+          "center_mm": [
+            0.279999,
+            -43.949578
+          ]
+        },
+        {
+          "number": "23",
+          "source_center": [
+            287.5274030889566,
+            157.11957334577448
+          ],
+          "source_handle": "5CF",
+          "true_center_mm": [
+            5.359999,
+            -43.949578
+          ],
+          "center_mm": [
+            5.359999,
+            -43.949578
+          ]
+        },
+        {
+          "number": "A1+",
+          "source_center": [
+            279.9074030889566,
+            145.5195733457745
+          ],
+          "source_handle": "444",
+          "true_center_mm": [
+            -2.260001,
+            -32.349578
+          ],
+          "center_mm": [
+            -2.260001,
+            -32.349578
+          ]
+        },
+        {
+          "number": "A2",
+          "source_center": [
+            284.98740308895657,
+            145.5195733457745
+          ],
+          "source_handle": "443",
+          "true_center_mm": [
+            2.819999,
+            -32.349578
+          ],
+          "center_mm": [
+            2.819999,
+            -32.349578
+          ]
+        },
+        {
+          "number": "41",
+          "source_center": [
+            279.34740420178883,
+            79.4395878574843
+          ],
+          "source_handle": "43D",
+          "true_center_mm": [
+            -2.819999,
+            33.730407
+          ],
+          "center_mm": [
+            -2.819999,
+            33.730407
+          ]
+        },
+        {
+          "number": "42",
+          "source_center": [
+            284.4274042017889,
+            79.4395878574843
+          ],
+          "source_handle": "43E",
+          "true_center_mm": [
+            2.260001,
+            33.730407
+          ],
+          "center_mm": [
+            2.260001,
+            33.730407
+          ]
+        },
+        {
+          "number": "24",
+          "source_center": [
+            276.80740420178887,
+            67.83958785748429
+          ],
+          "source_handle": "5C8",
+          "true_center_mm": [
+            -5.359999,
+            45.330407
+          ],
+          "center_mm": [
+            -5.359999,
+            45.330407
+          ]
+        },
+        {
+          "number": "31",
+          "source_center": [
+            281.8874042017889,
+            67.8395878574843
+          ],
+          "source_handle": "5C7",
+          "true_center_mm": [
+            -0.279999,
+            45.330407
+          ],
+          "center_mm": [
+            -0.279999,
+            45.330407
+          ]
+        },
+        {
+          "number": "32",
+          "source_center": [
+            286.9674042017889,
+            67.8395878574843
+          ],
+          "source_handle": "5C6",
+          "true_center_mm": [
+            4.800001,
+            45.330407
+          ],
+          "center_mm": [
+            4.800001,
+            45.330407
+          ]
+        }
+      ],
+      "sha256": "c8aaeabe10c948e90f5eed22a4b34bd19adbebc4ca81c9adf48c8f54c853acc2"
+    },
+    {
+      "name": "HMC-9B30-11-DS_Front",
+      "part": "HMC-9B30-11-DS",
+      "size_mm": [
+        44.99999999999999,
+        75.5
+      ],
+      "source_center": [
+        72.83262315270935,
+        198.6704766236514
+      ],
+      "rotation_deg": 0,
+      "source_kind": "DXF selected elevation",
+      "shapes": {
+        "curve": 279,
+        "arc": 39,
+        "line": 228,
+        "circle": 4
+      },
+      "cleanup": {},
+      "pads": [
+        {
+          "number": "1",
+          "source_center": [
+            56.43262315270935,
+            221.6704766236514
+          ],
+          "true_center_mm": [
+            -16.4,
+            -23.0
+          ],
+          "center_mm": [
+            -16.4,
+            -23.0
+          ]
+        },
+        {
+          "number": "3",
+          "source_center": [
+            67.33262315270935,
+            221.6704766236514
+          ],
+          "true_center_mm": [
+            -5.5,
+            -23.0
+          ],
+          "center_mm": [
+            -5.5,
+            -23.0
+          ]
+        },
+        {
+          "number": "5",
+          "source_center": [
+            78.23262315270935,
+            221.6704766236514
+          ],
+          "true_center_mm": [
+            5.4,
+            -23.0
+          ],
+          "center_mm": [
+            5.4,
+            -23.0
+          ]
+        },
+        {
+          "number": "2",
+          "source_center": [
+            56.43262315270935,
+            175.6704766236514
+          ],
+          "true_center_mm": [
+            -16.4,
+            23.0
+          ],
+          "center_mm": [
+            -16.4,
+            23.0
+          ]
+        },
+        {
+          "number": "4",
+          "source_center": [
+            67.33262315270935,
+            175.6704766236514
+          ],
+          "true_center_mm": [
+            -5.5,
+            23.0
+          ],
+          "center_mm": [
+            -5.5,
+            23.0
+          ]
+        },
+        {
+          "number": "6",
+          "source_center": [
+            78.23262315270935,
+            175.6704766236514
+          ],
+          "true_center_mm": [
+            5.4,
+            23.0
+          ],
+          "center_mm": [
+            5.4,
+            23.0
+          ]
+        },
+        {
+          "number": "43",
+          "source_center": [
+            88.43262315270934,
+            221.97047662365142
+          ],
+          "true_center_mm": [
+            15.6,
+            -23.3
+          ],
+          "center_mm": [
+            15.6,
+            -23.3
+          ]
+        },
+        {
+          "number": "31",
+          "source_center": [
+            88.43262315270934,
+            212.72047662365142
+          ],
+          "true_center_mm": [
+            15.6,
+            -14.05
+          ],
+          "center_mm": [
+            15.6,
+            -14.05
+          ]
+        },
+        {
+          "number": "32",
+          "source_center": [
+            88.43262315270934,
+            184.6204766236514
+          ],
+          "true_center_mm": [
+            15.6,
+            14.05
+          ],
+          "center_mm": [
+            15.6,
+            14.05
+          ]
+        },
+        {
+          "number": "44",
+          "source_center": [
+            88.43262315270934,
+            175.3704766236514
+          ],
+          "true_center_mm": [
+            15.6,
+            23.3
+          ],
+          "center_mm": [
+            15.6,
+            23.3
+          ]
+        },
+        {
+          "number": "A1.TOP",
+          "source_center": [
+            67.03262315270935,
+            229.9204766236514
+          ],
+          "true_center_mm": [
+            -5.8,
+            -31.25
+          ],
+          "center_mm": [
+            -5.8,
+            -31.25
+          ]
+        },
+        {
+          "number": "A2.TOP",
+          "source_center": [
+            78.63262315270934,
+            229.9204766236514
+          ],
+          "true_center_mm": [
+            5.8,
+            -31.25
+          ],
+          "center_mm": [
+            5.8,
+            -31.25
+          ]
+        },
+        {
+          "number": "A1.BOT",
+          "source_center": [
+            67.03262315270935,
+            167.4204766236514
+          ],
+          "true_center_mm": [
+            -5.8,
+            31.25
+          ],
+          "center_mm": [
+            -5.8,
+            31.25
+          ]
+        },
+        {
+          "number": "A2.BOT",
+          "source_center": [
+            78.63262315270934,
+            167.4204766236514
+          ],
+          "true_center_mm": [
+            5.8,
+            31.25
+          ],
+          "center_mm": [
+            5.8,
+            31.25
+          ]
+        }
+      ],
+      "sha256": "9fe8681bbdb1abf825aaf3caa5a91c223e2b17a6232553595a9efbb0baf6e388"
+    },
+    {
+      "name": "HMX1-AUX11-F_Front",
+      "part": "HMX1-AUX11-F",
+      "size_mm": [
+        25.0,
+        48
+      ],
+      "source_center": [
+        0.0,
+        0.0
+      ],
+      "rotation_deg": 0,
+      "source_kind": "STEP visible-edge projection",
+      "shapes": {
+        "line": 463,
+        "arc": 33
+      },
+      "cleanup": {},
+      "pads": [
+        {
+          "number": "51",
+          "source_center": [
+            -5,
+            14.2
+          ],
+          "true_center_mm": [
+            -5.0,
+            -14.2
+          ],
+          "center_mm": [
+            -5.0,
+            -14.2
+          ]
+        },
+        {
+          "number": "63",
+          "source_center": [
+            5,
+            14.2
+          ],
+          "true_center_mm": [
+            5.0,
+            -14.2
+          ],
+          "center_mm": [
+            5.0,
+            -14.2
+          ]
+        },
+        {
+          "number": "52",
+          "source_center": [
+            -5,
+            -14.2
+          ],
+          "true_center_mm": [
+            -5.0,
+            14.2
+          ],
+          "center_mm": [
+            -5.0,
+            14.2
+          ]
+        },
+        {
+          "number": "64",
+          "source_center": [
+            5,
+            -14.2
+          ],
+          "true_center_mm": [
+            5.0,
+            14.2
+          ],
+          "center_mm": [
+            5.0,
+            14.2
+          ]
+        }
+      ],
+      "sha256": "6339333e9ceee5f65f2a890535f0e549ac0f1875b2d58bba4ea46c4164914283"
+    },
+    {
+      "name": "HMX1-BBREV_Line_Front",
+      "part": "HMX1-BBREV",
+      "size_mm": [
+        90.69999999999999,
+        26.499999999999986
+      ],
+      "source_center": [
+        54.16174907635474,
+        106.1069284482758
+      ],
+      "rotation_deg": 0,
+      "source_kind": "DXF selected elevation",
+      "shapes": {
+        "line": 124,
+        "curve": 76,
+        "arc": 12
+      },
+      "cleanup": {},
+      "pads": [],
+      "sha256": "e099d869e9da16603e9600bb0847b5b56ead69c6b8f376a33f034c20e111e755"
+    },
+    {
+      "name": "HMX1-BBREV_Load_Front",
+      "part": "HMX1-BBREV",
+      "size_mm": [
+        90.69999999999996,
+        19.500000000000014
+      ],
+      "source_center": [
+        59.96174907635472,
+        59.30692844827582
+      ],
+      "rotation_deg": 0,
+      "source_kind": "DXF selected elevation",
+      "shapes": {
+        "arc": 12,
+        "line": 94,
+        "curve": 128
+      },
+      "cleanup": {},
+      "pads": [],
+      "sha256": "1551465f73ebd65929d97ea7acf8b64022579abb2012019ad268065ed83dff68"
+    },
+    {
+      "name": "HMX1-MI_Front",
+      "part": "HMX1-MI",
+      "size_mm": [
+        21.2000350509158,
+        83.0
+      ],
+      "source_center": [
+        -0.5999824745420996,
+        0.0
+      ],
+      "rotation_deg": 0,
+      "source_kind": "STEP visible-edge projection",
+      "shapes": {
+        "line": 830,
+        "arc": 18
+      },
+      "cleanup": {},
+      "pads": [
+        {
+          "number": "111",
+          "source_center": [
+            0,
+            31.5
+          ],
+          "model_depth_y_mm": -13.67,
+          "true_center_mm": [
+            0.599982,
+            -31.5
+          ],
+          "center_mm": [
+            0.599982,
+            -31.5
+          ]
+        },
+        {
+          "number": "121",
+          "source_center": [
+            0,
+            21
+          ],
+          "model_depth_y_mm": 17.83,
+          "true_center_mm": [
+            0.599982,
+            -21.0
+          ],
+          "center_mm": [
+            0.599982,
+            -21.0
+          ]
+        },
+        {
+          "number": "112",
+          "source_center": [
+            0,
+            -21
+          ],
+          "model_depth_y_mm": 17.83,
+          "true_center_mm": [
+            0.599982,
+            21.0
+          ],
+          "center_mm": [
+            0.599982,
+            21.0
+          ]
+        },
+        {
+          "number": "122",
+          "source_center": [
+            0,
+            -31.5
+          ],
+          "model_depth_y_mm": -13.67,
+          "true_center_mm": [
+            0.599982,
+            31.5
+          ],
+          "center_mm": [
+            0.599982,
+            31.5
+          ]
+        }
+      ],
+      "sha256": "cb4f7e7ca4a262281a0e4ba64458487a8be34d59f2d3feda4142bbf3281895e7"
+    },
+    {
+      "name": "HMX1-SSVRC-DC_Front",
+      "part": "HMX1-SSVRC-DC",
+      "size_mm": [
+        37.4,
+        39.473484270460204
+      ],
+      "source_center": [
+        61.570522783251945,
+        173.4383629894806
+      ],
+      "rotation_deg": 0,
+      "source_kind": "DXF selected elevation",
+      "shapes": {
+        "line": 146,
+        "curve": 202,
+        "arc": 18
+      },
+      "cleanup": {},
+      "pads": [
+        {
+          "number": "1",
+          "source_center": [
+            49.57052278325195,
+            157.2389065411143
+          ],
+          "terminal_type": "fork center",
+          "true_center_mm": [
+            -12.0,
+            16.199456
+          ],
+          "center_mm": [
+            -12.0,
+            16.199456
+          ]
+        },
+        {
+          "number": "2",
+          "source_center": [
+            73.57052278325195,
+            157.2389065411143
+          ],
+          "terminal_type": "fork center",
+          "true_center_mm": [
+            12.0,
+            16.199456
+          ],
+          "center_mm": [
+            12.0,
+            16.199456
+          ]
+        }
+      ],
+      "sha256": "de3d1851e7047b8e00306ae3c815d64843ed2980c755906441942402b48928ed"
+    },
+    {
+      "name": "HTOR32-6-S_Front",
+      "part": "HTOR32-6-S",
+      "size_mm": [
+        44.9999999999978,
+        74.55000000000769
+      ],
+      "source_center": [
+        143.0745714285714,
+        338.82340948275856
+      ],
+      "rotation_deg": 0,
+      "source_kind": "DXF selected elevation",
+      "shapes": {
+        "line": 225,
+        "arc": 65,
+        "curve": 87
+      },
+      "cleanup": {},
+      "pads": [
+        {
+          "number": "IN1",
+          "source_center": [
+            124.47457142857215,
+            376.0984094827624
+          ],
+          "terminal_type": "input blade tip",
+          "true_center_mm": [
+            -18.6,
+            -37.275
+          ],
+          "center_mm": [
+            -18.6,
+            -37.275
+          ]
+        },
+        {
+          "number": "IN2",
+          "source_center": [
+            138.77457142857085,
+            376.0984094827624
+          ],
+          "terminal_type": "input blade tip",
+          "true_center_mm": [
+            -4.3,
+            -37.275
+          ],
+          "center_mm": [
+            -4.3,
+            -37.275
+          ]
+        },
+        {
+          "number": "IN3",
+          "source_center": [
+            153.07457142857206,
+            376.0984094827624
+          ],
+          "terminal_type": "input blade tip",
+          "true_center_mm": [
+            10.0,
+            -37.275
+          ],
+          "center_mm": [
+            10.0,
+            -37.275
+          ]
+        },
+        {
+          "number": "2",
+          "source_center": [
+            128.77457142857,
+            313.348409482755
+          ],
+          "true_center_mm": [
+            -14.3,
+            25.475
+          ],
+          "center_mm": [
+            -14.3,
+            25.475
+          ]
+        },
+        {
+          "number": "4",
+          "source_center": [
+            143.07457142857,
+            313.348409482755
+          ],
+          "true_center_mm": [
+            -0.0,
+            25.475
+          ],
+          "center_mm": [
+            -0.0,
+            25.475
+          ]
+        },
+        {
+          "number": "6",
+          "source_center": [
+            157.37457142857,
+            313.348409482755
+          ],
+          "true_center_mm": [
+            14.3,
+            25.475
+          ],
+          "center_mm": [
+            14.3,
+            25.475
+          ]
+        },
+        {
+          "number": "95",
+          "source_center": [
+            128.07457142857,
+            326.748409482755
+          ],
+          "true_center_mm": [
+            -15.0,
+            12.075
+          ],
+          "center_mm": [
+            -15.0,
+            12.075
+          ]
+        },
+        {
+          "number": "96",
+          "source_center": [
+            138.07457142857,
+            326.748409482755
+          ],
+          "true_center_mm": [
+            -5.0,
+            12.075
+          ],
+          "center_mm": [
+            -5.0,
+            12.075
+          ]
+        },
+        {
+          "number": "97",
+          "source_center": [
+            148.07457142857,
+            326.748409482755
+          ],
+          "true_center_mm": [
+            5.0,
+            12.075
+          ],
+          "center_mm": [
+            5.0,
+            12.075
+          ]
+        },
+        {
+          "number": "98",
+          "source_center": [
+            158.07457142857,
+            326.748409482755
+          ],
+          "true_center_mm": [
+            15.0,
+            12.075
+          ],
+          "center_mm": [
+            15.0,
+            12.075
+          ]
+        }
+      ],
+      "sha256": "0922ae850219021e1fadac726fc8ab425b2304b07e5ddb9d357be3837747430e"
+    },
+    {
+      "name": "KN-10J12_Front",
+      "part": "KN-10J12",
+      "size_mm": [
+        51.1249999999999,
+        5.0
+      ],
+      "source_center": [
+        131.73783874244896,
+        135.8271109615359
+      ],
+      "rotation_deg": 0,
+      "source_kind": "DXF selected elevation",
+      "shapes": {
+        "line": 58,
+        "circle": 20
+      },
+      "cleanup": {},
+      "pads": [],
+      "sha256": "5b8cee3906450c274150ef6f91784669f8a50f7a0419dde5cc808e88b007ffc7"
+    },
+    {
+      "name": "KN-T12GRY-25_Front",
+      "part": "KN-T12GRY-25",
+      "size_mm": [
+        5.0,
+        44.19999999917363
+      ],
+      "source_center": [
+        120.11555407975,
+        160.3493547954457
+      ],
+      "rotation_deg": 90,
+      "source_kind": "DXF selected elevation",
+      "shapes": {
+        "line": 112,
+        "circle": 2
+      },
+      "cleanup": {},
+      "pads": [
+        {
+          "number": "1",
+          "source_center": [
+            113.5655540803784,
+            160.3493547954457
+          ],
+          "source_handle": "16315",
+          "true_center_mm": [
+            -0.0,
+            -6.55
+          ],
+          "center_mm": [
+            -0.0,
+            -6.55
+          ]
+        },
+        {
+          "number": "2",
+          "source_center": [
+            128.8655540803784,
+            160.3493547954457
+          ],
+          "source_handle": "16311",
+          "true_center_mm": [
+            0.0,
+            8.75
+          ],
+          "center_mm": [
+            0.0,
+            8.75
+          ]
+        }
+      ],
+      "sha256": "26d0332e264652595f41cab74d1ed97037e377cfb4b75d5e2c2573b4b9803c3f"
+    },
+    {
+      "name": "RM25030-3SR_Front",
+      "part": "RM25030-3SR",
+      "preserved": true,
+      "size_mm": [
+        74.4908293294,
+        80.4000012577
+      ],
+      "expected_pads": [
+        "P1.A",
+        "P2.A",
+        "P3.A",
+        "P1.B",
+        "P2.B",
+        "P3.B"
+      ],
+      "sha256": "50eb2c19a517edf7b76d9055386dcc242db33be746010f0721fd987ab4dcb97b"
+    }
+  ]
+}

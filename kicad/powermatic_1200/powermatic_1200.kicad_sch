@@ -12,7 +12,7 @@
 			)
 			(exclude_from_sim yes)
 			(in_bom yes)
-			(on_board no)
+			(on_board yes)
 			(property "Reference" "J"
 				(at 0 6.35 0)
 				(effects
@@ -29,7 +29,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Controls:KN-T12GRY-25_Front"
 				(at 0 0 0)
 				(effects
 					(font
@@ -364,24 +364,6 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "NC2/WHI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -10.16 2.54 0)
 					(length 2.54)
 					(name "NC1/BLK"
@@ -392,6 +374,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "NC2/WHI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1 1)
@@ -652,7 +652,7 @@
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
-			(on_board no)
+			(on_board yes)
 			(property "Reference" "J"
 				(at 0 8.89 0)
 				(effects
@@ -669,7 +669,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Controls:T4171310004-001_Front"
 				(at 0 0 0)
 				(effects
 					(font
@@ -678,7 +678,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocFormat=pdf&DocLang=English&DocNm=T417131000X00L&DocType=Customer+Drawing&PartCntxt=T4171310004-001"
+			(property "Datasheet" "${PARTS_LIB}/datasheets/T4171310004-001_Drawing.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -907,7 +907,7 @@
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
-			(on_board no)
+			(on_board yes)
 			(property "Reference" "H"
 				(at 0 7.62 0)
 				(effects
@@ -924,7 +924,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Controls:XB4BVB1_Front"
 				(at 0 0 0)
 				(effects
 					(font
@@ -978,7 +978,7 @@
 					(hide yes)
 				)
 			)
-			(property "Package" ""
+			(property "Package" "22 mm panel mount"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1055,13 +1055,504 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Non-LCSC/HMC-9B30-11-DS_1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HMC-9B30-11-DS"
+				(at 0 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Controls:HMC-9B30-11-DS_Front"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${PARTS_LIB}/datasheets/HMC-9B30-11-DS_Datasheet.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "IronHorse 9 A contactor; 24 VDC coil, three NO main poles, 1NO+1NC auxiliaries and duplicate A1/A2 coil terminals."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "HMC-9B30-11-DS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "IronHorse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "relay"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "DIN rail contactor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Name" "Power\nContactor"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part ID" "HMC-9B30-11-DS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "AutomationDirect"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier PN" "HMC-9B30-11-DS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Class" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Assembly" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB MPN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Match" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Checked UTC" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Source" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "inventory" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "HMC-9B30-11-DS Power Contactor relay IronHorse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Controls:HMC-9B30-11-DS_Front"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Non-LCSC/HMC-9B30-11-DS_1_1_1"
+				(rectangle
+					(start -7.62 13.97)
+					(end 7.62 -13.97)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 11.43 0)
+					(length 2.54)
+					(name "A1_TOP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1.TOP"
+						(effects
+							(font
+								(size 0.44 0.44)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 8.89 0)
+					(length 2.54)
+					(name "A1_BOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1.BOT"
+						(effects
+							(font
+								(size 0.44 0.44)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 6.35 0)
+					(length 2.54)
+					(name "A2_TOP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2.TOP"
+						(effects
+							(font
+								(size 0.44 0.44)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 3.81 0)
+					(length 2.54)
+					(name "A2_BOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2.BOT"
+						(effects
+							(font
+								(size 0.44 0.44)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -1.27 0)
+					(length 2.54)
+					(name "AUX_NO_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -3.81 0)
+					(length 2.54)
+					(name "AUX_NO_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -8.89 0)
+					(length 2.54)
+					(name "AUX_NC_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -11.43 0)
+					(length 2.54)
+					(name "AUX_NC_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Non-LCSC/HMC-9B30-11-DS_1_2_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "L1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "L2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "L3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "T1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "T2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "T3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "non_lcsc_parts:Non-LCSC/22013003"
 			(pin_names
 				(offset 0.254)
 			)
 			(exclude_from_sim yes)
 			(in_bom yes)
-			(on_board no)
+			(on_board yes)
 			(property "Reference" "SW"
 				(at 0 8.89 0)
 				(effects
@@ -1078,7 +1569,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Controls:22013003_Front"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1132,7 +1623,7 @@
 					(hide yes)
 				)
 			)
-			(property "Package" ""
+			(property "Package" "Panel disconnect"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1613,132 +2104,6 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 8.89 0)
-					(length 2.54)
-					(name "LOW4_U"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4.U"
-						(effects
-							(font
-								(size 0.89 0.89)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 1.27 0)
-					(length 2.54)
-					(name "LOW7_U"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7.U"
-						(effects
-							(font
-								(size 0.89 0.89)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 16.51 180)
-					(length 2.54)
-					(name "HI2_U"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2.U"
-						(effects
-							(font
-								(size 0.89 0.89)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 8.89 180)
-					(length 2.54)
-					(name "HI3_U"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3.U"
-						(effects
-							(font
-								(size 0.89 0.89)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 1.27 180)
-					(length 2.54)
-					(name "HI5_U"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5.U"
-						(effects
-							(font
-								(size 0.89 0.89)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -6.35 180)
-					(length 2.54)
-					(name "HI6_U"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6.U"
-						(effects
-							(font
-								(size 0.89 0.89)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -13.97 180)
-					(length 2.54)
-					(name "HI8_U"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8.U"
-						(effects
-							(font
-								(size 0.89 0.89)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -10.16 13.97 0)
 					(length 2.54)
 					(name "LOW1_L"
@@ -1749,6 +2114,24 @@
 						)
 					)
 					(number "1.L"
+						(effects
+							(font
+								(size 0.89 0.89)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 8.89 0)
+					(length 2.54)
+					(name "LOW4_U"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4.U"
 						(effects
 							(font
 								(size 0.89 0.89)
@@ -1775,6 +2158,24 @@
 					)
 				)
 				(pin passive line
+					(at -10.16 1.27 0)
+					(length 2.54)
+					(name "LOW7_U"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7.U"
+						(effects
+							(font
+								(size 0.89 0.89)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at -10.16 -1.27 0)
 					(length 2.54)
 					(name "LOW7_L"
@@ -1785,6 +2186,24 @@
 						)
 					)
 					(number "7.L"
+						(effects
+							(font
+								(size 0.89 0.89)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 16.51 180)
+					(length 2.54)
+					(name "HI2_U"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2.U"
 						(effects
 							(font
 								(size 0.89 0.89)
@@ -1811,6 +2230,24 @@
 					)
 				)
 				(pin passive line
+					(at 10.16 8.89 180)
+					(length 2.54)
+					(name "HI3_U"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3.U"
+						(effects
+							(font
+								(size 0.89 0.89)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 10.16 6.35 180)
 					(length 2.54)
 					(name "HI3_L"
@@ -1821,6 +2258,24 @@
 						)
 					)
 					(number "3.L"
+						(effects
+							(font
+								(size 0.89 0.89)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(name "HI5_U"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5.U"
 						(effects
 							(font
 								(size 0.89 0.89)
@@ -1847,6 +2302,24 @@
 					)
 				)
 				(pin passive line
+					(at 10.16 -6.35 180)
+					(length 2.54)
+					(name "HI6_U"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6.U"
+						(effects
+							(font
+								(size 0.89 0.89)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 10.16 -8.89 180)
 					(length 2.54)
 					(name "HI6_L"
@@ -1857,6 +2330,24 @@
 						)
 					)
 					(number "6.L"
+						(effects
+							(font
+								(size 0.89 0.89)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -13.97 180)
+					(length 2.54)
+					(name "HI8_U"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8.U"
 						(effects
 							(font
 								(size 0.89 0.89)
@@ -2118,24 +2609,6 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "FWD_NO_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "L2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -10.16 2.54 0)
 					(length 2.54)
 					(name "FWD_NC_2"
@@ -2146,6 +2619,24 @@
 						)
 					)
 					(number "R2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "FWD_NO_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L2"
 						(effects
 							(font
 								(size 1 1)
@@ -2203,24 +2694,6 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "REV_NO_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "L4"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -10.16 2.54 0)
 					(length 2.54)
 					(name "REV_NC_2"
@@ -2231,6 +2704,24 @@
 						)
 					)
 					(number "R4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "REV_NO_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L4"
 						(effects
 							(font
 								(size 1 1)
@@ -2314,7 +2805,7 @@
 			)
 			(exclude_from_sim yes)
 			(in_bom yes)
-			(on_board no)
+			(on_board yes)
 			(property "Reference" "Q"
 				(at 0 7.62 0)
 				(effects
@@ -2331,7 +2822,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Controls:FAZ-D4-2-NA-L_Front"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2385,7 +2876,7 @@
 					(hide yes)
 				)
 			)
-			(property "Package" ""
+			(property "Package" "35 mm DIN rail"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2603,7 +3094,7 @@
 			)
 			(exclude_from_sim yes)
 			(in_bom yes)
-			(on_board no)
+			(on_board yes)
 			(property "Reference" "K"
 				(at 0 17.78 0)
 				(effects
@@ -2620,7 +3111,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Controls:HMC-9B30-11-DS_Front"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2674,7 +3165,7 @@
 					(hide yes)
 				)
 			)
-			(property "Package" ""
+			(property "Package" "DIN rail contactor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2848,42 +3339,6 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -1.27 0)
-					(length 2.54)
-					(name "AUX_NO_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "43"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -8.89 0)
-					(length 2.54)
-					(name "AUX_NC_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -10.16 6.35 0)
 					(length 2.54)
 					(name "A2_TOP"
@@ -2920,6 +3375,24 @@
 					)
 				)
 				(pin passive line
+					(at -10.16 -1.27 0)
+					(length 2.54)
+					(name "AUX_NO_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at -10.16 -3.81 0)
 					(length 2.54)
 					(name "AUX_NO_2"
@@ -2930,6 +3403,24 @@
 						)
 					)
 					(number "44"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -8.89 0)
+					(length 2.54)
+					(name "AUX_NC_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
 						(effects
 							(font
 								(size 1 1)
@@ -3085,7 +3576,7 @@
 			)
 			(exclude_from_sim yes)
 			(in_bom yes)
-			(on_board no)
+			(on_board yes)
 			(property "Reference" "MI"
 				(at 0 11.43 0)
 				(effects
@@ -3102,7 +3593,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Controls:HMX1-MI_Front"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3156,7 +3647,7 @@
 					(hide yes)
 				)
 			)
-			(property "Package" ""
+			(property "Package" "Contactor interlock"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3312,24 +3803,6 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "NC_B_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "121"
-						(effects
-							(font
-								(size 0.89 0.89)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
 					(name "NC_A_2"
@@ -3340,6 +3813,24 @@
 						)
 					)
 					(number "122"
+						(effects
+							(font
+								(size 0.89 0.89)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "NC_B_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "121"
 						(effects
 							(font
 								(size 0.89 0.89)
@@ -3374,7 +3865,7 @@
 			)
 			(exclude_from_sim yes)
 			(in_bom yes)
-			(on_board no)
+			(on_board yes)
 			(property "Reference" "SP"
 				(at 0 7.62 0)
 				(effects
@@ -3391,7 +3882,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Controls:HMX1-SSVRC-DC_Front"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3445,7 +3936,7 @@
 					(hide yes)
 				)
 			)
-			(property "Package" ""
+			(property "Package" "Contactor accessory"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3627,7 +4118,7 @@
 			)
 			(exclude_from_sim yes)
 			(in_bom yes)
-			(on_board no)
+			(on_board yes)
 			(property "Reference" "OL"
 				(at 0 11.43 0)
 				(effects
@@ -3644,7 +4135,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Controls:HTOR32-6-S_Front"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3698,7 +4189,7 @@
 					(hide yes)
 				)
 			)
-			(property "Package" ""
+			(property "Package" "Contactor-mounted overload"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3975,24 +4466,6 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "TRIP_NO_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "97"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -10.16 2.54 0)
 					(length 2.54)
 					(name "TRIP_NC_2"
@@ -4003,6 +4476,24 @@
 						)
 					)
 					(number "96"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "TRIP_NO_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "97"
 						(effects
 							(font
 								(size 1 1)
@@ -4037,7 +4528,7 @@
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
-			(on_board no)
+			(on_board yes)
 			(property "Reference" "PS"
 				(at 0 11.43 0)
 				(effects
@@ -4054,7 +4545,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Controls:NDR-240-24_Front"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4108,7 +4599,7 @@
 					(hide yes)
 				)
 			)
-			(property "Package" ""
+			(property "Package" "DIN rail 63 x 125.2 x 113.5 mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4380,7 +4871,7 @@
 			)
 			(exclude_from_sim yes)
 			(in_bom yes)
-			(on_board no)
+			(on_board yes)
 			(property "Reference" "FH"
 				(at 0 8.89 0)
 				(effects
@@ -4397,7 +4888,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Controls:RM25030-3SR_Front"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4451,7 +4942,7 @@
 					(hide yes)
 				)
 			)
-			(property "Package" ""
+			(property "Package" "DIN rail fuse holder"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4706,11 +5197,10 @@
 		(unit 2)
 		(exclude_from_sim yes)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
-		
 		(uuid "0a6184e0-819d-4e09-b568-fffd92b5f28c")
-		(property "Reference" "OL?"
+		(property "Reference" "OL1"
 			(at 90.17 142.24 0)
 			(effects
 				(font
@@ -4726,7 +5216,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Controls:HTOR32-6-S_Front"
 			(at 90.17 153.67 0)
 			(effects
 				(font
@@ -4780,7 +5270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "Contactor-mounted overload"
 			(at 90.17 153.67 0)
 			(effects
 				(font
@@ -4929,7 +5419,7 @@
 		(instances
 			(project ""
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "OL?")
+					(reference "OL1")
 					(unit 2)
 				)
 			)
@@ -4941,11 +5431,10 @@
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
-		
 		(uuid "0adf78f6-0866-418d-97af-e1ec4aa7f17e")
-		(property "Reference" "SP?"
+		(property "Reference" "SP4"
 			(at 248.92 152.4 0)
 			(effects
 				(font
@@ -4961,7 +5450,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Controls:HMX1-SSVRC-DC_Front"
 			(at 248.92 160.02 0)
 			(effects
 				(font
@@ -5015,7 +5504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "Contactor accessory"
 			(at 248.92 160.02 0)
 			(effects
 				(font
@@ -5140,7 +5629,7 @@
 		(instances
 			(project ""
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "SP?")
+					(reference "SP4")
 					(unit 1)
 				)
 			)
@@ -5152,11 +5641,10 @@
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
-		
 		(uuid "1e26a3d4-bfd1-45d4-89ab-b6e37bafa501")
-		(property "Reference" "K?"
+		(property "Reference" "KH1"
 			(at 163.83 25.4 0)
 			(effects
 				(font
@@ -5172,7 +5660,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Controls:HMC-9B30-11-DS_Front"
 			(at 163.83 43.18 0)
 			(effects
 				(font
@@ -5226,7 +5714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "DIN rail contactor"
 			(at 163.83 43.18 0)
 			(effects
 				(font
@@ -5387,7 +5875,7 @@
 		(instances
 			(project ""
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "K?")
+					(reference "KH1")
 					(unit 1)
 				)
 			)
@@ -5399,11 +5887,10 @@
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
-		
 		(uuid "279f9634-c4fa-433b-8ea9-a21ba78359f2")
-		(property "Reference" "K?"
+		(property "Reference" "KR1"
 			(at 93.98 27.94 0)
 			(effects
 				(font
@@ -5419,7 +5906,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Controls:HMC-9B30-11-DS_Front"
 			(at 93.98 45.72 0)
 			(effects
 				(font
@@ -5473,7 +5960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "DIN rail contactor"
 			(at 93.98 45.72 0)
 			(effects
 				(font
@@ -5590,51 +6077,51 @@
 			)
 		)
 		(pin "32"
-			(uuid "913923ba-be3b-439d-add0-704ae4faca92")
+			(uuid "913923ba-be3b-439d-add0-704ae4faca93")
 		)
 		(pin "1"
-			(uuid "aa32ce9b-dda8-4a40-863c-475fc731f39e")
+			(uuid "aa32ce9b-dda8-4a40-863c-475fc731f39f")
 		)
 		(pin "3"
-			(uuid "7ab3b29d-f659-4230-a208-117caba8f413")
+			(uuid "7ab3b29d-f659-4230-a208-117caba8f414")
 		)
 		(pin "5"
-			(uuid "55c52ee4-2484-4d02-829b-14eab4498ce6")
+			(uuid "55c52ee4-2484-4d02-829b-14eab4498ce7")
 		)
 		(pin "2"
-			(uuid "cc9ec38f-a12d-4260-9d34-9db5cc865d78")
+			(uuid "cc9ec38f-a12d-4260-9d34-9db5cc865d79")
 		)
 		(pin "4"
-			(uuid "6c385a0b-1382-49f2-8b23-cc83c27b7ce3")
+			(uuid "6c385a0b-1382-49f2-8b23-cc83c27b7ce4")
 		)
 		(pin "6"
-			(uuid "2cea6fbb-575f-4088-82ae-5705888dcecd")
+			(uuid "2cea6fbb-575f-4088-82ae-5705888dcece")
 		)
 		(pin "31"
-			(uuid "f0ec89a9-ba54-41c9-9166-bd56babe42c9")
+			(uuid "f0ec89a9-ba54-41c9-9166-bd56babe42ca")
 		)
 		(pin "44"
-			(uuid "e795fc79-57e1-4d2b-b39c-6fb7d06ae279")
+			(uuid "e795fc79-57e1-4d2b-b39c-6fb7d06ae27a")
 		)
 		(pin "A1.TOP"
-			(uuid "65deda4d-13b0-48ba-bf49-cf67262c8bea")
+			(uuid "65deda4d-13b0-48ba-bf49-cf67262c8beb")
 		)
 		(pin "A1.BOT"
-			(uuid "dbc472dc-690d-45a9-ac4a-d0bb3e4965cd")
+			(uuid "dbc472dc-690d-45a9-ac4a-d0bb3e4965ce")
 		)
 		(pin "A2.TOP"
-			(uuid "d9263480-0e95-45fe-9920-ccf3c8a7510a")
+			(uuid "d9263480-0e95-45fe-9920-ccf3c8a7510b")
 		)
 		(pin "A2.BOT"
-			(uuid "2c2fe76f-04e7-45f2-ac39-89404488651c")
+			(uuid "2c2fe76f-04e7-45f2-ac39-89404488651d")
 		)
 		(pin "43"
-			(uuid "acf7e085-9640-45ff-9c51-b866c23f6480")
+			(uuid "acf7e085-9640-45ff-9c51-b866c23f6481")
 		)
 		(instances
 			(project ""
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "K?")
+					(reference "KR1")
 					(unit 1)
 				)
 			)
@@ -5648,9 +6135,8 @@
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
-		
 		(uuid "39e2c133-c961-479d-ba4a-a64903438883")
-		(property "Reference" "S?"
+		(property "Reference" "S0"
 			(at 289.56 53.34 0)
 			(effects
 				(font
@@ -5788,7 +6274,7 @@
 		(instances
 			(project ""
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "S?")
+					(reference "S0")
 					(unit 1)
 				)
 			)
@@ -5800,11 +6286,10 @@
 		(unit 2)
 		(exclude_from_sim yes)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
-		
 		(uuid "3b9145f5-a893-445b-9002-725b7e582e6e")
-		(property "Reference" "K?"
+		(property "Reference" "KF1"
 			(at 54.61 78.74 0)
 			(effects
 				(font
@@ -5820,7 +6305,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Controls:HMC-9B30-11-DS_Front"
 			(at 54.61 87.63 0)
 			(effects
 				(font
@@ -5874,7 +6359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "DIN rail contactor"
 			(at 54.61 87.63 0)
 			(effects
 				(font
@@ -5991,51 +6476,51 @@
 			)
 		)
 		(pin "32"
-			(uuid "913923ba-be3b-439d-add0-704ae4faca92")
+			(uuid "913923ba-be3b-439d-add0-704ae4faca94")
 		)
 		(pin "1"
-			(uuid "aa32ce9b-dda8-4a40-863c-475fc731f39e")
+			(uuid "aa32ce9b-dda8-4a40-863c-475fc731f3a0")
 		)
 		(pin "3"
-			(uuid "7ab3b29d-f659-4230-a208-117caba8f413")
+			(uuid "7ab3b29d-f659-4230-a208-117caba8f415")
 		)
 		(pin "5"
-			(uuid "55c52ee4-2484-4d02-829b-14eab4498ce6")
+			(uuid "55c52ee4-2484-4d02-829b-14eab4498ce8")
 		)
 		(pin "2"
-			(uuid "cc9ec38f-a12d-4260-9d34-9db5cc865d78")
+			(uuid "cc9ec38f-a12d-4260-9d34-9db5cc865d7a")
 		)
 		(pin "4"
-			(uuid "6c385a0b-1382-49f2-8b23-cc83c27b7ce3")
+			(uuid "6c385a0b-1382-49f2-8b23-cc83c27b7ce5")
 		)
 		(pin "6"
-			(uuid "2cea6fbb-575f-4088-82ae-5705888dcecd")
+			(uuid "2cea6fbb-575f-4088-82ae-5705888dcecf")
 		)
 		(pin "31"
-			(uuid "f0ec89a9-ba54-41c9-9166-bd56babe42c9")
+			(uuid "f0ec89a9-ba54-41c9-9166-bd56babe42cb")
 		)
 		(pin "44"
-			(uuid "e795fc79-57e1-4d2b-b39c-6fb7d06ae279")
+			(uuid "e795fc79-57e1-4d2b-b39c-6fb7d06ae27b")
 		)
 		(pin "A1.TOP"
-			(uuid "65deda4d-13b0-48ba-bf49-cf67262c8bea")
+			(uuid "65deda4d-13b0-48ba-bf49-cf67262c8bec")
 		)
 		(pin "A1.BOT"
-			(uuid "dbc472dc-690d-45a9-ac4a-d0bb3e4965cd")
+			(uuid "dbc472dc-690d-45a9-ac4a-d0bb3e4965cf")
 		)
 		(pin "A2.TOP"
-			(uuid "d9263480-0e95-45fe-9920-ccf3c8a7510a")
+			(uuid "d9263480-0e95-45fe-9920-ccf3c8a7510c")
 		)
 		(pin "A2.BOT"
-			(uuid "2c2fe76f-04e7-45f2-ac39-89404488651c")
+			(uuid "2c2fe76f-04e7-45f2-ac39-89404488651e")
 		)
 		(pin "43"
-			(uuid "acf7e085-9640-45ff-9c51-b866c23f6480")
+			(uuid "acf7e085-9640-45ff-9c51-b866c23f6482")
 		)
 		(instances
 			(project ""
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "K?")
+					(reference "KF1")
 					(unit 2)
 				)
 			)
@@ -6047,11 +6532,10 @@
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
-		
 		(uuid "41adf8d3-938c-4dad-b7e8-3f39ed022a9a")
-		(property "Reference" "J?"
+		(property "Reference" "TB1"
 			(at 238.76 96.52 0)
 			(effects
 				(font
@@ -6067,7 +6551,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Controls:KN-T12GRY-25_Front"
 			(at 238.76 102.87 0)
 			(effects
 				(font
@@ -6147,7 +6631,7 @@
 		(instances
 			(project ""
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "J?")
+					(reference "TB1")
 					(unit 1)
 				)
 			)
@@ -6161,9 +6645,8 @@
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
-		
 		(uuid "573a5095-5632-4178-a541-4f5d45808250")
-		(property "Reference" "S?"
+		(property "Reference" "S1"
 			(at 238.76 24.13 0)
 			(effects
 				(font
@@ -6382,7 +6865,7 @@
 		(instances
 			(project ""
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "S?")
+					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -6394,11 +6877,10 @@
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
-		
 		(uuid "59f8d726-a9f4-457c-a9b0-30d93b1e2f12")
-		(property "Reference" "OL?"
+		(property "Reference" "OL2"
 			(at 124.46 146.05 0)
 			(effects
 				(font
@@ -6414,7 +6896,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Controls:HTOR32-6-S_Front"
 			(at 124.46 154.94 0)
 			(effects
 				(font
@@ -6468,7 +6950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "Contactor-mounted overload"
 			(at 124.46 154.94 0)
 			(effects
 				(font
@@ -6585,39 +7067,39 @@
 			)
 		)
 		(pin "IN1"
-			(uuid "77b6eb21-2813-47b2-b24f-1e439935ccb4")
+			(uuid "77b6eb21-2813-47b2-b24f-1e439935ccb5")
 		)
 		(pin "IN2"
-			(uuid "85e8fd82-f863-4dea-abda-ebc7b700c82d")
+			(uuid "85e8fd82-f863-4dea-abda-ebc7b700c82e")
 		)
 		(pin "97"
-			(uuid "045d06f7-3de1-4077-90c9-e60b2f366a38")
+			(uuid "045d06f7-3de1-4077-90c9-e60b2f366a39")
 		)
 		(pin "95"
-			(uuid "03116d74-9592-4163-b448-c84724d69ffd")
+			(uuid "03116d74-9592-4163-b448-c84724d69ffe")
 		)
 		(pin "98"
-			(uuid "7f00cbf5-f2a3-4ed8-b459-4fec2595d55e")
+			(uuid "7f00cbf5-f2a3-4ed8-b459-4fec2595d55f")
 		)
 		(pin "96"
-			(uuid "22487121-bef5-424f-a647-701da9f1839b")
+			(uuid "22487121-bef5-424f-a647-701da9f1839c")
 		)
 		(pin "IN3"
-			(uuid "354ddb86-c6ce-448c-9de5-d7df7d2c2227")
+			(uuid "354ddb86-c6ce-448c-9de5-d7df7d2c2228")
 		)
 		(pin "2"
-			(uuid "c1969ea0-4c38-4e81-a879-938aa2faf660")
+			(uuid "c1969ea0-4c38-4e81-a879-938aa2faf661")
 		)
 		(pin "4"
-			(uuid "a4382381-e9f0-4de4-90f7-5235e5744d62")
+			(uuid "a4382381-e9f0-4de4-90f7-5235e5744d63")
 		)
 		(pin "6"
-			(uuid "70fa51cd-38f9-4e2f-aa70-c9fc292b1cd2")
+			(uuid "70fa51cd-38f9-4e2f-aa70-c9fc292b1cd3")
 		)
 		(instances
 			(project ""
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "OL?")
+					(reference "OL2")
 					(unit 1)
 				)
 			)
@@ -6629,11 +7111,10 @@
 		(unit 2)
 		(exclude_from_sim yes)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
-		
 		(uuid "5a5f7cc6-22a7-4fd6-b950-f2004c754a4e")
-		(property "Reference" "K?"
+		(property "Reference" "KH1"
 			(at 165.1 78.74 0)
 			(effects
 				(font
@@ -6649,7 +7130,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Controls:HMC-9B30-11-DS_Front"
 			(at 165.1 87.63 0)
 			(effects
 				(font
@@ -6703,7 +7184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "DIN rail contactor"
 			(at 165.1 87.63 0)
 			(effects
 				(font
@@ -6820,51 +7301,51 @@
 			)
 		)
 		(pin "32"
-			(uuid "913923ba-be3b-439d-add0-704ae4faca92")
+			(uuid "913923ba-be3b-439d-add0-704ae4faca95")
 		)
 		(pin "1"
-			(uuid "aa32ce9b-dda8-4a40-863c-475fc731f39e")
+			(uuid "aa32ce9b-dda8-4a40-863c-475fc731f3a1")
 		)
 		(pin "3"
-			(uuid "7ab3b29d-f659-4230-a208-117caba8f413")
+			(uuid "7ab3b29d-f659-4230-a208-117caba8f416")
 		)
 		(pin "5"
-			(uuid "55c52ee4-2484-4d02-829b-14eab4498ce6")
+			(uuid "55c52ee4-2484-4d02-829b-14eab4498ce9")
 		)
 		(pin "2"
-			(uuid "cc9ec38f-a12d-4260-9d34-9db5cc865d78")
+			(uuid "cc9ec38f-a12d-4260-9d34-9db5cc865d7b")
 		)
 		(pin "4"
-			(uuid "6c385a0b-1382-49f2-8b23-cc83c27b7ce3")
+			(uuid "6c385a0b-1382-49f2-8b23-cc83c27b7ce6")
 		)
 		(pin "6"
-			(uuid "2cea6fbb-575f-4088-82ae-5705888dcecd")
+			(uuid "2cea6fbb-575f-4088-82ae-5705888dced0")
 		)
 		(pin "31"
-			(uuid "f0ec89a9-ba54-41c9-9166-bd56babe42c9")
+			(uuid "f0ec89a9-ba54-41c9-9166-bd56babe42cc")
 		)
 		(pin "44"
-			(uuid "e795fc79-57e1-4d2b-b39c-6fb7d06ae279")
+			(uuid "e795fc79-57e1-4d2b-b39c-6fb7d06ae27c")
 		)
 		(pin "A1.TOP"
-			(uuid "65deda4d-13b0-48ba-bf49-cf67262c8bea")
+			(uuid "65deda4d-13b0-48ba-bf49-cf67262c8bed")
 		)
 		(pin "A1.BOT"
-			(uuid "dbc472dc-690d-45a9-ac4a-d0bb3e4965cd")
+			(uuid "dbc472dc-690d-45a9-ac4a-d0bb3e4965d0")
 		)
 		(pin "A2.TOP"
-			(uuid "d9263480-0e95-45fe-9920-ccf3c8a7510a")
+			(uuid "d9263480-0e95-45fe-9920-ccf3c8a7510d")
 		)
 		(pin "A2.BOT"
-			(uuid "2c2fe76f-04e7-45f2-ac39-89404488651c")
+			(uuid "2c2fe76f-04e7-45f2-ac39-89404488651f")
 		)
 		(pin "43"
-			(uuid "acf7e085-9640-45ff-9c51-b866c23f6480")
+			(uuid "acf7e085-9640-45ff-9c51-b866c23f6483")
 		)
 		(instances
 			(project ""
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "K?")
+					(reference "KH1")
 					(unit 2)
 				)
 			)
@@ -6876,11 +7357,10 @@
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
-		
 		(uuid "5ca8057b-4eb2-4c19-b9e6-24988ef269e0")
-		(property "Reference" "FH?"
+		(property "Reference" "FH1"
 			(at 166.37 114.3 0)
 			(effects
 				(font
@@ -6896,7 +7376,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Controls:RM25030-3SR_Front"
 			(at 166.37 123.19 0)
 			(effects
 				(font
@@ -6950,7 +7430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "DIN rail fuse holder"
 			(at 166.37 123.19 0)
 			(effects
 				(font
@@ -7087,7 +7567,7 @@
 		(instances
 			(project ""
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "FH?")
+					(reference "FH1")
 					(unit 1)
 				)
 			)
@@ -7099,11 +7579,10 @@
 		(unit 2)
 		(exclude_from_sim yes)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
-		
 		(uuid "686169ee-756c-4343-bcdf-0c8da2b197ab")
-		(property "Reference" "K?"
+		(property "Reference" "KR1"
 			(at 87.63 77.47 0)
 			(effects
 				(font
@@ -7119,7 +7598,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Controls:HMC-9B30-11-DS_Front"
 			(at 87.63 86.36 0)
 			(effects
 				(font
@@ -7173,7 +7652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "DIN rail contactor"
 			(at 87.63 86.36 0)
 			(effects
 				(font
@@ -7290,51 +7769,51 @@
 			)
 		)
 		(pin "32"
-			(uuid "913923ba-be3b-439d-add0-704ae4faca92")
+			(uuid "913923ba-be3b-439d-add0-704ae4faca96")
 		)
 		(pin "1"
-			(uuid "aa32ce9b-dda8-4a40-863c-475fc731f39e")
+			(uuid "aa32ce9b-dda8-4a40-863c-475fc731f3a2")
 		)
 		(pin "3"
-			(uuid "7ab3b29d-f659-4230-a208-117caba8f413")
+			(uuid "7ab3b29d-f659-4230-a208-117caba8f417")
 		)
 		(pin "5"
-			(uuid "55c52ee4-2484-4d02-829b-14eab4498ce6")
+			(uuid "55c52ee4-2484-4d02-829b-14eab4498cea")
 		)
 		(pin "2"
-			(uuid "cc9ec38f-a12d-4260-9d34-9db5cc865d78")
+			(uuid "cc9ec38f-a12d-4260-9d34-9db5cc865d7c")
 		)
 		(pin "4"
-			(uuid "6c385a0b-1382-49f2-8b23-cc83c27b7ce3")
+			(uuid "6c385a0b-1382-49f2-8b23-cc83c27b7ce7")
 		)
 		(pin "6"
-			(uuid "2cea6fbb-575f-4088-82ae-5705888dcecd")
+			(uuid "2cea6fbb-575f-4088-82ae-5705888dced1")
 		)
 		(pin "31"
-			(uuid "f0ec89a9-ba54-41c9-9166-bd56babe42c9")
+			(uuid "f0ec89a9-ba54-41c9-9166-bd56babe42cd")
 		)
 		(pin "44"
-			(uuid "e795fc79-57e1-4d2b-b39c-6fb7d06ae279")
+			(uuid "e795fc79-57e1-4d2b-b39c-6fb7d06ae27d")
 		)
 		(pin "A1.TOP"
-			(uuid "65deda4d-13b0-48ba-bf49-cf67262c8bea")
+			(uuid "65deda4d-13b0-48ba-bf49-cf67262c8bee")
 		)
 		(pin "A1.BOT"
-			(uuid "dbc472dc-690d-45a9-ac4a-d0bb3e4965cd")
+			(uuid "dbc472dc-690d-45a9-ac4a-d0bb3e4965d1")
 		)
 		(pin "A2.TOP"
-			(uuid "d9263480-0e95-45fe-9920-ccf3c8a7510a")
+			(uuid "d9263480-0e95-45fe-9920-ccf3c8a7510e")
 		)
 		(pin "A2.BOT"
-			(uuid "2c2fe76f-04e7-45f2-ac39-89404488651c")
+			(uuid "2c2fe76f-04e7-45f2-ac39-894044886520")
 		)
 		(pin "43"
-			(uuid "acf7e085-9640-45ff-9c51-b866c23f6480")
+			(uuid "acf7e085-9640-45ff-9c51-b866c23f6484")
 		)
 		(instances
 			(project ""
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "K?")
+					(reference "KR1")
 					(unit 2)
 				)
 			)
@@ -7346,11 +7825,10 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
-		
 		(uuid "76a8a7b6-7dbb-4169-8aa9-0038ebf2cf31")
-		(property "Reference" "J?"
+		(property "Reference" "J1"
 			(at 54.61 170.18 0)
 			(effects
 				(font
@@ -7366,7 +7844,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Controls_Review:T4171310004-001_LeftWall"
 			(at 54.61 179.07 0)
 			(effects
 				(font
@@ -7375,7 +7853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocFormat=pdf&DocLang=English&DocNm=T417131000X00L&DocType=Customer+Drawing&PartCntxt=T4171310004-001"
+		(property "Datasheet" "${PARTS_LIB}/datasheets/T4171310004-001_Drawing.pdf"
 			(at 54.61 179.07 0)
 			(effects
 				(font
@@ -7479,7 +7957,7 @@
 		(instances
 			(project ""
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "J?")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -7491,11 +7969,10 @@
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
-		
 		(uuid "81abcb1b-eafe-47db-b040-d8a7f6744013")
-		(property "Reference" "SP?"
+		(property "Reference" "SP3"
 			(at 229.87 151.13 0)
 			(effects
 				(font
@@ -7511,7 +7988,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Controls:HMX1-SSVRC-DC_Front"
 			(at 229.87 158.75 0)
 			(effects
 				(font
@@ -7565,7 +8042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "Contactor accessory"
 			(at 229.87 158.75 0)
 			(effects
 				(font
@@ -7682,15 +8159,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ac482284-7162-4dc9-835c-cf0317bea138")
+			(uuid "ac482284-7162-4dc9-835c-cf0317bea139")
 		)
 		(pin "2"
-			(uuid "f8b65c4f-70c1-4f85-be5f-33487f11928d")
+			(uuid "f8b65c4f-70c1-4f85-be5f-33487f11928e")
 		)
 		(instances
 			(project ""
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "SP?")
+					(reference "SP3")
 					(unit 1)
 				)
 			)
@@ -7704,9 +8181,8 @@
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
-		
 		(uuid "8bbb0b57-0772-4a33-b531-e0aff3ae8f66")
-		(property "Reference" "M?"
+		(property "Reference" "M1"
 			(at 288.29 21.59 0)
 			(effects
 				(font
@@ -7814,7 +8290,7 @@
 		(instances
 			(project ""
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "M?")
+					(reference "M1")
 					(unit 1)
 				)
 			)
@@ -7826,11 +8302,10 @@
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
-		
 		(uuid "905535a1-efed-45b3-8e29-df5b5746d1d3")
-		(property "Reference" "K?"
+		(property "Reference" "KS1"
 			(at 199.39 25.4 0)
 			(effects
 				(font
@@ -7846,7 +8321,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Controls:HMC-9B30-11-DS_Front"
 			(at 199.39 43.18 0)
 			(effects
 				(font
@@ -7900,7 +8375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "DIN rail contactor"
 			(at 199.39 43.18 0)
 			(effects
 				(font
@@ -8017,51 +8492,51 @@
 			)
 		)
 		(pin "32"
-			(uuid "913923ba-be3b-439d-add0-704ae4faca92")
+			(uuid "913923ba-be3b-439d-add0-704ae4faca97")
 		)
 		(pin "1"
-			(uuid "aa32ce9b-dda8-4a40-863c-475fc731f39e")
+			(uuid "aa32ce9b-dda8-4a40-863c-475fc731f3a3")
 		)
 		(pin "3"
-			(uuid "7ab3b29d-f659-4230-a208-117caba8f413")
+			(uuid "7ab3b29d-f659-4230-a208-117caba8f418")
 		)
 		(pin "5"
-			(uuid "55c52ee4-2484-4d02-829b-14eab4498ce6")
+			(uuid "55c52ee4-2484-4d02-829b-14eab4498ceb")
 		)
 		(pin "2"
-			(uuid "cc9ec38f-a12d-4260-9d34-9db5cc865d78")
+			(uuid "cc9ec38f-a12d-4260-9d34-9db5cc865d7d")
 		)
 		(pin "4"
-			(uuid "6c385a0b-1382-49f2-8b23-cc83c27b7ce3")
+			(uuid "6c385a0b-1382-49f2-8b23-cc83c27b7ce8")
 		)
 		(pin "6"
-			(uuid "2cea6fbb-575f-4088-82ae-5705888dcecd")
+			(uuid "2cea6fbb-575f-4088-82ae-5705888dced2")
 		)
 		(pin "31"
-			(uuid "f0ec89a9-ba54-41c9-9166-bd56babe42c9")
+			(uuid "f0ec89a9-ba54-41c9-9166-bd56babe42ce")
 		)
 		(pin "44"
-			(uuid "e795fc79-57e1-4d2b-b39c-6fb7d06ae279")
+			(uuid "e795fc79-57e1-4d2b-b39c-6fb7d06ae27e")
 		)
 		(pin "A1.TOP"
-			(uuid "65deda4d-13b0-48ba-bf49-cf67262c8bea")
+			(uuid "65deda4d-13b0-48ba-bf49-cf67262c8bef")
 		)
 		(pin "A1.BOT"
-			(uuid "dbc472dc-690d-45a9-ac4a-d0bb3e4965cd")
+			(uuid "dbc472dc-690d-45a9-ac4a-d0bb3e4965d2")
 		)
 		(pin "A2.TOP"
-			(uuid "d9263480-0e95-45fe-9920-ccf3c8a7510a")
+			(uuid "d9263480-0e95-45fe-9920-ccf3c8a7510f")
 		)
 		(pin "A2.BOT"
-			(uuid "2c2fe76f-04e7-45f2-ac39-89404488651c")
+			(uuid "2c2fe76f-04e7-45f2-ac39-894044886521")
 		)
 		(pin "43"
-			(uuid "acf7e085-9640-45ff-9c51-b866c23f6480")
+			(uuid "acf7e085-9640-45ff-9c51-b866c23f6485")
 		)
 		(instances
 			(project ""
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "K?")
+					(reference "KS1")
 					(unit 1)
 				)
 			)
@@ -8073,11 +8548,10 @@
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
-		
 		(uuid "9453fb6e-630d-4e4c-be41-a1b67765df84")
-		(property "Reference" "SP?"
+		(property "Reference" "SP1"
 			(at 194.31 152.4 0)
 			(effects
 				(font
@@ -8093,7 +8567,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Controls:HMX1-SSVRC-DC_Front"
 			(at 194.31 160.02 0)
 			(effects
 				(font
@@ -8147,7 +8621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "Contactor accessory"
 			(at 194.31 160.02 0)
 			(effects
 				(font
@@ -8264,15 +8738,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ac482284-7162-4dc9-835c-cf0317bea138")
+			(uuid "ac482284-7162-4dc9-835c-cf0317bea13a")
 		)
 		(pin "2"
-			(uuid "f8b65c4f-70c1-4f85-be5f-33487f11928d")
+			(uuid "f8b65c4f-70c1-4f85-be5f-33487f11928f")
 		)
 		(instances
 			(project ""
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "SP?")
+					(reference "SP1")
 					(unit 1)
 				)
 			)
@@ -8284,11 +8758,10 @@
 		(unit 2)
 		(exclude_from_sim yes)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
-		
 		(uuid "96cbf522-a4db-4862-aecd-38c7160c8ed1")
-		(property "Reference" "K?"
+		(property "Reference" "KS1"
 			(at 201.93 78.74 0)
 			(effects
 				(font
@@ -8304,7 +8777,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Controls:HMC-9B30-11-DS_Front"
 			(at 201.93 87.63 0)
 			(effects
 				(font
@@ -8358,7 +8831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "DIN rail contactor"
 			(at 201.93 87.63 0)
 			(effects
 				(font
@@ -8475,51 +8948,51 @@
 			)
 		)
 		(pin "32"
-			(uuid "913923ba-be3b-439d-add0-704ae4faca92")
+			(uuid "913923ba-be3b-439d-add0-704ae4faca98")
 		)
 		(pin "1"
-			(uuid "aa32ce9b-dda8-4a40-863c-475fc731f39e")
+			(uuid "aa32ce9b-dda8-4a40-863c-475fc731f3a4")
 		)
 		(pin "3"
-			(uuid "7ab3b29d-f659-4230-a208-117caba8f413")
+			(uuid "7ab3b29d-f659-4230-a208-117caba8f419")
 		)
 		(pin "5"
-			(uuid "55c52ee4-2484-4d02-829b-14eab4498ce6")
+			(uuid "55c52ee4-2484-4d02-829b-14eab4498cec")
 		)
 		(pin "2"
-			(uuid "cc9ec38f-a12d-4260-9d34-9db5cc865d78")
+			(uuid "cc9ec38f-a12d-4260-9d34-9db5cc865d7e")
 		)
 		(pin "4"
-			(uuid "6c385a0b-1382-49f2-8b23-cc83c27b7ce3")
+			(uuid "6c385a0b-1382-49f2-8b23-cc83c27b7ce9")
 		)
 		(pin "6"
-			(uuid "2cea6fbb-575f-4088-82ae-5705888dcecd")
+			(uuid "2cea6fbb-575f-4088-82ae-5705888dced3")
 		)
 		(pin "31"
-			(uuid "f0ec89a9-ba54-41c9-9166-bd56babe42c9")
+			(uuid "f0ec89a9-ba54-41c9-9166-bd56babe42cf")
 		)
 		(pin "44"
-			(uuid "e795fc79-57e1-4d2b-b39c-6fb7d06ae279")
+			(uuid "e795fc79-57e1-4d2b-b39c-6fb7d06ae27f")
 		)
 		(pin "A1.TOP"
-			(uuid "65deda4d-13b0-48ba-bf49-cf67262c8bea")
+			(uuid "65deda4d-13b0-48ba-bf49-cf67262c8bf0")
 		)
 		(pin "A1.BOT"
-			(uuid "dbc472dc-690d-45a9-ac4a-d0bb3e4965cd")
+			(uuid "dbc472dc-690d-45a9-ac4a-d0bb3e4965d3")
 		)
 		(pin "A2.TOP"
-			(uuid "d9263480-0e95-45fe-9920-ccf3c8a7510a")
+			(uuid "d9263480-0e95-45fe-9920-ccf3c8a75110")
 		)
 		(pin "A2.BOT"
-			(uuid "2c2fe76f-04e7-45f2-ac39-89404488651c")
+			(uuid "2c2fe76f-04e7-45f2-ac39-894044886522")
 		)
 		(pin "43"
-			(uuid "acf7e085-9640-45ff-9c51-b866c23f6480")
+			(uuid "acf7e085-9640-45ff-9c51-b866c23f6486")
 		)
 		(instances
 			(project ""
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "K?")
+					(reference "KS1")
 					(unit 2)
 				)
 			)
@@ -8531,11 +9004,10 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
-		
 		(uuid "a7bde42c-14f2-46ec-a0af-e6c2b915b32f")
-		(property "Reference" "H?"
+		(property "Reference" "H1"
 			(at 241.3 120.65 0)
 			(effects
 				(font
@@ -8551,7 +9023,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Controls_Review:XB4BVB1_LeftWall"
 			(at 241.3 128.27 0)
 			(effects
 				(font
@@ -8605,7 +9077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "22 mm panel mount"
 			(at 241.3 128.27 0)
 			(effects
 				(font
@@ -8631,7 +9103,7 @@
 		(instances
 			(project ""
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "H?")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -8643,11 +9115,10 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
-		
 		(uuid "b71e1787-97a1-40f8-b061-785c348498c6")
-		(property "Reference" "PS?"
+		(property "Reference" "PS1"
 			(at 90.17 111.76 0)
 			(effects
 				(font
@@ -8663,7 +9134,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Controls:NDR-240-24_Front"
 			(at 90.17 123.19 0)
 			(effects
 				(font
@@ -8717,7 +9188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "DIN rail 63 x 125.2 x 113.5 mm"
 			(at 90.17 123.19 0)
 			(effects
 				(font
@@ -8857,7 +9328,7 @@
 		(instances
 			(project ""
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "PS?")
+					(reference "PS1")
 					(unit 1)
 				)
 			)
@@ -8869,11 +9340,10 @@
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
-		
 		(uuid "b75c22a6-5008-468e-8688-fb1a0cea0d40")
-		(property "Reference" "Q?"
+		(property "Reference" "Q1"
 			(at 115.57 115.57 0)
 			(effects
 				(font
@@ -8889,7 +9359,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Controls:FAZ-D4-2-NA-L_Front"
 			(at 115.57 123.19 0)
 			(effects
 				(font
@@ -8943,7 +9413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "35 mm DIN rail"
 			(at 115.57 123.19 0)
 			(effects
 				(font
@@ -9074,7 +9544,7 @@
 		(instances
 			(project ""
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "Q?")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -9086,11 +9556,10 @@
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
-		
 		(uuid "ba6b37ac-e348-497c-9ea4-2e0cdf801e4e")
-		(property "Reference" "OL?"
+		(property "Reference" "OL1"
 			(at 59.69 144.78 0)
 			(effects
 				(font
@@ -9106,7 +9575,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Controls:HTOR32-6-S_Front"
 			(at 59.69 153.67 0)
 			(effects
 				(font
@@ -9160,7 +9629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "Contactor-mounted overload"
 			(at 59.69 153.67 0)
 			(effects
 				(font
@@ -9277,39 +9746,39 @@
 			)
 		)
 		(pin "IN1"
-			(uuid "77b6eb21-2813-47b2-b24f-1e439935ccb4")
+			(uuid "77b6eb21-2813-47b2-b24f-1e439935ccb6")
 		)
 		(pin "IN2"
-			(uuid "85e8fd82-f863-4dea-abda-ebc7b700c82d")
+			(uuid "85e8fd82-f863-4dea-abda-ebc7b700c82f")
 		)
 		(pin "97"
-			(uuid "045d06f7-3de1-4077-90c9-e60b2f366a38")
+			(uuid "045d06f7-3de1-4077-90c9-e60b2f366a3a")
 		)
 		(pin "95"
-			(uuid "03116d74-9592-4163-b448-c84724d69ffd")
+			(uuid "03116d74-9592-4163-b448-c84724d69fff")
 		)
 		(pin "98"
-			(uuid "7f00cbf5-f2a3-4ed8-b459-4fec2595d55e")
+			(uuid "7f00cbf5-f2a3-4ed8-b459-4fec2595d560")
 		)
 		(pin "96"
-			(uuid "22487121-bef5-424f-a647-701da9f1839b")
+			(uuid "22487121-bef5-424f-a647-701da9f1839d")
 		)
 		(pin "IN3"
-			(uuid "354ddb86-c6ce-448c-9de5-d7df7d2c2227")
+			(uuid "354ddb86-c6ce-448c-9de5-d7df7d2c2229")
 		)
 		(pin "2"
-			(uuid "c1969ea0-4c38-4e81-a879-938aa2faf660")
+			(uuid "c1969ea0-4c38-4e81-a879-938aa2faf662")
 		)
 		(pin "4"
-			(uuid "a4382381-e9f0-4de4-90f7-5235e5744d62")
+			(uuid "a4382381-e9f0-4de4-90f7-5235e5744d64")
 		)
 		(pin "6"
-			(uuid "70fa51cd-38f9-4e2f-aa70-c9fc292b1cd2")
+			(uuid "70fa51cd-38f9-4e2f-aa70-c9fc292b1cd4")
 		)
 		(instances
 			(project ""
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "OL?")
+					(reference "OL1")
 					(unit 1)
 				)
 			)
@@ -9321,11 +9790,10 @@
 		(unit 2)
 		(exclude_from_sim yes)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
-		
 		(uuid "bfde8850-2279-4de8-8bba-327cc503d476")
-		(property "Reference" "OL?"
+		(property "Reference" "OL2"
 			(at 153.67 143.51 0)
 			(effects
 				(font
@@ -9341,7 +9809,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Controls:HTOR32-6-S_Front"
 			(at 153.67 154.94 0)
 			(effects
 				(font
@@ -9395,7 +9863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "Contactor-mounted overload"
 			(at 153.67 154.94 0)
 			(effects
 				(font
@@ -9512,39 +9980,39 @@
 			)
 		)
 		(pin "IN1"
-			(uuid "77b6eb21-2813-47b2-b24f-1e439935ccb4")
+			(uuid "77b6eb21-2813-47b2-b24f-1e439935ccb7")
 		)
 		(pin "IN2"
-			(uuid "85e8fd82-f863-4dea-abda-ebc7b700c82d")
+			(uuid "85e8fd82-f863-4dea-abda-ebc7b700c830")
 		)
 		(pin "97"
-			(uuid "045d06f7-3de1-4077-90c9-e60b2f366a38")
+			(uuid "045d06f7-3de1-4077-90c9-e60b2f366a3b")
 		)
 		(pin "95"
-			(uuid "03116d74-9592-4163-b448-c84724d69ffd")
+			(uuid "03116d74-9592-4163-b448-c84724d6a000")
 		)
 		(pin "98"
-			(uuid "7f00cbf5-f2a3-4ed8-b459-4fec2595d55e")
+			(uuid "7f00cbf5-f2a3-4ed8-b459-4fec2595d561")
 		)
 		(pin "96"
-			(uuid "22487121-bef5-424f-a647-701da9f1839b")
+			(uuid "22487121-bef5-424f-a647-701da9f1839e")
 		)
 		(pin "IN3"
-			(uuid "354ddb86-c6ce-448c-9de5-d7df7d2c2227")
+			(uuid "354ddb86-c6ce-448c-9de5-d7df7d2c222a")
 		)
 		(pin "2"
-			(uuid "c1969ea0-4c38-4e81-a879-938aa2faf660")
+			(uuid "c1969ea0-4c38-4e81-a879-938aa2faf663")
 		)
 		(pin "4"
-			(uuid "a4382381-e9f0-4de4-90f7-5235e5744d62")
+			(uuid "a4382381-e9f0-4de4-90f7-5235e5744d65")
 		)
 		(pin "6"
-			(uuid "70fa51cd-38f9-4e2f-aa70-c9fc292b1cd2")
+			(uuid "70fa51cd-38f9-4e2f-aa70-c9fc292b1cd5")
 		)
 		(instances
 			(project ""
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "OL?")
+					(reference "OL2")
 					(unit 2)
 				)
 			)
@@ -9556,11 +10024,10 @@
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
-		
 		(uuid "c57e5c41-27e9-45a9-bc31-2cffc0ee58bf")
-		(property "Reference" "K?"
+		(property "Reference" "KL1"
 			(at 128.27 26.67 0)
 			(effects
 				(font
@@ -9576,7 +10043,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Controls:HMC-9B30-11-DS_Front"
 			(at 128.27 44.45 0)
 			(effects
 				(font
@@ -9630,7 +10097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "DIN rail contactor"
 			(at 128.27 44.45 0)
 			(effects
 				(font
@@ -9747,51 +10214,51 @@
 			)
 		)
 		(pin "32"
-			(uuid "913923ba-be3b-439d-add0-704ae4faca92")
+			(uuid "913923ba-be3b-439d-add0-704ae4faca99")
 		)
 		(pin "1"
-			(uuid "aa32ce9b-dda8-4a40-863c-475fc731f39e")
+			(uuid "aa32ce9b-dda8-4a40-863c-475fc731f3a5")
 		)
 		(pin "3"
-			(uuid "7ab3b29d-f659-4230-a208-117caba8f413")
+			(uuid "7ab3b29d-f659-4230-a208-117caba8f41a")
 		)
 		(pin "5"
-			(uuid "55c52ee4-2484-4d02-829b-14eab4498ce6")
+			(uuid "55c52ee4-2484-4d02-829b-14eab4498ced")
 		)
 		(pin "2"
-			(uuid "cc9ec38f-a12d-4260-9d34-9db5cc865d78")
+			(uuid "cc9ec38f-a12d-4260-9d34-9db5cc865d7f")
 		)
 		(pin "4"
-			(uuid "6c385a0b-1382-49f2-8b23-cc83c27b7ce3")
+			(uuid "6c385a0b-1382-49f2-8b23-cc83c27b7cea")
 		)
 		(pin "6"
-			(uuid "2cea6fbb-575f-4088-82ae-5705888dcecd")
+			(uuid "2cea6fbb-575f-4088-82ae-5705888dced4")
 		)
 		(pin "31"
-			(uuid "f0ec89a9-ba54-41c9-9166-bd56babe42c9")
+			(uuid "f0ec89a9-ba54-41c9-9166-bd56babe42d0")
 		)
 		(pin "44"
-			(uuid "e795fc79-57e1-4d2b-b39c-6fb7d06ae279")
+			(uuid "e795fc79-57e1-4d2b-b39c-6fb7d06ae280")
 		)
 		(pin "A1.TOP"
-			(uuid "65deda4d-13b0-48ba-bf49-cf67262c8bea")
+			(uuid "65deda4d-13b0-48ba-bf49-cf67262c8bf1")
 		)
 		(pin "A1.BOT"
-			(uuid "dbc472dc-690d-45a9-ac4a-d0bb3e4965cd")
+			(uuid "dbc472dc-690d-45a9-ac4a-d0bb3e4965d4")
 		)
 		(pin "A2.TOP"
-			(uuid "d9263480-0e95-45fe-9920-ccf3c8a7510a")
+			(uuid "d9263480-0e95-45fe-9920-ccf3c8a75111")
 		)
 		(pin "A2.BOT"
-			(uuid "2c2fe76f-04e7-45f2-ac39-89404488651c")
+			(uuid "2c2fe76f-04e7-45f2-ac39-894044886523")
 		)
 		(pin "43"
-			(uuid "acf7e085-9640-45ff-9c51-b866c23f6480")
+			(uuid "acf7e085-9640-45ff-9c51-b866c23f6487")
 		)
 		(instances
 			(project ""
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "K?")
+					(reference "KL1")
 					(unit 1)
 				)
 			)
@@ -9805,9 +10272,8 @@
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
-		
 		(uuid "c6676f29-c39c-4ba0-9a90-07ac79a96b7b")
-		(property "Reference" "S?"
+		(property "Reference" "S1"
 			(at 238.76 77.47 0)
 			(effects
 				(font
@@ -9994,39 +10460,39 @@
 			)
 		)
 		(pin "L2"
-			(uuid "bb1060d5-afaf-4ee5-8794-8cc260a41787")
+			(uuid "bb1060d5-afaf-4ee5-8794-8cc260a41788")
 		)
 		(pin "R2"
-			(uuid "fd45fa1b-6392-4a12-b6b0-463b7e126fa0")
+			(uuid "fd45fa1b-6392-4a12-b6b0-463b7e126fa1")
 		)
 		(pin "L1"
-			(uuid "62a43805-814b-4d1b-9667-5d753cc2f1d0")
+			(uuid "62a43805-814b-4d1b-9667-5d753cc2f1d1")
 		)
 		(pin "L5"
-			(uuid "25aa1e6d-fd38-4df7-a03e-2d09ac2cc96e")
+			(uuid "25aa1e6d-fd38-4df7-a03e-2d09ac2cc96f")
 		)
 		(pin "R3"
-			(uuid "a1547a26-c920-4740-9ff2-e601250ba9ff")
+			(uuid "a1547a26-c920-4740-9ff2-e601250baa00")
 		)
 		(pin "R4"
-			(uuid "7d55e259-d949-4c78-b854-6643aebdf936")
+			(uuid "7d55e259-d949-4c78-b854-6643aebdf937")
 		)
 		(pin "L4"
-			(uuid "daa1384c-93a8-410f-afd4-f7def7efd255")
+			(uuid "daa1384c-93a8-410f-afd4-f7def7efd256")
 		)
 		(pin "L3"
-			(uuid "eab2d6ce-51d3-48cc-a566-c2346f1bab0e")
+			(uuid "eab2d6ce-51d3-48cc-a566-c2346f1bab0f")
 		)
 		(pin "R1"
-			(uuid "e2abd3d4-8608-4eab-8f27-6f45103a6e0b")
+			(uuid "e2abd3d4-8608-4eab-8f27-6f45103a6e0c")
 		)
 		(pin "R5"
-			(uuid "8806f289-58b3-4c8e-a8ed-91afe3be8ec6")
+			(uuid "8806f289-58b3-4c8e-a8ed-91afe3be8ec7")
 		)
 		(instances
 			(project ""
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "S?")
+					(reference "S1")
 					(unit 3)
 				)
 			)
@@ -10038,11 +10504,10 @@
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
-		
 		(uuid "c7115c0b-7efa-4c87-830c-fa2763b5632c")
-		(property "Reference" "SP?"
+		(property "Reference" "SP5"
 			(at 265.43 152.4 0)
 			(effects
 				(font
@@ -10058,7 +10523,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Controls:HMX1-SSVRC-DC_Front"
 			(at 265.43 160.02 0)
 			(effects
 				(font
@@ -10112,7 +10577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "Contactor accessory"
 			(at 265.43 160.02 0)
 			(effects
 				(font
@@ -10229,15 +10694,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ac482284-7162-4dc9-835c-cf0317bea138")
+			(uuid "ac482284-7162-4dc9-835c-cf0317bea13b")
 		)
 		(pin "2"
-			(uuid "f8b65c4f-70c1-4f85-be5f-33487f11928d")
+			(uuid "f8b65c4f-70c1-4f85-be5f-33487f119290")
 		)
 		(instances
 			(project ""
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "SP?")
+					(reference "SP5")
 					(unit 1)
 				)
 			)
@@ -10249,11 +10714,10 @@
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
-		
 		(uuid "ce30d992-fd20-4be5-b8b0-bb1c5bdb7dec")
-		(property "Reference" "MI?"
+		(property "Reference" "MI1"
 			(at 59.69 111.76 0)
 			(effects
 				(font
@@ -10269,7 +10733,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Controls:HMX1-MI_Front"
 			(at 59.69 123.19 0)
 			(effects
 				(font
@@ -10323,7 +10787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "Contactor interlock"
 			(at 59.69 123.19 0)
 			(effects
 				(font
@@ -10454,7 +10918,7 @@
 		(instances
 			(project ""
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "MI?")
+					(reference "MI1")
 					(unit 1)
 				)
 			)
@@ -10466,11 +10930,10 @@
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
-		
 		(uuid "de43fc54-ea53-4062-9d14-222047b23545")
-		(property "Reference" "SW?"
+		(property "Reference" "SW1"
 			(at 140.97 115.57 0)
 			(effects
 				(font
@@ -10486,7 +10949,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Controls_Review:22013003_LeftWall"
 			(at 140.97 124.46 0)
 			(effects
 				(font
@@ -10540,7 +11003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "Panel disconnect"
 			(at 140.97 124.46 0)
 			(effects
 				(font
@@ -10677,7 +11140,7 @@
 		(instances
 			(project ""
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "SW?")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -10691,9 +11154,8 @@
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
-		
 		(uuid "e0fc05f8-caa9-493f-94cd-f7d9b1b3feee")
-		(property "Reference" "S?"
+		(property "Reference" "S1"
 			(at 238.76 50.8 0)
 			(effects
 				(font
@@ -10880,39 +11342,39 @@
 			)
 		)
 		(pin "L2"
-			(uuid "bb1060d5-afaf-4ee5-8794-8cc260a41787")
+			(uuid "bb1060d5-afaf-4ee5-8794-8cc260a41789")
 		)
 		(pin "R2"
-			(uuid "fd45fa1b-6392-4a12-b6b0-463b7e126fa0")
+			(uuid "fd45fa1b-6392-4a12-b6b0-463b7e126fa2")
 		)
 		(pin "L1"
-			(uuid "62a43805-814b-4d1b-9667-5d753cc2f1d0")
+			(uuid "62a43805-814b-4d1b-9667-5d753cc2f1d2")
 		)
 		(pin "L5"
-			(uuid "25aa1e6d-fd38-4df7-a03e-2d09ac2cc96e")
+			(uuid "25aa1e6d-fd38-4df7-a03e-2d09ac2cc970")
 		)
 		(pin "R3"
-			(uuid "a1547a26-c920-4740-9ff2-e601250ba9ff")
+			(uuid "a1547a26-c920-4740-9ff2-e601250baa01")
 		)
 		(pin "R4"
-			(uuid "7d55e259-d949-4c78-b854-6643aebdf936")
+			(uuid "7d55e259-d949-4c78-b854-6643aebdf938")
 		)
 		(pin "L4"
-			(uuid "daa1384c-93a8-410f-afd4-f7def7efd255")
+			(uuid "daa1384c-93a8-410f-afd4-f7def7efd257")
 		)
 		(pin "L3"
-			(uuid "eab2d6ce-51d3-48cc-a566-c2346f1bab0e")
+			(uuid "eab2d6ce-51d3-48cc-a566-c2346f1bab10")
 		)
 		(pin "R1"
-			(uuid "e2abd3d4-8608-4eab-8f27-6f45103a6e0b")
+			(uuid "e2abd3d4-8608-4eab-8f27-6f45103a6e0d")
 		)
 		(pin "R5"
-			(uuid "8806f289-58b3-4c8e-a8ed-91afe3be8ec6")
+			(uuid "8806f289-58b3-4c8e-a8ed-91afe3be8ec8")
 		)
 		(instances
 			(project ""
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "S?")
+					(reference "S1")
 					(unit 2)
 				)
 			)
@@ -10924,11 +11386,10 @@
 		(unit 2)
 		(exclude_from_sim yes)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
-		
 		(uuid "e8ad20fb-cccf-452b-85a1-558f7fb0fc34")
-		(property "Reference" "K?"
+		(property "Reference" "KL1"
 			(at 139.7 81.28 0)
 			(effects
 				(font
@@ -10944,7 +11405,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Controls:HMC-9B30-11-DS_Front"
 			(at 139.7 90.17 0)
 			(effects
 				(font
@@ -10998,7 +11459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "DIN rail contactor"
 			(at 139.7 90.17 0)
 			(effects
 				(font
@@ -11115,314 +11576,67 @@
 			)
 		)
 		(pin "32"
-			(uuid "913923ba-be3b-439d-add0-704ae4faca92")
+			(uuid "913923ba-be3b-439d-add0-704ae4faca9a")
 		)
 		(pin "1"
-			(uuid "aa32ce9b-dda8-4a40-863c-475fc731f39e")
+			(uuid "aa32ce9b-dda8-4a40-863c-475fc731f3a6")
 		)
 		(pin "3"
-			(uuid "7ab3b29d-f659-4230-a208-117caba8f413")
+			(uuid "7ab3b29d-f659-4230-a208-117caba8f41b")
 		)
 		(pin "5"
-			(uuid "55c52ee4-2484-4d02-829b-14eab4498ce6")
+			(uuid "55c52ee4-2484-4d02-829b-14eab4498cee")
 		)
 		(pin "2"
-			(uuid "cc9ec38f-a12d-4260-9d34-9db5cc865d78")
+			(uuid "cc9ec38f-a12d-4260-9d34-9db5cc865d80")
 		)
 		(pin "4"
-			(uuid "6c385a0b-1382-49f2-8b23-cc83c27b7ce3")
+			(uuid "6c385a0b-1382-49f2-8b23-cc83c27b7ceb")
 		)
 		(pin "6"
-			(uuid "2cea6fbb-575f-4088-82ae-5705888dcecd")
+			(uuid "2cea6fbb-575f-4088-82ae-5705888dced5")
 		)
 		(pin "31"
-			(uuid "f0ec89a9-ba54-41c9-9166-bd56babe42c9")
+			(uuid "f0ec89a9-ba54-41c9-9166-bd56babe42d1")
 		)
 		(pin "44"
-			(uuid "e795fc79-57e1-4d2b-b39c-6fb7d06ae279")
+			(uuid "e795fc79-57e1-4d2b-b39c-6fb7d06ae281")
 		)
 		(pin "A1.TOP"
-			(uuid "65deda4d-13b0-48ba-bf49-cf67262c8bea")
+			(uuid "65deda4d-13b0-48ba-bf49-cf67262c8bf2")
 		)
 		(pin "A1.BOT"
-			(uuid "dbc472dc-690d-45a9-ac4a-d0bb3e4965cd")
+			(uuid "dbc472dc-690d-45a9-ac4a-d0bb3e4965d5")
 		)
 		(pin "A2.TOP"
-			(uuid "d9263480-0e95-45fe-9920-ccf3c8a7510a")
+			(uuid "d9263480-0e95-45fe-9920-ccf3c8a75112")
 		)
 		(pin "A2.BOT"
-			(uuid "2c2fe76f-04e7-45f2-ac39-89404488651c")
+			(uuid "2c2fe76f-04e7-45f2-ac39-894044886524")
 		)
 		(pin "43"
-			(uuid "acf7e085-9640-45ff-9c51-b866c23f6480")
+			(uuid "acf7e085-9640-45ff-9c51-b866c23f6488")
 		)
 		(instances
 			(project ""
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "K?")
+					(reference "KL1")
 					(unit 2)
 				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "non_lcsc_parts:Non-LCSC/HMC-9B30-11-DS")
-		(at 114.3 88.9 0)
-		(unit 2)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		
-		(uuid "eaa14682-fcbc-4c65-954e-a1369cb2e6e6")
-		(property "Reference" "K?"
-			(at 114.3 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HMC-9B30-11-DS"
-			(at 114.3 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${PARTS_LIB}/datasheets/HMC-9B30-11-DS_Datasheet.pdf"
-			(at 114.3 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IronHorse 9 A contactor; 24 VDC coil, three NO main poles, 1NO+1NC auxiliaries and duplicate A1/A2 coil terminals."
-			(at 114.3 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "HMC-9B30-11-DS"
-			(at 114.3 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "IronHorse"
-			(at 114.3 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "relay"
-			(at 114.3 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 114.3 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" "Power\nContactor"
-			(at 114.3 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part ID" "HMC-9B30-11-DS"
-			(at 114.3 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "AutomationDirect"
-			(at 114.3 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "HMC-9B30-11-DS"
-			(at 114.3 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Class" ""
-			(at 114.3 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Assembly" ""
-			(at 114.3 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part" ""
-			(at 114.3 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB MPN" ""
-			(at 114.3 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Match" ""
-			(at 114.3 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Checked UTC" ""
-			(at 114.3 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Source" ""
-			(at 114.3 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "inventory" "0"
-			(at 114.3 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "32"
-			(uuid "913923ba-be3b-439d-add0-704ae4faca92")
-		)
-		(pin "1"
-			(uuid "aa32ce9b-dda8-4a40-863c-475fc731f39e")
-		)
-		(pin "3"
-			(uuid "7ab3b29d-f659-4230-a208-117caba8f413")
-		)
-		(pin "5"
-			(uuid "55c52ee4-2484-4d02-829b-14eab4498ce6")
-		)
-		(pin "2"
-			(uuid "cc9ec38f-a12d-4260-9d34-9db5cc865d78")
-		)
-		(pin "4"
-			(uuid "6c385a0b-1382-49f2-8b23-cc83c27b7ce3")
-		)
-		(pin "6"
-			(uuid "2cea6fbb-575f-4088-82ae-5705888dcecd")
-		)
-		(pin "31"
-			(uuid "f0ec89a9-ba54-41c9-9166-bd56babe42c9")
-		)
-		(pin "44"
-			(uuid "e795fc79-57e1-4d2b-b39c-6fb7d06ae279")
-		)
-		(pin "A1.TOP"
-			(uuid "65deda4d-13b0-48ba-bf49-cf67262c8bea")
-		)
-		(pin "A1.BOT"
-			(uuid "dbc472dc-690d-45a9-ac4a-d0bb3e4965cd")
-		)
-		(pin "A2.TOP"
-			(uuid "d9263480-0e95-45fe-9920-ccf3c8a7510a")
-		)
-		(pin "A2.BOT"
-			(uuid "2c2fe76f-04e7-45f2-ac39-89404488651c")
-		)
-		(pin "43"
-			(uuid "acf7e085-9640-45ff-9c51-b866c23f6480")
-		)
-		(instances
-			(project ""
-				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "K?")
-					(unit 2)
-				)
-			)
-		)
-	)
+	
 	(symbol
 		(lib_id "non_lcsc_parts:Non-LCSC/HMX1-SSVRC-DC")
 		(at 213.36 160.02 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
-		
 		(uuid "ee737293-e379-4a59-bb50-48422815504e")
-		(property "Reference" "SP?"
+		(property "Reference" "SP2"
 			(at 213.36 152.4 0)
 			(effects
 				(font
@@ -11438,7 +11652,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Controls:HMX1-SSVRC-DC_Front"
 			(at 213.36 160.02 0)
 			(effects
 				(font
@@ -11492,7 +11706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "Contactor accessory"
 			(at 213.36 160.02 0)
 			(effects
 				(font
@@ -11609,31 +11823,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "ac482284-7162-4dc9-835c-cf0317bea138")
+			(uuid "ac482284-7162-4dc9-835c-cf0317bea13c")
 		)
 		(pin "2"
-			(uuid "f8b65c4f-70c1-4f85-be5f-33487f11928d")
+			(uuid "f8b65c4f-70c1-4f85-be5f-33487f119291")
 		)
 		(instances
 			(project ""
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "SP?")
+					(reference "SP2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "Non-LCSC/HMC-9B30-11-DS_1")
 		(lib_id "non_lcsc_parts:Non-LCSC/HMC-9B30-11-DS")
 		(at 58.42 45.72 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
-		
 		(uuid "f0f4c2da-2431-4e59-8db0-14ecc910070b")
-		(property "Reference" "K?"
+		(property "Reference" "KF1"
 			(at 58.42 27.94 0)
 			(effects
 				(font
@@ -11649,7 +11863,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Controls:HMC-9B30-11-DS_Front"
 			(at 58.42 45.72 0)
 			(effects
 				(font
@@ -11703,7 +11917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "DIN rail contactor"
 			(at 58.42 45.72 0)
 			(effects
 				(font
@@ -11820,51 +12034,51 @@
 			)
 		)
 		(pin "32"
-			(uuid "913923ba-be3b-439d-add0-704ae4faca92")
+			(uuid "913923ba-be3b-439d-add0-704ae4faca9c")
 		)
 		(pin "1"
-			(uuid "aa32ce9b-dda8-4a40-863c-475fc731f39e")
+			(uuid "aa32ce9b-dda8-4a40-863c-475fc731f3a8")
 		)
 		(pin "3"
-			(uuid "7ab3b29d-f659-4230-a208-117caba8f413")
+			(uuid "7ab3b29d-f659-4230-a208-117caba8f41d")
 		)
 		(pin "5"
-			(uuid "55c52ee4-2484-4d02-829b-14eab4498ce6")
+			(uuid "55c52ee4-2484-4d02-829b-14eab4498cf0")
 		)
 		(pin "2"
-			(uuid "cc9ec38f-a12d-4260-9d34-9db5cc865d78")
+			(uuid "cc9ec38f-a12d-4260-9d34-9db5cc865d82")
 		)
 		(pin "4"
-			(uuid "6c385a0b-1382-49f2-8b23-cc83c27b7ce3")
+			(uuid "6c385a0b-1382-49f2-8b23-cc83c27b7ced")
 		)
 		(pin "6"
-			(uuid "2cea6fbb-575f-4088-82ae-5705888dcecd")
+			(uuid "2cea6fbb-575f-4088-82ae-5705888dced7")
 		)
 		(pin "31"
-			(uuid "f0ec89a9-ba54-41c9-9166-bd56babe42c9")
+			(uuid "f0ec89a9-ba54-41c9-9166-bd56babe42d3")
 		)
 		(pin "44"
-			(uuid "e795fc79-57e1-4d2b-b39c-6fb7d06ae279")
+			(uuid "e795fc79-57e1-4d2b-b39c-6fb7d06ae283")
 		)
 		(pin "A1.TOP"
-			(uuid "65deda4d-13b0-48ba-bf49-cf67262c8bea")
+			(uuid "65deda4d-13b0-48ba-bf49-cf67262c8bf4")
 		)
 		(pin "A1.BOT"
-			(uuid "dbc472dc-690d-45a9-ac4a-d0bb3e4965cd")
+			(uuid "dbc472dc-690d-45a9-ac4a-d0bb3e4965d7")
 		)
 		(pin "A2.TOP"
-			(uuid "d9263480-0e95-45fe-9920-ccf3c8a7510a")
+			(uuid "d9263480-0e95-45fe-9920-ccf3c8a75114")
 		)
 		(pin "A2.BOT"
-			(uuid "2c2fe76f-04e7-45f2-ac39-89404488651c")
+			(uuid "2c2fe76f-04e7-45f2-ac39-894044886526")
 		)
 		(pin "43"
-			(uuid "acf7e085-9640-45ff-9c51-b866c23f6480")
+			(uuid "acf7e085-9640-45ff-9c51-b866c23f648a")
 		)
 		(instances
 			(project ""
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "K?")
+					(reference "KF1")
 					(unit 1)
 				)
 			)
@@ -11878,9 +12092,8 @@
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
-		
 		(uuid "fddb4783-9ecd-4f13-a7da-a4cb49f471bb")
-		(property "Reference" "S?"
+		(property "Reference" "S2"
 			(at 203.2 102.87 0)
 			(effects
 				(font
@@ -12117,7 +12330,7 @@
 		(instances
 			(project ""
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "S?")
+					(reference "S2")
 					(unit 1)
 				)
 			)

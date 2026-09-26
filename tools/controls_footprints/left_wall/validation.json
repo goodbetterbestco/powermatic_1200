@@ -1,0 +1,41 @@
+[
+  {
+    "name": "22013003_LeftWall",
+    "terminal_ids": [
+      "1",
+      "3",
+      "5",
+      "2",
+      "4",
+      "6"
+    ],
+    "native_load": true,
+    "native_svg": true,
+    "native_step": true,
+    "native_render": true
+  },
+  {
+    "name": "XB4BVB1_LeftWall",
+    "terminal_ids": [
+      "X1",
+      "X2"
+    ],
+    "native_load": true,
+    "native_svg": true,
+    "native_step": true,
+    "native_render": true
+  },
+  {
+    "name": "T4171310004-001_LeftWall",
+    "terminal_ids": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "native_load": true,
+    "native_svg": true,
+    "native_step": true,
+    "native_render": true
+  }
+]

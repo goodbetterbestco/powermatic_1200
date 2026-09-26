@@ -1,0 +1,86 @@
+{
+  "footprint": "Controls_Review:22013003_LeftWall",
+  "units": "mm",
+  "wall_thickness": 1.8796,
+  "wall_inner_x": -68.0145424959563,
+  "wall_outer_x": -69.8941424959563,
+  "switch_rear_mounting_x": 31.9854575040437,
+  "coupling_end_nominal_x": -43.0145424959563,
+  "front_coupling_to_inner_wall": 25.0,
+  "shaft_length": 57.0,
+  "shaft_length_status": "layout cut length from manufacturer formula; verify actual engagement before cutting",
+  "handle_flange_to_inner_wall": 1.8796,
+  "coupling": "75 mm nominal envelope reserved; coupling absent from manufacturer bare STEP and not redrawn",
+  "bracket": {
+    "thickness": 3.0,
+    "height": 220.0,
+    "depth": 80.0,
+    "reach_to_switch_mounting_face": 100.0,
+    "status": "provisional sharp-corner envelope; bend allowance, reliefs, fasteners and wiring clearance require fabrication review"
+  },
+  "sources": {
+    "22013003": "a1df48fc82ea9bc7aa2c1ba44fc51c4eec2e19b1ce2811f378e809fdd10119cd",
+    "148E1111": "cf91a37d1ad393d66ec693eb20259b8963abe1dbd5b33bc187836b68772de54f",
+    "14070532": "cfce53244e4abc843b4a6c6352d0b83ce88303591eeaa1a77b0a9950cf164414"
+  },
+  "source_documents": [
+    "Socomec_534924.pdf page 2 arrangement C",
+    "22013003_CAD_Drawing.pdf",
+    "148E1111_CAD_Drawing.pdf",
+    "Wiegmann N412201608C.STEP wall faces"
+  ],
+  "component_bounds": {
+    "switch": [
+      [
+        -31.98545750404368,
+        -71.36489206126241,
+        -3.4358527041171785e-14
+      ],
+      [
+        31.98545750404373,
+        71.36489206126146,
+        78.80799431823336
+      ]
+    ],
+    "handle": [
+      [
+        -107.1481550250918,
+        -35.55693282781112,
+        3.25102558122952
+      ],
+      [
+        -58.2441423946876,
+        35.556966562540744,
+        91.60844201778204
+      ]
+    ],
+    "cut_shaft": [
+      [
+        -85.0145424959563,
+        -5.835,
+        36.3079943182333
+      ],
+      [
+        -28.014542495956306,
+        5.835,
+        41.3079943182333
+      ]
+    ],
+    "provisional_bracket": [
+      [
+        -68.0145424959563,
+        -110.0,
+        0.0
+      ],
+      [
+        34.9854575040437,
+        110.0,
+        80.0
+      ]
+    ]
+  },
+  "model_sha256": "c431646a477fbb7a66fc43f1466fb01b8e1c8c8ee67cd2969565c6af203ef9fb",
+  "footprint_sha256": "fb2366dc45e71475d99866b840a60d520ddd84b55940e20f3e4ceb9017848994",
+  "properties_and_pads_preserved": true,
+  "solids_valid": true
+}

@@ -1,0 +1,69 @@
+[
+  {
+    "name": "NDR-240-24_Front",
+    "checks": [
+      {
+        "pin": "TB1.1",
+        "exported_center_error_mm": 4.7061604908937333e-07
+      },
+      {
+        "pin": "TB1.2",
+        "exported_center_error_mm": 4.7061605447534694e-07
+      },
+      {
+        "pin": "TB1.3",
+        "exported_center_error_mm": 4.7061605447534694e-07
+      },
+      {
+        "pin": "TB2.1",
+        "exported_center_error_mm": 4.7061370476429185e-07
+      },
+      {
+        "pin": "TB2.2",
+        "exported_center_error_mm": 4.706136787846506e-07
+      },
+      {
+        "pin": "TB2.3",
+        "exported_center_error_mm": 4.7061367878007876e-07
+      },
+      {
+        "pin": "TB2.4",
+        "exported_center_error_mm": 4.7061367878007876e-07
+      }
+    ]
+  },
+  {
+    "name": "XB4BVB1_Front",
+    "checks": [
+      {
+        "pin": "X1",
+        "exported_center_error_mm": 3.4823176636938283e-06
+      },
+      {
+        "pin": "X2",
+        "exported_center_error_mm": 4.32337806047974e-06
+      }
+    ]
+  },
+  {
+    "name": "T4171310004-001_Front",
+    "checks": [
+      {
+        "pin": "1",
+        "exported_center_error_mm": 4.8083139622964886e-11
+      },
+      {
+        "pin": "2",
+        "exported_center_error_mm": 4.8083139622964886e-11
+      },
+      {
+        "pin": "3",
+        "exported_center_error_mm": 4.8083139622964886e-11
+      },
+      {
+        "pin": "4",
+        "exported_center_error_mm": 4.8083139622964886e-11
+      }
+    ]
+  }
+]

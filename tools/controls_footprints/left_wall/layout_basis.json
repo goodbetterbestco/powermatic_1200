@@ -1,0 +1,33 @@
+{
+  "enclosure": "N412201608C",
+  "enclosure_height_mm": 508,
+  "wall": "left, viewed from the enclosure front",
+  "view": "enclosure front looking toward the backplate",
+  "operating_faces": "toward the left wall, -X",
+  "positions": {
+    "SW1": {
+      "shaft_center_below_enclosure_top_mm": 120,
+      "switch_mounting": "panel/bracket mounted, operating face toward the left wall",
+      "handle_arrangement": "Socomec front operation, instruction 534924I arrangement C",
+      "handle": "148E1111",
+      "front_to_back_center_mm": null,
+      "body_to_wall_distance_mm": 36.029085,
+      "shaft_cut_length_mm": 57,
+      "wall_thickness_mm": 1.8796,
+      "rear_mounting_plane_to_inner_wall_mm": 100,
+      "front_coupling_to_inner_wall_mm": 25,
+      "bracket": "provisional wall-mounted 3 mm hat-section envelope; fabrication details pending"
+    },
+    "H1": {
+      "position": "above SW1 handle",
+      "center_below_enclosure_top_mm": null,
+      "front_to_back_center_mm": null
+    },
+    "J1": {
+      "center_above_enclosure_bottom_mm": 80,
+      "center_below_enclosure_top_mm": 428,
+      "front_to_back_center_mm": null
+    }
+  },
+  "placement_status": "SW1 assembly geometry defined for layout; existing PCB XY placements preserved. Final enclosure placement and bracket fabrication details remain open."
+}

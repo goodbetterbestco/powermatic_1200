@@ -1,0 +1,9 @@
+{
+  "model_solids": 8,
+  "all_model_solids_valid": true,
+  "native_export_matched_all_solids": true,
+  "max_xy_bounds_error_mm": 1.4210854715202004e-14,
+  "native_board_surface_offset_z_mm": 1.5949999999999995,
+  "extra_export_solids": 1,
+  "volume_matching_relative_tolerance": 5e-05
+}
