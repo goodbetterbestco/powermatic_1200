@@ -1,0 +1,18 @@
+[
+  {
+    "file": "powermatic_1200.kicad_sch",
+    "reference": "SW1",
+    "footprint": "Controls:222102_LeftWall",
+    "before_sha256": "ccff54b6c1671b28fdf3d0aac6f0b0e0e657fa53a004cefd71a0db69da85d7f4",
+    "after_sha256": "f4eafdb7b32f77400b3c5674fed9c2cf67f2ca188f2f72bbcedc7ce95691fab6",
+    "unrelated_top_level_records_unchanged": true
+  },
+  {
+    "file": "powermatic_1200.kicad_pcb",
+    "reference": "SW1",
+    "footprint": "Controls:222102_LeftWall",
+    "before_sha256": "351f07773a971e238dc8a3aa36acdcefb055020b8230e1525be780e131c31574",
+    "after_sha256": "efcf900e85778fdabdfd916ee43266608020264ddd4b9180b0bfdd2b0a7aa4c7",
+    "unrelated_top_level_records_unchanged": true
+  }
+]

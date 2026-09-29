@@ -10,7 +10,7 @@ import pcbnew
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[2]
-LIB = ROOT/'kicad/powermatic_1200/Controls_Review.pretty'
+LIB = Path.home()/'Projects/_parts/footprints/Controls.pretty'
 PARTS = Path.home()/'Projects/_parts'
 CLI = '/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli'
 WORK = Path('/tmp/powermatic-three-controls')

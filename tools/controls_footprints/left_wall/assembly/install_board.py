@@ -11,14 +11,14 @@ from install import children,key,field,replace
 
 PROJECT=HERE.parents[3]/'kicad/powermatic_1200'
 board=PROJECT/'powermatic_1200.kicad_pcb'
-lib=PROJECT/'Controls_Review.pretty/22013003_LeftWall.kicad_mod'
+lib=Path.home()/'Projects/_parts/footprints/Controls.pretty/22013003_LeftWall.kicad_mod'
 old=board.read_text(); fresh=lib.read_text()
 physical={'fp_line','fp_arc','fp_circle','fp_rect','fp_poly','fp_curve','model'}
 geometry=[n for _,_,n in children(fresh) if key(n) in physical]
 targets=[(a,b,n) for a,b,n in children(old) if key(n)=='footprint' and field(n,'Reference')=='SW1']
 assert len(targets)==1
 a,b,node=targets[0]
-assert node.startswith('(footprint "Controls_Review:22013003_LeftWall"')
+assert node.startswith('(footprint "Controls:22013003_LeftWall"')
 edits=[(s,e,'') for s,e,n in children(node) if key(n) in physical]
 updated=replace(node,edits).rstrip()[:-1].rstrip()+'\n\t\t'+'\n\t\t'.join(geometry)+'\n\t)'
 assert [n for _,_,n in children(node) if key(n) not in physical]==[n for _,_,n in children(updated) if key(n) not in physical]

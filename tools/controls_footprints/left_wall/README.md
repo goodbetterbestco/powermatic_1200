@@ -1,9 +1,11 @@
 # Left-wall footprints
 
-Project-only variants in `Controls_Review.pretty` for SW1, H1 and J1. Their
+SW1 now uses [BACO 222102_LeftWall](../baco/README.md), with an outer-wall/shaft-axis origin and direct panel mounting. The Socomec SW1 details and scripts below are retained as the previous design; do not reinstall them over the BACO. H1 and J1 remain as described here.
+
+Left-wall variants in the standard `${PARTS_LIB}/footprints/Controls.pretty` library for SW1, H1 and J1. Their
 operating/mating faces point left in the backplate layout, and their original
 manufacturer STEP models receive the same rigid rotation. All model scales are
-1:1. The shared `_parts` library stays unchanged.
+1:1. The footprints and their referenced models are stored in `_parts`.
 
 | Reference | Footprint | Projected envelope, mm | Wiring targets |
 | --- | --- | --- | --- |
@@ -29,7 +31,7 @@ for front operation. Rotating the whole switch to face the left enclosure wall
 uses that arrangement, rather than the switch's separate left-side drive. The
 body needs its own panel/bracket mounting; the handle and shaft do not support
 it. SW1 now includes the handle, cut shaft and a provisional wall-mounted
-bracket in one footprint and one project-local STEP file.
+bracket in one footprint and one STEP file in the standard Controls model folder.
 
 ## SW1 assembly
 
@@ -37,7 +39,7 @@ bracket in one footprint and one project-local STEP file.
 with a shortened 14070532 shaft that retains its factory cross pin. No model is
 scaled. The wall reference is two lines on Dwgs.User; it is not a wall solid in
 the STEP. The assembly model is at
-`kicad/powermatic_1200/3dmodels/22013003_LeftWall_Assembly.step`.
+`${PARTS_LIB}/3dmodels/Controls/22013003_LeftWall_Assembly.step`.
 
 The handle's seating flange touches the outside wall. Wall thickness is
 **1.8796 mm**, measured between parallel faces of the manufacturer's

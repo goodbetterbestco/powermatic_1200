@@ -48,7 +48,7 @@ def field(node, name):
 
 
 def footprint(old, s):
-    fresh = (PROJECT/'Controls_Review.pretty'/(s['name']+'.kicad_mod')).read_text()
+    fresh = (Path.home()/'Projects/_parts/footprints/Controls.pretty'/(s['name']+'.kicad_mod')).read_text()
     fresh_nodes = [c for _, _, c in children(fresh)]
     fresh_pads = {re.match(r'\(pad "([^"\n]*)"', c)[1]: c for c in fresh_nodes if key(c) == 'pad'}
     old_ids = [re.match(r'\(pad "([^"\n]*)"', c)[1] for _, _, c in children(old) if key(c) == 'pad']
@@ -71,7 +71,7 @@ def footprint(old, s):
         elif k in ['descr', 'tags']:
             edits.append((a, b, next(v for v in fresh_nodes if key(v) == k)))
     out = replace(old, edits)
-    out = re.sub(r'^\(footprint "[^"]*"', '(footprint "Controls_Review:'+s['name']+'"', out, count=1)
+    out = re.sub(r'^\(footprint "[^"]*"', '(footprint "Controls:'+s['name']+'"', out, count=1)
     # Collapse only whitespace left by removed drawing records in this footprint.
     out = re.sub(r'\n[ \t]*\n(?:[ \t]*\n)*', '\n', out)
     out = out.rstrip()[:-1].rstrip()+'\n\t\t'+'\n\t\t'.join(v for v in fresh_nodes if key(v) in physical)+'\n\t)'
@@ -92,7 +92,7 @@ def main():
             assert field(node, 'Value') == s['part']
             if kind == 'symbol':
                 new, n = re.subn(r'(\(property "Footprint" ")[^"]*(")',
-                                lambda m: m[1]+'Controls_Review:'+s['name']+m[2], node)
+                                lambda m: m[1]+'Controls:'+s['name']+m[2], node)
                 assert n == 1
             else:
                 assert re.search(r'\(at [-\d.]+ [-\d.]+\)', node)

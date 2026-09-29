@@ -36,8 +36,8 @@ from install import children, key, replace
 ROOT = HERE.parents[3]
 PROJECT = ROOT/'kicad/powermatic_1200'
 PARTS = Path.home()/'Projects/_parts'
-MOD = PROJECT/'Controls_Review.pretty/22013003_LeftWall.kicad_mod'
-MODEL = PROJECT/'3dmodels/22013003_LeftWall_Assembly.step'
+MOD = Path.home()/'Projects/_parts/footprints/Controls.pretty/22013003_LeftWall.kicad_mod'
+MODEL = Path.home()/'Projects/_parts/3dmodels/Controls/22013003_LeftWall_Assembly.step'
 WALL = 1.8796  # parallel faces measured in Wiegmann N412201608C.STEP
 BACK = 31.9854575040437
 AXIS_Z = 38.8079943182333
@@ -175,7 +175,7 @@ def main():
     for x in [OUTER,INNER]:
         for y0,y1 in [(-118,-12),(12,118)]:
             added += graphics([('line',[(x,y0),(x,y1)])])
-    model='\t(model "${KIPRJMOD}/3dmodels/22013003_LeftWall_Assembly.step" (offset (xyz 0 0 0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0)))'
+    model='\t(model "${PARTS_LIB}/3dmodels/Controls/22013003_LeftWall_Assembly.step" (offset (xyz 0 0 0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0)))'
     edits=[]
     for start,end,node in children(original):
         if key(node).startswith('fp_') or key(node)=='model': edits.append((start,end,''))
@@ -186,7 +186,7 @@ def main():
     assert MOD.read_text()==original,'Concurrent footprint save; rerun'
     MOD.write_text(new)
     report={
-        'footprint':'Controls_Review:22013003_LeftWall',
+        'footprint':'Controls:22013003_LeftWall',
         'units':'mm','wall_thickness':WALL,'wall_inner_x':INNER,'wall_outer_x':OUTER,
         'switch_rear_mounting_x':BACK,'coupling_end_nominal_x':COUPLING,
         'front_coupling_to_inner_wall':X_GAP,'shaft_length':SHAFT_LENGTH,

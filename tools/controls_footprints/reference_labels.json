@@ -1,6 +1,6 @@
 [
   {
-    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/14070532_Front.kicad_mod",
+    "path": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/14070532_Front.kicad_mod",
     "before_sha256": "da6742b1793144bb6d3d4db603ceadfd3179164e6706afa1fdf1aad0139df47d",
     "after_sha256": "6f6ce7b17c0b1cbcce5da8e33dc04d34c50d306e7b28b5724d740b05eefc323c",
     "labels": [
@@ -24,7 +24,7 @@
     ]
   },
   {
-    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/148E1111_Front.kicad_mod",
+    "path": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/148E1111_Front.kicad_mod",
     "before_sha256": "b98d9307ae84a3c68e832b8db3eb656ff6cfcdbd8bafc900587ec648a4312516",
     "after_sha256": "41803adf0d7e5e54988224c420032012a43239dbfec6b07a58c081199c8b1fba",
     "labels": [
@@ -48,7 +48,7 @@
     ]
   },
   {
-    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/22013003_Front.kicad_mod",
+    "path": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/22013003_Front.kicad_mod",
     "before_sha256": "47eed05de0fe2e6b03991540a9f0283555e6be33b9e8ab3b3fcc1f5db64b14b9",
     "after_sha256": "da91fb00b726468d250161b817cc5c4c5c03f3f801c105d9141afa5e96ddd851",
     "labels": [
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/22013003_LeftWall.kicad_mod",
+    "path": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/22013003_LeftWall.kicad_mod",
     "before_sha256": "1a72b161fd390ceb262dce6180b2b019cc0795fdb618bbbd032ff48e751ff1bf",
     "after_sha256": "1e7819fdba1dcddf18589d63df7d6d8c3dcb7b435f71c0b7aa6594867276bbc8",
     "labels": [
@@ -96,7 +96,7 @@
     ]
   },
   {
-    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/22943016_Front.kicad_mod",
+    "path": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/22943016_Front.kicad_mod",
     "before_sha256": "3d1bc269308a893958136c5f1e0a5ed23f44b85f99f7af2da4a3ab83f40c0e2d",
     "after_sha256": "fd354fd111cce91451c048ebbb7936544e3d867d4f2c74b1941d1be4126be463",
     "labels": [
@@ -120,7 +120,7 @@
     ]
   },
   {
-    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/CVR-RH-25030_Front.kicad_mod",
+    "path": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/CVR-RH-25030_Front.kicad_mod",
     "before_sha256": "b7b5876970d01c41c2e5981ec44e15369a86179d8257749d73a1fc8e73ddc4d7",
     "after_sha256": "3bb40e5cef81c5c1d509f8f505ed8a15a448f898cb7c2ebe5b58f52f8c272ddd",
     "labels": [
@@ -144,7 +144,7 @@
     ]
   },
   {
-    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/FAZ-D4-2-NA-L_Front.kicad_mod",
+    "path": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/FAZ-D4-2-NA-L_Front.kicad_mod",
     "before_sha256": "841e809b6e5342ae38371ee47440e13275f839f2cbc4e1edc830af06f92fdb21",
     "after_sha256": "24c5958c466924a9dad731c9f10887843e51004052b38d7a1a5de634d595609e",
     "labels": [
@@ -168,7 +168,7 @@
     ]
   },
   {
-    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/HC3096N-52-900-24_Front.kicad_mod",
+    "path": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/HC3096N-52-900-24_Front.kicad_mod",
     "before_sha256": "c8aaeabe10c948e90f5eed22a4b34bd19adbebc4ca81c9adf48c8f54c853acc2",
     "after_sha256": "15d97d9fbf5a98ec095bdc6f1062cd41a4feeba0d4300b01aaaf97f0b5766ead",
     "labels": [
@@ -192,7 +192,7 @@
     ]
   },
   {
-    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/HMC-9B30-11-DS_Front.kicad_mod",
+    "path": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/HMC-9B30-11-DS_Front.kicad_mod",
     "before_sha256": "f0eee51fc838a0cbf116a45dcc50d1a79a46c2a45a375bb96c64736cce71a816",
     "after_sha256": "e9c300f4d78d6f6c093a7eb95a9e3a15d4dcf9e2da99f1c5e64f711f9df94996",
     "labels": [
@@ -216,7 +216,7 @@
     ]
   },
   {
-    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/HMX1-AUX11-F_Front.kicad_mod",
+    "path": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/HMX1-AUX11-F_Front.kicad_mod",
     "before_sha256": "6339333e9ceee5f65f2a890535f0e549ac0f1875b2d58bba4ea46c4164914283",
     "after_sha256": "3176c61cf8842772f83843121d9779674964dbf6d81725114db2dba67b05c3be",
     "labels": [
@@ -240,7 +240,7 @@
     ]
   },
   {
-    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/HMX1-BBREV_Line_Front.kicad_mod",
+    "path": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/HMX1-BBREV_Line_Front.kicad_mod",
     "before_sha256": "e099d869e9da16603e9600bb0847b5b56ead69c6b8f376a33f034c20e111e755",
     "after_sha256": "bc601687143fb847e7c31ae2d068115ba4eabd969143bbefc0872898c0b5acf3",
     "labels": [
@@ -264,7 +264,7 @@
     ]
   },
   {
-    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/HMX1-BBREV_Load_Front.kicad_mod",
+    "path": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/HMX1-BBREV_Load_Front.kicad_mod",
     "before_sha256": "1551465f73ebd65929d97ea7acf8b64022579abb2012019ad268065ed83dff68",
     "after_sha256": "d3c84fb36ec9caa395c92c6663ef1b731432c2447cd25cd358894bc9f71e2701",
     "labels": [
@@ -288,7 +288,7 @@
     ]
   },
   {
-    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/HMX1-MI_Front.kicad_mod",
+    "path": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/HMX1-MI_Front.kicad_mod",
     "before_sha256": "0baf7ed86a13974d80e5d6aae93cb7570ab27d5ce9e22b92e413056141114397",
     "after_sha256": "11c70a6e8c1c6c781e6389dcb581d7f6e93ac9085dc75b5b4b686e969590b45b",
     "labels": [
@@ -312,7 +312,7 @@
     ]
   },
   {
-    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/HMX1-SSVRC-DC_Front.kicad_mod",
+    "path": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/HMX1-SSVRC-DC_Front.kicad_mod",
     "before_sha256": "aac986a605774d1838d2024c62e44e6b8b32b2700a020d5c6468bb7880c45734",
     "after_sha256": "0af0e1c136a3b1e11da9438ca3ce7deab8fed388fd80bddc65baac57075cd72d",
     "labels": [
@@ -336,7 +336,7 @@
     ]
   },
   {
-    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/HTOR32-6-S_Front.kicad_mod",
+    "path": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/HTOR32-6-S_Front.kicad_mod",
     "before_sha256": "fdf3d04d2ae666f328f95066d89b0b027d51906855ca912b02b2f3aaa3e8cce6",
     "after_sha256": "e1198a354add8b28932b24f5f8b7609e300f127c0e2c70a16328bf7540b493ab",
     "labels": [
@@ -360,7 +360,7 @@
     ]
   },
   {
-    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/KN-10J12_Front.kicad_mod",
+    "path": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/KN-10J12_Front.kicad_mod",
     "before_sha256": "5b8cee3906450c274150ef6f91784669f8a50f7a0419dde5cc808e88b007ffc7",
     "after_sha256": "e38cafa8dfe849cc225e16049f369226fe70517141c1d9b10e0da468271f9962",
     "labels": [
@@ -384,7 +384,7 @@
     ]
   },
   {
-    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/KN-T12GRY-25_Front.kicad_mod",
+    "path": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/KN-T12GRY-25_Front.kicad_mod",
     "before_sha256": "465b308a2ca8caf6025c6b09303a66c93b7d3f3dc0c3765eb1dbd4a37f769119",
     "after_sha256": "4404eb0bbedd509f72d0245c66ce5c2adf47f4eab9c79669f8e9b6dfc29275f6",
     "labels": [
@@ -408,7 +408,7 @@
     ]
   },
   {
-    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/NDR-240-24_Front.kicad_mod",
+    "path": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/NDR-240-24_Front.kicad_mod",
     "before_sha256": "44b0937a0917f58b1c1b9a3a1276128d35f888f9e2cf2a021d9ee271fd2bafde",
     "after_sha256": "2c5d91800080fa607b3e7a7eab68a4cfbf7e7b799dbf2eb0c7c6741fc31d5819",
     "labels": [
@@ -432,7 +432,7 @@
     ]
   },
   {
-    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/RM25030-3SR_Front.kicad_mod",
+    "path": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/RM25030-3SR_Front.kicad_mod",
     "before_sha256": "76b5cb64c3d239fc542f3a70b52333b9fff61f03f81824fd6629b4690026b90f",
     "after_sha256": "83f016d13d8e6ad0b83d3003d03430fd16d85b91f9a0cfdb1e2105bd6da0afc6",
     "labels": [
@@ -456,7 +456,7 @@
     ]
   },
   {
-    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/T4171310004-001_Front.kicad_mod",
+    "path": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/T4171310004-001_Front.kicad_mod",
     "before_sha256": "7eb0a9c0ddbd1b3e4c30aca98b9d9e79bcbd667b588b05cded0403d872fb8f70",
     "after_sha256": "9fd94b9eb3c92becc2ed92e08bb618dd813af5d1b1f4d95d1a9314034708dba9",
     "labels": [
@@ -480,7 +480,7 @@
     ]
   },
   {
-    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/T4171310004-001_LeftWall.kicad_mod",
+    "path": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/T4171310004-001_LeftWall.kicad_mod",
     "before_sha256": "34abf16f578b7639d80203b3c590843fd6bfad22bfcc48f27991f52baf82a4f3",
     "after_sha256": "62f99ffff0ecc4e82e7b29e8e75c7ebecd957a84859db2b4279ef33e25d6164d",
     "labels": [
@@ -504,7 +504,7 @@
     ]
   },
   {
-    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/XB4BVB1_Front.kicad_mod",
+    "path": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/XB4BVB1_Front.kicad_mod",
     "before_sha256": "bd0326d14fe3dba1106d1e483644a5fb93f1cdb5ba58f57d6e725b9cdbc447c5",
     "after_sha256": "b587e726cbea41279061414ad98526a42ca3e91ada040d3b78dbbe81c2a43512",
     "labels": [
@@ -528,7 +528,7 @@
     ]
   },
   {
-    "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/Controls_Review.pretty/XB4BVB1_LeftWall.kicad_mod",
+    "path": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/XB4BVB1_LeftWall.kicad_mod",
     "before_sha256": "d2a0a73edae77b05864dba35e768b23e19cc875701fa93e3214db09289dff8eb",
     "after_sha256": "b063f0d0cb10aa05378999962de132af950ca50d9036114387a6663db3a92c6c",
     "labels": [

@@ -1,0 +1,9 @@
+{
+  "native_export_solid_count": 81,
+  "model_solid_count": 80,
+  "review_board_surface_offset_mm": 1.5950000000000044,
+  "maximum_model_solid_bounds_difference_mm": 1.000000082740371e-07,
+  "original_step_hash_matches": true,
+  "two_equilateral_fanouts": true,
+  "scope": "All model solids compared after native KiCad export; review board removed. No final enclosure placement implied."
+}

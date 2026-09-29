@@ -16,7 +16,7 @@ The historical geometry reviews below predate this text convention.
 
 17 footprints from 16 DXFs: 16 new footprints and the preserved, approved fuse-holder sample. The reversing-busbar kit produces separate line and load footprints.
 
-Open the **Controls_Review** library in KiCad Footprint Editor from the Powermatic project. All physical geometry is on **Dwgs.User**. The 62 numbered wiring targets use 3 mm pads with 2 mm holes, carrying forward the 14 AWG review convention. These are panel-layout wiring targets; they do not specify PCB fabrication or final wire sizes.
+Open the **Controls** library in KiCad Footprint Editor from the Powermatic project. All physical geometry is on **Dwgs.User**. The 62 numbered wiring targets use 3 mm pads with 2 mm holes, carrying forward the 14 AWG review convention. These are panel-layout wiring targets; they do not specify PCB fabrication or final wire sizes.
 
 ## Geometry and validation
 
@@ -39,23 +39,23 @@ Dimensions below are projected graphic envelopes in millimeters, excluding strok
 
 | Footprint | Width × height | Pads | Source view |
 | --- | ---: | ---: | --- |
-| [14070532_Front](../../kicad/powermatic_1200/Controls_Review.pretty/14070532_Front.kicad_mod) | 319.956 × 5.000 | 0 | DXF selected elevation |
-| [148E1111_Front](../../kicad/powermatic_1200/Controls_Review.pretty/148E1111_Front.kicad_mod) | 88.445 × 70.957 | 0 | DXF selected elevation |
-| [22013003_Front](../../kicad/powermatic_1200/Controls_Review.pretty/22013003_Front.kicad_mod) | 78.808 × 142.730 | 6 | STEP visible-edge projection |
-| [22943016_Front](../../kicad/powermatic_1200/Controls_Review.pretty/22943016_Front.kicad_mod) | 78.000 × 188.976 | 0 | DXF selected elevation |
-| [CVR-RH-25030_Front](../../kicad/powermatic_1200/Controls_Review.pretty/CVR-RH-25030_Front.kicad_mod) | 21.182 × 99.092 | 0 | DXF selected elevation |
-| [FAZ-D4-2-NA-L_Front](../../kicad/powermatic_1200/Controls_Review.pretty/FAZ-D4-2-NA-L_Front.kicad_mod) | 35.400 × 105.000 | 4 | DXF selected elevation |
-| [HC3096N-52-900-24_Front](../../kicad/powermatic_1200/Controls_Review.pretty/HC3096N-52-900-24_Front.kicad_mod) | 17.903 × 106.792 | 10 | DXF selected elevation |
-| [HMC-9B30-11-DS_Front](../../kicad/powermatic_1200/Controls_Review.pretty/HMC-9B30-11-DS_Front.kicad_mod) | 45.000 × 75.500 | 14 | DXF selected elevation |
-| [HMX1-AUX11-F_Front](../../kicad/powermatic_1200/Controls_Review.pretty/HMX1-AUX11-F_Front.kicad_mod) | 25.000 × 48.000 | 4 | STEP visible-edge projection |
-| [HMX1-BBREV_Line_Front](../../kicad/powermatic_1200/Controls_Review.pretty/HMX1-BBREV_Line_Front.kicad_mod) | 90.700 × 26.500 | 0 | DXF selected elevation |
-| [HMX1-BBREV_Load_Front](../../kicad/powermatic_1200/Controls_Review.pretty/HMX1-BBREV_Load_Front.kicad_mod) | 90.700 × 19.500 | 0 | DXF selected elevation |
-| [HMX1-MI_Front](../../kicad/powermatic_1200/Controls_Review.pretty/HMX1-MI_Front.kicad_mod) | 21.200 × 83.000 | 4 | STEP visible-edge projection |
-| [HMX1-SSVRC-DC_Front](../../kicad/powermatic_1200/Controls_Review.pretty/HMX1-SSVRC-DC_Front.kicad_mod) | 37.400 × 39.473 | 2 | DXF selected elevation |
-| [HTOR32-6-S_Front](../../kicad/powermatic_1200/Controls_Review.pretty/HTOR32-6-S_Front.kicad_mod) | 45.000 × 74.550 | 10 | DXF selected elevation |
-| [KN-10J12_Front](../../kicad/powermatic_1200/Controls_Review.pretty/KN-10J12_Front.kicad_mod) | 51.125 × 5.000 | 0 | DXF selected elevation |
-| [KN-T12GRY-25_Front](../../kicad/powermatic_1200/Controls_Review.pretty/KN-T12GRY-25_Front.kicad_mod) | 5.000 × 44.200 | 2 | DXF selected elevation |
-| [RM25030-3SR_Front](../../kicad/powermatic_1200/Controls_Review.pretty/RM25030-3SR_Front.kicad_mod) | 74.491 × 80.400 | 6 | Approved DXF sample |
+| [14070532_Front](/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/14070532_Front.kicad_mod) | 319.956 × 5.000 | 0 | DXF selected elevation |
+| [148E1111_Front](/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/148E1111_Front.kicad_mod) | 88.445 × 70.957 | 0 | DXF selected elevation |
+| [22013003_Front](/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/22013003_Front.kicad_mod) | 78.808 × 142.730 | 6 | STEP visible-edge projection |
+| [22943016_Front](/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/22943016_Front.kicad_mod) | 78.000 × 188.976 | 0 | DXF selected elevation |
+| [CVR-RH-25030_Front](/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/CVR-RH-25030_Front.kicad_mod) | 21.182 × 99.092 | 0 | DXF selected elevation |
+| [FAZ-D4-2-NA-L_Front](/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/FAZ-D4-2-NA-L_Front.kicad_mod) | 35.400 × 105.000 | 4 | DXF selected elevation |
+| [HC3096N-52-900-24_Front](/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/HC3096N-52-900-24_Front.kicad_mod) | 17.903 × 106.792 | 10 | DXF selected elevation |
+| [HMC-9B30-11-DS_Front](/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/HMC-9B30-11-DS_Front.kicad_mod) | 45.000 × 75.500 | 14 | DXF selected elevation |
+| [HMX1-AUX11-F_Front](/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/HMX1-AUX11-F_Front.kicad_mod) | 25.000 × 48.000 | 4 | STEP visible-edge projection |
+| [HMX1-BBREV_Line_Front](/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/HMX1-BBREV_Line_Front.kicad_mod) | 90.700 × 26.500 | 0 | DXF selected elevation |
+| [HMX1-BBREV_Load_Front](/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/HMX1-BBREV_Load_Front.kicad_mod) | 90.700 × 19.500 | 0 | DXF selected elevation |
+| [HMX1-MI_Front](/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/HMX1-MI_Front.kicad_mod) | 21.200 × 83.000 | 4 | STEP visible-edge projection |
+| [HMX1-SSVRC-DC_Front](/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/HMX1-SSVRC-DC_Front.kicad_mod) | 37.400 × 39.473 | 2 | DXF selected elevation |
+| [HTOR32-6-S_Front](/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/HTOR32-6-S_Front.kicad_mod) | 45.000 × 74.550 | 10 | DXF selected elevation |
+| [KN-10J12_Front](/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/KN-10J12_Front.kicad_mod) | 51.125 × 5.000 | 0 | DXF selected elevation |
+| [KN-T12GRY-25_Front](/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/KN-T12GRY-25_Front.kicad_mod) | 5.000 × 44.200 | 2 | DXF selected elevation |
+| [RM25030-3SR_Front](/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/RM25030-3SR_Front.kicad_mod) | 74.491 × 80.400 | 6 | Approved DXF sample |
 
 [Visual gallery](review.html) · [Preview 1](previews/review-1.png) · [Preview 2](previews/review-2.png) · [Preview 3](previews/review-3.png)
 

@@ -53,7 +53,7 @@ for p in parts:
   assert '(property "Footprint" "Controls:'+p+'_Front"' in s
   assert '(on_board yes)' in s
  fp=P/'footprints/Controls.pretty'/(p+'_Front.kicad_mod')
- assert fp.read_bytes()==(R/'kicad/powermatic_1200/Controls_Review.pretty'/fp.name).read_bytes()
+ assert fp.exists()
  assert hashlib.sha256(fp.read_bytes()).hexdigest()==parts[p]['footprint_sha256']
  model=P/'3dmodels/Controls'/parts[p]['model']
  assert hashlib.sha256(model.read_bytes()).hexdigest()==parts[p]['model_sha256']

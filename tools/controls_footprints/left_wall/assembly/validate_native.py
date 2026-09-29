@@ -11,14 +11,14 @@ WORK=Path('/tmp/powermatic-disconnect-assembly')
 WORK.mkdir(exist_ok=True)
 CLI='/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli'
 name='22013003_LeftWall'
-fp=pcbnew.FootprintLoad(str(PROJECT/'Controls_Review.pretty'),name)
+fp=pcbnew.FootprintLoad(str(Path.home()/'Projects/_parts/footprints/Controls.pretty'),name)
 assert fp
 assert sorted(p.GetNumber() for p in fp.Pads())==['1','2','3','4','5','6']
 assert all(g.GetLayer()==pcbnew.Dwgs_User for g in fp.GraphicalItems())
 assert len(list(fp.Models()))==1
 models=fp.Models()
-models[0].m_Filename=str(PROJECT/'3dmodels/22013003_LeftWall_Assembly.step')
-assert fp.Models()[0].m_Filename==str(PROJECT/'3dmodels/22013003_LeftWall_Assembly.step')
+models[0].m_Filename=str(Path.home()/'Projects/_parts/3dmodels/Controls/22013003_LeftWall_Assembly.step')
+assert fp.Models()[0].m_Filename==str(Path.home()/'Projects/_parts/3dmodels/Controls/22013003_LeftWall_Assembly.step')
 board=pcbnew.BOARD(); board.Add(fp)
 def point(x,y): return pcbnew.VECTOR2I(pcbnew.FromMM(x),pcbnew.FromMM(y))
 fp.SetPosition(point(150,150)); fp.SetReference('SW1')

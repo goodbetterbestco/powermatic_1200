@@ -8,7 +8,7 @@ holder retains its approved DWG outline; pads follow the source STEP screw cente
 from pathlib import Path
 import json,hashlib,re,math,subprocess
 H=Path(__file__).resolve().parent
-ROOT=H.parents[2];LIB=ROOT/'kicad/powermatic_1200/Controls_Review.pretty'
+ROOT=H.parents[2];LIB=Path.home()/'Projects/_parts/footprints/Controls.pretty'
 PARTS=Path.home()/'Projects/_parts'
 def fmt(v):return f'{v:.6f}'.rstrip('0').rstrip('.') if abs(v)>.0000005 else '0'
 def xy(p):return ' '.join(fmt(x) for x in p)

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Project-local left-wall views; run with cadquery-ocp installed."""
+"""Standard-library left-wall views; run with cadquery-ocp installed."""
 from pathlib import Path
 import hashlib
 import json
@@ -21,7 +21,7 @@ from OCP.GCPnts import GCPnts_QuasiUniformDeflection
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[2]
-LIB = ROOT / 'kicad/powermatic_1200/Controls_Review.pretty'
+LIB = Path.home()/'Projects/_parts/footprints/Controls.pretty'
 PARTS = Path.home() / 'Projects/_parts'
 
 

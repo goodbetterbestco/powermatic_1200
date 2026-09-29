@@ -9,7 +9,7 @@ import pcbnew
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[2]
-LIB = ROOT/'kicad/powermatic_1200/Controls_Review.pretty'
+LIB = Path.home()/'Projects/_parts/footprints/Controls.pretty'
 PARTS = Path.home()/'Projects/_parts'
 WORK = Path('/tmp/powermatic-left-wall')
 WORK.mkdir(exist_ok=True)

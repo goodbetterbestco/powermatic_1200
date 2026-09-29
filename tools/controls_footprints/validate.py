@@ -5,7 +5,7 @@ import itertools,json,math,re,subprocess,sys
 import pcbnew
 HERE=Path(__file__).resolve().parent
 ROOT=HERE.parents[1]
-LIB=ROOT/'kicad/powermatic_1200/Controls_Review.pretty'
+LIB=Path.home()/'Projects/_parts/footprints/Controls.pretty'
 config=json.loads((HERE/'config.json').read_text())
 # A lightweight reader keeps exact pin strings, including dots and '+'.
 def sexpr(path):

@@ -17,7 +17,7 @@ from ezdxf.math import Vec3
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
-LIB = ROOT / 'kicad/powermatic_1200/Controls_Review.pretty'
+LIB = Path.home()/'Projects/_parts/footprints/Controls.pretty'
 CONFIG = json.loads((HERE / 'config.json').read_text())
 
 

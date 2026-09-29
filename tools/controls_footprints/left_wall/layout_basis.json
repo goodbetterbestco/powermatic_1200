@@ -6,17 +6,17 @@
   "operating_faces": "toward the left wall, -X",
   "positions": {
     "SW1": {
+      "part": "BACO 222102 / manufacturer reference 0172001",
+      "footprint": "Controls:222102_LeftWall",
       "shaft_center_below_enclosure_top_mm": 120,
-      "switch_mounting": "panel/bracket mounted, operating face toward the left wall",
-      "handle_arrangement": "Socomec front operation, instruction 534924I arrangement C",
-      "handle": "148E1111",
+      "switch_mounting": "Direct panel mount on left wall; handle outside, switch body inside",
+      "handle_arrangement": "Integral red/yellow handle; no separate bracket or cut extension shaft",
+      "footprint_origin": "Outer wall face at shaft center",
       "front_to_back_center_mm": null,
-      "body_to_wall_distance_mm": 36.029085,
-      "shaft_cut_length_mm": 57,
       "wall_thickness_mm": 1.8796,
-      "rear_mounting_plane_to_inner_wall_mm": 100,
-      "front_coupling_to_inner_wall_mm": 25,
-      "bracket": "provisional wall-mounted 3 mm hat-section envelope; fabrication details pending"
+      "inner_wall_to_body_rear_mm": 55.1600005,
+      "handle_projection_from_outer_wall_mm": 32.95,
+      "source_geometry": "../baco/geometry.json"
     },
     "H1": {
       "position": "above SW1 handle",
@@ -29,5 +29,5 @@
       "front_to_back_center_mm": null
     }
   },
-  "placement_status": "SW1 assembly geometry defined for layout; existing PCB XY placements preserved. Final enclosure placement and bracket fabrication details remain open."
+  "placement_status": "BACO SW1 side-view geometry verified; existing PCB XY placements preserved. Final enclosure placement and shaft depth above backplate remain open."
 }
