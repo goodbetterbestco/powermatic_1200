@@ -1,4 +1,4 @@
-452469016295034
+463215084342456
 Controls
 148E1111_Front
 148E1111 panel-layout elevation; 88.445 x 70.957 mm
@@ -45,6 +45,20 @@ Controls
 CVR-RH-25030_Front
 CVR-RH-25030 panel-layout elevation; 21.182 x 99.092 mm
 Controls panel elevation review
+0
+0
+0
+Controls
+DN-R35S1_280mm_Front
+DIN rail; 280 x 35 x 7.5 mm user STEP envelope; origin at center of left rear edge; length along +X
+Controls mechanical DN-R35S1_280mm
+0
+0
+0
+Controls
+DN-R35S1_350mm_Front
+DIN rail; DN-R35S1 cut to 350 mm; 35 mm wide x 7.5 mm high; origin at center of left rear edge; length along +X
+Controls DIN rail mechanical 35mm 7.5mm 350mm
 0
 0
 0
@@ -153,6 +167,27 @@ Controls left wall side elevation
 0
 4
 4
+Controls
+T1-1530G1-1_300mm_Front
+Wire duct with cover; 300 x 40 x 80 mm user STEP envelope; origin at center of left rear edge; length along +X
+Controls mechanical T1-1530G1-1_300mm
+0
+0
+0
+Controls
+T1-1530G1-1_360mm_Front
+Wire duct with cover; 360 x 40 x 80 mm user STEP envelope; origin at center of left rear edge; length along +X
+Controls mechanical T1-1530G1-1_360mm
+0
+0
+0
+Controls
+T1-1530G1-1_1000mm_Front
+Wire duct with cover; 1000 x 40 x 80 mm user STEP envelope; origin at center of left rear edge; length along +X
+Controls mechanical wire duct 1000mm
+0
+0
+0
 Controls
 XB4BVB1_Front
 XB4BVB1 panel-layout front elevation
@@ -759,6 +794,13 @@ LCSC
 J_tht_Xinyangze_YZ120215036P_1P
 Xinyangze YZ120215036P-01, one round barrel D1.50 +/-0.05 mm, collar D2.0 mm; derived 1.80 mm finished PTH and 2.40 mm circular copper, 0.30 mm annular ring. Circular courtyard offset 0.25 mm; documented pad-ratio exception for staggered 2.54 mm printer contacts. Source drawing D.0, 2015-12-17.
 tht round single terminal
+0
+1
+1
+LCSC
+J_tht_Xinyangze_YZP0670_20143_01_1P
+Xinyangze YZP0670-20143-01; single vertical THT contact, D2.00 +/-0.05 mm body, D0.90 +/-0.05 mm solder tail, 12.30 mm free height above seating plane. Derived per _parts FP-HOLE-003 / FP-THT-SIZE-001: D1.20 mm finished plated hole, 2.00 x 2.00 mm pin-1 copper (1.80 mm standard minimum). Source: manufacturer drawing D.0, 2022-06-11, datasheet p3.
+tht 1pin D2.00 D0.90 Xinyangze YZP0670-20143-01
 0
 1
 1
