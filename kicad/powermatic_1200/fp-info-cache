@@ -1,4 +1,4 @@
-463215084342456
+465005869319817
 Controls
 148E1111_Front
 148E1111 panel-layout elevation; 88.445 x 70.957 mm
@@ -713,6 +713,13 @@ Top-mount-hybrid-SMD/THT 16P 9.14x7.6mm SMD C34260841
 0
 16
 16
+LCSC
+J_smd_Xinyangze_YZ90415045R_01_1P
+Xinyangze YZ90415045R-01; single vertical SMT terminal, D2.00 +/-0.03 mm circular base, H4.50 +/-0.15 mm free. Derived 2.03 x 2.40 mm roundrect land for 2.54 mm X pitch, R0.05, centered on base; no holes. Source: manufacturer drawing A.0, 2014-05-31, datasheet p3; derivation in reviews/C5157399_YZ90415045R-01/README.md.
+smd 1pin D2.00 H4.50 Xinyangze YZ90415045R-01
+0
+1
+1
 LCSC
 J_tht_IDC_2x06_P2.54
 Megastar ZX-IDC2.54-2-6PZZ shrouded IDC header, 2x6 pins, vertical THT, 2.54mm pitch, 22.84x8.90mm body; manufacturer-recommended PCB land pattern
