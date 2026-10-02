@@ -1,4 +1,4 @@
-465005869319817
+475752090913790
 Controls
 148E1111_Front
 148E1111 panel-layout elevation; 88.445 x 70.957 mm
@@ -49,9 +49,23 @@ Controls panel elevation review
 0
 0
 Controls
+DN-R35S1_200mm_Front
+DIN rail; 200 x 35 x 7.5 mm user STEP envelope; origin at center of left rear edge; length along +X
+Controls mechanical DN-R35S1_200mm
+0
+0
+0
+Controls
 DN-R35S1_280mm_Front
 DIN rail; 280 x 35 x 7.5 mm user STEP envelope; origin at center of left rear edge; length along +X
 Controls mechanical DN-R35S1_280mm
+0
+0
+0
+Controls
+DN-R35S1_300mm_Front
+DIN rail; 300 x 35 x 7.5 mm user STEP envelope; origin at center of left rear edge; length along +X
+Controls mechanical DN-R35S1_300mm
 0
 0
 0
@@ -133,6 +147,13 @@ Controls panel elevation review
 0
 0
 Controls
+KN-G12SP-10_Front
+KN-G12SP-10 DIN terminal elevation; two wire clamps and rail PE contact
+Controls grounding terminal DIN PE
+0
+3
+3
+Controls
 KN-T12GRY-25_Front
 KN-T12GRY-25 panel-layout elevation; 5.000 x 44.200 mm
 Controls panel elevation review
@@ -168,6 +189,13 @@ Controls left wall side elevation
 4
 4
 Controls
+T1-1530G1-1_200mm_Front
+Wire duct with cover; 200 x 40 x 80 mm user STEP envelope; origin at center of left rear edge; length along +X
+Controls mechanical T1-1530G1-1_200mm
+0
+0
+0
+Controls
 T1-1530G1-1_300mm_Front
 Wire duct with cover; 300 x 40 x 80 mm user STEP envelope; origin at center of left rear edge; length along +X
 Controls mechanical T1-1530G1-1_300mm
@@ -175,9 +203,23 @@ Controls mechanical T1-1530G1-1_300mm
 0
 0
 Controls
+T1-1530G1-1_320mm_Front
+Wire duct with cover; 320 x 40 x 80 mm user STEP envelope; origin at center of left rear edge; length along +X
+Controls mechanical T1-1530G1-1_320mm
+0
+0
+0
+Controls
 T1-1530G1-1_360mm_Front
 Wire duct with cover; 360 x 40 x 80 mm user STEP envelope; origin at center of left rear edge; length along +X
 Controls mechanical T1-1530G1-1_360mm
+0
+0
+0
+Controls
+T1-1530G1-1_420mm_Front
+Wire duct with cover; 420 x 40 x 80 mm user STEP envelope; origin at center of left rear edge; length along +X
+Controls mechanical T1-1530G1-1_420mm
 0
 0
 0
