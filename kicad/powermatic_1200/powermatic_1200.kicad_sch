@@ -353,25 +353,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "PE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "PE"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 10.16 270)
+					(at -1.27 10.16 270)
 					(length 2.54)
 					(name "TERM"
 						(effects
@@ -389,7 +371,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -10.16 90)
+					(at -1.27 -10.16 90)
 					(length 2.54)
 					(name "TERM"
 						(effects
@@ -399,6 +381,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -10.16 90)
+					(length 2.54)
+					(name "PE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "PE"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -1774,6 +1774,179 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KN-G12SP-10_1"
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TB"
+				(at 0 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "KN-G12SP-10"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Controls:KN-G12SP-10_Front"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${PARTS_LIB}/datasheets/KN-G12SP-10_Datasheet.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single-level screw grounding terminal; two wire clamps and conductive DIN-rail PE contact; yellow/green, 26-12 AWG, 35 mm DIN rail."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "KN-G12SP-10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Konnect-It"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "35 mm DIN rail"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Name" "Grounding\nTerminal"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Konnect-It KN-G12SP-10 grounding terminal PE screw DIN rail"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KN-G12SP-10_1_1_1"
+				(rectangle
+					(start -2.54 7.62)
+					(end 2.54 -7.62)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -1.27 10.16 270)
+					(length 2.54)
+					(name "TERM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 -10.16 90)
+					(length 2.54)
+					(name "TERM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -10.16 90)
+					(length 2.54)
+					(name "PE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "PE"
+						(effects
+							(font
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -15249,7 +15422,7 @@
 	)
 	(symbol
 		(lib_id "Controls:KN-T12GRY-25")
-		(at 283.21 110.49 0)
+		(at 185.42 138.43 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -15257,7 +15430,7 @@
 		(dnp no)
 		(uuid "0068c1f9-1e55-4cc4-8292-932ef0825b7c")
 		(property "Reference" "TB19"
-			(at 283.21 106.426 0)
+			(at 185.42 134.366 0)
 			(effects
 				(font
 					(size 1 1)
@@ -15265,7 +15438,7 @@
 			)
 		)
 		(property "Value" "KN-T12GRY-25"
-			(at 283.21 106.68 0)
+			(at 185.42 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15274,7 +15447,7 @@
 			)
 		)
 		(property "Footprint" "Controls:KN-T12GRY-25_Front"
-			(at 283.21 110.49 0)
+			(at 185.42 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15283,7 +15456,7 @@
 			)
 		)
 		(property "Datasheet" "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf"
-			(at 283.21 110.49 0)
+			(at 185.42 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15292,7 +15465,7 @@
 			)
 		)
 		(property "Description" "Single-level screw-clamp feedthrough terminal; two internally connected wire clamps; gray, 26-12 AWG, 20 A, 600 V UL, 35 mm DIN rail."
-			(at 283.21 110.49 0)
+			(at 185.42 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15301,7 +15474,7 @@
 			)
 		)
 		(property "MPN" "KN-T12GRY-25"
-			(at 283.21 110.49 0)
+			(at 185.42 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15310,7 +15483,7 @@
 			)
 		)
 		(property "Manufacturer" "Konnect-It"
-			(at 283.21 110.49 0)
+			(at 185.42 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15319,7 +15492,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 283.21 110.49 0)
+			(at 185.42 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15328,7 +15501,7 @@
 			)
 		)
 		(property "Package" "35 mm DIN rail"
-			(at 283.21 110.49 0)
+			(at 185.42 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15337,7 +15510,7 @@
 			)
 		)
 		(property "Part Name" "Feedthrough\nTerminal"
-			(at 283.21 115.57 0)
+			(at 185.42 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15826,7 +15999,7 @@
 	)
 	(symbol
 		(lib_id "Controls:KN-T12GRY-25")
-		(at 252.73 110.49 0)
+		(at 212.09 110.49 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -15834,7 +16007,7 @@
 		(dnp no)
 		(uuid "0a87c2cf-aacd-42a8-8d3e-0cb33e36ffd5")
 		(property "Reference" "TB7"
-			(at 252.73 106.426 0)
+			(at 212.09 106.426 0)
 			(effects
 				(font
 					(size 1 1)
@@ -15842,7 +16015,7 @@
 			)
 		)
 		(property "Value" "KN-T12GRY-25"
-			(at 252.73 106.68 0)
+			(at 212.09 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15851,7 +16024,7 @@
 			)
 		)
 		(property "Footprint" "Controls:KN-T12GRY-25_Front"
-			(at 252.73 110.49 0)
+			(at 212.09 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15860,7 +16033,7 @@
 			)
 		)
 		(property "Datasheet" "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf"
-			(at 252.73 110.49 0)
+			(at 212.09 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15869,7 +16042,7 @@
 			)
 		)
 		(property "Description" "Single-level screw-clamp feedthrough terminal; two internally connected wire clamps; gray, 26-12 AWG, 20 A, 600 V UL, 35 mm DIN rail."
-			(at 252.73 110.49 0)
+			(at 212.09 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15878,7 +16051,7 @@
 			)
 		)
 		(property "MPN" "KN-T12GRY-25"
-			(at 252.73 110.49 0)
+			(at 212.09 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15887,7 +16060,7 @@
 			)
 		)
 		(property "Manufacturer" "Konnect-It"
-			(at 252.73 110.49 0)
+			(at 212.09 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15896,7 +16069,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 252.73 110.49 0)
+			(at 212.09 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15905,7 +16078,7 @@
 			)
 		)
 		(property "Package" "35 mm DIN rail"
-			(at 252.73 110.49 0)
+			(at 212.09 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15914,7 +16087,7 @@
 			)
 		)
 		(property "Part Name" "Feedthrough\nTerminal"
-			(at 252.73 115.57 0)
+			(at 212.09 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15939,15 +16112,15 @@
 	)
 	(symbol
 		(lib_id "Controls:KN-G12SP-10")
-		(at 339.09 135.89 0)
+		(at 295.91 110.49 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "0aafb489-d8f7-453a-adf1-bd5fcb434398")
-		(property "Reference" "TB34"
-			(at 339.09 131.318 0)
+		(property "Reference" "TB54"
+			(at 295.91 105.918 0)
 			(effects
 				(font
 					(size 1 1)
@@ -15955,7 +16128,7 @@
 			)
 		)
 		(property "Value" "KN-G12SP-10"
-			(at 339.09 123.19 0)
+			(at 295.91 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15964,7 +16137,7 @@
 			)
 		)
 		(property "Footprint" "Controls:KN-G12SP-10_Front"
-			(at 339.09 135.89 0)
+			(at 295.91 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15973,7 +16146,7 @@
 			)
 		)
 		(property "Datasheet" "${PARTS_LIB}/datasheets/KN-G12SP-10_Datasheet.pdf"
-			(at 339.09 135.89 0)
+			(at 295.91 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15982,7 +16155,7 @@
 			)
 		)
 		(property "Description" "Single-level screw grounding terminal; two wire clamps and conductive DIN-rail PE contact; yellow/green, 26-12 AWG, 35 mm DIN rail."
-			(at 339.09 135.89 0)
+			(at 295.91 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15991,7 +16164,7 @@
 			)
 		)
 		(property "MPN" "KN-G12SP-10"
-			(at 339.09 135.89 0)
+			(at 295.91 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16000,7 +16173,7 @@
 			)
 		)
 		(property "Manufacturer" "Konnect-It"
-			(at 339.09 135.89 0)
+			(at 295.91 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16009,7 +16182,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 339.09 135.89 0)
+			(at 295.91 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16018,7 +16191,7 @@
 			)
 		)
 		(property "Package" "35 mm DIN rail"
-			(at 339.09 135.89 0)
+			(at 295.91 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16027,7 +16200,7 @@
 			)
 		)
 		(property "Part Name" "Grounding\nTerminal"
-			(at 339.09 149.86 0)
+			(at 295.91 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16047,7 +16220,7 @@
 		(instances
 			(project "powermatic_1200"
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "TB34")
+					(reference "TB54")
 					(unit 1)
 				)
 			)
@@ -16265,7 +16438,7 @@
 	)
 	(symbol
 		(lib_id "Controls:KN-T12GRY-25")
-		(at 248.92 110.49 0)
+		(at 200.66 110.49 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -16273,7 +16446,7 @@
 		(dnp no)
 		(uuid "0b1c34fd-3bd2-4c66-8c4a-50eef191cc47")
 		(property "Reference" "TB5"
-			(at 248.92 106.426 0)
+			(at 200.66 106.426 0)
 			(effects
 				(font
 					(size 1 1)
@@ -16281,7 +16454,7 @@
 			)
 		)
 		(property "Value" "KN-T12GRY-25"
-			(at 248.92 106.68 0)
+			(at 200.66 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16290,7 +16463,7 @@
 			)
 		)
 		(property "Footprint" "Controls:KN-T12GRY-25_Front"
-			(at 248.92 110.49 0)
+			(at 200.66 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16299,7 +16472,7 @@
 			)
 		)
 		(property "Datasheet" "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf"
-			(at 248.92 110.49 0)
+			(at 200.66 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16308,7 +16481,7 @@
 			)
 		)
 		(property "Description" "Single-level screw-clamp feedthrough terminal; two internally connected wire clamps; gray, 26-12 AWG, 20 A, 600 V UL, 35 mm DIN rail."
-			(at 248.92 110.49 0)
+			(at 200.66 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16317,7 +16490,7 @@
 			)
 		)
 		(property "MPN" "KN-T12GRY-25"
-			(at 248.92 110.49 0)
+			(at 200.66 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16326,7 +16499,7 @@
 			)
 		)
 		(property "Manufacturer" "Konnect-It"
-			(at 248.92 110.49 0)
+			(at 200.66 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16335,7 +16508,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 248.92 110.49 0)
+			(at 200.66 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16344,7 +16517,7 @@
 			)
 		)
 		(property "Package" "35 mm DIN rail"
-			(at 248.92 110.49 0)
+			(at 200.66 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16353,7 +16526,7 @@
 			)
 		)
 		(property "Part Name" "Feedthrough\nTerminal"
-			(at 248.92 115.57 0)
+			(at 200.66 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16378,7 +16551,7 @@
 	)
 	(symbol
 		(lib_id "Controls:KN-T12GRY-25")
-		(at 279.4 110.49 0)
+		(at 257.81 110.49 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -16386,7 +16559,7 @@
 		(dnp no)
 		(uuid "0e81af04-0028-493b-af7e-ec97017e94a8")
 		(property "Reference" "TB17"
-			(at 279.4 106.426 0)
+			(at 257.81 106.426 0)
 			(effects
 				(font
 					(size 1 1)
@@ -16394,7 +16567,7 @@
 			)
 		)
 		(property "Value" "KN-T12GRY-25"
-			(at 279.4 106.68 0)
+			(at 257.81 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16403,7 +16576,7 @@
 			)
 		)
 		(property "Footprint" "Controls:KN-T12GRY-25_Front"
-			(at 279.4 110.49 0)
+			(at 257.81 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16412,7 +16585,7 @@
 			)
 		)
 		(property "Datasheet" "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf"
-			(at 279.4 110.49 0)
+			(at 257.81 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16421,7 +16594,7 @@
 			)
 		)
 		(property "Description" "Single-level screw-clamp feedthrough terminal; two internally connected wire clamps; gray, 26-12 AWG, 20 A, 600 V UL, 35 mm DIN rail."
-			(at 279.4 110.49 0)
+			(at 257.81 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16430,7 +16603,7 @@
 			)
 		)
 		(property "MPN" "KN-T12GRY-25"
-			(at 279.4 110.49 0)
+			(at 257.81 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16439,7 +16612,7 @@
 			)
 		)
 		(property "Manufacturer" "Konnect-It"
-			(at 279.4 110.49 0)
+			(at 257.81 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16448,7 +16621,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 279.4 110.49 0)
+			(at 257.81 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16457,7 +16630,7 @@
 			)
 		)
 		(property "Package" "35 mm DIN rail"
-			(at 279.4 110.49 0)
+			(at 257.81 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16466,7 +16639,7 @@
 			)
 		)
 		(property "Part Name" "Feedthrough\nTerminal"
-			(at 279.4 115.57 0)
+			(at 257.81 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16491,7 +16664,7 @@
 	)
 	(symbol
 		(lib_id "Controls:KN-T12GRY-25")
-		(at 252.73 135.89 0)
+		(at 215.9 110.49 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -16499,7 +16672,7 @@
 		(dnp no)
 		(uuid "108ffe1f-14a8-43ba-aa76-2cecb7765adb")
 		(property "Reference" "TB8"
-			(at 252.73 131.826 0)
+			(at 215.9 106.426 0)
 			(effects
 				(font
 					(size 1 1)
@@ -16507,7 +16680,7 @@
 			)
 		)
 		(property "Value" "KN-T12GRY-25"
-			(at 252.73 132.08 0)
+			(at 215.9 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16516,7 +16689,7 @@
 			)
 		)
 		(property "Footprint" "Controls:KN-T12GRY-25_Front"
-			(at 252.73 135.89 0)
+			(at 215.9 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16525,7 +16698,7 @@
 			)
 		)
 		(property "Datasheet" "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf"
-			(at 252.73 135.89 0)
+			(at 215.9 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16534,7 +16707,7 @@
 			)
 		)
 		(property "Description" "Single-level screw-clamp feedthrough terminal; two internally connected wire clamps; gray, 26-12 AWG, 20 A, 600 V UL, 35 mm DIN rail."
-			(at 252.73 135.89 0)
+			(at 215.9 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16543,7 +16716,7 @@
 			)
 		)
 		(property "MPN" "KN-T12GRY-25"
-			(at 252.73 135.89 0)
+			(at 215.9 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16552,7 +16725,7 @@
 			)
 		)
 		(property "Manufacturer" "Konnect-It"
-			(at 252.73 135.89 0)
+			(at 215.9 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16561,7 +16734,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 252.73 135.89 0)
+			(at 215.9 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16570,7 +16743,7 @@
 			)
 		)
 		(property "Package" "35 mm DIN rail"
-			(at 252.73 135.89 0)
+			(at 215.9 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16579,7 +16752,7 @@
 			)
 		)
 		(property "Part Name" "Feedthrough\nTerminal"
-			(at 252.73 140.97 0)
+			(at 215.9 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16604,7 +16777,7 @@
 	)
 	(symbol
 		(lib_id "Controls:KN-T12GRY-25")
-		(at 262.89 135.89 0)
+		(at 234.95 110.49 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -16612,7 +16785,7 @@
 		(dnp no)
 		(uuid "16702aad-fc25-433e-a788-1f2e87c42a1d")
 		(property "Reference" "TB12"
-			(at 262.89 131.826 0)
+			(at 234.95 106.426 0)
 			(effects
 				(font
 					(size 1 1)
@@ -16620,7 +16793,7 @@
 			)
 		)
 		(property "Value" "KN-T12GRY-25"
-			(at 262.89 132.08 0)
+			(at 234.95 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16629,7 +16802,7 @@
 			)
 		)
 		(property "Footprint" "Controls:KN-T12GRY-25_Front"
-			(at 262.89 135.89 0)
+			(at 234.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16638,7 +16811,7 @@
 			)
 		)
 		(property "Datasheet" "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf"
-			(at 262.89 135.89 0)
+			(at 234.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16647,7 +16820,7 @@
 			)
 		)
 		(property "Description" "Single-level screw-clamp feedthrough terminal; two internally connected wire clamps; gray, 26-12 AWG, 20 A, 600 V UL, 35 mm DIN rail."
-			(at 262.89 135.89 0)
+			(at 234.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16656,7 +16829,7 @@
 			)
 		)
 		(property "MPN" "KN-T12GRY-25"
-			(at 262.89 135.89 0)
+			(at 234.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16665,7 +16838,7 @@
 			)
 		)
 		(property "Manufacturer" "Konnect-It"
-			(at 262.89 135.89 0)
+			(at 234.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16674,7 +16847,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 262.89 135.89 0)
+			(at 234.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16683,7 +16856,7 @@
 			)
 		)
 		(property "Package" "35 mm DIN rail"
-			(at 262.89 135.89 0)
+			(at 234.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16692,7 +16865,7 @@
 			)
 		)
 		(property "Part Name" "Feedthrough\nTerminal"
-			(at 262.89 140.97 0)
+			(at 234.95 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16964,15 +17137,15 @@
 	)
 	(symbol
 		(lib_id "Controls:KN-T12GRY-25")
-		(at 322.58 110.49 0)
+		(at 217.17 138.43 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "1eae37ff-595b-4fba-a52b-f3e2c5aed332")
-		(property "Reference" "TB29"
-			(at 322.58 106.426 0)
+		(property "Reference" "TB26"
+			(at 217.17 134.366 0)
 			(effects
 				(font
 					(size 1 1)
@@ -16980,7 +17153,7 @@
 			)
 		)
 		(property "Value" "KN-T12GRY-25"
-			(at 322.58 106.68 0)
+			(at 217.17 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16989,7 +17162,7 @@
 			)
 		)
 		(property "Footprint" "Controls:KN-T12GRY-25_Front"
-			(at 322.58 110.49 0)
+			(at 217.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16998,7 +17171,7 @@
 			)
 		)
 		(property "Datasheet" "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf"
-			(at 322.58 110.49 0)
+			(at 217.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17007,7 +17180,7 @@
 			)
 		)
 		(property "Description" "Single-level screw-clamp feedthrough terminal; two internally connected wire clamps; gray, 26-12 AWG, 20 A, 600 V UL, 35 mm DIN rail."
-			(at 322.58 110.49 0)
+			(at 217.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17016,7 +17189,7 @@
 			)
 		)
 		(property "MPN" "KN-T12GRY-25"
-			(at 322.58 110.49 0)
+			(at 217.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17025,7 +17198,7 @@
 			)
 		)
 		(property "Manufacturer" "Konnect-It"
-			(at 322.58 110.49 0)
+			(at 217.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17034,7 +17207,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 322.58 110.49 0)
+			(at 217.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17043,7 +17216,7 @@
 			)
 		)
 		(property "Package" "35 mm DIN rail"
-			(at 322.58 110.49 0)
+			(at 217.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17052,7 +17225,7 @@
 			)
 		)
 		(property "Part Name" "Feedthrough\nTerminal"
-			(at 322.58 115.57 0)
+			(at 217.17 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17069,7 +17242,7 @@
 		(instances
 			(project "powermatic_1200"
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "TB29")
+					(reference "TB26")
 					(unit 1)
 				)
 			)
@@ -17077,15 +17250,15 @@
 	)
 	(symbol
 		(lib_id "Controls:KN-G12SP-10")
-		(at 308.61 135.89 0)
+		(at 280.67 110.49 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "222d92aa-1998-4dab-8001-257a8cd27e9c")
-		(property "Reference" "TB25"
-			(at 308.61 131.318 0)
+		(property "Reference" "TB51"
+			(at 280.67 105.918 0)
 			(effects
 				(font
 					(size 1 1)
@@ -17093,7 +17266,7 @@
 			)
 		)
 		(property "Value" "KN-G12SP-10"
-			(at 308.61 123.19 0)
+			(at 280.67 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17102,7 +17275,7 @@
 			)
 		)
 		(property "Footprint" "Controls:KN-G12SP-10_Front"
-			(at 308.61 135.89 0)
+			(at 280.67 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17111,7 +17284,7 @@
 			)
 		)
 		(property "Datasheet" "${PARTS_LIB}/datasheets/KN-G12SP-10_Datasheet.pdf"
-			(at 308.61 135.89 0)
+			(at 280.67 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17120,7 +17293,7 @@
 			)
 		)
 		(property "Description" "Single-level screw grounding terminal; two wire clamps and conductive DIN-rail PE contact; yellow/green, 26-12 AWG, 35 mm DIN rail."
-			(at 308.61 135.89 0)
+			(at 280.67 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17129,7 +17302,7 @@
 			)
 		)
 		(property "MPN" "KN-G12SP-10"
-			(at 308.61 135.89 0)
+			(at 280.67 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17138,7 +17311,7 @@
 			)
 		)
 		(property "Manufacturer" "Konnect-It"
-			(at 308.61 135.89 0)
+			(at 280.67 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17147,7 +17320,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 308.61 135.89 0)
+			(at 280.67 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17156,7 +17329,7 @@
 			)
 		)
 		(property "Package" "35 mm DIN rail"
-			(at 308.61 135.89 0)
+			(at 280.67 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17165,7 +17338,7 @@
 			)
 		)
 		(property "Part Name" "Grounding\nTerminal"
-			(at 308.61 149.86 0)
+			(at 280.67 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17185,7 +17358,7 @@
 		(instances
 			(project "powermatic_1200"
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "TB25")
+					(reference "TB51")
 					(unit 1)
 				)
 			)
@@ -17193,15 +17366,15 @@
 	)
 	(symbol
 		(lib_id "Controls:KN-T12GRY-25")
-		(at 318.77 110.49 0)
+		(at 213.36 138.43 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2274dda3-0dbe-4c33-beb3-c743c9055058")
-		(property "Reference" "TB27"
-			(at 318.77 106.426 0)
+		(property "Reference" "TB25"
+			(at 213.36 134.366 0)
 			(effects
 				(font
 					(size 1 1)
@@ -17209,7 +17382,7 @@
 			)
 		)
 		(property "Value" "KN-T12GRY-25"
-			(at 318.77 106.68 0)
+			(at 213.36 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17218,7 +17391,7 @@
 			)
 		)
 		(property "Footprint" "Controls:KN-T12GRY-25_Front"
-			(at 318.77 110.49 0)
+			(at 213.36 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17227,7 +17400,7 @@
 			)
 		)
 		(property "Datasheet" "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf"
-			(at 318.77 110.49 0)
+			(at 213.36 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17236,7 +17409,7 @@
 			)
 		)
 		(property "Description" "Single-level screw-clamp feedthrough terminal; two internally connected wire clamps; gray, 26-12 AWG, 20 A, 600 V UL, 35 mm DIN rail."
-			(at 318.77 110.49 0)
+			(at 213.36 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17245,7 +17418,7 @@
 			)
 		)
 		(property "MPN" "KN-T12GRY-25"
-			(at 318.77 110.49 0)
+			(at 213.36 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17254,7 +17427,7 @@
 			)
 		)
 		(property "Manufacturer" "Konnect-It"
-			(at 318.77 110.49 0)
+			(at 213.36 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17263,7 +17436,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 318.77 110.49 0)
+			(at 213.36 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17272,7 +17445,7 @@
 			)
 		)
 		(property "Package" "35 mm DIN rail"
-			(at 318.77 110.49 0)
+			(at 213.36 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17281,7 +17454,7 @@
 			)
 		)
 		(property "Part Name" "Feedthrough\nTerminal"
-			(at 318.77 115.57 0)
+			(at 213.36 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17298,7 +17471,7 @@
 		(instances
 			(project "powermatic_1200"
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "TB27")
+					(reference "TB25")
 					(unit 1)
 				)
 			)
@@ -17553,7 +17726,7 @@
 	)
 	(symbol
 		(lib_id "Controls:KN-T12GRY-25")
-		(at 298.45 110.49 0)
+		(at 193.04 138.43 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -17561,7 +17734,7 @@
 		(dnp no)
 		(uuid "28685e83-b92d-43bf-876f-d867e00acc25")
 		(property "Reference" "TB21"
-			(at 298.45 106.426 0)
+			(at 193.04 134.366 0)
 			(effects
 				(font
 					(size 1 1)
@@ -17569,7 +17742,7 @@
 			)
 		)
 		(property "Value" "KN-T12GRY-25"
-			(at 298.45 106.68 0)
+			(at 193.04 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17578,7 +17751,7 @@
 			)
 		)
 		(property "Footprint" "Controls:KN-T12GRY-25_Front"
-			(at 298.45 110.49 0)
+			(at 193.04 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17587,7 +17760,7 @@
 			)
 		)
 		(property "Datasheet" "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf"
-			(at 298.45 110.49 0)
+			(at 193.04 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17596,7 +17769,7 @@
 			)
 		)
 		(property "Description" "Single-level screw-clamp feedthrough terminal; two internally connected wire clamps; gray, 26-12 AWG, 20 A, 600 V UL, 35 mm DIN rail."
-			(at 298.45 110.49 0)
+			(at 193.04 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17605,7 +17778,7 @@
 			)
 		)
 		(property "MPN" "KN-T12GRY-25"
-			(at 298.45 110.49 0)
+			(at 193.04 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17614,7 +17787,7 @@
 			)
 		)
 		(property "Manufacturer" "Konnect-It"
-			(at 298.45 110.49 0)
+			(at 193.04 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17623,7 +17796,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 298.45 110.49 0)
+			(at 193.04 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17632,7 +17805,7 @@
 			)
 		)
 		(property "Package" "35 mm DIN rail"
-			(at 298.45 110.49 0)
+			(at 193.04 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17641,7 +17814,7 @@
 			)
 		)
 		(property "Part Name" "Feedthrough\nTerminal"
-			(at 298.45 115.57 0)
+			(at 193.04 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17666,7 +17839,7 @@
 	)
 	(symbol
 		(lib_id "Controls:KN-T12GRY-25")
-		(at 242.57 135.89 0)
+		(at 196.85 110.49 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -17674,7 +17847,7 @@
 		(dnp no)
 		(uuid "2c1a256a-3ddf-4198-beb8-6949fcbac7d7")
 		(property "Reference" "TB4"
-			(at 242.57 131.826 0)
+			(at 196.85 106.426 0)
 			(effects
 				(font
 					(size 1 1)
@@ -17682,7 +17855,7 @@
 			)
 		)
 		(property "Value" "KN-T12GRY-25"
-			(at 242.57 132.08 0)
+			(at 196.85 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17691,7 +17864,7 @@
 			)
 		)
 		(property "Footprint" "Controls:KN-T12GRY-25_Front"
-			(at 242.57 135.89 0)
+			(at 196.85 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17700,7 +17873,7 @@
 			)
 		)
 		(property "Datasheet" "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf"
-			(at 242.57 135.89 0)
+			(at 196.85 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17709,7 +17882,7 @@
 			)
 		)
 		(property "Description" "Single-level screw-clamp feedthrough terminal; two internally connected wire clamps; gray, 26-12 AWG, 20 A, 600 V UL, 35 mm DIN rail."
-			(at 242.57 135.89 0)
+			(at 196.85 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17718,7 +17891,7 @@
 			)
 		)
 		(property "MPN" "KN-T12GRY-25"
-			(at 242.57 135.89 0)
+			(at 196.85 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17727,7 +17900,7 @@
 			)
 		)
 		(property "Manufacturer" "Konnect-It"
-			(at 242.57 135.89 0)
+			(at 196.85 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17736,7 +17909,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 242.57 135.89 0)
+			(at 196.85 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17745,7 +17918,7 @@
 			)
 		)
 		(property "Package" "35 mm DIN rail"
-			(at 242.57 135.89 0)
+			(at 196.85 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17754,7 +17927,7 @@
 			)
 		)
 		(property "Part Name" "Feedthrough\nTerminal"
-			(at 242.57 140.97 0)
+			(at 196.85 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17779,15 +17952,15 @@
 	)
 	(symbol
 		(lib_id "Controls:KN-T12GRY-25")
-		(at 312.42 110.49 0)
+		(at 204.47 138.43 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "31303833-a0db-423c-a3f8-be5c44ecf9da")
-		(property "Reference" "TB26"
-			(at 312.42 106.426 0)
+		(property "Reference" "TB24"
+			(at 204.47 134.366 0)
 			(effects
 				(font
 					(size 1 1)
@@ -17795,7 +17968,7 @@
 			)
 		)
 		(property "Value" "KN-T12GRY-25"
-			(at 312.42 106.68 0)
+			(at 204.47 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17804,7 +17977,7 @@
 			)
 		)
 		(property "Footprint" "Controls:KN-T12GRY-25_Front"
-			(at 312.42 110.49 0)
+			(at 204.47 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17813,7 +17986,7 @@
 			)
 		)
 		(property "Datasheet" "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf"
-			(at 312.42 110.49 0)
+			(at 204.47 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17822,7 +17995,7 @@
 			)
 		)
 		(property "Description" "Single-level screw-clamp feedthrough terminal; two internally connected wire clamps; gray, 26-12 AWG, 20 A, 600 V UL, 35 mm DIN rail."
-			(at 312.42 110.49 0)
+			(at 204.47 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17831,7 +18004,7 @@
 			)
 		)
 		(property "MPN" "KN-T12GRY-25"
-			(at 312.42 110.49 0)
+			(at 204.47 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17840,7 +18013,7 @@
 			)
 		)
 		(property "Manufacturer" "Konnect-It"
-			(at 312.42 110.49 0)
+			(at 204.47 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17849,7 +18022,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 312.42 110.49 0)
+			(at 204.47 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17858,7 +18031,7 @@
 			)
 		)
 		(property "Package" "35 mm DIN rail"
-			(at 312.42 110.49 0)
+			(at 204.47 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17867,7 +18040,7 @@
 			)
 		)
 		(property "Part Name" "Feedthrough\nTerminal"
-			(at 312.42 115.57 0)
+			(at 204.47 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17884,7 +18057,7 @@
 		(instances
 			(project "powermatic_1200"
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "TB26")
+					(reference "TB24")
 					(unit 1)
 				)
 			)
@@ -18291,7 +18464,7 @@
 	)
 	(symbol
 		(lib_id "Controls:KN-T12GRY-25")
-		(at 248.92 135.89 0)
+		(at 208.28 110.49 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -18299,7 +18472,7 @@
 		(dnp no)
 		(uuid "3ba494a4-b8a5-4675-a740-2d7298713b82")
 		(property "Reference" "TB6"
-			(at 248.92 131.826 0)
+			(at 208.28 106.426 0)
 			(effects
 				(font
 					(size 1 1)
@@ -18307,7 +18480,7 @@
 			)
 		)
 		(property "Value" "KN-T12GRY-25"
-			(at 248.92 132.08 0)
+			(at 208.28 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18316,7 +18489,7 @@
 			)
 		)
 		(property "Footprint" "Controls:KN-T12GRY-25_Front"
-			(at 248.92 135.89 0)
+			(at 208.28 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18325,7 +18498,7 @@
 			)
 		)
 		(property "Datasheet" "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf"
-			(at 248.92 135.89 0)
+			(at 208.28 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18334,7 +18507,7 @@
 			)
 		)
 		(property "Description" "Single-level screw-clamp feedthrough terminal; two internally connected wire clamps; gray, 26-12 AWG, 20 A, 600 V UL, 35 mm DIN rail."
-			(at 248.92 135.89 0)
+			(at 208.28 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18343,7 +18516,7 @@
 			)
 		)
 		(property "MPN" "KN-T12GRY-25"
-			(at 248.92 135.89 0)
+			(at 208.28 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18352,7 +18525,7 @@
 			)
 		)
 		(property "Manufacturer" "Konnect-It"
-			(at 248.92 135.89 0)
+			(at 208.28 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18361,7 +18534,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 248.92 135.89 0)
+			(at 208.28 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18370,7 +18543,7 @@
 			)
 		)
 		(property "Package" "35 mm DIN rail"
-			(at 248.92 135.89 0)
+			(at 208.28 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18379,7 +18552,7 @@
 			)
 		)
 		(property "Part Name" "Feedthrough\nTerminal"
-			(at 248.92 140.97 0)
+			(at 208.28 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18638,7 +18811,7 @@
 	)
 	(symbol
 		(lib_id "Controls:KN-T12GRY-25")
-		(at 238.76 110.49 0)
+		(at 185.42 110.49 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -18646,7 +18819,7 @@
 		(dnp no)
 		(uuid "41adf8d3-938c-4dad-b7e8-3f39ed022a9a")
 		(property "Reference" "TB1"
-			(at 238.76 106.426 0)
+			(at 185.42 106.426 0)
 			(effects
 				(font
 					(size 1 1)
@@ -18654,7 +18827,7 @@
 			)
 		)
 		(property "Value" "KN-T12GRY-25"
-			(at 238.76 106.68 0)
+			(at 185.42 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18663,7 +18836,7 @@
 			)
 		)
 		(property "Footprint" "Controls:KN-T12GRY-25_Front"
-			(at 238.76 110.49 0)
+			(at 185.42 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18672,7 +18845,7 @@
 			)
 		)
 		(property "Datasheet" "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf"
-			(at 238.76 110.49 0)
+			(at 185.42 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18681,7 +18854,7 @@
 			)
 		)
 		(property "Description" "Single-level screw-clamp feedthrough terminal; two internally connected wire clamps; gray, 26-12 AWG, 20 A, 600 V UL, 35 mm DIN rail."
-			(at 238.76 110.49 0)
+			(at 185.42 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18690,7 +18863,7 @@
 			)
 		)
 		(property "MPN" "KN-T12GRY-25"
-			(at 238.76 110.49 0)
+			(at 185.42 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18699,7 +18872,7 @@
 			)
 		)
 		(property "Manufacturer" "Konnect-It"
-			(at 238.76 110.49 0)
+			(at 185.42 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18708,7 +18881,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 238.76 110.49 0)
+			(at 185.42 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18717,7 +18890,7 @@
 			)
 		)
 		(property "Package" "35 mm DIN rail"
-			(at 238.76 110.49 0)
+			(at 185.42 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18726,7 +18899,7 @@
 			)
 		)
 		(property "Part Name" "Feedthrough\nTerminal"
-			(at 238.76 115.57 0)
+			(at 185.42 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18751,15 +18924,15 @@
 	)
 	(symbol
 		(lib_id "Controls:KN-T12GRY-25")
-		(at 339.09 110.49 0)
+		(at 233.68 138.43 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "429a96c9-18bf-4f3b-835d-6dcc9aba3235")
-		(property "Reference" "TB33"
-			(at 339.09 106.426 0)
+		(property "Reference" "TB29"
+			(at 233.68 134.366 0)
 			(effects
 				(font
 					(size 1 1)
@@ -18767,7 +18940,7 @@
 			)
 		)
 		(property "Value" "KN-T12GRY-25"
-			(at 339.09 106.68 0)
+			(at 233.68 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18776,7 +18949,7 @@
 			)
 		)
 		(property "Footprint" "Controls:KN-T12GRY-25_Front"
-			(at 339.09 110.49 0)
+			(at 233.68 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18785,7 +18958,7 @@
 			)
 		)
 		(property "Datasheet" "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf"
-			(at 339.09 110.49 0)
+			(at 233.68 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18794,7 +18967,7 @@
 			)
 		)
 		(property "Description" "Single-level screw-clamp feedthrough terminal; two internally connected wire clamps; gray, 26-12 AWG, 20 A, 600 V UL, 35 mm DIN rail."
-			(at 339.09 110.49 0)
+			(at 233.68 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18803,7 +18976,7 @@
 			)
 		)
 		(property "MPN" "KN-T12GRY-25"
-			(at 339.09 110.49 0)
+			(at 233.68 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18812,7 +18985,7 @@
 			)
 		)
 		(property "Manufacturer" "Konnect-It"
-			(at 339.09 110.49 0)
+			(at 233.68 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18821,7 +18994,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 339.09 110.49 0)
+			(at 233.68 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18830,7 +19003,7 @@
 			)
 		)
 		(property "Package" "35 mm DIN rail"
-			(at 339.09 110.49 0)
+			(at 233.68 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18839,7 +19012,7 @@
 			)
 		)
 		(property "Part Name" "Feedthrough\nTerminal"
-			(at 339.09 115.57 0)
+			(at 233.68 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18856,7 +19029,7 @@
 		(instances
 			(project "powermatic_1200"
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "TB33")
+					(reference "TB29")
 					(unit 1)
 				)
 			)
@@ -18975,7 +19148,7 @@
 	)
 	(symbol
 		(lib_id "Controls:KN-T12GRY-25")
-		(at 283.21 135.89 0)
+		(at 189.23 138.43 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -18983,7 +19156,7 @@
 		(dnp no)
 		(uuid "49b444b8-823b-4807-8db6-584cc1c674d2")
 		(property "Reference" "TB20"
-			(at 283.21 131.826 0)
+			(at 189.23 134.366 0)
 			(effects
 				(font
 					(size 1 1)
@@ -18991,7 +19164,7 @@
 			)
 		)
 		(property "Value" "KN-T12GRY-25"
-			(at 283.21 132.08 0)
+			(at 189.23 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19000,7 +19173,7 @@
 			)
 		)
 		(property "Footprint" "Controls:KN-T12GRY-25_Front"
-			(at 283.21 135.89 0)
+			(at 189.23 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19009,7 +19182,7 @@
 			)
 		)
 		(property "Datasheet" "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf"
-			(at 283.21 135.89 0)
+			(at 189.23 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19018,7 +19191,7 @@
 			)
 		)
 		(property "Description" "Single-level screw-clamp feedthrough terminal; two internally connected wire clamps; gray, 26-12 AWG, 20 A, 600 V UL, 35 mm DIN rail."
-			(at 283.21 135.89 0)
+			(at 189.23 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19027,7 +19200,7 @@
 			)
 		)
 		(property "MPN" "KN-T12GRY-25"
-			(at 283.21 135.89 0)
+			(at 189.23 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19036,7 +19209,7 @@
 			)
 		)
 		(property "Manufacturer" "Konnect-It"
-			(at 283.21 135.89 0)
+			(at 189.23 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19045,7 +19218,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 283.21 135.89 0)
+			(at 189.23 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19054,7 +19227,7 @@
 			)
 		)
 		(property "Package" "35 mm DIN rail"
-			(at 283.21 135.89 0)
+			(at 189.23 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19063,7 +19236,7 @@
 			)
 		)
 		(property "Part Name" "Feedthrough\nTerminal"
-			(at 283.21 140.97 0)
+			(at 189.23 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20026,7 +20199,7 @@
 	)
 	(symbol
 		(lib_id "Controls:KN-T12GRY-25")
-		(at 269.24 135.89 0)
+		(at 242.57 110.49 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -20034,7 +20207,7 @@
 		(dnp no)
 		(uuid "65d2cfd4-a340-4d38-a884-9b1ffb20d761")
 		(property "Reference" "TB14"
-			(at 269.24 131.826 0)
+			(at 242.57 106.426 0)
 			(effects
 				(font
 					(size 1 1)
@@ -20042,7 +20215,7 @@
 			)
 		)
 		(property "Value" "KN-T12GRY-25"
-			(at 269.24 132.08 0)
+			(at 242.57 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20051,7 +20224,7 @@
 			)
 		)
 		(property "Footprint" "Controls:KN-T12GRY-25_Front"
-			(at 269.24 135.89 0)
+			(at 242.57 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20060,7 +20233,7 @@
 			)
 		)
 		(property "Datasheet" "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf"
-			(at 269.24 135.89 0)
+			(at 242.57 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20069,7 +20242,7 @@
 			)
 		)
 		(property "Description" "Single-level screw-clamp feedthrough terminal; two internally connected wire clamps; gray, 26-12 AWG, 20 A, 600 V UL, 35 mm DIN rail."
-			(at 269.24 135.89 0)
+			(at 242.57 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20078,7 +20251,7 @@
 			)
 		)
 		(property "MPN" "KN-T12GRY-25"
-			(at 269.24 135.89 0)
+			(at 242.57 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20087,7 +20260,7 @@
 			)
 		)
 		(property "Manufacturer" "Konnect-It"
-			(at 269.24 135.89 0)
+			(at 242.57 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20096,7 +20269,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 269.24 135.89 0)
+			(at 242.57 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20105,7 +20278,7 @@
 			)
 		)
 		(property "Package" "35 mm DIN rail"
-			(at 269.24 135.89 0)
+			(at 242.57 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20114,7 +20287,7 @@
 			)
 		)
 		(property "Part Name" "Feedthrough\nTerminal"
-			(at 269.24 140.97 0)
+			(at 242.57 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20385,7 +20558,7 @@
 	)
 	(symbol
 		(lib_id "Controls:KN-T12GRY-25")
-		(at 262.89 110.49 0)
+		(at 231.14 110.49 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -20393,7 +20566,7 @@
 		(dnp no)
 		(uuid "6be007ab-53bd-41e5-94e6-5faaf416976b")
 		(property "Reference" "TB11"
-			(at 262.89 106.426 0)
+			(at 231.14 106.426 0)
 			(effects
 				(font
 					(size 1 1)
@@ -20401,7 +20574,7 @@
 			)
 		)
 		(property "Value" "KN-T12GRY-25"
-			(at 262.89 106.68 0)
+			(at 231.14 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20410,7 +20583,7 @@
 			)
 		)
 		(property "Footprint" "Controls:KN-T12GRY-25_Front"
-			(at 262.89 110.49 0)
+			(at 231.14 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20419,7 +20592,7 @@
 			)
 		)
 		(property "Datasheet" "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf"
-			(at 262.89 110.49 0)
+			(at 231.14 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20428,7 +20601,7 @@
 			)
 		)
 		(property "Description" "Single-level screw-clamp feedthrough terminal; two internally connected wire clamps; gray, 26-12 AWG, 20 A, 600 V UL, 35 mm DIN rail."
-			(at 262.89 110.49 0)
+			(at 231.14 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20437,7 +20610,7 @@
 			)
 		)
 		(property "MPN" "KN-T12GRY-25"
-			(at 262.89 110.49 0)
+			(at 231.14 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20446,7 +20619,7 @@
 			)
 		)
 		(property "Manufacturer" "Konnect-It"
-			(at 262.89 110.49 0)
+			(at 231.14 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20455,7 +20628,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 262.89 110.49 0)
+			(at 231.14 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20464,7 +20637,7 @@
 			)
 		)
 		(property "Package" "35 mm DIN rail"
-			(at 262.89 110.49 0)
+			(at 231.14 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20473,7 +20646,7 @@
 			)
 		)
 		(property "Part Name" "Feedthrough\nTerminal"
-			(at 262.89 115.57 0)
+			(at 231.14 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20498,7 +20671,7 @@
 	)
 	(symbol
 		(lib_id "Controls:KN-T12GRY-25")
-		(at 273.05 110.49 0)
+		(at 246.38 110.49 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -20506,7 +20679,7 @@
 		(dnp no)
 		(uuid "6c39708a-b822-41fd-98e4-9d31ca6d6365")
 		(property "Reference" "TB15"
-			(at 273.05 106.426 0)
+			(at 246.38 106.426 0)
 			(effects
 				(font
 					(size 1 1)
@@ -20514,7 +20687,7 @@
 			)
 		)
 		(property "Value" "KN-T12GRY-25"
-			(at 273.05 106.68 0)
+			(at 246.38 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20523,7 +20696,7 @@
 			)
 		)
 		(property "Footprint" "Controls:KN-T12GRY-25_Front"
-			(at 273.05 110.49 0)
+			(at 246.38 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20532,7 +20705,7 @@
 			)
 		)
 		(property "Datasheet" "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf"
-			(at 273.05 110.49 0)
+			(at 246.38 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20541,7 +20714,7 @@
 			)
 		)
 		(property "Description" "Single-level screw-clamp feedthrough terminal; two internally connected wire clamps; gray, 26-12 AWG, 20 A, 600 V UL, 35 mm DIN rail."
-			(at 273.05 110.49 0)
+			(at 246.38 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20550,7 +20723,7 @@
 			)
 		)
 		(property "MPN" "KN-T12GRY-25"
-			(at 273.05 110.49 0)
+			(at 246.38 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20559,7 +20732,7 @@
 			)
 		)
 		(property "Manufacturer" "Konnect-It"
-			(at 273.05 110.49 0)
+			(at 246.38 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20568,7 +20741,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 273.05 110.49 0)
+			(at 246.38 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20577,7 +20750,7 @@
 			)
 		)
 		(property "Package" "35 mm DIN rail"
-			(at 273.05 110.49 0)
+			(at 246.38 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20586,7 +20759,7 @@
 			)
 		)
 		(property "Part Name" "Feedthrough\nTerminal"
-			(at 273.05 115.57 0)
+			(at 246.38 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20611,7 +20784,7 @@
 	)
 	(symbol
 		(lib_id "Controls:KN-T12GRY-25")
-		(at 238.76 135.89 0)
+		(at 189.23 110.49 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -20619,7 +20792,7 @@
 		(dnp no)
 		(uuid "6ebdd50b-c4e5-4c5a-9d7a-44ebe5e2cc24")
 		(property "Reference" "TB2"
-			(at 238.76 131.826 0)
+			(at 189.23 106.426 0)
 			(effects
 				(font
 					(size 1 1)
@@ -20627,7 +20800,7 @@
 			)
 		)
 		(property "Value" "KN-T12GRY-25"
-			(at 238.76 132.08 0)
+			(at 189.23 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20636,7 +20809,7 @@
 			)
 		)
 		(property "Footprint" "Controls:KN-T12GRY-25_Front"
-			(at 238.76 135.89 0)
+			(at 189.23 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20645,7 +20818,7 @@
 			)
 		)
 		(property "Datasheet" "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf"
-			(at 238.76 135.89 0)
+			(at 189.23 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20654,7 +20827,7 @@
 			)
 		)
 		(property "Description" "Single-level screw-clamp feedthrough terminal; two internally connected wire clamps; gray, 26-12 AWG, 20 A, 600 V UL, 35 mm DIN rail."
-			(at 238.76 135.89 0)
+			(at 189.23 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20663,7 +20836,7 @@
 			)
 		)
 		(property "MPN" "KN-T12GRY-25"
-			(at 238.76 135.89 0)
+			(at 189.23 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20672,7 +20845,7 @@
 			)
 		)
 		(property "Manufacturer" "Konnect-It"
-			(at 238.76 135.89 0)
+			(at 189.23 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20681,7 +20854,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 238.76 135.89 0)
+			(at 189.23 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20690,7 +20863,7 @@
 			)
 		)
 		(property "Package" "35 mm DIN rail"
-			(at 238.76 135.89 0)
+			(at 189.23 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20699,7 +20872,7 @@
 			)
 		)
 		(property "Part Name" "Feedthrough\nTerminal"
-			(at 238.76 140.97 0)
+			(at 189.23 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20869,15 +21042,15 @@
 	)
 	(symbol
 		(lib_id "Controls:KN-T12GRY-25")
-		(at 308.61 110.49 0)
+		(at 200.66 138.43 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "782cabbe-a58e-46f3-9f97-d5cf96f2f77e")
-		(property "Reference" "TB24"
-			(at 308.61 106.426 0)
+		(property "Reference" "TB23"
+			(at 200.66 134.366 0)
 			(effects
 				(font
 					(size 1 1)
@@ -20885,7 +21058,7 @@
 			)
 		)
 		(property "Value" "KN-T12GRY-25"
-			(at 308.61 106.68 0)
+			(at 200.66 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20894,7 +21067,7 @@
 			)
 		)
 		(property "Footprint" "Controls:KN-T12GRY-25_Front"
-			(at 308.61 110.49 0)
+			(at 200.66 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20903,7 +21076,7 @@
 			)
 		)
 		(property "Datasheet" "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf"
-			(at 308.61 110.49 0)
+			(at 200.66 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20912,7 +21085,7 @@
 			)
 		)
 		(property "Description" "Single-level screw-clamp feedthrough terminal; two internally connected wire clamps; gray, 26-12 AWG, 20 A, 600 V UL, 35 mm DIN rail."
-			(at 308.61 110.49 0)
+			(at 200.66 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20921,7 +21094,7 @@
 			)
 		)
 		(property "MPN" "KN-T12GRY-25"
-			(at 308.61 110.49 0)
+			(at 200.66 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20930,7 +21103,7 @@
 			)
 		)
 		(property "Manufacturer" "Konnect-It"
-			(at 308.61 110.49 0)
+			(at 200.66 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20939,7 +21112,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 308.61 110.49 0)
+			(at 200.66 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20948,7 +21121,7 @@
 			)
 		)
 		(property "Package" "35 mm DIN rail"
-			(at 308.61 110.49 0)
+			(at 200.66 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20957,7 +21130,7 @@
 			)
 		)
 		(property "Part Name" "Feedthrough\nTerminal"
-			(at 308.61 115.57 0)
+			(at 200.66 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20974,7 +21147,7 @@
 		(instances
 			(project "powermatic_1200"
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "TB24")
+					(reference "TB23")
 					(unit 1)
 				)
 			)
@@ -21192,15 +21365,15 @@
 	)
 	(symbol
 		(lib_id "Controls:KN-G12SP-10")
-		(at 349.25 135.89 0)
+		(at 300.99 110.49 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "86db0ef5-04f9-4a84-ac08-59318bd30e85")
-		(property "Reference" "TB35"
-			(at 349.25 131.318 0)
+		(property "Reference" "TB55"
+			(at 300.99 105.918 0)
 			(effects
 				(font
 					(size 1 1)
@@ -21208,7 +21381,7 @@
 			)
 		)
 		(property "Value" "KN-G12SP-10"
-			(at 349.25 123.19 0)
+			(at 300.99 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21217,7 +21390,7 @@
 			)
 		)
 		(property "Footprint" "Controls:KN-G12SP-10_Front"
-			(at 349.25 135.89 0)
+			(at 300.99 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21226,7 +21399,7 @@
 			)
 		)
 		(property "Datasheet" "${PARTS_LIB}/datasheets/KN-G12SP-10_Datasheet.pdf"
-			(at 349.25 135.89 0)
+			(at 300.99 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21235,7 +21408,7 @@
 			)
 		)
 		(property "Description" "Single-level screw grounding terminal; two wire clamps and conductive DIN-rail PE contact; yellow/green, 26-12 AWG, 35 mm DIN rail."
-			(at 349.25 135.89 0)
+			(at 300.99 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21244,7 +21417,7 @@
 			)
 		)
 		(property "MPN" "KN-G12SP-10"
-			(at 349.25 135.89 0)
+			(at 300.99 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21253,7 +21426,7 @@
 			)
 		)
 		(property "Manufacturer" "Konnect-It"
-			(at 349.25 135.89 0)
+			(at 300.99 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21262,7 +21435,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 349.25 135.89 0)
+			(at 300.99 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21271,7 +21444,7 @@
 			)
 		)
 		(property "Package" "35 mm DIN rail"
-			(at 349.25 135.89 0)
+			(at 300.99 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21280,7 +21453,7 @@
 			)
 		)
 		(property "Part Name" "Grounding\nTerminal"
-			(at 349.25 149.86 0)
+			(at 300.99 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21300,7 +21473,7 @@
 		(instances
 			(project "powermatic_1200"
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "TB35")
+					(reference "TB55")
 					(unit 1)
 				)
 			)
@@ -21308,15 +21481,15 @@
 	)
 	(symbol
 		(lib_id "Controls:KN-T12GRY-25")
-		(at 332.74 110.49 0)
+		(at 229.87 138.43 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "8a701746-4b7e-4780-914d-816c13411f77")
-		(property "Reference" "TB32"
-			(at 332.74 106.426 0)
+		(property "Reference" "TB28"
+			(at 229.87 134.366 0)
 			(effects
 				(font
 					(size 1 1)
@@ -21324,7 +21497,7 @@
 			)
 		)
 		(property "Value" "KN-T12GRY-25"
-			(at 332.74 106.68 0)
+			(at 229.87 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21333,7 +21506,7 @@
 			)
 		)
 		(property "Footprint" "Controls:KN-T12GRY-25_Front"
-			(at 332.74 110.49 0)
+			(at 229.87 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21342,7 +21515,7 @@
 			)
 		)
 		(property "Datasheet" "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf"
-			(at 332.74 110.49 0)
+			(at 229.87 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21351,7 +21524,7 @@
 			)
 		)
 		(property "Description" "Single-level screw-clamp feedthrough terminal; two internally connected wire clamps; gray, 26-12 AWG, 20 A, 600 V UL, 35 mm DIN rail."
-			(at 332.74 110.49 0)
+			(at 229.87 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21360,7 +21533,7 @@
 			)
 		)
 		(property "MPN" "KN-T12GRY-25"
-			(at 332.74 110.49 0)
+			(at 229.87 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21369,7 +21542,7 @@
 			)
 		)
 		(property "Manufacturer" "Konnect-It"
-			(at 332.74 110.49 0)
+			(at 229.87 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21378,7 +21551,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 332.74 110.49 0)
+			(at 229.87 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21387,7 +21560,7 @@
 			)
 		)
 		(property "Package" "35 mm DIN rail"
-			(at 332.74 110.49 0)
+			(at 229.87 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21396,7 +21569,7 @@
 			)
 		)
 		(property "Part Name" "Feedthrough\nTerminal"
-			(at 332.74 115.57 0)
+			(at 229.87 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21413,7 +21586,7 @@
 		(instances
 			(project "powermatic_1200"
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "TB32")
+					(reference "TB28")
 					(unit 1)
 				)
 			)
@@ -22464,16 +22637,17 @@
 		)
 	)
 	(symbol
+		(lib_name "KN-G12SP-10_1")
 		(lib_id "Controls:KN-G12SP-10")
-		(at 298.45 135.89 0)
+		(at 275.59 110.49 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "9e70ef2f-99ba-4e46-bf0c-01ea3ece06a5")
-		(property "Reference" "TB22"
-			(at 298.45 131.318 0)
+		(property "Reference" "TB50"
+			(at 275.59 105.918 0)
 			(effects
 				(font
 					(size 1 1)
@@ -22481,7 +22655,7 @@
 			)
 		)
 		(property "Value" "KN-G12SP-10"
-			(at 298.45 123.19 0)
+			(at 275.59 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22490,7 +22664,7 @@
 			)
 		)
 		(property "Footprint" "Controls:KN-G12SP-10_Front"
-			(at 298.45 135.89 0)
+			(at 275.59 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22499,7 +22673,7 @@
 			)
 		)
 		(property "Datasheet" "${PARTS_LIB}/datasheets/KN-G12SP-10_Datasheet.pdf"
-			(at 298.45 135.89 0)
+			(at 275.59 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22508,7 +22682,7 @@
 			)
 		)
 		(property "Description" "Single-level screw grounding terminal; two wire clamps and conductive DIN-rail PE contact; yellow/green, 26-12 AWG, 35 mm DIN rail."
-			(at 298.45 135.89 0)
+			(at 275.59 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22517,7 +22691,7 @@
 			)
 		)
 		(property "MPN" "KN-G12SP-10"
-			(at 298.45 135.89 0)
+			(at 275.59 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22526,7 +22700,7 @@
 			)
 		)
 		(property "Manufacturer" "Konnect-It"
-			(at 298.45 135.89 0)
+			(at 275.59 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22535,7 +22709,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 298.45 135.89 0)
+			(at 275.59 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22544,7 +22718,7 @@
 			)
 		)
 		(property "Package" "35 mm DIN rail"
-			(at 298.45 135.89 0)
+			(at 275.59 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22553,7 +22727,7 @@
 			)
 		)
 		(property "Part Name" "Grounding\nTerminal"
-			(at 298.45 149.86 0)
+			(at 275.59 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22573,7 +22747,7 @@
 		(instances
 			(project ""
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "TB22")
+					(reference "TB50")
 					(unit 1)
 				)
 			)
@@ -22581,7 +22755,7 @@
 	)
 	(symbol
 		(lib_id "Controls:KN-T12GRY-25")
-		(at 259.08 110.49 0)
+		(at 219.71 110.49 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -22589,7 +22763,7 @@
 		(dnp no)
 		(uuid "9f3a9c15-13dd-40ec-8434-23663d908fc9")
 		(property "Reference" "TB9"
-			(at 259.08 106.426 0)
+			(at 219.71 106.426 0)
 			(effects
 				(font
 					(size 1 1)
@@ -22597,7 +22771,7 @@
 			)
 		)
 		(property "Value" "KN-T12GRY-25"
-			(at 259.08 106.68 0)
+			(at 219.71 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22606,7 +22780,7 @@
 			)
 		)
 		(property "Footprint" "Controls:KN-T12GRY-25_Front"
-			(at 259.08 110.49 0)
+			(at 219.71 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22615,7 +22789,7 @@
 			)
 		)
 		(property "Datasheet" "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf"
-			(at 259.08 110.49 0)
+			(at 219.71 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22624,7 +22798,7 @@
 			)
 		)
 		(property "Description" "Single-level screw-clamp feedthrough terminal; two internally connected wire clamps; gray, 26-12 AWG, 20 A, 600 V UL, 35 mm DIN rail."
-			(at 259.08 110.49 0)
+			(at 219.71 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22633,7 +22807,7 @@
 			)
 		)
 		(property "MPN" "KN-T12GRY-25"
-			(at 259.08 110.49 0)
+			(at 219.71 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22642,7 +22816,7 @@
 			)
 		)
 		(property "Manufacturer" "Konnect-It"
-			(at 259.08 110.49 0)
+			(at 219.71 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22651,7 +22825,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 259.08 110.49 0)
+			(at 219.71 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22660,7 +22834,7 @@
 			)
 		)
 		(property "Package" "35 mm DIN rail"
-			(at 259.08 110.49 0)
+			(at 219.71 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22669,7 +22843,7 @@
 			)
 		)
 		(property "Part Name" "Feedthrough\nTerminal"
-			(at 259.08 115.57 0)
+			(at 219.71 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22805,7 +22979,7 @@
 	)
 	(symbol
 		(lib_id "Controls:KN-T12GRY-25")
-		(at 242.57 110.49 0)
+		(at 193.04 110.49 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -22813,7 +22987,7 @@
 		(dnp no)
 		(uuid "a82e9565-ab32-466e-b1c7-6e01a0e570a2")
 		(property "Reference" "TB3"
-			(at 242.57 106.426 0)
+			(at 193.04 106.426 0)
 			(effects
 				(font
 					(size 1 1)
@@ -22821,7 +22995,7 @@
 			)
 		)
 		(property "Value" "KN-T12GRY-25"
-			(at 242.57 106.68 0)
+			(at 193.04 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22830,7 +23004,7 @@
 			)
 		)
 		(property "Footprint" "Controls:KN-T12GRY-25_Front"
-			(at 242.57 110.49 0)
+			(at 193.04 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22839,7 +23013,7 @@
 			)
 		)
 		(property "Datasheet" "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf"
-			(at 242.57 110.49 0)
+			(at 193.04 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22848,7 +23022,7 @@
 			)
 		)
 		(property "Description" "Single-level screw-clamp feedthrough terminal; two internally connected wire clamps; gray, 26-12 AWG, 20 A, 600 V UL, 35 mm DIN rail."
-			(at 242.57 110.49 0)
+			(at 193.04 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22857,7 +23031,7 @@
 			)
 		)
 		(property "MPN" "KN-T12GRY-25"
-			(at 242.57 110.49 0)
+			(at 193.04 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22866,7 +23040,7 @@
 			)
 		)
 		(property "Manufacturer" "Konnect-It"
-			(at 242.57 110.49 0)
+			(at 193.04 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22875,7 +23049,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 242.57 110.49 0)
+			(at 193.04 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22884,7 +23058,7 @@
 			)
 		)
 		(property "Package" "35 mm DIN rail"
-			(at 242.57 110.49 0)
+			(at 193.04 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22893,7 +23067,7 @@
 			)
 		)
 		(property "Part Name" "Feedthrough\nTerminal"
-			(at 242.57 115.57 0)
+			(at 193.04 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22918,7 +23092,7 @@
 	)
 	(symbol
 		(lib_id "Controls:KN-T12GRY-25")
-		(at 259.08 135.89 0)
+		(at 223.52 110.49 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -22926,7 +23100,7 @@
 		(dnp no)
 		(uuid "b5a0071f-7c45-436f-9568-eca95b61655d")
 		(property "Reference" "TB10"
-			(at 259.08 131.826 0)
+			(at 223.52 106.426 0)
 			(effects
 				(font
 					(size 1 1)
@@ -22934,7 +23108,7 @@
 			)
 		)
 		(property "Value" "KN-T12GRY-25"
-			(at 259.08 132.08 0)
+			(at 223.52 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22943,7 +23117,7 @@
 			)
 		)
 		(property "Footprint" "Controls:KN-T12GRY-25_Front"
-			(at 259.08 135.89 0)
+			(at 223.52 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22952,7 +23126,7 @@
 			)
 		)
 		(property "Datasheet" "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf"
-			(at 259.08 135.89 0)
+			(at 223.52 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22961,7 +23135,7 @@
 			)
 		)
 		(property "Description" "Single-level screw-clamp feedthrough terminal; two internally connected wire clamps; gray, 26-12 AWG, 20 A, 600 V UL, 35 mm DIN rail."
-			(at 259.08 135.89 0)
+			(at 223.52 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22970,7 +23144,7 @@
 			)
 		)
 		(property "MPN" "KN-T12GRY-25"
-			(at 259.08 135.89 0)
+			(at 223.52 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22979,7 +23153,7 @@
 			)
 		)
 		(property "Manufacturer" "Konnect-It"
-			(at 259.08 135.89 0)
+			(at 223.52 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22988,7 +23162,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 259.08 135.89 0)
+			(at 223.52 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22997,7 +23171,7 @@
 			)
 		)
 		(property "Package" "35 mm DIN rail"
-			(at 259.08 135.89 0)
+			(at 223.52 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23006,7 +23180,7 @@
 			)
 		)
 		(property "Part Name" "Feedthrough\nTerminal"
-			(at 259.08 140.97 0)
+			(at 223.52 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24743,7 +24917,7 @@
 	)
 	(symbol
 		(lib_id "Controls:KN-T12GRY-25")
-		(at 279.4 135.89 0)
+		(at 261.62 110.49 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -24751,7 +24925,7 @@
 		(dnp no)
 		(uuid "cdbfba7f-541b-4a7e-9091-b2969dcf38b8")
 		(property "Reference" "TB18"
-			(at 279.4 131.826 0)
+			(at 261.62 106.426 0)
 			(effects
 				(font
 					(size 1 1)
@@ -24759,7 +24933,7 @@
 			)
 		)
 		(property "Value" "KN-T12GRY-25"
-			(at 279.4 132.08 0)
+			(at 261.62 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24768,7 +24942,7 @@
 			)
 		)
 		(property "Footprint" "Controls:KN-T12GRY-25_Front"
-			(at 279.4 135.89 0)
+			(at 261.62 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24777,7 +24951,7 @@
 			)
 		)
 		(property "Datasheet" "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf"
-			(at 279.4 135.89 0)
+			(at 261.62 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24786,7 +24960,7 @@
 			)
 		)
 		(property "Description" "Single-level screw-clamp feedthrough terminal; two internally connected wire clamps; gray, 26-12 AWG, 20 A, 600 V UL, 35 mm DIN rail."
-			(at 279.4 135.89 0)
+			(at 261.62 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24795,7 +24969,7 @@
 			)
 		)
 		(property "MPN" "KN-T12GRY-25"
-			(at 279.4 135.89 0)
+			(at 261.62 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24804,7 +24978,7 @@
 			)
 		)
 		(property "Manufacturer" "Konnect-It"
-			(at 279.4 135.89 0)
+			(at 261.62 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24813,7 +24987,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 279.4 135.89 0)
+			(at 261.62 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24822,7 +24996,7 @@
 			)
 		)
 		(property "Package" "35 mm DIN rail"
-			(at 279.4 135.89 0)
+			(at 261.62 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24831,7 +25005,7 @@
 			)
 		)
 		(property "Part Name" "Feedthrough\nTerminal"
-			(at 279.4 140.97 0)
+			(at 261.62 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25072,15 +25246,15 @@
 	)
 	(symbol
 		(lib_id "Controls:KN-T12GRY-25")
-		(at 302.26 110.49 0)
+		(at 196.85 138.43 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d4d821a2-498b-4b0e-b253-9376599824db")
-		(property "Reference" "TB23"
-			(at 302.26 106.426 0)
+		(property "Reference" "TB22"
+			(at 196.85 134.366 0)
 			(effects
 				(font
 					(size 1 1)
@@ -25088,7 +25262,7 @@
 			)
 		)
 		(property "Value" "KN-T12GRY-25"
-			(at 302.26 106.68 0)
+			(at 196.85 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25097,7 +25271,7 @@
 			)
 		)
 		(property "Footprint" "Controls:KN-T12GRY-25_Front"
-			(at 302.26 110.49 0)
+			(at 196.85 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25106,7 +25280,7 @@
 			)
 		)
 		(property "Datasheet" "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf"
-			(at 302.26 110.49 0)
+			(at 196.85 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25115,7 +25289,7 @@
 			)
 		)
 		(property "Description" "Single-level screw-clamp feedthrough terminal; two internally connected wire clamps; gray, 26-12 AWG, 20 A, 600 V UL, 35 mm DIN rail."
-			(at 302.26 110.49 0)
+			(at 196.85 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25124,7 +25298,7 @@
 			)
 		)
 		(property "MPN" "KN-T12GRY-25"
-			(at 302.26 110.49 0)
+			(at 196.85 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25133,7 +25307,7 @@
 			)
 		)
 		(property "Manufacturer" "Konnect-It"
-			(at 302.26 110.49 0)
+			(at 196.85 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25142,7 +25316,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 302.26 110.49 0)
+			(at 196.85 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25151,7 +25325,7 @@
 			)
 		)
 		(property "Package" "35 mm DIN rail"
-			(at 302.26 110.49 0)
+			(at 196.85 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25160,7 +25334,7 @@
 			)
 		)
 		(property "Part Name" "Feedthrough\nTerminal"
-			(at 302.26 115.57 0)
+			(at 196.85 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25177,7 +25351,7 @@
 		(instances
 			(project "powermatic_1200"
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "TB23")
+					(reference "TB22")
 					(unit 1)
 				)
 			)
@@ -25407,15 +25581,15 @@
 	)
 	(symbol
 		(lib_id "Controls:KN-G12SP-10")
-		(at 318.77 135.89 0)
+		(at 285.75 110.49 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "df7ab35f-e1a2-45ab-96e8-a85b1386b7e8")
-		(property "Reference" "TB28"
-			(at 318.77 131.318 0)
+		(property "Reference" "TB52"
+			(at 285.75 105.918 0)
 			(effects
 				(font
 					(size 1 1)
@@ -25423,7 +25597,7 @@
 			)
 		)
 		(property "Value" "KN-G12SP-10"
-			(at 318.77 123.19 0)
+			(at 285.75 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25432,7 +25606,7 @@
 			)
 		)
 		(property "Footprint" "Controls:KN-G12SP-10_Front"
-			(at 318.77 135.89 0)
+			(at 285.75 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25441,7 +25615,7 @@
 			)
 		)
 		(property "Datasheet" "${PARTS_LIB}/datasheets/KN-G12SP-10_Datasheet.pdf"
-			(at 318.77 135.89 0)
+			(at 285.75 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25450,7 +25624,7 @@
 			)
 		)
 		(property "Description" "Single-level screw grounding terminal; two wire clamps and conductive DIN-rail PE contact; yellow/green, 26-12 AWG, 35 mm DIN rail."
-			(at 318.77 135.89 0)
+			(at 285.75 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25459,7 +25633,7 @@
 			)
 		)
 		(property "MPN" "KN-G12SP-10"
-			(at 318.77 135.89 0)
+			(at 285.75 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25468,7 +25642,7 @@
 			)
 		)
 		(property "Manufacturer" "Konnect-It"
-			(at 318.77 135.89 0)
+			(at 285.75 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25477,7 +25651,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 318.77 135.89 0)
+			(at 285.75 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25486,7 +25660,7 @@
 			)
 		)
 		(property "Package" "35 mm DIN rail"
-			(at 318.77 135.89 0)
+			(at 285.75 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25495,7 +25669,7 @@
 			)
 		)
 		(property "Part Name" "Grounding\nTerminal"
-			(at 318.77 149.86 0)
+			(at 285.75 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25515,7 +25689,7 @@
 		(instances
 			(project "powermatic_1200"
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "TB28")
+					(reference "TB52")
 					(unit 1)
 				)
 			)
@@ -25757,7 +25931,7 @@
 	)
 	(symbol
 		(lib_id "Controls:KN-T12GRY-25")
-		(at 269.24 110.49 0)
+		(at 238.76 110.49 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -25765,7 +25939,7 @@
 		(dnp no)
 		(uuid "e16b8466-dbfc-4972-b2dd-e27fd886984f")
 		(property "Reference" "TB13"
-			(at 269.24 106.426 0)
+			(at 238.76 106.426 0)
 			(effects
 				(font
 					(size 1 1)
@@ -25773,7 +25947,7 @@
 			)
 		)
 		(property "Value" "KN-T12GRY-25"
-			(at 269.24 106.68 0)
+			(at 238.76 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25782,7 +25956,7 @@
 			)
 		)
 		(property "Footprint" "Controls:KN-T12GRY-25_Front"
-			(at 269.24 110.49 0)
+			(at 238.76 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25791,7 +25965,7 @@
 			)
 		)
 		(property "Datasheet" "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf"
-			(at 269.24 110.49 0)
+			(at 238.76 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25800,7 +25974,7 @@
 			)
 		)
 		(property "Description" "Single-level screw-clamp feedthrough terminal; two internally connected wire clamps; gray, 26-12 AWG, 20 A, 600 V UL, 35 mm DIN rail."
-			(at 269.24 110.49 0)
+			(at 238.76 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25809,7 +25983,7 @@
 			)
 		)
 		(property "MPN" "KN-T12GRY-25"
-			(at 269.24 110.49 0)
+			(at 238.76 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25818,7 +25992,7 @@
 			)
 		)
 		(property "Manufacturer" "Konnect-It"
-			(at 269.24 110.49 0)
+			(at 238.76 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25827,7 +26001,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 269.24 110.49 0)
+			(at 238.76 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25836,7 +26010,7 @@
 			)
 		)
 		(property "Package" "35 mm DIN rail"
-			(at 269.24 110.49 0)
+			(at 238.76 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25845,7 +26019,7 @@
 			)
 		)
 		(property "Part Name" "Feedthrough\nTerminal"
-			(at 269.24 115.57 0)
+			(at 238.76 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25870,15 +26044,15 @@
 	)
 	(symbol
 		(lib_id "Controls:KN-G12SP-10")
-		(at 328.93 135.89 0)
+		(at 290.83 110.49 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e45c51bf-f035-4ed8-8e21-535cab5242bb")
-		(property "Reference" "TB31"
-			(at 328.93 131.318 0)
+		(property "Reference" "TB53"
+			(at 290.83 105.918 0)
 			(effects
 				(font
 					(size 1 1)
@@ -25886,7 +26060,7 @@
 			)
 		)
 		(property "Value" "KN-G12SP-10"
-			(at 328.93 123.19 0)
+			(at 290.83 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25895,7 +26069,7 @@
 			)
 		)
 		(property "Footprint" "Controls:KN-G12SP-10_Front"
-			(at 328.93 135.89 0)
+			(at 290.83 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25904,7 +26078,7 @@
 			)
 		)
 		(property "Datasheet" "${PARTS_LIB}/datasheets/KN-G12SP-10_Datasheet.pdf"
-			(at 328.93 135.89 0)
+			(at 290.83 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25913,7 +26087,7 @@
 			)
 		)
 		(property "Description" "Single-level screw grounding terminal; two wire clamps and conductive DIN-rail PE contact; yellow/green, 26-12 AWG, 35 mm DIN rail."
-			(at 328.93 135.89 0)
+			(at 290.83 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25922,7 +26096,7 @@
 			)
 		)
 		(property "MPN" "KN-G12SP-10"
-			(at 328.93 135.89 0)
+			(at 290.83 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25931,7 +26105,7 @@
 			)
 		)
 		(property "Manufacturer" "Konnect-It"
-			(at 328.93 135.89 0)
+			(at 290.83 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25940,7 +26114,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 328.93 135.89 0)
+			(at 290.83 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25949,7 +26123,7 @@
 			)
 		)
 		(property "Package" "35 mm DIN rail"
-			(at 328.93 135.89 0)
+			(at 290.83 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25958,7 +26132,7 @@
 			)
 		)
 		(property "Part Name" "Grounding\nTerminal"
-			(at 328.93 149.86 0)
+			(at 290.83 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25978,7 +26152,7 @@
 		(instances
 			(project "powermatic_1200"
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "TB31")
+					(reference "TB53")
 					(unit 1)
 				)
 			)
@@ -25986,7 +26160,7 @@
 	)
 	(symbol
 		(lib_id "Controls:KN-T12GRY-25")
-		(at 273.05 135.89 0)
+		(at 254 110.49 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -25994,7 +26168,7 @@
 		(dnp no)
 		(uuid "e4968cb9-8379-43ed-8542-65e9c4206140")
 		(property "Reference" "TB16"
-			(at 273.05 131.826 0)
+			(at 254 106.426 0)
 			(effects
 				(font
 					(size 1 1)
@@ -26002,7 +26176,7 @@
 			)
 		)
 		(property "Value" "KN-T12GRY-25"
-			(at 273.05 132.08 0)
+			(at 254 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26011,7 +26185,7 @@
 			)
 		)
 		(property "Footprint" "Controls:KN-T12GRY-25_Front"
-			(at 273.05 135.89 0)
+			(at 254 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26020,7 +26194,7 @@
 			)
 		)
 		(property "Datasheet" "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf"
-			(at 273.05 135.89 0)
+			(at 254 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26029,7 +26203,7 @@
 			)
 		)
 		(property "Description" "Single-level screw-clamp feedthrough terminal; two internally connected wire clamps; gray, 26-12 AWG, 20 A, 600 V UL, 35 mm DIN rail."
-			(at 273.05 135.89 0)
+			(at 254 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26038,7 +26212,7 @@
 			)
 		)
 		(property "MPN" "KN-T12GRY-25"
-			(at 273.05 135.89 0)
+			(at 254 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26047,7 +26221,7 @@
 			)
 		)
 		(property "Manufacturer" "Konnect-It"
-			(at 273.05 135.89 0)
+			(at 254 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26056,7 +26230,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 273.05 135.89 0)
+			(at 254 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26065,7 +26239,7 @@
 			)
 		)
 		(property "Package" "35 mm DIN rail"
-			(at 273.05 135.89 0)
+			(at 254 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26074,7 +26248,7 @@
 			)
 		)
 		(property "Part Name" "Feedthrough\nTerminal"
-			(at 273.05 140.97 0)
+			(at 254 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27038,15 +27212,15 @@
 	)
 	(symbol
 		(lib_id "Controls:KN-T12GRY-25")
-		(at 328.93 110.49 0)
+		(at 220.98 138.43 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f5d565e7-0e22-42d2-91a0-227c55e54ee3")
-		(property "Reference" "TB30"
-			(at 328.93 106.426 0)
+		(property "Reference" "TB27"
+			(at 220.98 134.366 0)
 			(effects
 				(font
 					(size 1 1)
@@ -27054,7 +27228,7 @@
 			)
 		)
 		(property "Value" "KN-T12GRY-25"
-			(at 328.93 106.68 0)
+			(at 220.98 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27063,7 +27237,7 @@
 			)
 		)
 		(property "Footprint" "Controls:KN-T12GRY-25_Front"
-			(at 328.93 110.49 0)
+			(at 220.98 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27072,7 +27246,7 @@
 			)
 		)
 		(property "Datasheet" "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf"
-			(at 328.93 110.49 0)
+			(at 220.98 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27081,7 +27255,7 @@
 			)
 		)
 		(property "Description" "Single-level screw-clamp feedthrough terminal; two internally connected wire clamps; gray, 26-12 AWG, 20 A, 600 V UL, 35 mm DIN rail."
-			(at 328.93 110.49 0)
+			(at 220.98 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27090,7 +27264,7 @@
 			)
 		)
 		(property "MPN" "KN-T12GRY-25"
-			(at 328.93 110.49 0)
+			(at 220.98 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27099,7 +27273,7 @@
 			)
 		)
 		(property "Manufacturer" "Konnect-It"
-			(at 328.93 110.49 0)
+			(at 220.98 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27108,7 +27282,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 328.93 110.49 0)
+			(at 220.98 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27117,7 +27291,7 @@
 			)
 		)
 		(property "Package" "35 mm DIN rail"
-			(at 328.93 110.49 0)
+			(at 220.98 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27126,7 +27300,7 @@
 			)
 		)
 		(property "Part Name" "Feedthrough\nTerminal"
-			(at 328.93 115.57 0)
+			(at 220.98 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27143,7 +27317,7 @@
 		(instances
 			(project "powermatic_1200"
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "TB30")
+					(reference "TB27")
 					(unit 1)
 				)
 			)

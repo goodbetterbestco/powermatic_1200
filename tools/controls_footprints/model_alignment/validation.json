@@ -1,0 +1,1346 @@
+{
+  "footprint_count": 58,
+  "unique_types": 14,
+  "all_models_resolved": true,
+  "all_model_scales_unity": true,
+  "updated_step_files_preserved": true,
+  "assembly_instances_checked": 7,
+  "tracks": 0,
+  "zones": 0,
+  "instances": [
+    {
+      "ref": "SP4",
+      "footprint": "HMX1-SSVRC-DC_Front",
+      "model": {
+        "file": "HMX1-SSVRC-DC.step",
+        "offset": [
+          37.4,
+          4.736742,
+          22.5847765
+        ],
+        "rotate": [
+          90.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "3f8ad6ec044251e87b3aa65b1312a6bb9e72df992d462b62e89a522edc601e0d"
+    },
+    {
+      "ref": "REF**",
+      "footprint": "DN-R35S1_300mm_Front",
+      "model": {
+        "file": "DN-R35S1_300mm_LeftOrigin.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "83ba6a014120cab58813a0913545ae6563d295ddec2794fd0de9493c962b9df8"
+    },
+    {
+      "ref": "SP2",
+      "footprint": "HMX1-SSVRC-DC_Front",
+      "model": {
+        "file": "HMX1-SSVRC-DC.step",
+        "offset": [
+          37.4,
+          4.736742,
+          22.5847765
+        ],
+        "rotate": [
+          90.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "3f8ad6ec044251e87b3aa65b1312a6bb9e72df992d462b62e89a522edc601e0d"
+    },
+    {
+      "ref": "K1",
+      "footprint": "HMC-9B30-11-DS_Front",
+      "model": {
+        "file": "HMC-9B30-11-DS_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          -97.3,
+          105.3
+        ],
+        "rotate": [
+          90.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "7e98ef8cb0d6e2be1242458ea4d06737329ddab3fc4d82f6e1d1e6362e59f0ce"
+    },
+    {
+      "ref": "TB20",
+      "footprint": "KN-T12GRY-25_Front",
+      "model": {
+        "file": "KN-T12GRY-25_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "888bbcabb6dae3d7df22ea22f6ddd1631c8fc780975e64d98f36f75420f02807"
+    },
+    {
+      "ref": "Q1",
+      "footprint": "FAZ-D4-2-NA-L_Front",
+      "model": {
+        "file": "FAZ-D4-2-NA-L_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          -0.25,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "86f687730a58679fc1cc538d5fbaf400c79ffff2ea9860c52f1c8cde4b75d5a9"
+    },
+    {
+      "ref": "TB29",
+      "footprint": "KN-T12GRY-25_Front",
+      "model": {
+        "file": "KN-T12GRY-25_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "888bbcabb6dae3d7df22ea22f6ddd1631c8fc780975e64d98f36f75420f02807"
+    },
+    {
+      "ref": "TB8",
+      "footprint": "KN-T12GRY-25_Front",
+      "model": {
+        "file": "KN-T12GRY-25_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "888bbcabb6dae3d7df22ea22f6ddd1631c8fc780975e64d98f36f75420f02807"
+    },
+    {
+      "ref": "TB12",
+      "footprint": "KN-T12GRY-25_Front",
+      "model": {
+        "file": "KN-T12GRY-25_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "888bbcabb6dae3d7df22ea22f6ddd1631c8fc780975e64d98f36f75420f02807"
+    },
+    {
+      "ref": "TB4",
+      "footprint": "KN-T12GRY-25_Front",
+      "model": {
+        "file": "KN-T12GRY-25_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "888bbcabb6dae3d7df22ea22f6ddd1631c8fc780975e64d98f36f75420f02807"
+    },
+    {
+      "ref": "TB31",
+      "footprint": "KN-G12SP-10_Front",
+      "model": {
+        "file": "KN-G12SP-10_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "4c90eb5645e63e93df0636ce798e77d58690eb6808fc14676c04b30453f2e217"
+    },
+    {
+      "ref": "TB25",
+      "footprint": "KN-G12SP-10_Front",
+      "model": {
+        "file": "KN-G12SP-10_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "4c90eb5645e63e93df0636ce798e77d58690eb6808fc14676c04b30453f2e217"
+    },
+    {
+      "ref": "TB30",
+      "footprint": "KN-T12GRY-25_Front",
+      "model": {
+        "file": "KN-T12GRY-25_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "888bbcabb6dae3d7df22ea22f6ddd1631c8fc780975e64d98f36f75420f02807"
+    },
+    {
+      "ref": "SP1",
+      "footprint": "HMX1-SSVRC-DC_Front",
+      "model": {
+        "file": "HMX1-SSVRC-DC.step",
+        "offset": [
+          37.4,
+          4.736742,
+          22.5847765
+        ],
+        "rotate": [
+          90.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "3f8ad6ec044251e87b3aa65b1312a6bb9e72df992d462b62e89a522edc601e0d"
+    },
+    {
+      "ref": "TB9",
+      "footprint": "KN-T12GRY-25_Front",
+      "model": {
+        "file": "KN-T12GRY-25_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "888bbcabb6dae3d7df22ea22f6ddd1631c8fc780975e64d98f36f75420f02807"
+    },
+    {
+      "ref": "REF**",
+      "footprint": "DN-R35S1_300mm_Front",
+      "model": {
+        "file": "DN-R35S1_300mm_LeftOrigin.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "83ba6a014120cab58813a0913545ae6563d295ddec2794fd0de9493c962b9df8"
+    },
+    {
+      "ref": "MI2",
+      "footprint": "HMX1-MI_Front",
+      "model": {
+        "file": "HMX1-MI.step",
+        "offset": [
+          0.599982,
+          0.0,
+          69.5
+        ],
+        "rotate": [
+          -90.0,
+          0.0,
+          -90.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "98cd51a949a80da513bb8ce108ce34cb2e33cbcae08704fd38e77b3097474b0c"
+    },
+    {
+      "ref": "TB23",
+      "footprint": "KN-T12GRY-25_Front",
+      "model": {
+        "file": "KN-T12GRY-25_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "888bbcabb6dae3d7df22ea22f6ddd1631c8fc780975e64d98f36f75420f02807"
+    },
+    {
+      "ref": "TB7",
+      "footprint": "KN-T12GRY-25_Front",
+      "model": {
+        "file": "KN-T12GRY-25_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "888bbcabb6dae3d7df22ea22f6ddd1631c8fc780975e64d98f36f75420f02807"
+    },
+    {
+      "ref": "TB21",
+      "footprint": "KN-T12GRY-25_Front",
+      "model": {
+        "file": "KN-T12GRY-25_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "888bbcabb6dae3d7df22ea22f6ddd1631c8fc780975e64d98f36f75420f02807"
+    },
+    {
+      "ref": "TB19",
+      "footprint": "KN-T12GRY-25_Front",
+      "model": {
+        "file": "KN-T12GRY-25_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "888bbcabb6dae3d7df22ea22f6ddd1631c8fc780975e64d98f36f75420f02807"
+    },
+    {
+      "ref": "TB1",
+      "footprint": "KN-T12GRY-25_Front",
+      "model": {
+        "file": "KN-T12GRY-25_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "888bbcabb6dae3d7df22ea22f6ddd1631c8fc780975e64d98f36f75420f02807"
+    },
+    {
+      "ref": "TB13",
+      "footprint": "KN-T12GRY-25_Front",
+      "model": {
+        "file": "KN-T12GRY-25_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "888bbcabb6dae3d7df22ea22f6ddd1631c8fc780975e64d98f36f75420f02807"
+    },
+    {
+      "ref": "K3",
+      "footprint": "HMC-9B30-11-DS_Front",
+      "model": {
+        "file": "HMC-9B30-11-DS_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          -97.3,
+          105.3
+        ],
+        "rotate": [
+          90.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "7e98ef8cb0d6e2be1242458ea4d06737329ddab3fc4d82f6e1d1e6362e59f0ce"
+    },
+    {
+      "ref": "TB22",
+      "footprint": "KN-G12SP-10_Front",
+      "model": {
+        "file": "KN-G12SP-10_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "4c90eb5645e63e93df0636ce798e77d58690eb6808fc14676c04b30453f2e217"
+    },
+    {
+      "ref": "TB3",
+      "footprint": "KN-T12GRY-25_Front",
+      "model": {
+        "file": "KN-T12GRY-25_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "888bbcabb6dae3d7df22ea22f6ddd1631c8fc780975e64d98f36f75420f02807"
+    },
+    {
+      "ref": "TB35",
+      "footprint": "KN-G12SP-10_Front",
+      "model": {
+        "file": "KN-G12SP-10_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "4c90eb5645e63e93df0636ce798e77d58690eb6808fc14676c04b30453f2e217"
+    },
+    {
+      "ref": "TB2",
+      "footprint": "KN-T12GRY-25_Front",
+      "model": {
+        "file": "KN-T12GRY-25_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "888bbcabb6dae3d7df22ea22f6ddd1631c8fc780975e64d98f36f75420f02807"
+    },
+    {
+      "ref": "TB6",
+      "footprint": "KN-T12GRY-25_Front",
+      "model": {
+        "file": "KN-T12GRY-25_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "888bbcabb6dae3d7df22ea22f6ddd1631c8fc780975e64d98f36f75420f02807"
+    },
+    {
+      "ref": "TB32",
+      "footprint": "KN-T12GRY-25_Front",
+      "model": {
+        "file": "KN-T12GRY-25_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "888bbcabb6dae3d7df22ea22f6ddd1631c8fc780975e64d98f36f75420f02807"
+    },
+    {
+      "ref": "TB26",
+      "footprint": "KN-T12GRY-25_Front",
+      "model": {
+        "file": "KN-T12GRY-25_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "888bbcabb6dae3d7df22ea22f6ddd1631c8fc780975e64d98f36f75420f02807"
+    },
+    {
+      "ref": "SP5",
+      "footprint": "HMX1-SSVRC-DC_Front",
+      "model": {
+        "file": "HMX1-SSVRC-DC.step",
+        "offset": [
+          37.4,
+          4.736742,
+          22.5847765
+        ],
+        "rotate": [
+          90.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "3f8ad6ec044251e87b3aa65b1312a6bb9e72df992d462b62e89a522edc601e0d"
+    },
+    {
+      "ref": "PS1",
+      "footprint": "NDR-240-24_Front",
+      "model": {
+        "file": "NDR-240-24_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          2.85620342,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "8033ebcc826abfb00673fd3234cb580e1378978342e96b21c5b123234545c643"
+    },
+    {
+      "ref": "FH1",
+      "footprint": "RM25030-3SR_Front",
+      "model": {
+        "file": "RM25030-3SR_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "230275413510428f657bb9afa913e565d0e001d7a4869537126a92e7af43f979"
+    },
+    {
+      "ref": "H1",
+      "footprint": "XB4BVB1_LeftWall",
+      "model": {
+        "file": "XB4BVB1.stp",
+        "offset": [
+          26.87429,
+          -22.438533,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          90.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "62aa9c313769a793abab6a9d22b19d98ecbc7798c655cdd5642ea90f29d9364d"
+    },
+    {
+      "ref": "K2",
+      "footprint": "HC3096N-52-900-24_Front",
+      "model": {
+        "file": "HC3096N-52-900-24_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "e730624439667c96026cf22ed7c97ee03627e3cc0b88134f077a3542802be4aa"
+    },
+    {
+      "ref": "SP3",
+      "footprint": "HMX1-SSVRC-DC_Front",
+      "model": {
+        "file": "HMX1-SSVRC-DC.step",
+        "offset": [
+          37.4,
+          4.736742,
+          22.5847765
+        ],
+        "rotate": [
+          90.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "3f8ad6ec044251e87b3aa65b1312a6bb9e72df992d462b62e89a522edc601e0d"
+    },
+    {
+      "ref": "OL1",
+      "footprint": "HTOR32-6-S_Front",
+      "model": {
+        "file": "HTOR32-6-S.step",
+        "offset": [
+          0.0,
+          11.125,
+          58.3
+        ],
+        "rotate": [
+          -90.0,
+          0.0,
+          -180.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "39dde35ffe27c8bbb7222a70cee231641e68d11408d196386165ef7d85c82efd"
+    },
+    {
+      "ref": "K6",
+      "footprint": "HMC-9B30-11-DS_Front",
+      "model": {
+        "file": "HMC-9B30-11-DS_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          -97.3,
+          105.3
+        ],
+        "rotate": [
+          90.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "7e98ef8cb0d6e2be1242458ea4d06737329ddab3fc4d82f6e1d1e6362e59f0ce"
+    },
+    {
+      "ref": "MI1",
+      "footprint": "HMX1-MI_Front",
+      "model": {
+        "file": "HMX1-MI.step",
+        "offset": [
+          0.599982,
+          0.0,
+          69.5
+        ],
+        "rotate": [
+          -90.0,
+          0.0,
+          -90.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "98cd51a949a80da513bb8ce108ce34cb2e33cbcae08704fd38e77b3097474b0c"
+    },
+    {
+      "ref": "TB11",
+      "footprint": "KN-T12GRY-25_Front",
+      "model": {
+        "file": "KN-T12GRY-25_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "888bbcabb6dae3d7df22ea22f6ddd1631c8fc780975e64d98f36f75420f02807"
+    },
+    {
+      "ref": "TB34",
+      "footprint": "KN-G12SP-10_Front",
+      "model": {
+        "file": "KN-G12SP-10_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "4c90eb5645e63e93df0636ce798e77d58690eb6808fc14676c04b30453f2e217"
+    },
+    {
+      "ref": "TB15",
+      "footprint": "KN-T12GRY-25_Front",
+      "model": {
+        "file": "KN-T12GRY-25_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "888bbcabb6dae3d7df22ea22f6ddd1631c8fc780975e64d98f36f75420f02807"
+    },
+    {
+      "ref": "TB14",
+      "footprint": "KN-T12GRY-25_Front",
+      "model": {
+        "file": "KN-T12GRY-25_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "888bbcabb6dae3d7df22ea22f6ddd1631c8fc780975e64d98f36f75420f02807"
+    },
+    {
+      "ref": "TB16",
+      "footprint": "KN-T12GRY-25_Front",
+      "model": {
+        "file": "KN-T12GRY-25_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "888bbcabb6dae3d7df22ea22f6ddd1631c8fc780975e64d98f36f75420f02807"
+    },
+    {
+      "ref": "TB5",
+      "footprint": "KN-T12GRY-25_Front",
+      "model": {
+        "file": "KN-T12GRY-25_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "888bbcabb6dae3d7df22ea22f6ddd1631c8fc780975e64d98f36f75420f02807"
+    },
+    {
+      "ref": "OL2",
+      "footprint": "HTOR32-6-S_Front",
+      "model": {
+        "file": "HTOR32-6-S.step",
+        "offset": [
+          0.0,
+          11.125,
+          58.3
+        ],
+        "rotate": [
+          -90.0,
+          0.0,
+          -180.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "39dde35ffe27c8bbb7222a70cee231641e68d11408d196386165ef7d85c82efd"
+    },
+    {
+      "ref": "SW1",
+      "footprint": "222102_LeftWall",
+      "model": {
+        "file": "222102_LeftWall_1p8796mm.step",
+        "offset": [
+          51.8296,
+          0.0,
+          33.0
+        ],
+        "rotate": [
+          0.0,
+          90.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "f0ae987fa9e8d5e9261435e08cf174e07a86d2e96a448dd2bdf09bb8e854ddc0"
+    },
+    {
+      "ref": "J1",
+      "footprint": "T4171310004-001_LeftWall",
+      "model": {
+        "file": "T4171310004-001.stp",
+        "offset": [
+          -11.2,
+          0.0,
+          9.0
+        ],
+        "rotate": [
+          0.0,
+          90.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "b6a6d6d6def6bede5e484a19ef6505bb1f2ac6fbb96471e2c8d9cf8c5219bb0e"
+    },
+    {
+      "ref": "TB33",
+      "footprint": "KN-T12GRY-25_Front",
+      "model": {
+        "file": "KN-T12GRY-25_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "888bbcabb6dae3d7df22ea22f6ddd1631c8fc780975e64d98f36f75420f02807"
+    },
+    {
+      "ref": "TB10",
+      "footprint": "KN-T12GRY-25_Front",
+      "model": {
+        "file": "KN-T12GRY-25_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "888bbcabb6dae3d7df22ea22f6ddd1631c8fc780975e64d98f36f75420f02807"
+    },
+    {
+      "ref": "TB24",
+      "footprint": "KN-T12GRY-25_Front",
+      "model": {
+        "file": "KN-T12GRY-25_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "888bbcabb6dae3d7df22ea22f6ddd1631c8fc780975e64d98f36f75420f02807"
+    },
+    {
+      "ref": "TB28",
+      "footprint": "KN-G12SP-10_Front",
+      "model": {
+        "file": "KN-G12SP-10_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "4c90eb5645e63e93df0636ce798e77d58690eb6808fc14676c04b30453f2e217"
+    },
+    {
+      "ref": "K4",
+      "footprint": "HMC-9B30-11-DS_Front",
+      "model": {
+        "file": "HMC-9B30-11-DS_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          -97.3,
+          105.3
+        ],
+        "rotate": [
+          90.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "7e98ef8cb0d6e2be1242458ea4d06737329ddab3fc4d82f6e1d1e6362e59f0ce"
+    },
+    {
+      "ref": "TB27",
+      "footprint": "KN-T12GRY-25_Front",
+      "model": {
+        "file": "KN-T12GRY-25_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "888bbcabb6dae3d7df22ea22f6ddd1631c8fc780975e64d98f36f75420f02807"
+    },
+    {
+      "ref": "TB18",
+      "footprint": "KN-T12GRY-25_Front",
+      "model": {
+        "file": "KN-T12GRY-25_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "888bbcabb6dae3d7df22ea22f6ddd1631c8fc780975e64d98f36f75420f02807"
+    },
+    {
+      "ref": "TB17",
+      "footprint": "KN-T12GRY-25_Front",
+      "model": {
+        "file": "KN-T12GRY-25_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "888bbcabb6dae3d7df22ea22f6ddd1631c8fc780975e64d98f36f75420f02807"
+    },
+    {
+      "ref": "K5",
+      "footprint": "HMC-9B30-11-DS_Front",
+      "model": {
+        "file": "HMC-9B30-11-DS_DIN35x7p5.step",
+        "offset": [
+          0.0,
+          -97.3,
+          105.3
+        ],
+        "rotate": [
+          90.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "model_sha256": "7e98ef8cb0d6e2be1242458ea4d06737329ddab3fc4d82f6e1d1e6362e59f0ce"
+    }
+  ]
+}

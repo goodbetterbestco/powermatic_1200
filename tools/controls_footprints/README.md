@@ -1,9 +1,62 @@
 # Controls footprint review
 
-## Current reference labels
+## Simplified enclosure artwork
 
-Controls footprints show only the Reference property, in 2.5 × 2.5 mm KiCad
-text on Dwgs.User. It is centered on the drawing's vertical centerline, between
+The approved fuse-holder standard is now applied to every device footprint used
+on the saved project board: 13 unique device types, 56 placed instances. The
+latest rollout updates 12 shared library footprints and 55 board instances;
+`RM25030-3SR_Front` / `FH1` keeps the approved pilot. The two DIN rails stay on
+User.Drawings as the background structure.
+
+- **F.Fab:** complete original imported drawing, with source coordinates and
+  graphical records preserved exactly apart from the layer.
+- **F.Silkscreen:** body contours and major functional elements, using 0.25 mm
+  lines and analytic arcs/circles. Keep terminals, mounting features, actuators,
+  clips, protruding blades, leads and connector sections. Omit screw slots,
+  ribs, thread detail, hidden edges and repeated parallel molding lines.
+- **F.Adhesive:** opaque fill following the physical body and protrusions. Open
+  forks, gaps between leads and actual through-openings remain open. This is a
+  display layer for panel layout, not an adhesive specification or keepout.
+- Keep the existing visible 2.5 mm reference on F.Silkscreen. Hidden metadata
+  stays hidden. Pads, terminal IDs, nets, footprint origins, placements and 3D
+  model transforms are preserved.
+
+For layout, make **F.Silkscreen active**, show **F.Adhesive**, hide **F.Fab**, and
+keep shape opacity at 100%. The device fills cover the rails on User.Drawings.
+Selecting User.Drawings brings that layer forward. To inspect the original
+CAD, hide the fill and show F.Fab. The existing dashed wall datums on SW1 are
+also retained as background annotation on User.Drawings.
+
+The editable recipes are in `silkscreen/project_traces.json`. Body contours are
+traced from the saved source drawings, with at most 0.03 mm polygon simplification
+and major curves restored as analytic arcs; internal feature traces omit the
+fine detail. The PSU case and lamp lens have open seams in the CAD projection;
+the fill closes those seams at the measured physical outline. Connector thread
+ridges are reduced to a plain collar envelope. These are nominal layout views,
+not machining or clearance dimensions.
+
+`silkscreen/project_rollout.py`, run with KiCad's bundled Python, prepares
+candidates, checks each original drawing against its library, and verifies exact
+preservation of all non-artwork records. `--install` requires unchanged source
+and candidate hashes; `--verify` checks the installed result. Existing Q1 and
+PS1 drawing-origin offsets in the board are retained when placing their new
+artwork. Native save roundoff and arc endpoint reversal are accounted for in
+the geometry comparison. `silkscreen/project_validation.json` records those
+checks and the per-part results. Temporary source backups and the native review
+board live under `/private/tmp/powermatic-artwork-rollout/`.
+
+[Rollout gallery](silkscreen/project_review.html) shows the simplified device
+views. The fuse pilot remains documented by `silkscreen/fuse_holder.py` and
+`silkscreen/validation.json`.
+
+The earlier generators and reference-label utility below predate this standard
+and can restore the older Dwgs.User convention. Do not rerun them over the
+reviewed artwork; use the saved recipes and preservation checks when rebuilding.
+
+## Historical reference-label workflow
+
+Before the artwork rollout, Controls footprints showed only the Reference
+property in 2.5 × 2.5 mm KiCad text on Dwgs.User. It is centered on the drawing's vertical centerline, between
 the topmost drawing line and the midpoint of that centerline. Value and other
 text remain hidden. The catalog rules are FP-CTRL-006 through FP-CTRL-008.
 
@@ -16,7 +69,7 @@ The historical geometry reviews below predate this text convention.
 
 17 footprints from 16 DXFs: 16 new footprints and the preserved, approved fuse-holder sample. The reversing-busbar kit produces separate line and load footprints.
 
-Open the **Controls** library in KiCad Footprint Editor from the Powermatic project. All physical geometry is on **Dwgs.User**. The 62 numbered wiring targets use 3 mm pads with 2 mm holes, carrying forward the 14 AWG review convention. These are panel-layout wiring targets; they do not specify PCB fabrication or final wire sizes.
+Open the **Controls** library in KiCad Footprint Editor from the Powermatic project. This historical review used **Dwgs.User**; current project devices use the layer standard above. The 62 numbered wiring targets use 3 mm pads with 2 mm holes, carrying forward the 14 AWG review convention. These are panel-layout wiring targets; they do not specify PCB fabrication or final wire sizes.
 
 ## Geometry and validation
 
@@ -148,3 +201,11 @@ Terminal identities were checked against the Controls catalog and manufacturer t
 - `project_step.py 22013003 HMX1-AUX11-F HMX1-MI` requires OCP and recreates the three visible-edge STEP projections in `sources/`. Other curves are tessellated to 0.002 mm; lines and circular arcs remain analytic. Manufacturer model hashes are recorded.
 - `validate.py` runs under KiCad 9’s bundled Python with `pcbnew`. It checks the native files, exact symbol/pad ID sets, pad geometry and overlaps, then exports SVGs. Pass a Controls.kicad_sym path as its first argument to override the default catalog location.
 - `render_previews.cjs` uses `sharp` to rasterize the native SVGs and produce the three review sheets. Preview colors are darkened for readability; footprint graphics are unchanged.
+
+## October 2 model alignment repair
+
+The desktop STEP replacements changed the HMC contactor and HMX suppressor coordinate frames. `model_alignment/settings.json` records the installed model transforms, attached-accessory offsets, and exact hashes of the preserved replacement files. The front and side review in `model_alignment/review.html` reproduces the user’s nominal Fusion assembly views. Accessory positions use screenshot measurements and source mounting geometry; exact Fusion joint dimensions were unavailable, and this is not an interference-free fit approval. The supplied solids overlap in the nominal assembly.
+
+All 58 footprint instances were audited across 14 types. Q1, FH1 and PS1 now use the existing DIN-datum model variants, with local XY compensation where needed to retain their artwork. The restored 300 mm rail model uses an unscaled 300 mm cut of the retained 350 mm source, shifted to match the existing slot positions. Original 2D artwork, local pad geometry and nets were preserved; only the seven attached-accessory placements changed. Recheck installed links, transforms, scales, source hashes and accessory positions using KiCad’s Python with `model_alignment/verify.py`. The earlier artwork validation is a historical checkpoint and therefore predates these intentional model/placement changes.
+
+During publication, remote `_parts` commit `eee0d7d` supplied the original 300 mm rail export and its left-origin model. The merge retains that remote rail model and library footprint, plus all new rail/duct variants. Native KiCad comparison found identical 218-element rail drawing geometry; the remote reference label is centered and visible in the library, while placed-board fields remain unchanged. CAD comparison confirmed the same 300 × 35 × 7.5 mm bounds; the cut-derived local solid differs by 0.097193 mm³ (0.000762% of volume). `model_alignment/publication_reconciliation.json` records this replacement; `rail_geometry.json` remains the earlier cut-model checkpoint. The installed model report was regenerated after the merge.

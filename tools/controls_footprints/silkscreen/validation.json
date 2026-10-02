@@ -1,0 +1,36 @@
+{
+  "part": "RM25030-3SR_Front",
+  "reference": "FH1",
+  "source_graphics_moved_to_fab": 20376,
+  "simplified_silk_primitives": 214,
+  "body_fill_polygons": 1,
+  "open_mounting_slots": 3,
+  "native_load": true,
+  "other_board_records_preserved": true,
+  "pads_nets_models_placement_preserved": true,
+  "fill_layer": "F.Adhes",
+  "outline_layer": "F.SilkS",
+  "outline_width_mm": 0.25,
+  "display": "F.SilkS active; F.Adhes visible; F.Fab hidden; filled shapes opacity 1.0",
+  "installed": true,
+  "files": [
+    {
+      "source": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/RM25030-3SR_Front.kicad_mod",
+      "candidate": "/private/tmp/powermatic-fuse-silkscreen/Controls.pretty/RM25030-3SR_Front.kicad_mod",
+      "backup": "/private/tmp/powermatic-fuse-silkscreen/before-RM25030-3SR_Front.kicad_mod",
+      "before_sha256": "2967be481977b091314cc13689e0a6c9e27c421e8ec2812d5bfcdc53a29ab123",
+      "after_sha256": "a35b63e6bd2de1bb4071d366c3cbf5776ae72733f0821e36c50f4e9806a4ed41"
+    },
+    {
+      "source": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/powermatic_1200.kicad_pcb",
+      "candidate": "/private/tmp/powermatic-fuse-silkscreen/candidate.kicad_pcb",
+      "backup": "/private/tmp/powermatic-fuse-silkscreen/before-powermatic_1200.kicad_pcb",
+      "before_sha256": "b899bda6466df66dc5445bfcd2478d4384add9d3d9759fef6c07962695bb535d",
+      "after_sha256": "6cd4008ec9822556d16a27c0ce3b5e3b86ed8cae340c3837640f8e803e6ce1af"
+    }
+  ],
+  "available_rail_footprints": [],
+  "native_fill_contains_body_and_excludes_three_mounting_slots": true,
+  "native_editor_rail_occlusion_verified": true,
+  "installation_status": "Installed approved fuse-holder pilot; user retained fill on F.Adhesive."
+}

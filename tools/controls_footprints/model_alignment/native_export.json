@@ -1,0 +1,13 @@
+{
+  "native_export_bounds_mm": [
+    27.0,
+    -150.0,
+    0.0,
+    123.0,
+    -12.996,
+    108.89500010023127
+  ],
+  "max_contactor_vertex_error_mm": 4.099890755755332e-11,
+  "all_three_component_vertices_match_native_export_within_mm": 0.0001,
+  "export": "/private/tmp/powermatic-model-repair/verified_review.step"
+}

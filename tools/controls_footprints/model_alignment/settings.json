@@ -1,0 +1,269 @@
+{
+  "library_models": {
+    "HMC-9B30-11-DS_Front": {
+      "file": "HMC-9B30-11-DS_DIN35x7p5.step",
+      "offset": [
+        0.0,
+        -97.3,
+        105.3
+      ],
+      "rotate": [
+        90.0,
+        0.0,
+        0.0
+      ]
+    },
+    "HMX1-SSVRC-DC_Front": {
+      "file": "HMX1-SSVRC-DC.step",
+      "offset": [
+        37.4,
+        4.736742,
+        22.584776502
+      ],
+      "rotate": [
+        90.0,
+        0.0,
+        0.0
+      ]
+    },
+    "HTOR32-6-S_Front": {
+      "file": "HTOR32-6-S.step",
+      "offset": [
+        0.0,
+        11.125,
+        58.3
+      ],
+      "rotate": [
+        -90.0,
+        0.0,
+        -180.0
+      ]
+    },
+    "DN-R35S1_300mm_Front": {
+      "file": "DN-R35S1_300mm_LeftOrigin.step",
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotate": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "board_models": {
+    "HMX1-SSVRC-DC_Front": {
+      "file": "HMX1-SSVRC-DC.step",
+      "offset": [
+        37.4,
+        4.736742,
+        22.584776502
+      ],
+      "rotate": [
+        90.0,
+        0.0,
+        0.0
+      ]
+    },
+    "DN-R35S1_300mm_Front": {
+      "file": "DN-R35S1_300mm_LeftOrigin.step",
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotate": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "HMC-9B30-11-DS_Front": {
+      "file": "HMC-9B30-11-DS_DIN35x7p5.step",
+      "offset": [
+        0.0,
+        -97.3,
+        105.3
+      ],
+      "rotate": [
+        90.0,
+        0.0,
+        0.0
+      ]
+    },
+    "FAZ-D4-2-NA-L_Front": {
+      "file": "FAZ-D4-2-NA-L_DIN35x7p5.step",
+      "offset": [
+        0.0,
+        -0.25,
+        0.0
+      ],
+      "rotate": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "NDR-240-24_Front": {
+      "file": "NDR-240-24_DIN35x7p5.step",
+      "offset": [
+        0.0,
+        2.856203420229,
+        0.0
+      ],
+      "rotate": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "RM25030-3SR_Front": {
+      "file": "RM25030-3SR_DIN35x7p5.step",
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotate": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "HTOR32-6-S_Front": {
+      "file": "HTOR32-6-S.step",
+      "offset": [
+        0.0,
+        11.125,
+        58.3
+      ],
+      "rotate": [
+        -90.0,
+        0.0,
+        -180.0
+      ]
+    }
+  },
+  "assemblies": [
+    {
+      "ref": "SP4",
+      "parent": "K5",
+      "before": [
+        72.100877,
+        184.40615
+      ],
+      "after": [
+        72.100877,
+        185.40615
+      ],
+      "relative_mm": [
+        0,
+        -32.013258
+      ]
+    },
+    {
+      "ref": "SP2",
+      "parent": "K3",
+      "before": [
+        340.822776,
+        336.402511
+      ],
+      "after": [
+        340.822776,
+        337.402511
+      ],
+      "relative_mm": [
+        0,
+        -32.013258
+      ]
+    },
+    {
+      "ref": "SP1",
+      "parent": "K1",
+      "before": [
+        69.127751,
+        315.988127
+      ],
+      "after": [
+        69.127751,
+        316.988127
+      ],
+      "relative_mm": [
+        0,
+        -32.013258
+      ]
+    },
+    {
+      "ref": "SP5",
+      "parent": "K6",
+      "before": [
+        273.003344,
+        292.365437
+      ],
+      "after": [
+        273.003344,
+        293.352179
+      ],
+      "relative_mm": [
+        0,
+        -32.013258
+      ]
+    },
+    {
+      "ref": "SP3",
+      "parent": "K4",
+      "before": [
+        185.277842,
+        295.513084
+      ],
+      "after": [
+        185.277842,
+        296.513084
+      ],
+      "relative_mm": [
+        0,
+        -32.013258
+      ]
+    },
+    {
+      "ref": "OL1",
+      "parent": "K4",
+      "before": [
+        185.277842,
+        388.801342
+      ],
+      "after": [
+        184.077842,
+        369.151342
+      ],
+      "relative_mm": [
+        -1.2,
+        40.625
+      ]
+    },
+    {
+      "ref": "OL2",
+      "parent": "K6",
+      "before": [
+        273.003344,
+        385.365437
+      ],
+      "after": [
+        271.803344,
+        365.990437
+      ],
+      "relative_mm": [
+        -1.2,
+        40.625
+      ]
+    }
+  ],
+  "updated_step_sha256": {
+    "HMX1-SSVRC-DC.step": "3f8ad6ec044251e87b3aa65b1312a6bb9e72df992d462b62e89a522edc601e0d",
+    "HTOR32-6-S.step": "39dde35ffe27c8bbb7222a70cee231641e68d11408d196386165ef7d85c82efd",
+    "HMC-9B30-11-DS_DIN35x7p5.step": "7e98ef8cb0d6e2be1242458ea4d06737329ddab3fc4d82f6e1d1e6362e59f0ce"
+  },
+  "scope": "Footprint-model registration and nominal assembly visualization. Accessory fit was reconstructed from orthographic screenshots and source mounting geometry; exact Fusion joint dimensions were not exported."
+}
