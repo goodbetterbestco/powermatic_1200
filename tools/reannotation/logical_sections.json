@@ -1,0 +1,296 @@
+{
+  "devices": [
+    {
+      "old": "K50",
+      "new": "K1",
+      "function": "Forward contactor"
+    },
+    {
+      "old": "K52",
+      "new": "K2",
+      "function": "Reverse contactor"
+    },
+    {
+      "old": "K51",
+      "new": "K3",
+      "function": "Coil-enable relay"
+    },
+    {
+      "old": "K53",
+      "new": "K4",
+      "function": "Low-speed contactor"
+    },
+    {
+      "old": "K54",
+      "new": "K5",
+      "function": "High-speed shorting contactor"
+    },
+    {
+      "old": "K55",
+      "new": "K6",
+      "function": "High-speed line contactor"
+    },
+    {
+      "old": "J51",
+      "new": "J1",
+      "function": "M12 E-stop socket"
+    },
+    {
+      "old": "J50",
+      "new": "J2",
+      "function": "Incoming power plug"
+    },
+    {
+      "old": "J52",
+      "new": "J3",
+      "function": "Power gland"
+    },
+    {
+      "old": "J53",
+      "new": "J4",
+      "function": "Motor gland"
+    },
+    {
+      "old": "J54",
+      "new": "J5",
+      "function": "Controls gland"
+    },
+    {
+      "old": "S50",
+      "new": "S1",
+      "function": "E-stop"
+    },
+    {
+      "old": "S51",
+      "new": "S2",
+      "function": "Direction/stop pendant"
+    },
+    {
+      "old": "S52",
+      "new": "S3",
+      "function": "Speed selector"
+    },
+    {
+      "old": "OL50",
+      "new": "OL1",
+      "function": "Low-speed overload"
+    },
+    {
+      "old": "OL51",
+      "new": "OL2",
+      "function": "High-speed overload"
+    },
+    {
+      "old": "MI50",
+      "new": "MI1",
+      "function": "Direction interlock"
+    },
+    {
+      "old": "MI51",
+      "new": "MI2",
+      "function": "Speed interlock"
+    },
+    {
+      "old": "SP50",
+      "new": "SP1",
+      "function": "K1 suppressor"
+    },
+    {
+      "old": "SP51",
+      "new": "SP2",
+      "function": "K2 suppressor"
+    },
+    {
+      "old": "SP52",
+      "new": "SP3",
+      "function": "K4 suppressor"
+    },
+    {
+      "old": "SP53",
+      "new": "SP4",
+      "function": "K5 suppressor"
+    },
+    {
+      "old": "SP54",
+      "new": "SP5",
+      "function": "K6 suppressor"
+    },
+    {
+      "old": "FH50",
+      "new": "FH1",
+      "function": "Fuse holder"
+    },
+    {
+      "old": "SW50",
+      "new": "SW1",
+      "function": "Main disconnect"
+    },
+    {
+      "old": "Q50",
+      "new": "Q1",
+      "function": "Power-supply breaker"
+    },
+    {
+      "old": "PS50",
+      "new": "PS1",
+      "function": "24V power supply"
+    },
+    {
+      "old": "H50",
+      "new": "H1",
+      "function": "Power indicator"
+    },
+    {
+      "old": "M50",
+      "new": "M1",
+      "function": "Motor"
+    },
+    {
+      "old": "#FLG050",
+      "new": "#FLG01",
+      "function": "PE flag"
+    },
+    {
+      "old": "#FLG051",
+      "new": "#FLG02",
+      "function": "L1 supply flag"
+    },
+    {
+      "old": "#FLG052",
+      "new": "#FLG03",
+      "function": "L2 supply flag"
+    },
+    {
+      "old": "#PWR050",
+      "new": "#PWR01",
+      "function": "PE symbol"
+    }
+  ],
+  "reference_mapping": {
+    "K50": "K1",
+    "K52": "K2",
+    "K51": "K3",
+    "K53": "K4",
+    "K54": "K5",
+    "K55": "K6",
+    "J51": "J1",
+    "J50": "J2",
+    "J52": "J3",
+    "J53": "J4",
+    "J54": "J5",
+    "S50": "S1",
+    "S51": "S2",
+    "S52": "S3",
+    "OL50": "OL1",
+    "OL51": "OL2",
+    "MI50": "MI1",
+    "MI51": "MI2",
+    "SP50": "SP1",
+    "SP51": "SP2",
+    "SP52": "SP3",
+    "SP53": "SP4",
+    "SP54": "SP5",
+    "FH50": "FH1",
+    "SW50": "SW1",
+    "Q50": "Q1",
+    "PS50": "PS1",
+    "H50": "H1",
+    "M50": "M1",
+    "#FLG050": "#FLG01",
+    "#FLG051": "#FLG02",
+    "#FLG052": "#FLG03",
+    "#PWR050": "#PWR01"
+  },
+  "terminal_ranges_preserved": true,
+  "sources": {
+    "powermatic_1200.kicad_sch": {
+      "before_sha256": "1aa65a380ddf5759720a981dff225665cddefed501a0b092fa710767a0e3107e",
+      "after_sha256": "9e81dea0381926a4e551c6bd5b49e7ac685a52061b050171ec8b9daa53d95066"
+    },
+    "powermatic_1200.kicad_pcb": {
+      "before_sha256": "f6eddbf855c6f624dbd4815b7aea0b42f31bfcb3ac1ef7ecb65bc8de9f2d0f39",
+      "after_sha256": "9c822f26d7170c370a3eb028e5fe4a212464185f99edeac9583b8f353bf7e302"
+    },
+    "powermatic_1200.kicad_pro": {
+      "before_sha256": "db7676f354f94b3b3e4de5dc81a07304efe258ca88e0026c54955ddb2848b283",
+      "after_sha256": "9155ae966370537fff61d43cee757c29d4b78d6bab18cddcc7b555264861716f"
+    }
+  },
+  "text_updates": [
+    {
+      "before": "H50.X1",
+      "after": "H1.X1"
+    }
+  ],
+  "annotation_start_num": 0,
+  "net_name_changes": {
+    "Net-(J51-Pad2)": "Net-(J1-Pad2)",
+    "Net-(K50A-A1_BOT)": "Net-(K1A-A1_BOT)",
+    "Net-(K50A-AUX_NC_2)": "Net-(K1A-AUX_NC_2)",
+    "Net-(K51-COIL+)": "Net-(K3-COIL+)",
+    "Net-(K51-NO1-Pad14)": "Net-(K3-NO1-Pad14)",
+    "Net-(K53A-A1_BOT)": "Net-(K4A-A1_BOT)",
+    "Net-(K53A-AUX_NC_2)": "Net-(K4A-AUX_NC_2)",
+    "Net-(K53B-T1)": "Net-(K4B-T1)",
+    "Net-(K53B-T2)": "Net-(K4B-T2)",
+    "Net-(K53B-T3)": "Net-(K4B-T3)",
+    "Net-(K54A-AUX_NC_1)": "Net-(K5A-AUX_NC_1)",
+    "Net-(K54A-AUX_NO_2)": "Net-(K5A-AUX_NO_2)",
+    "Net-(K55B-T1)": "Net-(K6B-T1)",
+    "Net-(K55B-T2)": "Net-(K6B-T2)",
+    "Net-(K55B-T3)": "Net-(K6B-T3)",
+    "Net-(OL50B-TRIP_NC_2)": "Net-(OL1B-TRIP_NC_2)",
+    "Net-(S51A-FWD_NC_2)": "Net-(S2A-FWD_NC_2)",
+    "Net-(S52-HI3_L)": "Net-(S3-HI3_L)",
+    "Net-(S52-HI5_U)": "Net-(S3-HI5_U)",
+    "Net-(S52-HI6_U)": "Net-(S3-HI6_U)",
+    "Net-(S52-HI8_L)": "Net-(S3-HI8_L)",
+    "unconnected-(K51-NC1-Pad31)": "unconnected-(K3-NC1-Pad31)",
+    "unconnected-(K51-NC1-Pad32)": "unconnected-(K3-NC1-Pad32)",
+    "unconnected-(K51-NC2-Pad41)": "unconnected-(K3-NC2-Pad41)",
+    "unconnected-(K51-NC2-Pad42)": "unconnected-(K3-NC2-Pad42)",
+    "unconnected-(MI50-NC_A_1-Pad111)": "unconnected-(MI1-NC_A_1-Pad111)",
+    "unconnected-(MI50-NC_A_2-Pad122)": "unconnected-(MI1-NC_A_2-Pad122)",
+    "unconnected-(MI50-NC_B_1-Pad121)": "unconnected-(MI1-NC_B_1-Pad121)",
+    "unconnected-(MI50-NC_B_2-Pad112)": "unconnected-(MI1-NC_B_2-Pad112)",
+    "unconnected-(MI51-NC_A_1-Pad111)": "unconnected-(MI2-NC_A_1-Pad111)",
+    "unconnected-(MI51-NC_A_2-Pad122)": "unconnected-(MI2-NC_A_2-Pad122)",
+    "unconnected-(MI51-NC_B_1-Pad121)": "unconnected-(MI2-NC_B_1-Pad121)",
+    "unconnected-(MI51-NC_B_2-Pad112)": "unconnected-(MI2-NC_B_2-Pad112)",
+    "unconnected-(OL50B-TRIP_NO_1-Pad97)": "unconnected-(OL1B-TRIP_NO_1-Pad97)",
+    "unconnected-(OL50B-TRIP_NO_2-Pad98)": "unconnected-(OL1B-TRIP_NO_2-Pad98)",
+    "unconnected-(OL51B-TRIP_NO_1-Pad97)": "unconnected-(OL2B-TRIP_NO_1-Pad97)",
+    "unconnected-(OL51B-TRIP_NO_2-Pad98)": "unconnected-(OL2B-TRIP_NO_2-Pad98)",
+    "unconnected-(S51A-FWD_NC_1-PadL1)": "unconnected-(S2A-FWD_NC_1-PadL1)",
+    "unconnected-(S51B-REV_NC_1-PadL3)": "unconnected-(S2B-REV_NC_1-PadL3)",
+    "unconnected-(S52-HI6_L-Pad6.L)": "unconnected-(S3-HI6_L-Pad6.L)",
+    "unconnected-(S52-HI8_U-Pad8.U)": "unconnected-(S3-HI8_U-Pad8.U)"
+  },
+  "validation": {
+    "all_net_pin_memberships_preserved": true,
+    "nets": 73,
+    "pcb_symbol_links_verified": 55,
+    "pcb_pad_net_names_verified": true,
+    "no_nonterminal_numbering_gaps": true,
+    "terminal_references_preserved": true,
+    "geometry_and_wires_preserved": true,
+    "erc_before": 0,
+    "erc_after": 0,
+    "prefix_counts": {
+      "MI": 2,
+      "SP": 5,
+      "K": 6,
+      "J": 5,
+      "OL": 2,
+      "Q": 1,
+      "PS": 1,
+      "#FLG": 3,
+      "FH": 1,
+      "H": 1,
+      "#PWR": 1,
+      "S": 3,
+      "M": 1,
+      "SW": 1
+    }
+  }
+}

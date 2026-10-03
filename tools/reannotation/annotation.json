@@ -1,0 +1,1152 @@
+{
+  "schematic_before_sha256": "a7082d156b67d16fa57b1e77135ea2f163694b957635c609403470c62e7503cf",
+  "schematic_after_sha256": "896e0f568e103af3b18b4f1737bd908381297bea0146b6f30bdeb80215207d2f",
+  "board_before_sha256": "c9e46ae648a58e0f1ee9f059eade13ef2c63cd210ea9ca09bb33ffac8c427fec",
+  "reference_mapping": {
+    "TB19": "TB5",
+    "#FLG02": "#FLG02",
+    "#PWR02": "#PWR02",
+    "OL1": "OL1",
+    "TB7": "TB9",
+    "TB54": "TB54",
+    "SP5": "SP5",
+    "TB5": "TB8",
+    "TB17": "TB4",
+    "TB8": "TB14",
+    "TB12": "TB16",
+    "K6": "K6",
+    "TB26": "TB21",
+    "TB51": "TB51",
+    "TB25": "TB20",
+    "J3": "J3",
+    "J5": "J5",
+    "K3": "K2",
+    "TB21": "TB26",
+    "TB4": "TB12",
+    "TB24": "TB19",
+    "J4": "J4",
+    "S1": "S1",
+    "K1": "K1",
+    "TB6": "TB13",
+    "K2": "K3",
+    "TB1": "TB6",
+    "TB29": "TB24",
+    "#FLG01": "#FLG01",
+    "TB20": "TB29",
+    "S2": "S2",
+    "OL2": "OL2",
+    "FH1": "FH1",
+    "TB14": "TB17",
+    "TB11": "TB1",
+    "TB15": "TB3",
+    "TB2": "TB11",
+    "J1": "J1",
+    "TB23": "TB25",
+    "SP3": "SP3",
+    "TB55": "TB55",
+    "TB28": "TB23",
+    "M1": "M1",
+    "MI2": "MI2",
+    "K5": "K5",
+    "SP1": "SP1",
+    "TB50": "TB50",
+    "TB9": "TB10",
+    "H1": "H1",
+    "TB3": "TB7",
+    "TB10": "TB15",
+    "PS1": "PS1",
+    "Q1": "Q1",
+    "#FLG03": "#FLG03",
+    "K4": "K4",
+    "SP4": "SP4",
+    "TB18": "TB28",
+    "MI1": "MI1",
+    "TB22": "TB27",
+    "SW1": "SW1",
+    "TB52": "TB52",
+    "TB13": "TB2",
+    "TB53": "TB53",
+    "TB16": "TB18",
+    "J2": "J2",
+    "SP2": "SP2",
+    "#PWR01": "#PWR01",
+    "TB27": "TB22",
+    "S3": "S3"
+  },
+  "symbols": [
+    {
+      "symbol_uuid": "0068c1f9-1e55-4cc4-8292-932ef0825b7c",
+      "old_reference": "TB19",
+      "new_reference": "TB5",
+      "unit": 1,
+      "value": "KN-T12GRY-25",
+      "group": "24V distribution",
+      "planned_net": "+24V"
+    },
+    {
+      "symbol_uuid": "055d0292-5865-4eee-bf16-d1ede2861101",
+      "old_reference": "#FLG02",
+      "new_reference": "#FLG02",
+      "unit": 1,
+      "value": "PWR_FLAG"
+    },
+    {
+      "symbol_uuid": "05a54f47-f636-4778-a356-a90ef26ad33a",
+      "old_reference": "#PWR02",
+      "new_reference": "#PWR02",
+      "unit": 1,
+      "value": "PE"
+    },
+    {
+      "symbol_uuid": "0a6184e0-819d-4e09-b568-fffd92b5f28c",
+      "old_reference": "OL1",
+      "new_reference": "OL1",
+      "unit": 2,
+      "value": "HTOR32-6-S"
+    },
+    {
+      "symbol_uuid": "0a87c2cf-aacd-42a8-8d3e-0cb33e36ffd5",
+      "old_reference": "TB7",
+      "new_reference": "TB9",
+      "unit": 1,
+      "value": "KN-T12GRY-25",
+      "group": "0V distribution",
+      "planned_net": "0V"
+    },
+    {
+      "symbol_uuid": "0aafb489-d8f7-453a-adf1-bd5fcb434398",
+      "old_reference": "TB54",
+      "new_reference": "TB54",
+      "unit": 1,
+      "value": "KN-G12SP-10",
+      "group": "Protective earth",
+      "planned_net": "PE"
+    },
+    {
+      "symbol_uuid": "0adf78f6-0866-418d-97af-e1ec4aa7f17e",
+      "old_reference": "SP5",
+      "new_reference": "SP5",
+      "unit": 1,
+      "value": "HMX1-SSVRC-DC"
+    },
+    {
+      "symbol_uuid": "0b1c34fd-3bd2-4c66-8c4a-50eef191cc47",
+      "old_reference": "TB5",
+      "new_reference": "TB8",
+      "unit": 1,
+      "value": "KN-T12GRY-25",
+      "group": "0V distribution",
+      "planned_net": "0V"
+    },
+    {
+      "symbol_uuid": "0e81af04-0028-493b-af7e-ec97017e94a8",
+      "old_reference": "TB17",
+      "new_reference": "TB4",
+      "unit": 1,
+      "value": "KN-T12GRY-25",
+      "group": "24V distribution",
+      "planned_net": "+24V"
+    },
+    {
+      "symbol_uuid": "108ffe1f-14a8-43ba-aa76-2cecb7765adb",
+      "old_reference": "TB8",
+      "new_reference": "TB14",
+      "unit": 1,
+      "value": "KN-T12GRY-25",
+      "group": "Pendant commands",
+      "planned_net": "LOW_CMD"
+    },
+    {
+      "symbol_uuid": "16702aad-fc25-433e-a788-1f2e87c42a1d",
+      "old_reference": "TB12",
+      "new_reference": "TB16",
+      "unit": 1,
+      "value": "KN-T12GRY-25",
+      "group": "M12 E-stop",
+      "planned_net": "+24V"
+    },
+    {
+      "symbol_uuid": "1e26a3d4-bfd1-45d4-89ab-b6e37bafa501",
+      "old_reference": "K6",
+      "new_reference": "K6",
+      "unit": 1,
+      "value": "HMC-9B30-11-DS"
+    },
+    {
+      "symbol_uuid": "1eae37ff-595b-4fba-a52b-f3e2c5aed332",
+      "old_reference": "TB26",
+      "new_reference": "TB21",
+      "unit": 1,
+      "value": "KN-T12GRY-25",
+      "group": "Motor leads",
+      "planned_net": "M1_T3"
+    },
+    {
+      "symbol_uuid": "222d92aa-1998-4dab-8001-257a8cd27e9c",
+      "old_reference": "TB51",
+      "new_reference": "TB51",
+      "unit": 1,
+      "value": "KN-G12SP-10",
+      "group": "Protective earth",
+      "planned_net": "PE"
+    },
+    {
+      "symbol_uuid": "2274dda3-0dbe-4c33-beb3-c743c9055058",
+      "old_reference": "TB25",
+      "new_reference": "TB20",
+      "unit": 1,
+      "value": "KN-T12GRY-25",
+      "group": "Motor leads",
+      "planned_net": "M1_T2"
+    },
+    {
+      "symbol_uuid": "233d10ed-562b-4d7c-8332-858e4146f140",
+      "old_reference": "J3",
+      "new_reference": "J3",
+      "unit": 1,
+      "value": "BNSPDX-23-W"
+    },
+    {
+      "symbol_uuid": "24fc870b-8925-4aa6-a16c-144faeb5ee05",
+      "old_reference": "J5",
+      "new_reference": "J5",
+      "unit": 1,
+      "value": "BSPBX-22-W"
+    },
+    {
+      "symbol_uuid": "279f9634-c4fa-433b-8ea9-a21ba78359f2",
+      "old_reference": "K3",
+      "new_reference": "K2",
+      "unit": 1,
+      "value": "HMC-9B30-11-DS"
+    },
+    {
+      "symbol_uuid": "28685e83-b92d-43bf-876f-d867e00acc25",
+      "old_reference": "TB21",
+      "new_reference": "TB26",
+      "unit": 1,
+      "value": "KN-T12GRY-25",
+      "group": "Incoming phases",
+      "planned_net": "L2_IN"
+    },
+    {
+      "symbol_uuid": "2c1a256a-3ddf-4198-beb8-6949fcbac7d7",
+      "old_reference": "TB4",
+      "new_reference": "TB12",
+      "unit": 1,
+      "value": "KN-T12GRY-25",
+      "group": "Pendant commands",
+      "planned_net": "REV_CMD"
+    },
+    {
+      "symbol_uuid": "31303833-a0db-423c-a3f8-be5c44ecf9da",
+      "old_reference": "TB24",
+      "new_reference": "TB19",
+      "unit": 1,
+      "value": "KN-T12GRY-25",
+      "group": "Motor leads",
+      "planned_net": "M1_T1"
+    },
+    {
+      "symbol_uuid": "33194be7-5e98-45b8-8f13-82cd28201c13",
+      "old_reference": "J4",
+      "new_reference": "J4",
+      "unit": 1,
+      "value": "BSPDX-23-W"
+    },
+    {
+      "symbol_uuid": "39e2c133-c961-479d-ba4a-a64903438883",
+      "old_reference": "S1",
+      "new_reference": "S1",
+      "unit": 1,
+      "value": "PWRM1200-ESTOP"
+    },
+    {
+      "symbol_uuid": "3b9145f5-a893-445b-9002-725b7e582e6e",
+      "old_reference": "K1",
+      "new_reference": "K1",
+      "unit": 2,
+      "value": "HMC-9B30-11-DS"
+    },
+    {
+      "symbol_uuid": "3ba494a4-b8a5-4675-a740-2d7298713b82",
+      "old_reference": "TB6",
+      "new_reference": "TB13",
+      "unit": 1,
+      "value": "KN-T12GRY-25",
+      "group": "Pendant commands",
+      "planned_net": "STOP_CHAIN"
+    },
+    {
+      "symbol_uuid": "40692fa1-1db0-4fd6-bab3-8a72882b147f",
+      "old_reference": "K2",
+      "new_reference": "K3",
+      "unit": 1,
+      "value": "HC3096N-52-900-24"
+    },
+    {
+      "symbol_uuid": "41adf8d3-938c-4dad-b7e8-3f39ed022a9a",
+      "old_reference": "TB1",
+      "new_reference": "TB6",
+      "unit": 1,
+      "value": "KN-T12GRY-25",
+      "group": "0V distribution",
+      "planned_net": "0V"
+    },
+    {
+      "symbol_uuid": "429a96c9-18bf-4f3b-835d-6dcc9aba3235",
+      "old_reference": "TB29",
+      "new_reference": "TB24",
+      "unit": 1,
+      "value": "KN-T12GRY-25",
+      "group": "Motor leads",
+      "planned_net": "M1_T6"
+    },
+    {
+      "symbol_uuid": "46b68a6c-1353-410c-bd5b-db6bc26d6978",
+      "old_reference": "#FLG01",
+      "new_reference": "#FLG01",
+      "unit": 1,
+      "value": "PWR_FLAG"
+    },
+    {
+      "symbol_uuid": "49b444b8-823b-4807-8db6-584cc1c674d2",
+      "old_reference": "TB20",
+      "new_reference": "TB29",
+      "unit": 1,
+      "value": "KN-T12GRY-25",
+      "group": "Pendant supply feeds",
+      "planned_net": "+24V_RUN"
+    },
+    {
+      "symbol_uuid": "573a5095-5632-4178-a541-4f5d45808250",
+      "old_reference": "S2",
+      "new_reference": "S2",
+      "unit": 1,
+      "value": "800 Type 3SA"
+    },
+    {
+      "symbol_uuid": "59f8d726-a9f4-457c-a9b0-30d93b1e2f12",
+      "old_reference": "OL2",
+      "new_reference": "OL2",
+      "unit": 1,
+      "value": "HTOR32-6-S"
+    },
+    {
+      "symbol_uuid": "5a5f7cc6-22a7-4fd6-b950-f2004c754a4e",
+      "old_reference": "K6",
+      "new_reference": "K6",
+      "unit": 2,
+      "value": "HMC-9B30-11-DS"
+    },
+    {
+      "symbol_uuid": "5ca8057b-4eb2-4c19-b9e6-24988ef269e0",
+      "old_reference": "FH1",
+      "new_reference": "FH1",
+      "unit": 1,
+      "value": "RM25030-3SR"
+    },
+    {
+      "symbol_uuid": "65d2cfd4-a340-4d38-a884-9b1ffb20d761",
+      "old_reference": "TB14",
+      "new_reference": "TB17",
+      "unit": 1,
+      "value": "KN-T12GRY-25",
+      "group": "M12 E-stop",
+      "planned_net": "J1 pins 2-3 series link"
+    },
+    {
+      "symbol_uuid": "686169ee-756c-4343-bcdf-0c8da2b197ab",
+      "old_reference": "K3",
+      "new_reference": "K2",
+      "unit": 2,
+      "value": "HMC-9B30-11-DS"
+    },
+    {
+      "symbol_uuid": "6be007ab-53bd-41e5-94e6-5faaf416976b",
+      "old_reference": "TB11",
+      "new_reference": "TB1",
+      "unit": 1,
+      "value": "KN-T12GRY-25",
+      "group": "24V distribution",
+      "planned_net": "+24V"
+    },
+    {
+      "symbol_uuid": "6c39708a-b822-41fd-98e4-9d31ca6d6365",
+      "old_reference": "TB15",
+      "new_reference": "TB3",
+      "unit": 1,
+      "value": "KN-T12GRY-25",
+      "group": "24V distribution",
+      "planned_net": "+24V"
+    },
+    {
+      "symbol_uuid": "6ebdd50b-c4e5-4c5a-9d7a-44ebe5e2cc24",
+      "old_reference": "TB2",
+      "new_reference": "TB11",
+      "unit": 1,
+      "value": "KN-T12GRY-25",
+      "group": "Pendant commands",
+      "planned_net": "FWD_CMD"
+    },
+    {
+      "symbol_uuid": "76a8a7b6-7dbb-4169-8aa9-0038ebf2cf31",
+      "old_reference": "J1",
+      "new_reference": "J1",
+      "unit": 1,
+      "value": "T4171310004-001"
+    },
+    {
+      "symbol_uuid": "782cabbe-a58e-46f3-9f97-d5cf96f2f77e",
+      "old_reference": "TB23",
+      "new_reference": "TB25",
+      "unit": 1,
+      "value": "KN-T12GRY-25",
+      "group": "Incoming phases",
+      "planned_net": "L1_IN"
+    },
+    {
+      "symbol_uuid": "81abcb1b-eafe-47db-b040-d8a7f6744013",
+      "old_reference": "SP3",
+      "new_reference": "SP3",
+      "unit": 1,
+      "value": "HMX1-SSVRC-DC"
+    },
+    {
+      "symbol_uuid": "86db0ef5-04f9-4a84-ac08-59318bd30e85",
+      "old_reference": "TB55",
+      "new_reference": "TB55",
+      "unit": 1,
+      "value": "KN-G12SP-10",
+      "group": "Protective earth",
+      "planned_net": "PE"
+    },
+    {
+      "symbol_uuid": "8a701746-4b7e-4780-914d-816c13411f77",
+      "old_reference": "TB28",
+      "new_reference": "TB23",
+      "unit": 1,
+      "value": "KN-T12GRY-25",
+      "group": "Motor leads",
+      "planned_net": "M1_T5"
+    },
+    {
+      "symbol_uuid": "8bbb0b57-0772-4a33-b531-e0aff3ae8f66",
+      "old_reference": "M1",
+      "new_reference": "M1",
+      "unit": 1,
+      "value": "PWRM1200-MOTOR"
+    },
+    {
+      "symbol_uuid": "8df3d793-2896-45e5-a413-f2998bcbda03",
+      "old_reference": "MI2",
+      "new_reference": "MI2",
+      "unit": 1,
+      "value": "HMX1-MI"
+    },
+    {
+      "symbol_uuid": "905535a1-efed-45b3-8e29-df5b5746d1d3",
+      "old_reference": "K5",
+      "new_reference": "K5",
+      "unit": 1,
+      "value": "HMC-9B30-11-DS"
+    },
+    {
+      "symbol_uuid": "9453fb6e-630d-4e4c-be41-a1b67765df84",
+      "old_reference": "SP1",
+      "new_reference": "SP1",
+      "unit": 1,
+      "value": "HMX1-SSVRC-DC"
+    },
+    {
+      "symbol_uuid": "96cbf522-a4db-4862-aecd-38c7160c8ed1",
+      "old_reference": "K5",
+      "new_reference": "K5",
+      "unit": 2,
+      "value": "HMC-9B30-11-DS"
+    },
+    {
+      "symbol_uuid": "9e70ef2f-99ba-4e46-bf0c-01ea3ece06a5",
+      "old_reference": "TB50",
+      "new_reference": "TB50",
+      "unit": 1,
+      "value": "KN-G12SP-10",
+      "group": "Protective earth",
+      "planned_net": "PE"
+    },
+    {
+      "symbol_uuid": "9f3a9c15-13dd-40ec-8434-23663d908fc9",
+      "old_reference": "TB9",
+      "new_reference": "TB10",
+      "unit": 1,
+      "value": "KN-T12GRY-25",
+      "group": "0V distribution",
+      "planned_net": "0V"
+    },
+    {
+      "symbol_uuid": "a7bde42c-14f2-46ec-a0af-e6c2b915b32f",
+      "old_reference": "H1",
+      "new_reference": "H1",
+      "unit": 1,
+      "value": "XB4BVB1"
+    },
+    {
+      "symbol_uuid": "a82e9565-ab32-466e-b1c7-6e01a0e570a2",
+      "old_reference": "TB3",
+      "new_reference": "TB7",
+      "unit": 1,
+      "value": "KN-T12GRY-25",
+      "group": "0V distribution",
+      "planned_net": "0V"
+    },
+    {
+      "symbol_uuid": "b5a0071f-7c45-436f-9568-eca95b61655d",
+      "old_reference": "TB10",
+      "new_reference": "TB15",
+      "unit": 1,
+      "value": "KN-T12GRY-25",
+      "group": "Pendant commands",
+      "planned_net": "HIGH_CMD"
+    },
+    {
+      "symbol_uuid": "b71e1787-97a1-40f8-b061-785c348498c6",
+      "old_reference": "PS1",
+      "new_reference": "PS1",
+      "unit": 1,
+      "value": "NDR-240-24"
+    },
+    {
+      "symbol_uuid": "b75c22a6-5008-468e-8688-fb1a0cea0d40",
+      "old_reference": "Q1",
+      "new_reference": "Q1",
+      "unit": 1,
+      "value": "FAZ-D4/2-NA-L"
+    },
+    {
+      "symbol_uuid": "ba6b37ac-e348-497c-9ea4-2e0cdf801e4e",
+      "old_reference": "OL1",
+      "new_reference": "OL1",
+      "unit": 1,
+      "value": "HTOR32-6-S"
+    },
+    {
+      "symbol_uuid": "bd9aab04-4934-46a0-bf21-87ab83af88bc",
+      "old_reference": "#FLG03",
+      "new_reference": "#FLG03",
+      "unit": 1,
+      "value": "PWR_FLAG"
+    },
+    {
+      "symbol_uuid": "bfde8850-2279-4de8-8bba-327cc503d476",
+      "old_reference": "OL2",
+      "new_reference": "OL2",
+      "unit": 2,
+      "value": "HTOR32-6-S"
+    },
+    {
+      "symbol_uuid": "c57e5c41-27e9-45a9-bc31-2cffc0ee58bf",
+      "old_reference": "K4",
+      "new_reference": "K4",
+      "unit": 1,
+      "value": "HMC-9B30-11-DS"
+    },
+    {
+      "symbol_uuid": "c6676f29-c39c-4ba0-9a90-07ac79a96b7b",
+      "old_reference": "S2",
+      "new_reference": "S2",
+      "unit": 3,
+      "value": "800 Type 3SA"
+    },
+    {
+      "symbol_uuid": "c7115c0b-7efa-4c87-830c-fa2763b5632c",
+      "old_reference": "SP4",
+      "new_reference": "SP4",
+      "unit": 1,
+      "value": "HMX1-SSVRC-DC"
+    },
+    {
+      "symbol_uuid": "cdbfba7f-541b-4a7e-9091-b2969dcf38b8",
+      "old_reference": "TB18",
+      "new_reference": "TB28",
+      "unit": 1,
+      "value": "KN-T12GRY-25",
+      "group": "Pendant supply feeds",
+      "planned_net": "+24V_CTRL"
+    },
+    {
+      "symbol_uuid": "ce30d992-fd20-4be5-b8b0-bb1c5bdb7dec",
+      "old_reference": "MI1",
+      "new_reference": "MI1",
+      "unit": 1,
+      "value": "HMX1-MI"
+    },
+    {
+      "symbol_uuid": "d4d821a2-498b-4b0e-b253-9376599824db",
+      "old_reference": "TB22",
+      "new_reference": "TB27",
+      "unit": 1,
+      "value": "KN-T12GRY-25",
+      "group": "Incoming phases",
+      "planned_net": "L3_IN"
+    },
+    {
+      "symbol_uuid": "de43fc54-ea53-4062-9d14-222047b23545",
+      "old_reference": "SW1",
+      "new_reference": "SW1",
+      "unit": 1,
+      "value": "222102"
+    },
+    {
+      "symbol_uuid": "df7ab35f-e1a2-45ab-96e8-a85b1386b7e8",
+      "old_reference": "TB52",
+      "new_reference": "TB52",
+      "unit": 1,
+      "value": "KN-G12SP-10",
+      "group": "Protective earth",
+      "planned_net": "PE"
+    },
+    {
+      "symbol_uuid": "e0fc05f8-caa9-493f-94cd-f7d9b1b3feee",
+      "old_reference": "S2",
+      "new_reference": "S2",
+      "unit": 2,
+      "value": "800 Type 3SA"
+    },
+    {
+      "symbol_uuid": "e16b8466-dbfc-4972-b2dd-e27fd886984f",
+      "old_reference": "TB13",
+      "new_reference": "TB2",
+      "unit": 1,
+      "value": "KN-T12GRY-25",
+      "group": "24V distribution",
+      "planned_net": "+24V"
+    },
+    {
+      "symbol_uuid": "e45c51bf-f035-4ed8-8e21-535cab5242bb",
+      "old_reference": "TB53",
+      "new_reference": "TB53",
+      "unit": 1,
+      "value": "KN-G12SP-10",
+      "group": "Protective earth",
+      "planned_net": "PE"
+    },
+    {
+      "symbol_uuid": "e4968cb9-8379-43ed-8542-65e9c4206140",
+      "old_reference": "TB16",
+      "new_reference": "TB18",
+      "unit": 1,
+      "value": "KN-T12GRY-25",
+      "group": "M12 E-stop",
+      "planned_net": "J1 pin 4 coil-enable return"
+    },
+    {
+      "symbol_uuid": "e8ad20fb-cccf-452b-85a1-558f7fb0fc34",
+      "old_reference": "K4",
+      "new_reference": "K4",
+      "unit": 2,
+      "value": "HMC-9B30-11-DS"
+    },
+    {
+      "symbol_uuid": "e968885b-7a52-4a14-b4da-8f880ac71cee",
+      "old_reference": "J2",
+      "new_reference": "J2",
+      "unit": 1,
+      "value": "3PH-4W-PLUG"
+    },
+    {
+      "symbol_uuid": "ee737293-e379-4a59-bb50-48422815504e",
+      "old_reference": "SP2",
+      "new_reference": "SP2",
+      "unit": 1,
+      "value": "HMX1-SSVRC-DC"
+    },
+    {
+      "symbol_uuid": "f0f4c2da-2431-4e59-8db0-14ecc910070b",
+      "old_reference": "K1",
+      "new_reference": "K1",
+      "unit": 1,
+      "value": "HMC-9B30-11-DS"
+    },
+    {
+      "symbol_uuid": "f225c1c4-6f7f-4a84-8ac1-9ea079d5e83f",
+      "old_reference": "#PWR01",
+      "new_reference": "#PWR01",
+      "unit": 1,
+      "value": "PE"
+    },
+    {
+      "symbol_uuid": "f5d565e7-0e22-42d2-91a0-227c55e54ee3",
+      "old_reference": "TB27",
+      "new_reference": "TB22",
+      "unit": 1,
+      "value": "KN-T12GRY-25",
+      "group": "Motor leads",
+      "planned_net": "M1_T4"
+    },
+    {
+      "symbol_uuid": "fddb4783-9ecd-4f13-a7da-a4cb49f471bb",
+      "old_reference": "S3",
+      "new_reference": "S3",
+      "unit": 1,
+      "value": "365-TAV2111"
+    }
+  ],
+  "terminal_groups": [
+    {
+      "group": "24V distribution",
+      "references": [
+        "TB1",
+        "TB2",
+        "TB3",
+        "TB4",
+        "TB5"
+      ]
+    },
+    {
+      "group": "0V distribution",
+      "references": [
+        "TB6",
+        "TB7",
+        "TB8",
+        "TB9",
+        "TB10"
+      ]
+    },
+    {
+      "group": "Pendant commands",
+      "references": [
+        "TB11",
+        "TB12",
+        "TB13",
+        "TB14",
+        "TB15"
+      ]
+    },
+    {
+      "group": "M12 E-stop",
+      "references": [
+        "TB16",
+        "TB17",
+        "TB18"
+      ]
+    },
+    {
+      "group": "Motor leads",
+      "references": [
+        "TB19",
+        "TB20",
+        "TB21",
+        "TB22",
+        "TB23",
+        "TB24"
+      ]
+    },
+    {
+      "group": "Incoming phases",
+      "references": [
+        "TB25",
+        "TB26",
+        "TB27"
+      ]
+    },
+    {
+      "group": "Pendant supply feeds",
+      "references": [
+        "TB28",
+        "TB29"
+      ]
+    },
+    {
+      "group": "Protective earth",
+      "references": [
+        "TB50",
+        "TB51",
+        "TB52",
+        "TB53",
+        "TB54",
+        "TB55"
+      ]
+    }
+  ],
+  "wires_labels_and_cached_symbols_preserved": true,
+  "terminal_wiring_added": false,
+  "board_after_sha256": "c15883289383927ffa151c2674f3f327e4c4cc8400390749b3c54c29fe0ac6cd",
+  "pcb_associations": [
+    {
+      "footprint_uuid": "031e30fb-772e-4c58-bea9-90bd535d3cda",
+      "symbol_uuid": "c7115c0b-7efa-4c87-830c-fa2763b5632c",
+      "old_reference": "SP4",
+      "new_reference": "SP4"
+    },
+    {
+      "footprint_uuid": "0c9ab87b-a159-4601-a791-6bd2cb8e4b3c",
+      "symbol_uuid": "ee737293-e379-4a59-bb50-48422815504e",
+      "old_reference": "SP2",
+      "new_reference": "SP2"
+    },
+    {
+      "footprint_uuid": "0efcbc76-f026-47f5-86c9-db4fc3aa8810",
+      "symbol_uuid": "f0f4c2da-2431-4e59-8db0-14ecc910070b",
+      "old_reference": "K1",
+      "new_reference": "K1"
+    },
+    {
+      "footprint_uuid": "15faab88-6fe4-4706-85f6-e7194763f3fa",
+      "symbol_uuid": "49b444b8-823b-4807-8db6-584cc1c674d2",
+      "old_reference": "TB20",
+      "new_reference": "TB29"
+    },
+    {
+      "footprint_uuid": "1a7a6239-26e0-4582-bc1e-2f0f661a9d3e",
+      "symbol_uuid": "b75c22a6-5008-468e-8688-fb1a0cea0d40",
+      "old_reference": "Q1",
+      "new_reference": "Q1"
+    },
+    {
+      "footprint_uuid": "1be87848-f24f-4518-855a-11f5dd4a9f69",
+      "symbol_uuid": "1eae37ff-595b-4fba-a52b-f3e2c5aed332",
+      "old_reference": "TB29",
+      "new_reference": "TB21"
+    },
+    {
+      "footprint_uuid": "1da6e799-d923-4417-8756-2dddf1415389",
+      "symbol_uuid": "108ffe1f-14a8-43ba-aa76-2cecb7765adb",
+      "old_reference": "TB8",
+      "new_reference": "TB14"
+    },
+    {
+      "footprint_uuid": "1e711414-c742-4754-b64d-04b097f98071",
+      "symbol_uuid": "16702aad-fc25-433e-a788-1f2e87c42a1d",
+      "old_reference": "TB12",
+      "new_reference": "TB16"
+    },
+    {
+      "footprint_uuid": "240f1404-bc97-4505-bf53-88bf08e3bbc2",
+      "symbol_uuid": "2c1a256a-3ddf-4198-beb8-6949fcbac7d7",
+      "old_reference": "TB4",
+      "new_reference": "TB12"
+    },
+    {
+      "footprint_uuid": "2ad761f3-4d96-4020-9b0a-09ef1c05f4d2",
+      "symbol_uuid": "e45c51bf-f035-4ed8-8e21-535cab5242bb",
+      "old_reference": "TB31",
+      "new_reference": "TB53"
+    },
+    {
+      "footprint_uuid": "2f66801a-a34e-4ab5-b8df-bb307b34348b",
+      "symbol_uuid": "222d92aa-1998-4dab-8001-257a8cd27e9c",
+      "old_reference": "TB25",
+      "new_reference": "TB51"
+    },
+    {
+      "footprint_uuid": "32eea564-4672-448f-84fa-ee64152e3eda",
+      "symbol_uuid": "f5d565e7-0e22-42d2-91a0-227c55e54ee3",
+      "old_reference": "TB30",
+      "new_reference": "TB22"
+    },
+    {
+      "footprint_uuid": "3373b8c0-1f3f-43f2-9f73-a1f9ced928bb",
+      "symbol_uuid": "9453fb6e-630d-4e4c-be41-a1b67765df84",
+      "old_reference": "SP1",
+      "new_reference": "SP1"
+    },
+    {
+      "footprint_uuid": "37e3c92b-3e61-487c-8b8a-32894ad8d025",
+      "symbol_uuid": "9f3a9c15-13dd-40ec-8434-23663d908fc9",
+      "old_reference": "TB9",
+      "new_reference": "TB10"
+    },
+    {
+      "footprint_uuid": "4227dd5b-6c80-459b-9143-e79d3bb93f53",
+      "symbol_uuid": "24fc870b-8925-4aa6-a16c-144faeb5ee05",
+      "old_reference": "J5",
+      "new_reference": "J5"
+    },
+    {
+      "footprint_uuid": "45b1a989-855f-4e87-a02d-5725845b9cd2",
+      "symbol_uuid": "8df3d793-2896-45e5-a413-f2998bcbda03",
+      "old_reference": "MI2",
+      "new_reference": "MI2"
+    },
+    {
+      "footprint_uuid": "52715a9b-4b11-4b19-a77a-58c4871e4c9d",
+      "symbol_uuid": "d4d821a2-498b-4b0e-b253-9376599824db",
+      "old_reference": "TB23",
+      "new_reference": "TB27"
+    },
+    {
+      "footprint_uuid": "52754e15-95c1-407a-8564-ba5837b148f2",
+      "symbol_uuid": "0a87c2cf-aacd-42a8-8d3e-0cb33e36ffd5",
+      "old_reference": "TB7",
+      "new_reference": "TB9"
+    },
+    {
+      "footprint_uuid": "54c59d4d-702a-46fe-8703-c671cc3a568d",
+      "symbol_uuid": "28685e83-b92d-43bf-876f-d867e00acc25",
+      "old_reference": "TB21",
+      "new_reference": "TB26"
+    },
+    {
+      "footprint_uuid": "54f6f658-d359-4bd6-a662-1e97502ccae3",
+      "symbol_uuid": "0068c1f9-1e55-4cc4-8292-932ef0825b7c",
+      "old_reference": "TB19",
+      "new_reference": "TB5"
+    },
+    {
+      "footprint_uuid": "58db6f61-7594-40df-855b-9b52b7ea8db4",
+      "symbol_uuid": "41adf8d3-938c-4dad-b7e8-3f39ed022a9a",
+      "old_reference": "TB1",
+      "new_reference": "TB6"
+    },
+    {
+      "footprint_uuid": "59758ce8-c3c6-47ec-88d1-c877937f0598",
+      "symbol_uuid": "e16b8466-dbfc-4972-b2dd-e27fd886984f",
+      "old_reference": "TB13",
+      "new_reference": "TB2"
+    },
+    {
+      "footprint_uuid": "597b786e-4ac2-491c-9073-9bd131e26112",
+      "symbol_uuid": "686169ee-756c-4343-bcdf-0c8da2b197ab",
+      "old_reference": "K3",
+      "new_reference": "K2"
+    },
+    {
+      "footprint_uuid": "5eb68bc9-5231-4b5c-bfc7-3fbffa119a13",
+      "symbol_uuid": "9e70ef2f-99ba-4e46-bf0c-01ea3ece06a5",
+      "old_reference": "TB22",
+      "new_reference": "TB50"
+    },
+    {
+      "footprint_uuid": "60c128e3-9628-4a27-9e2b-440e7799d5af",
+      "symbol_uuid": "a82e9565-ab32-466e-b1c7-6e01a0e570a2",
+      "old_reference": "TB3",
+      "new_reference": "TB7"
+    },
+    {
+      "footprint_uuid": "668e9352-c702-47d2-8fdf-23cb39332c77",
+      "symbol_uuid": "86db0ef5-04f9-4a84-ac08-59318bd30e85",
+      "old_reference": "TB35",
+      "new_reference": "TB55"
+    },
+    {
+      "footprint_uuid": "69fd8778-ddb6-4d5a-86d0-033e5a9c840b",
+      "symbol_uuid": "6ebdd50b-c4e5-4c5a-9d7a-44ebe5e2cc24",
+      "old_reference": "TB2",
+      "new_reference": "TB11"
+    },
+    {
+      "footprint_uuid": "6a44dee9-45a5-4503-a9c2-1273f172a13c",
+      "symbol_uuid": "3ba494a4-b8a5-4675-a740-2d7298713b82",
+      "old_reference": "TB6",
+      "new_reference": "TB13"
+    },
+    {
+      "footprint_uuid": "6d091486-19b0-4430-8450-45bfd8433b8e",
+      "symbol_uuid": "8a701746-4b7e-4780-914d-816c13411f77",
+      "old_reference": "TB32",
+      "new_reference": "TB23"
+    },
+    {
+      "footprint_uuid": "6e46f6cc-1daf-437f-8d24-0108f64b3d66",
+      "symbol_uuid": "31303833-a0db-423c-a3f8-be5c44ecf9da",
+      "old_reference": "TB26",
+      "new_reference": "TB19"
+    },
+    {
+      "footprint_uuid": "7584fc8b-b7c3-4abd-814f-d1cf3915f9c8",
+      "symbol_uuid": "0adf78f6-0866-418d-97af-e1ec4aa7f17e",
+      "old_reference": "SP5",
+      "new_reference": "SP5"
+    },
+    {
+      "footprint_uuid": "7ce81b40-2a32-461d-b2c1-351a6ebf35ea",
+      "symbol_uuid": "b71e1787-97a1-40f8-b061-785c348498c6",
+      "old_reference": "PS1",
+      "new_reference": "PS1"
+    },
+    {
+      "footprint_uuid": "881a4fe9-8c01-4d3c-ba81-5e2d7ef47b2a",
+      "symbol_uuid": "5ca8057b-4eb2-4c19-b9e6-24988ef269e0",
+      "old_reference": "FH1",
+      "new_reference": "FH1"
+    },
+    {
+      "footprint_uuid": "90abbf71-3550-46ac-966f-45ca5039ce4e",
+      "symbol_uuid": "a7bde42c-14f2-46ec-a0af-e6c2b915b32f",
+      "old_reference": "H1",
+      "new_reference": "H1"
+    },
+    {
+      "footprint_uuid": "9a0e744a-f2cb-4826-b202-8d749982b9f5",
+      "symbol_uuid": "40692fa1-1db0-4fd6-bab3-8a72882b147f",
+      "old_reference": "K2",
+      "new_reference": "K3"
+    },
+    {
+      "footprint_uuid": "9aea2771-44e7-4700-9a38-494fb944a4d6",
+      "symbol_uuid": "81abcb1b-eafe-47db-b040-d8a7f6744013",
+      "old_reference": "SP3",
+      "new_reference": "SP3"
+    },
+    {
+      "footprint_uuid": "9fdf03b9-7f23-481b-a930-8d37a7c0b950",
+      "symbol_uuid": "ba6b37ac-e348-497c-9ea4-2e0cdf801e4e",
+      "old_reference": "OL1",
+      "new_reference": "OL1"
+    },
+    {
+      "footprint_uuid": "a4bc448f-0f6b-457b-8ecb-67b424a87ff1",
+      "symbol_uuid": "5a5f7cc6-22a7-4fd6-b950-f2004c754a4e",
+      "old_reference": "K6",
+      "new_reference": "K6"
+    },
+    {
+      "footprint_uuid": "a9003f02-d2db-40b8-9cbf-0e2e635e0ee4",
+      "symbol_uuid": "33194be7-5e98-45b8-8f13-82cd28201c13",
+      "old_reference": "J4",
+      "new_reference": "J4"
+    },
+    {
+      "footprint_uuid": "aebd7f26-e1c2-4ed7-9f45-b5088ba48af9",
+      "symbol_uuid": "ce30d992-fd20-4be5-b8b0-bb1c5bdb7dec",
+      "old_reference": "MI1",
+      "new_reference": "MI1"
+    },
+    {
+      "footprint_uuid": "b0fe5760-8491-4f12-b1fe-c2a7a3c761c6",
+      "symbol_uuid": "6be007ab-53bd-41e5-94e6-5faaf416976b",
+      "old_reference": "TB11",
+      "new_reference": "TB1"
+    },
+    {
+      "footprint_uuid": "b2e4189c-8740-4773-add8-8bf56050e00b",
+      "symbol_uuid": "0aafb489-d8f7-453a-adf1-bd5fcb434398",
+      "old_reference": "TB34",
+      "new_reference": "TB54"
+    },
+    {
+      "footprint_uuid": "b73101be-cc14-4294-bd66-473649f8a7d4",
+      "symbol_uuid": "6c39708a-b822-41fd-98e4-9d31ca6d6365",
+      "old_reference": "TB15",
+      "new_reference": "TB3"
+    },
+    {
+      "footprint_uuid": "bdfe997c-c597-4e67-a568-df099e9f6e4b",
+      "symbol_uuid": "65d2cfd4-a340-4d38-a884-9b1ffb20d761",
+      "old_reference": "TB14",
+      "new_reference": "TB17"
+    },
+    {
+      "footprint_uuid": "c4a19c48-ac32-427b-912a-49e7a8c0fbe1",
+      "symbol_uuid": "233d10ed-562b-4d7c-8332-858e4146f140",
+      "old_reference": "J3",
+      "new_reference": "J3"
+    },
+    {
+      "footprint_uuid": "c4a4fe75-89f6-4250-8e67-b7e293aaccfe",
+      "symbol_uuid": "e4968cb9-8379-43ed-8542-65e9c4206140",
+      "old_reference": "TB16",
+      "new_reference": "TB18"
+    },
+    {
+      "footprint_uuid": "c6a069cf-78c1-4b23-a1cd-948c5e4e1d8a",
+      "symbol_uuid": "0b1c34fd-3bd2-4c66-8c4a-50eef191cc47",
+      "old_reference": "TB5",
+      "new_reference": "TB8"
+    },
+    {
+      "footprint_uuid": "cda5f54f-21cb-42d1-bf20-ea5292de69d9",
+      "symbol_uuid": "bfde8850-2279-4de8-8bba-327cc503d476",
+      "old_reference": "OL2",
+      "new_reference": "OL2"
+    },
+    {
+      "footprint_uuid": "cde670ae-42bf-430c-a5b0-51b20b9c4d96",
+      "symbol_uuid": "de43fc54-ea53-4062-9d14-222047b23545",
+      "old_reference": "SW1",
+      "new_reference": "SW1"
+    },
+    {
+      "footprint_uuid": "d1934e84-b876-4976-92bb-4d5b82c21482",
+      "symbol_uuid": "76a8a7b6-7dbb-4169-8aa9-0038ebf2cf31",
+      "old_reference": "J1",
+      "new_reference": "J1"
+    },
+    {
+      "footprint_uuid": "d4509d04-27e2-42b4-ac32-5478a6a20657",
+      "symbol_uuid": "429a96c9-18bf-4f3b-835d-6dcc9aba3235",
+      "old_reference": "TB33",
+      "new_reference": "TB24"
+    },
+    {
+      "footprint_uuid": "d62af4ba-17a6-46cf-b160-ddbf22d70c3e",
+      "symbol_uuid": "b5a0071f-7c45-436f-9568-eca95b61655d",
+      "old_reference": "TB10",
+      "new_reference": "TB15"
+    },
+    {
+      "footprint_uuid": "e203608c-d243-4409-a916-b4fe0c330d32",
+      "symbol_uuid": "782cabbe-a58e-46f3-9f97-d5cf96f2f77e",
+      "old_reference": "TB24",
+      "new_reference": "TB25"
+    },
+    {
+      "footprint_uuid": "e536b97e-a6b5-44b5-b8fc-65e237f61a18",
+      "symbol_uuid": "df7ab35f-e1a2-45ab-96e8-a85b1386b7e8",
+      "old_reference": "TB28",
+      "new_reference": "TB52"
+    },
+    {
+      "footprint_uuid": "e649482a-048f-454d-b9e8-2685488b69c5",
+      "symbol_uuid": "e8ad20fb-cccf-452b-85a1-558f7fb0fc34",
+      "old_reference": "K4",
+      "new_reference": "K4"
+    },
+    {
+      "footprint_uuid": "e696360c-b34b-4d02-b8a6-b1dfa3b5bb88",
+      "symbol_uuid": "2274dda3-0dbe-4c33-beb3-c743c9055058",
+      "old_reference": "TB27",
+      "new_reference": "TB20"
+    },
+    {
+      "footprint_uuid": "f365cabb-7051-4936-a4d2-08bd4d97e853",
+      "symbol_uuid": "cdbfba7f-541b-4a7e-9091-b2969dcf38b8",
+      "old_reference": "TB18",
+      "new_reference": "TB28"
+    },
+    {
+      "footprint_uuid": "f7a2a4da-2a42-420f-be54-070ea245c3aa",
+      "symbol_uuid": "0e81af04-0028-493b-af7e-ec97017e94a8",
+      "old_reference": "TB17",
+      "new_reference": "TB4"
+    },
+    {
+      "footprint_uuid": "fa8ee1db-f6fc-4498-b77f-a04dbe3a5d21",
+      "symbol_uuid": "96cbf522-a4db-4862-aecd-38c7160c8ed1",
+      "old_reference": "K5",
+      "new_reference": "K5"
+    }
+  ],
+  "pcb_geometry_and_pad_net_codes_preserved": true,
+  "board_only_footprints_preserved": 10,
+  "net_membership_preserved_after_reference_mapping": true,
+  "net_count": 149,
+  "functional_net_names_preserved": true,
+  "erc_violations": 76,
+  "erc_findings_unchanged": true,
+  "drc_violations": 297,
+  "unconnected_items": 90,
+  "drc_counts_by_type": {
+    "copper_edge_clearance": 2,
+    "silk_edge_clearance": 15,
+    "hole_to_hole": 10,
+    "lib_footprint_mismatch": 2,
+    "silk_over_copper": 69,
+    "silk_overlap": 199
+  },
+  "drc_counts_by_type_unchanged": true,
+  "non_silk_overlap_drc_findings_unchanged": true,
+  "silk_overlap_note": "199 warnings before and after. Native overlap witnesses and generated graphic UUIDs can change after reannotation; footprint graphics and positions are preserved.",
+  "all_panel_references_match_schematic_uuid_links": true,
+  "no_duplicate_reference_units": true
+}

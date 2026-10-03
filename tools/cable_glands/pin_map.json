@@ -1,0 +1,87 @@
+[
+  {
+    "reference": "J3",
+    "pin": "X",
+    "signal": "L1_IN"
+  },
+  {
+    "reference": "J3",
+    "pin": "Y",
+    "signal": "L2_IN"
+  },
+  {
+    "reference": "J3",
+    "pin": "Z",
+    "signal": "L3_IN"
+  },
+  {
+    "reference": "J3",
+    "pin": "G",
+    "signal": "PE"
+  },
+  {
+    "reference": "J4",
+    "pin": "T1",
+    "signal": "M1_T1"
+  },
+  {
+    "reference": "J4",
+    "pin": "T2",
+    "signal": "M1_T2"
+  },
+  {
+    "reference": "J4",
+    "pin": "T3",
+    "signal": "M1_T3"
+  },
+  {
+    "reference": "J4",
+    "pin": "T4",
+    "signal": "M1_T4"
+  },
+  {
+    "reference": "J4",
+    "pin": "T5",
+    "signal": "M1_T5"
+  },
+  {
+    "reference": "J4",
+    "pin": "T6",
+    "signal": "M1_T6"
+  },
+  {
+    "reference": "J5",
+    "pin": "1",
+    "signal": "+24V_CTRL"
+  },
+  {
+    "reference": "J5",
+    "pin": "2",
+    "signal": "+24V_RUN"
+  },
+  {
+    "reference": "J5",
+    "pin": "3",
+    "signal": "FWD_CMD"
+  },
+  {
+    "reference": "J5",
+    "pin": "4",
+    "signal": "REV_CMD"
+  },
+  {
+    "reference": "J5",
+    "pin": "5",
+    "signal": "STOP_CHAIN"
+  },
+  {
+    "reference": "J5",
+    "pin": "6",
+    "signal": "LOW_CMD"
+  },
+  {
+    "reference": "J5",
+    "pin": "7",
+    "signal": "HIGH_CMD"
+  }
+]

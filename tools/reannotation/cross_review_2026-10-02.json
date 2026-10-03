@@ -1,0 +1,137 @@
+{
+  "review_date": "2026-10-02",
+  "scope": "Saved schematic, PCB, purchase BOM, referenced local CAD/drawings. No source changes.",
+  "source_sha256": {
+    "kicad/powermatic_1200/powermatic_1200.kicad_sch": "6180ee060911cd5503d06bbeac731f93eed6fec81d4a1eb8a1bf83f628e2e5fc",
+    "kicad/powermatic_1200/powermatic_1200.kicad_pcb": "20ec458f49d45d5dd0e16ca7e05b21f73612b134846f7d19763914052366c361",
+    "kicad/powermatic_1200/powermatic_1200.kicad_pro": "9155ae966370537fff61d43cee757c29d4b78d6bab18cddcc7b555264861716f",
+    "Powermatic_BOM_revP.csv": "992dc52d9bc9a6affa72f43920ce93c69e8661450943b1cfe3881abd1bdaef40"
+  },
+  "findings": [
+    {
+      "priority": "high",
+      "area": "Motor cable and PE",
+      "deviation": "7081K7 is six-wire cable including green. J4 allocates all six cores to T1-T6. Motor PE appears only as a TB50 landing note, without a modeled conductor to the motor.",
+      "action": "Resolve cable core assignment and specify the separate motor frame PE route before wiring."
+    },
+    {
+      "priority": "high",
+      "area": "Reversing contactor assembly",
+      "deviation": "K1/K2 PCB center pitch is 65.606657 mm and Y differs 0.103479 mm. Supplier HMX1-BBREV STEP six-pin groups have 57 mm repeat pitch and 10.9 mm pole pitch, while current contactor pad targets have 12 mm pole pitch. The busbar kit is in the BOM but absent from the mechanical layout.",
+      "action": "Reconcile assembled contactor/interlock/busbar dimensions against actual parts or authoritative assembled CAD; do not shift just one footprint based on the schematic."
+    },
+    {
+      "priority": "medium",
+      "area": "Enclosure and backplate",
+      "deviation": "BOM lists N412202008C and NP2020C; PCB uses Hammond EN4SD20208GY with EP2020-based geometry.",
+      "action": "Choose one enclosure/panel family and reconcile BOM and CAD."
+    },
+    {
+      "priority": "medium",
+      "area": "PE terminal quantity",
+      "deviation": "Three KN-G12SP-10 are used (TB50-TB52) in schematic and PCB; no procurement BOM row exists.",
+      "action": "Add a procurement/owned inventory row for the selected PE blocks."
+    },
+    {
+      "priority": "medium",
+      "area": "E-stop inventory",
+      "deviation": "S1 PWRM1200-ESTOP assembly is included in schematic BOM flags but omitted from purchase BOM.",
+      "action": "Record as owned or add required assembly/connectors/contact blocks to the BOM."
+    },
+    {
+      "priority": "medium",
+      "area": "24V landing notes",
+      "deviation": "PS1.TB2.3 is listed on both TB1 and TB2 bottom landings; K3.13 has no landing note. Netlist correctly connects K3.13 to +24V.",
+      "action": "Replace the duplicate note with K3.13 if following four landings plus two spares."
+    },
+    {
+      "priority": "medium",
+      "area": "Schematic export",
+      "deviation": "A4 sheet is 297 by 210 mm; 60 of 73 symbol instances have origins outside it. Native SVG export clips most of the circuit.",
+      "action": "Move groups inside appropriately sized sheet(s) before documentation export."
+    },
+    {
+      "priority": "low",
+      "area": "E-stop net labels",
+      "deviation": "NC1/BLK and NC2/WHI identify the same intentional J1.2/J1.3 series-loop bridge. ERC reports one multiple_net_names warning.",
+      "action": "Use one electrical net name and separate conductor/color annotations."
+    },
+    {
+      "priority": "open",
+      "area": "Speed assembly mating geometry",
+      "deviation": "K4/K5 center pitch 61 mm differs from reversing pair. Both overload instances are offset (0,40) mm from their contactors, compared with earlier documented assembly offsets (-1.2,40.625) mm.",
+      "action": "Verify actual mechanical interlock engagement and overload blade alignment; old configuration alone is not proof of fit."
+    },
+    {
+      "priority": "low",
+      "area": "BOM completeness",
+      "deviation": "Marker and mounting-feet rows lack supplier/part numbers; wire/ferrule rows are zero-quantity placeholders. DIN rail row is QUA 1, PACK 4, UNIT EA although the SKU is a four-piece pack.",
+      "action": "Complete selections and express procurement pack units clearly."
+    },
+    {
+      "priority": "low",
+      "area": "Documentation and references",
+      "deviation": "Seven board-only mechanical items remain REF** and excluded from BOM. README uses old functional references and says footprints/fuses are not modeled.",
+      "action": "Use stable mechanical identifiers and update documentation if these items will appear on assembly plans."
+    }
+  ],
+  "checks": {
+    "schematic_parity_issues": 0,
+    "erc_errors": 0,
+    "erc_warnings": 1,
+    "drc_errors": 2,
+    "drc_warnings": 295,
+    "unconnected_items": 155,
+    "bom_rows": 39,
+    "bom_total": "1200.01",
+    "bom_line_calculation_errors": [],
+    "all_connected_pad_nets_match": true,
+    "all_board_enabled_schematic_refs_transferred": true
+  },
+  "matched_quantities": {
+    "power_contactors": 5,
+    "enable_relays": 1,
+    "overloads": 2,
+    "interlocks": 2,
+    "suppressors": 5,
+    "fuses": 3,
+    "holders": 1,
+    "glands": 3,
+    "gray_terminals_required": 28,
+    "gray_terminals_purchased": 50,
+    "rails_required_400mm": 2,
+    "rails_purchased_400mm": 4,
+    "duct_required_mm": 1600,
+    "duct_stock_mm": 2000,
+    "bridge_cut_lengths_in_poles": [
+      3,
+      5,
+      2,
+      3,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "expected_or_documented_differences": [
+    "Board-only F1-F3 have no schematic symbols; FH1 owns the electrical fuse paths.",
+    "External J2/M1/S1/S2/S3 intentionally excluded from board.",
+    "Q1 and PS1 library differences match documented local datum calibration.",
+    "PTH wiring targets and edge/silk/hole/unconnected DRC are panel-layout artifacts, not PCB manufacturing geometry.",
+    "25 mm fuse spacing is user-selected; outer fuse centerlines remain about 0.487 mm outside source holder pole centers."
+  ],
+  "unresolved": [
+    "Confirm 6452T44 core color/PE reservation so J5 has seven usable control conductors.",
+    "Enclosure, door, backplate and motor PE attachment hardware are presently landing notes, not electrical chassis symbols.",
+    "Fuse covers, terminal end covers/stops and reversing busbars purchased but not represented in current 3D layout."
+  ],
+  "source_links": {
+    "motor_cable": "https://www.mcmaster.com/products/cable/cable-awg~14-6/",
+    "hammond": "https://www.hammfg.com/part/EN4SD20208GY",
+    "pe_terminals": "https://www.automationdirect.com/pn/KN-G12SP-10",
+    "busbar_drawing": "https://cdn.automationdirect.com/static/drawings/2d/HMX1-BBREV.pdf",
+    "busbar_cad": "/Users/evanthayer/Projects/_parts/3dmodels/Controls/HMX1-BBREV.step"
+  },
+  "raw_reports_directory": "/private/tmp/powermatic-cross-review-f6xg1w4v"
+}

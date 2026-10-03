@@ -1,0 +1,45 @@
+{
+  "native_export_fuse_axes": [
+    [
+      104.910003,
+      32.009015
+    ],
+    [
+      129.910003,
+      32.009015
+    ],
+    [
+      154.910003,
+      32.009015
+    ]
+  ],
+  "checks": [
+    {
+      "reference": "F1",
+      "axis_error_mm": 0.0,
+      "native_export_axis_mm": [
+        104.910003,
+        -137.0,
+        32.009015
+      ]
+    },
+    {
+      "reference": "F2",
+      "axis_error_mm": 0.0,
+      "native_export_axis_mm": [
+        129.910003,
+        -137.0,
+        32.009015
+      ]
+    },
+    {
+      "reference": "F3",
+      "axis_error_mm": 0.0,
+      "native_export_axis_mm": [
+        154.910003,
+        -137.0,
+        32.009015
+      ]
+    }
+  ]
+}

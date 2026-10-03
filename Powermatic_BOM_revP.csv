@@ -1,31 +1,41 @@
-cat,part name,qua,unit,line,supplier,part no
-Contactor,Power Contactor,5,31.00,155.00,AD,'HMC-9B30-11-DS
-Contactor,Contactor Interlock,2,16.50,33.00,AD,'HMX1-MI
-Contactor,Coil Enable Relay,1,46.50,46.50,AD,'HC3096N-52-900-24
-Contactor,Reversing Busbars,1,17.00,17.00,AD,'HMX1-BBREV
-Contactor,Auxiliary Contact Block,0,8.50,0.00,AD,'HMX1-AUX11-F
-Power,DC Power Supply,1,0.00,0.00,GBB,'NDR-240-24
-Power,Circuit Breaker,1,55.00,55.00,AD,'FAZ-D4-2-NA-L
-Disconnect,Motor Disconnect,1,75.00,75.00,AD,'22013003
-Disconnect,Disconnect Handle,1,27.50,27.50,GBB,'148E1111
-Disconnect,Disconnect Shaft,1,9.00,9.00,AD,'14070532
-Disconnect,Terminal Cover Pack,1,11.00,11.00,AD,'22943016
-Fuse,Class RK5 Fuse,3,7.74,23.22,AllFuses,'FRN-R-10
-Fuse,Class R Fuse Holder,1,54.00,54.00,AD,'RM25030-3SR
-Fuse,Fuse Cover,3,14.00,42.00,AD,'CVR-RH-25030
-Operator,Speed Switch,1,0.00,0.00,GBB,'365_TAV2111
-Operator,Control Pendant,1,0.00,0.00,GBB,'800S_3SA
-Contactor,Thermal Overload,2,31.50,63.00,AD,'HTOR32-6-S
-Contactor,Coil Surge Suppressor,5,12.00,60.00,AD,'HMX1-SSVRC-DC
-Operator,White Indicator,1,52.92,52.92,DK,'4008-XB4BVB1-ND
-Terminal,M12 Panel Socket,1,11.10,11.10,DK,'A125513-ND
-Terminal,Feedthrough Terminal,1,9.75,9.75,AD,'KN-T12GRY-25
-Terminal,Terminal End Cover,1,6.75,6.75,AD,'KN-ECT6GRY-25
-Terminal,DIN End Stop,1,11.50,11.50,AD,'KN-EB7-10
-Terminal,Terminal Jumper,1,13.50,13.50,AD,'KN-10J12
-Terminal,Terminal Marker,1,12.00,12.00,AD,'KN-L5X-BLNK-220
-Enclosure,Enclosure,1,332.00,332.00,AD,'N412202008C
-Enclosure,Backplate,1,51.00,51.00,AD,'NP2020C
-Enclosure,Mounting Feet,1,28.00,28.00,AD,'N412MFK
-,Subtotal,,,1199.74,,
-,Total,,,1199.74,,
+TYPE,NAME,QUA,PACK,UNIT,COST,LINE,SUPPLIER,SPN
+Contactor,Power Contactor,5,1,EA,31.00,155.00,AD,HMC-9B30-11-DS
+Contactor,Contactor Interlock,2,1,EA,16.50,33.00,AD,HMX1-MI
+Contactor,Coil Enable Relay,1,1,EA,46.50,46.50,AD,HC3096N-52-900-24
+Contactor,Reversing Busbars,1,1,EA,17.00,17.00,AD,HMX1-BBREV
+Power,DC Power Supply,1,1,EA,0.00,0.00,GBB,NDR-240-24
+Power,Circuit Breaker,1,1,EA,55.00,55.00,AD,FAZ-D4-2-NA-L
+Disconnect,Motor Disconnect,1,1,EA,0.00,0.00,GBB,6759K211
+Fuse,Class RK5 Fuse,3,1,EA,7.74,23.22,AllFuses,FRN-R-10
+Fuse,Class R Fuse Holder,1,1,EA,54.00,54.00,AD,RM25030-3SR
+Fuse,Fuse Cover,3,1,EA,14.00,42.00,AD,CVR-RH-25030
+Operator,Speed Switch,1,1,EA,0.00,0.00,GBB,AB_365_TAV2111
+Operator,Control Pendant,1,1,EA,0.00,0.00,GBB,AB_800S_3SA
+Contactor,Thermal Overload,2,1,EA,31.50,63.00,AD,HTOR32-6-S
+Contactor,Coil Surge Suppressor,5,1,EA,12.00,60.00,AD,HMX1-SSVRC-DC
+Operator,White Indicator,1,1,EA,0.00,0.00,GBB,DK_4008-XB4BVB1-ND
+Terminal,M12 Panel Socket,1,1,EA,0.00,0.00,GBB,DK_A125513-ND
+Terminal,Feedthrough Terminal,2,25,PACK,9.75,19.50,AD,KN-T12GRY-25
+Terminal,Terminal End Cover,1,25,PACK,6.75,6.75,AD,KN-ECT6GRY-25
+Terminal,DIN End Stop,1,10,PACK,11.50,11.50,AD,KN-EB7-10
+Terminal,Terminal Jumper 10P,1,5,PACK,13.50,13.50,AD,KN-10J12
+Terminal,Terminal Marker,1,,PACK,0.00,0.00,,-
+Enclosure,Enclosure,1,1,EA,353.00,353.00,AD,N4SD20208GY
+Enclosure,Backplate,1,1,EA,51.00,51.00,AD,EP2020
+Enclosure,Mounting Feet,1,4,PACK,0.00,0.00,,-
+Enclosure,Cable Gland Power 13-18mm ID,1,5,PACK,16.50,16.50,AD,BNSPDX-23-W
+Enclosure,Cable Gland Controls 6-12mm ID,1,5,PACK,7.50,7.50,AD,BSPBX-22-W
+Enclosure,Cable Gland Motor 13-18mm ID,1,5,PACK,11.5,11.50,AD,BSPDX-23-W
+Wiring,Power Cable 4C 16.5mm OD,1,10,FT,0.00,0.00,GBB,7081K33
+Wiring,Power Plug,1,1,EA,0.00,0.00,GBB,7164K52
+Wiring,"Controls Cable 7C 9.5mm OD ",1,10,FT,44.53,44.53,MCM,6452T44
+Wiring,Motor Cable 7C 14mm OD,1,10,FT,46.14,46.14,MCM,7081K6
+Wiring,Din-Rail 35x7.5x400mm,1,4,EA,11.00,11.00,AD,DN-R35S-400-4
+Wiring,Wire-Duct 40x80x1000mm,2,1,EA,18.50,37.00,AD,T1-1530G1-1
+Wiring,AWG Color Ferrules,0,,PACK,0.00,0.00,-,-
+Wiring,AWG Color Ferrules,0,,PACK,0.00,0.00,-,-
+Wiring,AWG Color Machine Wire,0,,FT,0.00,0.00,-,-
+Wiring,AWG Color Machine Wire,0,,FT,0.00,0.00,-,-
+Wiring,AWG Color Machine Wire,0,,FT,0.00,0.00,-,-
+Wiring,AWG Color Machine Wire,0,,FT,0.00,0.00,-,-
+Terminal,PE Terminal,1,10,PACK,29,29.00,AD,KN-G12SP-10

@@ -1,4 +1,4 @@
-475752090913790
+479337398118639
 Controls
 148E1111_Front
 148E1111 panel-layout elevation; 88.445 x 70.957 mm
@@ -73,6 +73,13 @@ Controls
 DN-R35S1_350mm_Front
 DIN rail; DN-R35S1 cut to 350 mm; 35 mm wide x 7.5 mm high; origin at center of left rear edge; length along +X
 Controls DIN rail mechanical 35mm 7.5mm 350mm
+0
+0
+0
+Controls
+DN-R35S1_400mm_Front
+DIN rail; 400 x 35 x 7.5 mm user STEP envelope; origin at center of left rear edge; length along +X
+Controls mechanical DN-R35S1_400mm
 0
 0
 0
@@ -213,6 +220,13 @@ Controls
 T1-1530G1-1_360mm_Front
 Wire duct with cover; 360 x 40 x 80 mm user STEP envelope; origin at center of left rear edge; length along +X
 Controls mechanical T1-1530G1-1_360mm
+0
+0
+0
+Controls
+T1-1530G1-1_400mm_Front
+Wire duct with cover; 400 x 40 x 80 mm user STEP envelope; origin at center of left rear edge; length along +X
+Controls mechanical T1-1530G1-1_400mm
 0
 0
 0

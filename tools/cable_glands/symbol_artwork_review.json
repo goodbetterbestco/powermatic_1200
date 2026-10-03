@@ -1,0 +1,219 @@
+{
+  "grid_mm": 1.27,
+  "pin_length_mm": 0,
+  "pin_pitch_mm": 2.54,
+  "body_width_mm": 2.54,
+  "pin_names_offset_mm": 2.54,
+  "updated_references": [
+    "J4",
+    "J5"
+  ],
+  "j3_j2_m1_instances_preserved": true,
+  "pin_moves": [
+    {
+      "ref": "J4",
+      "pin": "T1",
+      "wire_uuid": "176385c5-118f-4406-b946-f6791ab21e26",
+      "label_uuid": "5ecb6d1f-9100-4723-ba9c-0deb7a8847b4",
+      "net_label": "M1_T1",
+      "pin_at": [
+        303.53,
+        172.72
+      ],
+      "label_at": [
+        299.72,
+        172.72
+      ]
+    },
+    {
+      "ref": "J4",
+      "pin": "T2",
+      "wire_uuid": "908f4f69-4ffe-406c-a404-b57d54bff400",
+      "label_uuid": "d8517238-8573-4be2-807f-dd98c24f92a2",
+      "net_label": "M1_T2",
+      "pin_at": [
+        303.53,
+        175.26
+      ],
+      "label_at": [
+        299.72,
+        175.26
+      ]
+    },
+    {
+      "ref": "J4",
+      "pin": "T3",
+      "wire_uuid": "6e6d9c60-4fbe-460c-bbe2-5fa570bc4eca",
+      "label_uuid": "833d9a47-d94b-416f-b750-05d06930234d",
+      "net_label": "M1_T3",
+      "pin_at": [
+        303.53,
+        177.8
+      ],
+      "label_at": [
+        299.72,
+        177.8
+      ]
+    },
+    {
+      "ref": "J4",
+      "pin": "T4",
+      "wire_uuid": "a48726b6-8d5d-471a-8a30-390060f0ce72",
+      "label_uuid": "db087f4a-2759-49d2-9c88-5ea1c3b92bae",
+      "net_label": "M1_T4",
+      "pin_at": [
+        303.53,
+        180.34
+      ],
+      "label_at": [
+        299.72,
+        180.34
+      ]
+    },
+    {
+      "ref": "J4",
+      "pin": "T5",
+      "wire_uuid": "7632e27b-5f16-4435-ac1c-cac554298869",
+      "label_uuid": "c582cdc0-6af7-4814-8122-42800b262959",
+      "net_label": "M1_T5",
+      "pin_at": [
+        303.53,
+        182.88
+      ],
+      "label_at": [
+        299.72,
+        182.88
+      ]
+    },
+    {
+      "ref": "J4",
+      "pin": "T6",
+      "wire_uuid": "36378b4b-c603-4fda-b8f0-411af6337c20",
+      "label_uuid": "3a234535-8647-4b9a-b105-966d69cb14e6",
+      "net_label": "M1_T6",
+      "pin_at": [
+        303.53,
+        185.42
+      ],
+      "label_at": [
+        299.72,
+        185.42
+      ]
+    },
+    {
+      "ref": "J5",
+      "pin": "1",
+      "wire_uuid": "0bd696bf-293e-4465-ab28-ad0fd3cdf9f2",
+      "label_uuid": "9c080323-b08b-40a4-95e9-b825cc9592e2",
+      "net_label": "+24V_CTRL",
+      "pin_at": [
+        350.52,
+        171.45
+      ],
+      "label_at": [
+        346.71,
+        171.45
+      ]
+    },
+    {
+      "ref": "J5",
+      "pin": "2",
+      "wire_uuid": "bac019a0-5731-48e9-9ac6-701463ff7706",
+      "label_uuid": "f7d3fe62-432f-41ce-8267-b12193299c0a",
+      "net_label": "+24V_RUN",
+      "pin_at": [
+        350.52,
+        173.99
+      ],
+      "label_at": [
+        346.71,
+        173.99
+      ]
+    },
+    {
+      "ref": "J5",
+      "pin": "3",
+      "wire_uuid": "e0eecbeb-973c-4350-879b-bf35038d959a",
+      "label_uuid": "dec3c73e-670d-4d12-8213-d58f9fff8a23",
+      "net_label": "FWD_CMD",
+      "pin_at": [
+        350.52,
+        176.53
+      ],
+      "label_at": [
+        346.71,
+        176.53
+      ]
+    },
+    {
+      "ref": "J5",
+      "pin": "4",
+      "wire_uuid": "5744291c-a617-427c-9915-3ae715d4cbca",
+      "label_uuid": "f6c2696c-384f-4a65-b6d6-869941893361",
+      "net_label": "REV_CMD",
+      "pin_at": [
+        350.52,
+        179.07
+      ],
+      "label_at": [
+        346.71,
+        179.07
+      ]
+    },
+    {
+      "ref": "J5",
+      "pin": "5",
+      "wire_uuid": "4b5a2bc1-f7d6-4e3b-aa87-323fc4072da7",
+      "label_uuid": "95856011-66b0-474f-a5ea-d23720f34f6e",
+      "net_label": "STOP_CHAIN",
+      "pin_at": [
+        350.52,
+        181.61
+      ],
+      "label_at": [
+        346.71,
+        181.61
+      ]
+    },
+    {
+      "ref": "J5",
+      "pin": "6",
+      "wire_uuid": "bf8530b4-5c3a-4a58-ac13-3580948f47b9",
+      "label_uuid": "23133c63-223d-4004-9365-08ae67b9a190",
+      "net_label": "LOW_CMD",
+      "pin_at": [
+        350.52,
+        184.15
+      ],
+      "label_at": [
+        346.71,
+        184.15
+      ]
+    },
+    {
+      "ref": "J5",
+      "pin": "7",
+      "wire_uuid": "4559e2a9-bc81-4549-bf81-8e726d1bf26c",
+      "label_uuid": "eb26a424-4767-4678-9ad0-2b152e3332b8",
+      "net_label": "HIGH_CMD",
+      "pin_at": [
+        350.52,
+        186.69
+      ],
+      "label_at": [
+        346.71,
+        186.69
+      ]
+    }
+  ],
+  "schematic_before_sha256": "1b8c09cfc0c402e1bc3824bda2dc77bd69b20b6a749ff3013c4aa4b81d6714c3",
+  "schematic_after_sha256": "4d4e522a300fc1351a0788d66eaa707e31768a4b320695979e7fdaf9abdb2ca7",
+  "library_before_sha256": "a67cdc7d4409e8bb443b93c1d2fc765dad32228449d8192380c4d2445404ab08",
+  "library_after_sha256": "b5a35a06064b9fc2a09eda6b3793566cd3fd52ebd03a3a87140f2d92da7aab2a",
+  "all_net_memberships_unchanged": true,
+  "net_count": 149,
+  "erc_violations": 84,
+  "erc_findings_unchanged": true,
+  "library_cache_equivalent": true,
+  "all_graphics_and_fields_on_50_mil_grid": true
+}

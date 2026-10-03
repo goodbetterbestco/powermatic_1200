@@ -1,0 +1,275 @@
+{
+  "datum": {
+    "back_edge_model_z_mm": -26.3396,
+    "centerline_from_back_mm": 75,
+    "wall_thickness_mm": 1.8796,
+    "bottom_wall_pcb_y_mm": 485.241,
+    "enclosure_left_pcb_x_mm": -23.241,
+    "enclosure_right_pcb_x_mm": 484.759,
+    "parts": [
+      {
+        "ref": "J3",
+        "part": "BNSPDX-23-W",
+        "role": "Power",
+        "source": "power",
+        "template": "3PH-4W-PLUG",
+        "cable": "7081K33",
+        "cores": 4,
+        "od_mm": 16.5,
+        "thread": "3/4 NPT",
+        "range_mm": [
+          13,
+          18
+        ],
+        "x_mm": 56.759,
+        "washer_rear_y_mm": -1.5,
+        "pins": [
+          "X",
+          "Y",
+          "Z",
+          "G"
+        ],
+        "signals": [
+          "L1_IN",
+          "L2_IN",
+          "L3_IN",
+          "PE"
+        ]
+      },
+      {
+        "ref": "J4",
+        "part": "BSPDX-23-W",
+        "role": "Motor",
+        "source": "motor",
+        "template": "PWRM1200-MOTOR",
+        "cable": "7081K7",
+        "cores": 6,
+        "od_mm": 18,
+        "thread": "3/4 NPT",
+        "range_mm": [
+          13,
+          18
+        ],
+        "x_mm": 384.759,
+        "washer_rear_y_mm": -2.0066,
+        "pins": [
+          "T1",
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6"
+        ],
+        "signals": [
+          "M1_T1",
+          "M1_T2",
+          "M1_T3",
+          "M1_T4",
+          "M1_T5",
+          "M1_T6"
+        ]
+      },
+      {
+        "ref": "J5",
+        "part": "BSPBX-22-W",
+        "role": "Speed / Direction",
+        "source": "controls",
+        "cable": "6452T44",
+        "cores": 7,
+        "od_mm": 9.5,
+        "thread": "1/2 NPT",
+        "range_mm": [
+          6,
+          12
+        ],
+        "x_mm": 434.759,
+        "washer_rear_y_mm": -2.0066,
+        "pins": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "signals": [
+          "+24V_CTRL",
+          "+24V_RUN",
+          "FWD_CMD",
+          "REV_CMD",
+          "STOP_CHAIN",
+          "LOW_CMD",
+          "HIGH_CMD"
+        ]
+      }
+    ]
+  },
+  "parts": [
+    {
+      "ref": "J3",
+      "part": "BNSPDX-23-W",
+      "role": "Power",
+      "source": "power",
+      "template": "3PH-4W-PLUG",
+      "cable": "7081K33",
+      "cores": 4,
+      "od_mm": 16.5,
+      "thread": "3/4 NPT",
+      "range_mm": [
+        13,
+        18
+      ],
+      "x_mm": 56.759,
+      "washer_rear_y_mm": -1.5,
+      "pins": [
+        "X",
+        "Y",
+        "Z",
+        "G"
+      ],
+      "signals": [
+        "L1_IN",
+        "L2_IN",
+        "L3_IN",
+        "PE"
+      ],
+      "source_url": "https://ftp.automationdirect.com/support/drawings/3d/step/BNSPDX-23-W.STEP",
+      "source_sha256": "5c34000bc7f1b09bd604adb551363ff18ce9d4aedafd8d92f6c2b3aeaf9ab0b5",
+      "source_bounds_mm": [
+        -18.650000100000003,
+        -14.986000100000005,
+        -18.923000100000007,
+        18.650000100000003,
+        117.3988001,
+        18.923000100000007
+      ],
+      "derived_bounds_mm": [
+        -18.6500001,
+        -118.89880009999999,
+        29.737399900000003,
+        18.6500001,
+        13.4860001,
+        67.58340009999999
+      ],
+      "axis_height_above_footprint_mm": 48.660399999999996,
+      "locknut_translation_source_y_mm": -0.8796001000000038,
+      "solids": 5,
+      "fab_segments": 1178,
+      "zero_model_offsets": true
+    },
+    {
+      "ref": "J4",
+      "part": "BSPDX-23-W",
+      "role": "Motor",
+      "source": "motor",
+      "template": "PWRM1200-MOTOR",
+      "cable": "7081K7",
+      "cores": 6,
+      "od_mm": 18,
+      "thread": "3/4 NPT",
+      "range_mm": [
+        13,
+        18
+      ],
+      "x_mm": 384.759,
+      "washer_rear_y_mm": -2.0066,
+      "pins": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5",
+        "T6"
+      ],
+      "signals": [
+        "M1_T1",
+        "M1_T2",
+        "M1_T3",
+        "M1_T4",
+        "M1_T5",
+        "M1_T6"
+      ],
+      "source_url": "https://ftp.automationdirect.com/support/drawings/3d/step/BSPDX-23-W.STEP",
+      "source_sha256": "5e60785bb8791c75f13e42f0bb877c90beb720b9b7c9cd8959fe72c0cd6fdc46",
+      "source_bounds_mm": [
+        -18.541999999999998,
+        -14.986000100000005,
+        -18.5928001,
+        18.541999999999998,
+        35.31858068202334,
+        18.5928001
+      ],
+      "derived_bounds_mm": [
+        -18.542,
+        -37.325180682020004,
+        30.0675999,
+        18.542,
+        12.9794001,
+        67.2532001
+      ],
+      "axis_height_above_footprint_mm": 48.660399999999996,
+      "locknut_translation_source_y_mm": 1.2953998999999867,
+      "solids": 5,
+      "fab_segments": 723,
+      "zero_model_offsets": true
+    },
+    {
+      "ref": "J5",
+      "part": "BSPBX-22-W",
+      "role": "Speed / Direction",
+      "source": "controls",
+      "cable": "6452T44",
+      "cores": 7,
+      "od_mm": 9.5,
+      "thread": "1/2 NPT",
+      "range_mm": [
+        6,
+        12
+      ],
+      "x_mm": 434.759,
+      "washer_rear_y_mm": -2.0066,
+      "pins": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "signals": [
+        "+24V_CTRL",
+        "+24V_RUN",
+        "FWD_CMD",
+        "REV_CMD",
+        "STOP_CHAIN",
+        "LOW_CMD",
+        "HIGH_CMD"
+      ],
+      "source_url": "https://ftp.automationdirect.com/support/drawings/3d/step/BSPBX-22-W.STEP",
+      "source_sha256": "aec06d2c93dd0bde95caebb2f24f51be5f40c910a79c0297abbe4995895d3599",
+      "source_bounds_mm": [
+        -14.477999999999998,
+        -14.986000100000012,
+        -14.477999999999998,
+        14.477999999999998,
+        30.479999999999997,
+        14.477999999999998
+      ],
+      "derived_bounds_mm": [
+        -14.478,
+        -32.4866,
+        34.1824,
+        14.478,
+        12.9794001,
+        63.138400000000004
+      ],
+      "axis_height_above_footprint_mm": 48.660399999999996,
+      "locknut_translation_source_y_mm": 0.15239989999999137,
+      "solids": 5,
+      "fab_segments": 687,
+      "zero_model_offsets": true
+    }
+  ]
+}

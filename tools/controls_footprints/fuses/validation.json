@@ -1,0 +1,18 @@
+{
+  "native_kicad_footprint_load": true,
+  "native_kicad_board_load": true,
+  "native_svg_export_and_visual_check": true,
+  "native_step_export_and_axis_check": true,
+  "native_3d_render_and_visual_check": true,
+  "reopened_saved_pcb_in_editor": true,
+  "generated_step_topology_valid": true,
+  "all_existing_pcb_records_unchanged": true,
+  "csv_database_parity": true,
+  "unique_catalog_keys": true,
+  "sqlite_integrity_check": "ok",
+  "lcsc_count": 429,
+  "non_lcsc_count": 61,
+  "drc_before_after_identical": true,
+  "existing_drc_violations": 297,
+  "existing_unconnected_items": 73
+}

@@ -1,0 +1,47 @@
+{
+  "parts": [
+    {
+      "reference": "J3",
+      "part": "BNSPDX-23-W",
+      "position_mm": [
+        56.759,
+        485.241
+      ],
+      "distance_from_left_mm": 80.0,
+      "distance_from_right_mm": 428.0,
+      "centerline_from_back_mm": 75,
+      "symbol_uuid_path": "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41/233d10ed-562b-4d7c-8332-858e4146f140",
+      "pads_are_logical_core_targets": true
+    },
+    {
+      "reference": "J4",
+      "part": "BSPDX-23-W",
+      "position_mm": [
+        384.759,
+        485.241
+      ],
+      "distance_from_left_mm": 408.0,
+      "distance_from_right_mm": 100.0,
+      "centerline_from_back_mm": 75,
+      "symbol_uuid_path": "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41/33194be7-5e98-45b8-8f13-82cd28201c13",
+      "pads_are_logical_core_targets": true
+    },
+    {
+      "reference": "J5",
+      "part": "BSPBX-22-W",
+      "position_mm": [
+        434.759,
+        485.241
+      ],
+      "distance_from_left_mm": 458.0,
+      "distance_from_right_mm": 50.0,
+      "centerline_from_back_mm": 75,
+      "symbol_uuid_path": "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41/24fc870b-8925-4aa6-a16c-144faeb5ee05",
+      "pads_are_logical_core_targets": true
+    }
+  ],
+  "other_top_level_records_unchanged": false,
+  "before_sha256": "91b43e569431fdc65790dc0859be5143568b64ba5c93ff1defd8450e38220baf",
+  "after_sha256": "6f38615f021fbaed2bc44a73c9a86bfbd8166ff67ae2af3ed17009c19c9093d3",
+  "other_top_level_records_preserved_except_five_net_name_strings": true
+}
