@@ -1,0 +1,22 @@
+{
+  "wire_rows": 102,
+  "BOM_proposal_rows": 21,
+  "termination_end_counts": {
+    "plug clamp": 4,
+    "ferrule": 147,
+    "motor splice": 6,
+    "splice": 4,
+    "remote terminal TBD": 31,
+    "factory M12 contact": 4,
+    "ring": 8
+  },
+  "ring_terminals": 8,
+  "schematic_nets_connected": 53,
+  "no_terminal_block_double_conductors": true,
+  "input_matches": {
+    "Powermatic_BOM_revP.csv": false,
+    "kicad/powermatic_1200/powermatic_1200.kicad_sch": true,
+    "kicad/powermatic_1200/powermatic_1200.kicad_pcb": true
+  },
+  "BOM_note": "User is editing placeholder rows concurrently; authoring did not overwrite the main BOM."
+}

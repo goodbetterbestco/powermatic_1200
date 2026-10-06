@@ -1,0 +1,1354 @@
+{
+  "schema": 1,
+  "source_schematic": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/powermatic_1200.kicad_sch",
+  "source_pcb": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/powermatic_1200.kicad_pcb",
+  "schematic_sha256": "b31f05b6e39fb16b9dfa2778ca23edeafe8ad50be4a07ac2b5539465a325dd05",
+  "pcb_sha256": "9cecc11db2b971877a06771da9574aa3e8772458e3ebb0ba20ee8b3874d4c1db",
+  "generated_rows": 6,
+  "omitted_records": 0,
+  "sections": {
+    "01 Incoming phases": 6
+  },
+  "review_states": {
+    "pending": 6
+  },
+  "complete": false,
+  "net_coverage": [
+    {
+      "net": "+24V",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K3.13"
+        ],
+        [
+          "TB3.BOT",
+          "TB3.TOP"
+        ],
+        [
+          "TB2.BOT",
+          "TB2.TOP"
+        ],
+        [
+          "J1.1"
+        ],
+        [
+          "J6.1"
+        ],
+        [
+          "PS1.3_TOP"
+        ],
+        [
+          "H1.X1"
+        ],
+        [
+          "S1.1"
+        ],
+        [
+          "TB1.BOT",
+          "TB1.TOP"
+        ],
+        [
+          "TB30.BOT",
+          "TB30.TOP"
+        ],
+        [
+          "PS1.4_TOP"
+        ]
+      ]
+    },
+    {
+      "net": "+24V_CTRL",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "S3.2.L"
+        ],
+        [
+          "TB21.BOT",
+          "TB21.TOP"
+        ],
+        [
+          "S3.1.L"
+        ],
+        [
+          "K6.43"
+        ],
+        [
+          "J5.1"
+        ],
+        [
+          "TB20.BOT",
+          "TB20.TOP"
+        ],
+        [
+          "S2.R5"
+        ],
+        [
+          "K4.43"
+        ]
+      ]
+    },
+    {
+      "net": "+24V_EN",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "OL1.95"
+        ],
+        [
+          "K3.24"
+        ]
+      ]
+    },
+    {
+      "net": "+24V_RUN",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K2.43"
+        ],
+        [
+          "TB24.BOT",
+          "TB24.TOP"
+        ],
+        [
+          "K1.43"
+        ],
+        [
+          "K4.44"
+        ],
+        [
+          "TB22.BOT",
+          "TB22.TOP"
+        ],
+        [
+          "TB23.BOT",
+          "TB23.TOP"
+        ],
+        [
+          "S2.L2"
+        ],
+        [
+          "K6.44"
+        ],
+        [
+          "J5.2"
+        ],
+        [
+          "S2.L4"
+        ]
+      ]
+    },
+    {
+      "net": "/L1_FUSED",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "SW1.1"
+        ],
+        [
+          "FH1.P1.B"
+        ]
+      ]
+    },
+    {
+      "net": "/L1_PSU",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "PS1.3_BOT"
+        ],
+        [
+          "Q1.2"
+        ]
+      ]
+    },
+    {
+      "net": "/L2_FUSED",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "FH1.P2.B"
+        ],
+        [
+          "SW1.3"
+        ]
+      ]
+    },
+    {
+      "net": "/L2_PSU",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "PS1.2_BOT"
+        ],
+        [
+          "Q1.4"
+        ]
+      ]
+    },
+    {
+      "net": "/L3_FUSED",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "SW1.5"
+        ],
+        [
+          "FH1.P3.B"
+        ]
+      ]
+    },
+    {
+      "net": "0V",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "SP5.2"
+        ],
+        [
+          "K4.A2.TOP"
+        ],
+        [
+          "K1.A2.TOP"
+        ],
+        [
+          "TB11.BOT",
+          "TB11.TOP"
+        ],
+        [
+          "TB12.BOT",
+          "TB12.TOP"
+        ],
+        [
+          "K2.A2.BOT"
+        ],
+        [
+          "SP1.2"
+        ],
+        [
+          "H1.X2"
+        ],
+        [
+          "SP4.2"
+        ],
+        [
+          "TB14.BOT",
+          "TB14.TOP"
+        ],
+        [
+          "K5.A2.BOT"
+        ],
+        [
+          "SP3.2"
+        ],
+        [
+          "TB10.BOT",
+          "TB10.TOP"
+        ],
+        [
+          "TB13.BOT",
+          "TB13.TOP"
+        ],
+        [
+          "K6.A2.BOT"
+        ],
+        [
+          "K2.A2.TOP"
+        ],
+        [
+          "K4.A2.BOT"
+        ],
+        [
+          "K3.A2"
+        ],
+        [
+          "K1.A2.BOT"
+        ],
+        [
+          "K5.A2.TOP"
+        ],
+        [
+          "PS1.2_TOP"
+        ],
+        [
+          "PS1.1_TOP"
+        ],
+        [
+          "SP2.2"
+        ],
+        [
+          "K6.A2.TOP"
+        ]
+      ]
+    },
+    {
+      "net": "ESTOP_ENABLE",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K3.A1+"
+        ],
+        [
+          "J1.4"
+        ],
+        [
+          "J6.4"
+        ],
+        [
+          "S1.4"
+        ],
+        [
+          "TB33.BOT",
+          "TB33.TOP"
+        ]
+      ]
+    },
+    {
+      "net": "FWD_CMD",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K1.44"
+        ],
+        [
+          "K2.31"
+        ],
+        [
+          "S2.R1"
+        ],
+        [
+          "J5.3"
+        ]
+      ]
+    },
+    {
+      "net": "HIGH_CMD",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "J5.7"
+        ],
+        [
+          "K4.31"
+        ],
+        [
+          "S3.2.U"
+        ]
+      ]
+    },
+    {
+      "net": "HS_SHORT",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K5.5"
+        ],
+        [
+          "K5.1"
+        ],
+        [
+          "K5.3"
+        ]
+      ]
+    },
+    {
+      "net": "L1_DIR",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K2.6"
+        ],
+        [
+          "K4.1"
+        ],
+        [
+          "K6.1"
+        ],
+        [
+          "K1.2"
+        ]
+      ]
+    },
+    {
+      "net": "L1_IN",
+      "covered": true,
+      "remaining_groups": [
+        [
+          "FH1.P1.A",
+          "J2.X",
+          "J3.X",
+          "TB40.BOT",
+          "TB40.TOP"
+        ]
+      ]
+    },
+    {
+      "net": "L1_SW",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K2.1"
+        ],
+        [
+          "SW1.2"
+        ],
+        [
+          "Q1.1"
+        ],
+        [
+          "K1.1"
+        ]
+      ]
+    },
+    {
+      "net": "L2_DIR",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K6.3"
+        ],
+        [
+          "K1.4"
+        ],
+        [
+          "K4.3"
+        ],
+        [
+          "K2.4"
+        ]
+      ]
+    },
+    {
+      "net": "L2_IN",
+      "covered": true,
+      "remaining_groups": [
+        [
+          "FH1.P2.A",
+          "J2.Y",
+          "J3.Y",
+          "TB41.BOT",
+          "TB41.TOP"
+        ]
+      ]
+    },
+    {
+      "net": "L2_SW",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "Q1.3"
+        ],
+        [
+          "K2.3"
+        ],
+        [
+          "SW1.4"
+        ],
+        [
+          "K1.3"
+        ]
+      ]
+    },
+    {
+      "net": "L3_DIR",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K2.2"
+        ],
+        [
+          "K1.6"
+        ],
+        [
+          "K4.5"
+        ],
+        [
+          "K6.5"
+        ]
+      ]
+    },
+    {
+      "net": "L3_IN",
+      "covered": true,
+      "remaining_groups": [
+        [
+          "FH1.P3.A",
+          "J2.Z",
+          "J3.Z",
+          "TB42.BOT",
+          "TB42.TOP"
+        ]
+      ]
+    },
+    {
+      "net": "L3_SW",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K1.5"
+        ],
+        [
+          "SW1.6"
+        ],
+        [
+          "K2.5"
+        ]
+      ]
+    },
+    {
+      "net": "LOW_CMD",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "J5.6"
+        ],
+        [
+          "S3.3.U"
+        ],
+        [
+          "K6.31"
+        ],
+        [
+          "S3.1.U"
+        ]
+      ]
+    },
+    {
+      "net": "M1_T1",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "TB60.BOT",
+          "TB60.TOP"
+        ],
+        [
+          "K5.2"
+        ],
+        [
+          "TB61.BOT",
+          "TB61.TOP"
+        ],
+        [
+          "J4.T1"
+        ],
+        [
+          "OL1.2"
+        ],
+        [
+          "M1.T1"
+        ]
+      ]
+    },
+    {
+      "net": "M1_T2",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "TB62.BOT",
+          "TB62.TOP"
+        ],
+        [
+          "J4.T2"
+        ],
+        [
+          "M1.T2"
+        ],
+        [
+          "TB63.BOT",
+          "TB63.TOP"
+        ],
+        [
+          "OL1.4"
+        ],
+        [
+          "K5.4"
+        ]
+      ]
+    },
+    {
+      "net": "M1_T3",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "OL1.6"
+        ],
+        [
+          "TB64.BOT",
+          "TB64.TOP"
+        ],
+        [
+          "J4.T3"
+        ],
+        [
+          "K5.6"
+        ],
+        [
+          "M1.T3"
+        ],
+        [
+          "TB65.BOT",
+          "TB65.TOP"
+        ]
+      ]
+    },
+    {
+      "net": "M1_T4",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "OL2.4"
+        ],
+        [
+          "TB66.BOT",
+          "TB66.TOP"
+        ],
+        [
+          "J4.T4"
+        ],
+        [
+          "M1.T4"
+        ]
+      ]
+    },
+    {
+      "net": "M1_T5",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "TB67.BOT",
+          "TB67.TOP"
+        ],
+        [
+          "OL2.6"
+        ],
+        [
+          "M1.T5"
+        ],
+        [
+          "J4.T5"
+        ]
+      ]
+    },
+    {
+      "net": "M1_T6",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "M1.T6"
+        ],
+        [
+          "J4.T6"
+        ],
+        [
+          "TB68.BOT",
+          "TB68.TOP"
+        ],
+        [
+          "OL2.2"
+        ]
+      ]
+    },
+    {
+      "net": "Net-(J1-Pad2)",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "S1.3"
+        ],
+        [
+          "TB32.BOT",
+          "TB32.TOP"
+        ],
+        [
+          "J6.3"
+        ],
+        [
+          "TB31.BOT",
+          "TB31.TOP"
+        ],
+        [
+          "J1.3"
+        ],
+        [
+          "J6.2"
+        ],
+        [
+          "J1.2"
+        ],
+        [
+          "S1.2"
+        ]
+      ]
+    },
+    {
+      "net": "Net-(K1A-A1_BOT)",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K1.A1.TOP"
+        ],
+        [
+          "SP1.1"
+        ],
+        [
+          "K1.A1.BOT"
+        ],
+        [
+          "K2.32"
+        ]
+      ]
+    },
+    {
+      "net": "Net-(K1A-AUX_NC_2)",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K2.A1.BOT"
+        ],
+        [
+          "SP2.1"
+        ],
+        [
+          "K1.32"
+        ],
+        [
+          "K2.A1.TOP"
+        ]
+      ]
+    },
+    {
+      "net": "Net-(K3-NO1-Pad14)",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K3.14"
+        ],
+        [
+          "K3.23"
+        ]
+      ]
+    },
+    {
+      "net": "Net-(K4A-A1_BOT)",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K4.A1.TOP"
+        ],
+        [
+          "SP3.1"
+        ],
+        [
+          "K4.A1.BOT"
+        ],
+        [
+          "K5.32"
+        ]
+      ]
+    },
+    {
+      "net": "Net-(K4A-AUX_NC_2)",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K5.A1.BOT"
+        ],
+        [
+          "K5.A1.TOP"
+        ],
+        [
+          "K4.32"
+        ],
+        [
+          "SP4.1"
+        ],
+        [
+          "K5.43"
+        ]
+      ]
+    },
+    {
+      "net": "Net-(K4B-T1)",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K4.2"
+        ],
+        [
+          "OL1.IN1"
+        ]
+      ]
+    },
+    {
+      "net": "Net-(K4B-T2)",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "OL1.IN2"
+        ],
+        [
+          "K4.4"
+        ]
+      ]
+    },
+    {
+      "net": "Net-(K4B-T3)",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "OL1.IN3"
+        ],
+        [
+          "K4.6"
+        ]
+      ]
+    },
+    {
+      "net": "Net-(K5A-AUX_NC_1)",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K5.31"
+        ],
+        [
+          "K6.32"
+        ]
+      ]
+    },
+    {
+      "net": "Net-(K5A-AUX_NO_2)",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K5.44"
+        ],
+        [
+          "K6.A1.TOP"
+        ],
+        [
+          "K6.A1.BOT"
+        ],
+        [
+          "SP5.1"
+        ]
+      ]
+    },
+    {
+      "net": "Net-(K6B-T1)",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "OL2.IN1"
+        ],
+        [
+          "K6.2"
+        ]
+      ]
+    },
+    {
+      "net": "Net-(K6B-T2)",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K6.4"
+        ],
+        [
+          "OL2.IN2"
+        ]
+      ]
+    },
+    {
+      "net": "Net-(K6B-T3)",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K6.6"
+        ],
+        [
+          "OL2.IN3"
+        ]
+      ]
+    },
+    {
+      "net": "Net-(OL1B-TRIP_NC_2)",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "OL2.95"
+        ],
+        [
+          "OL1.96"
+        ]
+      ]
+    },
+    {
+      "net": "Net-(S2A-FWD_NC_2)",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "S2.R2"
+        ],
+        [
+          "S2.R4"
+        ]
+      ]
+    },
+    {
+      "net": "Net-(S3-HI3_L)",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "S3.4.L"
+        ],
+        [
+          "S3.3.L"
+        ],
+        [
+          "S3.5.L"
+        ]
+      ]
+    },
+    {
+      "net": "Net-(S3-HI5_U)",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "S3.7.U"
+        ],
+        [
+          "S3.5.U"
+        ]
+      ]
+    },
+    {
+      "net": "Net-(S3-HI6_U)",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "S3.6.U"
+        ],
+        [
+          "S3.4.U"
+        ]
+      ]
+    },
+    {
+      "net": "Net-(S3-HI8_L)",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "S3.7.L"
+        ],
+        [
+          "S3.8.L"
+        ]
+      ]
+    },
+    {
+      "net": "PE",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "TB50.BOT",
+          "TB50.PE",
+          "TB50.TOP"
+        ],
+        [
+          "J2.G"
+        ],
+        [
+          "TB51.BOT",
+          "TB51.PE",
+          "TB51.TOP"
+        ],
+        [
+          "J3.G"
+        ],
+        [
+          "TB52.BOT",
+          "TB52.PE",
+          "TB52.TOP"
+        ],
+        [
+          "PS1.1_BOT"
+        ]
+      ]
+    },
+    {
+      "net": "REV_CMD",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "J5.4"
+        ],
+        [
+          "K1.31"
+        ],
+        [
+          "K2.44"
+        ],
+        [
+          "S2.R3"
+        ]
+      ]
+    },
+    {
+      "net": "STOP_CHAIN",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "S2.L5"
+        ],
+        [
+          "OL2.96"
+        ],
+        [
+          "J5.5"
+        ]
+      ]
+    }
+  ],
+  "unfinished_symbols_outside_recorded_nets": [],
+  "inherited_wire_fields_on_copied_symbols": [],
+  "records": [
+    {
+      "id": "W001",
+      "section": "01 Incoming phases",
+      "from": "J2.X",
+      "to": "TB40.BOT",
+      "net": "L1_IN",
+      "kind": "panel_cable_core",
+      "review": "pending",
+      "route_from": "J3.X",
+      "route_to": "TB40.BOT",
+      "route_mm": 216.781,
+      "slack_mm": 200.0,
+      "cut_mm": 450.0,
+      "route_points": [
+        [
+          53.19,
+          477.241
+        ],
+        [
+          53.19,
+          422.0
+        ],
+        [
+          10.0,
+          422.0
+        ],
+        [
+          10.0,
+          402.0
+        ],
+        [
+          21.5,
+          402.0
+        ],
+        [
+          21.5,
+          315.15
+        ]
+      ],
+      "exported": true,
+      "row": [
+        "Mains Plug",
+        "L1",
+        "TB40",
+        "BOT",
+        "12",
+        "450",
+        "plug clamp",
+        "Ferrule 12 AWG; L=TBD mm"
+      ],
+      "length_mode": "auto"
+    },
+    {
+      "id": "W002",
+      "section": "01 Incoming phases",
+      "from": "TB40.TOP",
+      "to": "FH1.P1.A",
+      "net": "L1_IN",
+      "kind": "wire",
+      "review": "pending",
+      "route_from": "TB40.TOP",
+      "route_to": "FH1.P1.A",
+      "route_mm": 999.938,
+      "slack_mm": 200.0,
+      "cut_mm": 1200.0,
+      "route_points": [
+        [
+          21.5,
+          299.85
+        ],
+        [
+          21.5,
+          217.0
+        ],
+        [
+          21.5,
+          207.0
+        ],
+        [
+          430.0,
+          207.0
+        ],
+        [
+          430.0,
+          52.0
+        ],
+        [
+          131.38151,
+          52.0
+        ],
+        [
+          131.38151,
+          62.0
+        ],
+        [
+          131.38151,
+          96.97
+        ]
+      ],
+      "exported": true,
+      "row": [
+        "TB40",
+        "TOP",
+        "Fuse Holder",
+        "P1.A TOP",
+        "14",
+        "1200",
+        "Ferrule 14 AWG; L=TBD mm",
+        "Ferrule 14 AWG; L=TBD mm"
+      ],
+      "length_mode": "auto"
+    },
+    {
+      "id": "W003",
+      "section": "01 Incoming phases",
+      "from": "J2.Y",
+      "to": "TB41.BOT",
+      "net": "L2_IN",
+      "kind": "panel_cable_core",
+      "review": "pending",
+      "route_from": "J3.Y",
+      "route_to": "TB41.BOT",
+      "route_mm": 224.321,
+      "slack_mm": 200.0,
+      "cut_mm": 450.0,
+      "route_points": [
+        [
+          55.73,
+          477.241
+        ],
+        [
+          55.73,
+          422.0
+        ],
+        [
+          10.0,
+          422.0
+        ],
+        [
+          10.0,
+          402.0
+        ],
+        [
+          26.5,
+          402.0
+        ],
+        [
+          26.5,
+          315.15
+        ]
+      ],
+      "exported": true,
+      "row": [
+        "Mains Plug",
+        "L2",
+        "TB41",
+        "BOT",
+        "12",
+        "450",
+        "plug clamp",
+        "Ferrule 12 AWG; L=TBD mm"
+      ],
+      "length_mode": "auto"
+    },
+    {
+      "id": "W004",
+      "section": "01 Incoming phases",
+      "from": "TB41.TOP",
+      "to": "FH1.P2.A",
+      "net": "L2_IN",
+      "kind": "wire",
+      "review": "pending",
+      "route_from": "TB41.TOP",
+      "route_to": "FH1.P2.A",
+      "route_mm": 970.426,
+      "slack_mm": 200.0,
+      "cut_mm": 1200.0,
+      "route_points": [
+        [
+          26.5,
+          299.85
+        ],
+        [
+          26.5,
+          217.0
+        ],
+        [
+          26.5,
+          207.0
+        ],
+        [
+          430.0,
+          207.0
+        ],
+        [
+          430.0,
+          52.0
+        ],
+        [
+          155.89411,
+          52.0
+        ],
+        [
+          155.89411,
+          62.0
+        ],
+        [
+          155.89411,
+          96.97
+        ]
+      ],
+      "exported": true,
+      "row": [
+        "TB41",
+        "TOP",
+        "Fuse Holder",
+        "P2.A TOP",
+        "14",
+        "1200",
+        "Ferrule 14 AWG; L=TBD mm",
+        "Ferrule 14 AWG; L=TBD mm"
+      ],
+      "length_mode": "auto"
+    },
+    {
+      "id": "W005",
+      "section": "01 Incoming phases",
+      "from": "J2.Z",
+      "to": "TB42.BOT",
+      "net": "L3_IN",
+      "kind": "panel_cable_core",
+      "review": "pending",
+      "route_from": "J3.Z",
+      "route_to": "TB42.BOT",
+      "route_mm": 231.861,
+      "slack_mm": 200.0,
+      "cut_mm": 450.0,
+      "route_points": [
+        [
+          58.27,
+          477.241
+        ],
+        [
+          58.27,
+          422.0
+        ],
+        [
+          10.0,
+          422.0
+        ],
+        [
+          10.0,
+          402.0
+        ],
+        [
+          31.5,
+          402.0
+        ],
+        [
+          31.5,
+          315.15
+        ]
+      ],
+      "exported": true,
+      "row": [
+        "Mains Plug",
+        "L3",
+        "TB42",
+        "BOT",
+        "12",
+        "450",
+        "plug clamp",
+        "Ferrule 12 AWG; L=TBD mm"
+      ],
+      "length_mode": "auto"
+    },
+    {
+      "id": "W006",
+      "section": "01 Incoming phases",
+      "from": "TB42.TOP",
+      "to": "FH1.P3.A",
+      "net": "L3_IN",
+      "kind": "wire",
+      "review": "pending",
+      "route_from": "TB42.TOP",
+      "route_to": "FH1.P3.A",
+      "route_mm": 940.913,
+      "slack_mm": 200.0,
+      "cut_mm": 1150.0,
+      "route_points": [
+        [
+          31.5,
+          299.85
+        ],
+        [
+          31.5,
+          217.0
+        ],
+        [
+          31.5,
+          207.0
+        ],
+        [
+          430.0,
+          207.0
+        ],
+        [
+          430.0,
+          52.0
+        ],
+        [
+          180.40672,
+          52.0
+        ],
+        [
+          180.40672,
+          62.0
+        ],
+        [
+          180.40672,
+          96.97
+        ]
+      ],
+      "exported": true,
+      "row": [
+        "TB42",
+        "TOP",
+        "Fuse Holder",
+        "P3.A TOP",
+        "14",
+        "1150",
+        "Ferrule 14 AWG; L=TBD mm",
+        "Ferrule 14 AWG; L=TBD mm"
+      ],
+      "length_mode": "auto"
+    }
+  ],
+  "csv_is_generated": true
+}

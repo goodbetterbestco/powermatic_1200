@@ -1,0 +1,2677 @@
+{
+  "rows": [
+    {
+      "id": "W001",
+      "group": "Power",
+      "net": "L1_IN",
+      "from_pin": "J3.X",
+      "to_pin": "TB40.2",
+      "kind": "cable core",
+      "awg": 12,
+      "color": "cable core",
+      "route_mm": 184.1,
+      "allowance_mm": 200,
+      "estimate_mm": 400,
+      "path": "duct Y=412",
+      "terms": [
+        "plug clamp",
+        "ferrule"
+      ],
+      "remote_pin": "J2.X",
+      "note": "Panel tail only; supplied by the existing 10 ft cable allowance, not loose wire. "
+    },
+    {
+      "id": "W002",
+      "group": "Power",
+      "net": "L1_IN",
+      "from_pin": "TB40.1",
+      "to_pin": "FH1.P1.A",
+      "kind": "loose",
+      "awg": 14,
+      "color": "black",
+      "route_mm": 989.6,
+      "allowance_mm": 200,
+      "estimate_mm": 1200,
+      "path": "duct Y=207; right trunk X=430; duct Y=52",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W003",
+      "group": "Power",
+      "net": "/L1_FUSED",
+      "from_pin": "FH1.P1.B",
+      "to_pin": "SW1.1",
+      "kind": "loose",
+      "awg": 14,
+      "color": "black",
+      "route_mm": 969.6,
+      "allowance_mm": 200,
+      "estimate_mm": 1200,
+      "path": "duct Y=207; right trunk X=430; duct Y=52",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W004",
+      "group": "Power",
+      "net": "L1_SW",
+      "from_pin": "SW1.2",
+      "to_pin": "K1.1",
+      "kind": "loose",
+      "awg": 14,
+      "color": "black",
+      "route_mm": 832.2,
+      "allowance_mm": 200,
+      "estimate_mm": 1050,
+      "path": "duct Y=207; right trunk X=430; duct Y=52",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": "HMX1-BBREV distributes to K2; one wire plus the kit bar at this terminal."
+    },
+    {
+      "id": "W005",
+      "group": "Power",
+      "net": "L2_IN",
+      "from_pin": "J3.Y",
+      "to_pin": "TB41.2",
+      "kind": "cable core",
+      "awg": 12,
+      "color": "cable core",
+      "route_mm": 181.7,
+      "allowance_mm": 200,
+      "estimate_mm": 400,
+      "path": "duct Y=412",
+      "terms": [
+        "plug clamp",
+        "ferrule"
+      ],
+      "remote_pin": "J2.Y",
+      "note": "Panel tail only; supplied by the existing 10 ft cable allowance, not loose wire. "
+    },
+    {
+      "id": "W006",
+      "group": "Power",
+      "net": "L2_IN",
+      "from_pin": "TB41.1",
+      "to_pin": "FH1.P2.A",
+      "kind": "loose",
+      "awg": 14,
+      "color": "black",
+      "route_mm": 960.1,
+      "allowance_mm": 200,
+      "estimate_mm": 1200,
+      "path": "duct Y=207; right trunk X=430; duct Y=52",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W007",
+      "group": "Power",
+      "net": "/L2_FUSED",
+      "from_pin": "FH1.P2.B",
+      "to_pin": "SW1.3",
+      "kind": "loose",
+      "awg": 14,
+      "color": "black",
+      "route_mm": 948.9,
+      "allowance_mm": 200,
+      "estimate_mm": 1150,
+      "path": "duct Y=207; right trunk X=430; duct Y=52",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W008",
+      "group": "Power",
+      "net": "L2_SW",
+      "from_pin": "SW1.4",
+      "to_pin": "K1.3",
+      "kind": "loose",
+      "awg": 14,
+      "color": "black",
+      "route_mm": 806,
+      "allowance_mm": 200,
+      "estimate_mm": 1050,
+      "path": "duct Y=207; right trunk X=430; duct Y=52",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": "HMX1-BBREV distributes to K2; one wire plus the kit bar at this terminal."
+    },
+    {
+      "id": "W009",
+      "group": "Power",
+      "net": "L3_IN",
+      "from_pin": "J3.Z",
+      "to_pin": "TB42.2",
+      "kind": "cable core",
+      "awg": 12,
+      "color": "cable core",
+      "route_mm": 179.2,
+      "allowance_mm": 200,
+      "estimate_mm": 400,
+      "path": "duct Y=412",
+      "terms": [
+        "plug clamp",
+        "ferrule"
+      ],
+      "remote_pin": "J2.Z",
+      "note": "Panel tail only; supplied by the existing 10 ft cable allowance, not loose wire. "
+    },
+    {
+      "id": "W010",
+      "group": "Power",
+      "net": "L3_IN",
+      "from_pin": "TB42.1",
+      "to_pin": "FH1.P3.A",
+      "kind": "loose",
+      "awg": 14,
+      "color": "black",
+      "route_mm": 930.6,
+      "allowance_mm": 200,
+      "estimate_mm": 1150,
+      "path": "duct Y=207; right trunk X=430; duct Y=52",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W011",
+      "group": "Power",
+      "net": "/L3_FUSED",
+      "from_pin": "FH1.P3.B",
+      "to_pin": "SW1.5",
+      "kind": "loose",
+      "awg": 14,
+      "color": "black",
+      "route_mm": 934.8,
+      "allowance_mm": 200,
+      "estimate_mm": 1150,
+      "path": "duct Y=207; right trunk X=430; duct Y=52",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W012",
+      "group": "Power",
+      "net": "L3_SW",
+      "from_pin": "SW1.6",
+      "to_pin": "K1.5",
+      "kind": "loose",
+      "awg": 14,
+      "color": "black",
+      "route_mm": 804.4,
+      "allowance_mm": 200,
+      "estimate_mm": 1050,
+      "path": "duct Y=207; right trunk X=430; duct Y=52",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": "HMX1-BBREV distributes to K2; one wire plus the kit bar at this terminal."
+    },
+    {
+      "id": "W013",
+      "group": "Power",
+      "net": "L1_SW",
+      "from_pin": "K2.1",
+      "to_pin": "Q1.1",
+      "kind": "loose",
+      "awg": 14,
+      "color": "black",
+      "route_mm": 734.1,
+      "allowance_mm": 200,
+      "estimate_mm": 950,
+      "path": "duct Y=52; right trunk X=430; duct Y=207",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W014",
+      "group": "Power",
+      "net": "L2_SW",
+      "from_pin": "K2.3",
+      "to_pin": "Q1.3",
+      "kind": "loose",
+      "awg": 14,
+      "color": "black",
+      "route_mm": 704.4,
+      "allowance_mm": 200,
+      "estimate_mm": 950,
+      "path": "duct Y=52; right trunk X=430; duct Y=207",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W015",
+      "group": "Power",
+      "net": "/L1_PSU",
+      "from_pin": "Q1.2",
+      "to_pin": "PS1.TB1.3",
+      "kind": "loose",
+      "awg": 14,
+      "color": "black",
+      "route_mm": 201.2,
+      "allowance_mm": 200,
+      "estimate_mm": 450,
+      "path": "duct Y=412",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W016",
+      "group": "Power",
+      "net": "/L2_PSU",
+      "from_pin": "Q1.4",
+      "to_pin": "PS1.TB1.2",
+      "kind": "loose",
+      "awg": 14,
+      "color": "black",
+      "route_mm": 175.9,
+      "allowance_mm": 200,
+      "estimate_mm": 400,
+      "path": "duct Y=412",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W017",
+      "group": "Motor",
+      "net": "L1_DIR",
+      "from_pin": "K1.2",
+      "to_pin": "K4.1",
+      "kind": "loose",
+      "awg": 14,
+      "color": "black",
+      "route_mm": 131.1,
+      "allowance_mm": 200,
+      "estimate_mm": 350,
+      "path": "duct Y=207",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W018",
+      "group": "Motor",
+      "net": "L1_DIR",
+      "from_pin": "K2.6",
+      "to_pin": "K6.1",
+      "kind": "loose",
+      "awg": 14,
+      "color": "black",
+      "route_mm": 267.6,
+      "allowance_mm": 200,
+      "estimate_mm": 500,
+      "path": "duct Y=207",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W019",
+      "group": "Motor",
+      "net": "L2_DIR",
+      "from_pin": "K1.4",
+      "to_pin": "K4.3",
+      "kind": "loose",
+      "awg": 14,
+      "color": "black",
+      "route_mm": 131.1,
+      "allowance_mm": 200,
+      "estimate_mm": 350,
+      "path": "duct Y=207",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W020",
+      "group": "Motor",
+      "net": "L2_DIR",
+      "from_pin": "K2.4",
+      "to_pin": "K6.3",
+      "kind": "loose",
+      "awg": 14,
+      "color": "black",
+      "route_mm": 243.6,
+      "allowance_mm": 200,
+      "estimate_mm": 450,
+      "path": "duct Y=207",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W021",
+      "group": "Motor",
+      "net": "L3_DIR",
+      "from_pin": "K1.6",
+      "to_pin": "K4.5",
+      "kind": "loose",
+      "awg": 14,
+      "color": "black",
+      "route_mm": 131.1,
+      "allowance_mm": 200,
+      "estimate_mm": 350,
+      "path": "duct Y=207",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W022",
+      "group": "Motor",
+      "net": "L3_DIR",
+      "from_pin": "K2.2",
+      "to_pin": "K6.5",
+      "kind": "loose",
+      "awg": 14,
+      "color": "black",
+      "route_mm": 219.6,
+      "allowance_mm": 200,
+      "estimate_mm": 450,
+      "path": "duct Y=207",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W023",
+      "group": "Motor",
+      "net": "HS_SHORT",
+      "from_pin": "K5.1",
+      "to_pin": "K5.3",
+      "kind": "loose",
+      "awg": 14,
+      "color": "black",
+      "route_mm": 150,
+      "allowance_mm": 0,
+      "estimate_mm": 150,
+      "path": "bond allowance",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": "HS_SHORT local jumper; two conductors at K5.3. Twin-ferrule or suitable shorting link fit must be checked."
+    },
+    {
+      "id": "W024",
+      "group": "Motor",
+      "net": "HS_SHORT",
+      "from_pin": "K5.3",
+      "to_pin": "K5.5",
+      "kind": "loose",
+      "awg": 14,
+      "color": "black",
+      "route_mm": 150,
+      "allowance_mm": 0,
+      "estimate_mm": 150,
+      "path": "bond allowance",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": "HS_SHORT local jumper; two conductors at K5.3. Twin-ferrule or suitable shorting link fit must be checked."
+    },
+    {
+      "id": "W025",
+      "group": "Motor",
+      "net": "M1_T1",
+      "from_pin": "OL1.2",
+      "to_pin": "TB60.1",
+      "kind": "loose",
+      "awg": 14,
+      "color": "black",
+      "route_mm": 714.7,
+      "allowance_mm": 200,
+      "estimate_mm": 950,
+      "path": "duct Y=412; right trunk X=430; duct Y=207",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W026",
+      "group": "Motor",
+      "net": "M1_T1",
+      "from_pin": "K5.2",
+      "to_pin": "TB61.2",
+      "kind": "loose",
+      "awg": 14,
+      "color": "black",
+      "route_mm": 337.1,
+      "allowance_mm": 200,
+      "estimate_mm": 550,
+      "path": "duct Y=412",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W027",
+      "group": "Motor",
+      "net": "M1_T1",
+      "from_pin": "J4.T1",
+      "to_pin": "TB60.2",
+      "kind": "cable core",
+      "awg": 16,
+      "color": "cable core",
+      "route_mm": 354.1,
+      "allowance_mm": 200,
+      "estimate_mm": 600,
+      "path": "duct Y=412",
+      "terms": [
+        "motor splice",
+        "ferrule"
+      ],
+      "remote_pin": "M1.T1",
+      "note": "Panel tail only; supplied by the existing 10 ft cable allowance, not loose wire. "
+    },
+    {
+      "id": "W028",
+      "group": "Motor",
+      "net": "M1_T2",
+      "from_pin": "OL1.4",
+      "to_pin": "TB62.1",
+      "kind": "loose",
+      "awg": 14,
+      "color": "black",
+      "route_mm": 690.4,
+      "allowance_mm": 200,
+      "estimate_mm": 900,
+      "path": "duct Y=412; right trunk X=430; duct Y=207",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W029",
+      "group": "Motor",
+      "net": "M1_T2",
+      "from_pin": "K5.4",
+      "to_pin": "TB63.2",
+      "kind": "loose",
+      "awg": 14,
+      "color": "black",
+      "route_mm": 339.1,
+      "allowance_mm": 200,
+      "estimate_mm": 550,
+      "path": "duct Y=412",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W030",
+      "group": "Motor",
+      "net": "M1_T2",
+      "from_pin": "J4.T2",
+      "to_pin": "TB62.2",
+      "kind": "cable core",
+      "awg": 16,
+      "color": "cable core",
+      "route_mm": 346.6,
+      "allowance_mm": 200,
+      "estimate_mm": 550,
+      "path": "duct Y=412",
+      "terms": [
+        "motor splice",
+        "ferrule"
+      ],
+      "remote_pin": "M1.T2",
+      "note": "Panel tail only; supplied by the existing 10 ft cable allowance, not loose wire. "
+    },
+    {
+      "id": "W031",
+      "group": "Motor",
+      "net": "M1_T3",
+      "from_pin": "OL1.6",
+      "to_pin": "TB64.1",
+      "kind": "loose",
+      "awg": 14,
+      "color": "black",
+      "route_mm": 666.1,
+      "allowance_mm": 200,
+      "estimate_mm": 900,
+      "path": "duct Y=412; right trunk X=430; duct Y=207",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W032",
+      "group": "Motor",
+      "net": "M1_T3",
+      "from_pin": "K5.6",
+      "to_pin": "TB65.2",
+      "kind": "loose",
+      "awg": 14,
+      "color": "black",
+      "route_mm": 341.1,
+      "allowance_mm": 200,
+      "estimate_mm": 550,
+      "path": "duct Y=412",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W033",
+      "group": "Motor",
+      "net": "M1_T3",
+      "from_pin": "J4.T3",
+      "to_pin": "TB64.2",
+      "kind": "cable core",
+      "awg": 16,
+      "color": "cable core",
+      "route_mm": 339.2,
+      "allowance_mm": 200,
+      "estimate_mm": 550,
+      "path": "duct Y=412",
+      "terms": [
+        "motor splice",
+        "ferrule"
+      ],
+      "remote_pin": "M1.T3",
+      "note": "Panel tail only; supplied by the existing 10 ft cable allowance, not loose wire. "
+    },
+    {
+      "id": "W034",
+      "group": "Motor",
+      "net": "M1_T4",
+      "from_pin": "OL2.4",
+      "to_pin": "TB66.1",
+      "kind": "loose",
+      "awg": 14,
+      "color": "black",
+      "route_mm": 722.9,
+      "allowance_mm": 200,
+      "estimate_mm": 950,
+      "path": "duct Y=412; right trunk X=430; duct Y=207",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W035",
+      "group": "Motor",
+      "net": "M1_T4",
+      "from_pin": "J4.T4",
+      "to_pin": "TB66.2",
+      "kind": "cable core",
+      "awg": 16,
+      "color": "cable core",
+      "route_mm": 329.7,
+      "allowance_mm": 200,
+      "estimate_mm": 550,
+      "path": "duct Y=412",
+      "terms": [
+        "motor splice",
+        "ferrule"
+      ],
+      "remote_pin": "M1.T4",
+      "note": "Panel tail only; supplied by the existing 10 ft cable allowance, not loose wire. "
+    },
+    {
+      "id": "W036",
+      "group": "Motor",
+      "net": "M1_T5",
+      "from_pin": "OL2.6",
+      "to_pin": "TB67.1",
+      "kind": "loose",
+      "awg": 14,
+      "color": "black",
+      "route_mm": 703.6,
+      "allowance_mm": 200,
+      "estimate_mm": 950,
+      "path": "duct Y=412; right trunk X=430; duct Y=207",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W037",
+      "group": "Motor",
+      "net": "M1_T5",
+      "from_pin": "J4.T5",
+      "to_pin": "TB67.2",
+      "kind": "cable core",
+      "awg": 16,
+      "color": "cable core",
+      "route_mm": 327.3,
+      "allowance_mm": 200,
+      "estimate_mm": 550,
+      "path": "duct Y=412",
+      "terms": [
+        "motor splice",
+        "ferrule"
+      ],
+      "remote_pin": "M1.T5",
+      "note": "Panel tail only; supplied by the existing 10 ft cable allowance, not loose wire. "
+    },
+    {
+      "id": "W038",
+      "group": "Motor",
+      "net": "M1_T6",
+      "from_pin": "OL2.2",
+      "to_pin": "TB68.1",
+      "kind": "loose",
+      "awg": 14,
+      "color": "black",
+      "route_mm": 727.2,
+      "allowance_mm": 200,
+      "estimate_mm": 950,
+      "path": "duct Y=412; right trunk X=430; duct Y=207",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W039",
+      "group": "Motor",
+      "net": "M1_T6",
+      "from_pin": "J4.T6",
+      "to_pin": "TB68.2",
+      "kind": "cable core",
+      "awg": 16,
+      "color": "cable core",
+      "route_mm": 324.8,
+      "allowance_mm": 200,
+      "estimate_mm": 550,
+      "path": "duct Y=412",
+      "terms": [
+        "motor splice",
+        "ferrule"
+      ],
+      "remote_pin": "M1.T6",
+      "note": "Panel tail only; supplied by the existing 10 ft cable allowance, not loose wire. "
+    },
+    {
+      "id": "W040",
+      "group": "+24V / 0V",
+      "net": "+24V",
+      "from_pin": "PS1.TB2.3",
+      "to_pin": "TB1.2",
+      "kind": "loose",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 210.1,
+      "allowance_mm": 200,
+      "estimate_mm": 450,
+      "path": "duct Y=207",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W041",
+      "group": "+24V / 0V",
+      "net": "+24V",
+      "from_pin": "H1.X1",
+      "to_pin": "TB1.1",
+      "kind": "loose",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 286.3,
+      "allowance_mm": 200,
+      "estimate_mm": 500,
+      "path": "duct Y=52",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W042",
+      "group": "+24V / 0V",
+      "net": "+24V",
+      "from_pin": "K3.13",
+      "to_pin": "TB3.2",
+      "kind": "loose",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 185.9,
+      "allowance_mm": 200,
+      "estimate_mm": 400,
+      "path": "duct Y=207",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W043",
+      "group": "M12 / E-stop",
+      "net": "+24V",
+      "from_pin": "J1.1",
+      "to_pin": "TB2.2",
+      "kind": "M12 extension",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 310.2,
+      "allowance_mm": 200,
+      "estimate_mm": 350,
+      "path": "duct Y=207",
+      "terms": [
+        "splice",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": "200 mm factory 22 AWG pigtail retained; add 18 AWG extension and one 22-to-18 AWG splice. "
+    },
+    {
+      "id": "W044",
+      "group": "+24V / 0V",
+      "net": "0V",
+      "from_pin": "PS1.TB2.1",
+      "to_pin": "TB10.2",
+      "kind": "loose",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 239.8,
+      "allowance_mm": 200,
+      "estimate_mm": 450,
+      "path": "duct Y=207",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W045",
+      "group": "+24V / 0V",
+      "net": "0V",
+      "from_pin": "H1.X2",
+      "to_pin": "TB10.1",
+      "kind": "loose",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 303.7,
+      "allowance_mm": 200,
+      "estimate_mm": 550,
+      "path": "duct Y=52",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W046",
+      "group": "+24V / 0V",
+      "net": "0V",
+      "from_pin": "K1.A2.BOT",
+      "to_pin": "TB11.2",
+      "kind": "loose",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 188.9,
+      "allowance_mm": 200,
+      "estimate_mm": 400,
+      "path": "duct Y=207",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": "A2 TOP/BOT are internal duplicates; plug-on suppressors require no loose leads."
+    },
+    {
+      "id": "W047",
+      "group": "+24V / 0V",
+      "net": "0V",
+      "from_pin": "K2.A2.BOT",
+      "to_pin": "TB12.2",
+      "kind": "loose",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 240.9,
+      "allowance_mm": 200,
+      "estimate_mm": 450,
+      "path": "duct Y=207",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": "A2 TOP/BOT are internal duplicates; plug-on suppressors require no loose leads."
+    },
+    {
+      "id": "W048",
+      "group": "+24V / 0V",
+      "net": "0V",
+      "from_pin": "K4.A2.BOT",
+      "to_pin": "TB13.2",
+      "kind": "loose",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 639.1,
+      "allowance_mm": 200,
+      "estimate_mm": 850,
+      "path": "duct Y=412; right trunk X=430; duct Y=207",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": "A2 TOP/BOT are internal duplicates; plug-on suppressors require no loose leads."
+    },
+    {
+      "id": "W049",
+      "group": "+24V / 0V",
+      "net": "0V",
+      "from_pin": "K5.A2.BOT",
+      "to_pin": "TB14.2",
+      "kind": "loose",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 577.1,
+      "allowance_mm": 200,
+      "estimate_mm": 800,
+      "path": "duct Y=412; right trunk X=430; duct Y=207",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": "A2 TOP/BOT are internal duplicates; plug-on suppressors require no loose leads."
+    },
+    {
+      "id": "W050",
+      "group": "+24V / 0V",
+      "net": "0V",
+      "from_pin": "K6.A2.BOT",
+      "to_pin": "TB12.1",
+      "kind": "loose",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 856.6,
+      "allowance_mm": 200,
+      "estimate_mm": 1100,
+      "path": "duct Y=412; right trunk X=430; duct Y=52",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": "A2 TOP/BOT are internal duplicates; plug-on suppressors require no loose leads."
+    },
+    {
+      "id": "W051",
+      "group": "+24V / 0V",
+      "net": "0V",
+      "from_pin": "K3.A2",
+      "to_pin": "TB13.1",
+      "kind": "loose",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 726.9,
+      "allowance_mm": 200,
+      "estimate_mm": 950,
+      "path": "duct Y=207; right trunk X=430; duct Y=52",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W052",
+      "group": "CTRL / RUN",
+      "net": "+24V_CTRL",
+      "from_pin": "K4.43",
+      "to_pin": "TB20.2",
+      "kind": "loose",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 207.8,
+      "allowance_mm": 200,
+      "estimate_mm": 450,
+      "path": "duct Y=207",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W053",
+      "group": "CTRL / RUN",
+      "net": "+24V_CTRL",
+      "from_pin": "K6.43",
+      "to_pin": "TB21.2",
+      "kind": "loose",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 148.3,
+      "allowance_mm": 200,
+      "estimate_mm": 350,
+      "path": "duct Y=207",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W054",
+      "group": "CTRL / RUN",
+      "net": "+24V_RUN",
+      "from_pin": "K1.43",
+      "to_pin": "TB22.1",
+      "kind": "loose",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 178.7,
+      "allowance_mm": 200,
+      "estimate_mm": 400,
+      "path": "duct Y=52",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W055",
+      "group": "CTRL / RUN",
+      "net": "+24V_RUN",
+      "from_pin": "K2.43",
+      "to_pin": "TB23.1",
+      "kind": "loose",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 230.7,
+      "allowance_mm": 200,
+      "estimate_mm": 450,
+      "path": "duct Y=52",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W056",
+      "group": "CTRL / RUN",
+      "net": "+24V_RUN",
+      "from_pin": "K4.44",
+      "to_pin": "TB22.2",
+      "kind": "loose",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 615.3,
+      "allowance_mm": 200,
+      "estimate_mm": 850,
+      "path": "duct Y=412; right trunk X=430; duct Y=207",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W057",
+      "group": "CTRL / RUN",
+      "net": "+24V_RUN",
+      "from_pin": "K6.44",
+      "to_pin": "TB23.2",
+      "kind": "loose",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 664.8,
+      "allowance_mm": 200,
+      "estimate_mm": 900,
+      "path": "duct Y=412; right trunk X=430; duct Y=207",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W058",
+      "group": "CTRL / RUN",
+      "net": "+24V_CTRL",
+      "from_pin": "J5.1",
+      "to_pin": "TB20.1",
+      "kind": "cable core",
+      "awg": 18,
+      "color": "cable core",
+      "route_mm": 665.7,
+      "allowance_mm": 200,
+      "estimate_mm": 900,
+      "path": "duct Y=412; right trunk X=430; duct Y=52",
+      "terms": [
+        "remote terminal TBD",
+        "ferrule"
+      ],
+      "remote_pin": "S2.R5",
+      "note": "Panel tail only; supplied by the existing 10 ft cable allowance, not loose wire. "
+    },
+    {
+      "id": "W059",
+      "group": "CTRL / RUN",
+      "net": "+24V_RUN",
+      "from_pin": "J5.2",
+      "to_pin": "TB24.2",
+      "kind": "cable core",
+      "awg": 18,
+      "color": "cable core",
+      "route_mm": 485.2,
+      "allowance_mm": 200,
+      "estimate_mm": 700,
+      "path": "duct Y=412; right trunk X=430; duct Y=207",
+      "terms": [
+        "remote terminal TBD",
+        "ferrule"
+      ],
+      "remote_pin": "S2.L2",
+      "note": "Panel tail only; supplied by the existing 10 ft cable allowance, not loose wire. "
+    },
+    {
+      "id": "W060",
+      "group": "CTRL / RUN",
+      "net": "FWD_CMD",
+      "from_pin": "J5.3",
+      "to_pin": "K1.44",
+      "kind": "cable core",
+      "awg": 18,
+      "color": "cable core",
+      "route_mm": 430.3,
+      "allowance_mm": 200,
+      "estimate_mm": 650,
+      "path": "duct Y=412; right trunk X=430; duct Y=207",
+      "terms": [
+        "remote terminal TBD",
+        "ferrule"
+      ],
+      "remote_pin": "S2.R1",
+      "note": "Panel tail only; supplied by the existing 10 ft cable allowance, not loose wire. "
+    },
+    {
+      "id": "W061",
+      "group": "CTRL / RUN",
+      "net": "REV_CMD",
+      "from_pin": "J5.4",
+      "to_pin": "K2.44",
+      "kind": "cable core",
+      "awg": 18,
+      "color": "cable core",
+      "route_mm": 375.8,
+      "allowance_mm": 200,
+      "estimate_mm": 600,
+      "path": "duct Y=412; right trunk X=430; duct Y=207",
+      "terms": [
+        "remote terminal TBD",
+        "ferrule"
+      ],
+      "remote_pin": "S2.R3",
+      "note": "Panel tail only; supplied by the existing 10 ft cable allowance, not loose wire. "
+    },
+    {
+      "id": "W062",
+      "group": "CTRL / RUN",
+      "net": "STOP_CHAIN",
+      "from_pin": "J5.5",
+      "to_pin": "OL2.96",
+      "kind": "cable core",
+      "awg": 18,
+      "color": "cable core",
+      "route_mm": 304.6,
+      "allowance_mm": 200,
+      "estimate_mm": 550,
+      "path": "duct Y=412",
+      "terms": [
+        "remote terminal TBD",
+        "ferrule"
+      ],
+      "remote_pin": "S2.L5",
+      "note": "Panel tail only; supplied by the existing 10 ft cable allowance, not loose wire. "
+    },
+    {
+      "id": "W063",
+      "group": "CTRL / RUN",
+      "net": "LOW_CMD",
+      "from_pin": "J5.6",
+      "to_pin": "K6.31",
+      "kind": "cable core",
+      "awg": 18,
+      "color": "cable core",
+      "route_mm": 525.8,
+      "allowance_mm": 200,
+      "estimate_mm": 750,
+      "path": "duct Y=412; right trunk X=430; duct Y=207",
+      "terms": [
+        "remote terminal TBD",
+        "ferrule"
+      ],
+      "remote_pin": "S3.1.U",
+      "note": "Panel tail only; supplied by the existing 10 ft cable allowance, not loose wire. "
+    },
+    {
+      "id": "W064",
+      "group": "CTRL / RUN",
+      "net": "HIGH_CMD",
+      "from_pin": "J5.7",
+      "to_pin": "K4.31",
+      "kind": "cable core",
+      "awg": 18,
+      "color": "cable core",
+      "route_mm": 472.9,
+      "allowance_mm": 200,
+      "estimate_mm": 700,
+      "path": "duct Y=412; right trunk X=430; duct Y=207",
+      "terms": [
+        "remote terminal TBD",
+        "ferrule"
+      ],
+      "remote_pin": "S3.2.U",
+      "note": "Panel tail only; supplied by the existing 10 ft cable allowance, not loose wire. "
+    },
+    {
+      "id": "W065",
+      "group": "CTRL / RUN",
+      "net": "FWD_CMD",
+      "from_pin": "K1.44",
+      "to_pin": "K2.31",
+      "kind": "loose",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 423.4,
+      "allowance_mm": 200,
+      "estimate_mm": 650,
+      "path": "duct Y=207; right trunk X=430; duct Y=52",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W066",
+      "group": "CTRL / RUN",
+      "net": "REV_CMD",
+      "from_pin": "K2.44",
+      "to_pin": "K1.31",
+      "kind": "loose",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 423.4,
+      "allowance_mm": 200,
+      "estimate_mm": 650,
+      "path": "duct Y=207; right trunk X=430; duct Y=52",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W067",
+      "group": "CTRL / RUN",
+      "net": "Net-(K1A-A1_BOT)",
+      "from_pin": "K2.32",
+      "to_pin": "K1.A1.BOT",
+      "kind": "loose",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 187.1,
+      "allowance_mm": 200,
+      "estimate_mm": 400,
+      "path": "duct Y=207",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W068",
+      "group": "CTRL / RUN",
+      "net": "Net-(K1A-AUX_NC_2)",
+      "from_pin": "K1.32",
+      "to_pin": "K2.A1.BOT",
+      "kind": "loose",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 144.3,
+      "allowance_mm": 200,
+      "estimate_mm": 350,
+      "path": "duct Y=207",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W069",
+      "group": "CTRL / RUN",
+      "net": "Net-(K3-NO1-Pad14)",
+      "from_pin": "K3.14",
+      "to_pin": "K3.23",
+      "kind": "loose",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 150,
+      "allowance_mm": 0,
+      "estimate_mm": 150,
+      "path": "bond allowance",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W070",
+      "group": "CTRL / RUN",
+      "net": "+24V_EN",
+      "from_pin": "K3.24",
+      "to_pin": "OL1.95",
+      "kind": "loose",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 240.6,
+      "allowance_mm": 200,
+      "estimate_mm": 450,
+      "path": "duct Y=412",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W071",
+      "group": "CTRL / RUN",
+      "net": "Net-(OL1B-TRIP_NC_2)",
+      "from_pin": "OL1.96",
+      "to_pin": "OL2.95",
+      "kind": "loose",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 170,
+      "allowance_mm": 200,
+      "estimate_mm": 400,
+      "path": "duct Y=412",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W072",
+      "group": "CTRL / RUN",
+      "net": "Net-(K4A-AUX_NC_2)",
+      "from_pin": "K4.32",
+      "to_pin": "K5.43",
+      "kind": "loose",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 523.5,
+      "allowance_mm": 200,
+      "estimate_mm": 750,
+      "path": "duct Y=412; right trunk X=430; duct Y=207",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W073",
+      "group": "CTRL / RUN",
+      "net": "Net-(K4A-AUX_NC_2)",
+      "from_pin": "K5.43",
+      "to_pin": "K5.A1.BOT",
+      "kind": "loose",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 470.7,
+      "allowance_mm": 200,
+      "estimate_mm": 700,
+      "path": "duct Y=207; right trunk X=430; duct Y=412",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W074",
+      "group": "CTRL / RUN",
+      "net": "Net-(K4A-A1_BOT)",
+      "from_pin": "K5.32",
+      "to_pin": "K4.A1.BOT",
+      "kind": "loose",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 242.8,
+      "allowance_mm": 200,
+      "estimate_mm": 450,
+      "path": "duct Y=412",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W075",
+      "group": "CTRL / RUN",
+      "net": "Net-(K5A-AUX_NC_1)",
+      "from_pin": "K5.31",
+      "to_pin": "K6.32",
+      "kind": "loose",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 587.2,
+      "allowance_mm": 200,
+      "estimate_mm": 800,
+      "path": "duct Y=207; right trunk X=430; duct Y=412",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W076",
+      "group": "CTRL / RUN",
+      "net": "Net-(K5A-AUX_NO_2)",
+      "from_pin": "K5.44",
+      "to_pin": "K6.A1.BOT",
+      "kind": "loose",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 288.1,
+      "allowance_mm": 200,
+      "estimate_mm": 500,
+      "path": "duct Y=412",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W077",
+      "group": "CTRL / RUN",
+      "net": "+24V_CTRL",
+      "from_pin": "S2.R5",
+      "to_pin": "S3.1.L",
+      "kind": "remote jumper",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 500,
+      "allowance_mm": 0,
+      "estimate_mm": 500,
+      "path": "local allowance",
+      "terms": [
+        "remote terminal TBD",
+        "remote terminal TBD"
+      ],
+      "remote_pin": "",
+      "note": "Allowance for original switch/pendant wiring; deduct usable existing straps. S2-to-S3 routing must be measured."
+    },
+    {
+      "id": "W078",
+      "group": "CTRL / RUN",
+      "net": "+24V_CTRL",
+      "from_pin": "S3.1.L",
+      "to_pin": "S3.2.L",
+      "kind": "remote jumper",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 300,
+      "allowance_mm": 0,
+      "estimate_mm": 300,
+      "path": "local allowance",
+      "terms": [
+        "remote terminal TBD",
+        "remote terminal TBD"
+      ],
+      "remote_pin": "",
+      "note": "Allowance for original switch/pendant wiring; deduct usable existing straps. S2-to-S3 routing must be measured."
+    },
+    {
+      "id": "W079",
+      "group": "CTRL / RUN",
+      "net": "+24V_RUN",
+      "from_pin": "S2.L2",
+      "to_pin": "S2.L4",
+      "kind": "remote jumper",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 300,
+      "allowance_mm": 0,
+      "estimate_mm": 300,
+      "path": "local allowance",
+      "terms": [
+        "remote terminal TBD",
+        "remote terminal TBD"
+      ],
+      "remote_pin": "",
+      "note": "Allowance for original switch/pendant wiring; deduct usable existing straps. S2-to-S3 routing must be measured."
+    },
+    {
+      "id": "W080",
+      "group": "CTRL / RUN",
+      "net": "Net-(S2A-FWD_NC_2)",
+      "from_pin": "S2.R2",
+      "to_pin": "S2.R4",
+      "kind": "remote jumper",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 300,
+      "allowance_mm": 0,
+      "estimate_mm": 300,
+      "path": "local allowance",
+      "terms": [
+        "remote terminal TBD",
+        "remote terminal TBD"
+      ],
+      "remote_pin": "",
+      "note": "Allowance for original switch/pendant wiring; deduct usable existing straps. S2-to-S3 routing must be measured."
+    },
+    {
+      "id": "W081",
+      "group": "CTRL / RUN",
+      "net": "LOW_CMD",
+      "from_pin": "S3.1.U",
+      "to_pin": "S3.3.U",
+      "kind": "remote jumper",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 300,
+      "allowance_mm": 0,
+      "estimate_mm": 300,
+      "path": "local allowance",
+      "terms": [
+        "remote terminal TBD",
+        "remote terminal TBD"
+      ],
+      "remote_pin": "",
+      "note": "Allowance for original switch/pendant wiring; deduct usable existing straps. S2-to-S3 routing must be measured."
+    },
+    {
+      "id": "W082",
+      "group": "CTRL / RUN",
+      "net": "Net-(S3-HI3_L)",
+      "from_pin": "S3.3.L",
+      "to_pin": "S3.4.L",
+      "kind": "remote jumper",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 300,
+      "allowance_mm": 0,
+      "estimate_mm": 300,
+      "path": "local allowance",
+      "terms": [
+        "remote terminal TBD",
+        "remote terminal TBD"
+      ],
+      "remote_pin": "",
+      "note": "Allowance for original switch/pendant wiring; deduct usable existing straps. S2-to-S3 routing must be measured."
+    },
+    {
+      "id": "W083",
+      "group": "CTRL / RUN",
+      "net": "Net-(S3-HI3_L)",
+      "from_pin": "S3.4.L",
+      "to_pin": "S3.5.L",
+      "kind": "remote jumper",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 300,
+      "allowance_mm": 0,
+      "estimate_mm": 300,
+      "path": "local allowance",
+      "terms": [
+        "remote terminal TBD",
+        "remote terminal TBD"
+      ],
+      "remote_pin": "",
+      "note": "Allowance for original switch/pendant wiring; deduct usable existing straps. S2-to-S3 routing must be measured."
+    },
+    {
+      "id": "W084",
+      "group": "CTRL / RUN",
+      "net": "Net-(S3-HI5_U)",
+      "from_pin": "S3.5.U",
+      "to_pin": "S3.7.U",
+      "kind": "remote jumper",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 300,
+      "allowance_mm": 0,
+      "estimate_mm": 300,
+      "path": "local allowance",
+      "terms": [
+        "remote terminal TBD",
+        "remote terminal TBD"
+      ],
+      "remote_pin": "",
+      "note": "Allowance for original switch/pendant wiring; deduct usable existing straps. S2-to-S3 routing must be measured."
+    },
+    {
+      "id": "W085",
+      "group": "CTRL / RUN",
+      "net": "Net-(S3-HI6_U)",
+      "from_pin": "S3.4.U",
+      "to_pin": "S3.6.U",
+      "kind": "remote jumper",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 300,
+      "allowance_mm": 0,
+      "estimate_mm": 300,
+      "path": "local allowance",
+      "terms": [
+        "remote terminal TBD",
+        "remote terminal TBD"
+      ],
+      "remote_pin": "",
+      "note": "Allowance for original switch/pendant wiring; deduct usable existing straps. S2-to-S3 routing must be measured."
+    },
+    {
+      "id": "W086",
+      "group": "CTRL / RUN",
+      "net": "Net-(S3-HI8_L)",
+      "from_pin": "S3.7.L",
+      "to_pin": "S3.8.L",
+      "kind": "remote jumper",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 300,
+      "allowance_mm": 0,
+      "estimate_mm": 300,
+      "path": "local allowance",
+      "terms": [
+        "remote terminal TBD",
+        "remote terminal TBD"
+      ],
+      "remote_pin": "",
+      "note": "Allowance for original switch/pendant wiring; deduct usable existing straps. S2-to-S3 routing must be measured."
+    },
+    {
+      "id": "W087",
+      "group": "M12 / E-stop",
+      "net": "ESTOP_MID",
+      "from_pin": "J1.2",
+      "to_pin": "TB30.2",
+      "kind": "M12 extension",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 189.2,
+      "allowance_mm": 200,
+      "estimate_mm": 200,
+      "path": "duct Y=207",
+      "terms": [
+        "splice",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": "200 mm factory 22 AWG pigtail retained; add 18 AWG extension and one 22-to-18 AWG splice. "
+    },
+    {
+      "id": "W088",
+      "group": "M12 / E-stop",
+      "net": "ESTOP_MID",
+      "from_pin": "J1.3",
+      "to_pin": "TB31.2",
+      "kind": "M12 extension",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 197.7,
+      "allowance_mm": 200,
+      "estimate_mm": 200,
+      "path": "duct Y=207",
+      "terms": [
+        "splice",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": "200 mm factory 22 AWG pigtail retained; add 18 AWG extension and one 22-to-18 AWG splice. "
+    },
+    {
+      "id": "W089",
+      "group": "M12 / E-stop",
+      "net": "NC2/BLU",
+      "from_pin": "J1.4",
+      "to_pin": "TB32.2",
+      "kind": "M12 extension",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 199.2,
+      "allowance_mm": 200,
+      "estimate_mm": 200,
+      "path": "duct Y=207",
+      "terms": [
+        "splice",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": "200 mm factory 22 AWG pigtail retained; add 18 AWG extension and one 22-to-18 AWG splice. "
+    },
+    {
+      "id": "W090",
+      "group": "M12 / E-stop",
+      "net": "NC2/BLU",
+      "from_pin": "TB32.1",
+      "to_pin": "K3.A1+",
+      "kind": "loose",
+      "awg": 18,
+      "color": "blue",
+      "route_mm": 866.5,
+      "allowance_mm": 200,
+      "estimate_mm": 1100,
+      "path": "duct Y=52; right trunk X=430; duct Y=207",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W091",
+      "group": "M12 / E-stop",
+      "net": "+24V",
+      "from_pin": "J1.1",
+      "to_pin": "S1.1",
+      "kind": "E-stop cord core",
+      "awg": 22,
+      "color": "cable core",
+      "route_mm": 3048,
+      "allowance_mm": 0,
+      "estimate_mm": 3048,
+      "path": "bond allowance",
+      "terms": [
+        "factory M12 contact",
+        "remote terminal TBD"
+      ],
+      "remote_pin": "",
+      "note": "Four-core M12/E-stop lead assembly: 10 ft allowance, not 4 x 10 ft cable. Check existing GBB assembly before purchasing."
+    },
+    {
+      "id": "W092",
+      "group": "M12 / E-stop",
+      "net": "ESTOP_MID",
+      "from_pin": "J1.2",
+      "to_pin": "S1.2",
+      "kind": "E-stop cord core",
+      "awg": 22,
+      "color": "cable core",
+      "route_mm": 3048,
+      "allowance_mm": 0,
+      "estimate_mm": 3048,
+      "path": "bond allowance",
+      "terms": [
+        "factory M12 contact",
+        "remote terminal TBD"
+      ],
+      "remote_pin": "",
+      "note": "Four-core M12/E-stop lead assembly: 10 ft allowance, not 4 x 10 ft cable. Check existing GBB assembly before purchasing."
+    },
+    {
+      "id": "W093",
+      "group": "M12 / E-stop",
+      "net": "ESTOP_MID",
+      "from_pin": "J1.3",
+      "to_pin": "S1.3",
+      "kind": "E-stop cord core",
+      "awg": 22,
+      "color": "cable core",
+      "route_mm": 3048,
+      "allowance_mm": 0,
+      "estimate_mm": 3048,
+      "path": "bond allowance",
+      "terms": [
+        "factory M12 contact",
+        "remote terminal TBD"
+      ],
+      "remote_pin": "",
+      "note": "Four-core M12/E-stop lead assembly: 10 ft allowance, not 4 x 10 ft cable. Check existing GBB assembly before purchasing."
+    },
+    {
+      "id": "W094",
+      "group": "M12 / E-stop",
+      "net": "NC2/BLU",
+      "from_pin": "J1.4",
+      "to_pin": "S1.4",
+      "kind": "E-stop cord core",
+      "awg": 22,
+      "color": "cable core",
+      "route_mm": 3048,
+      "allowance_mm": 0,
+      "estimate_mm": 3048,
+      "path": "bond allowance",
+      "terms": [
+        "factory M12 contact",
+        "remote terminal TBD"
+      ],
+      "remote_pin": "",
+      "note": "Four-core M12/E-stop lead assembly: 10 ft allowance, not 4 x 10 ft cable. Check existing GBB assembly before purchasing."
+    },
+    {
+      "id": "W095",
+      "group": "PE",
+      "net": "PE",
+      "from_pin": "J3.G",
+      "to_pin": "TB50.2",
+      "kind": "cable core",
+      "awg": 12,
+      "color": "green/yellow cable core",
+      "route_mm": 937.9,
+      "allowance_mm": 200,
+      "estimate_mm": 1150,
+      "path": "duct Y=412; right trunk X=430; duct Y=207",
+      "terms": [
+        "plug clamp",
+        "ferrule"
+      ],
+      "remote_pin": "J2.G",
+      "note": "Panel tail only; supplied by the existing 10 ft cable allowance, not loose wire. "
+    },
+    {
+      "id": "W096",
+      "group": "PE",
+      "net": "PE",
+      "from_pin": "PS1.TB1.1",
+      "to_pin": "TB50.1",
+      "kind": "loose",
+      "awg": 14,
+      "color": "green/yellow",
+      "route_mm": 1023.7,
+      "allowance_mm": 200,
+      "estimate_mm": 1250,
+      "path": "duct Y=412; right trunk X=430; duct Y=52",
+      "terms": [
+        "ferrule",
+        "ferrule"
+      ],
+      "remote_pin": "",
+      "note": ""
+    },
+    {
+      "id": "W097",
+      "group": "PE",
+      "net": "PE",
+      "from_pin": "J4.PE",
+      "to_pin": "TB52.2",
+      "kind": "cable core",
+      "awg": 16,
+      "color": "green/yellow cable core",
+      "route_mm": 1550,
+      "allowance_mm": 0,
+      "estimate_mm": 1550,
+      "path": "bond allowance",
+      "terms": [
+        "ring",
+        "ferrule"
+      ],
+      "remote_pin": "M1.PE",
+      "note": "Panel tail only; supplied by the existing 10 ft cable allowance, not loose wire. Seventh motor-cable conductor; physical PE obligation absent from the current six-lead gland symbol."
+    },
+    {
+      "id": "W098",
+      "group": "PE",
+      "net": "PE",
+      "from_pin": "TB51.1",
+      "to_pin": "CHASSIS.STUD",
+      "kind": "loose",
+      "awg": 14,
+      "color": "green/yellow",
+      "route_mm": 750,
+      "allowance_mm": 0,
+      "estimate_mm": 750,
+      "path": "bond allowance",
+      "terms": [
+        "ferrule",
+        "ring"
+      ],
+      "remote_pin": "",
+      "note": "Stud position unmodeled; door lead includes opening loop. Ring bore and stud hardware TBD."
+    },
+    {
+      "id": "W099",
+      "group": "PE",
+      "net": "PE",
+      "from_pin": "TB51.2",
+      "to_pin": "DOOR.STUD",
+      "kind": "loose",
+      "awg": 14,
+      "color": "green/yellow",
+      "route_mm": 1250,
+      "allowance_mm": 0,
+      "estimate_mm": 1250,
+      "path": "bond allowance",
+      "terms": [
+        "ferrule",
+        "ring"
+      ],
+      "remote_pin": "",
+      "note": "Stud position unmodeled; door lead includes opening loop. Ring bore and stud hardware TBD."
+    },
+    {
+      "id": "W100",
+      "group": "PE",
+      "net": "PE",
+      "from_pin": "TB52.1",
+      "to_pin": "BACKPLATE.STUD",
+      "kind": "loose",
+      "awg": 14,
+      "color": "green/yellow",
+      "route_mm": 750,
+      "allowance_mm": 0,
+      "estimate_mm": 750,
+      "path": "bond allowance",
+      "terms": [
+        "ferrule",
+        "ring"
+      ],
+      "remote_pin": "",
+      "note": "Stud position unmodeled; door lead includes opening loop. Ring bore and stud hardware TBD."
+    },
+    {
+      "id": "W101",
+      "group": "PE",
+      "net": "PE",
+      "from_pin": "UPPER_RAIL.LUG",
+      "to_pin": "BACKPLATE.STUD",
+      "kind": "loose",
+      "awg": 14,
+      "color": "green/yellow",
+      "route_mm": 500,
+      "allowance_mm": 0,
+      "estimate_mm": 500,
+      "path": "bond allowance",
+      "terms": [
+        "ring",
+        "ring"
+      ],
+      "remote_pin": "",
+      "note": "Conservative allowance for dedicated rail bond; omit only after the installed PE path is established."
+    },
+    {
+      "id": "W102",
+      "group": "PE",
+      "net": "PE",
+      "from_pin": "LOWER_RAIL.LUG",
+      "to_pin": "BACKPLATE.STUD",
+      "kind": "loose",
+      "awg": 14,
+      "color": "green/yellow",
+      "route_mm": 500,
+      "allowance_mm": 0,
+      "estimate_mm": 500,
+      "path": "bond allowance",
+      "terms": [
+        "ring",
+        "ring"
+      ],
+      "remote_pin": "",
+      "note": "Conservative allowance for dedicated rail bond; omit only after the installed PE path is established."
+    }
+  ],
+  "summary": {
+    "wire_summary": [
+      {
+        "awg": 14,
+        "color": "black",
+        "cuts": 30,
+        "estimate_m": 22.95,
+        "estimate_ft": 75.3,
+        "with_spare_ft": 90.35,
+        "target_ft": 95
+      },
+      {
+        "awg": 18,
+        "color": "blue",
+        "cuts": 44,
+        "estimate_m": 21.8,
+        "estimate_ft": 71.52,
+        "with_spare_ft": 85.83,
+        "target_ft": 90
+      },
+      {
+        "awg": 14,
+        "color": "green/yellow",
+        "cuts": 6,
+        "estimate_m": 5,
+        "estimate_ft": 16.4,
+        "with_spare_ft": 19.69,
+        "target_ft": 20
+      }
+    ],
+    "groups": [
+      {
+        "group": "Power",
+        "loose_cuts": 13,
+        "loose_m": 12.95,
+        "loose_ft": 42.49,
+        "cable_cores": 3,
+        "labels": 32
+      },
+      {
+        "group": "Motor",
+        "loose_cuts": 17,
+        "loose_m": 10,
+        "loose_ft": 32.81,
+        "cable_cores": 6,
+        "labels": 46
+      },
+      {
+        "group": "+24V / 0V",
+        "loose_cuts": 11,
+        "loose_m": 6.9,
+        "loose_ft": 22.64,
+        "cable_cores": 0,
+        "labels": 22
+      },
+      {
+        "group": "CTRL / RUN",
+        "loose_cuts": 28,
+        "loose_m": 12.85,
+        "loose_ft": 42.16,
+        "cable_cores": 7,
+        "labels": 70
+      },
+      {
+        "group": "M12 / E-stop",
+        "loose_cuts": 5,
+        "loose_m": 2.05,
+        "loose_ft": 6.73,
+        "cable_cores": 4,
+        "labels": 18
+      },
+      {
+        "group": "PE",
+        "loose_cuts": 6,
+        "loose_m": 5,
+        "loose_ft": 16.4,
+        "cable_cores": 2,
+        "labels": 16
+      }
+    ],
+    "single_ferrules": {
+      "12": 4,
+      "14": 63,
+      "16": 7,
+      "18": 65
+    },
+    "twin_ferrules": {
+      "14": 1,
+      "18": 3
+    },
+    "remote_terminations": {
+      "18": 27,
+      "22": 4
+    },
+    "labels": 204,
+    "label_target": 250,
+    "bridges": [
+      [
+        "TB1",
+        "TB3",
+        3
+      ],
+      [
+        "TB10",
+        "TB14",
+        5
+      ],
+      [
+        "TB20",
+        "TB21",
+        2
+      ],
+      [
+        "TB22",
+        "TB24",
+        3
+      ],
+      [
+        "TB30",
+        "TB31",
+        2
+      ],
+      [
+        "TB60",
+        "TB61",
+        2
+      ],
+      [
+        "TB62",
+        "TB63",
+        2
+      ],
+      [
+        "TB64",
+        "TB65",
+        2
+      ]
+    ],
+    "bridge_poles": 21,
+    "panel_terminal_ports_used": 51,
+    "terminal_double_conductors": [
+      {
+        "pin": "K5.3",
+        "awg": 14
+      },
+      {
+        "pin": "K1.44",
+        "awg": 18
+      },
+      {
+        "pin": "K2.44",
+        "awg": 18
+      },
+      {
+        "pin": "K5.43",
+        "awg": 18
+      }
+    ],
+    "graph_net_count": 53,
+    "graph_disconnected": {}
+  },
+  "fixed_connections": [
+    [
+      "K1.A1.TOP",
+      "K1.A1.BOT",
+      "duplicate coil terminal"
+    ],
+    [
+      "K1.A2.TOP",
+      "K1.A2.BOT",
+      "duplicate coil terminal"
+    ],
+    [
+      "K1.A1.TOP",
+      "SP1.1",
+      "plug-on suppressor"
+    ],
+    [
+      "K1.A2.TOP",
+      "SP1.2",
+      "plug-on suppressor"
+    ],
+    [
+      "K2.A1.TOP",
+      "K2.A1.BOT",
+      "duplicate coil terminal"
+    ],
+    [
+      "K2.A2.TOP",
+      "K2.A2.BOT",
+      "duplicate coil terminal"
+    ],
+    [
+      "K2.A1.TOP",
+      "SP2.1",
+      "plug-on suppressor"
+    ],
+    [
+      "K2.A2.TOP",
+      "SP2.2",
+      "plug-on suppressor"
+    ],
+    [
+      "K4.A1.TOP",
+      "K4.A1.BOT",
+      "duplicate coil terminal"
+    ],
+    [
+      "K4.A2.TOP",
+      "K4.A2.BOT",
+      "duplicate coil terminal"
+    ],
+    [
+      "K4.A1.TOP",
+      "SP3.1",
+      "plug-on suppressor"
+    ],
+    [
+      "K4.A2.TOP",
+      "SP3.2",
+      "plug-on suppressor"
+    ],
+    [
+      "K5.A1.TOP",
+      "K5.A1.BOT",
+      "duplicate coil terminal"
+    ],
+    [
+      "K5.A2.TOP",
+      "K5.A2.BOT",
+      "duplicate coil terminal"
+    ],
+    [
+      "K5.A1.TOP",
+      "SP4.1",
+      "plug-on suppressor"
+    ],
+    [
+      "K5.A2.TOP",
+      "SP4.2",
+      "plug-on suppressor"
+    ],
+    [
+      "K6.A1.TOP",
+      "K6.A1.BOT",
+      "duplicate coil terminal"
+    ],
+    [
+      "K6.A2.TOP",
+      "K6.A2.BOT",
+      "duplicate coil terminal"
+    ],
+    [
+      "K6.A1.TOP",
+      "SP5.1",
+      "plug-on suppressor"
+    ],
+    [
+      "K6.A2.TOP",
+      "SP5.2",
+      "plug-on suppressor"
+    ],
+    [
+      "PS1.TB2.1",
+      "PS1.TB2.2",
+      "duplicate supply terminal"
+    ],
+    [
+      "PS1.TB2.3",
+      "PS1.TB2.4",
+      "duplicate supply terminal"
+    ],
+    [
+      "TB1.1",
+      "TB1.2",
+      "terminal block feed-through"
+    ],
+    [
+      "TB2.1",
+      "TB2.2",
+      "terminal block feed-through"
+    ],
+    [
+      "TB3.1",
+      "TB3.2",
+      "terminal block feed-through"
+    ],
+    [
+      "TB10.1",
+      "TB10.2",
+      "terminal block feed-through"
+    ],
+    [
+      "TB11.1",
+      "TB11.2",
+      "terminal block feed-through"
+    ],
+    [
+      "TB12.1",
+      "TB12.2",
+      "terminal block feed-through"
+    ],
+    [
+      "TB13.1",
+      "TB13.2",
+      "terminal block feed-through"
+    ],
+    [
+      "TB14.1",
+      "TB14.2",
+      "terminal block feed-through"
+    ],
+    [
+      "TB20.1",
+      "TB20.2",
+      "terminal block feed-through"
+    ],
+    [
+      "TB21.1",
+      "TB21.2",
+      "terminal block feed-through"
+    ],
+    [
+      "TB22.1",
+      "TB22.2",
+      "terminal block feed-through"
+    ],
+    [
+      "TB23.1",
+      "TB23.2",
+      "terminal block feed-through"
+    ],
+    [
+      "TB24.1",
+      "TB24.2",
+      "terminal block feed-through"
+    ],
+    [
+      "TB30.1",
+      "TB30.2",
+      "terminal block feed-through"
+    ],
+    [
+      "TB31.1",
+      "TB31.2",
+      "terminal block feed-through"
+    ],
+    [
+      "TB32.1",
+      "TB32.2",
+      "terminal block feed-through"
+    ],
+    [
+      "TB40.1",
+      "TB40.2",
+      "terminal block feed-through"
+    ],
+    [
+      "TB41.1",
+      "TB41.2",
+      "terminal block feed-through"
+    ],
+    [
+      "TB42.1",
+      "TB42.2",
+      "terminal block feed-through"
+    ],
+    [
+      "TB50.1",
+      "TB50.2",
+      "terminal block feed-through"
+    ],
+    [
+      "TB50.1",
+      "TB50.PE",
+      "PE foot"
+    ],
+    [
+      "TB51.1",
+      "TB51.2",
+      "terminal block feed-through"
+    ],
+    [
+      "TB51.1",
+      "TB51.PE",
+      "PE foot"
+    ],
+    [
+      "TB52.1",
+      "TB52.2",
+      "terminal block feed-through"
+    ],
+    [
+      "TB52.1",
+      "TB52.PE",
+      "PE foot"
+    ],
+    [
+      "TB60.1",
+      "TB60.2",
+      "terminal block feed-through"
+    ],
+    [
+      "TB61.1",
+      "TB61.2",
+      "terminal block feed-through"
+    ],
+    [
+      "TB62.1",
+      "TB62.2",
+      "terminal block feed-through"
+    ],
+    [
+      "TB63.1",
+      "TB63.2",
+      "terminal block feed-through"
+    ],
+    [
+      "TB64.1",
+      "TB64.2",
+      "terminal block feed-through"
+    ],
+    [
+      "TB65.1",
+      "TB65.2",
+      "terminal block feed-through"
+    ],
+    [
+      "TB66.1",
+      "TB66.2",
+      "terminal block feed-through"
+    ],
+    [
+      "TB67.1",
+      "TB67.2",
+      "terminal block feed-through"
+    ],
+    [
+      "TB68.1",
+      "TB68.2",
+      "terminal block feed-through"
+    ],
+    [
+      "TB1.1",
+      "TB2.1",
+      "KN10J12 bridge"
+    ],
+    [
+      "TB2.1",
+      "TB3.1",
+      "KN10J12 bridge"
+    ],
+    [
+      "TB10.1",
+      "TB11.1",
+      "KN10J12 bridge"
+    ],
+    [
+      "TB11.1",
+      "TB12.1",
+      "KN10J12 bridge"
+    ],
+    [
+      "TB12.1",
+      "TB13.1",
+      "KN10J12 bridge"
+    ],
+    [
+      "TB13.1",
+      "TB14.1",
+      "KN10J12 bridge"
+    ],
+    [
+      "TB20.1",
+      "TB21.1",
+      "KN10J12 bridge"
+    ],
+    [
+      "TB22.1",
+      "TB23.1",
+      "KN10J12 bridge"
+    ],
+    [
+      "TB23.1",
+      "TB24.1",
+      "KN10J12 bridge"
+    ],
+    [
+      "TB30.1",
+      "TB31.1",
+      "KN10J12 bridge"
+    ],
+    [
+      "TB60.1",
+      "TB61.1",
+      "KN10J12 bridge"
+    ],
+    [
+      "TB62.1",
+      "TB63.1",
+      "KN10J12 bridge"
+    ],
+    [
+      "TB64.1",
+      "TB65.1",
+      "KN10J12 bridge"
+    ],
+    [
+      "TB50.PE",
+      "TB51.PE",
+      "common grounded rail"
+    ],
+    [
+      "TB50.PE",
+      "TB52.PE",
+      "common grounded rail"
+    ],
+    [
+      "K1.1",
+      "K2.1",
+      "HMX1-BBREV bar"
+    ],
+    [
+      "K1.3",
+      "K2.3",
+      "HMX1-BBREV bar"
+    ],
+    [
+      "K1.5",
+      "K2.5",
+      "HMX1-BBREV bar"
+    ],
+    [
+      "K1.2",
+      "K2.6",
+      "HMX1-BBREV bar"
+    ],
+    [
+      "K1.4",
+      "K2.4",
+      "HMX1-BBREV bar"
+    ],
+    [
+      "K1.6",
+      "K2.2",
+      "HMX1-BBREV bar"
+    ],
+    [
+      "K4.2",
+      "OL1.IN1",
+      "direct-mounted overload"
+    ],
+    [
+      "K4.4",
+      "OL1.IN2",
+      "direct-mounted overload"
+    ],
+    [
+      "K4.6",
+      "OL1.IN3",
+      "direct-mounted overload"
+    ],
+    [
+      "K6.2",
+      "OL2.IN1",
+      "direct-mounted overload"
+    ],
+    [
+      "K6.4",
+      "OL2.IN2",
+      "direct-mounted overload"
+    ],
+    [
+      "K6.6",
+      "OL2.IN3",
+      "direct-mounted overload"
+    ],
+    [
+      "J2.X",
+      "J3.X",
+      "power cable logical interface"
+    ],
+    [
+      "J2.Y",
+      "J3.Y",
+      "power cable logical interface"
+    ],
+    [
+      "J2.Z",
+      "J3.Z",
+      "power cable logical interface"
+    ],
+    [
+      "J2.G",
+      "J3.G",
+      "power cable logical interface"
+    ],
+    [
+      "J4.T1",
+      "M1.T1",
+      "motor cable logical interface"
+    ],
+    [
+      "J4.T2",
+      "M1.T2",
+      "motor cable logical interface"
+    ],
+    [
+      "J4.T3",
+      "M1.T3",
+      "motor cable logical interface"
+    ],
+    [
+      "J4.T4",
+      "M1.T4",
+      "motor cable logical interface"
+    ],
+    [
+      "J4.T5",
+      "M1.T5",
+      "motor cable logical interface"
+    ],
+    [
+      "J4.T6",
+      "M1.T6",
+      "motor cable logical interface"
+    ]
+  ],
+  "input_hashes": {
+    "Powermatic_BOM_revP.csv": "f5f3506ac5bba2b1ab81795e1f362cb7ff74b60f91df6c26877158066660aa33",
+    "kicad/powermatic_1200/powermatic_1200.kicad_sch": "7e30294dcb002d40359c90cd657768615eab2a5ee79ff4c04c8737c9c621f7c6",
+    "kicad/powermatic_1200/powermatic_1200.kicad_pcb": "5e25990db55d4db63a99fb2d2cb5921cc4126cb1f146d41c01c419594c6402d9"
+  }
+}

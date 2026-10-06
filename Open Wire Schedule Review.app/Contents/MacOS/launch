@@ -1,0 +1,10 @@
+#!/bin/zsh
+bom_directory="${0:A:h:h:h:h}"
+bom_helper="${HOME}/Projects/bom_review/finder_launch.py"
+bom_python="$(command -v python3)"
+if [[ -z "$bom_python" ]]; then
+  for candidate in /opt/homebrew/bin/python3 /usr/local/bin/python3 /usr/bin/python3; do
+    if [[ -x "$candidate" ]]; then bom_python="$candidate"; break; fi
+  done
+fi
+exec /usr/bin/osascript "${0:A:h:h}/Resources/launcher.applescript" "$bom_python" "$bom_helper" "$bom_directory" "wire"

@@ -8,7 +8,7 @@ Power,Circuit Breaker,1,1,EA,55.00,55.00,AD,FAZ-D4-2-NA-L
 Disconnect,Motor Disconnect,1,1,EA,0.00,0.00,GBB,6759K211
 Fuse,Class RK5 Fuse,3,1,EA,7.74,23.22,AllFuses,FRN-R-10
 Fuse,Class R Fuse Holder,1,1,EA,54.00,54.00,AD,RM25030-3SR
-Fuse,Fuse Cover,3,1,EA,14.00,42.00,AD,CVR-RH-25030
+Fuse,Fuse Cover,3,1,EA,14.00,42.00,GRAINGER,CVR-RH-25030
 Operator,Speed Switch,1,1,EA,0.00,0.00,GBB,AB_365_TAV2111
 Operator,Control Pendant,1,1,EA,0.00,0.00,GBB,AB_800S_3SA
 Contactor,Thermal Overload,2,1,EA,31.50,63.00,AD,HTOR32-6-S
@@ -16,13 +16,13 @@ Contactor,Coil Surge Suppressor,5,1,EA,12.00,60.00,AD,HMX1-SSVRC-DC
 Operator,White Indicator,1,1,EA,0.00,0.00,GBB,DK_4008-XB4BVB1-ND
 Terminal,M12 Panel Socket,1,1,EA,0.00,0.00,GBB,DK_A125513-ND
 Terminal,Feedthrough Terminal,2,25,PACK,9.75,19.50,AD,KN-T12GRY-25
-Terminal,Terminal End Cover,1,25,PACK,6.75,6.75,AD,KN-ECT6GRY-25
-Terminal,DIN End Stop,1,10,PACK,11.50,11.50,AD,KN-EB7-10
-Terminal,Terminal Jumper 10P,1,5,PACK,13.50,13.50,AD,KN-10J12
-Terminal,Terminal Marker,1,,PACK,0.00,0.00,,-
-Enclosure,Enclosure,1,1,EA,353.00,353.00,AD,N4SD20208GY
+Terminal,End Cover,1,25,PACK,6.75,6.75,AD,KN-ECT6GRY-25
+Terminal,End Bracket,2,10,PACK,11.50,23.00,AD,KN-EB7-10
+Terminal,Jumper 10P,1,5,PACK,13.50,13.50,AD,KN-10J12
+Terminal,Adhesive Marker,1,250,PACK,13.50,13.50,AD,KN-L5-BLANK-250
+Enclosure,Enclosure,1,1,EA,353.00,353.00,AD,EN4SD20208GY
 Enclosure,Backplate,1,1,EA,51.00,51.00,AD,EP2020
-Enclosure,Mounting Feet,1,4,PACK,0.00,0.00,,-
+Enclosure,Mounting Feet,1,4,PACK,0.00,0.00,AD,EZPMFHD
 Enclosure,Cable Gland Power 13-18mm ID,1,5,PACK,16.50,16.50,AD,BNSPDX-23-W
 Enclosure,Cable Gland Controls 6-12mm ID,1,5,PACK,7.50,7.50,AD,BSPBX-22-W
 Enclosure,Cable Gland Motor 13-18mm ID,1,5,PACK,11.5,11.50,AD,BSPDX-23-W
@@ -32,10 +32,16 @@ Wiring,"Controls Cable 7C 9.5mm OD ",1,10,FT,44.53,44.53,MCM,6452T44
 Wiring,Motor Cable 7C 14mm OD,1,10,FT,46.14,46.14,MCM,7081K6
 Wiring,Din-Rail 35x7.5x400mm,1,4,EA,11.00,11.00,AD,DN-R35S-400-4
 Wiring,Wire-Duct 40x80x1000mm,2,1,EA,18.50,37.00,AD,T1-1530G1-1
-Wiring,AWG Color Ferrules,0,,PACK,0.00,0.00,-,-
-Wiring,AWG Color Ferrules,0,,PACK,0.00,0.00,-,-
-Wiring,AWG Color Machine Wire,0,,FT,0.00,0.00,-,-
-Wiring,AWG Color Machine Wire,0,,FT,0.00,0.00,-,-
-Wiring,AWG Color Machine Wire,0,,FT,0.00,0.00,-,-
-Wiring,AWG Color Machine Wire,0,,FT,0.00,0.00,-,-
+Wiring,14 AWG Blue Ferrules,0,,PACK,0.00,0.00,-,-
+Wiring,18 AWG Red Ferrules,0,,PACK,0.00,0.00,-,-
+Wiring,14 AWG Black Machine Wire,1,100,FT,0.00,0.00,-,-
+Wiring,14 AWG Green/Yellow Machine Wire,1,25,FT,0.00,0.00,-,-
+Wiring,18 Blue Color Machine Wire,1,100,FT,0.00,0.00,-,-
 Terminal,PE Terminal,1,10,PACK,29,29.00,AD,KN-G12SP-10
+Terminal,Separator,2,10,PACK,11.00,22.00,AD,KN-ST1BLK
+Terminal,Top Cover,1,25,PACK,15.00,15.00,AD,KN-TC-1S
+Operator,E-Stop,1,1,EA,0,0.00,GBB,Inventory
+Wiring,Chassis Bonding Hardware,1,1,EA,0,0.00,GBB,Inventory
+Enclosure,Mouting Hardware & Fasteners,1,1,PACK,0,0.00,GBB,Inventory
+Wiring,14-16 AWG x ID Blue Ring Terminals,1,1,PACK,0,0.00,MCM,
+Wiring,18 AWG x ID Red Ring Terminals,1,1,PACK,0,0.00,MCM,

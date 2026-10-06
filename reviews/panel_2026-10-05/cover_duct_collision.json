@@ -1,0 +1,18 @@
+[
+  {
+    "placement": "current middle cover",
+    "cover_xy": [
+      141,
+      137
+    ],
+    "overlap_volume_mm3": 0.0
+  },
+  {
+    "placement": "registered middle cover",
+    "cover_xy": [
+      140.984112312117,
+      138
+    ],
+    "overlap_volume_mm3": 3.704543437368366
+  }
+]

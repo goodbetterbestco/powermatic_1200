@@ -1,0 +1,8 @@
+#!/bin/zsh
+set -e
+wire_project="$(cd "$(dirname "$0")/../../.." && pwd)"
+wire_python=/opt/homebrew/bin/python3
+if [[ ! -x "$wire_python" ]]; then
+  wire_python=/usr/bin/python3
+fi
+exec "$wire_python" "$wire_project/tools/wiring/generate.py" --open >>"${TMPDIR:-/tmp}/powermatic-generated-wiring-review.log" 2>&1

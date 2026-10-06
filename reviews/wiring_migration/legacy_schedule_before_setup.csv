@@ -1,0 +1,92 @@
+FROM,FROM PIN,TO,TO PIN,AWG,LENGTH,TERM 1,TERM 2
+Mains Plug,L1,TB40,BOT,12,400,plug clamp,Ferrule 12 AWG; L=TBD mm
+TB40,TOP,Fuse Holder,P1.A TOP,14,1200,Ferrule 14 AWG; L=TBD mm,Ferrule 14 AWG; L=TBD mm
+Fuse Holder,P1.B BOT,Disconnect,1 TOP,14,1200,Ferrule 14 AWG; L=TBD mm,Ferrule 14 AWG; L=TBD mm
+Disconnect,2 BOT,Contactor K1,L1 TOP (1),14,1050,Ferrule 14 AWG; L=TBD mm,Ferrule 14 AWG; L=TBD mm
+Mains Plug,L2,TB41,BOT,12,400,plug clamp,Ferrule 12 AWG; L=TBD mm
+TB41,TOP,Fuse Holder,P2.A TOP,14,1200,Ferrule 14 AWG; L=TBD mm,Ferrule 14 AWG; L=TBD mm
+Fuse Holder,P2.B BOT,Disconnect,3 TOP,14,1150,Ferrule 14 AWG; L=TBD mm,Ferrule 14 AWG; L=TBD mm
+Disconnect,4 BOT,Contactor K1,L2 TOP (3),14,1050,Ferrule 14 AWG; L=TBD mm,Ferrule 14 AWG; L=TBD mm
+Mains Plug,L3,TB42,BOT,12,400,plug clamp,Ferrule 12 AWG; L=TBD mm
+TB42,TOP,Fuse Holder,P3.A TOP,14,1150,Ferrule 14 AWG; L=TBD mm,Ferrule 14 AWG; L=TBD mm
+Fuse Holder,P3.B BOT,Disconnect,5 TOP,14,1150,Ferrule 14 AWG; L=TBD mm,Ferrule 14 AWG; L=TBD mm
+Disconnect,6 BOT,Contactor K1,L3 TOP (5),14,1050,Ferrule 14 AWG; L=TBD mm,Ferrule 14 AWG; L=TBD mm
+Contactor K2,L1 TOP (1),Circuit Breaker,1 TOP,14,950,Ferrule 14 AWG; L=TBD mm,Ferrule 14 AWG; L=TBD mm
+Contactor K2,L2 TOP (3),Circuit Breaker,3 TOP,14,950,Ferrule 14 AWG; L=TBD mm,Ferrule 14 AWG; L=TBD mm
+24V Breaker,2 BOT,DC Supply,3_BOT,14,450,Ferrule 14 AWG; L=TBD mm,Ferrule 14 AWG; L=TBD mm
+24V Breaker,4 BOT,DC Supply,2_BOT,14,400,Ferrule 14 AWG; L=TBD mm,Ferrule 14 AWG; L=TBD mm
+Contactor K1,T1 BOT (2),Contactor K4,L1 TOP (1),14,350,Ferrule 14 AWG; L=TBD mm,Ferrule 14 AWG; L=TBD mm
+Contactor K2,T3 BOT (6),Contactor K6,L1 TOP (1),14,500,Ferrule 14 AWG; L=TBD mm,Ferrule 14 AWG; L=TBD mm
+Contactor K1,T2 BOT (4),Contactor K4,L2 TOP (3),14,350,Ferrule 14 AWG; L=TBD mm,Ferrule 14 AWG; L=TBD mm
+Contactor K2,T2 BOT (4),Contactor K6,L2 TOP (3),14,450,Ferrule 14 AWG; L=TBD mm,Ferrule 14 AWG; L=TBD mm
+Contactor K1,T3 BOT (6),Contactor K4,L3 TOP (5),14,350,Ferrule 14 AWG; L=TBD mm,Ferrule 14 AWG; L=TBD mm
+Contactor K2,T1 BOT (2),Contactor K6,L3 TOP (5),14,450,Ferrule 14 AWG; L=TBD mm,Ferrule 14 AWG; L=TBD mm
+Contactor K5,L1 TOP (1),Contactor K5,L2 TOP (3),14,150,Ferrule 14 AWG; L=TBD mm,Twin ferrule 2 × 14 AWG; L=TBD mm
+Contactor K5,L2 TOP (3),Contactor K5,L3 TOP (5),14,150,Twin ferrule 2 × 14 AWG; L=TBD mm,Ferrule 14 AWG; L=TBD mm
+Overload OL1,2 BOT,TB60,TOP,14,950,Ferrule 14 AWG; L=TBD mm,Ferrule 14 AWG; L=TBD mm
+Contactor K5,T1 BOT (2),TB61,BOT,14,550,Ferrule 14 AWG; L=TBD mm,Ferrule 14 AWG; L=TBD mm
+Motor,T1,TB60,BOT,16,600,wago,Ferrule 16 AWG; L=TBD mm
+Overload OL1,4 BOT,TB62,TOP,14,900,Ferrule 14 AWG; L=TBD mm,Ferrule 14 AWG; L=TBD mm
+Contactor K5,T2 BOT (4),TB63,BOT,14,550,Ferrule 14 AWG; L=TBD mm,Ferrule 14 AWG; L=TBD mm
+Motor,T2,TB62,BOT,16,550,wago,Ferrule 16 AWG; L=TBD mm
+Overload OL1,6 BOT,TB64,TOP,14,900,Ferrule 14 AWG; L=TBD mm,Ferrule 14 AWG; L=TBD mm
+Contactor K5,T3 BOT (6),TB65,BOT,14,550,Ferrule 14 AWG; L=TBD mm,Ferrule 14 AWG; L=TBD mm
+Motor,T3,TB64,BOT,16,550,wago,Ferrule 16 AWG; L=TBD mm
+Overload OL2,4 BOT,TB66,TOP,14,950,Ferrule 14 AWG; L=TBD mm,Ferrule 14 AWG; L=TBD mm
+Motor,T4,TB66,BOT,16,550,wago,Ferrule 16 AWG; L=TBD mm
+Overload OL2,6 BOT,TB67,TOP,14,950,Ferrule 14 AWG; L=TBD mm,Ferrule 14 AWG; L=TBD mm
+Motor,T5,TB67,BOT,16,550,wago,Ferrule 16 AWG; L=TBD mm
+Overload OL2,2 BOT,TB68,TOP,14,950,Ferrule 14 AWG; L=TBD mm,Ferrule 14 AWG; L=TBD mm
+Motor,T6,TB68,BOT,16,550,wago,Ferrule 16 AWG; L=TBD mm
+DC Supply,3_TOP,TB1,BOT,18,450,Ferrule 18 AWG; L=TBD mm,Ferrule 18 AWG; L=TBD mm
+Indicator Lamp,X1 TOP,TB1,TOP,18,500,Ferrule 18 AWG; L=TBD mm,Ferrule 18 AWG; L=TBD mm
+Coil Enable Relay,13 TOP,TB3,BOT,18,400,Ferrule 18 AWG; L=TBD mm,Ferrule 18 AWG; L=TBD mm
+M12 Socket,1,TB31,BOT,18,350,-,Ferrule 18 AWG; L=TBD mm
+DC Supply,1_TOP,TB10,BOT,18,450,Ferrule 18 AWG; L=TBD mm,Ferrule 18 AWG; L=TBD mm
+Indicator Lamp,X2 BOT,TB10,TOP,18,550,Ferrule 18 AWG; L=TBD mm,Ferrule 18 AWG; L=TBD mm
+Contactor K1,COIL A2 BOT,TB11,BOT,18,400,Ferrule 18 AWG; L=TBD mm,Ferrule 18 AWG; L=TBD mm
+Contactor K2,COIL A2 BOT,TB12,BOT,18,450,Ferrule 18 AWG; L=TBD mm,Ferrule 18 AWG; L=TBD mm
+Contactor K4,COIL A2 BOT,TB13,BOT,18,850,Ferrule 18 AWG; L=TBD mm,Ferrule 18 AWG; L=TBD mm
+Contactor K5,COIL A2 BOT,TB14,BOT,18,800,Ferrule 18 AWG; L=TBD mm,Ferrule 18 AWG; L=TBD mm
+Contactor K6,COIL A2 BOT,TB12,TOP,18,1100,Ferrule 18 AWG; L=TBD mm,Ferrule 18 AWG; L=TBD mm
+Coil Enable Relay,A2 TOP,TB13,TOP,18,950,Ferrule 18 AWG; L=TBD mm,Ferrule 18 AWG; L=TBD mm
+Contactor K4,NO43 RIGHT TOP,TB20,BOT,18,450,Ferrule 18 AWG; L=TBD mm,Ferrule 18 AWG; L=TBD mm
+Contactor K6,NO43 RIGHT TOP,TB21,BOT,18,350,Ferrule 18 AWG; L=TBD mm,Ferrule 18 AWG; L=TBD mm
+Contactor K1,NO43 RIGHT TOP,TB22,TOP,18,400,Ferrule 18 AWG; L=TBD mm,Ferrule 18 AWG; L=TBD mm
+Contactor K2,NO43 RIGHT TOP,TB23,TOP,18,450,Ferrule 18 AWG; L=TBD mm,Ferrule 18 AWG; L=TBD mm
+Contactor K4,NO44 RIGHT BOT,TB22,BOT,18,850,Ferrule 18 AWG; L=TBD mm,Ferrule 18 AWG; L=TBD mm
+Contactor K6,NO44 RIGHT BOT,TB23,BOT,18,900,Ferrule 18 AWG; L=TBD mm,Ferrule 18 AWG; L=TBD mm
+Button Station,R5,TB20,TOP,18,900,remote terminal TBD,Ferrule 18 AWG; L=TBD mm
+Button Station,L2,TB24,BOT,18,700,remote terminal TBD,Ferrule 18 AWG; L=TBD mm
+Button Station,R1,Contactor K1,NO44 RIGHT BOT,18,650,remote terminal TBD,Twin ferrule 2 × 18 AWG; L=TBD mm
+Button Station,R3,Contactor K2,NO44 RIGHT BOT,18,600,remote terminal TBD,Twin ferrule 2 × 18 AWG; L=TBD mm
+Button Station,L5,Overload OL2,96 BOT,18,550,remote terminal TBD,Ferrule 18 AWG; L=TBD mm
+Drum Switch,1U,Contactor K6,NC31 RIGHT TOP,18,750,remote terminal TBD,Ferrule 18 AWG; L=TBD mm
+Drum Switch,2U,Contactor K4,NC31 RIGHT TOP,18,700,remote terminal TBD,Ferrule 18 AWG; L=TBD mm
+Contactor K1,NO44 RIGHT BOT,Contactor K2,NC31 RIGHT TOP,18,650,Twin ferrule 2 × 18 AWG; L=TBD mm,Ferrule 18 AWG; L=TBD mm
+Contactor K2,NO44 RIGHT BOT,Contactor K1,NC31 RIGHT TOP,18,650,Twin ferrule 2 × 18 AWG; L=TBD mm,Ferrule 18 AWG; L=TBD mm
+Contactor K2,NC32 RIGHT BOT,Contactor K1,COIL A1 BOT,18,400,Ferrule 18 AWG; L=TBD mm,Ferrule 18 AWG; L=TBD mm
+Contactor K1,NC32 RIGHT BOT,Contactor K2,COIL A1 BOT,18,350,Ferrule 18 AWG; L=TBD mm,Ferrule 18 AWG; L=TBD mm
+Coil Enable Relay,14 TOP,Coil Enable Relay,23 TOP,18,150,Ferrule 18 AWG; L=TBD mm,Ferrule 18 AWG; L=TBD mm
+Coil Enable Relay,24 BOT,Overload OL1,95 BOT,18,450,Ferrule 18 AWG; L=TBD mm,Ferrule 18 AWG; L=TBD mm
+Overload OL1,96 BOT,Overload OL2,95 BOT,18,400,Ferrule 18 AWG; L=TBD mm,Ferrule 18 AWG; L=TBD mm
+Contactor K4,NC32 RIGHT BOT,Contactor K5,NO43 RIGHT TOP,18,750,Ferrule 18 AWG; L=TBD mm,Twin ferrule 2 × 18 AWG; L=TBD mm
+Contactor K5,NO43 RIGHT TOP,Contactor K5,COIL A1 BOT,18,700,Twin ferrule 2 × 18 AWG; L=TBD mm,Ferrule 18 AWG; L=TBD mm
+Contactor K5,NC32 RIGHT BOT,Contactor K4,COIL A1 BOT,18,450,Ferrule 18 AWG; L=TBD mm,Ferrule 18 AWG; L=TBD mm
+Contactor K5,NC31 RIGHT TOP,Contactor K6,NC32 RIGHT BOT,18,800,Ferrule 18 AWG; L=TBD mm,Ferrule 18 AWG; L=TBD mm
+Contactor K5,NO44 RIGHT BOT,Contactor K6,COIL A1 BOT,18,500,Ferrule 18 AWG; L=TBD mm,Ferrule 18 AWG; L=TBD mm
+Button Station,R5,Drum Switch,1.L,18,500,remote terminal TBD,remote terminal TBD
+Button Station,L2,Button Station,L4,18,300,remote terminal TBD,remote terminal TBD
+Button Station,R2,Button Station,R4,18,300,remote terminal TBD,remote terminal TBD
+M12 Socket,2,TB32,BOT,18,200,-,Ferrule 18 AWG; L=TBD mm
+M12 Socket,3,TB33,BOT,18,200,-,Ferrule 18 AWG; L=TBD mm
+M12 Socket,4,TB30,BOT,18,200,-,Ferrule 18 AWG; L=TBD mm
+TB32,TOP,Coil Enable Relay,A1+ TOP,18,1100,Ferrule 18 AWG; L=TBD mm,Ferrule 18 AWG; L=TBD mm
+Mains Plug,PE,TB50,BOT,12,1150,plug clamp,Ferrule 12 AWG; L=TBD mm
+DC Supply,1_BOT,TB50,TOP,14,1250,Ferrule 14 AWG; L=TBD mm,Ferrule 14 AWG; L=TBD mm
+Motor,PE,TB52,BOT,16,1550,Ring 16 AWG; OD=TBD mm; ID=TBD mm,Ferrule 16 AWG; L=TBD mm
+TB51,TOP,Enclosure,STUD,14,750,Ferrule 14 AWG; L=TBD mm,Ring 14 AWG; OD=TBD mm; ID=TBD mm (¼-20 stud)
+TB51,BOT,Enclosure Door,STUD,14,1250,Ferrule 14 AWG; L=TBD mm,Ring 14 AWG; OD=TBD mm; ID=TBD mm
+TB52,TOP,Backplate,STUD,14,750,Ferrule 14 AWG; L=TBD mm,Ring 14 AWG; OD=TBD mm; ID=TBD mm
+Din Rail Bottom,LUG,Backplate,STUD,14,500,Ring 14 AWG; OD=TBD mm; ID=TBD mm,Ring 14 AWG; OD=TBD mm; ID=TBD mm
+Din Rail Top,LUG,Backplate,STUD,14,500,Ring 14 AWG; OD=TBD mm; ID=TBD mm,Ring 14 AWG; OD=TBD mm; ID=TBD mm

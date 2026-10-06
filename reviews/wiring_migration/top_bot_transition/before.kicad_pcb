@@ -1522,7 +1522,7 @@
 			(layer "F.Fab")
 			(uuid "2b9b41e8-1838-4162-b07a-0e78fadb6be0")
 		)
-		(pad "TOP" thru_hole circle
+		(pad "1" thru_hole circle
 			(at 0 -7.65)
 			(size 3 3)
 			(drill 2)
@@ -1533,7 +1533,7 @@
 			(pintype "passive")
 			(uuid "7f362b15-cead-404b-b1e2-ba0164d529a2")
 		)
-		(pad "BOT" thru_hole circle
+		(pad "2" thru_hole circle
 			(at 0 7.65)
 			(size 3 3)
 			(drill 2)
@@ -37304,7 +37304,7 @@
 			(layer "F.Fab")
 			(uuid "fdeaacf9-f39d-4ddb-a8a9-06a833971c91")
 		)
-		(pad "TOP" thru_hole circle
+		(pad "1" thru_hole circle
 			(at 0 -7.65)
 			(size 3 3)
 			(drill 2)
@@ -37315,7 +37315,7 @@
 			(pintype "passive")
 			(uuid "09c3c728-114b-4c81-8e36-e53f49c35310")
 		)
-		(pad "BOT" thru_hole circle
+		(pad "2" thru_hole circle
 			(at 0 7.65)
 			(size 3 3)
 			(drill 2)
@@ -38717,7 +38717,7 @@
 			(layer "F.Fab")
 			(uuid "749a04d2-0a51-4465-b464-3261d9422c29")
 		)
-		(pad "TOP" thru_hole circle
+		(pad "1" thru_hole circle
 			(at 0 -7.65)
 			(size 3 3)
 			(drill 2)
@@ -38728,7 +38728,7 @@
 			(pintype "passive")
 			(uuid "2ccc73b1-b257-4f93-b5a2-aa00a494e4cd")
 		)
-		(pad "BOT" thru_hole circle
+		(pad "2" thru_hole circle
 			(at 0 7.65)
 			(size 3 3)
 			(drill 2)
@@ -58812,7 +58812,7 @@
 			(layer "F.Fab")
 			(uuid "acf3cfd4-c2fc-4be8-8f2b-894a052b9ec7")
 		)
-		(pad "TOP" thru_hole circle
+		(pad "1" thru_hole circle
 			(at 0 -7.65)
 			(size 3 3)
 			(drill 2)
@@ -58823,7 +58823,7 @@
 			(pintype "passive")
 			(uuid "dd27768e-5602-4c74-ac13-20fa66a94162")
 		)
-		(pad "BOT" thru_hole circle
+		(pad "2" thru_hole circle
 			(at 0 7.65)
 			(size 3 3)
 			(drill 2)
@@ -60895,7 +60895,7 @@
 			(layer "F.Fab")
 			(uuid "8068aaf4-e5f7-491b-8830-89e15fe81c41")
 		)
-		(pad "TOP" thru_hole circle
+		(pad "1" thru_hole circle
 			(at 0 -7.65)
 			(size 3 3)
 			(drill 2)
@@ -60906,7 +60906,7 @@
 			(pintype "passive")
 			(uuid "1e0adecb-6607-4784-9511-6f8377f6e2a9")
 		)
-		(pad "BOT" thru_hole circle
+		(pad "2" thru_hole circle
 			(at 0 7.65)
 			(size 3 3)
 			(drill 2)
@@ -62309,7 +62309,7 @@
 			(layer "F.Fab")
 			(uuid "d1dead17-6f79-4e64-a186-0cf62d4c842e")
 		)
-		(pad "TOP" thru_hole circle
+		(pad "1" thru_hole circle
 			(at 0 -7.65)
 			(size 3 3)
 			(drill 2)
@@ -62320,7 +62320,7 @@
 			(pintype "passive")
 			(uuid "77b78a98-3b06-4e11-b10f-11ba4d0294f9")
 		)
-		(pad "BOT" thru_hole circle
+		(pad "2" thru_hole circle
 			(at 0 7.65)
 			(size 3 3)
 			(drill 2)
@@ -102504,7 +102504,7 @@
 			(layer "F.Fab")
 			(uuid "20cdf47e-42b1-45f0-9ebe-4f4ad5a0dcdc")
 		)
-		(pad "TOP" thru_hole circle
+		(pad "1" thru_hole circle
 			(at 0 -7.65)
 			(size 3 3)
 			(drill 2)
@@ -102515,7 +102515,7 @@
 			(pintype "passive")
 			(uuid "48dafe3e-fa93-4936-b49e-5df299d09c8b")
 		)
-		(pad "BOT" thru_hole circle
+		(pad "2" thru_hole circle
 			(at 0 7.65)
 			(size 3 3)
 			(drill 2)
@@ -108697,7 +108697,7 @@
 			(layer "F.Fab")
 			(uuid "c10bf9d8-131d-47a8-8d93-863c64d47d45")
 		)
-		(pad "TOP" thru_hole circle
+		(pad "1" thru_hole circle
 			(at 0 -7.65)
 			(size 3 3)
 			(drill 2)
@@ -108708,7 +108708,7 @@
 			(pintype "passive")
 			(uuid "6811be84-b14f-4411-a1fb-d35e760f6bac")
 		)
-		(pad "BOT" thru_hole circle
+		(pad "2" thru_hole circle
 			(at 0 7.65)
 			(size 3 3)
 			(drill 2)
@@ -121574,7 +121574,7 @@
 			(layer "F.Fab")
 			(uuid "d3dd116c-d0ff-487b-ad27-679db49724c0")
 		)
-		(pad "TOP" thru_hole circle
+		(pad "1" thru_hole circle
 			(at 0 -7.65)
 			(size 3 3)
 			(drill 2)
@@ -121585,7 +121585,7 @@
 			(pintype "passive")
 			(uuid "ca9e1ee7-11c3-42e7-b41f-d062e556cf16")
 		)
-		(pad "BOT" thru_hole circle
+		(pad "2" thru_hole circle
 			(at 0 7.65)
 			(size 3 3)
 			(drill 2)
@@ -122988,7 +122988,7 @@
 			(layer "F.Fab")
 			(uuid "32fee39a-f079-446e-a2aa-5ce6986139a3")
 		)
-		(pad "TOP" thru_hole circle
+		(pad "1" thru_hole circle
 			(at 0 -7.65)
 			(size 3 3)
 			(drill 2)
@@ -122999,7 +122999,7 @@
 			(pintype "passive")
 			(uuid "bb4d8e1b-7525-4a68-ba50-71e97c8f018a")
 		)
-		(pad "BOT" thru_hole circle
+		(pad "2" thru_hole circle
 			(at 0 7.65)
 			(size 3 3)
 			(drill 2)
@@ -124402,7 +124402,7 @@
 			(layer "F.Fab")
 			(uuid "b90a50bc-ebc6-4b29-b4c0-7010ab5a8974")
 		)
-		(pad "TOP" thru_hole circle
+		(pad "1" thru_hole circle
 			(at 0 -7.65)
 			(size 3 3)
 			(drill 2)
@@ -124413,7 +124413,7 @@
 			(pintype "passive")
 			(uuid "f09ee3f2-965c-435c-a788-1255528bccbf")
 		)
-		(pad "BOT" thru_hole circle
+		(pad "2" thru_hole circle
 			(at 0 7.65)
 			(size 3 3)
 			(drill 2)
@@ -125816,7 +125816,7 @@
 			(layer "F.Fab")
 			(uuid "cc6d2b82-1924-49d6-a98f-ca7a971a81e4")
 		)
-		(pad "TOP" thru_hole circle
+		(pad "1" thru_hole circle
 			(at 0 -7.65)
 			(size 3 3)
 			(drill 2)
@@ -125827,7 +125827,7 @@
 			(pintype "passive")
 			(uuid "e6dffa61-1399-4d29-92ec-ff233f04ae96")
 		)
-		(pad "BOT" thru_hole circle
+		(pad "2" thru_hole circle
 			(at 0 7.65)
 			(size 3 3)
 			(drill 2)
@@ -127230,7 +127230,7 @@
 			(layer "F.Fab")
 			(uuid "e2c8edfd-de07-43ac-8ee7-51f42804289e")
 		)
-		(pad "TOP" thru_hole circle
+		(pad "1" thru_hole circle
 			(at 0 -7.65)
 			(size 3 3)
 			(drill 2)
@@ -127241,7 +127241,7 @@
 			(pintype "passive")
 			(uuid "5c23ac71-4955-4e70-87ee-e4eb9945c827")
 		)
-		(pad "BOT" thru_hole circle
+		(pad "2" thru_hole circle
 			(at 0 7.65)
 			(size 3 3)
 			(drill 2)
@@ -135760,7 +135760,7 @@
 			(layer "F.Fab")
 			(uuid "374e272c-9c60-4326-9593-367043cc4d29")
 		)
-		(pad "TOP" thru_hole circle
+		(pad "1" thru_hole circle
 			(at 0 -7.65)
 			(size 3 3)
 			(drill 2)
@@ -135771,7 +135771,7 @@
 			(pintype "passive")
 			(uuid "b481b3f9-bcf3-43c3-a270-5eaa5218ef97")
 		)
-		(pad "BOT" thru_hole circle
+		(pad "2" thru_hole circle
 			(at 0 7.65)
 			(size 3 3)
 			(drill 2)
@@ -137174,7 +137174,7 @@
 			(layer "F.Fab")
 			(uuid "8678e38e-3101-468c-ad50-3bca390cccbe")
 		)
-		(pad "TOP" thru_hole circle
+		(pad "1" thru_hole circle
 			(at 0 -7.65)
 			(size 3 3)
 			(drill 2)
@@ -137185,7 +137185,7 @@
 			(pintype "passive")
 			(uuid "c887f9ef-1157-4f3d-ac12-6b99a66e84f2")
 		)
-		(pad "BOT" thru_hole circle
+		(pad "2" thru_hole circle
 			(at 0 7.65)
 			(size 3 3)
 			(drill 2)
@@ -148317,7 +148317,7 @@
 			(layer "F.Fab")
 			(uuid "ded935ca-ccb9-4f21-95e4-4b9eb4fefe3f")
 		)
-		(pad "TOP" thru_hole circle
+		(pad "1" thru_hole circle
 			(at 0 -7.65)
 			(size 3 3)
 			(drill 2)
@@ -148328,7 +148328,7 @@
 			(pintype "passive")
 			(uuid "423c0b76-1471-4a77-a4a8-3bcb1f879cb0")
 		)
-		(pad "BOT" thru_hole circle
+		(pad "2" thru_hole circle
 			(at 0 7.65)
 			(size 3 3)
 			(drill 2)
@@ -149731,7 +149731,7 @@
 			(layer "F.Fab")
 			(uuid "9d9a9d0d-8ed8-4b15-bc1c-b64601feb28c")
 		)
-		(pad "TOP" thru_hole circle
+		(pad "1" thru_hole circle
 			(at 0 -7.65)
 			(size 3 3)
 			(drill 2)
@@ -149742,7 +149742,7 @@
 			(pintype "passive")
 			(uuid "d132f6d0-5ef2-4ed2-858a-6ce5a3846b43")
 		)
-		(pad "BOT" thru_hole circle
+		(pad "2" thru_hole circle
 			(at 0 7.65)
 			(size 3 3)
 			(drill 2)
@@ -151145,7 +151145,7 @@
 			(layer "F.Fab")
 			(uuid "89126c74-444b-4b2d-aab9-a3afabc0cee5")
 		)
-		(pad "TOP" thru_hole circle
+		(pad "1" thru_hole circle
 			(at 0 -7.65)
 			(size 3 3)
 			(drill 2)
@@ -151156,7 +151156,7 @@
 			(pintype "passive")
 			(uuid "2f6a954f-1f18-4803-8e9e-eb1bf92a1556")
 		)
-		(pad "BOT" thru_hole circle
+		(pad "2" thru_hole circle
 			(at 0 7.65)
 			(size 3 3)
 			(drill 2)
@@ -152559,7 +152559,7 @@
 			(layer "F.Fab")
 			(uuid "10af9251-88b5-4494-8db3-ed43ebf19353")
 		)
-		(pad "TOP" thru_hole circle
+		(pad "1" thru_hole circle
 			(at 0 -7.65)
 			(size 3 3)
 			(drill 2)
@@ -152570,7 +152570,7 @@
 			(pintype "passive")
 			(uuid "e7d21581-6a35-42a0-9cdc-64dee1647d38")
 		)
-		(pad "BOT" thru_hole circle
+		(pad "2" thru_hole circle
 			(at 0 7.65)
 			(size 3 3)
 			(drill 2)
@@ -500298,7 +500298,7 @@
 			(layer "F.Fab")
 			(uuid "6e7c9e68-dc79-4be7-9d5e-2ab0e92a33ff")
 		)
-		(pad "TOP" thru_hole circle
+		(pad "1" thru_hole circle
 			(at 0 -7.65)
 			(size 3 3)
 			(drill 2)
@@ -500309,7 +500309,7 @@
 			(pintype "passive")
 			(uuid "347fdbe2-2e39-4795-8c2e-ed3018f64a85")
 		)
-		(pad "BOT" thru_hole circle
+		(pad "2" thru_hole circle
 			(at 0 7.65)
 			(size 3 3)
 			(drill 2)
@@ -501825,7 +501825,7 @@
 			(layer "F.Fab")
 			(uuid "c47b3adc-ab6f-4646-8f4f-f20978f9f420")
 		)
-		(pad "TOP" thru_hole circle
+		(pad "1" thru_hole circle
 			(at 0 -7.65)
 			(size 3 3)
 			(drill 2)
@@ -501836,7 +501836,7 @@
 			(pintype "passive")
 			(uuid "62de87e0-7c53-44ae-b6e6-52ffcb153234")
 		)
-		(pad "BOT" thru_hole circle
+		(pad "2" thru_hole circle
 			(at 0 7.65)
 			(size 3 3)
 			(drill 2)
@@ -503239,7 +503239,7 @@
 			(layer "F.Fab")
 			(uuid "059edc4a-0326-40a2-95a0-793afb72edb5")
 		)
-		(pad "TOP" thru_hole circle
+		(pad "1" thru_hole circle
 			(at 0 -7.65)
 			(size 3 3)
 			(drill 2)
@@ -503250,7 +503250,7 @@
 			(pintype "passive")
 			(uuid "497206a5-9169-4d18-a0b3-3d84f32397ca")
 		)
-		(pad "BOT" thru_hole circle
+		(pad "2" thru_hole circle
 			(at 0 7.65)
 			(size 3 3)
 			(drill 2)
@@ -504653,7 +504653,7 @@
 			(layer "F.Fab")
 			(uuid "984f4b62-6efb-488a-86b7-93c3d8d774e6")
 		)
-		(pad "TOP" thru_hole circle
+		(pad "1" thru_hole circle
 			(at 0 -7.65)
 			(size 3 3)
 			(drill 2)
@@ -504664,7 +504664,7 @@
 			(pintype "passive")
 			(uuid "a5bbff96-35db-48a9-a46d-feda82c7f0e0")
 		)
-		(pad "BOT" thru_hole circle
+		(pad "2" thru_hole circle
 			(at 0 7.65)
 			(size 3 3)
 			(drill 2)
@@ -506180,7 +506180,7 @@
 			(layer "F.Fab")
 			(uuid "47f01805-040b-4389-bf49-024c33395e18")
 		)
-		(pad "TOP" thru_hole circle
+		(pad "1" thru_hole circle
 			(at 0 -7.65)
 			(size 3 3)
 			(drill 2)
@@ -506191,7 +506191,7 @@
 			(pintype "passive")
 			(uuid "d31bf1b6-d15f-4de0-be2f-84ed05944945")
 		)
-		(pad "BOT" thru_hole circle
+		(pad "2" thru_hole circle
 			(at 0 7.65)
 			(size 3 3)
 			(drill 2)
@@ -553937,7 +553937,7 @@
 			(layer "F.Fab")
 			(uuid "e7961b20-3bab-4237-8ba6-050e123f02ba")
 		)
-		(pad "TOP" thru_hole circle
+		(pad "1" thru_hole circle
 			(at 0 -7.65)
 			(size 3 3)
 			(drill 2)
@@ -553948,7 +553948,7 @@
 			(pintype "passive")
 			(uuid "46a7fae1-6732-4b29-9ed9-af787a757e14")
 		)
-		(pad "BOT" thru_hole circle
+		(pad "2" thru_hole circle
 			(at 0 7.65)
 			(size 3 3)
 			(drill 2)
@@ -555351,7 +555351,7 @@
 			(layer "F.Fab")
 			(uuid "b8f4f475-b755-495c-8921-7934523b0d1f")
 		)
-		(pad "TOP" thru_hole circle
+		(pad "1" thru_hole circle
 			(at 0 -7.65)
 			(size 3 3)
 			(drill 2)
@@ -555362,7 +555362,7 @@
 			(pintype "passive")
 			(uuid "00d82cef-a4c6-49ff-b44f-29627d7e69e3")
 		)
-		(pad "BOT" thru_hole circle
+		(pad "2" thru_hole circle
 			(at 0 7.65)
 			(size 3 3)
 			(drill 2)
@@ -570568,7 +570568,7 @@
 			(layer "F.Fab")
 			(uuid "54eafafc-50e0-489e-9296-5e1b63df12dc")
 		)
-		(pad "TOP" thru_hole circle
+		(pad "1" thru_hole circle
 			(at 0 -7.65)
 			(size 3 3)
 			(drill 2)
@@ -570579,7 +570579,7 @@
 			(pintype "passive")
 			(uuid "ce9bf54b-47f0-4f5e-89ba-c1617adb75de")
 		)
-		(pad "BOT" thru_hole circle
+		(pad "2" thru_hole circle
 			(at 0 7.65)
 			(size 3 3)
 			(drill 2)
@@ -580773,7 +580773,7 @@
 			(layer "F.Fab")
 			(uuid "884aa069-824d-4ad2-be4c-358e65ea534f")
 		)
-		(pad "TOP" thru_hole circle
+		(pad "1" thru_hole circle
 			(at 0 -7.65)
 			(size 3 3)
 			(drill 2)
@@ -580784,7 +580784,7 @@
 			(pintype "passive")
 			(uuid "2acf5bd3-5b2c-4ca2-9ccc-b6abdb996260")
 		)
-		(pad "BOT" thru_hole circle
+		(pad "2" thru_hole circle
 			(at 0 7.65)
 			(size 3 3)
 			(drill 2)
@@ -613871,7 +613871,7 @@
 			(layer "F.Fab")
 			(uuid "c2ea7274-7ee1-4f91-9995-c45cb8ec06c5")
 		)
-		(pad "TOP" thru_hole circle
+		(pad "1" thru_hole circle
 			(at 0 -7.65)
 			(size 3 3)
 			(drill 2)
@@ -613882,7 +613882,7 @@
 			(pintype "passive")
 			(uuid "b7b99faf-9d05-411b-8187-8f7b68c9f38a")
 		)
-		(pad "BOT" thru_hole circle
+		(pad "2" thru_hole circle
 			(at 0 7.65)
 			(size 3 3)
 			(drill 2)

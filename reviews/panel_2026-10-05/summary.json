@@ -1,0 +1,244 @@
+{
+  "snapshot_time": "2026-10-05T10:25:29.910890-07:00",
+  "saved_inputs_sha256": {
+    "Powermatic_BOM_revP.csv": "5af8adbb1c0b8f2415d00526be635c6e104173b5f29e28c561419be701b0ad49",
+    "kicad/powermatic_1200/powermatic_1200.kicad_pcb": "52495dcc2de74e2d716f53b01e7a7b6346baf96e6615681285a72722bb4695b5",
+    "kicad/powermatic_1200/powermatic_1200.kicad_sch": "7e30294dcb002d40359c90cd657768615eab2a5ee79ff4c04c8737c9c621f7c6",
+    "kicad/powermatic_1200/powermatic_1200.kicad_pro": "9155ae966370537fff61d43cee757c29d4b78d6bab18cddcc7b555264861716f",
+    "kicad/powermatic_1200/fp-lib-table": "9c2fe25de3910bd8c94680481ddae7fe568e6f6dcdc226899493dafc47e44d8e"
+  },
+  "footprints": 85,
+  "bom_rows": 45,
+  "bom_total": 1269.14,
+  "all_panel_schematic_footprints_present": true,
+  "all_models_resolve": true,
+  "all_model_scales_unity": true,
+  "erc_violations": 0,
+  "drc_counts": {
+    "courtyards_overlap": 4,
+    "copper_edge_clearance": 2,
+    "silk_edge_clearance": 15,
+    "hole_to_hole": 10,
+    "lib_footprint_mismatch": 2,
+    "silk_over_copper": 69,
+    "silk_overlap": 199
+  },
+  "pcb_unconnected_items": 155,
+  "schematic_parity_issues": 6,
+  "coverage": [
+    [
+      "Power contactors",
+      5,
+      5,
+      "5"
+    ],
+    [
+      "Interlocks",
+      2,
+      2,
+      "2"
+    ],
+    [
+      "Coil relay",
+      1,
+      1,
+      "1"
+    ],
+    [
+      "Overloads",
+      2,
+      2,
+      "2"
+    ],
+    [
+      "Suppressors",
+      5,
+      5,
+      "5"
+    ],
+    [
+      "Fuse holder",
+      1,
+      1,
+      "1"
+    ],
+    [
+      "Fuses",
+      3,
+      3,
+      "3"
+    ],
+    [
+      "Fuse covers",
+      3,
+      3,
+      "3"
+    ],
+    [
+      "Feedthrough terminals",
+      28,
+      28,
+      "50 (2 \u00d7 25)"
+    ],
+    [
+      "PE terminals",
+      3,
+      3,
+      "10"
+    ],
+    [
+      "Separators",
+      10,
+      10,
+      "20 (2 \u00d7 10)"
+    ],
+    [
+      "End brackets",
+      7,
+      7,
+      "20 (2 \u00d7 10)"
+    ],
+    [
+      "DIN rail",
+      2,
+      2,
+      "1 four-piece pack in BOM; confirm UNIT EA denotes a pack"
+    ],
+    [
+      "Wire duct 400 mm cuts",
+      4,
+      4,
+      "2 \u00d7 1000 mm stock lengths; 1600 mm used before kerfs"
+    ],
+    [
+      "Enclosure",
+      1,
+      1,
+      "1"
+    ],
+    [
+      "Indicator",
+      1,
+      1,
+      "1"
+    ],
+    [
+      "Disconnect",
+      1,
+      1,
+      "1 supplier alias 6759K211"
+    ],
+    [
+      "M12 socket",
+      1,
+      1,
+      "1 supplier alias DK_A125513-ND"
+    ],
+    [
+      "Power gland",
+      1,
+      1,
+      "5"
+    ],
+    [
+      "Motor gland",
+      1,
+      1,
+      "5"
+    ],
+    [
+      "Controls gland",
+      1,
+      1,
+      "5"
+    ]
+  ],
+  "bridges": [
+    [
+      "TB1\u2013TB3",
+      "+24V",
+      3
+    ],
+    [
+      "TB10\u2013TB14",
+      "0V",
+      5
+    ],
+    [
+      "TB20\u2013TB21",
+      "+24V_CTRL",
+      2
+    ],
+    [
+      "TB22\u2013TB24",
+      "+24V_RUN",
+      3
+    ],
+    [
+      "TB30\u2013TB31",
+      "ESTOP_MID",
+      2
+    ],
+    [
+      "TB60\u2013TB61",
+      "M1_T1",
+      2
+    ],
+    [
+      "TB62\u2013TB63",
+      "M1_T2",
+      2
+    ],
+    [
+      "TB64\u2013TB65",
+      "M1_T3",
+      2
+    ]
+  ],
+  "findings": [
+    {
+      "priority": 1,
+      "item": "PS1 ventilation",
+      "detail": "Saved front envelope leaves about 16.8 mm between PS1 and the middle duct, versus the manufacturer\u2019s 40 mm clearance above. The lowest assembly envelope has about 19.5 mm below; the 125.2 mm case has about 23 mm below (the mounting latch extends farther). separation from Q1 is 9.8 mm and from K3 is 10.46 mm. The two end brackets reserve roughly 10 mm of separation from neighboring devices. Shorten/split the duct locally, or rearrange PS1; moving the entire duct upward conflicts with upper-row hardware.",
+      "source": "https://www.meanwell.eu/Upload/PDF/NDR%20DIN%20rail.pdf"
+    },
+    {
+      "priority": 1,
+      "item": "Fuse cover / holder / duct alignment",
+      "detail": "Your latest save moved the upper row upward and aligned cover and FH1 Y origins to 130 mm. This resolves the earlier 1 mm cover Y error and the earlier cover/duct collision. The cover envelope now has about 7.53 mm clearance to the middle duct. Cover X centers still use 25 mm pitch; exact CAD targets are (116.4715055,130), (140.984112312,130), (165.496719,130) mm. Corrections from current X=116/141/166 are +0.4715055/-0.0158877/-0.503281 mm. Model elevation and zero footprint transforms are correct. The fuses themselves are at Y=131, one millimeter below FH1; use Y=130 for their centers while retaining the previously selected 25 mm fuse pitch. Account for cover installation/removal and wire access; the included collision JSON documents the earlier placement, not a collision in this saved snapshot."
+    },
+    {
+      "priority": 1,
+      "item": "PCB / schematic E-stop parity",
+      "detail": "Six PCB pads retain NC1/BLK while the schematic specifies ESTOP_MID: J1 pins 2/3 and TB30/TB31 pins 1/2. Update PCB from the saved schematic while preserving placement. Native ERC reports zero violations."
+    },
+    {
+      "priority": 2,
+      "item": "Terminal accessories not represented",
+      "detail": "End covers, jumper segments and top covers are on the BOM but absent as independent layout objects. Reserve 1.3 mm for each required KN-ECT6 end plate at the open end of a gray terminal assembly; the current groups largely abut the 2 mm separator envelopes. Separators are documented for bank segmentation; the review does not establish them as replacements for end covers. Eight bridge segments are identified below; one pack contains five 10-pole bars, sufficient in total poles if shortened as previously planned. Top cover stock is 25; if all 28 gray blocks are covered, three more are needed. KN-TC-1S is documented for the KN-T series, not as a PE-block accessory. KN-G12SP has no listed end cover and is bonded by its DIN clamping foot; do not apply KN-10J12 to that PE series.",
+      "source": "https://cdn.automationdirect.com/static/specs/konnectgnd.pdf"
+    },
+    {
+      "priority": 2,
+      "item": "Motor PE and bonding details",
+      "detail": "J4 has six motor-lead pads, and the motor symbol has six electrical leads. The seventh cable conductor\u2019s protective-earth path is not explicitly drawn. The three PE blocks provide six conductor terminals, matching the intended incoming PE, PS1, enclosure, door, backplate and motor connections. Allocate these six explicitly and establish the rail-to-bonded-panel path. Chassis Bonding Hardware is an Inventory placeholder, without lug/whip quantities or fastening details. Hammond provides an enclosure grounding stud and a door bonding stud.",
+      "source": "https://www.hammfg.com/electrical/products/industrial/en4sd"
+    },
+    {
+      "priority": 2,
+      "item": "Reversing busbars / fasteners / mounting feet",
+      "detail": "The HMX1-BBREV kit, terminal labels, mounting feet and mounting fasteners are listed but not represented separately in the layout. Confirm the busbar installation on the intended reversing pair and its wire-access space; specify actual rail/duct/foot mounting fasteners and locations before using the panel drawing to fabricate."
+    },
+    {
+      "priority": 3,
+      "item": "Rail and accessory seating datums",
+      "detail": "Upper rail and FH1 center Y=130, but the terminals and fuses are at Y=131. Lower rail center Y=307.65, with parts scattered between Y=306.65 and 308.65. These are small visual/manual-grid shifts, but mounted parts should share the actual rail seating datum when used for fit validation. Suppressor pitch matches its contactor within 0.013258 mm in Y. OL1/OL2 are at relative (0,40) mm to their contactors, versus the recorded reconstructed nominal registration (-1.2,40.625); recheck mating fit on the hardware before treating the model as exact."
+    },
+    {
+      "priority": 3,
+      "item": "Native PCB diagnostics",
+      "detail": "DRC results are itemized in the linked native JSON, including 155 unconnected items and six schematic parity findings. This file is a panel diagram with virtual wiring pads and no tracks; these are not demonstrated physical hardware defects. The 10 hole overlaps are suppressor/coil wiring targets; PE courtyards overlap while actual 5.75 mm blocks on 6 mm centers do not. Q1 and PS1 have recorded project-specific model offsets, so their library mismatch must not be blindly reset. All current model settings checked against model_alignment/settings.json match, and revised model hashes match that later registration record. The older zero-offset HMC validation record is superseded."
+    }
+  ],
+  "scope": "Saved-file hardware completeness and nominal layout review. No schematic, PCB or BOM edits; not a drilling template or physical fit certification. Door is removed in the model. Closed-door hardware and conductor bend/service space need final assembly review."
+}

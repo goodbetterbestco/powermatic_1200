@@ -1,0 +1,432 @@
+{
+  "legacy_rows": 91,
+  "migrated_rows": 6,
+  "remaining_legacy_rows": 85,
+  "records": [
+    {
+      "id": "W001",
+      "legacy_row": 2,
+      "legacy_values": {
+        "FROM": "Mains Plug",
+        "FROM PIN": "L1",
+        "TO": "TB40",
+        "TO PIN": "BOT",
+        "AWG": "12",
+        "LENGTH": "400",
+        "TERM 1": "plug clamp",
+        "TERM 2": "Ferrule 12 AWG; L=TBD mm"
+      }
+    },
+    {
+      "id": "W002",
+      "legacy_row": 3,
+      "legacy_values": {
+        "FROM": "TB40",
+        "FROM PIN": "TOP",
+        "TO": "Fuse Holder",
+        "TO PIN": "P1.A TOP",
+        "AWG": "14",
+        "LENGTH": "1200",
+        "TERM 1": "Ferrule 14 AWG; L=TBD mm",
+        "TERM 2": "Ferrule 14 AWG; L=TBD mm"
+      }
+    },
+    {
+      "id": "W003",
+      "legacy_row": 6,
+      "legacy_values": {
+        "FROM": "Mains Plug",
+        "FROM PIN": "L2",
+        "TO": "TB41",
+        "TO PIN": "BOT",
+        "AWG": "12",
+        "LENGTH": "400",
+        "TERM 1": "plug clamp",
+        "TERM 2": "Ferrule 12 AWG; L=TBD mm"
+      }
+    },
+    {
+      "id": "W004",
+      "legacy_row": 7,
+      "legacy_values": {
+        "FROM": "TB41",
+        "FROM PIN": "TOP",
+        "TO": "Fuse Holder",
+        "TO PIN": "P2.A TOP",
+        "AWG": "14",
+        "LENGTH": "1200",
+        "TERM 1": "Ferrule 14 AWG; L=TBD mm",
+        "TERM 2": "Ferrule 14 AWG; L=TBD mm"
+      }
+    },
+    {
+      "id": "W005",
+      "legacy_row": 10,
+      "legacy_values": {
+        "FROM": "Mains Plug",
+        "FROM PIN": "L3",
+        "TO": "TB42",
+        "TO PIN": "BOT",
+        "AWG": "12",
+        "LENGTH": "400",
+        "TERM 1": "plug clamp",
+        "TERM 2": "Ferrule 12 AWG; L=TBD mm"
+      }
+    },
+    {
+      "id": "W006",
+      "legacy_row": 11,
+      "legacy_values": {
+        "FROM": "TB42",
+        "FROM PIN": "TOP",
+        "TO": "Fuse Holder",
+        "TO PIN": "P3.A TOP",
+        "AWG": "14",
+        "LENGTH": "1150",
+        "TERM 1": "Ferrule 14 AWG; L=TBD mm",
+        "TERM 2": "Ferrule 14 AWG; L=TBD mm"
+      }
+    }
+  ],
+  "source_sha256": "a540f80de27e2f98358552c733b7302d14234d3be99e3b4c979ae4c7f7b41db3",
+  "pcb_sha256": "ffaab876519d9b5fe2d80c62aec33033b6c178226a4a0e568cf82567b544a02b",
+  "phase_through_wires_restored": 3,
+  "generated_preview": [
+    {
+      "id": "W001",
+      "section": "01 Incoming phases",
+      "from": "J2.X",
+      "to": "TB40.2",
+      "net": "L1_IN",
+      "kind": "panel_cable_core",
+      "review": "pending",
+      "route_from": "J3.X",
+      "route_to": "TB40.2",
+      "route_mm": 216.781,
+      "slack_mm": 200.0,
+      "cut_mm": 450.0,
+      "route_points": [
+        [
+          53.19,
+          477.241
+        ],
+        [
+          53.19,
+          422.0
+        ],
+        [
+          10.0,
+          422.0
+        ],
+        [
+          10.0,
+          402.0
+        ],
+        [
+          21.5,
+          402.0
+        ],
+        [
+          21.5,
+          315.15
+        ]
+      ],
+      "exported": true,
+      "row": [
+        "Mains Plug",
+        "L1",
+        "TB40",
+        "BOT",
+        "12",
+        "450",
+        "plug clamp",
+        "Ferrule 12 AWG; L=TBD mm"
+      ],
+      "length_mode": "auto"
+    },
+    {
+      "id": "W002",
+      "section": "01 Incoming phases",
+      "from": "TB40.1",
+      "to": "FH1.P1.A",
+      "net": "L1_IN",
+      "kind": "wire",
+      "review": "pending",
+      "route_from": "TB40.1",
+      "route_to": "FH1.P1.A",
+      "route_mm": 999.938,
+      "slack_mm": 200.0,
+      "cut_mm": 1200.0,
+      "route_points": [
+        [
+          21.5,
+          299.85
+        ],
+        [
+          21.5,
+          217.0
+        ],
+        [
+          21.5,
+          207.0
+        ],
+        [
+          430.0,
+          207.0
+        ],
+        [
+          430.0,
+          52.0
+        ],
+        [
+          131.38151,
+          52.0
+        ],
+        [
+          131.38151,
+          62.0
+        ],
+        [
+          131.38151,
+          96.97
+        ]
+      ],
+      "exported": true,
+      "row": [
+        "TB40",
+        "TOP",
+        "Fuse Holder",
+        "P1.A TOP",
+        "14",
+        "1200",
+        "Ferrule 14 AWG; L=TBD mm",
+        "Ferrule 14 AWG; L=TBD mm"
+      ],
+      "length_mode": "auto"
+    },
+    {
+      "id": "W003",
+      "section": "01 Incoming phases",
+      "from": "J2.Y",
+      "to": "TB41.2",
+      "net": "L2_IN",
+      "kind": "panel_cable_core",
+      "review": "pending",
+      "route_from": "J3.Y",
+      "route_to": "TB41.2",
+      "route_mm": 224.321,
+      "slack_mm": 200.0,
+      "cut_mm": 450.0,
+      "route_points": [
+        [
+          55.73,
+          477.241
+        ],
+        [
+          55.73,
+          422.0
+        ],
+        [
+          10.0,
+          422.0
+        ],
+        [
+          10.0,
+          402.0
+        ],
+        [
+          26.5,
+          402.0
+        ],
+        [
+          26.5,
+          315.15
+        ]
+      ],
+      "exported": true,
+      "row": [
+        "Mains Plug",
+        "L2",
+        "TB41",
+        "BOT",
+        "12",
+        "450",
+        "plug clamp",
+        "Ferrule 12 AWG; L=TBD mm"
+      ],
+      "length_mode": "auto"
+    },
+    {
+      "id": "W004",
+      "section": "01 Incoming phases",
+      "from": "TB41.1",
+      "to": "FH1.P2.A",
+      "net": "L2_IN",
+      "kind": "wire",
+      "review": "pending",
+      "route_from": "TB41.1",
+      "route_to": "FH1.P2.A",
+      "route_mm": 970.426,
+      "slack_mm": 200.0,
+      "cut_mm": 1200.0,
+      "route_points": [
+        [
+          26.5,
+          299.85
+        ],
+        [
+          26.5,
+          217.0
+        ],
+        [
+          26.5,
+          207.0
+        ],
+        [
+          430.0,
+          207.0
+        ],
+        [
+          430.0,
+          52.0
+        ],
+        [
+          155.89411,
+          52.0
+        ],
+        [
+          155.89411,
+          62.0
+        ],
+        [
+          155.89411,
+          96.97
+        ]
+      ],
+      "exported": true,
+      "row": [
+        "TB41",
+        "TOP",
+        "Fuse Holder",
+        "P2.A TOP",
+        "14",
+        "1200",
+        "Ferrule 14 AWG; L=TBD mm",
+        "Ferrule 14 AWG; L=TBD mm"
+      ],
+      "length_mode": "auto"
+    },
+    {
+      "id": "W005",
+      "section": "01 Incoming phases",
+      "from": "J2.Z",
+      "to": "TB42.2",
+      "net": "L3_IN",
+      "kind": "panel_cable_core",
+      "review": "pending",
+      "route_from": "J3.Z",
+      "route_to": "TB42.2",
+      "route_mm": 231.861,
+      "slack_mm": 200.0,
+      "cut_mm": 450.0,
+      "route_points": [
+        [
+          58.27,
+          477.241
+        ],
+        [
+          58.27,
+          422.0
+        ],
+        [
+          10.0,
+          422.0
+        ],
+        [
+          10.0,
+          402.0
+        ],
+        [
+          31.5,
+          402.0
+        ],
+        [
+          31.5,
+          315.15
+        ]
+      ],
+      "exported": true,
+      "row": [
+        "Mains Plug",
+        "L3",
+        "TB42",
+        "BOT",
+        "12",
+        "450",
+        "plug clamp",
+        "Ferrule 12 AWG; L=TBD mm"
+      ],
+      "length_mode": "auto"
+    },
+    {
+      "id": "W006",
+      "section": "01 Incoming phases",
+      "from": "TB42.1",
+      "to": "FH1.P3.A",
+      "net": "L3_IN",
+      "kind": "wire",
+      "review": "pending",
+      "route_from": "TB42.1",
+      "route_to": "FH1.P3.A",
+      "route_mm": 940.913,
+      "slack_mm": 200.0,
+      "cut_mm": 1150.0,
+      "route_points": [
+        [
+          31.5,
+          299.85
+        ],
+        [
+          31.5,
+          217.0
+        ],
+        [
+          31.5,
+          207.0
+        ],
+        [
+          430.0,
+          207.0
+        ],
+        [
+          430.0,
+          52.0
+        ],
+        [
+          180.40672,
+          52.0
+        ],
+        [
+          180.40672,
+          62.0
+        ],
+        [
+          180.40672,
+          96.97
+        ]
+      ],
+      "exported": true,
+      "row": [
+        "TB42",
+        "TOP",
+        "Fuse Holder",
+        "P3.A TOP",
+        "14",
+        "1150",
+        "Ferrule 14 AWG; L=TBD mm",
+        "Ferrule 14 AWG; L=TBD mm"
+      ],
+      "length_mode": "auto"
+    }
+  ]
+}

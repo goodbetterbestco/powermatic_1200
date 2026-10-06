@@ -10,6 +10,8 @@
 *~
 *.swp
 *.tmp
+__pycache__/
+reviews/wiring_generated/.review-server.json
 
 # KiCad local state and automatic backups
 *.kicad_prl

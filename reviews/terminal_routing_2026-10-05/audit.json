@@ -1,0 +1,2140 @@
+{
+  "schematic_before_sha256": "d7d0c7a2a9f00aca91e1409814b10e67edb1f7cf339d34704af6fea44857d49e",
+  "schematic_after_sha256": "d7d0c7a2a9f00aca91e1409814b10e67edb1f7cf339d34704af6fea44857d49e",
+  "pcb_sha256": "ffaab876519d9b5fe2d80c62aec33033b6c178226a4a0e568cf82567b544a02b",
+  "captions_changed": [],
+  "terminals": [
+    {
+      "ref": "TB1",
+      "value": "KN-T12GRY-25",
+      "board_xy": [
+        217.5,
+        131.0
+      ],
+      "schematic_angle": "0",
+      "pin1_above_pin2": true,
+      "ports": [
+        {
+          "pin": "1",
+          "physical_side": "TOP",
+          "pcb_xy": [
+            217.5,
+            123.35
+          ],
+          "schematic_xy": [
+            356.87,
+            -81.28
+          ],
+          "caption": "H1.X1",
+          "direct_endpoints": [],
+          "labels": [
+            "+24V"
+          ],
+          "endpoint": "H1.X1",
+          "entry_duct": 2,
+          "target_duct": 1,
+          "route_mm": 286.7,
+          "alternate_route_mm": 863.7,
+          "routing_status": "closest side"
+        },
+        {
+          "pin": "2",
+          "physical_side": "BOT",
+          "pcb_xy": [
+            217.5,
+            138.65
+          ],
+          "schematic_xy": [
+            356.87,
+            -60.96000000000001
+          ],
+          "caption": "PS1.3_TOP",
+          "direct_endpoints": [],
+          "labels": [
+            "+24V"
+          ],
+          "endpoint": "PS1.3_TOP",
+          "entry_duct": 3,
+          "target_duct": 4,
+          "route_mm": 208.1,
+          "alternate_route_mm": 791.1,
+          "routing_status": "closest side"
+        }
+      ]
+    },
+    {
+      "ref": "TB2",
+      "value": "KN-T12GRY-25",
+      "board_xy": [
+        222.5,
+        131.0
+      ],
+      "schematic_angle": "0",
+      "pin1_above_pin2": true,
+      "ports": [
+        {
+          "pin": "1",
+          "physical_side": "TOP",
+          "pcb_xy": [
+            222.5,
+            123.35
+          ],
+          "schematic_xy": [
+            359.41,
+            -81.28
+          ],
+          "caption": "K3.13",
+          "direct_endpoints": [],
+          "labels": [
+            "+24V"
+          ],
+          "endpoint": "K3.13",
+          "entry_duct": 2,
+          "target_duct": 4,
+          "route_mm": 751.9,
+          "alternate_route_mm": 178.9,
+          "routing_status": "longer side"
+        },
+        {
+          "pin": "2",
+          "physical_side": "BOT",
+          "pcb_xy": [
+            222.5,
+            138.65
+          ],
+          "schematic_xy": [
+            359.41,
+            -60.96000000000001
+          ],
+          "caption": "SPARE",
+          "direct_endpoints": [],
+          "labels": [
+            "+24V"
+          ],
+          "routing_status": "spare"
+        }
+      ]
+    },
+    {
+      "ref": "TB3",
+      "value": "KN-T12GRY-25",
+      "board_xy": [
+        227.5,
+        131.0
+      ],
+      "schematic_angle": "0",
+      "pin1_above_pin2": true,
+      "ports": [
+        {
+          "pin": "1",
+          "physical_side": "TOP",
+          "pcb_xy": [
+            227.5,
+            123.35
+          ],
+          "schematic_xy": [
+            361.95,
+            -81.28
+          ],
+          "caption": "J1.1",
+          "direct_endpoints": [],
+          "labels": [
+            "+24V"
+          ],
+          "routing_status": "stale caption: J1.1 already lands on TB31.2; distribution feed to TB31 is not documented as a physical wire"
+        },
+        {
+          "pin": "2",
+          "physical_side": "BOT",
+          "pcb_xy": [
+            227.5,
+            138.65
+          ],
+          "schematic_xy": [
+            361.95,
+            -60.96000000000001
+          ],
+          "caption": "SPARE",
+          "direct_endpoints": [],
+          "labels": [
+            "+24V"
+          ],
+          "routing_status": "spare"
+        }
+      ]
+    },
+    {
+      "ref": "TB10",
+      "value": "KN-T12GRY-25",
+      "board_xy": [
+        234.5,
+        131.0
+      ],
+      "schematic_angle": "0",
+      "pin1_above_pin2": true,
+      "ports": [
+        {
+          "pin": "1",
+          "physical_side": "TOP",
+          "pcb_xy": [
+            234.5,
+            123.35
+          ],
+          "schematic_xy": [
+            373.38,
+            -81.28
+          ],
+          "caption": "SPARE",
+          "direct_endpoints": [],
+          "labels": [
+            "0V"
+          ],
+          "routing_status": "spare"
+        },
+        {
+          "pin": "2",
+          "physical_side": "BOT",
+          "pcb_xy": [
+            234.5,
+            138.65
+          ],
+          "schematic_xy": [
+            373.38,
+            -60.96000000000001
+          ],
+          "caption": "K1.A2_BOT",
+          "direct_endpoints": [],
+          "labels": [],
+          "endpoint": "K1.A2.BOT",
+          "entry_duct": 3,
+          "target_duct": 3,
+          "route_mm": 175.9,
+          "alternate_route_mm": 581.3,
+          "routing_status": "closest side"
+        }
+      ]
+    },
+    {
+      "ref": "TB11",
+      "value": "KN-T12GRY-25",
+      "board_xy": [
+        239.5,
+        131.0
+      ],
+      "schematic_angle": "0",
+      "pin1_above_pin2": true,
+      "ports": [
+        {
+          "pin": "1",
+          "physical_side": "TOP",
+          "pcb_xy": [
+            239.5,
+            123.35
+          ],
+          "schematic_xy": [
+            375.92,
+            -81.28
+          ],
+          "caption": "SPARE",
+          "direct_endpoints": [],
+          "labels": [
+            "0V"
+          ],
+          "routing_status": "spare"
+        },
+        {
+          "pin": "2",
+          "physical_side": "BOT",
+          "pcb_xy": [
+            239.5,
+            138.65
+          ],
+          "schematic_xy": [
+            375.92,
+            -60.96000000000001
+          ],
+          "caption": "K2.A2_BOT",
+          "direct_endpoints": [],
+          "labels": [],
+          "endpoint": "K2.A2.BOT",
+          "entry_duct": 3,
+          "target_duct": 3,
+          "route_mm": 227.9,
+          "alternate_route_mm": 519.3,
+          "routing_status": "closest side"
+        }
+      ]
+    },
+    {
+      "ref": "TB12",
+      "value": "KN-T12GRY-25",
+      "board_xy": [
+        244.5,
+        131.0
+      ],
+      "schematic_angle": "0",
+      "pin1_above_pin2": true,
+      "ports": [
+        {
+          "pin": "1",
+          "physical_side": "TOP",
+          "pcb_xy": [
+            244.5,
+            123.35
+          ],
+          "schematic_xy": [
+            378.46,
+            -81.28
+          ],
+          "caption": "K3.A2",
+          "direct_endpoints": [],
+          "labels": [
+            "0V"
+          ],
+          "endpoint": "K3.A2",
+          "entry_duct": 2,
+          "target_duct": 4,
+          "route_mm": 733.9,
+          "alternate_route_mm": 204.9,
+          "routing_status": "longer side"
+        },
+        {
+          "pin": "2",
+          "physical_side": "BOT",
+          "pcb_xy": [
+            244.5,
+            138.65
+          ],
+          "schematic_xy": [
+            378.46,
+            -60.96000000000001
+          ],
+          "caption": "K4.A2_BOT",
+          "direct_endpoints": [],
+          "labels": [],
+          "endpoint": "K4.A2.BOT",
+          "entry_duct": 3,
+          "target_duct": 5,
+          "route_mm": 646.1,
+          "alternate_route_mm": 804.1,
+          "routing_status": "closest side"
+        }
+      ]
+    },
+    {
+      "ref": "TB13",
+      "value": "KN-T12GRY-25",
+      "board_xy": [
+        249.5,
+        131.0
+      ],
+      "schematic_angle": "0",
+      "pin1_above_pin2": true,
+      "ports": [
+        {
+          "pin": "1",
+          "physical_side": "TOP",
+          "pcb_xy": [
+            249.5,
+            123.35
+          ],
+          "schematic_xy": [
+            381.0,
+            -81.28
+          ],
+          "caption": "H1.X2",
+          "direct_endpoints": [],
+          "labels": [
+            "0V"
+          ],
+          "endpoint": "H1.X2",
+          "entry_duct": 2,
+          "target_duct": 2,
+          "route_mm": 298.3,
+          "alternate_route_mm": 831.3,
+          "routing_status": "closest side"
+        },
+        {
+          "pin": "2",
+          "physical_side": "BOT",
+          "pcb_xy": [
+            249.5,
+            138.65
+          ],
+          "schematic_xy": [
+            381.0,
+            -60.96000000000001
+          ],
+          "caption": "K5.A2_BOT",
+          "direct_endpoints": [],
+          "labels": [],
+          "endpoint": "K5.A2.BOT",
+          "entry_duct": 3,
+          "target_duct": 5,
+          "route_mm": 584.1,
+          "alternate_route_mm": 742.1,
+          "routing_status": "closest side"
+        }
+      ]
+    },
+    {
+      "ref": "TB14",
+      "value": "KN-T12GRY-25",
+      "board_xy": [
+        254.5,
+        131.0
+      ],
+      "schematic_angle": "0",
+      "pin1_above_pin2": true,
+      "ports": [
+        {
+          "pin": "1",
+          "physical_side": "TOP",
+          "pcb_xy": [
+            254.5,
+            123.35
+          ],
+          "schematic_xy": [
+            383.54,
+            -81.28
+          ],
+          "caption": "PS1.1_TOP",
+          "direct_endpoints": [],
+          "labels": [
+            "0V"
+          ],
+          "endpoint": "PS1.1_TOP",
+          "entry_duct": 2,
+          "target_duct": 4,
+          "route_mm": 766.8,
+          "alternate_route_mm": 257.8,
+          "routing_status": "longer side"
+        },
+        {
+          "pin": "2",
+          "physical_side": "BOT",
+          "pcb_xy": [
+            254.5,
+            138.65
+          ],
+          "schematic_xy": [
+            383.54,
+            -60.96000000000001
+          ],
+          "caption": "K6.A2_BOT",
+          "direct_endpoints": [],
+          "labels": [],
+          "endpoint": "K6.A2.BOT",
+          "entry_duct": 3,
+          "target_duct": 5,
+          "route_mm": 690.6,
+          "alternate_route_mm": 848.6,
+          "routing_status": "closest side"
+        }
+      ]
+    },
+    {
+      "ref": "TB20",
+      "value": "KN-T12GRY-25",
+      "board_xy": [
+        261.5,
+        131.0
+      ],
+      "schematic_angle": "0",
+      "pin1_above_pin2": true,
+      "ports": [
+        {
+          "pin": "1",
+          "physical_side": "TOP",
+          "pcb_xy": [
+            261.5,
+            123.35
+          ],
+          "schematic_xy": [
+            229.87,
+            -22.86
+          ],
+          "caption": "K4.43",
+          "direct_endpoints": [],
+          "labels": [
+            "+24V_CTRL"
+          ],
+          "endpoint": "K4.43",
+          "entry_duct": 2,
+          "target_duct": 4,
+          "route_mm": 575.6,
+          "alternate_route_mm": 209.8,
+          "routing_status": "longer side"
+        },
+        {
+          "pin": "2",
+          "physical_side": "BOT",
+          "pcb_xy": [
+            261.5,
+            138.65
+          ],
+          "schematic_xy": [
+            229.87,
+            -2.539999999999999
+          ],
+          "caption": "K6.43",
+          "direct_endpoints": [],
+          "labels": [
+            "+24V_CTRL"
+          ],
+          "endpoint": "K6.43",
+          "entry_duct": 3,
+          "target_duct": 4,
+          "route_mm": 155.3,
+          "alternate_route_mm": 631.1,
+          "routing_status": "closest side"
+        }
+      ]
+    },
+    {
+      "ref": "TB21",
+      "value": "KN-T12GRY-25",
+      "board_xy": [
+        266.5,
+        131.0
+      ],
+      "schematic_angle": "0",
+      "pin1_above_pin2": true,
+      "ports": [
+        {
+          "pin": "1",
+          "physical_side": "TOP",
+          "pcb_xy": [
+            266.5,
+            123.35
+          ],
+          "schematic_xy": [
+            232.41,
+            -22.86
+          ],
+          "caption": "SPARE",
+          "direct_endpoints": [],
+          "labels": [],
+          "routing_status": "spare"
+        },
+        {
+          "pin": "2",
+          "physical_side": "BOT",
+          "pcb_xy": [
+            266.5,
+            138.65
+          ],
+          "schematic_xy": [
+            232.41,
+            -2.539999999999999
+          ],
+          "caption": "J5.1",
+          "direct_endpoints": [],
+          "labels": [
+            "+24V_CTRL"
+          ],
+          "endpoint": "J5.1",
+          "entry_duct": 3,
+          "target_duct": 6,
+          "route_mm": 504.7,
+          "alternate_route_mm": 662.7,
+          "routing_status": "closest side"
+        }
+      ]
+    },
+    {
+      "ref": "TB22",
+      "value": "KN-T12GRY-25",
+      "board_xy": [
+        273.5,
+        131.0
+      ],
+      "schematic_angle": "0",
+      "pin1_above_pin2": true,
+      "ports": [
+        {
+          "pin": "1",
+          "physical_side": "TOP",
+          "pcb_xy": [
+            273.5,
+            123.35
+          ],
+          "schematic_xy": [
+            246.38,
+            -22.86
+          ],
+          "caption": "K1.43",
+          "direct_endpoints": [],
+          "labels": [
+            "+24V_RUN"
+          ],
+          "endpoint": "K1.43",
+          "entry_duct": 2,
+          "target_duct": 2,
+          "route_mm": 158.7,
+          "alternate_route_mm": 538.5,
+          "routing_status": "closest side"
+        },
+        {
+          "pin": "2",
+          "physical_side": "BOT",
+          "pcb_xy": [
+            273.5,
+            138.65
+          ],
+          "schematic_xy": [
+            246.38,
+            -2.539999999999999
+          ],
+          "caption": "K4.44",
+          "direct_endpoints": [],
+          "labels": [
+            "+24V_RUN"
+          ],
+          "endpoint": "K4.44",
+          "entry_duct": 3,
+          "target_duct": 5,
+          "route_mm": 615.3,
+          "alternate_route_mm": 773.3,
+          "routing_status": "closest side"
+        }
+      ]
+    },
+    {
+      "ref": "TB23",
+      "value": "KN-T12GRY-25",
+      "board_xy": [
+        278.5,
+        131.0
+      ],
+      "schematic_angle": "0",
+      "pin1_above_pin2": true,
+      "ports": [
+        {
+          "pin": "1",
+          "physical_side": "TOP",
+          "pcb_xy": [
+            278.5,
+            123.35
+          ],
+          "schematic_xy": [
+            248.92,
+            -22.86
+          ],
+          "caption": "K2.43",
+          "direct_endpoints": [],
+          "labels": [
+            "+24V_RUN"
+          ],
+          "endpoint": "K2.43",
+          "entry_duct": 2,
+          "target_duct": 2,
+          "route_mm": 210.7,
+          "alternate_route_mm": 476.4,
+          "routing_status": "closest side"
+        },
+        {
+          "pin": "2",
+          "physical_side": "BOT",
+          "pcb_xy": [
+            278.5,
+            138.65
+          ],
+          "schematic_xy": [
+            248.92,
+            -2.539999999999999
+          ],
+          "caption": "K6.44",
+          "direct_endpoints": [],
+          "labels": [
+            "+24V_RUN"
+          ],
+          "endpoint": "K6.44",
+          "entry_duct": 3,
+          "target_duct": 5,
+          "route_mm": 664.8,
+          "alternate_route_mm": 822.8,
+          "routing_status": "closest side"
+        }
+      ]
+    },
+    {
+      "ref": "TB24",
+      "value": "KN-T12GRY-25",
+      "board_xy": [
+        283.5,
+        131.0
+      ],
+      "schematic_angle": "0",
+      "pin1_above_pin2": true,
+      "ports": [
+        {
+          "pin": "1",
+          "physical_side": "TOP",
+          "pcb_xy": [
+            283.5,
+            123.35
+          ],
+          "schematic_xy": [
+            251.46,
+            -22.86
+          ],
+          "caption": "SPARE",
+          "direct_endpoints": [],
+          "labels": [],
+          "routing_status": "spare"
+        },
+        {
+          "pin": "2",
+          "physical_side": "BOT",
+          "pcb_xy": [
+            283.5,
+            138.65
+          ],
+          "schematic_xy": [
+            251.46,
+            -2.539999999999999
+          ],
+          "caption": "J5.2",
+          "direct_endpoints": [],
+          "labels": [
+            "+24V_RUN"
+          ],
+          "endpoint": "J5.2",
+          "entry_duct": 3,
+          "target_duct": 6,
+          "route_mm": 485.2,
+          "alternate_route_mm": 643.2,
+          "routing_status": "closest side"
+        }
+      ]
+    },
+    {
+      "ref": "TB30",
+      "value": "KN-T12GRY-25",
+      "board_xy": [
+        99.0,
+        130.0
+      ],
+      "schematic_angle": "0",
+      "pin1_above_pin2": true,
+      "ports": [
+        {
+          "pin": "1",
+          "physical_side": "TOP",
+          "pcb_xy": [
+            99.0,
+            122.35
+          ],
+          "schematic_xy": [
+            139.7,
+            -44.45
+          ],
+          "caption": null,
+          "direct_endpoints": [
+            "K3.A1+"
+          ],
+          "labels": [
+            "ESTOP_ENABLE"
+          ],
+          "endpoint": "K3.A1+",
+          "entry_duct": 2,
+          "target_duct": 4,
+          "route_mm": 883.5,
+          "alternate_route_mm": 208.5,
+          "routing_status": "longer side"
+        },
+        {
+          "pin": "2",
+          "physical_side": "BOT",
+          "pcb_xy": [
+            99.0,
+            137.65
+          ],
+          "schematic_xy": [
+            139.7,
+            -24.13
+          ],
+          "caption": null,
+          "direct_endpoints": [
+            "S1.4",
+            "J6.4",
+            "J1.4"
+          ],
+          "labels": [],
+          "endpoint": "J1.4",
+          "entry_duct": 3,
+          "target_duct": 4,
+          "route_mm": 198.6,
+          "alternate_route_mm": 1016.6,
+          "routing_status": "closest side"
+        }
+      ]
+    },
+    {
+      "ref": "TB31",
+      "value": "KN-T12GRY-25",
+      "board_xy": [
+        104.5,
+        130.0
+      ],
+      "schematic_angle": "0",
+      "pin1_above_pin2": true,
+      "ports": [
+        {
+          "pin": "1",
+          "physical_side": "TOP",
+          "pcb_xy": [
+            104.5,
+            122.35
+          ],
+          "schematic_xy": [
+            147.32,
+            -44.45
+          ],
+          "caption": null,
+          "direct_endpoints": [],
+          "labels": [
+            "+24V"
+          ],
+          "routing_status": "endpoint not located / no documented physical wire"
+        },
+        {
+          "pin": "2",
+          "physical_side": "BOT",
+          "pcb_xy": [
+            104.5,
+            137.65
+          ],
+          "schematic_xy": [
+            147.32,
+            -24.13
+          ],
+          "caption": null,
+          "direct_endpoints": [
+            "S1.1",
+            "J6.1",
+            "J1.1"
+          ],
+          "labels": [],
+          "endpoint": "J1.1",
+          "entry_duct": 3,
+          "target_duct": 3,
+          "route_mm": 187.6,
+          "alternate_route_mm": 1014.6,
+          "routing_status": "closest side"
+        }
+      ]
+    },
+    {
+      "ref": "TB32",
+      "value": "KN-T12GRY-25",
+      "board_xy": [
+        114.0,
+        130.0
+      ],
+      "schematic_angle": "0",
+      "pin1_above_pin2": true,
+      "ports": [
+        {
+          "pin": "1",
+          "physical_side": "TOP",
+          "pcb_xy": [
+            114.0,
+            122.35
+          ],
+          "schematic_xy": [
+            144.78,
+            -44.45
+          ],
+          "caption": null,
+          "direct_endpoints": [
+            "TB33.1"
+          ],
+          "labels": [],
+          "routing_status": "bridge"
+        },
+        {
+          "pin": "2",
+          "physical_side": "BOT",
+          "pcb_xy": [
+            114.0,
+            137.65
+          ],
+          "schematic_xy": [
+            144.78,
+            -24.13
+          ],
+          "caption": null,
+          "direct_endpoints": [
+            "S1.3",
+            "J6.2",
+            "J1.2"
+          ],
+          "labels": [
+            "ESTOP_NC"
+          ],
+          "endpoint": "J1.2",
+          "entry_duct": 3,
+          "target_duct": 3,
+          "route_mm": 193.6,
+          "alternate_route_mm": 1001.6,
+          "routing_status": "closest side"
+        }
+      ]
+    },
+    {
+      "ref": "TB33",
+      "value": "KN-T12GRY-25",
+      "board_xy": [
+        109.0,
+        130.0
+      ],
+      "schematic_angle": "0",
+      "pin1_above_pin2": true,
+      "ports": [
+        {
+          "pin": "1",
+          "physical_side": "TOP",
+          "pcb_xy": [
+            109.0,
+            122.35
+          ],
+          "schematic_xy": [
+            142.24,
+            -44.45
+          ],
+          "caption": null,
+          "direct_endpoints": [
+            "TB32.1"
+          ],
+          "labels": [],
+          "routing_status": "bridge"
+        },
+        {
+          "pin": "2",
+          "physical_side": "BOT",
+          "pcb_xy": [
+            109.0,
+            137.65
+          ],
+          "schematic_xy": [
+            142.24,
+            -24.13
+          ],
+          "caption": null,
+          "direct_endpoints": [
+            "S1.2",
+            "J6.3",
+            "J1.3"
+          ],
+          "labels": [
+            "ESTOP_NC"
+          ],
+          "endpoint": "J1.3",
+          "entry_duct": 3,
+          "target_duct": 4,
+          "route_mm": 212.1,
+          "alternate_route_mm": 1010.1,
+          "routing_status": "closest side"
+        }
+      ]
+    },
+    {
+      "ref": "TB40",
+      "value": "KN-T12GRY-25",
+      "board_xy": [
+        21.5,
+        307.5
+      ],
+      "schematic_angle": "0",
+      "pin1_above_pin2": true,
+      "ports": [
+        {
+          "pin": "1",
+          "physical_side": "TOP",
+          "pcb_xy": [
+            21.5,
+            299.85
+          ],
+          "schematic_xy": [
+            168.91,
+            -82.55
+          ],
+          "caption": null,
+          "direct_endpoints": [
+            "FH1.P1.A"
+          ],
+          "labels": [
+            "L1_IN"
+          ],
+          "endpoint": "FH1.P1.A",
+          "entry_duct": 4,
+          "target_duct": 2,
+          "route_mm": 999.9,
+          "alternate_route_mm": 1208.9,
+          "routing_status": "closest side"
+        },
+        {
+          "pin": "2",
+          "physical_side": "BOT",
+          "pcb_xy": [
+            21.5,
+            315.15
+          ],
+          "schematic_xy": [
+            168.91,
+            -62.230000000000004
+          ],
+          "caption": null,
+          "direct_endpoints": [
+            "J2.X"
+          ],
+          "labels": [],
+          "endpoint": "J3.X",
+          "entry_duct": 5,
+          "target_duct": 6,
+          "route_mm": 193.8,
+          "alternate_route_mm": 1148.4,
+          "routing_status": "closest side"
+        }
+      ]
+    },
+    {
+      "ref": "TB41",
+      "value": "KN-T12GRY-25",
+      "board_xy": [
+        26.5,
+        307.5
+      ],
+      "schematic_angle": "0",
+      "pin1_above_pin2": true,
+      "ports": [
+        {
+          "pin": "1",
+          "physical_side": "TOP",
+          "pcb_xy": [
+            26.5,
+            299.85
+          ],
+          "schematic_xy": [
+            171.45,
+            -82.55
+          ],
+          "caption": null,
+          "direct_endpoints": [
+            "FH1.P2.A"
+          ],
+          "labels": [
+            "L2_IN"
+          ],
+          "endpoint": "FH1.P2.A",
+          "entry_duct": 4,
+          "target_duct": 2,
+          "route_mm": 970.4,
+          "alternate_route_mm": 1179.4,
+          "routing_status": "closest side"
+        },
+        {
+          "pin": "2",
+          "physical_side": "BOT",
+          "pcb_xy": [
+            26.5,
+            315.15
+          ],
+          "schematic_xy": [
+            171.45,
+            -62.230000000000004
+          ],
+          "caption": null,
+          "direct_endpoints": [
+            "J2.Y"
+          ],
+          "labels": [],
+          "endpoint": "J3.Y",
+          "entry_duct": 5,
+          "target_duct": 6,
+          "route_mm": 191.3,
+          "alternate_route_mm": 1140.9,
+          "routing_status": "closest side"
+        }
+      ]
+    },
+    {
+      "ref": "TB42",
+      "value": "KN-T12GRY-25",
+      "board_xy": [
+        31.5,
+        307.5
+      ],
+      "schematic_angle": "0",
+      "pin1_above_pin2": true,
+      "ports": [
+        {
+          "pin": "1",
+          "physical_side": "TOP",
+          "pcb_xy": [
+            31.5,
+            299.85
+          ],
+          "schematic_xy": [
+            173.99,
+            -82.55
+          ],
+          "caption": null,
+          "direct_endpoints": [
+            "FH1.P3.A"
+          ],
+          "labels": [
+            "L3_IN"
+          ],
+          "endpoint": "FH1.P3.A",
+          "entry_duct": 4,
+          "target_duct": 2,
+          "route_mm": 940.9,
+          "alternate_route_mm": 1149.9,
+          "routing_status": "closest side"
+        },
+        {
+          "pin": "2",
+          "physical_side": "BOT",
+          "pcb_xy": [
+            31.5,
+            315.15
+          ],
+          "schematic_xy": [
+            173.99,
+            -62.230000000000004
+          ],
+          "caption": null,
+          "direct_endpoints": [
+            "J2.Z"
+          ],
+          "labels": [],
+          "endpoint": "J3.Z",
+          "entry_duct": 5,
+          "target_duct": 6,
+          "route_mm": 188.9,
+          "alternate_route_mm": 1133.3,
+          "routing_status": "closest side"
+        }
+      ]
+    },
+    {
+      "ref": "TB50",
+      "value": "KN-G12SP-10",
+      "board_xy": [
+        198.0,
+        131.0
+      ],
+      "schematic_angle": "270",
+      "pin1_above_pin2": true,
+      "ports": [
+        {
+          "pin": "1",
+          "physical_side": "TOP",
+          "pcb_xy": [
+            198.0,
+            123.500641
+          ],
+          "schematic_xy": [
+            330.2,
+            -81.28
+          ],
+          "caption": "J2.G",
+          "direct_endpoints": [],
+          "labels": [
+            "PE"
+          ],
+          "endpoint": "J3.G",
+          "entry_duct": 2,
+          "target_duct": 6,
+          "route_mm": 1097.9,
+          "alternate_route_mm": 939.9,
+          "routing_status": "longer side"
+        },
+        {
+          "pin": "2",
+          "physical_side": "BOT",
+          "pcb_xy": [
+            198.0,
+            138.499808
+          ],
+          "schematic_xy": [
+            330.2,
+            -60.96000000000001
+          ],
+          "caption": "MOTOR",
+          "direct_endpoints": [],
+          "labels": [
+            "PE"
+          ],
+          "routing_status": "endpoint not located / no documented physical wire"
+        }
+      ]
+    },
+    {
+      "ref": "TB51",
+      "value": "KN-G12SP-10",
+      "board_xy": [
+        204.0,
+        131.0
+      ],
+      "schematic_angle": "270",
+      "pin1_above_pin2": true,
+      "ports": [
+        {
+          "pin": "1",
+          "physical_side": "TOP",
+          "pcb_xy": [
+            204.0,
+            123.500641
+          ],
+          "schematic_xy": [
+            334.01,
+            -81.28
+          ],
+          "caption": "PS1.1_BOT",
+          "direct_endpoints": [],
+          "labels": [
+            "PE"
+          ],
+          "endpoint": "PS1.1_BOT",
+          "entry_duct": 2,
+          "target_duct": 5,
+          "route_mm": 1019.7,
+          "alternate_route_mm": 861.7,
+          "routing_status": "longer side"
+        },
+        {
+          "pin": "2",
+          "physical_side": "BOT",
+          "pcb_xy": [
+            204.0,
+            138.499808
+          ],
+          "schematic_xy": [
+            334.01,
+            -60.96000000000001
+          ],
+          "caption": "BACKPLATE",
+          "direct_endpoints": [],
+          "labels": [
+            "PE"
+          ],
+          "routing_status": "endpoint not located / no documented physical wire"
+        }
+      ]
+    },
+    {
+      "ref": "TB52",
+      "value": "KN-G12SP-10",
+      "board_xy": [
+        210.0,
+        131.0
+      ],
+      "schematic_angle": "270",
+      "pin1_above_pin2": true,
+      "ports": [
+        {
+          "pin": "1",
+          "physical_side": "TOP",
+          "pcb_xy": [
+            210.0,
+            123.500641
+          ],
+          "schematic_xy": [
+            337.82,
+            -81.28
+          ],
+          "caption": "ENCLOSURE",
+          "direct_endpoints": [],
+          "labels": [
+            "PE"
+          ],
+          "routing_status": "endpoint not located / no documented physical wire"
+        },
+        {
+          "pin": "2",
+          "physical_side": "BOT",
+          "pcb_xy": [
+            210.0,
+            138.499808
+          ],
+          "schematic_xy": [
+            337.82,
+            -60.96000000000001
+          ],
+          "caption": "DOOR",
+          "direct_endpoints": [],
+          "labels": [
+            "PE"
+          ],
+          "routing_status": "endpoint not located / no documented physical wire"
+        }
+      ]
+    },
+    {
+      "ref": "TB60",
+      "value": "KN-T12GRY-25",
+      "board_xy": [
+        186.5,
+        307.65
+      ],
+      "schematic_angle": "0",
+      "pin1_above_pin2": true,
+      "ports": [
+        {
+          "pin": "1",
+          "physical_side": "TOP",
+          "pcb_xy": [
+            186.5,
+            300.0
+          ],
+          "schematic_xy": [
+            453.39,
+            64.77000000000001
+          ],
+          "caption": "K5.2",
+          "direct_endpoints": [],
+          "labels": [
+            "M1_T1"
+          ],
+          "endpoint": "K5.2",
+          "entry_duct": 4,
+          "target_duct": 5,
+          "route_mm": 703.4,
+          "alternate_route_mm": 322.1,
+          "routing_status": "longer side"
+        },
+        {
+          "pin": "2",
+          "physical_side": "BOT",
+          "pcb_xy": [
+            186.5,
+            315.29999999999995
+          ],
+          "schematic_xy": [
+            453.39,
+            85.09
+          ],
+          "caption": "SPARE",
+          "direct_endpoints": [
+            "TB61.2"
+          ],
+          "labels": [
+            "M1_T1"
+          ],
+          "routing_status": "spare"
+        }
+      ]
+    },
+    {
+      "ref": "TB61",
+      "value": "KN-T12GRY-25",
+      "board_xy": [
+        191.5,
+        307.65
+      ],
+      "schematic_angle": "0",
+      "pin1_above_pin2": true,
+      "ports": [
+        {
+          "pin": "1",
+          "physical_side": "TOP",
+          "pcb_xy": [
+            191.5,
+            300.0
+          ],
+          "schematic_xy": [
+            455.93,
+            64.77000000000001
+          ],
+          "caption": "OL1A.2",
+          "direct_endpoints": [],
+          "labels": [
+            "M1_T1"
+          ],
+          "endpoint": "OL1.2",
+          "entry_duct": 4,
+          "target_duct": 5,
+          "route_mm": 709.7,
+          "alternate_route_mm": 220.8,
+          "routing_status": "longer side"
+        },
+        {
+          "pin": "2",
+          "physical_side": "BOT",
+          "pcb_xy": [
+            191.5,
+            315.29999999999995
+          ],
+          "schematic_xy": [
+            455.93,
+            85.09
+          ],
+          "caption": "M1.T1",
+          "direct_endpoints": [
+            "TB60.2"
+          ],
+          "labels": [
+            "M1_T1"
+          ],
+          "endpoint": "J4.T1",
+          "entry_duct": 5,
+          "target_duct": 6,
+          "route_mm": 349.1,
+          "alternate_route_mm": 653.1,
+          "routing_status": "closest side"
+        }
+      ]
+    },
+    {
+      "ref": "TB62",
+      "value": "KN-T12GRY-25",
+      "board_xy": [
+        196.5,
+        307.65
+      ],
+      "schematic_angle": "0",
+      "pin1_above_pin2": true,
+      "ports": [
+        {
+          "pin": "1",
+          "physical_side": "TOP",
+          "pcb_xy": [
+            196.5,
+            300.0
+          ],
+          "schematic_xy": [
+            458.47,
+            64.77000000000001
+          ],
+          "caption": "K5.4",
+          "direct_endpoints": [],
+          "labels": [
+            "M1_T2"
+          ],
+          "endpoint": "K5.4",
+          "entry_duct": 4,
+          "target_duct": 5,
+          "route_mm": 681.4,
+          "alternate_route_mm": 324.1,
+          "routing_status": "longer side"
+        },
+        {
+          "pin": "2",
+          "physical_side": "BOT",
+          "pcb_xy": [
+            196.5,
+            315.29999999999995
+          ],
+          "schematic_xy": [
+            458.47,
+            85.09
+          ],
+          "caption": "SPARE",
+          "direct_endpoints": [
+            "TB63.2"
+          ],
+          "labels": [
+            "M1_T2"
+          ],
+          "routing_status": "spare"
+        }
+      ]
+    },
+    {
+      "ref": "TB63",
+      "value": "KN-T12GRY-25",
+      "board_xy": [
+        201.5,
+        307.65
+      ],
+      "schematic_angle": "0",
+      "pin1_above_pin2": true,
+      "ports": [
+        {
+          "pin": "1",
+          "physical_side": "TOP",
+          "pcb_xy": [
+            201.5,
+            300.0
+          ],
+          "schematic_xy": [
+            461.01,
+            64.77000000000001
+          ],
+          "caption": "OL1A.4",
+          "direct_endpoints": [],
+          "labels": [
+            "M1_T2"
+          ],
+          "endpoint": "OL1.4",
+          "entry_duct": 4,
+          "target_duct": 5,
+          "route_mm": 685.4,
+          "alternate_route_mm": 225.1,
+          "routing_status": "longer side"
+        },
+        {
+          "pin": "2",
+          "physical_side": "BOT",
+          "pcb_xy": [
+            201.5,
+            315.29999999999995
+          ],
+          "schematic_xy": [
+            461.01,
+            85.09
+          ],
+          "caption": "M1.T2",
+          "direct_endpoints": [
+            "TB62.2"
+          ],
+          "labels": [
+            "M1_T2"
+          ],
+          "endpoint": "J4.T2",
+          "entry_duct": 5,
+          "target_duct": 6,
+          "route_mm": 341.6,
+          "alternate_route_mm": 640.6,
+          "routing_status": "closest side"
+        }
+      ]
+    },
+    {
+      "ref": "TB64",
+      "value": "KN-T12GRY-25",
+      "board_xy": [
+        206.5,
+        307.65
+      ],
+      "schematic_angle": "0",
+      "pin1_above_pin2": true,
+      "ports": [
+        {
+          "pin": "1",
+          "physical_side": "TOP",
+          "pcb_xy": [
+            206.5,
+            300.0
+          ],
+          "schematic_xy": [
+            463.55,
+            64.77000000000001
+          ],
+          "caption": "K5.6",
+          "direct_endpoints": [],
+          "labels": [
+            "M1_T3"
+          ],
+          "endpoint": "K5.6",
+          "entry_duct": 4,
+          "target_duct": 5,
+          "route_mm": 659.4,
+          "alternate_route_mm": 326.1,
+          "routing_status": "longer side"
+        },
+        {
+          "pin": "2",
+          "physical_side": "BOT",
+          "pcb_xy": [
+            206.5,
+            315.29999999999995
+          ],
+          "schematic_xy": [
+            463.55,
+            85.09
+          ],
+          "caption": "SPARE",
+          "direct_endpoints": [
+            "TB65.2"
+          ],
+          "labels": [
+            "M1_T3"
+          ],
+          "routing_status": "spare"
+        }
+      ]
+    },
+    {
+      "ref": "TB65",
+      "value": "KN-T12GRY-25",
+      "board_xy": [
+        211.5,
+        307.65
+      ],
+      "schematic_angle": "0",
+      "pin1_above_pin2": true,
+      "ports": [
+        {
+          "pin": "1",
+          "physical_side": "TOP",
+          "pcb_xy": [
+            211.5,
+            300.0
+          ],
+          "schematic_xy": [
+            466.09,
+            64.77000000000001
+          ],
+          "caption": "OL1A.6",
+          "direct_endpoints": [],
+          "labels": [
+            "M1_T3"
+          ],
+          "endpoint": "OL1.6",
+          "entry_duct": 4,
+          "target_duct": 5,
+          "route_mm": 661.1,
+          "alternate_route_mm": 229.4,
+          "routing_status": "longer side"
+        },
+        {
+          "pin": "2",
+          "physical_side": "BOT",
+          "pcb_xy": [
+            211.5,
+            315.29999999999995
+          ],
+          "schematic_xy": [
+            466.09,
+            85.09
+          ],
+          "caption": "M1.T3",
+          "direct_endpoints": [
+            "TB64.2"
+          ],
+          "labels": [
+            "M1_T3"
+          ],
+          "endpoint": "J4.T3",
+          "entry_duct": 5,
+          "target_duct": 6,
+          "route_mm": 334.2,
+          "alternate_route_mm": 628.0,
+          "routing_status": "closest side"
+        }
+      ]
+    },
+    {
+      "ref": "TB66",
+      "value": "KN-T12GRY-25",
+      "board_xy": [
+        218.5,
+        307.65
+      ],
+      "schematic_angle": "0",
+      "pin1_above_pin2": true,
+      "ports": [
+        {
+          "pin": "1",
+          "physical_side": "TOP",
+          "pcb_xy": [
+            218.5,
+            300.0
+          ],
+          "schematic_xy": [
+            468.63,
+            64.77000000000001
+          ],
+          "caption": "OL2A.4",
+          "direct_endpoints": [],
+          "labels": [
+            "M1_T4"
+          ],
+          "endpoint": "OL2.4",
+          "entry_duct": 4,
+          "target_duct": 5,
+          "route_mm": 722.9,
+          "alternate_route_mm": 152.6,
+          "routing_status": "longer side"
+        },
+        {
+          "pin": "2",
+          "physical_side": "BOT",
+          "pcb_xy": [
+            218.5,
+            315.29999999999995
+          ],
+          "schematic_xy": [
+            468.63,
+            85.09
+          ],
+          "caption": "M1.T4",
+          "direct_endpoints": [],
+          "labels": [
+            "M1_T4"
+          ],
+          "endpoint": "J4.T4",
+          "entry_duct": 5,
+          "target_duct": 6,
+          "route_mm": 329.7,
+          "alternate_route_mm": 618.5,
+          "routing_status": "closest side"
+        }
+      ]
+    },
+    {
+      "ref": "TB67",
+      "value": "KN-T12GRY-25",
+      "board_xy": [
+        223.5,
+        307.65
+      ],
+      "schematic_angle": "0",
+      "pin1_above_pin2": true,
+      "ports": [
+        {
+          "pin": "1",
+          "physical_side": "TOP",
+          "pcb_xy": [
+            223.5,
+            300.0
+          ],
+          "schematic_xy": [
+            471.17,
+            64.77000000000001
+          ],
+          "caption": "OL2A.6",
+          "direct_endpoints": [],
+          "labels": [
+            "M1_T5"
+          ],
+          "endpoint": "OL2.6",
+          "entry_duct": 4,
+          "target_duct": 5,
+          "route_mm": 703.6,
+          "alternate_route_mm": 161.9,
+          "routing_status": "longer side"
+        },
+        {
+          "pin": "2",
+          "physical_side": "BOT",
+          "pcb_xy": [
+            223.5,
+            315.29999999999995
+          ],
+          "schematic_xy": [
+            471.17,
+            85.09
+          ],
+          "caption": "M1.T5",
+          "direct_endpoints": [],
+          "labels": [
+            "M1_T5"
+          ],
+          "endpoint": "J4.T5",
+          "entry_duct": 5,
+          "target_duct": 6,
+          "route_mm": 327.3,
+          "alternate_route_mm": 610.9,
+          "routing_status": "closest side"
+        }
+      ]
+    },
+    {
+      "ref": "TB68",
+      "value": "KN-T12GRY-25",
+      "board_xy": [
+        228.5,
+        307.65
+      ],
+      "schematic_angle": "0",
+      "pin1_above_pin2": true,
+      "ports": [
+        {
+          "pin": "1",
+          "physical_side": "TOP",
+          "pcb_xy": [
+            228.5,
+            300.0
+          ],
+          "schematic_xy": [
+            473.71,
+            64.77000000000001
+          ],
+          "caption": "OL2A.2",
+          "direct_endpoints": [],
+          "labels": [
+            "M1_T6"
+          ],
+          "endpoint": "OL2.2",
+          "entry_duct": 4,
+          "target_duct": 5,
+          "route_mm": 727.2,
+          "alternate_route_mm": 128.3,
+          "routing_status": "longer side"
+        },
+        {
+          "pin": "2",
+          "physical_side": "BOT",
+          "pcb_xy": [
+            228.5,
+            315.29999999999995
+          ],
+          "schematic_xy": [
+            473.71,
+            85.09
+          ],
+          "caption": "M1.T6",
+          "direct_endpoints": [],
+          "labels": [
+            "M1_T6"
+          ],
+          "endpoint": "J4.T6",
+          "entry_duct": 5,
+          "target_duct": 6,
+          "route_mm": 324.8,
+          "alternate_route_mm": 603.4,
+          "routing_status": "closest side"
+        }
+      ]
+    }
+  ],
+  "routing_method": "Orthogonal centerline comparison under agreed entry-side rules: same whole duct uses half-duct centerlines; different whole ducts transition to whole-duct centerlines and use the right trunk X=430. No cut allowance included.",
+  "ducts": [
+    {
+      "half": 1,
+      "whole_center_y": 52.0,
+      "half_center_y": 42.0
+    },
+    {
+      "half": 2,
+      "whole_center_y": 52.0,
+      "half_center_y": 62.0
+    },
+    {
+      "half": 3,
+      "whole_center_y": 207.0,
+      "half_center_y": 197.0
+    },
+    {
+      "half": 4,
+      "whole_center_y": 207.0,
+      "half_center_y": 217.0
+    },
+    {
+      "half": 5,
+      "whole_center_y": 412.0,
+      "half_center_y": 402.0
+    },
+    {
+      "half": 6,
+      "whole_center_y": 412.0,
+      "half_center_y": 422.0
+    }
+  ],
+  "routing_findings": [
+    {
+      "terminal": "TB2",
+      "pin": "1",
+      "endpoint": "K3.13",
+      "current_side": "TOP",
+      "closer_side": "BOT",
+      "extra_route_mm": 573.0,
+      "closer_clamp_caption": "SPARE",
+      "closer_clamp_endpoints": []
+    },
+    {
+      "terminal": "TB12",
+      "pin": "1",
+      "endpoint": "K3.A2",
+      "current_side": "TOP",
+      "closer_side": "BOT",
+      "extra_route_mm": 529.0,
+      "closer_clamp_caption": "K4.A2_BOT",
+      "closer_clamp_endpoints": []
+    },
+    {
+      "terminal": "TB14",
+      "pin": "1",
+      "endpoint": "PS1.1_TOP",
+      "current_side": "TOP",
+      "closer_side": "BOT",
+      "extra_route_mm": 509.0,
+      "closer_clamp_caption": "K6.A2_BOT",
+      "closer_clamp_endpoints": []
+    },
+    {
+      "terminal": "TB20",
+      "pin": "1",
+      "endpoint": "K4.43",
+      "current_side": "TOP",
+      "closer_side": "BOT",
+      "extra_route_mm": 365.8,
+      "closer_clamp_caption": "K6.43",
+      "closer_clamp_endpoints": []
+    },
+    {
+      "terminal": "TB30",
+      "pin": "1",
+      "endpoint": "K3.A1+",
+      "current_side": "TOP",
+      "closer_side": "BOT",
+      "extra_route_mm": 675.0,
+      "closer_clamp_caption": null,
+      "closer_clamp_endpoints": [
+        "S1.4",
+        "J6.4",
+        "J1.4"
+      ]
+    },
+    {
+      "terminal": "TB50",
+      "pin": "1",
+      "endpoint": "J3.G",
+      "current_side": "TOP",
+      "closer_side": "BOT",
+      "extra_route_mm": 158.0,
+      "closer_clamp_caption": "MOTOR",
+      "closer_clamp_endpoints": []
+    },
+    {
+      "terminal": "TB51",
+      "pin": "1",
+      "endpoint": "PS1.1_BOT",
+      "current_side": "TOP",
+      "closer_side": "BOT",
+      "extra_route_mm": 158.0,
+      "closer_clamp_caption": "BACKPLATE",
+      "closer_clamp_endpoints": []
+    },
+    {
+      "terminal": "TB60",
+      "pin": "1",
+      "endpoint": "K5.2",
+      "current_side": "TOP",
+      "closer_side": "BOT",
+      "extra_route_mm": 381.3,
+      "closer_clamp_caption": "SPARE",
+      "closer_clamp_endpoints": [
+        "TB61.2"
+      ]
+    },
+    {
+      "terminal": "TB61",
+      "pin": "1",
+      "endpoint": "OL1.2",
+      "current_side": "TOP",
+      "closer_side": "BOT",
+      "extra_route_mm": 488.9,
+      "closer_clamp_caption": "M1.T1",
+      "closer_clamp_endpoints": [
+        "TB60.2"
+      ]
+    },
+    {
+      "terminal": "TB62",
+      "pin": "1",
+      "endpoint": "K5.4",
+      "current_side": "TOP",
+      "closer_side": "BOT",
+      "extra_route_mm": 357.3,
+      "closer_clamp_caption": "SPARE",
+      "closer_clamp_endpoints": [
+        "TB63.2"
+      ]
+    },
+    {
+      "terminal": "TB63",
+      "pin": "1",
+      "endpoint": "OL1.4",
+      "current_side": "TOP",
+      "closer_side": "BOT",
+      "extra_route_mm": 460.3,
+      "closer_clamp_caption": "M1.T2",
+      "closer_clamp_endpoints": [
+        "TB62.2"
+      ]
+    },
+    {
+      "terminal": "TB64",
+      "pin": "1",
+      "endpoint": "K5.6",
+      "current_side": "TOP",
+      "closer_side": "BOT",
+      "extra_route_mm": 333.3,
+      "closer_clamp_caption": "SPARE",
+      "closer_clamp_endpoints": [
+        "TB65.2"
+      ]
+    },
+    {
+      "terminal": "TB65",
+      "pin": "1",
+      "endpoint": "OL1.6",
+      "current_side": "TOP",
+      "closer_side": "BOT",
+      "extra_route_mm": 431.7,
+      "closer_clamp_caption": "M1.T3",
+      "closer_clamp_endpoints": [
+        "TB64.2"
+      ]
+    },
+    {
+      "terminal": "TB66",
+      "pin": "1",
+      "endpoint": "OL2.4",
+      "current_side": "TOP",
+      "closer_side": "BOT",
+      "extra_route_mm": 570.3,
+      "closer_clamp_caption": "M1.T4",
+      "closer_clamp_endpoints": []
+    },
+    {
+      "terminal": "TB67",
+      "pin": "1",
+      "endpoint": "OL2.6",
+      "current_side": "TOP",
+      "closer_side": "BOT",
+      "extra_route_mm": 541.7,
+      "closer_clamp_caption": "M1.T5",
+      "closer_clamp_endpoints": []
+    },
+    {
+      "terminal": "TB68",
+      "pin": "1",
+      "endpoint": "OL2.2",
+      "current_side": "TOP",
+      "closer_side": "BOT",
+      "extra_route_mm": 598.9,
+      "closer_clamp_caption": "M1.T6",
+      "closer_clamp_endpoints": []
+    }
+  ],
+  "ps1_pad_number_mismatch": {
+    "TB1.1": "1_BOT",
+    "TB1.2": "2_BOT",
+    "TB1.3": "3_BOT",
+    "TB2.1": "1_TOP",
+    "TB2.2": "2_TOP",
+    "TB2.3": "3_TOP",
+    "TB2.4": "4_TOP"
+  },
+  "verification": {
+    "erc_errors": 0,
+    "erc_warnings": 0,
+    "native_netlist_verified": true,
+    "board_unchanged": true,
+    "all_29_feedthrough_symbols_vertical": true,
+    "schematic_sha256": "d7d0c7a2a9f00aca91e1409814b10e67edb1f7cf339d34704af6fea44857d49e",
+    "pcb_sha256": "ffaab876519d9b5fe2d80c62aec33033b6c178226a4a0e568cf82567b544a02b",
+    "csv_sha256": "0579f0b1213b6eee2192b01cc2820236ba538035848543ff0253d786742a4588",
+    "final_schematic_changes": {
+      "source_sha256": "6017ca710981f7ebb95448da545957a4139442e7c78cf69e2beb5931b934ca45",
+      "pcb_sha256": "ffaab876519d9b5fe2d80c62aec33033b6c178226a4a0e568cf82567b544a02b",
+      "symbol_identity_changes": [
+        {
+          "from_ref": "TB31",
+          "to_ref": "TB33",
+          "from_uuid": "632fa576-2b40-4167-a17f-30edbaa1f652",
+          "to_uuid": "0d3f57e4-c7fa-4460-8f6a-db5dad12fbb7"
+        },
+        {
+          "from_ref": "J1",
+          "to_ref": "J2",
+          "from_uuid": "6624cae7-c1f4-444e-97a4-ea972882b54e",
+          "to_uuid": "6624cae7-c1f4-444e-97a4-ea972882b54e"
+        },
+        {
+          "from_ref": "TB40",
+          "to_ref": "TB42",
+          "from_uuid": "782cabbe-a58e-46f3-9f97-d5cf96f2f77e",
+          "to_uuid": "d4d821a2-498b-4b0e-b253-9376599824db"
+        },
+        {
+          "from_ref": "TB30",
+          "to_ref": "TB30",
+          "from_uuid": "8b8baeeb-0fbc-4c94-a3ad-e8fa3cba069b",
+          "to_uuid": "e4968cb9-8379-43ed-8542-65e9c4206140"
+        },
+        {
+          "from_ref": "TB32",
+          "to_ref": "TB32",
+          "from_uuid": "91a612f5-6b94-4157-9bc5-c46b2a7a6dd9",
+          "to_uuid": "a2c6f6d7-2675-40c8-b351-1aaa674ef968"
+        },
+        {
+          "from_ref": "J1",
+          "to_ref": "J1",
+          "from_uuid": "a2b42a52-7630-44ca-af87-701f881cb826",
+          "to_uuid": "76a8a7b6-7dbb-4169-8aa9-0038ebf2cf31"
+        },
+        {
+          "from_ref": "TB42",
+          "to_ref": "TB40",
+          "from_uuid": "d4d821a2-498b-4b0e-b253-9376599824db",
+          "to_uuid": "782cabbe-a58e-46f3-9f97-d5cf96f2f77e"
+        },
+        {
+          "from_ref": "TB33",
+          "to_ref": "TB31",
+          "from_uuid": "d7067eb1-ca40-4f64-8ae2-96eed03e4aea",
+          "to_uuid": "16702aad-fc25-433e-a788-1f2e87c42a1d"
+        }
+      ],
+      "ps1_captions_updated": 3,
+      "incoming_phase_through_wires_added": 3,
+      "user_wire_paths_preserved": true,
+      "user_vertical_symbol_positions_preserved": true
+    },
+    "csv_changes": {
+      "source_sha256": "0bcfbeb5b34157804adc0754886129ae09706002a803b7b4afdd89a8a80245ca",
+      "row_count": 91,
+      "changes": [
+        {
+          "row": 2,
+          "column": "FROM PIN",
+          "before": "Hot",
+          "after": "L1"
+        },
+        {
+          "row": 6,
+          "column": "FROM PIN",
+          "before": "Hot",
+          "after": "L2"
+        },
+        {
+          "row": 10,
+          "column": "FROM PIN",
+          "before": "Hot",
+          "after": "L3"
+        },
+        {
+          "row": 16,
+          "column": "TO PIN",
+          "before": "TB1.3 BOT",
+          "after": "3_BOT"
+        },
+        {
+          "row": 17,
+          "column": "TO PIN",
+          "before": "TB1.2 BOT",
+          "after": "2_BOT"
+        },
+        {
+          "row": 41,
+          "column": "FROM PIN",
+          "before": "TB2.3 TOP",
+          "after": "3_TOP"
+        },
+        {
+          "row": 45,
+          "column": "FROM PIN",
+          "before": "TB2.1 TOP",
+          "after": "1_TOP"
+        },
+        {
+          "row": 86,
+          "column": "FROM PIN",
+          "before": "TB1.1 BOT",
+          "after": "1_BOT"
+        }
+      ],
+      "other_cells_preserved": true
+    }
+  }
+}

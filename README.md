@@ -35,6 +35,21 @@ rows are omitted. Other cells remain editable text. **Overwrite** saves directly
 to the original project CSV. **Save CSV** downloads a separate copy. Relaunch the
 Finder app after updating the reviewer to use its latest server features.
 
+## Generate a wiring review
+
+Double-click **Generate Wiring Review.app** to generate a read-only review from
+wire records stored in the saved schematic and terminal/duct positions in the PCB.
+The first section contains the six incoming phase conductors; other sections will
+be reconciled with the schematic one at a time. The existing 91-row schedule remains
+available as a migration reference.
+
+See [schematic-owned wiring](tools/wiring/README.md) for the record editor, routing
+rules and generated coverage report. To generate without opening a browser:
+
+```sh
+python3 tools/wiring/generate.py
+```
+
 ## Shared parts library
 
 Reusable assets are kept in the separate `_parts` repository:

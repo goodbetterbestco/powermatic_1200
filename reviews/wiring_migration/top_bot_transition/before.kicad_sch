@@ -25393,7 +25393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Wire.W004" "{\"schema\":1,\"from_pin\":\"TOP\",\"to\":{\"symbol_uuid\":\"5ca8057b-4eb2-4c19-b9e6-24988ef269e0\",\"pin\":\"P2.A\"},\"section\":\"01 Incoming phases\",\"kind\":\"wire\",\"review\":\"pending\",\"awg\":\"14\",\"term1\":\"Ferrule 14 AWG; L=TBD mm\",\"term2\":\"Ferrule 14 AWG; L=TBD mm\",\"length\":{\"mode\":\"auto\",\"slack_mm\":\"200\",\"round_mm\":\"50\",\"minimum_mm\":\"1200\"},\"migration_note\":\"The legacy cut estimate is retained as a minimum until this section is reviewed.\",\"from_symbol_uuid\":\"28685e83-b92d-43bf-876f-d867e00acc25\"}"
+		(property "Wire.W004" "{\"schema\":1,\"from_pin\":\"1\",\"to\":{\"symbol_uuid\":\"5ca8057b-4eb2-4c19-b9e6-24988ef269e0\",\"pin\":\"P2.A\"},\"section\":\"01 Incoming phases\",\"kind\":\"wire\",\"review\":\"pending\",\"awg\":\"14\",\"term1\":\"Ferrule 14 AWG; L=TBD mm\",\"term2\":\"Ferrule 14 AWG; L=TBD mm\",\"length\":{\"mode\":\"auto\",\"slack_mm\":\"200\",\"round_mm\":\"50\",\"minimum_mm\":\"1200\"},\"migration_note\":\"The legacy cut estimate is retained as a minimum until this section is reviewed.\"}"
 			(at 177.8 -72.39 0)
 			(effects
 				(font
@@ -28733,7 +28733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Wire.W002" "{\"schema\":1,\"from_pin\":\"TOP\",\"to\":{\"symbol_uuid\":\"5ca8057b-4eb2-4c19-b9e6-24988ef269e0\",\"pin\":\"P1.A\"},\"section\":\"01 Incoming phases\",\"kind\":\"wire\",\"review\":\"pending\",\"awg\":\"14\",\"term1\":\"Ferrule 14 AWG; L=TBD mm\",\"term2\":\"Ferrule 14 AWG; L=TBD mm\",\"length\":{\"mode\":\"auto\",\"slack_mm\":\"200\",\"round_mm\":\"50\",\"minimum_mm\":\"1200\"},\"migration_note\":\"The legacy cut estimate is retained as a minimum until this section is reviewed.\",\"from_symbol_uuid\":\"782cabbe-a58e-46f3-9f97-d5cf96f2f77e\"}"
+		(property "Wire.W002" "{\"schema\":1,\"from_pin\":\"1\",\"to\":{\"symbol_uuid\":\"5ca8057b-4eb2-4c19-b9e6-24988ef269e0\",\"pin\":\"P1.A\"},\"section\":\"01 Incoming phases\",\"kind\":\"wire\",\"review\":\"pending\",\"awg\":\"14\",\"term1\":\"Ferrule 14 AWG; L=TBD mm\",\"term2\":\"Ferrule 14 AWG; L=TBD mm\",\"length\":{\"mode\":\"auto\",\"slack_mm\":\"200\",\"round_mm\":\"50\",\"minimum_mm\":\"1200\"},\"migration_note\":\"The legacy cut estimate is retained as a minimum until this section is reviewed.\"}"
 			(at 177.8 -74.93 0)
 			(effects
 				(font
@@ -32806,7 +32806,7 @@
 				(justify right)
 			)
 		)
-		(property "Wire.W001" "{\"schema\":1,\"from_pin\":\"X\",\"to\":{\"symbol_uuid\":\"782cabbe-a58e-46f3-9f97-d5cf96f2f77e\",\"pin\":\"BOT\"},\"section\":\"01 Incoming phases\",\"kind\":\"panel_cable_core\",\"review\":\"pending\",\"awg\":\"12\",\"term1\":\"plug clamp\",\"term2\":\"Ferrule 12 AWG; L=TBD mm\",\"length\":{\"mode\":\"auto\",\"slack_mm\":\"200\",\"round_mm\":\"50\",\"minimum_mm\":\"400\"},\"migration_note\":\"The legacy cut estimate is retained as a minimum until this section is reviewed. Length covers the panel tail; external cable allowance remains in the BOM.\",\"route_from\":{\"symbol_uuid\":\"233d10ed-562b-4d7c-8332-858e4146f140\",\"pin\":\"X\"},\"from_symbol_uuid\":\"c5ff8006-339f-4474-94f3-df6cc7c1d5be\"}"
+		(property "Wire.W001" "{\"schema\":1,\"from_pin\":\"X\",\"to\":{\"symbol_uuid\":\"782cabbe-a58e-46f3-9f97-d5cf96f2f77e\",\"pin\":\"2\"},\"section\":\"01 Incoming phases\",\"kind\":\"panel_cable_core\",\"review\":\"pending\",\"awg\":\"12\",\"term1\":\"plug clamp\",\"term2\":\"Ferrule 12 AWG; L=TBD mm\",\"length\":{\"mode\":\"auto\",\"slack_mm\":\"200\",\"round_mm\":\"50\",\"minimum_mm\":\"400\"},\"migration_note\":\"The legacy cut estimate is retained as a minimum until this section is reviewed. Length covers the panel tail; external cable allowance remains in the BOM.\",\"route_from\":{\"symbol_uuid\":\"233d10ed-562b-4d7c-8332-858e4146f140\",\"pin\":\"X\"}}"
 			(at 168.91 -71.12 0)
 			(effects
 				(font
@@ -32815,7 +32815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Wire.W003" "{\"schema\":1,\"from_pin\":\"Y\",\"to\":{\"symbol_uuid\":\"28685e83-b92d-43bf-876f-d867e00acc25\",\"pin\":\"BOT\"},\"section\":\"01 Incoming phases\",\"kind\":\"panel_cable_core\",\"review\":\"pending\",\"awg\":\"12\",\"term1\":\"plug clamp\",\"term2\":\"Ferrule 12 AWG; L=TBD mm\",\"length\":{\"mode\":\"auto\",\"slack_mm\":\"200\",\"round_mm\":\"50\",\"minimum_mm\":\"400\"},\"migration_note\":\"The legacy cut estimate is retained as a minimum until this section is reviewed. Length covers the panel tail; external cable allowance remains in the BOM.\",\"route_from\":{\"symbol_uuid\":\"233d10ed-562b-4d7c-8332-858e4146f140\",\"pin\":\"Y\"},\"from_symbol_uuid\":\"c5ff8006-339f-4474-94f3-df6cc7c1d5be\"}"
+		(property "Wire.W003" "{\"schema\":1,\"from_pin\":\"Y\",\"to\":{\"symbol_uuid\":\"28685e83-b92d-43bf-876f-d867e00acc25\",\"pin\":\"2\"},\"section\":\"01 Incoming phases\",\"kind\":\"panel_cable_core\",\"review\":\"pending\",\"awg\":\"12\",\"term1\":\"plug clamp\",\"term2\":\"Ferrule 12 AWG; L=TBD mm\",\"length\":{\"mode\":\"auto\",\"slack_mm\":\"200\",\"round_mm\":\"50\",\"minimum_mm\":\"400\"},\"migration_note\":\"The legacy cut estimate is retained as a minimum until this section is reviewed. Length covers the panel tail; external cable allowance remains in the BOM.\",\"route_from\":{\"symbol_uuid\":\"233d10ed-562b-4d7c-8332-858e4146f140\",\"pin\":\"Y\"}}"
 			(at 168.91 -71.12 0)
 			(effects
 				(font
@@ -32824,7 +32824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Wire.W005" "{\"schema\":1,\"from_pin\":\"Z\",\"to\":{\"symbol_uuid\":\"d4d821a2-498b-4b0e-b253-9376599824db\",\"pin\":\"BOT\"},\"section\":\"01 Incoming phases\",\"kind\":\"panel_cable_core\",\"review\":\"pending\",\"awg\":\"12\",\"term1\":\"plug clamp\",\"term2\":\"Ferrule 12 AWG; L=TBD mm\",\"length\":{\"mode\":\"auto\",\"slack_mm\":\"200\",\"round_mm\":\"50\",\"minimum_mm\":\"400\"},\"migration_note\":\"The legacy cut estimate is retained as a minimum until this section is reviewed. Length covers the panel tail; external cable allowance remains in the BOM.\",\"route_from\":{\"symbol_uuid\":\"233d10ed-562b-4d7c-8332-858e4146f140\",\"pin\":\"Z\"},\"from_symbol_uuid\":\"c5ff8006-339f-4474-94f3-df6cc7c1d5be\"}"
+		(property "Wire.W005" "{\"schema\":1,\"from_pin\":\"Z\",\"to\":{\"symbol_uuid\":\"d4d821a2-498b-4b0e-b253-9376599824db\",\"pin\":\"2\"},\"section\":\"01 Incoming phases\",\"kind\":\"panel_cable_core\",\"review\":\"pending\",\"awg\":\"12\",\"term1\":\"plug clamp\",\"term2\":\"Ferrule 12 AWG; L=TBD mm\",\"length\":{\"mode\":\"auto\",\"slack_mm\":\"200\",\"round_mm\":\"50\",\"minimum_mm\":\"400\"},\"migration_note\":\"The legacy cut estimate is retained as a minimum until this section is reviewed. Length covers the panel tail; external cable allowance remains in the BOM.\",\"route_from\":{\"symbol_uuid\":\"233d10ed-562b-4d7c-8332-858e4146f140\",\"pin\":\"Z\"}}"
 			(at 168.91 -71.12 0)
 			(effects
 				(font
@@ -33891,7 +33891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Wire.W006" "{\"schema\":1,\"from_pin\":\"TOP\",\"to\":{\"symbol_uuid\":\"5ca8057b-4eb2-4c19-b9e6-24988ef269e0\",\"pin\":\"P3.A\"},\"section\":\"01 Incoming phases\",\"kind\":\"wire\",\"review\":\"pending\",\"awg\":\"14\",\"term1\":\"Ferrule 14 AWG; L=TBD mm\",\"term2\":\"Ferrule 14 AWG; L=TBD mm\",\"length\":{\"mode\":\"auto\",\"slack_mm\":\"200\",\"round_mm\":\"50\",\"minimum_mm\":\"1150\"},\"migration_note\":\"The legacy cut estimate is retained as a minimum until this section is reviewed.\",\"from_symbol_uuid\":\"d4d821a2-498b-4b0e-b253-9376599824db\"}"
+		(property "Wire.W006" "{\"schema\":1,\"from_pin\":\"1\",\"to\":{\"symbol_uuid\":\"5ca8057b-4eb2-4c19-b9e6-24988ef269e0\",\"pin\":\"P3.A\"},\"section\":\"01 Incoming phases\",\"kind\":\"wire\",\"review\":\"pending\",\"awg\":\"14\",\"term1\":\"Ferrule 14 AWG; L=TBD mm\",\"term2\":\"Ferrule 14 AWG; L=TBD mm\",\"length\":{\"mode\":\"auto\",\"slack_mm\":\"200\",\"round_mm\":\"50\",\"minimum_mm\":\"1150\"},\"migration_note\":\"The legacy cut estimate is retained as a minimum until this section is reviewed.\"}"
 			(at 177.8 -69.85 0)
 			(effects
 				(font

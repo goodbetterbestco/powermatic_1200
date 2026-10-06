@@ -1,0 +1,14 @@
+{
+  "unit_tests": 16,
+  "reviewer_server_tests": 8,
+  "schematic_wire_records": 6,
+  "legacy_rows_remaining": 85,
+  "erc_errors": 0,
+  "erc_warnings": 0,
+  "records_survive_native_reload_save": true,
+  "legacy_csv_unchanged": true,
+  "pcb_positions_and_graphics_preserved": true,
+  "pcb_feedthrough_footprints_with_renamed_pads": 29,
+  "source_schematic_sha256": "b31f05b6e39fb16b9dfa2778ca23edeafe8ad50be4a07ac2b5539465a325dd05",
+  "source_pcb_sha256": "9cecc11db2b971877a06771da9574aa3e8772458e3ebb0ba20ee8b3874d4c1db"
+}
