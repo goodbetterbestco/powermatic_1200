@@ -1,7 +1,0 @@
-FROM,FROM PIN,TO,TO PIN,AWG,LENGTH,TERM 1,TERM 2
-Mains Plug,L1,TB40,BOT,12,450,plug clamp,Ferrule 12 AWG; L=TBD mm
-TB40,TOP,Fuse Holder,P1.A TOP,14,1200,Ferrule 14 AWG; L=TBD mm,Ferrule 14 AWG; L=TBD mm
-Mains Plug,L2,TB41,BOT,12,450,plug clamp,Ferrule 12 AWG; L=TBD mm
-TB41,TOP,Fuse Holder,P2.A TOP,14,1200,Ferrule 14 AWG; L=TBD mm,Ferrule 14 AWG; L=TBD mm
-Mains Plug,L3,TB42,BOT,12,450,plug clamp,Ferrule 12 AWG; L=TBD mm
-TB42,TOP,Fuse Holder,P3.A TOP,14,1150,Ferrule 14 AWG; L=TBD mm,Ferrule 14 AWG; L=TBD mm

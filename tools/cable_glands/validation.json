@@ -1,9 +1,0 @@
-{
-  "existing_board_records_preserved_except_five_net_names": true,
-  "erc_violations": 76,
-  "drc_violations": 297,
-  "unconnected_before": 73,
-  "unconnected_after": 90,
-  "new_wiring_targets": 17,
-  "final_board_sha256": "6f38615f021fbaed2bc44a73c9a86bfbd8166ff67ae2af3ed17009c19c9093d3"
-}

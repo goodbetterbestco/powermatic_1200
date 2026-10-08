@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "Controls")(type "KiCad")(uri "${PARTS_LIB}/footprints/Controls.pretty")(options "")(descr "Controls panel-layout footprints"))
-)

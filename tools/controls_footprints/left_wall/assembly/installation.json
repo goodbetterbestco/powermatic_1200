@@ -1,8 +1,0 @@
-{
-  "reference": "SW1",
-  "changed": "footprint graphics and single assembly model",
-  "other_top_level_nodes_unchanged": true,
-  "all_fields_pads_nets_placement_unchanged": true,
-  "before_sha256": "b835e57b807d14b555b1b2693e3ca94e8c1b08859603e1628ee7b2b5f3ea504b",
-  "after_sha256": "cc07b7c1be3fdbb193bd8c27d47503b76f15760f9d87136747ee25d4180668fb"
-}
