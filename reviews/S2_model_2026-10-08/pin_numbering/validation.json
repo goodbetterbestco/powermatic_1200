@@ -1,0 +1,23 @@
+{
+  "terminal_ids": [
+    "1B",
+    "1T",
+    "2B",
+    "2T",
+    "3B",
+    "3T",
+    "4B",
+    "4T",
+    "5T",
+    "6T"
+  ],
+  "pin_names_match_physical_contact_ends": true,
+  "all_contact_pins_passive_and_visible": true,
+  "pin_and_field_grids_correct": true,
+  "all_ten_absolute_schematic_connection_points_unchanged": true,
+  "electrical_connectivity_unchanged": true,
+  "wire_sizes_and_terminations_follow_physical_IDs": true,
+  "all_other_symbols_and_board_records_preserved": true,
+  "footprint_pad_geometry_and_model_transform_unchanged": true,
+  "live_symbol_editor_inspection": "pending"
+}

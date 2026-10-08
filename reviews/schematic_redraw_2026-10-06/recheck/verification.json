@@ -1,0 +1,26 @@
+{
+  "schematic_sha256": "462dfc2d9a394fd04e105236802ed6419120693a99164f15736c836764cc3889",
+  "kicad_version": "10.0.6",
+  "erc_errors": 0,
+  "erc_warnings": 0,
+  "HIGH_COIL": [
+    [
+      "K5",
+      "44"
+    ],
+    [
+      "K6",
+      "A1.BOT"
+    ],
+    [
+      "K6",
+      "A1.TOP"
+    ],
+    [
+      "SP6",
+      "1"
+    ]
+  ],
+  "other_nets": "Unchanged except corrected SPEED_SET and renamed OL4_OK",
+  "design_modified_by_review": false
+}

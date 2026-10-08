@@ -1,0 +1,75 @@
+{
+  "native_bounds_mm": [
+    [
+      574.0,
+      -178.0,
+      1.5949999999996223
+    ],
+    [
+      626.0,
+      -62.0,
+      46.2950001
+    ]
+  ],
+  "all_35_valid_solids_preserved": true,
+  "physical_dimensions_preserved": true,
+  "base_at_top_component_plane_z_mm": 1.5949999999996223,
+  "native_placement_translation_mm": [
+    600,
+    -120,
+    1.595
+  ],
+  "screw_checks": [
+    {
+      "pin": "2T",
+      "source_screw": "screw_2T",
+      "native_rim_center_error_mm": 3.8781699629453215e-07
+    },
+    {
+      "pin": "1T",
+      "source_screw": "screw_1T",
+      "native_rim_center_error_mm": 2.7238499455961573e-07
+    },
+    {
+      "pin": "2B",
+      "source_screw": "screw_2B",
+      "native_rim_center_error_mm": 4.889149920472846e-07
+    },
+    {
+      "pin": "1B",
+      "source_screw": "screw_1B",
+      "native_rim_center_error_mm": 4.888809996828059e-07
+    },
+    {
+      "pin": "4T",
+      "source_screw": "screw_4T",
+      "native_rim_center_error_mm": 2.2866900906137744e-07
+    },
+    {
+      "pin": "3T",
+      "source_screw": "screw_3T",
+      "native_rim_center_error_mm": 1.0536999184296292e-07
+    },
+    {
+      "pin": "4B",
+      "source_screw": "screw_4B",
+      "native_rim_center_error_mm": 9.120981303567532e-09
+    },
+    {
+      "pin": "3B",
+      "source_screw": "screw_3B",
+      "native_rim_center_error_mm": 9.120995514422248e-09
+    },
+    {
+      "pin": "6T",
+      "source_screw": "screw_6T",
+      "native_rim_center_error_mm": 3.9567999010614585e-07
+    },
+    {
+      "pin": "5T",
+      "source_screw": "screw_5T",
+      "native_rim_center_error_mm": 4.888900093646953e-07
+    }
+  ],
+  "max_screw_center_error_mm": 4.889149920472846e-07
+}

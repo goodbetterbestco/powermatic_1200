@@ -277,7 +277,14 @@ def change_fields(text, updates):
                  f'(at {at[1]} {at[2]} 0) (effects (font (size 1.27 1.27)) (hide yes)))'
                  for name, value in fields.items() if value is not None]
         if extra:
-            out = out[:out.rfind(')')] + '\n' + '\n'.join(extra) + '\n)'
+            closing = out.rfind(')')
+            start = closing
+            while start and out[start - 1] in ' \t':
+                start -= 1
+            # Insert before the closing line's indent; retaining that indent
+            # before an added newline would introduce trailing whitespace.
+            indent = out[start:closing]
+            out = out[:start] + '\n'.join(extra) + '\n' + indent + out[closing:]
         edits.append((a, b, out))
     if seen != set(updates):
         raise ValueError('A symbol changed before the metadata could be updated.')

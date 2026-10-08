@@ -1,20 +1,20 @@
 TYPE,NAME,QUA,PACK,UNIT,COST,LINE,SUPPLIER,SPN
-Contactor,Power Contactor,5,1,EA,31.00,155.00,AD,HMC-9B30-11-DS
+Contactor,Magnetic Contactor,5,1,EA,31.00,155.00,AD,HMC-9B30-11-DS
 Contactor,Contactor Interlock,2,1,EA,16.50,33.00,AD,HMX1-MI
 Contactor,Coil Enable Relay,1,1,EA,46.50,46.50,AD,HC3096N-52-900-24
 Contactor,Reversing Busbars,1,1,EA,17.00,17.00,AD,HMX1-BBREV
 Power,DC Power Supply,1,1,EA,0.00,0.00,GBB,NDR-240-24
 Power,Circuit Breaker,1,1,EA,55.00,55.00,AD,FAZ-D4-2-NA-L
-Disconnect,Motor Disconnect,1,1,EA,0.00,0.00,GBB,6759K211
+Power,Mains Disconnect,1,1,EA,0.00,0.00,GBB,6759K211
 Fuse,Class RK5 Fuse,3,1,EA,7.74,23.22,AllFuses,FRN-R-10
 Fuse,Class R Fuse Holder,1,1,EA,54.00,54.00,AD,RM25030-3SR
 Fuse,Fuse Cover,3,1,EA,14.00,42.00,GRAINGER,CVR-RH-25030
-Operator,Speed Switch,1,1,EA,0.00,0.00,GBB,AB_365_TAV2111
-Operator,Control Pendant,1,1,EA,0.00,0.00,GBB,AB_800S_3SA
+Operator,Drum Switch,1,1,EA,0.00,0.00,GBB,AB_365_TAV2111
+Operator,Button Station,1,1,EA,0.00,0.00,GBB,FURNAS_50MA3KLE
 Contactor,Thermal Overload,2,1,EA,31.50,63.00,AD,HTOR32-6-S
 Contactor,Coil Surge Suppressor,5,1,EA,12.00,60.00,AD,HMX1-SSVRC-DC
-Operator,White Indicator,1,1,EA,0.00,0.00,GBB,DK_4008-XB4BVB1-ND
-Terminal,M12 Panel Socket,1,1,EA,0.00,0.00,GBB,DK_A125513-ND
+Operator,Indicator Lamp White,1,1,EA,0.00,0.00,GBB,DK_4008-XB4BVB1-ND
+Operator,M12 Panel Socket,1,1,EA,0.00,0.00,GBB,DK_A125513-ND
 Terminal,Feedthrough Terminal,2,25,PACK,9.75,19.50,AD,KN-T12GRY-25
 Terminal,End Cover,1,25,PACK,6.75,6.75,AD,KN-ECT6GRY-25
 Terminal,End Bracket,2,10,PACK,11.50,23.00,AD,KN-EB7-10
@@ -23,25 +23,30 @@ Terminal,Adhesive Marker,1,250,PACK,13.50,13.50,AD,KN-L5-BLANK-250
 Enclosure,Enclosure,1,1,EA,353.00,353.00,AD,EN4SD20208GY
 Enclosure,Backplate,1,1,EA,51.00,51.00,AD,EP2020
 Enclosure,Mounting Feet,1,4,PACK,0.00,0.00,AD,EZPMFHD
-Enclosure,Cable Gland Power 13-18mm ID,1,5,PACK,16.50,16.50,AD,BNSPDX-23-W
-Enclosure,Cable Gland Controls 6-12mm ID,1,5,PACK,7.50,7.50,AD,BSPBX-22-W
-Enclosure,Cable Gland Motor 13-18mm ID,1,5,PACK,11.5,11.50,AD,BSPDX-23-W
-Wiring,Power Cable 4C 16.5mm OD,1,10,FT,0.00,0.00,GBB,7081K33
-Wiring,Power Plug,1,1,EA,0.00,0.00,GBB,7164K52
-Wiring,"Controls Cable 7C 9.5mm OD ",1,10,FT,44.53,44.53,MCM,6452T44
-Wiring,Motor Cable 7C 14mm OD,1,10,FT,46.14,46.14,MCM,7081K6
-Wiring,Din-Rail 35x7.5x400mm,1,4,EA,11.00,11.00,AD,DN-R35S-400-4
-Wiring,Wire-Duct 40x80x1000mm,2,1,EA,18.50,37.00,AD,T1-1530G1-1
-Wiring,14 AWG Blue Ferrules,0,,PACK,0.00,0.00,-,-
-Wiring,18 AWG Red Ferrules,0,,PACK,0.00,0.00,-,-
-Wiring,14 AWG Black Machine Wire,1,100,FT,0.00,0.00,-,-
-Wiring,14 AWG Green/Yellow Machine Wire,1,25,FT,0.00,0.00,-,-
-Wiring,18 Blue Color Machine Wire,1,100,FT,0.00,0.00,-,-
+Conduit,Liquid Tite,1,5,PACK,16.50,16.50,AD,BNSPDX-23-W
+Conduit,Liquid Tite,1,5,PACK,7.50,7.50,AD,BSPBX-22-W
+Conduit,Liquid Tite,1,5,PACK,11.5,11.50,AD,BSPDX-23-W
+Power,Cable 12AWG 4C 16.5mm OD,1,10,FT,0.00,0.00,GBB,7081K33
+Power,Plug,1,1,EA,0.00,0.00,GBB,7164K52
+Conduit,"3/4"" liquid-tight conduit",1,0,FT,0,0.00,-,-
+Enclousre,Din-Rail 35x7.5x400mm,1,4,EA,11.00,11.00,AD,DN-R35S-400-4
+Conduit,WireDuct 40x80x1000mm,2,1,EA,18.50,37.00,AD,T1-1530G1-1
+Hardware,Ferrule 14 AWG,0,0,PACK,0.00,0.00,-,-
+Hardware,Ferrule 18 AWG,0,0,PACK,0.00,0.00,-,-
+Wiring,14 AWG Black,1,0,FT,0.00,0.00,-,-
+Wiring,14 AWG Green/Yellow,1,0,FT,0.00,0.00,-,-
 Terminal,PE Terminal,1,10,PACK,29,29.00,AD,KN-G12SP-10
 Terminal,Separator,2,10,PACK,11.00,22.00,AD,KN-ST1BLK
-Terminal,Top Cover,1,25,PACK,15.00,15.00,AD,KN-TC-1S
-Operator,E-Stop,1,1,EA,0,0.00,GBB,Inventory
-Wiring,Chassis Bonding Hardware,1,1,EA,0,0.00,GBB,Inventory
-Enclosure,Mouting Hardware & Fasteners,1,1,PACK,0,0.00,GBB,Inventory
-Wiring,14-16 AWG x ID Blue Ring Terminals,1,1,PACK,0,0.00,MCM,
-Wiring,18 AWG x ID Red Ring Terminals,1,1,PACK,0,0.00,MCM,
+Terminal,Top Cover,2,25,PACK,15.00,30.00,AD,KN-TC-1S
+Operator,E-Stop Assembly,1,1,EA,0,0.00,GBB,Inventory
+Hardware,Ring 16 AWG #8-32,0,0,PACK,0,0.00,-,-
+Hardware,Ring 18 AWG #8-32,0,0,PACK,0,0.00,-,-
+Enclosure,Enclosure Bonding Kit,2,1,EA,,0.00,,GRDKIT01
+Conduit,"3/4"" liquid-tight fittings",1,1,EA,0,0.00,-,-
+Wiring,12 AWG Green/Yellow,1,0,FT,0.00,0.00,-,-
+Wiring,18 AWG Blue,1,0,FT,0.00,0.00,-,-
+Wiring,16 AWG Blue,1,0,FT,0.00,0.00,-,-
+Hardware,Ferrule 12 AWG,0,0,PACK,0.00,0.00,-,-
+Hardware,Ferrule 16 AWG,0,0,PACK,0.00,0.00,-,-
+Hardware,Twin Ferrule 2x14 AWG,0,0,PACK,0.00,0.00,-,-
+Hardware,Twin Ferrule 2x18 AWG,0,0,PACK,0.00,0.00,-,-

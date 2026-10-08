@@ -1,0 +1,117 @@
+{
+  "native_component_bounds_mm": [
+    [
+      532.5,
+      -267.741,
+      1.594999999999554
+    ],
+    [
+      688.5,
+      -194.74099999999945,
+      76.595
+    ]
+  ],
+  "native_board_bounds_mm": [
+    [
+      -4.684408416721908e-11,
+      -462.0,
+      0.0
+    ],
+    [
+      461.518,
+      -0.48199999999999915,
+      1.51
+    ]
+  ],
+  "model_base_and_KiCad_top_component_plane_z_mm": 1.594999999999554,
+  "native_transform_mm": [
+    600.0,
+    -231.24099999999996,
+    1.594999999999554
+  ],
+  "all_46_solids_preserved": true,
+  "size_preserved": true,
+  "screw_checks": [
+    {
+      "pin": "1.U",
+      "source_screw": "screw_1T",
+      "native_rim_center_error_mm": 2.300062858887311e-07
+    },
+    {
+      "pin": "1.L",
+      "source_screw": "screw_1B",
+      "native_rim_center_error_mm": 5.974838980086619e-07
+    },
+    {
+      "pin": "2.U",
+      "source_screw": "screw_2T",
+      "native_rim_center_error_mm": 2.299985391863908e-07
+    },
+    {
+      "pin": "2.L",
+      "source_screw": "screw_2B",
+      "native_rim_center_error_mm": 5.974900974312378e-07
+    },
+    {
+      "pin": "3.U",
+      "source_screw": "screw_3T",
+      "native_rim_center_error_mm": 2.300062858887311e-07
+    },
+    {
+      "pin": "3.L",
+      "source_screw": "screw_3B",
+      "native_rim_center_error_mm": 3.823900397207649e-07
+    },
+    {
+      "pin": "4.U",
+      "source_screw": "screw_4T",
+      "native_rim_center_error_mm": 2.299985391863908e-07
+    },
+    {
+      "pin": "4.L",
+      "source_screw": "screw_4B",
+      "native_rim_center_error_mm": 5.974900974312378e-07
+    },
+    {
+      "pin": "5.U",
+      "source_screw": "screw_5T",
+      "native_rim_center_error_mm": 2.300062858887311e-07
+    },
+    {
+      "pin": "5.L",
+      "source_screw": "screw_5B",
+      "native_rim_center_error_mm": 3.823900397207649e-07
+    },
+    {
+      "pin": "6.U",
+      "source_screw": "screw_6T",
+      "native_rim_center_error_mm": 2.299985391863908e-07
+    },
+    {
+      "pin": "6.L",
+      "source_screw": "screw_6B",
+      "native_rim_center_error_mm": 5.974900974312378e-07
+    },
+    {
+      "pin": "7.U",
+      "source_screw": "screw_7T",
+      "native_rim_center_error_mm": 2.300062858887311e-07
+    },
+    {
+      "pin": "7.L",
+      "source_screw": "screw_7B",
+      "native_rim_center_error_mm": 5.974838980086619e-07
+    },
+    {
+      "pin": "8.U",
+      "source_screw": "screw_8T",
+      "native_rim_center_error_mm": 2.299985391863908e-07
+    },
+    {
+      "pin": "8.L",
+      "source_screw": "screw_8B",
+      "native_rim_center_error_mm": 5.974900974312378e-07
+    }
+  ],
+  "max_screw_center_error_mm": 5.974900974312378e-07
+}

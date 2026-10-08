@@ -1,0 +1,22 @@
+{
+  "before_sha256": "9001000e05fd00a66506b56c44df2ef225f689c8c271808691b609aabe88c43e",
+  "installed_sha256": "6a56f5eb83bcf2681d2f424ddbc216b2bf9eab9ad98e58f00143b48a775fe45b",
+  "reference": "S2",
+  "pins_updated": [
+    "L2",
+    "L5",
+    "R1",
+    "R3",
+    "R5"
+  ],
+  "termination": "Ring terminal, 16 AWG; stud=#8-32; OD<=9 mm",
+  "all_terminals": {
+    "stud": "#8-32",
+    "maximum_width_or_od_mm": 9
+  },
+  "source": "Owner specification in chat, 2026-10-06",
+  "other_schematic_objects_unchanged": true,
+  "native_net_memberships_unchanged": true,
+  "erc_exit_code": 0,
+  "pcb_and_project_unchanged": true
+}

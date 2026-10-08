@@ -1,0 +1,13 @@
+{
+  "schematic_only_S2_identity_and_association_changed": true,
+  "only_unused_NC_common_joined_to_STOP_input_per_installed_jumpers": true,
+  "all_external_conductor_nets_and_termination_records_unchanged": true,
+  "additional_NO_common_jumper_explicitly_required_not_claimed_installed": true,
+  "physical_contact_mapping_matches_symbol_pin_functions": true,
+  "all_89_original_footprints_and_board_records_unchanged": true,
+  "old_library_symbols_and_catalog_rows_retained": true,
+  "ten_symbol_pins_match_ten_footprint_pads": true,
+  "source_STEP_byte_identical": true,
+  "project_settings_unchanged": true,
+  "CSV_SQLite_parity_and_integrity": true
+}

@@ -1,0 +1,83 @@
+{
+  "files": {
+    "powermatic_1200.kicad_pcb": {
+      "source": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/powermatic_1200.kicad_pcb",
+      "sha256_before": "bc1ac628e0305a76bfa75266dd87091224c39f725d5866bf51cde271b040ba4f",
+      "candidate": "/private/tmp/powermatic-s3-model/after/powermatic_1200.kicad_pcb",
+      "sha256_after": "c6b6aa47dfc67d8009e38ceacafbab306a1b69137c4a0f335226567cd8c20ec7"
+    },
+    "powermatic_1200.kicad_sch": {
+      "source": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/powermatic_1200.kicad_sch",
+      "sha256_before": "f4c8a9b494045ad564999bbb2007b2d8448499c99ef7c63ad357d6d50cd8b02e",
+      "candidate": "/private/tmp/powermatic-s3-model/after/powermatic_1200.kicad_sch",
+      "sha256_after": "ea8f467ca74fa9e21334f26bba4c2ae743ea4aa1a97bf4f4f68ec4a5acf13999"
+    },
+    "powermatic_1200.kicad_pro": {
+      "source": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/powermatic_1200.kicad_pro",
+      "sha256_before": "d944c41c2025e951eaf2588596b39351d4bc3f8228d01df7d1322891ccfe85ff",
+      "candidate": "/private/tmp/powermatic-s3-model/after/powermatic_1200.kicad_pro",
+      "sha256_after": "d944c41c2025e951eaf2588596b39351d4bc3f8228d01df7d1322891ccfe85ff"
+    }
+  },
+  "shared_files": {
+    "symbols/Controls.kicad_sym": {
+      "source": "/Users/evanthayer/Projects/_parts/symbols/Controls.kicad_sym",
+      "candidate": "/private/tmp/powermatic-s3-model/shared-after/Controls.kicad_sym",
+      "sha256_before": "60145ed8a9d07e5d8386676ca860a8cae1f5d68439a7edc4c608616cda3b0d48",
+      "sha256_after": "6fefb8577239bb126a2b2754750ae2a99e9f87473f539e3077009887e2396173"
+    },
+    "database/non_lcsc_parts.csv": {
+      "source": "/Users/evanthayer/Projects/_parts/database/non_lcsc_parts.csv",
+      "candidate": "/private/tmp/powermatic-s3-model/shared-after/non_lcsc_parts.csv",
+      "sha256_before": "de195f2e6bb7d6ede5bc6a712e4fb857a73aaacd7d65680196a8648c93b918d0",
+      "sha256_after": "bac7622dd3f9bada3fce8c6c3d74169d7b68da932293515c9e16056d378ad64f"
+    },
+    "database/non_lcsc_parts.db": {
+      "source": "/Users/evanthayer/Projects/_parts/database/non_lcsc_parts.db",
+      "candidate": "/private/tmp/powermatic-s3-model/database/non_lcsc_parts.db",
+      "sha256_before": "a48ad9e9a1202dd6632f784cd0aeb317e35db1aa810b0f3da02c5bbdf228be63",
+      "sha256_after": "7310b6feab66f32ea259ef77cd579309970587bff2b09cc315d74c9cddfdb38a"
+    },
+    "footprints/Controls.pretty/365-TAV2111_Top.kicad_mod": {
+      "source": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/365-TAV2111_Top.kicad_mod",
+      "candidate": "/private/tmp/powermatic-s3-model/assets/footprints/Controls.pretty/365-TAV2111_Top.kicad_mod",
+      "sha256_before": null,
+      "sha256_after": "78f49fdcfd5a5d354fc8cbb0a30a527fbc24929ed110eaf96579d3acbf36c894"
+    },
+    "3dmodels/Controls/AB_365-TAV2111.step": {
+      "source": "/Users/evanthayer/Projects/_parts/3dmodels/Controls/AB_365-TAV2111.step",
+      "candidate": "/private/tmp/powermatic-s3-model/assets/3dmodels/Controls/AB_365-TAV2111.step",
+      "sha256_before": null,
+      "sha256_after": "ee7bcd8e20cb8c17a6af1b4e34457eb748ac3d29948414212188b75cadde07fe"
+    }
+  },
+  "source": "/private/tmp/powermatic-s3-model",
+  "checks": {
+    "original_88_footprints_unchanged": true,
+    "schematic_net_membership_unchanged": true,
+    "shared_symbol_only_association_fields_changed": true,
+    "project_settings_unchanged": true,
+    "all_184_schematic_termination_fields_retained": true,
+    "catalog_CSV_SQLite_parity": true,
+    "catalog_unique_keys": true,
+    "catalog_integrity": "ok"
+  },
+  "final_validation": {
+    "installed_hashes_match_staging": true,
+    "native_STEP_alignment": "passed",
+    "source_STEP_byte_identical": true,
+    "original_88_footprints_preserved": true,
+    "schematic_nets_unchanged": true,
+    "ERC": {
+      "errors": 0,
+      "warnings": 10,
+      "identical_to_baseline": true
+    },
+    "DRC": {
+      "status": "unverified",
+      "baseline_exit": 134,
+      "final_exit": 134
+    },
+    "native_2D_and_3D_visual_review": "passed"
+  }
+}

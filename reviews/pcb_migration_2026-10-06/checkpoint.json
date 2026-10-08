@@ -1,0 +1,16 @@
+{
+  "project_hashes": {
+    "powermatic_1200.kicad_pro": "d944c41c2025e951eaf2588596b39351d4bc3f8228d01df7d1322891ccfe85ff",
+    "fp-lib-table": "9c2fe25de3910bd8c94680481ddae7fe568e6f6dcdc226899493dafc47e44d8e",
+    "powermatic_1200.kicad_sch": "6b8f7579d9e44f6828333140064fb458bab5dcdf718b55f65decb06fc6192cb8",
+    "powermatic_1200.kicad_pcb": "1a7cc0403f29a36033e4552f8a884ab816c7161dec4a317d12f678ffa7f94995"
+  },
+  "library_hashes": {
+    "BNSPDX-23-W_BottomWall.kicad_mod": "a967052b18d55e7a1d569ba9a0840185bac3aa8d7399d26da78323e21e560722",
+    "BSPDX-23-W_BottomWall.kicad_mod": "92d27f92fd00075c549de7aa364bc4b857fb598246da6fef354b97666dfe41d2",
+    "BSPBX-22-W_BottomWall.kicad_mod": "ed25576307d31a1459b1cda6b23923ccf2df4192ef421eb276f2420ed94ea4f2",
+    "NDR-240-24_Front.kicad_mod": "465f874911040491ef1da0e2ce3463cf61c28255564752465123bc14b0b0aac7",
+    "HMX1-MI_Front.kicad_mod": "71a545c1b5d2be3d9665cebe0080e25910fd26b129e2a6cf1f6df0af53433f62",
+    "KN-G12SP-10_Front.kicad_mod": "e9aac961c0689f0afae2b01dc3dc629fd2947b45ac2a9afe2010301895f8cab9"
+  }
+}

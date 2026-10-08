@@ -1,0 +1,17 @@
+{
+  "before_sha256": "6a56f5eb83bcf2681d2f424ddbc216b2bf9eab9ad98e58f00143b48a775fe45b",
+  "installed_sha256": "e4b27e27c4432083fba9e2db5c2c03c5fdd731b275f37da151c8b57e66033914",
+  "reference": "S3",
+  "pins_updated": [
+    "1.L",
+    "1.U",
+    "2.U"
+  ],
+  "termination": "Ring terminal, 16 AWG; stud=#8-32; OD<=9 mm",
+  "source": "Owner assignment to existing 16 AWG #8-32 ring, 2026-10-06",
+  "other_schematic_objects_unchanged": true,
+  "native_net_memberships_unchanged": true,
+  "native_export_preserves_updated_fields": true,
+  "erc_exit_code": 0,
+  "pcb_and_project_unchanged": true
+}

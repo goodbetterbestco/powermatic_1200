@@ -1,0 +1,15 @@
+{
+  "kicad_version": "10.0.6",
+  "footprints": 87,
+  "linked_footprints": 19,
+  "pcb_only": 68,
+  "unassigned_gray_feedthroughs": 29,
+  "gland_pad_counts": {
+    "J3": 8,
+    "J4": 12,
+    "J5": 16
+  },
+  "native_roundtrip_preserves_jumper_groups": true,
+  "all_physical_pad_nets_match_current_schematic": true,
+  "all_shared_library_files_load": true
+}

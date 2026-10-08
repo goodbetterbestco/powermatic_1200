@@ -5,6 +5,7 @@ Rev P is the current contactor-based design for the Powermatic 1200. Retain the 
 ## Active files
 
 - [Rev P BOM](Powermatic_BOM_revP.csv) — current component list, grouped by unique part number.
+- [Wire-size policy](WIRING_STANDARD.md) — conductor gauges, motor/controls conduit plan, component exceptions and documentation responsibilities.
 - [KiCad project](kicad/powermatic_1200/powermatic_1200.kicad_pro)
 - [Schematic](kicad/powermatic_1200/powermatic_1200.kicad_sch) — work in progress.
 - [Open work](TODO.md)
@@ -37,10 +38,12 @@ Finder app after updating the reviewer to use its latest server features.
 
 ## Generate a wiring review
 
+The [wire-size policy](WIRING_STANDARD.md) defines conductor classes and exceptions. The current wire-record generator awaits reconciliation with the 2026-10-06 PCB-only terminal migration; old records still target removed schematic terminals. The existing generated schedule is a historical partial review until that work is complete.
+
 Double-click **Generate Wiring Review.app** to generate a read-only review from
 wire records stored in the saved schematic and terminal/duct positions in the PCB.
-The first section contains the six incoming phase conductors; other sections will
-be reconciled with the schematic one at a time. The existing 91-row schedule remains
+The previous generated review covered six incoming phase conductors; other sections
+still require reconciliation with the schematic. The existing 91-row schedule remains
 available as a migration reference.
 
 See [schematic-owned wiring](tools/wiring/README.md) for the record editor, routing

@@ -1,0 +1,45 @@
+{
+  "switches": {
+    "S3": {
+      "fab_primitives_unchanged": 5339,
+      "silk_primitives": 604,
+      "minimum_rendered_stroke_to_copper_clearance_mm": 0.14999992202844714
+    },
+    "S2": {
+      "fab_primitives_unchanged": 4861,
+      "silk_primitives": 98,
+      "minimum_rendered_stroke_to_copper_clearance_mm": 2.428988145706642
+    }
+  },
+  "modified_footprint_records": [
+    "SP5",
+    "SP2",
+    "K1",
+    "Q1",
+    "SP1",
+    "K2",
+    "SP6",
+    "PS1",
+    "FH1",
+    "H1",
+    "K3",
+    "SP4",
+    "OL4",
+    "K6",
+    "OL6",
+    "SW1",
+    "J1",
+    "K4",
+    "K5",
+    "S3",
+    "S2"
+  ],
+  "hidden_metadata_relocated_not_deleted": true,
+  "backplate_clearance_circles_preserved": true,
+  "comments_layer_items": 0,
+  "drawings_layer_only_structural_information": true,
+  "all_F_Fab_source_graphics_preserved": true,
+  "all_pads_nets_positions_attributes_UUIDs_and_models_preserved": true,
+  "all_tracks_vias_zones_edge_cuts_and_other_board_records_preserved": true,
+  "only_requested_Controls_layer_and_detail_rules_changed": true
+}

@@ -116,7 +116,7 @@ def fmt(v):
     return f'{v:.6f}'.rstrip('0').rstrip('.') if abs(v) > 0.0000005 else '0'
 
 
-def text_record(node, place=None):
+def text_record(node, place=None, reference_layer='F.SilkS'):
     edits = []
     seen = set()
     for a, b, c in children(node):
@@ -127,7 +127,9 @@ def text_record(node, place=None):
         elif place and k == 'at':
             edits.append((a, b, '(at '+ ' '.join(fmt(v) for v in place) +' 0)'))
         elif place and k == 'layer':
-            edits.append((a, b, '(layer "Dwgs.User")'))
+            edits.append((a, b, f'(layer "{reference_layer}")'))
+        elif not place and k == 'layer' and any(f'"{name}"' in c for name in ['Dwgs.User', 'Cmts.User']):
+            edits.append((a, b, '(layer "F.Fab")'))
         elif k == 'effects':
             if place:
                 new = '(effects (font (size 2.5 2.5) (thickness 0.15)))'
@@ -144,15 +146,22 @@ def text_record(node, place=None):
 
 def edit_footprint(text, record):
     edits = []
+    structural = record['name'].startswith(('EN4SD', 'DN-R35S1_', 'T1-1530G1-1_'))
+    reference_layer = 'Dwgs.User' if structural else 'F.SilkS'
     for a, b, c in children(text):
         k = key(c)
         if k == 'property':
             is_ref = c.startswith('(property "Reference"')
-            edits.append((a, b, text_record(c, record['at_mm'] if is_ref else None)))
+            edits.append((a, b, text_record(c, record['at_mm'] if is_ref else None, reference_layer)))
         elif k == 'fp_text':
             # Old-style user text uses a bare hide flag outside effects.
-            if not re.search(r'\s+hide(?:\s|\))', c):
-                edits.append((a, b, c[:-1]+' hide)'))
+            new = c
+            if not structural:
+                new = new.replace('(layer "Dwgs.User")', '(layer "F.Fab")').replace('(layer "Cmts.User")', '(layer "F.Fab")')
+            if not re.search(r'\s+hide(?:\s|\))', new):
+                new = new[:-1] + ' hide)'
+            if new != c:
+                edits.append((a, b, new))
     out = replace(text, edits)
     # Every non-text record stays byte-for-byte identical, including placement.
     def physical(s):

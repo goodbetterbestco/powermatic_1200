@@ -1,0 +1,22 @@
+{
+  "S2": {
+    "model": "Furnas_50MA3KLE.step",
+    "selected_proxy_shapes": 24,
+    "raw_primitives": 150,
+    "silkscreen_primitives_before_clipping": 98,
+    "simplification_tolerance_mm": 0.075,
+    "retained": "Casing, button faces, terminal plates, brackets, contact body, shafts, jumpers, plain measured screw rims",
+    "omitted": "Screw slots, threads, engraved legends/numbers, nail heads and fine tessellation",
+    "model_and_F_Fab_unchanged": true
+  },
+  "S3": {
+    "model": "AB_365-TAV2111.step",
+    "selected_proxy_shapes": 37,
+    "raw_primitives": 3372,
+    "silkscreen_primitives_before_clipping": 556,
+    "simplification_tolerance_mm": 0.075,
+    "retained": "Casing, button faces, terminal plates, brackets, contact body, shafts, jumpers, plain measured screw rims",
+    "omitted": "Screw slots, threads, engraved legends/numbers, nail heads and fine tessellation",
+    "model_and_F_Fab_unchanged": true
+  }
+}

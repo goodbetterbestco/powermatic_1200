@@ -3,6 +3,90 @@
 Wire records in the saved `.kicad_sch` file are authoritative. The PCB supplies
 terminal positions and duct geometry. The generated CSV is a review output.
 
+Preferred conductor sizes and component-specific exceptions are defined in the
+project [wire-size policy](../../WIRING_STANDARD.md). Actual AWG and terminations
+remain per-conductor data; the generator must not substitute a default for a
+factory lead or cable-core specification.
+
+## Connection sizes before physical routing
+
+KiCad graphical wires do not have a native AWG property. The custom symbol field
+`Wire.Sizes` can hold sizing declarations for every connected terminal while
+physical terminal allocation remains pending. Each declaration binds an actual
+symbol UUID/pin and native net name to its application and AWG. Different parts
+of the same electrical net can have different sizes: 18 AWG panel wiring,
+16 AWG external S2/S3 wires and 22 AWG J1 factory pigtails.
+
+The `color` value records black power wire, blue DC control wire and green/yellow
+PE wire for discrete conductors. J1 retains its four supplied lead colors.
+Incoming cable-core colors are retained as supplied, rather than inferred from
+the discrete-wire color convention.
+
+Fixed switch links, suppressor leads, mating connector interfaces and direct-mount
+overload connections are classified separately, without guessing a supplied wire
+size or adding a loose wire. Internally common coil/PSU terminals do not imply
+extra jumpers. `Wire.SizePlan` records planned mechanical PE/bond conductors
+without inventing a motor symbol pin.
+
+`sizes.py` prepares a candidate copy and validates declarations against a native
+netlist. It never writes the active schematic. Applying a validated candidate
+requires saved editors, an editing pause and a source-hash check.
+
+The 2026-10-06 population is installed in the active schematic: all 172 connected
+terminals are classified, with 128 numeric AWG assignments and 44 fixed/interface
+classifications. M1.PE is 12 AWG, in addition to the six 14 AWG motor conductors.
+See the [generated sizing review](../../reviews/wire_sizes_2026-10-06/sizing.md).
+Validate the saved sizing fields or refresh their derived review with:
+
+```sh
+python3 tools/wiring/sizes.py
+python3 tools/wiring/sizes.py --report reviews/wire_sizes_2026-10-06/sizing.md
+```
+
+```sh
+python3 tools/wiring/sizes.py --stage /private/tmp/powermatic-sizes/powermatic_1200.kicad_sch \
+  --report /private/tmp/powermatic-sizes/sizing.md
+python3 tools/wiring/sizes.py --schematic /private/tmp/powermatic-sizes/powermatic_1200.kicad_sch
+```
+
+Connection-size declarations are not a physical wire schedule. `Wire.Wxxx`
+records still own each actual conductor's endpoints, gauge, termination and
+length; reconcile those records and the PCB-only terminal routes before
+generating a complete cut list. Keep an explicit AWG in each physical record
+when it is added; do not infer its gauge from a net-wide default.
+
+## Pin termination descriptions
+
+Each physical schematic symbol has one combined custom field per pin, named
+`Termination.<pin>`: for example `Termination.A1.BOT` or `Termination.P1.A`.
+The 2026-10-06 draft populates 184 fields on 25 symbols from existing termination
+records, using current AWG values. Fields remain hidden on the drawing and can
+be edited in Symbol Properties or the Symbol Fields Table. These are custom
+symbol fields keyed by pin number, not native pin properties.
+
+See the [pin termination draft](../../reviews/pin_terminations_2026-10-06/terminations.md)
+and its provenance. Existing TBD dimensions remain for review. Supplied contacts,
+retained jumpers and direct-mounted connections are separate from loose-wire
+crimps. The report's counts are pin fields, not purchasing quantities; PCB-only
+terminal blocks and mechanical studs are outside this symbol-field inventory.
+
+Refresh the review from saved fields with:
+
+```sh
+python3 tools/wiring/terminations.py --report reviews/pin_terminations_2026-10-06/terminations.md
+```
+
+`terminations.py --stage <candidate.kicad_sch>` prepares a separate candidate
+from existing records; it preserves any already-populated Termination fields.
+Applying a candidate still requires the saved/editor-pause checkpoint and hash
+checks. This command does not itself overwrite the source schematic.
+
+Since the 2026-10-06 migration, terminal blocks and glands are PCB-only. Existing
+incoming-phase records still target removed schematic terminals, so generation
+currently fails until endpoint support and the physical wire records are
+reconciled. Previously generated reports and the root legacy schedule are
+historical references, not current complete wiring documentation.
+
 Start the generated review from Finder with **Generate Wiring Review.app**, or:
 
 ```sh
@@ -13,9 +97,9 @@ The launcher reuses one localhost reviewer and does not open a Terminal window.
 The generated review is read-only: Find, sorting, flags and copying work, but
 cell edits and Overwrite are disabled. Save CSV downloads a report copy.
 
-## First section
+## Historical incoming-phase section
 
-The first six records cover the incoming phases only:
+The original six records covered the incoming phases only:
 
 | Wire | From | To |
 |---|---|---|

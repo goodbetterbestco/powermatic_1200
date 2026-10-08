@@ -1,0 +1,13 @@
+{
+  "reference": "S3",
+  "footprint_uuid": "ecec9467-c37c-4c04-a1ad-b2052ef1774d",
+  "symbol_uuid": "26502bde-0b19-4cea-bdff-2e8d228f3aae",
+  "position_mm": [
+    600,
+    231.241
+  ],
+  "pad_count": 16,
+  "all_pad_nets_functions_and_types_match_schematic": true,
+  "all_original_top_level_board_records_unchanged": true,
+  "board_sha256": "c6b6aa47dfc67d8009e38ceacafbab306a1b69137c4a0f335226567cd8c20ec7"
+}

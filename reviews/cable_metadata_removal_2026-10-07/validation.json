@@ -1,0 +1,26 @@
+{
+  "board": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/powermatic_1200.kicad_pcb",
+  "sha256_before": "3e1c9173e96200645d8552ecdae2cc60981646fdf67941c4b4a3b1f6ac6ef1cf",
+  "sha256_after": "92f72ff25270947aa4c8c5c302a22b6e7b429ab90930bf46a571a36c4bbb511f",
+  "removed_properties": 9,
+  "removed_by_reference": {
+    "J5": {
+      "Cable MPN": "6452T44",
+      "Cable cores": "7",
+      "Cable OD mm": "9.5"
+    },
+    "J4": {
+      "Cable MPN": "7081K6",
+      "Cable cores": "7",
+      "Cable OD mm": "14"
+    },
+    "J3": {
+      "Cable MPN": "7081K33",
+      "Cable cores": "4",
+      "Cable OD mm": "16.5"
+    }
+  },
+  "all_other_structure_unchanged": true,
+  "schematic_unchanged_sha256": "a77f7e061b619ac9f04d23c5c500f6e390cf791dc3825b9b7f9bb7bd046e101b",
+  "native_kicad_board_position_export": "passed"
+}
