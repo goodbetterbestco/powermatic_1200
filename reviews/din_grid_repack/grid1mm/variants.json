@@ -1,0 +1,1267 @@
+{
+  "variants": [
+    {
+      "base": "FAZ-D4-2-NA-L_Front",
+      "variant": "FAZ-D4-2-NA-L_Front_Grid1mm",
+      "source_sha256": "bc86c56edd30e137abe405d3eb719648575f8713efd3cbaed84dc4f1a626a1a1",
+      "variant_sha256": "493e47b5c35c2b682d472e03271b4df140489c51bc3deff443fa609730e39f85",
+      "nominal_faces_nm": [
+        -17700000,
+        17700000
+      ],
+      "grid_faces_nm": [
+        -18000000,
+        18000000
+      ],
+      "pins": [
+        {
+          "number": "1",
+          "before_nm": [
+            -8850000,
+            -33250000
+          ],
+          "scaled_nm": [
+            -9000000,
+            -33250000
+          ],
+          "grid_nm": [
+            -9000000,
+            -33000000
+          ]
+        },
+        {
+          "number": "2",
+          "before_nm": [
+            -8850000,
+            32750000
+          ],
+          "scaled_nm": [
+            -9000000,
+            32750000
+          ],
+          "grid_nm": [
+            -9000000,
+            33000000
+          ]
+        },
+        {
+          "number": "3",
+          "before_nm": [
+            8850000,
+            -33250000
+          ],
+          "scaled_nm": [
+            9000000,
+            -33250000
+          ],
+          "grid_nm": [
+            9000000,
+            -33000000
+          ]
+        },
+        {
+          "number": "4",
+          "before_nm": [
+            8850000,
+            32750000
+          ],
+          "scaled_nm": [
+            9000000,
+            32750000
+          ],
+          "grid_nm": [
+            9000000,
+            33000000
+          ]
+        }
+      ],
+      "drawing_shapes_adjusted": {
+        "0": 133,
+        "2": 14,
+        "3": 4,
+        "4": 1
+      }
+    },
+    {
+      "base": "HC3096N-52-900-24_Front",
+      "variant": "HC3096N-52-900-24_Front_Grid1mm",
+      "source_sha256": "95dcd753ff9113dc2ea600e1cba48af2a236be4105d8197a1a5f7dcef9ea3982",
+      "variant_sha256": "292b535061eb2215aa1a44289dfd46fe51ac313d1836e5f5e4fc5ab8f413e33e",
+      "nominal_faces_nm": [
+        -8950000,
+        8950000
+      ],
+      "grid_faces_nm": [
+        -9000000,
+        9000000
+      ],
+      "pins": [
+        {
+          "number": "13",
+          "before_nm": [
+            -4800001,
+            -44639993
+          ],
+          "scaled_nm": [
+            -4826817,
+            -44639993
+          ],
+          "grid_nm": [
+            -4000000,
+            -44000000
+          ]
+        },
+        {
+          "number": "14",
+          "before_nm": [
+            279999,
+            -44639993
+          ],
+          "scaled_nm": [
+            281563,
+            -44639993
+          ],
+          "grid_nm": [
+            1000000,
+            -44000000
+          ]
+        },
+        {
+          "number": "23",
+          "before_nm": [
+            5359999,
+            -44639993
+          ],
+          "scaled_nm": [
+            5389943,
+            -44639993
+          ],
+          "grid_nm": [
+            6000000,
+            -44000000
+          ]
+        },
+        {
+          "number": "A1+",
+          "before_nm": [
+            -2260001,
+            -33039993
+          ],
+          "scaled_nm": [
+            -2272627,
+            -33039993
+          ],
+          "grid_nm": [
+            -2000000,
+            -33000000
+          ]
+        },
+        {
+          "number": "A2",
+          "before_nm": [
+            2819999,
+            -33039993
+          ],
+          "scaled_nm": [
+            2835753,
+            -33039993
+          ],
+          "grid_nm": [
+            3000000,
+            -33000000
+          ]
+        },
+        {
+          "number": "41",
+          "before_nm": [
+            -2819999,
+            33039992
+          ],
+          "scaled_nm": [
+            -2835753,
+            33039992
+          ],
+          "grid_nm": [
+            -2000000,
+            34000000
+          ]
+        },
+        {
+          "number": "42",
+          "before_nm": [
+            2260001,
+            33039992
+          ],
+          "scaled_nm": [
+            2272627,
+            33039992
+          ],
+          "grid_nm": [
+            3000000,
+            34000000
+          ]
+        },
+        {
+          "number": "24",
+          "before_nm": [
+            -5359999,
+            44639992
+          ],
+          "scaled_nm": [
+            -5389943,
+            44639992
+          ],
+          "grid_nm": [
+            -5000000,
+            45000000
+          ]
+        },
+        {
+          "number": "31",
+          "before_nm": [
+            -279999,
+            44639992
+          ],
+          "scaled_nm": [
+            -281563,
+            44639992
+          ],
+          "grid_nm": [
+            0,
+            45000000
+          ]
+        },
+        {
+          "number": "32",
+          "before_nm": [
+            4800001,
+            44639992
+          ],
+          "scaled_nm": [
+            4826817,
+            44639992
+          ],
+          "grid_nm": [
+            5000000,
+            45000000
+          ]
+        }
+      ],
+      "drawing_shapes_adjusted": {
+        "2": 7,
+        "0": 39,
+        "3": 12,
+        "4": 1
+      }
+    },
+    {
+      "base": "HMC-9B30-11-DS_Front",
+      "variant": "HMC-9B30-11-DS_Front_Grid1mm",
+      "source_sha256": "0469f0f16ce482504122c74200c64abd6764952325f6ed92a91464878d1326f1",
+      "variant_sha256": "c1dfde3cb9ccff3b063971186f4d0a50011d02f4aeea132ac4097e130461068f",
+      "nominal_faces_nm": [
+        -22500000,
+        22500000
+      ],
+      "grid_faces_nm": [
+        -23000000,
+        23000000
+      ],
+      "pins": [
+        {
+          "number": "1",
+          "before_nm": [
+            -17500000,
+            -23000000
+          ],
+          "scaled_nm": [
+            -17888889,
+            -23000000
+          ],
+          "grid_nm": [
+            -17000000,
+            -23000000
+          ]
+        },
+        {
+          "number": "2",
+          "before_nm": [
+            -17500000,
+            23000000
+          ],
+          "scaled_nm": [
+            -17888889,
+            23000000
+          ],
+          "grid_nm": [
+            -17000000,
+            23000000
+          ]
+        },
+        {
+          "number": "3",
+          "before_nm": [
+            -5500000,
+            -23000000
+          ],
+          "scaled_nm": [
+            -5622222,
+            -23000000
+          ],
+          "grid_nm": [
+            -5000000,
+            -23000000
+          ]
+        },
+        {
+          "number": "4",
+          "before_nm": [
+            -5500000,
+            23000000
+          ],
+          "scaled_nm": [
+            -5622222,
+            23000000
+          ],
+          "grid_nm": [
+            -5000000,
+            23000000
+          ]
+        },
+        {
+          "number": "5",
+          "before_nm": [
+            6500000,
+            -23000000
+          ],
+          "scaled_nm": [
+            6644444,
+            -23000000
+          ],
+          "grid_nm": [
+            7000000,
+            -23000000
+          ]
+        },
+        {
+          "number": "6",
+          "before_nm": [
+            6500000,
+            23000000
+          ],
+          "scaled_nm": [
+            6644444,
+            23000000
+          ],
+          "grid_nm": [
+            7000000,
+            23000000
+          ]
+        },
+        {
+          "number": "31",
+          "before_nm": [
+            15600000,
+            -14050000
+          ],
+          "scaled_nm": [
+            15946667,
+            -14050000
+          ],
+          "grid_nm": [
+            16000000,
+            -14000000
+          ]
+        },
+        {
+          "number": "32",
+          "before_nm": [
+            15600000,
+            14050000
+          ],
+          "scaled_nm": [
+            15946667,
+            14050000
+          ],
+          "grid_nm": [
+            16000000,
+            15000000
+          ]
+        },
+        {
+          "number": "43",
+          "before_nm": [
+            15600000,
+            -23300000
+          ],
+          "scaled_nm": [
+            15946667,
+            -23300000
+          ],
+          "grid_nm": [
+            16000000,
+            -23000000
+          ]
+        },
+        {
+          "number": "44",
+          "before_nm": [
+            15600000,
+            23300000
+          ],
+          "scaled_nm": [
+            15946667,
+            23300000
+          ],
+          "grid_nm": [
+            16000000,
+            24000000
+          ]
+        },
+        {
+          "number": "A1.BOT",
+          "before_nm": [
+            -5800000,
+            31250000
+          ],
+          "scaled_nm": [
+            -5928889,
+            31250000
+          ],
+          "grid_nm": [
+            -5000000,
+            32000000
+          ]
+        },
+        {
+          "number": "A1.TOP",
+          "before_nm": [
+            -5800000,
+            -31250000
+          ],
+          "scaled_nm": [
+            -5928889,
+            -31250000
+          ],
+          "grid_nm": [
+            -5000000,
+            -31000000
+          ]
+        },
+        {
+          "number": "A2.BOT",
+          "before_nm": [
+            5800000,
+            31250000
+          ],
+          "scaled_nm": [
+            5928889,
+            31250000
+          ],
+          "grid_nm": [
+            6000000,
+            32000000
+          ]
+        },
+        {
+          "number": "A2.TOP",
+          "before_nm": [
+            5800000,
+            -31250000
+          ],
+          "scaled_nm": [
+            5928889,
+            -31250000
+          ],
+          "grid_nm": [
+            6000000,
+            -31000000
+          ]
+        }
+      ],
+      "drawing_shapes_adjusted": {
+        "2": 12,
+        "0": 60,
+        "3": 10,
+        "4": 1
+      }
+    },
+    {
+      "base": "HMX1-MI_Front",
+      "variant": "HMX1-MI_Front_Grid1mm",
+      "source_sha256": "7b875a581d2d248dd1d8722f7b83fac7d849ec2a749090774448eae1c66f0943",
+      "variant_sha256": "e25af3418d2d64abec733c056b17f2f9669e5c663d8512273e6ad6557c76f5a8",
+      "nominal_faces_nm": [
+        -10600000,
+        10600000
+      ],
+      "grid_faces_nm": [
+        -11000000,
+        11000000
+      ],
+      "pins": [
+        {
+          "number": "111",
+          "before_nm": [
+            599982,
+            -31500000
+          ],
+          "scaled_nm": [
+            622623,
+            -31500000
+          ],
+          "grid_nm": [
+            1000000,
+            -31000000
+          ]
+        },
+        {
+          "number": "112",
+          "before_nm": [
+            599982,
+            21000000
+          ],
+          "scaled_nm": [
+            622623,
+            21000000
+          ],
+          "grid_nm": [
+            1000000,
+            21000000
+          ]
+        },
+        {
+          "number": "121",
+          "before_nm": [
+            599982,
+            -21000000
+          ],
+          "scaled_nm": [
+            622623,
+            -21000000
+          ],
+          "grid_nm": [
+            1000000,
+            -21000000
+          ]
+        },
+        {
+          "number": "122",
+          "before_nm": [
+            599982,
+            31500000
+          ],
+          "scaled_nm": [
+            622623,
+            31500000
+          ],
+          "grid_nm": [
+            1000000,
+            32000000
+          ]
+        }
+      ],
+      "drawing_shapes_adjusted": {
+        "0": 70,
+        "3": 2,
+        "4": 1
+      }
+    },
+    {
+      "base": "HMX1-SSVRC-DC_Front",
+      "variant": "HMX1-SSVRC-DC_Front_Grid1mm",
+      "source_sha256": "1dd69416bbecf1d967d70026bba56f6fce58bc8ce125089659733321e4bf5506",
+      "variant_sha256": "163c98360944d69158f6592c18854c7d071d443c29c170e9216a4f5ac6803e51",
+      "nominal_faces_nm": [
+        -18700000,
+        18700000
+      ],
+      "grid_faces_nm": [
+        -19000000,
+        19000000
+      ],
+      "pins": [
+        {
+          "number": "1",
+          "before_nm": [
+            -5800000,
+            1763258
+          ],
+          "scaled_nm": [
+            -5893048,
+            1763258
+          ],
+          "grid_nm": [
+            -5000000,
+            2000000
+          ]
+        },
+        {
+          "number": "2",
+          "before_nm": [
+            5800000,
+            1763258
+          ],
+          "scaled_nm": [
+            5893048,
+            1763258
+          ],
+          "grid_nm": [
+            6000000,
+            2000000
+          ]
+        }
+      ],
+      "drawing_shapes_adjusted": {
+        "0": 47,
+        "2": 7,
+        "4": 3
+      }
+    },
+    {
+      "base": "HTOR32-6-S_Front",
+      "variant": "HTOR32-6-S_Front_Grid1mm",
+      "source_sha256": "e9374852810cfc7ce269c99d44d871e15daabb2c01bcd7f04e0865692f782922",
+      "variant_sha256": "8be38ba23974776c3d6512f472c8c14ba4ab1d57ef82a79f6308af2aca09194b",
+      "nominal_faces_nm": [
+        -22500000,
+        22500000
+      ],
+      "grid_faces_nm": [
+        -23000000,
+        23000000
+      ],
+      "pins": [
+        {
+          "number": "2",
+          "before_nm": [
+            -14300000,
+            25475000
+          ],
+          "scaled_nm": [
+            -14617778,
+            25475000
+          ],
+          "grid_nm": [
+            -14000000,
+            26000000
+          ]
+        },
+        {
+          "number": "4",
+          "before_nm": [
+            0,
+            25475000
+          ],
+          "scaled_nm": [
+            0,
+            25475000
+          ],
+          "grid_nm": [
+            0,
+            26000000
+          ]
+        },
+        {
+          "number": "6",
+          "before_nm": [
+            14300000,
+            25475000
+          ],
+          "scaled_nm": [
+            14617778,
+            25475000
+          ],
+          "grid_nm": [
+            15000000,
+            26000000
+          ]
+        },
+        {
+          "number": "95",
+          "before_nm": [
+            -15000000,
+            12075000
+          ],
+          "scaled_nm": [
+            -15333333,
+            12075000
+          ],
+          "grid_nm": [
+            -15000000,
+            13000000
+          ]
+        },
+        {
+          "number": "96",
+          "before_nm": [
+            -5000000,
+            12075000
+          ],
+          "scaled_nm": [
+            -5111111,
+            12075000
+          ],
+          "grid_nm": [
+            -5000000,
+            13000000
+          ]
+        },
+        {
+          "number": "97",
+          "before_nm": [
+            5000000,
+            12075000
+          ],
+          "scaled_nm": [
+            5111111,
+            12075000
+          ],
+          "grid_nm": [
+            6000000,
+            13000000
+          ]
+        },
+        {
+          "number": "98",
+          "before_nm": [
+            15000000,
+            12075000
+          ],
+          "scaled_nm": [
+            15333333,
+            12075000
+          ],
+          "grid_nm": [
+            16000000,
+            13000000
+          ]
+        },
+        {
+          "number": "IN1",
+          "before_nm": [
+            -17500000,
+            -37275000
+          ],
+          "scaled_nm": [
+            -17888889,
+            -37275000
+          ],
+          "grid_nm": [
+            -17000000,
+            -37000000
+          ]
+        },
+        {
+          "number": "IN2",
+          "before_nm": [
+            -5500000,
+            -37275000
+          ],
+          "scaled_nm": [
+            -5622222,
+            -37275000
+          ],
+          "grid_nm": [
+            -5000000,
+            -37000000
+          ]
+        },
+        {
+          "number": "IN3",
+          "before_nm": [
+            6500000,
+            -37275000
+          ],
+          "scaled_nm": [
+            6644444,
+            -37275000
+          ],
+          "grid_nm": [
+            7000000,
+            -37000000
+          ]
+        }
+      ],
+      "drawing_shapes_adjusted": {
+        "0": 59,
+        "3": 9,
+        "4": 1
+      }
+    },
+    {
+      "base": "KN-EB7-10_Front",
+      "variant": "KN-EB7-10_Front_Grid1mm",
+      "source_sha256": "486ba7ea4372bbbe97fcbf57b9855f97a846ee5a58ac5094b69b39caad74d4f9",
+      "variant_sha256": "c6d088e38c02cbe998f882d6723a1f328cfe999ccfa5463bf6a578b8087ff17e",
+      "nominal_faces_nm": [
+        -5000000,
+        5000000
+      ],
+      "grid_faces_nm": [
+        -5000000,
+        5000000
+      ],
+      "pins": [],
+      "drawing_shapes_adjusted": {
+        "1": 1,
+        "3": 1,
+        "4": 1
+      }
+    },
+    {
+      "base": "KN-G12SP-10_Front",
+      "variant": "KN-G12SP-10_Front_Grid1mm",
+      "source_sha256": "9dd2fdd2d86b4f831c1516df21688b164eafebc5089f90e104caa036d82def42",
+      "variant_sha256": "78ea3d13d069f6d149399e6774405c0b5d0910bd4ce58302d321990b8925f23b",
+      "nominal_faces_nm": [
+        -2875000,
+        2875000
+      ],
+      "grid_faces_nm": [
+        -3000000,
+        3000000
+      ],
+      "pins": [
+        {
+          "number": "1",
+          "before_nm": [
+            0,
+            -7499359
+          ],
+          "scaled_nm": [
+            0,
+            -7499359
+          ],
+          "grid_nm": [
+            0,
+            -7000000
+          ]
+        },
+        {
+          "number": "2",
+          "before_nm": [
+            0,
+            7499808
+          ],
+          "scaled_nm": [
+            0,
+            7499808
+          ],
+          "grid_nm": [
+            0,
+            8000000
+          ]
+        },
+        {
+          "number": "PE",
+          "before_nm": [
+            0,
+            0
+          ],
+          "scaled_nm": [
+            0,
+            0
+          ],
+          "grid_nm": [
+            0,
+            0
+          ]
+        }
+      ],
+      "drawing_shapes_adjusted": {
+        "0": 8,
+        "3": 2,
+        "4": 1
+      }
+    },
+    {
+      "base": "KN-ST1BLK_Front",
+      "variant": "KN-ST1BLK_Front_Grid1mm",
+      "source_sha256": "e2b63020f8cd2b4ec9bbc4695167ae72f744be503b12d9d55b1be2875f2bcc76",
+      "variant_sha256": "8fe51dae336dc13e1c654135c07d4615bf8a3e60083a1db199adb2d16e8ef77f",
+      "nominal_faces_nm": [
+        -1000000,
+        1000000
+      ],
+      "grid_faces_nm": [
+        -1000000,
+        1000000
+      ],
+      "pins": [],
+      "drawing_shapes_adjusted": {
+        "1": 1,
+        "4": 1
+      }
+    },
+    {
+      "base": "KN-T12GRY-25_Front",
+      "variant": "KN-T12GRY-25_Front_Grid1mm",
+      "source_sha256": "5ff74107ee53a0f26a88ffed5915771d35b43891d817523f3a12bd1ab085ae0e",
+      "variant_sha256": "d682c23d70a6c87adc2cd7fef7254e3f3a2cd4c7ba8e40b3342e133a578d6b87",
+      "nominal_faces_nm": [
+        -2500000,
+        2500000
+      ],
+      "grid_faces_nm": [
+        -3000000,
+        3000000
+      ],
+      "pins": [
+        {
+          "number": "TOP",
+          "before_nm": [
+            0,
+            -7650000
+          ],
+          "scaled_nm": [
+            0,
+            -7650000
+          ],
+          "grid_nm": [
+            0,
+            -7000000
+          ]
+        },
+        {
+          "number": "BOT",
+          "before_nm": [
+            0,
+            7650000
+          ],
+          "scaled_nm": [
+            0,
+            7650000
+          ],
+          "grid_nm": [
+            0,
+            8000000
+          ]
+        }
+      ],
+      "drawing_shapes_adjusted": {
+        "0": 8,
+        "3": 2,
+        "4": 1
+      }
+    },
+    {
+      "base": "NDR-240-24_Front",
+      "variant": "NDR-240-24_Front_Grid1mm",
+      "source_sha256": "ce912b2ecf254516d6f8254624bcbc7430a4daf56d444cdc258d04c349a1c5a3",
+      "variant_sha256": "7b8d8dc7ad83f6daefcfa0d3a29da34fded7dd6bc7fc56b4414cebd68c9de617",
+      "nominal_faces_nm": [
+        -31500000,
+        31500000
+      ],
+      "grid_faces_nm": [
+        -32000000,
+        32000000
+      ],
+      "pins": [
+        {
+          "number": "1_BOT",
+          "before_nm": [
+            -3524551,
+            56150000
+          ],
+          "scaled_nm": [
+            -3580496,
+            56150000
+          ],
+          "grid_nm": [
+            -3000000,
+            57000000
+          ]
+        },
+        {
+          "number": "2_BOT",
+          "before_nm": [
+            4350449,
+            56150000
+          ],
+          "scaled_nm": [
+            4419504,
+            56150000
+          ],
+          "grid_nm": [
+            5000000,
+            57000000
+          ]
+        },
+        {
+          "number": "3_BOT",
+          "before_nm": [
+            11975449,
+            56150000
+          ],
+          "scaled_nm": [
+            12165535,
+            56150000
+          ],
+          "grid_nm": [
+            13000000,
+            57000000
+          ]
+        },
+        {
+          "number": "1_TOP",
+          "before_nm": [
+            -10911660,
+            -52400000
+          ],
+          "scaled_nm": [
+            -11084861,
+            -52400000
+          ],
+          "grid_nm": [
+            -11000000,
+            -52000000
+          ]
+        },
+        {
+          "number": "2_TOP",
+          "before_nm": [
+            -4624160,
+            -52400000
+          ],
+          "scaled_nm": [
+            -4697559,
+            -52400000
+          ],
+          "grid_nm": [
+            -4000000,
+            -52000000
+          ]
+        },
+        {
+          "number": "3_TOP",
+          "before_nm": [
+            1775840,
+            -52400000
+          ],
+          "scaled_nm": [
+            1804028,
+            -52400000
+          ],
+          "grid_nm": [
+            2000000,
+            -52000000
+          ]
+        },
+        {
+          "number": "4_TOP",
+          "before_nm": [
+            8275840,
+            -52400000
+          ],
+          "scaled_nm": [
+            8407203,
+            -52400000
+          ],
+          "grid_nm": [
+            9000000,
+            -52000000
+          ]
+        }
+      ],
+      "drawing_shapes_adjusted": {
+        "0": 19,
+        "2": 2,
+        "3": 9,
+        "4": 1
+      }
+    },
+    {
+      "base": "RM25030-3SR_Front",
+      "variant": "RM25030-3SR_Front_Grid1mm",
+      "source_sha256": "f89ce59229edd0ec319686376b284511815128557d2dd3a5f8dc23ee92478474",
+      "variant_sha256": "232bb73b023e2b70d8b36be66dce9f532c3640c795d16fe0d44cb5a5888710ab",
+      "nominal_faces_nm": [
+        -37245415,
+        37245415
+      ],
+      "grid_faces_nm": [
+        -37000000,
+        37000000
+      ],
+      "pins": [
+        {
+          "number": "P1.A",
+          "before_nm": [
+            -24118491,
+            -33029998
+          ],
+          "scaled_nm": [
+            -23959571,
+            -33029998
+          ],
+          "grid_nm": [
+            -23000000,
+            -33000000
+          ]
+        },
+        {
+          "number": "P1.B",
+          "before_nm": [
+            -23938491,
+            33030002
+          ],
+          "scaled_nm": [
+            -23780757,
+            33030002
+          ],
+          "grid_nm": [
+            -23000000,
+            34000000
+          ]
+        },
+        {
+          "number": "P2.A",
+          "before_nm": [
+            394109,
+            -33029998
+          ],
+          "scaled_nm": [
+            391512,
+            -33029998
+          ],
+          "grid_nm": [
+            1000000,
+            -33000000
+          ]
+        },
+        {
+          "number": "P2.B",
+          "before_nm": [
+            574109,
+            33030002
+          ],
+          "scaled_nm": [
+            570326,
+            33030002
+          ],
+          "grid_nm": [
+            1000000,
+            34000000
+          ]
+        },
+        {
+          "number": "P3.A",
+          "before_nm": [
+            24906719,
+            -33029998
+          ],
+          "scaled_nm": [
+            24742605,
+            -33029998
+          ],
+          "grid_nm": [
+            25000000,
+            -33000000
+          ]
+        },
+        {
+          "number": "P3.B",
+          "before_nm": [
+            25086719,
+            33030002
+          ],
+          "scaled_nm": [
+            24921419,
+            33030002
+          ],
+          "grid_nm": [
+            25000000,
+            34000000
+          ]
+        }
+      ],
+      "drawing_shapes_adjusted": {
+        "0": 190,
+        "2": 18,
+        "3": 6,
+        "4": 1
+      }
+    }
+  ],
+  "eligible_instances": {
+    "013df479-a6f5-43c6-9dc7-5b630e4cf676": "Controls:KN-T12GRY-25_Front",
+    "03018be0-cdf8-4198-be2e-3f41879ab874": "Controls:KN-EB7-10_Front",
+    "031e30fb-772e-4c58-bea9-90bd535d3cda": "Controls:HMX1-SSVRC-DC_Front",
+    "05bdc1a5-4c0b-48e0-9a5d-945335521038": "Controls:KN-ST1BLK_Front",
+    "0c9ab87b-a159-4601-a791-6bd2cb8e4b3c": "Controls:HMX1-SSVRC-DC_Front",
+    "0cd4e370-b20e-45b4-8d46-ff555eb45e6d": "Controls:KN-ST1BLK_Front",
+    "0efcbc76-f026-47f5-86c9-db4fc3aa8810": "Controls:HMC-9B30-11-DS_Front",
+    "15faab88-6fe4-4706-85f6-e7194763f3fa": "Controls:KN-T12GRY-25_Front",
+    "17662ee0-4299-4738-a83d-2b511a5421ad": "Controls:KN-T12GRY-25_Front",
+    "1a7a6239-26e0-4582-bc1e-2f0f661a9d3e": "Controls:FAZ-D4-2-NA-L_Front",
+    "1be87848-f24f-4518-855a-11f5dd4a9f69": "Controls:KN-T12GRY-25_Front",
+    "240f1404-bc97-4505-bf53-88bf08e3bbc2": "Controls:KN-T12GRY-25_Front",
+    "25858a0d-f879-4a96-9250-262ea227f996": "Controls:KN-T12GRY-25_Front",
+    "2ad761f3-4d96-4020-9b0a-09ef1c05f4d2": "Controls:KN-G12SP-10_Front",
+    "2fb092c0-e598-4dc5-9b13-294517b3f386": "Controls:KN-EB7-10_Front",
+    "32eea564-4672-448f-84fa-ee64152e3eda": "Controls:KN-T12GRY-25_Front",
+    "3373b8c0-1f3f-43f2-9f73-a1f9ced928bb": "Controls:HMX1-SSVRC-DC_Front",
+    "37e3c92b-3e61-487c-8b8a-32894ad8d025": "Controls:KN-T12GRY-25_Front",
+    "3f2a84f5-07bd-4a9a-bf1c-6399bcf3df0b": "Controls:KN-ST1BLK_Front",
+    "435fbac4-ddb4-4d5a-9e31-a63d31beaf0a": "Controls:KN-ST1BLK_Front",
+    "45b1a989-855f-4e87-a02d-5725845b9cd2": "Controls:HMX1-MI_Front",
+    "4816b820-e317-4905-ad63-82a070685015": "Controls:KN-EB7-10_Front",
+    "4a82e854-d557-4d87-92ee-631d3da6308f": "Controls:KN-G12SP-10_Front",
+    "52715a9b-4b11-4b19-a77a-58c4871e4c9d": "Controls:KN-T12GRY-25_Front",
+    "52754e15-95c1-407a-8564-ba5837b148f2": "Controls:KN-T12GRY-25_Front",
+    "54c59d4d-702a-46fe-8703-c671cc3a568d": "Controls:KN-T12GRY-25_Front",
+    "58db6f61-7594-40df-855b-9b52b7ea8db4": "Controls:KN-T12GRY-25_Front",
+    "59758ce8-c3c6-47ec-88d1-c877937f0598": "Controls:KN-T12GRY-25_Front",
+    "597b786e-4ac2-491c-9073-9bd131e26112": "Controls:HMC-9B30-11-DS_Front",
+    "60c128e3-9628-4a27-9e2b-440e7799d5af": "Controls:KN-T12GRY-25_Front",
+    "63be61a3-f2b5-4e7f-acc1-5df3183c4e59": "Controls:KN-T12GRY-25_Front",
+    "66690ea5-28e9-4480-9aa0-a6292f3380ce": "Controls:KN-EB7-10_Front",
+    "668e9352-c702-47d2-8fdf-23cb39332c77": "Controls:KN-G12SP-10_Front",
+    "69fd8778-ddb6-4d5a-86d0-033e5a9c840b": "Controls:KN-T12GRY-25_Front",
+    "6a44dee9-45a5-4503-a9c2-1273f172a13c": "Controls:KN-T12GRY-25_Front",
+    "6d091486-19b0-4430-8450-45bfd8433b8e": "Controls:KN-T12GRY-25_Front",
+    "6e46f6cc-1daf-437f-8d24-0108f64b3d66": "Controls:KN-T12GRY-25_Front",
+    "7584fc8b-b7c3-4abd-814f-d1cf3915f9c8": "Controls:HMX1-SSVRC-DC_Front",
+    "7ce81b40-2a32-461d-b2c1-351a6ebf35ea": "Controls:NDR-240-24_Front",
+    "7ef0ce18-05ad-43d8-beeb-29af014f1062": "Controls:KN-ST1BLK_Front",
+    "881a4fe9-8c01-4d3c-ba81-5e2d7ef47b2a": "Controls:RM25030-3SR_Front",
+    "8d14a07b-b4c4-4e43-80eb-bf39e546929f": "Controls:KN-ST1BLK_Front",
+    "9a0e744a-f2cb-4826-b202-8d749982b9f5": "Controls:HC3096N-52-900-24_Front",
+    "9aea2771-44e7-4700-9a38-494fb944a4d6": "Controls:HMX1-SSVRC-DC_Front",
+    "9b16d96c-61a2-47ac-8086-d5cbbb8f73b1": "Controls:KN-ST1BLK_Front",
+    "9fdf03b9-7f23-481b-a930-8d37a7c0b950": "Controls:HTOR32-6-S_Front",
+    "a4bc448f-0f6b-457b-8ecb-67b424a87ff1": "Controls:HMC-9B30-11-DS_Front",
+    "aac2a755-8c96-4239-8dbd-b69e60b464dd": "Controls:KN-ST1BLK_Front",
+    "ad835248-78dc-403e-8ea9-571ab5824776": "Controls:KN-ST1BLK_Front",
+    "aebd7f26-e1c2-4ed7-9f45-b5088ba48af9": "Controls:HMX1-MI_Front",
+    "b2e4189c-8740-4773-add8-8bf56050e00b": "Controls:KN-G12SP-10_Front",
+    "b73101be-cc14-4294-bd66-473649f8a7d4": "Controls:KN-T12GRY-25_Front",
+    "b885ada7-38ef-4084-a174-530a59a648fc": "Controls:KN-ST1BLK_Front",
+    "c2581345-7cce-4fa4-8153-a7918ef11b17": "Controls:KN-ST1BLK_Front",
+    "c2a1a46b-a854-4a80-84c2-eefbb6b75117": "Controls:KN-T12GRY-25_Front",
+    "c4a4fe75-89f6-4250-8e67-b7e293aaccfe": "Controls:KN-T12GRY-25_Front",
+    "c6a069cf-78c1-4b23-a1cd-948c5e4e1d8a": "Controls:KN-T12GRY-25_Front",
+    "c733f7a6-755d-4987-a627-da9a1ad56608": "Controls:KN-ST1BLK_Front",
+    "c9af24ee-2c3a-4e26-9451-1cd9b57be249": "Controls:KN-T12GRY-25_Front",
+    "cda5f54f-21cb-42d1-bf20-ea5292de69d9": "Controls:HTOR32-6-S_Front",
+    "d4509d04-27e2-42b4-ac32-5478a6a20657": "Controls:KN-T12GRY-25_Front",
+    "d67cf62c-eb0b-409b-a9e5-b2828d852472": "Controls:KN-T12GRY-25_Front",
+    "e10d5b3f-1389-4739-880a-c11f651aab9d": "Controls:KN-EB7-10_Front",
+    "e203608c-d243-4409-a916-b4fe0c330d32": "Controls:KN-T12GRY-25_Front",
+    "e3c47e97-adfa-4c36-820a-ebb14df36d02": "Controls:KN-EB7-10_Front",
+    "e649482a-048f-454d-b9e8-2685488b69c5": "Controls:HMC-9B30-11-DS_Front",
+    "e696360c-b34b-4d02-b8a6-b1dfa3b5bb88": "Controls:KN-T12GRY-25_Front",
+    "f365cabb-7051-4936-a4d2-08bd4d97e853": "Controls:KN-T12GRY-25_Front",
+    "f6eda896-c4c8-4316-90bf-3ba29c62cf68": "Controls:KN-ST1BLK_Front",
+    "fa8ee1db-f6fc-4498-b77f-a04dbe3a5d21": "Controls:HMC-9B30-11-DS_Front",
+    "faf9ee7e-1a79-4478-8d3e-579c3d277d95": "Controls:KN-EB7-10_Front"
+  },
+  "pin_rounding": "ceil each scaled X and Y to the next integer millimetre",
+  "wall_rounding": "nearest integer millimetre with halfway walls rounded outward",
+  "physical_reference_layers_preserved": [
+    "F.Fab"
+  ],
+  "step_models_preserved": true
+}

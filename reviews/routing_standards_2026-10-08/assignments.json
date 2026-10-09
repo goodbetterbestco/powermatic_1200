@@ -1,0 +1,1564 @@
+{
+  "schema": 1,
+  "widths_mm": {
+    "10": 2.588,
+    "12": 2.052,
+    "14": 1.628,
+    "16": 1.29,
+    "18": 1.024,
+    "22": 0.643
+  },
+  "source_hashes": {
+    "project": {
+      "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/powermatic_1200.kicad_pro",
+      "sha256": "adbe315d92eea05043d7e0d666326780cb530f3b18f9d9875ee38452658eb5b2"
+    },
+    "local": {
+      "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/powermatic_1200.kicad_prl",
+      "sha256": "64895fe87234d4dd595a8117b1fc9b97c88e348c427486cdd843231012a274df"
+    },
+    "board": {
+      "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/powermatic_1200.kicad_pcb",
+      "sha256": "38b1d38a227c2e8ebcd2e4ae28564e96a175f9cf7eb89fa911c9e3926b7dafbf"
+    },
+    "schematic": {
+      "path": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/powermatic_1200.kicad_sch",
+      "sha256": "211173dc4c33f5cda34279aa4ccb15abfc5d1605ec3c0a9bcfbbdec98d31985c"
+    },
+    "router": {
+      "path": "/Users/evanthayer/Library/Preferences/kicad/10.0/pcbnew.json",
+      "sha256": "a1853ebe02df7ecfae8df044bdf5945351dce47784796ee2563ebf4c3ff1b64b"
+    }
+  },
+  "functional_groups": [
+    "INCOMING_MAINS",
+    "PANEL_POWER",
+    "MOTOR_POWER",
+    "CONTROL",
+    "DIRECTION",
+    "SPEED",
+    "PE",
+    "DEVICE_INTERNAL"
+  ],
+  "assignments": [
+    {
+      "net": "+24V",
+      "group": "CONTROL",
+      "default_awg": 18,
+      "default_width_mm": 1.024,
+      "declared_awgs": [
+        18,
+        22
+      ],
+      "scopes": [
+        "connector_interface",
+        "estop_assembly",
+        "factory_pigtail",
+        "panel_control"
+      ],
+      "mixed_gauge": true,
+      "endpoints": [
+        "K3.13",
+        "K3.31",
+        "J1.1",
+        "J6.1",
+        "PS1.3_TOP",
+        "PS1.4_TOP",
+        "S1.1"
+      ]
+    },
+    {
+      "net": "+24V_EN",
+      "group": "CONTROL",
+      "default_awg": 18,
+      "default_width_mm": 1.024,
+      "declared_awgs": [
+        18
+      ],
+      "scopes": [
+        "panel_control"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "K3.24",
+        "OL4.95"
+      ]
+    },
+    {
+      "net": "/CONTROL_ESTOP_CONTACT_LINK",
+      "group": "CONTROL",
+      "default_awg": 22,
+      "default_width_mm": 0.643,
+      "declared_awgs": [
+        22
+      ],
+      "scopes": [
+        "connector_interface",
+        "estop_assembly",
+        "factory_pigtail"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "J1.2",
+        "J1.3",
+        "J6.2",
+        "J6.3",
+        "S1.2",
+        "S1.3"
+      ]
+    },
+    {
+      "net": "/CONTROL_K3_CONTACT_LINK",
+      "group": "CONTROL",
+      "default_awg": 18,
+      "default_width_mm": 1.024,
+      "declared_awgs": [
+        18
+      ],
+      "scopes": [
+        "panel_control"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "K3.14",
+        "K3.23"
+      ]
+    },
+    {
+      "net": "/DIRECTION_FWD_COIL",
+      "group": "DIRECTION",
+      "default_awg": 18,
+      "default_width_mm": 1.024,
+      "declared_awgs": [
+        18
+      ],
+      "scopes": [
+        "panel_control",
+        "suppressor_lead"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "SP1.1",
+        "K1.A1.BOT",
+        "K1.A1.TOP",
+        "K2.32"
+      ]
+    },
+    {
+      "net": "/DIRECTION_REV_COIL",
+      "group": "DIRECTION",
+      "default_awg": 18,
+      "default_width_mm": 1.024,
+      "declared_awgs": [
+        18
+      ],
+      "scopes": [
+        "panel_control",
+        "suppressor_lead"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "SP2.1",
+        "K1.32",
+        "K2.A1.BOT",
+        "K2.A1.TOP"
+      ]
+    },
+    {
+      "net": "/HS_SHORT",
+      "group": "PANEL_POWER",
+      "default_awg": 14,
+      "default_width_mm": 1.628,
+      "declared_awgs": [
+        14
+      ],
+      "scopes": [
+        "panel_power"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "K5.1",
+        "K5.3",
+        "K5.5"
+      ]
+    },
+    {
+      "net": "/L1_FUSED",
+      "group": "PANEL_POWER",
+      "default_awg": 14,
+      "default_width_mm": 1.628,
+      "declared_awgs": [
+        14
+      ],
+      "scopes": [
+        "panel_power"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "FH1.P3.A",
+        "SW1.1"
+      ]
+    },
+    {
+      "net": "/L1_HIGH",
+      "group": "MOTOR_POWER",
+      "default_awg": null,
+      "default_width_mm": null,
+      "declared_awgs": [],
+      "scopes": [
+        "direct_mount"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "K6.2",
+        "OL6.IN1"
+      ]
+    },
+    {
+      "net": "/L1_LOW",
+      "group": "MOTOR_POWER",
+      "default_awg": null,
+      "default_width_mm": null,
+      "declared_awgs": [],
+      "scopes": [
+        "direct_mount"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "OL4.IN1",
+        "K4.2"
+      ]
+    },
+    {
+      "net": "/L1_PSU",
+      "group": "PANEL_POWER",
+      "default_awg": 14,
+      "default_width_mm": 1.628,
+      "declared_awgs": [
+        14
+      ],
+      "scopes": [
+        "panel_power"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "PS1.3_BOT",
+        "Q1.2"
+      ]
+    },
+    {
+      "net": "/L2_FUSED",
+      "group": "PANEL_POWER",
+      "default_awg": 14,
+      "default_width_mm": 1.628,
+      "declared_awgs": [
+        14
+      ],
+      "scopes": [
+        "panel_power"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "FH1.P2.A",
+        "SW1.3"
+      ]
+    },
+    {
+      "net": "/L2_HIGH",
+      "group": "MOTOR_POWER",
+      "default_awg": null,
+      "default_width_mm": null,
+      "declared_awgs": [],
+      "scopes": [
+        "direct_mount"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "K6.4",
+        "OL6.IN2"
+      ]
+    },
+    {
+      "net": "/L2_LOW",
+      "group": "MOTOR_POWER",
+      "default_awg": null,
+      "default_width_mm": null,
+      "declared_awgs": [],
+      "scopes": [
+        "direct_mount"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "OL4.IN2",
+        "K4.4"
+      ]
+    },
+    {
+      "net": "/L2_PSU",
+      "group": "PANEL_POWER",
+      "default_awg": 14,
+      "default_width_mm": 1.628,
+      "declared_awgs": [
+        14
+      ],
+      "scopes": [
+        "panel_power"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "PS1.2_BOT",
+        "Q1.4"
+      ]
+    },
+    {
+      "net": "/L3_FUSED",
+      "group": "PANEL_POWER",
+      "default_awg": 14,
+      "default_width_mm": 1.628,
+      "declared_awgs": [
+        14
+      ],
+      "scopes": [
+        "panel_power"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "FH1.P1.A",
+        "SW1.5"
+      ]
+    },
+    {
+      "net": "/L3_HIGH",
+      "group": "MOTOR_POWER",
+      "default_awg": null,
+      "default_width_mm": null,
+      "declared_awgs": [],
+      "scopes": [
+        "direct_mount"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "K6.6",
+        "OL6.IN3"
+      ]
+    },
+    {
+      "net": "/L3_LOW",
+      "group": "MOTOR_POWER",
+      "default_awg": null,
+      "default_width_mm": null,
+      "declared_awgs": [],
+      "scopes": [
+        "direct_mount"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "OL4.IN3",
+        "K4.6"
+      ]
+    },
+    {
+      "net": "/SPEED_HIGH_SHORTING_COIL",
+      "group": "SPEED",
+      "default_awg": 18,
+      "default_width_mm": 1.024,
+      "declared_awgs": [
+        18
+      ],
+      "scopes": [
+        "panel_control",
+        "suppressor_lead"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "SP5.1",
+        "K5.43",
+        "K5.A1.BOT",
+        "K5.A1.TOP",
+        "K4.32"
+      ]
+    },
+    {
+      "net": "/SPEED_LOW_COIL",
+      "group": "SPEED",
+      "default_awg": 18,
+      "default_width_mm": 1.024,
+      "declared_awgs": [
+        18
+      ],
+      "scopes": [
+        "panel_control",
+        "suppressor_lead"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "SP4.1",
+        "K5.32",
+        "K4.A1.BOT",
+        "K4.A1.TOP"
+      ]
+    },
+    {
+      "net": "0V",
+      "group": "CONTROL",
+      "default_awg": 18,
+      "default_width_mm": 1.024,
+      "declared_awgs": [
+        18
+      ],
+      "scopes": [
+        "panel_control",
+        "suppressor_lead"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "SP4.2",
+        "K3.A2",
+        "K6.A2.BOT",
+        "K6.A2.TOP",
+        "SP5.2",
+        "K5.A2.BOT",
+        "K5.A2.TOP",
+        "SP6.2",
+        "PS1.1_TOP",
+        "PS1.2_TOP",
+        "SP1.2",
+        "SP2.2",
+        "K1.A2.BOT",
+        "K1.A2.TOP",
+        "K2.A2.BOT",
+        "K2.A2.TOP",
+        "K4.A2.BOT",
+        "K4.A2.TOP"
+      ]
+    },
+    {
+      "net": "CONTROL_ESTOP_DISABLED_FB",
+      "group": "CONTROL",
+      "default_awg": 18,
+      "default_width_mm": 1.024,
+      "declared_awgs": [
+        18
+      ],
+      "scopes": [
+        "panel_control"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "K3.32"
+      ]
+    },
+    {
+      "net": "CONTROL_ESTOP_ENABLE",
+      "group": "CONTROL",
+      "default_awg": 18,
+      "default_width_mm": 1.024,
+      "declared_awgs": [
+        18,
+        22
+      ],
+      "scopes": [
+        "connector_interface",
+        "estop_assembly",
+        "factory_pigtail",
+        "panel_control"
+      ],
+      "mixed_gauge": true,
+      "endpoints": [
+        "K3.A1+",
+        "J1.4",
+        "J6.4",
+        "S1.4"
+      ]
+    },
+    {
+      "net": "CONTROL_LOW_OVERLOAD_ENABLE",
+      "group": "CONTROL",
+      "default_awg": 18,
+      "default_width_mm": 1.024,
+      "declared_awgs": [
+        18
+      ],
+      "scopes": [
+        "panel_control"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "OL4.96",
+        "OL6.95"
+      ]
+    },
+    {
+      "net": "CONTROL_OVERLOAD_ENABLE",
+      "group": "CONTROL",
+      "default_awg": 18,
+      "default_width_mm": 1.024,
+      "declared_awgs": [
+        16,
+        18
+      ],
+      "scopes": [
+        "controls_conduit",
+        "panel_control",
+        "retained_link"
+      ],
+      "mixed_gauge": true,
+      "endpoints": [
+        "S2.1T",
+        "S2.3T",
+        "S2.5T",
+        "OL6.96"
+      ]
+    },
+    {
+      "net": "CONTROL_RUN_ENABLE",
+      "group": "CONTROL",
+      "default_awg": 18,
+      "default_width_mm": 1.024,
+      "declared_awgs": [
+        16,
+        18
+      ],
+      "scopes": [
+        "controls_conduit",
+        "panel_control",
+        "retained_link"
+      ],
+      "mixed_gauge": true,
+      "endpoints": [
+        "S3.1B",
+        "S3.2B",
+        "K6.43",
+        "S2.6T",
+        "K4.43"
+      ]
+    },
+    {
+      "net": "DIRECTION_ENABLE",
+      "group": "DIRECTION",
+      "default_awg": 18,
+      "default_width_mm": 1.024,
+      "declared_awgs": [
+        16,
+        18
+      ],
+      "scopes": [
+        "controls_conduit",
+        "panel_control",
+        "retained_link"
+      ],
+      "mixed_gauge": true,
+      "endpoints": [
+        "K6.44",
+        "S2.2B",
+        "S2.4B",
+        "K1.43",
+        "K2.43",
+        "K4.44"
+      ]
+    },
+    {
+      "net": "DIRECTION_FWD_CMD",
+      "group": "DIRECTION",
+      "default_awg": 18,
+      "default_width_mm": 1.024,
+      "declared_awgs": [
+        16,
+        18
+      ],
+      "scopes": [
+        "controls_conduit",
+        "panel_control"
+      ],
+      "mixed_gauge": true,
+      "endpoints": [
+        "S2.1B",
+        "K1.44",
+        "K2.31"
+      ]
+    },
+    {
+      "net": "DIRECTION_REV_CMD",
+      "group": "DIRECTION",
+      "default_awg": 18,
+      "default_width_mm": 1.024,
+      "declared_awgs": [
+        16,
+        18
+      ],
+      "scopes": [
+        "controls_conduit",
+        "panel_control"
+      ],
+      "mixed_gauge": true,
+      "endpoints": [
+        "S2.3B",
+        "K1.31",
+        "K2.44"
+      ]
+    },
+    {
+      "net": "L1_DIR",
+      "group": "PANEL_POWER",
+      "default_awg": 14,
+      "default_width_mm": 1.628,
+      "declared_awgs": [
+        14
+      ],
+      "scopes": [
+        "panel_power"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "K6.1",
+        "K1.2",
+        "K2.6",
+        "K4.1"
+      ]
+    },
+    {
+      "net": "L1_IN",
+      "group": "INCOMING_MAINS",
+      "default_awg": 12,
+      "default_width_mm": 2.052,
+      "declared_awgs": [
+        12,
+        14
+      ],
+      "scopes": [
+        "incoming_cable",
+        "panel_power"
+      ],
+      "mixed_gauge": true,
+      "endpoints": [
+        "FH1.P3.B",
+        "J2.X"
+      ]
+    },
+    {
+      "net": "L1_SW",
+      "group": "PANEL_POWER",
+      "default_awg": 14,
+      "default_width_mm": 1.628,
+      "declared_awgs": [
+        14
+      ],
+      "scopes": [
+        "panel_power"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "Q1.1",
+        "K1.1",
+        "SW1.2",
+        "K2.1"
+      ]
+    },
+    {
+      "net": "L2_DIR",
+      "group": "PANEL_POWER",
+      "default_awg": 14,
+      "default_width_mm": 1.628,
+      "declared_awgs": [
+        14
+      ],
+      "scopes": [
+        "panel_power"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "K6.3",
+        "K1.4",
+        "K2.4",
+        "K4.3"
+      ]
+    },
+    {
+      "net": "L2_IN",
+      "group": "INCOMING_MAINS",
+      "default_awg": 12,
+      "default_width_mm": 2.052,
+      "declared_awgs": [
+        12,
+        14
+      ],
+      "scopes": [
+        "incoming_cable",
+        "panel_power"
+      ],
+      "mixed_gauge": true,
+      "endpoints": [
+        "FH1.P2.B",
+        "J2.Y"
+      ]
+    },
+    {
+      "net": "L2_SW",
+      "group": "PANEL_POWER",
+      "default_awg": 14,
+      "default_width_mm": 1.628,
+      "declared_awgs": [
+        14
+      ],
+      "scopes": [
+        "panel_power"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "Q1.3",
+        "K1.3",
+        "SW1.4",
+        "K2.3"
+      ]
+    },
+    {
+      "net": "L3_DIR",
+      "group": "PANEL_POWER",
+      "default_awg": 14,
+      "default_width_mm": 1.628,
+      "declared_awgs": [
+        14
+      ],
+      "scopes": [
+        "panel_power"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "K6.5",
+        "K1.6",
+        "K2.2",
+        "K4.5"
+      ]
+    },
+    {
+      "net": "L3_IN",
+      "group": "INCOMING_MAINS",
+      "default_awg": 12,
+      "default_width_mm": 2.052,
+      "declared_awgs": [
+        12,
+        14
+      ],
+      "scopes": [
+        "incoming_cable",
+        "panel_power"
+      ],
+      "mixed_gauge": true,
+      "endpoints": [
+        "FH1.P1.B",
+        "J2.Z"
+      ]
+    },
+    {
+      "net": "L3_SW",
+      "group": "PANEL_POWER",
+      "default_awg": 14,
+      "default_width_mm": 1.628,
+      "declared_awgs": [
+        14
+      ],
+      "scopes": [
+        "panel_power"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "K1.5",
+        "SW1.6",
+        "K2.5"
+      ]
+    },
+    {
+      "net": "M1_T1",
+      "group": "MOTOR_POWER",
+      "default_awg": 14,
+      "default_width_mm": 1.628,
+      "declared_awgs": [
+        14
+      ],
+      "scopes": [
+        "motor_conduit",
+        "panel_power"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "OL4.2",
+        "K5.2",
+        "M1.T1"
+      ]
+    },
+    {
+      "net": "M1_T2",
+      "group": "MOTOR_POWER",
+      "default_awg": 14,
+      "default_width_mm": 1.628,
+      "declared_awgs": [
+        14
+      ],
+      "scopes": [
+        "motor_conduit",
+        "panel_power"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "OL4.4",
+        "K5.4",
+        "M1.T2"
+      ]
+    },
+    {
+      "net": "M1_T3",
+      "group": "MOTOR_POWER",
+      "default_awg": 14,
+      "default_width_mm": 1.628,
+      "declared_awgs": [
+        14
+      ],
+      "scopes": [
+        "motor_conduit",
+        "panel_power"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "OL4.6",
+        "K5.6",
+        "M1.T3"
+      ]
+    },
+    {
+      "net": "M1_T4",
+      "group": "MOTOR_POWER",
+      "default_awg": 14,
+      "default_width_mm": 1.628,
+      "declared_awgs": [
+        14
+      ],
+      "scopes": [
+        "motor_conduit",
+        "panel_power"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "OL6.2",
+        "M1.T4"
+      ]
+    },
+    {
+      "net": "M1_T5",
+      "group": "MOTOR_POWER",
+      "default_awg": 14,
+      "default_width_mm": 1.628,
+      "declared_awgs": [
+        14
+      ],
+      "scopes": [
+        "motor_conduit",
+        "panel_power"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "OL6.4",
+        "M1.T5"
+      ]
+    },
+    {
+      "net": "M1_T6",
+      "group": "MOTOR_POWER",
+      "default_awg": 14,
+      "default_width_mm": 1.628,
+      "declared_awgs": [
+        14
+      ],
+      "scopes": [
+        "motor_conduit",
+        "panel_power"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "OL6.6",
+        "M1.T6"
+      ]
+    },
+    {
+      "net": "Net-(S3-HI3_B)",
+      "group": "SPEED",
+      "default_awg": null,
+      "default_width_mm": null,
+      "declared_awgs": [],
+      "scopes": [
+        "retained_link"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "S3.3B",
+        "S3.4B",
+        "S3.5B"
+      ]
+    },
+    {
+      "net": "Net-(S3-HI5_T)",
+      "group": "SPEED",
+      "default_awg": null,
+      "default_width_mm": null,
+      "declared_awgs": [],
+      "scopes": [
+        "retained_link"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "S3.5T",
+        "S3.7T"
+      ]
+    },
+    {
+      "net": "Net-(S3-HI6_T)",
+      "group": "SPEED",
+      "default_awg": null,
+      "default_width_mm": null,
+      "declared_awgs": [],
+      "scopes": [
+        "retained_link"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "S3.4T",
+        "S3.6T"
+      ]
+    },
+    {
+      "net": "Net-(S3-HI8_B)",
+      "group": "SPEED",
+      "default_awg": null,
+      "default_width_mm": null,
+      "declared_awgs": [],
+      "scopes": [
+        "retained_link"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "S3.7B",
+        "S3.8B"
+      ]
+    },
+    {
+      "net": "PE",
+      "group": "PE",
+      "default_awg": 14,
+      "default_width_mm": 1.628,
+      "declared_awgs": [
+        12,
+        14
+      ],
+      "scopes": [
+        "incoming_cable",
+        "motor_conduit",
+        "panel_pe"
+      ],
+      "mixed_gauge": true,
+      "endpoints": [
+        "PS1.1_BOT",
+        "J2.G",
+        "M1.PE"
+      ]
+    },
+    {
+      "net": "SPEED_HIGH_CMD",
+      "group": "SPEED",
+      "default_awg": 18,
+      "default_width_mm": 1.024,
+      "declared_awgs": [
+        16,
+        18
+      ],
+      "scopes": [
+        "controls_conduit",
+        "panel_control"
+      ],
+      "mixed_gauge": true,
+      "endpoints": [
+        "S3.2T",
+        "K4.31"
+      ]
+    },
+    {
+      "net": "SPEED_HIGH_COIL",
+      "group": "SPEED",
+      "default_awg": 18,
+      "default_width_mm": 1.024,
+      "declared_awgs": [
+        18
+      ],
+      "scopes": [
+        "panel_control",
+        "suppressor_lead"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "K6.A1.BOT",
+        "K6.A1.TOP",
+        "K5.44",
+        "SP6.1"
+      ]
+    },
+    {
+      "net": "SPEED_LOW_CMD",
+      "group": "SPEED",
+      "default_awg": 18,
+      "default_width_mm": 1.024,
+      "declared_awgs": [
+        16,
+        18
+      ],
+      "scopes": [
+        "controls_conduit",
+        "panel_control",
+        "retained_link"
+      ],
+      "mixed_gauge": true,
+      "endpoints": [
+        "S3.1T",
+        "S3.3T",
+        "K6.31"
+      ]
+    },
+    {
+      "net": "SPEED_LOW_K6_NC_LINK",
+      "group": "SPEED",
+      "default_awg": 18,
+      "default_width_mm": 1.024,
+      "declared_awgs": [
+        18
+      ],
+      "scopes": [
+        "panel_control"
+      ],
+      "mixed_gauge": false,
+      "endpoints": [
+        "K6.32",
+        "K5.31"
+      ]
+    }
+  ],
+  "net_count": 53,
+  "gauge_defaults": {
+    "18": 20,
+    "22": 1,
+    "14": 19,
+    "12": 3
+  },
+  "fixed_connections_without_assumed_awg": [
+    "/L1_HIGH",
+    "/L1_LOW",
+    "/L2_HIGH",
+    "/L2_LOW",
+    "/L3_HIGH",
+    "/L3_LOW",
+    "Net-(S3-HI3_B)",
+    "Net-(S3-HI5_T)",
+    "Net-(S3-HI6_T)",
+    "Net-(S3-HI8_B)"
+  ],
+  "router": {
+    "corner_mode": 3,
+    "corner_mode_name": "90 degree rounded",
+    "free_angle_mode": false,
+    "auto_track_width": false
+  },
+  "native_validation": {
+    "kicad_version": "10.0.7",
+    "resolved_nets": 53,
+    "footprints": 96,
+    "existing_tracks": 18,
+    "existing_track_widths_unchanged": true,
+    "nets": [
+      {
+        "net": "+24V",
+        "effective_netclasses": [
+          "AWG_18",
+          "CONTROL",
+          "Default"
+        ],
+        "effective_track_width_mm": 1.024
+      },
+      {
+        "net": "+24V_EN",
+        "effective_netclasses": [
+          "AWG_18",
+          "CONTROL",
+          "Default"
+        ],
+        "effective_track_width_mm": 1.024
+      },
+      {
+        "net": "/CONTROL_ESTOP_CONTACT_LINK",
+        "effective_netclasses": [
+          "AWG_22",
+          "CONTROL",
+          "Default"
+        ],
+        "effective_track_width_mm": 0.643
+      },
+      {
+        "net": "/CONTROL_K3_CONTACT_LINK",
+        "effective_netclasses": [
+          "AWG_18",
+          "CONTROL",
+          "Default"
+        ],
+        "effective_track_width_mm": 1.024
+      },
+      {
+        "net": "/DIRECTION_FWD_COIL",
+        "effective_netclasses": [
+          "AWG_18",
+          "DIRECTION",
+          "Default"
+        ],
+        "effective_track_width_mm": 1.024
+      },
+      {
+        "net": "/DIRECTION_REV_COIL",
+        "effective_netclasses": [
+          "AWG_18",
+          "DIRECTION",
+          "Default"
+        ],
+        "effective_track_width_mm": 1.024
+      },
+      {
+        "net": "/HS_SHORT",
+        "effective_netclasses": [
+          "AWG_14",
+          "Default",
+          "PANEL_POWER"
+        ],
+        "effective_track_width_mm": 1.628
+      },
+      {
+        "net": "/L1_FUSED",
+        "effective_netclasses": [
+          "AWG_14",
+          "Default",
+          "PANEL_POWER"
+        ],
+        "effective_track_width_mm": 1.628
+      },
+      {
+        "net": "/L1_HIGH",
+        "effective_netclasses": [
+          "DEVICE_INTERNAL",
+          "Default",
+          "MOTOR_POWER"
+        ],
+        "effective_track_width_mm": 0.2
+      },
+      {
+        "net": "/L1_LOW",
+        "effective_netclasses": [
+          "DEVICE_INTERNAL",
+          "Default",
+          "MOTOR_POWER"
+        ],
+        "effective_track_width_mm": 0.2
+      },
+      {
+        "net": "/L1_PSU",
+        "effective_netclasses": [
+          "AWG_14",
+          "Default",
+          "PANEL_POWER"
+        ],
+        "effective_track_width_mm": 1.628
+      },
+      {
+        "net": "/L2_FUSED",
+        "effective_netclasses": [
+          "AWG_14",
+          "Default",
+          "PANEL_POWER"
+        ],
+        "effective_track_width_mm": 1.628
+      },
+      {
+        "net": "/L2_HIGH",
+        "effective_netclasses": [
+          "DEVICE_INTERNAL",
+          "Default",
+          "MOTOR_POWER"
+        ],
+        "effective_track_width_mm": 0.2
+      },
+      {
+        "net": "/L2_LOW",
+        "effective_netclasses": [
+          "DEVICE_INTERNAL",
+          "Default",
+          "MOTOR_POWER"
+        ],
+        "effective_track_width_mm": 0.2
+      },
+      {
+        "net": "/L2_PSU",
+        "effective_netclasses": [
+          "AWG_14",
+          "Default",
+          "PANEL_POWER"
+        ],
+        "effective_track_width_mm": 1.628
+      },
+      {
+        "net": "/L3_FUSED",
+        "effective_netclasses": [
+          "AWG_14",
+          "Default",
+          "PANEL_POWER"
+        ],
+        "effective_track_width_mm": 1.628
+      },
+      {
+        "net": "/L3_HIGH",
+        "effective_netclasses": [
+          "DEVICE_INTERNAL",
+          "Default",
+          "MOTOR_POWER"
+        ],
+        "effective_track_width_mm": 0.2
+      },
+      {
+        "net": "/L3_LOW",
+        "effective_netclasses": [
+          "DEVICE_INTERNAL",
+          "Default",
+          "MOTOR_POWER"
+        ],
+        "effective_track_width_mm": 0.2
+      },
+      {
+        "net": "/SPEED_HIGH_SHORTING_COIL",
+        "effective_netclasses": [
+          "AWG_18",
+          "Default",
+          "SPEED"
+        ],
+        "effective_track_width_mm": 1.024
+      },
+      {
+        "net": "/SPEED_LOW_COIL",
+        "effective_netclasses": [
+          "AWG_18",
+          "Default",
+          "SPEED"
+        ],
+        "effective_track_width_mm": 1.024
+      },
+      {
+        "net": "0V",
+        "effective_netclasses": [
+          "AWG_18",
+          "CONTROL",
+          "Default"
+        ],
+        "effective_track_width_mm": 1.024
+      },
+      {
+        "net": "CONTROL_ESTOP_DISABLED_FB",
+        "effective_netclasses": [
+          "AWG_18",
+          "CONTROL",
+          "Default"
+        ],
+        "effective_track_width_mm": 1.024
+      },
+      {
+        "net": "CONTROL_ESTOP_ENABLE",
+        "effective_netclasses": [
+          "AWG_18",
+          "CONTROL",
+          "Default"
+        ],
+        "effective_track_width_mm": 1.024
+      },
+      {
+        "net": "CONTROL_LOW_OVERLOAD_ENABLE",
+        "effective_netclasses": [
+          "AWG_18",
+          "CONTROL",
+          "Default"
+        ],
+        "effective_track_width_mm": 1.024
+      },
+      {
+        "net": "CONTROL_OVERLOAD_ENABLE",
+        "effective_netclasses": [
+          "AWG_18",
+          "CONTROL",
+          "Default"
+        ],
+        "effective_track_width_mm": 1.024
+      },
+      {
+        "net": "CONTROL_RUN_ENABLE",
+        "effective_netclasses": [
+          "AWG_18",
+          "CONTROL",
+          "Default"
+        ],
+        "effective_track_width_mm": 1.024
+      },
+      {
+        "net": "DIRECTION_ENABLE",
+        "effective_netclasses": [
+          "AWG_18",
+          "DIRECTION",
+          "Default"
+        ],
+        "effective_track_width_mm": 1.024
+      },
+      {
+        "net": "DIRECTION_FWD_CMD",
+        "effective_netclasses": [
+          "AWG_18",
+          "DIRECTION",
+          "Default"
+        ],
+        "effective_track_width_mm": 1.024
+      },
+      {
+        "net": "DIRECTION_REV_CMD",
+        "effective_netclasses": [
+          "AWG_18",
+          "DIRECTION",
+          "Default"
+        ],
+        "effective_track_width_mm": 1.024
+      },
+      {
+        "net": "L1_DIR",
+        "effective_netclasses": [
+          "AWG_14",
+          "Default",
+          "PANEL_POWER"
+        ],
+        "effective_track_width_mm": 1.628
+      },
+      {
+        "net": "L1_IN",
+        "effective_netclasses": [
+          "AWG_12",
+          "Default",
+          "INCOMING_MAINS"
+        ],
+        "effective_track_width_mm": 2.052
+      },
+      {
+        "net": "L1_SW",
+        "effective_netclasses": [
+          "AWG_14",
+          "Default",
+          "PANEL_POWER"
+        ],
+        "effective_track_width_mm": 1.628
+      },
+      {
+        "net": "L2_DIR",
+        "effective_netclasses": [
+          "AWG_14",
+          "Default",
+          "PANEL_POWER"
+        ],
+        "effective_track_width_mm": 1.628
+      },
+      {
+        "net": "L2_IN",
+        "effective_netclasses": [
+          "AWG_12",
+          "Default",
+          "INCOMING_MAINS"
+        ],
+        "effective_track_width_mm": 2.052
+      },
+      {
+        "net": "L2_SW",
+        "effective_netclasses": [
+          "AWG_14",
+          "Default",
+          "PANEL_POWER"
+        ],
+        "effective_track_width_mm": 1.628
+      },
+      {
+        "net": "L3_DIR",
+        "effective_netclasses": [
+          "AWG_14",
+          "Default",
+          "PANEL_POWER"
+        ],
+        "effective_track_width_mm": 1.628
+      },
+      {
+        "net": "L3_IN",
+        "effective_netclasses": [
+          "AWG_12",
+          "Default",
+          "INCOMING_MAINS"
+        ],
+        "effective_track_width_mm": 2.052
+      },
+      {
+        "net": "L3_SW",
+        "effective_netclasses": [
+          "AWG_14",
+          "Default",
+          "PANEL_POWER"
+        ],
+        "effective_track_width_mm": 1.628
+      },
+      {
+        "net": "M1_T1",
+        "effective_netclasses": [
+          "AWG_14",
+          "Default",
+          "MOTOR_POWER"
+        ],
+        "effective_track_width_mm": 1.628
+      },
+      {
+        "net": "M1_T2",
+        "effective_netclasses": [
+          "AWG_14",
+          "Default",
+          "MOTOR_POWER"
+        ],
+        "effective_track_width_mm": 1.628
+      },
+      {
+        "net": "M1_T3",
+        "effective_netclasses": [
+          "AWG_14",
+          "Default",
+          "MOTOR_POWER"
+        ],
+        "effective_track_width_mm": 1.628
+      },
+      {
+        "net": "M1_T4",
+        "effective_netclasses": [
+          "AWG_14",
+          "Default",
+          "MOTOR_POWER"
+        ],
+        "effective_track_width_mm": 1.628
+      },
+      {
+        "net": "M1_T5",
+        "effective_netclasses": [
+          "AWG_14",
+          "Default",
+          "MOTOR_POWER"
+        ],
+        "effective_track_width_mm": 1.628
+      },
+      {
+        "net": "M1_T6",
+        "effective_netclasses": [
+          "AWG_14",
+          "Default",
+          "MOTOR_POWER"
+        ],
+        "effective_track_width_mm": 1.628
+      },
+      {
+        "net": "Net-(S3-HI3_B)",
+        "effective_netclasses": [
+          "DEVICE_INTERNAL",
+          "Default",
+          "SPEED"
+        ],
+        "effective_track_width_mm": 0.2
+      },
+      {
+        "net": "Net-(S3-HI5_T)",
+        "effective_netclasses": [
+          "DEVICE_INTERNAL",
+          "Default",
+          "SPEED"
+        ],
+        "effective_track_width_mm": 0.2
+      },
+      {
+        "net": "Net-(S3-HI6_T)",
+        "effective_netclasses": [
+          "DEVICE_INTERNAL",
+          "Default",
+          "SPEED"
+        ],
+        "effective_track_width_mm": 0.2
+      },
+      {
+        "net": "Net-(S3-HI8_B)",
+        "effective_netclasses": [
+          "DEVICE_INTERNAL",
+          "Default",
+          "SPEED"
+        ],
+        "effective_track_width_mm": 0.2
+      },
+      {
+        "net": "PE",
+        "effective_netclasses": [
+          "AWG_14",
+          "Default",
+          "PE"
+        ],
+        "effective_track_width_mm": 1.628
+      },
+      {
+        "net": "SPEED_HIGH_CMD",
+        "effective_netclasses": [
+          "AWG_18",
+          "Default",
+          "SPEED"
+        ],
+        "effective_track_width_mm": 1.024
+      },
+      {
+        "net": "SPEED_HIGH_COIL",
+        "effective_netclasses": [
+          "AWG_18",
+          "Default",
+          "SPEED"
+        ],
+        "effective_track_width_mm": 1.024
+      },
+      {
+        "net": "SPEED_LOW_CMD",
+        "effective_netclasses": [
+          "AWG_18",
+          "Default",
+          "SPEED"
+        ],
+        "effective_track_width_mm": 1.024
+      },
+      {
+        "net": "SPEED_LOW_K6_NC_LINK",
+        "effective_netclasses": [
+          "AWG_18",
+          "Default",
+          "SPEED"
+        ],
+        "effective_track_width_mm": 1.024
+      }
+    ]
+  },
+  "applied_hashes": {
+    "project": "60d75dff7f9d2b97ec8c49755d117a38a98d4190df8ffc1408bb29e2759fe565",
+    "local": "7825c7bba2d26ec9ad00b4bc246333139f573be47b3caf66124e5a91f6ca5438",
+    "board": "38b1d38a227c2e8ebcd2e4ae28564e96a175f9cf7eb89fa911c9e3926b7dafbf",
+    "schematic": "211173dc4c33f5cda34279aa4ccb15abfc5d1605ec3c0a9bcfbbdec98d31985c",
+    "router": "3b43f39e580a0c13097b6f3025c210fe743a7006ed0e6825bf54f719d7a1c53f"
+  },
+  "backup_directory": "/Users/evanthayer/Library/Application Support/KiCad Settings Backups/2026-10-08-powermatic-routing",
+  "local_settings": {
+    "auto_track_width": false,
+    "group_by_netclass": true
+  }
+}

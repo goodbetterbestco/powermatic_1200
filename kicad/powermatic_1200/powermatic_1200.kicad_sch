@@ -1785,6 +1785,256 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Controls:RM25030-3SR"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FH"
+				(at 0 8.255 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RM25030-3SR"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Controls:RM25030-3SR_Front"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${PARTS_LIB}/datasheets/RM25030-3SR_Datasheet.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Bussmann three-pole Class R fuse holder; 250 V, 30 A frame, six field terminal/clip assemblies."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "RM25030-3SR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Eaton Bussmann"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Category" "fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package" "DIN rail fuse holder"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Name" "Fuse Holder"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "RM25030-3SR Class R Fuse Holder fuse Eaton Bussmann"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RM25030-3SR_1_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "P1A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P1.A"
+						(effects
+							(font
+								(size 0.67 0.67)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "P1B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P1.B"
+						(effects
+							(font
+								(size 0.67 0.67)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "P2A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P2.A"
+						(effects
+							(font
+								(size 0.67 0.67)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "P2B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P2.B"
+						(effects
+							(font
+								(size 0.67 0.67)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "P3A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P3.A"
+						(effects
+							(font
+								(size 0.67 0.67)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "P3B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P3.B"
+						(effects
+							(font
+								(size 0.67 0.67)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Controls:T4171310004-001"
 			(pin_numbers
 				(hide yes)
@@ -4880,388 +5130,6 @@
 						(effects
 							(font
 								(size 0.53 0.53)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "non_lcsc_parts:Non-LCSC/RM25030-3SR"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "FH"
-				(at 0 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RM25030-3SR"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Controls:RM25030-3SR_Front"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "${PARTS_LIB}/datasheets/RM25030-3SR_Datasheet.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Bussmann three-pole Class R fuse holder; 250 V, 30 A frame, six field terminal/clip assemblies."
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part ID" "RM25030-3SR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part Name" "Fuse Holder"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "RM25030-3SR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Eaton Bussmann"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier" "AutomationDirect"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier PN" "RM25030-3SR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Category" "fuse"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Package" "DIN rail fuse holder"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "JLCPCB Class" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "JLCPCB Assembly" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "JLCPCB Part" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "JLCPCB MPN" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "JLCPCB Match" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "JLCPCB Checked UTC" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "JLCPCB Source" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "inventory" "0"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "RM25030-3SR Class R Fuse Holder fuse Eaton Bussmann"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Controls:RM25030-3SR_Front"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Non-LCSC/RM25030-3SR_1_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "P1A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P1.A"
-						(effects
-							(font
-								(size 0.67 0.67)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "P1B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P1.B"
-						(effects
-							(font
-								(size 0.67 0.67)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "P2A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P2.A"
-						(effects
-							(font
-								(size 0.67 0.67)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "P2B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P2.B"
-						(effects
-							(font
-								(size 0.67 0.67)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "P3A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P3.A"
-						(effects
-							(font
-								(size 0.67 0.67)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "P3B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P3.B"
-						(effects
-							(font
-								(size 0.67 0.67)
 							)
 						)
 					)
@@ -11549,7 +11417,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Controls:HMX1-SSVRC-DC_Front"
+		(property "Footprint" "Controls:HMX1-SSVRC-DC_Front_Grid1mm"
 			(at 210.82 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -12155,7 +12023,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Controls:HC3096N-52-900-24_Front"
+		(property "Footprint" "Controls:HC3096N-52-900-24_Front_Grid1mm"
 			(at 158.75 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -12455,7 +12323,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Controls:HMC-9B30-11-DS_Front"
+		(property "Footprint" "Controls:HMC-9B30-11-DS_Front_Grid1mm"
 			(at 302.26 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -12610,294 +12478,6 @@
 			(project "powermatic_1200"
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
 					(reference "K6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "non_lcsc_parts:Non-LCSC/RM25030-3SR")
-		(at 110.49 -67.31 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5ca8057b-4eb2-4c19-b9e6-24988ef269e0")
-		(property "Reference" "FH1"
-			(at 110.49 -58.928 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RM25030-3SR"
-			(at 110.49 -60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Controls:RM25030-3SR_Front"
-			(at 110.49 -67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "${PARTS_LIB}/datasheets/RM25030-3SR_Datasheet.pdf"
-			(at 110.49 -67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bussmann three-pole Class R fuse holder; 250 V, 30 A frame, six field terminal/clip assemblies."
-			(at 110.49 -67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RM25030-3SR"
-			(at 110.49 -67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Eaton Bussmann"
-			(at 110.49 -67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Category" "fuse"
-			(at 110.49 -67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "DIN rail fuse holder"
-			(at 110.49 -67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Name" "Fuse Holder"
-			(at 110.49 -74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part ID" "RM25030-3SR"
-			(at 110.49 -67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "AutomationDirect"
-			(at 110.49 -67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier PN" "RM25030-3SR"
-			(at 110.49 -67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "inventory" "0"
-			(at 110.49 -67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Wire.Sizes" "{\"schema\":1,\"owner_uuid\":\"5ca8057b-4eb2-4c19-b9e6-24988ef269e0\",\"entries\":[{\"pin\":\"P1.A\",\"net\":\"/L3_FUSED\",\"scope\":\"panel_power\",\"awg\":14,\"color\":\"Black\"},{\"pin\":\"P1.B\",\"net\":\"L3_IN\",\"scope\":\"panel_power\",\"awg\":14,\"color\":\"Black\"},{\"pin\":\"P2.A\",\"net\":\"/L2_FUSED\",\"scope\":\"panel_power\",\"awg\":14,\"color\":\"Black\"},{\"pin\":\"P2.B\",\"net\":\"L2_IN\",\"scope\":\"panel_power\",\"awg\":14,\"color\":\"Black\"},{\"pin\":\"P3.A\",\"net\":\"/L1_FUSED\",\"scope\":\"panel_power\",\"awg\":14,\"color\":\"Black\"},{\"pin\":\"P3.B\",\"net\":\"L1_IN\",\"scope\":\"panel_power\",\"awg\":14,\"color\":\"Black\"}]}"
-			(at 110.49 -67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mounting" "din_top"
-			(at 110.49 -67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Class" ""
-			(at 110.49 -67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Assembly" ""
-			(at 110.49 -67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part" ""
-			(at 110.49 -67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB MPN" ""
-			(at 110.49 -67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Match" ""
-			(at 110.49 -67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Checked UTC" ""
-			(at 110.49 -67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Source" ""
-			(at 110.49 -67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "P1.B"
-			(uuid "57a311dd-e59b-4996-957b-d23a45721437")
-		)
-		(pin "P2.B"
-			(uuid "ef0ac7a6-eb98-4151-beb4-ac34ccf6e14d")
-		)
-		(pin "P2.A"
-			(uuid "ed12ff90-d4ec-41a8-a048-7c271f0153fc")
-		)
-		(pin "P1.A"
-			(uuid "988ae669-1a51-4c87-9004-356d998da98f")
-		)
-		(pin "P3.A"
-			(uuid "aadd2934-9371-4c2d-968c-0b9d0a39527c")
-		)
-		(pin "P3.B"
-			(uuid "18399435-6965-47d4-b7b7-31df2a59143a")
-		)
-		(instances
-			(project "powermatic_1200"
-				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
-					(reference "FH1")
 					(unit 1)
 				)
 			)
@@ -13442,7 +13022,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Controls:HMX1-SSVRC-DC_Front"
+		(property "Footprint" "Controls:HMX1-SSVRC-DC_Front_Grid1mm"
 			(at 256.54 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -13718,7 +13298,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Controls:HTOR32-6-S_Front"
+		(property "Footprint" "Controls:HTOR32-6-S_Front_Grid1mm"
 			(at 210.82 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -13897,7 +13477,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Controls:HMC-9B30-11-DS_Front"
+		(property "Footprint" "Controls:HMC-9B30-11-DS_Front_Grid1mm"
 			(at 256.54 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -14267,7 +13847,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Controls:HMX1-SSVRC-DC_Front"
+		(property "Footprint" "Controls:HMX1-SSVRC-DC_Front_Grid1mm"
 			(at 302.26 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -14507,6 +14087,151 @@
 			(project "powermatic_1200"
 				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
 					(reference "SP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Controls:RM25030-3SR")
+		(at 110.49 -67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "af900b28-2e09-43db-918c-833b14b72b4a")
+		(property "Reference" "FH1"
+			(at 110.49 -75.184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RM25030-3SR"
+			(at 110.49 -73.406 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Controls:RM25030-3SR_Front"
+			(at 110.49 -67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${PARTS_LIB}/datasheets/RM25030-3SR_Datasheet.pdf"
+			(at 110.49 -67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Bussmann three-pole Class R fuse holder; 250 V, 30 A frame, six field terminal/clip assemblies."
+			(at 110.49 -67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RM25030-3SR"
+			(at 110.49 -67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Eaton Bussmann"
+			(at 110.49 -67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "fuse"
+			(at 110.49 -67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "DIN rail fuse holder"
+			(at 110.49 -67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" "Fuse Holder"
+			(at 110.49 -61.214 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P3.A"
+			(uuid "fbf9fca6-ae2a-4a51-88ab-db82f0935907")
+		)
+		(pin "P2.B"
+			(uuid "45c56c07-50ed-4655-ab49-050a108fe920")
+		)
+		(pin "P2.A"
+			(uuid "63aabdaf-54be-4e95-bd98-631ce7002a09")
+		)
+		(pin "P3.B"
+			(uuid "42d98397-dc1b-4460-b62d-bb7ab2168bc8")
+		)
+		(pin "P1.B"
+			(uuid "1d994cd6-2132-4267-97da-d87c4eab6f52")
+		)
+		(pin "P1.A"
+			(uuid "fc11fcf1-6587-4d9d-8114-110cf26c8aab")
+		)
+		(instances
+			(project "powermatic_1200"
+				(path "/e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
+					(reference "FH1")
 					(unit 1)
 				)
 			)
@@ -14935,7 +14660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Controls:NDR-240-24_Front"
+		(property "Footprint" "Controls:NDR-240-24_Front_Grid1mm"
 			(at 219.71 -64.77 0)
 			(hide yes)
 			(show_name no)
@@ -15237,7 +14962,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Controls:FAZ-D4-2-NA-L_Front"
+		(property "Footprint" "Controls:FAZ-D4-2-NA-L_Front_Grid1mm"
 			(at 185.42 -68.58 0)
 			(hide yes)
 			(show_name no)
@@ -15519,7 +15244,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Controls:HTOR32-6-S_Front"
+		(property "Footprint" "Controls:HTOR32-6-S_Front_Grid1mm"
 			(at 302.26 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -16214,7 +15939,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Controls:HMX1-SSVRC-DC_Front"
+		(property "Footprint" "Controls:HMX1-SSVRC-DC_Front_Grid1mm"
 			(at 67.31 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -16490,7 +16215,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Controls:HMX1-SSVRC-DC_Front"
+		(property "Footprint" "Controls:HMX1-SSVRC-DC_Front_Grid1mm"
 			(at 111.76 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -16766,7 +16491,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Controls:HMC-9B30-11-DS_Front"
+		(property "Footprint" "Controls:HMC-9B30-11-DS_Front_Grid1mm"
 			(at 67.31 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -17451,7 +17176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Controls:HMC-9B30-11-DS_Front"
+		(property "Footprint" "Controls:HMC-9B30-11-DS_Front_Grid1mm"
 			(at 111.76 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -17642,7 +17367,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Controls:HMC-9B30-11-DS_Front"
+		(property "Footprint" "Controls:HMC-9B30-11-DS_Front_Grid1mm"
 			(at 210.82 72.39 0)
 			(hide yes)
 			(show_name no)

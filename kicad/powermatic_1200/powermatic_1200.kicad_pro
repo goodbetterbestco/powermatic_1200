@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -172,6 +178,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -183,6 +190,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -194,6 +202,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -203,7 +212,15 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.643,
+        1.024,
+        1.29,
+        1.628,
+        2.052,
+        2.588
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +247,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -470,6 +492,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -512,14 +535,543 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "AWG_10",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 2.588,
+        "tuning_profile": ""
+      },
+      {
+        "name": "AWG_12",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 2.052,
+        "tuning_profile": ""
+      },
+      {
+        "name": "AWG_14",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.628,
+        "tuning_profile": ""
+      },
+      {
+        "name": "AWG_16",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.29,
+        "tuning_profile": ""
+      },
+      {
+        "name": "AWG_18",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.024,
+        "tuning_profile": ""
+      },
+      {
+        "name": "AWG_22",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.643,
+        "tuning_profile": ""
+      },
+      {
+        "name": "CONTROL",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 103,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "DEVICE_INTERNAL",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 107,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "DIRECTION",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 104,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "INCOMING_MAINS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 100,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "MOTOR_POWER",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 102,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "PANEL_POWER",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 101,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "PE",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 106,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "SPEED",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 105,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": []
+    "net_colors": {},
+    "netclass_assignments": {},
+    "netclass_patterns": [
+      {
+        "netclass": "CONTROL",
+        "pattern": "+24V"
+      },
+      {
+        "netclass": "AWG_18",
+        "pattern": "+24V"
+      },
+      {
+        "netclass": "CONTROL",
+        "pattern": "+24V_EN"
+      },
+      {
+        "netclass": "AWG_18",
+        "pattern": "+24V_EN"
+      },
+      {
+        "netclass": "CONTROL",
+        "pattern": "/CONTROL_ESTOP_CONTACT_LINK"
+      },
+      {
+        "netclass": "AWG_22",
+        "pattern": "/CONTROL_ESTOP_CONTACT_LINK"
+      },
+      {
+        "netclass": "CONTROL",
+        "pattern": "/CONTROL_K3_CONTACT_LINK"
+      },
+      {
+        "netclass": "AWG_18",
+        "pattern": "/CONTROL_K3_CONTACT_LINK"
+      },
+      {
+        "netclass": "DIRECTION",
+        "pattern": "/DIRECTION_FWD_COIL"
+      },
+      {
+        "netclass": "AWG_18",
+        "pattern": "/DIRECTION_FWD_COIL"
+      },
+      {
+        "netclass": "DIRECTION",
+        "pattern": "/DIRECTION_REV_COIL"
+      },
+      {
+        "netclass": "AWG_18",
+        "pattern": "/DIRECTION_REV_COIL"
+      },
+      {
+        "netclass": "PANEL_POWER",
+        "pattern": "/HS_SHORT"
+      },
+      {
+        "netclass": "AWG_14",
+        "pattern": "/HS_SHORT"
+      },
+      {
+        "netclass": "PANEL_POWER",
+        "pattern": "/L1_FUSED"
+      },
+      {
+        "netclass": "AWG_14",
+        "pattern": "/L1_FUSED"
+      },
+      {
+        "netclass": "MOTOR_POWER",
+        "pattern": "/L1_HIGH"
+      },
+      {
+        "netclass": "DEVICE_INTERNAL",
+        "pattern": "/L1_HIGH"
+      },
+      {
+        "netclass": "MOTOR_POWER",
+        "pattern": "/L1_LOW"
+      },
+      {
+        "netclass": "DEVICE_INTERNAL",
+        "pattern": "/L1_LOW"
+      },
+      {
+        "netclass": "PANEL_POWER",
+        "pattern": "/L1_PSU"
+      },
+      {
+        "netclass": "AWG_14",
+        "pattern": "/L1_PSU"
+      },
+      {
+        "netclass": "PANEL_POWER",
+        "pattern": "/L2_FUSED"
+      },
+      {
+        "netclass": "AWG_14",
+        "pattern": "/L2_FUSED"
+      },
+      {
+        "netclass": "MOTOR_POWER",
+        "pattern": "/L2_HIGH"
+      },
+      {
+        "netclass": "DEVICE_INTERNAL",
+        "pattern": "/L2_HIGH"
+      },
+      {
+        "netclass": "MOTOR_POWER",
+        "pattern": "/L2_LOW"
+      },
+      {
+        "netclass": "DEVICE_INTERNAL",
+        "pattern": "/L2_LOW"
+      },
+      {
+        "netclass": "PANEL_POWER",
+        "pattern": "/L2_PSU"
+      },
+      {
+        "netclass": "AWG_14",
+        "pattern": "/L2_PSU"
+      },
+      {
+        "netclass": "PANEL_POWER",
+        "pattern": "/L3_FUSED"
+      },
+      {
+        "netclass": "AWG_14",
+        "pattern": "/L3_FUSED"
+      },
+      {
+        "netclass": "MOTOR_POWER",
+        "pattern": "/L3_HIGH"
+      },
+      {
+        "netclass": "DEVICE_INTERNAL",
+        "pattern": "/L3_HIGH"
+      },
+      {
+        "netclass": "MOTOR_POWER",
+        "pattern": "/L3_LOW"
+      },
+      {
+        "netclass": "DEVICE_INTERNAL",
+        "pattern": "/L3_LOW"
+      },
+      {
+        "netclass": "SPEED",
+        "pattern": "/SPEED_HIGH_SHORTING_COIL"
+      },
+      {
+        "netclass": "AWG_18",
+        "pattern": "/SPEED_HIGH_SHORTING_COIL"
+      },
+      {
+        "netclass": "SPEED",
+        "pattern": "/SPEED_LOW_COIL"
+      },
+      {
+        "netclass": "AWG_18",
+        "pattern": "/SPEED_LOW_COIL"
+      },
+      {
+        "netclass": "CONTROL",
+        "pattern": "0V"
+      },
+      {
+        "netclass": "AWG_18",
+        "pattern": "0V"
+      },
+      {
+        "netclass": "CONTROL",
+        "pattern": "CONTROL_ESTOP_DISABLED_FB"
+      },
+      {
+        "netclass": "AWG_18",
+        "pattern": "CONTROL_ESTOP_DISABLED_FB"
+      },
+      {
+        "netclass": "CONTROL",
+        "pattern": "CONTROL_ESTOP_ENABLE"
+      },
+      {
+        "netclass": "AWG_18",
+        "pattern": "CONTROL_ESTOP_ENABLE"
+      },
+      {
+        "netclass": "CONTROL",
+        "pattern": "CONTROL_LOW_OVERLOAD_ENABLE"
+      },
+      {
+        "netclass": "AWG_18",
+        "pattern": "CONTROL_LOW_OVERLOAD_ENABLE"
+      },
+      {
+        "netclass": "CONTROL",
+        "pattern": "CONTROL_OVERLOAD_ENABLE"
+      },
+      {
+        "netclass": "AWG_18",
+        "pattern": "CONTROL_OVERLOAD_ENABLE"
+      },
+      {
+        "netclass": "CONTROL",
+        "pattern": "CONTROL_RUN_ENABLE"
+      },
+      {
+        "netclass": "AWG_18",
+        "pattern": "CONTROL_RUN_ENABLE"
+      },
+      {
+        "netclass": "DIRECTION",
+        "pattern": "DIRECTION_ENABLE"
+      },
+      {
+        "netclass": "AWG_18",
+        "pattern": "DIRECTION_ENABLE"
+      },
+      {
+        "netclass": "DIRECTION",
+        "pattern": "DIRECTION_FWD_CMD"
+      },
+      {
+        "netclass": "AWG_18",
+        "pattern": "DIRECTION_FWD_CMD"
+      },
+      {
+        "netclass": "DIRECTION",
+        "pattern": "DIRECTION_REV_CMD"
+      },
+      {
+        "netclass": "AWG_18",
+        "pattern": "DIRECTION_REV_CMD"
+      },
+      {
+        "netclass": "PANEL_POWER",
+        "pattern": "L1_DIR"
+      },
+      {
+        "netclass": "AWG_14",
+        "pattern": "L1_DIR"
+      },
+      {
+        "netclass": "INCOMING_MAINS",
+        "pattern": "L1_IN"
+      },
+      {
+        "netclass": "AWG_12",
+        "pattern": "L1_IN"
+      },
+      {
+        "netclass": "PANEL_POWER",
+        "pattern": "L1_SW"
+      },
+      {
+        "netclass": "AWG_14",
+        "pattern": "L1_SW"
+      },
+      {
+        "netclass": "PANEL_POWER",
+        "pattern": "L2_DIR"
+      },
+      {
+        "netclass": "AWG_14",
+        "pattern": "L2_DIR"
+      },
+      {
+        "netclass": "INCOMING_MAINS",
+        "pattern": "L2_IN"
+      },
+      {
+        "netclass": "AWG_12",
+        "pattern": "L2_IN"
+      },
+      {
+        "netclass": "PANEL_POWER",
+        "pattern": "L2_SW"
+      },
+      {
+        "netclass": "AWG_14",
+        "pattern": "L2_SW"
+      },
+      {
+        "netclass": "PANEL_POWER",
+        "pattern": "L3_DIR"
+      },
+      {
+        "netclass": "AWG_14",
+        "pattern": "L3_DIR"
+      },
+      {
+        "netclass": "INCOMING_MAINS",
+        "pattern": "L3_IN"
+      },
+      {
+        "netclass": "AWG_12",
+        "pattern": "L3_IN"
+      },
+      {
+        "netclass": "PANEL_POWER",
+        "pattern": "L3_SW"
+      },
+      {
+        "netclass": "AWG_14",
+        "pattern": "L3_SW"
+      },
+      {
+        "netclass": "MOTOR_POWER",
+        "pattern": "M1_T1"
+      },
+      {
+        "netclass": "AWG_14",
+        "pattern": "M1_T1"
+      },
+      {
+        "netclass": "MOTOR_POWER",
+        "pattern": "M1_T2"
+      },
+      {
+        "netclass": "AWG_14",
+        "pattern": "M1_T2"
+      },
+      {
+        "netclass": "MOTOR_POWER",
+        "pattern": "M1_T3"
+      },
+      {
+        "netclass": "AWG_14",
+        "pattern": "M1_T3"
+      },
+      {
+        "netclass": "MOTOR_POWER",
+        "pattern": "M1_T4"
+      },
+      {
+        "netclass": "AWG_14",
+        "pattern": "M1_T4"
+      },
+      {
+        "netclass": "MOTOR_POWER",
+        "pattern": "M1_T5"
+      },
+      {
+        "netclass": "AWG_14",
+        "pattern": "M1_T5"
+      },
+      {
+        "netclass": "MOTOR_POWER",
+        "pattern": "M1_T6"
+      },
+      {
+        "netclass": "AWG_14",
+        "pattern": "M1_T6"
+      },
+      {
+        "netclass": "SPEED",
+        "pattern": "Net-(S3-HI3_B)"
+      },
+      {
+        "netclass": "DEVICE_INTERNAL",
+        "pattern": "Net-(S3-HI3_B)"
+      },
+      {
+        "netclass": "SPEED",
+        "pattern": "Net-(S3-HI5_T)"
+      },
+      {
+        "netclass": "DEVICE_INTERNAL",
+        "pattern": "Net-(S3-HI5_T)"
+      },
+      {
+        "netclass": "SPEED",
+        "pattern": "Net-(S3-HI6_T)"
+      },
+      {
+        "netclass": "DEVICE_INTERNAL",
+        "pattern": "Net-(S3-HI6_T)"
+      },
+      {
+        "netclass": "SPEED",
+        "pattern": "Net-(S3-HI8_B)"
+      },
+      {
+        "netclass": "DEVICE_INTERNAL",
+        "pattern": "Net-(S3-HI8_B)"
+      },
+      {
+        "netclass": "PE",
+        "pattern": "PE"
+      },
+      {
+        "netclass": "AWG_14",
+        "pattern": "PE"
+      },
+      {
+        "netclass": "SPEED",
+        "pattern": "SPEED_HIGH_CMD"
+      },
+      {
+        "netclass": "AWG_18",
+        "pattern": "SPEED_HIGH_CMD"
+      },
+      {
+        "netclass": "SPEED",
+        "pattern": "SPEED_HIGH_COIL"
+      },
+      {
+        "netclass": "AWG_18",
+        "pattern": "SPEED_HIGH_COIL"
+      },
+      {
+        "netclass": "SPEED",
+        "pattern": "SPEED_LOW_CMD"
+      },
+      {
+        "netclass": "AWG_18",
+        "pattern": "SPEED_LOW_CMD"
+      },
+      {
+        "netclass": "SPEED",
+        "pattern": "SPEED_LOW_K6_NC_LINK"
+      },
+      {
+        "netclass": "AWG_18",
+        "pattern": "SPEED_LOW_K6_NC_LINK"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -661,7 +1213,7 @@
         "uuid": "e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
       }
     ],
-    "used_designators": "",
+    "used_designators": "FH2",
     "variants": []
   },
   "sheets": [

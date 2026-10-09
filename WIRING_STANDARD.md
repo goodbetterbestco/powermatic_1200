@@ -20,6 +20,67 @@ This document is the project policy. Actual conductor gauge and cable/part ident
 
 The preferred classes do not automatically imply a loose-wire spool for every size. The incoming 12 AWG conductors and 22 AWG M12 leads are supplied by the selected cable/device; the motor-conduit 12 AWG PE is a separate discrete wire. Purchase discrete wire only where the physical wire list actually requires it.
 
+## KiCad route widths and netclasses
+
+For panel wire drawings, track width represents the nominal bare conductor
+diameter. The presets below use NBS Handbook 100, table 1's nominal diameters
+in mils, converted to millimetres and rounded to 0.001 mm. They exclude
+insulation and are drawing widths; actual stranded-conductor dimensions remain
+part-specific.
+
+| Width profile | Nominal diameter / track width (mm) | Use |
+|---|---:|---|
+| `AWG_10` | 2.588 | Planned prefabricated bonding assemblies |
+| `AWG_12` | 2.052 | Incoming cable cores and motor-conduit PE |
+| `AWG_14` | 1.628 | Panel power, motor conductors and normal panel PE |
+| `AWG_16` | 1.290 | Individual external S2/S3 control-conduit wires |
+| `AWG_18` | 1.024 | Internal panel control wiring |
+| `AWG_22` | 0.643 | J1's supplied factory pigtails |
+
+KiCad 10 combines functional netclasses with an AWG width profile. The AWG
+classes set only track width; functional groups identify the circuit. Existing
+clearance, via and other parameters inherit from `Default`. The saved project
+contains exact-name assignment patterns, visible in **Board Setup → Net
+Classes**. The Net Inspector groups nets by netclass.
+
+| Functional group | Default width profile | Assigned circuit |
+|---|---|---|
+| `INCOMING_MAINS` | `AWG_12` | `L1_IN`, `L2_IN`, `L3_IN` |
+| `PANEL_POWER` | `AWG_14` | Fused/switched/direction power, PSU AC input and `HS_SHORT` |
+| `MOTOR_POWER` | `AWG_14` | `M1_T1`–`M1_T6`; direct-mounted overload interfaces are separately marked internal |
+| `CONTROL` | `AWG_18`, or `AWG_22` for the factory-only E-stop contact link | 24 V supply/return and `CONTROL_*` signals |
+| `DIRECTION` | `AWG_18` | `DIRECTION_*` signals |
+| `SPEED` | `AWG_18` | `SPEED_*` signals; retained S3 straps are separately marked internal |
+| `PE` | `AWG_14` | Panel PE default; choose `AWG_12` or `AWG_10` for the specified individual conductors |
+| `DEVICE_INTERNAL` | No assumed AWG | Direct-mounted overload interfaces and retained S3 straps; retain the existing `Default` drawing width |
+
+A netclass width is a routing default, not a per-conductor gauge declaration.
+The saved declarations contain 13 mixed-gauge nets: incoming phases, PE,
+24 V/E-stop circuits and external control signals. Select the actual conductor's
+width preset when routing those individual wires. In particular, external
+S2/S3 wires use the 1.290 mm preset even though their panel-side net default is
+1.024 mm. Use the 0.643 mm preset for J1's supplied leads on mixed E-stop nets.
+The existing `Wire.Sizes`, `Wire.AWG.<pin>` and termination fields continue to
+own actual conductor specifications; the schedule does not infer AWG from
+track width.
+
+PCB Editor is configured for **90 degree rounded** routing with free-angle
+mode disabled. New routes use horizontal/vertical straight sections joined by
+fillet arcs. The project disables automatic width pickup from an existing
+track, so an old 0.2 mm trace cannot silently override the netclass width.
+Select **Use netclass width** for the normal default, or an AWG preset for an
+individual mixed-gauge wire. These settings preserve existing routed geometry.
+
+The corner setting is a KiCad user preference and applies across projects on
+this Mac. KiCad's corner-mode shortcuts can still change it during routing.
+Rounded tracks use real arcs; KiCad does not support dragging arcs and treats
+them as immovable in shove mode.
+
+Sources: [NBS Handbook 100, Copper Wire Tables, table 1](https://nvlpubs.nist.gov/nistpubs/Legacy/hb/nbshandbook100.pdf),
+[KiCad 10 netclasses and interactive routing](https://docs.kicad.org/10.0/en/pcbnew/pcbnew.html).
+The saved assignment inventory is in
+[`reviews/routing_standards_2026-10-08/assignments.json`](reviews/routing_standards_2026-10-08/assignments.json).
+
 ## Discrete wire colors
 
 Carry forward the existing BOM's color convention by application: black for
@@ -149,3 +210,7 @@ The insulated Wago forms a wire-to-wire PE junction; placing it inside a metal m
 - [Mean Well NDR-240 specification](https://www.meanwell.com/Upload/PDF/NDR-240/NDR-240-SPEC.PDF).
 - [Wago 221-613, three-conductor 10 AWG connector](https://www.wago.com/us/wire-splicing-connectors/compact-splicing-connector/p/221-613).
 - [Wago 221-412/413/415 conductor specifications](https://www.wago.com/us/products/electrical-interconnect/splicing-connectors-221).
+
+## Integer-grid DIN routing views
+
+The placed integer-origin DIN equipment uses shared `Controls:<base>_Grid1mm` variants. The routing-view mounting faces are integer X coordinates and wire-target pads use ceiling-rounded integer X/Y positions. Original footprints, F.Fab and STEP remain nominal hardware references. The drawing-grid view does not change the hardware conductor or termination specification. See the [layout and complete coordinate audit](reviews/din_grid_repack/README.md).

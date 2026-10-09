@@ -1,0 +1,3901 @@
+{
+  "source": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/powermatic_1200.kicad_pcb",
+  "source_sha256": "81e51065a69f2e0cd594df0e17542f4bea447132e678f85937dbf4d0f8dc6774",
+  "candidate": "/private/tmp/powermatic-pin-grid-audit/grid/grid-applied.kicad_pcb",
+  "candidate_sha256": "cda54e066cc200a8f0e2b250eb60c9e97b4a107f91ef9e43c68b62cefcf13344",
+  "instances": [
+    {
+      "uuid": "013df479-a6f5-43c6-9dc7-5b630e4cf676",
+      "reference": "TB33",
+      "base": "KN-T12GRY-25_Front",
+      "variant": "KN-T12GRY-25_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "BOT",
+          "before_nm": [
+            46000000,
+            315650000
+          ],
+          "scaled_nm": [
+            46000000,
+            315650000
+          ],
+          "grid_nm": [
+            46000000,
+            316000000
+          ]
+        },
+        {
+          "number": "TOP",
+          "before_nm": [
+            46000000,
+            300350000
+          ],
+          "scaled_nm": [
+            46000000,
+            300350000
+          ],
+          "grid_nm": [
+            46000000,
+            301000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "03018be0-cdf8-4198-be2e-3f41879ab874",
+      "reference": "REF**",
+      "base": "KN-EB7-10_Front",
+      "variant": "KN-EB7-10_Front_Grid1mm",
+      "pads": []
+    },
+    {
+      "uuid": "031e30fb-772e-4c58-bea9-90bd535d3cda",
+      "reference": "SP5",
+      "base": "HMX1-SSVRC-DC_Front",
+      "variant": "HMX1-SSVRC-DC_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "1",
+          "before_nm": [
+            365200000,
+            277763258
+          ],
+          "scaled_nm": [
+            365106952,
+            277763258
+          ],
+          "grid_nm": [
+            366000000,
+            278000000
+          ]
+        },
+        {
+          "number": "2",
+          "before_nm": [
+            376800000,
+            277763258
+          ],
+          "scaled_nm": [
+            376893048,
+            277763258
+          ],
+          "grid_nm": [
+            377000000,
+            278000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "05bdc1a5-4c0b-48e0-9a5d-945335521038",
+      "reference": "REF**",
+      "base": "KN-ST1BLK_Front",
+      "variant": "KN-ST1BLK_Front_Grid1mm",
+      "pads": []
+    },
+    {
+      "uuid": "0c9ab87b-a159-4601-a791-6bd2cb8e4b3c",
+      "reference": "SP2",
+      "base": "HMX1-SSVRC-DC_Front",
+      "variant": "HMX1-SSVRC-DC_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "1",
+          "before_nm": [
+            366200000,
+            99763258
+          ],
+          "scaled_nm": [
+            366106952,
+            99763258
+          ],
+          "grid_nm": [
+            367000000,
+            100000000
+          ]
+        },
+        {
+          "number": "2",
+          "before_nm": [
+            377800000,
+            99763258
+          ],
+          "scaled_nm": [
+            377893048,
+            99763258
+          ],
+          "grid_nm": [
+            378000000,
+            100000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "0cd4e370-b20e-45b4-8d46-ff555eb45e6d",
+      "reference": "REF**",
+      "base": "KN-ST1BLK_Front",
+      "variant": "KN-ST1BLK_Front_Grid1mm",
+      "pads": []
+    },
+    {
+      "uuid": "0efcbc76-f026-47f5-86c9-db4fc3aa8810",
+      "reference": "K1",
+      "base": "HMC-9B30-11-DS_Front",
+      "variant": "HMC-9B30-11-DS_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "1",
+          "before_nm": [
+            297500000,
+            107000000
+          ],
+          "scaled_nm": [
+            297111111,
+            107000000
+          ],
+          "grid_nm": [
+            298000000,
+            107000000
+          ]
+        },
+        {
+          "number": "2",
+          "before_nm": [
+            297500000,
+            153000000
+          ],
+          "scaled_nm": [
+            297111111,
+            153000000
+          ],
+          "grid_nm": [
+            298000000,
+            153000000
+          ]
+        },
+        {
+          "number": "3",
+          "before_nm": [
+            309500000,
+            107000000
+          ],
+          "scaled_nm": [
+            309377778,
+            107000000
+          ],
+          "grid_nm": [
+            310000000,
+            107000000
+          ]
+        },
+        {
+          "number": "4",
+          "before_nm": [
+            309500000,
+            153000000
+          ],
+          "scaled_nm": [
+            309377778,
+            153000000
+          ],
+          "grid_nm": [
+            310000000,
+            153000000
+          ]
+        },
+        {
+          "number": "5",
+          "before_nm": [
+            321500000,
+            107000000
+          ],
+          "scaled_nm": [
+            321644444,
+            107000000
+          ],
+          "grid_nm": [
+            322000000,
+            107000000
+          ]
+        },
+        {
+          "number": "6",
+          "before_nm": [
+            321500000,
+            153000000
+          ],
+          "scaled_nm": [
+            321644444,
+            153000000
+          ],
+          "grid_nm": [
+            322000000,
+            153000000
+          ]
+        },
+        {
+          "number": "31",
+          "before_nm": [
+            330600000,
+            115950000
+          ],
+          "scaled_nm": [
+            330946667,
+            115950000
+          ],
+          "grid_nm": [
+            331000000,
+            116000000
+          ]
+        },
+        {
+          "number": "32",
+          "before_nm": [
+            330600000,
+            144050000
+          ],
+          "scaled_nm": [
+            330946667,
+            144050000
+          ],
+          "grid_nm": [
+            331000000,
+            145000000
+          ]
+        },
+        {
+          "number": "43",
+          "before_nm": [
+            330600000,
+            106700000
+          ],
+          "scaled_nm": [
+            330946667,
+            106700000
+          ],
+          "grid_nm": [
+            331000000,
+            107000000
+          ]
+        },
+        {
+          "number": "44",
+          "before_nm": [
+            330600000,
+            153300000
+          ],
+          "scaled_nm": [
+            330946667,
+            153300000
+          ],
+          "grid_nm": [
+            331000000,
+            154000000
+          ]
+        },
+        {
+          "number": "A1.BOT",
+          "before_nm": [
+            309200000,
+            161250000
+          ],
+          "scaled_nm": [
+            309071111,
+            161250000
+          ],
+          "grid_nm": [
+            310000000,
+            162000000
+          ]
+        },
+        {
+          "number": "A1.TOP",
+          "before_nm": [
+            309200000,
+            98750000
+          ],
+          "scaled_nm": [
+            309071111,
+            98750000
+          ],
+          "grid_nm": [
+            310000000,
+            99000000
+          ]
+        },
+        {
+          "number": "A2.BOT",
+          "before_nm": [
+            320800000,
+            161250000
+          ],
+          "scaled_nm": [
+            320928889,
+            161250000
+          ],
+          "grid_nm": [
+            321000000,
+            162000000
+          ]
+        },
+        {
+          "number": "A2.TOP",
+          "before_nm": [
+            320800000,
+            98750000
+          ],
+          "scaled_nm": [
+            320928889,
+            98750000
+          ],
+          "grid_nm": [
+            321000000,
+            99000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "15faab88-6fe4-4706-85f6-e7194763f3fa",
+      "reference": "TB21",
+      "base": "KN-T12GRY-25_Front",
+      "variant": "KN-T12GRY-25_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "BOT",
+          "before_nm": [
+            269000000,
+            137650000
+          ],
+          "scaled_nm": [
+            269000000,
+            137650000
+          ],
+          "grid_nm": [
+            269000000,
+            138000000
+          ]
+        },
+        {
+          "number": "TOP",
+          "before_nm": [
+            269000000,
+            122350000
+          ],
+          "scaled_nm": [
+            269000000,
+            122350000
+          ],
+          "grid_nm": [
+            269000000,
+            123000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "17662ee0-4299-4738-a83d-2b511a5421ad",
+      "reference": "TB32",
+      "base": "KN-T12GRY-25_Front",
+      "variant": "KN-T12GRY-25_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "BOT",
+          "before_nm": [
+            51000000,
+            315650000
+          ],
+          "scaled_nm": [
+            51000000,
+            315650000
+          ],
+          "grid_nm": [
+            51000000,
+            316000000
+          ]
+        },
+        {
+          "number": "TOP",
+          "before_nm": [
+            51000000,
+            300350000
+          ],
+          "scaled_nm": [
+            51000000,
+            300350000
+          ],
+          "grid_nm": [
+            51000000,
+            301000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "1a7a6239-26e0-4582-bc1e-2f0f661a9d3e",
+      "reference": "Q1",
+      "base": "FAZ-D4-2-NA-L_Front",
+      "variant": "FAZ-D4-2-NA-L_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "1",
+          "before_nm": [
+            166150000,
+            96750000
+          ],
+          "scaled_nm": [
+            166000000,
+            96750000
+          ],
+          "grid_nm": [
+            166000000,
+            97000000
+          ]
+        },
+        {
+          "number": "2",
+          "before_nm": [
+            166150000,
+            162750000
+          ],
+          "scaled_nm": [
+            166000000,
+            162750000
+          ],
+          "grid_nm": [
+            166000000,
+            163000000
+          ]
+        },
+        {
+          "number": "3",
+          "before_nm": [
+            183850000,
+            96750000
+          ],
+          "scaled_nm": [
+            184000000,
+            96750000
+          ],
+          "grid_nm": [
+            184000000,
+            97000000
+          ]
+        },
+        {
+          "number": "4",
+          "before_nm": [
+            183850000,
+            162750000
+          ],
+          "scaled_nm": [
+            184000000,
+            162750000
+          ],
+          "grid_nm": [
+            184000000,
+            163000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "1be87848-f24f-4518-855a-11f5dd4a9f69",
+      "reference": "TB65",
+      "base": "KN-T12GRY-25_Front",
+      "variant": "KN-T12GRY-25_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "BOT",
+          "before_nm": [
+            212000000,
+            315650000
+          ],
+          "scaled_nm": [
+            212000000,
+            315650000
+          ],
+          "grid_nm": [
+            212000000,
+            316000000
+          ]
+        },
+        {
+          "number": "TOP",
+          "before_nm": [
+            212000000,
+            300350000
+          ],
+          "scaled_nm": [
+            212000000,
+            300350000
+          ],
+          "grid_nm": [
+            212000000,
+            301000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "240f1404-bc97-4505-bf53-88bf08e3bbc2",
+      "reference": "TB23",
+      "base": "KN-T12GRY-25_Front",
+      "variant": "KN-T12GRY-25_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "BOT",
+          "before_nm": [
+            282000000,
+            137650000
+          ],
+          "scaled_nm": [
+            282000000,
+            137650000
+          ],
+          "grid_nm": [
+            282000000,
+            138000000
+          ]
+        },
+        {
+          "number": "TOP",
+          "before_nm": [
+            282000000,
+            122350000
+          ],
+          "scaled_nm": [
+            282000000,
+            122350000
+          ],
+          "grid_nm": [
+            282000000,
+            123000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "25858a0d-f879-4a96-9250-262ea227f996",
+      "reference": "TB31",
+      "base": "KN-T12GRY-25_Front",
+      "variant": "KN-T12GRY-25_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "BOT",
+          "before_nm": [
+            41000000,
+            315650000
+          ],
+          "scaled_nm": [
+            41000000,
+            315650000
+          ],
+          "grid_nm": [
+            41000000,
+            316000000
+          ]
+        },
+        {
+          "number": "TOP",
+          "before_nm": [
+            41000000,
+            300350000
+          ],
+          "scaled_nm": [
+            41000000,
+            300350000
+          ],
+          "grid_nm": [
+            41000000,
+            301000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "2ad761f3-4d96-4020-9b0a-09ef1c05f4d2",
+      "reference": "TB52",
+      "base": "KN-G12SP-10_Front",
+      "variant": "KN-G12SP-10_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "1",
+          "before_nm": [
+            210000000,
+            122500641
+          ],
+          "scaled_nm": [
+            210000000,
+            122500641
+          ],
+          "grid_nm": [
+            210000000,
+            123000000
+          ]
+        },
+        {
+          "number": "2",
+          "before_nm": [
+            210000000,
+            137499808
+          ],
+          "scaled_nm": [
+            210000000,
+            137499808
+          ],
+          "grid_nm": [
+            210000000,
+            138000000
+          ]
+        },
+        {
+          "number": "PE",
+          "before_nm": [
+            210000000,
+            130000000
+          ],
+          "scaled_nm": [
+            210000000,
+            130000000
+          ],
+          "grid_nm": [
+            210000000,
+            130000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "2fb092c0-e598-4dc5-9b13-294517b3f386",
+      "reference": "REF**",
+      "base": "KN-EB7-10_Front",
+      "variant": "KN-EB7-10_Front_Grid1mm",
+      "pads": []
+    },
+    {
+      "uuid": "32eea564-4672-448f-84fa-ee64152e3eda",
+      "reference": "TB66",
+      "base": "KN-T12GRY-25_Front",
+      "variant": "KN-T12GRY-25_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "BOT",
+          "before_nm": [
+            220000000,
+            315650000
+          ],
+          "scaled_nm": [
+            220000000,
+            315650000
+          ],
+          "grid_nm": [
+            220000000,
+            316000000
+          ]
+        },
+        {
+          "number": "TOP",
+          "before_nm": [
+            220000000,
+            300350000
+          ],
+          "scaled_nm": [
+            220000000,
+            300350000
+          ],
+          "grid_nm": [
+            220000000,
+            301000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "3373b8c0-1f3f-43f2-9f73-a1f9ced928bb",
+      "reference": "SP1",
+      "base": "HMX1-SSVRC-DC_Front",
+      "variant": "HMX1-SSVRC-DC_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "1",
+          "before_nm": [
+            309200000,
+            99763258
+          ],
+          "scaled_nm": [
+            309106952,
+            99763258
+          ],
+          "grid_nm": [
+            310000000,
+            100000000
+          ]
+        },
+        {
+          "number": "2",
+          "before_nm": [
+            320800000,
+            99763258
+          ],
+          "scaled_nm": [
+            320893048,
+            99763258
+          ],
+          "grid_nm": [
+            321000000,
+            100000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "37e3c92b-3e61-487c-8b8a-32894ad8d025",
+      "reference": "TB14",
+      "base": "KN-T12GRY-25_Front",
+      "variant": "KN-T12GRY-25_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "BOT",
+          "before_nm": [
+            256000000,
+            137650000
+          ],
+          "scaled_nm": [
+            256000000,
+            137650000
+          ],
+          "grid_nm": [
+            256000000,
+            138000000
+          ]
+        },
+        {
+          "number": "TOP",
+          "before_nm": [
+            256000000,
+            122350000
+          ],
+          "scaled_nm": [
+            256000000,
+            122350000
+          ],
+          "grid_nm": [
+            256000000,
+            123000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "3f2a84f5-07bd-4a9a-bf1c-6399bcf3df0b",
+      "reference": "REF**",
+      "base": "KN-ST1BLK_Front",
+      "variant": "KN-ST1BLK_Front_Grid1mm",
+      "pads": []
+    },
+    {
+      "uuid": "435fbac4-ddb4-4d5a-9e31-a63d31beaf0a",
+      "reference": "REF**",
+      "base": "KN-ST1BLK_Front",
+      "variant": "KN-ST1BLK_Front_Grid1mm",
+      "pads": []
+    },
+    {
+      "uuid": "45b1a989-855f-4e87-a02d-5725845b9cd2",
+      "reference": "MI2",
+      "base": "HMX1-MI_Front",
+      "variant": "HMX1-MI_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "111",
+          "before_nm": [
+            342599982,
+            276500000
+          ],
+          "scaled_nm": [
+            342622623,
+            276500000
+          ],
+          "grid_nm": [
+            343000000,
+            277000000
+          ]
+        },
+        {
+          "number": "112",
+          "before_nm": [
+            342599982,
+            329000000
+          ],
+          "scaled_nm": [
+            342622623,
+            329000000
+          ],
+          "grid_nm": [
+            343000000,
+            329000000
+          ]
+        },
+        {
+          "number": "121",
+          "before_nm": [
+            342599982,
+            287000000
+          ],
+          "scaled_nm": [
+            342622623,
+            287000000
+          ],
+          "grid_nm": [
+            343000000,
+            287000000
+          ]
+        },
+        {
+          "number": "122",
+          "before_nm": [
+            342599982,
+            339500000
+          ],
+          "scaled_nm": [
+            342622623,
+            339500000
+          ],
+          "grid_nm": [
+            343000000,
+            340000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "4816b820-e317-4905-ad63-82a070685015",
+      "reference": "REF**",
+      "base": "KN-EB7-10_Front",
+      "variant": "KN-EB7-10_Front_Grid1mm",
+      "pads": []
+    },
+    {
+      "uuid": "4a82e854-d557-4d87-92ee-631d3da6308f",
+      "reference": "TB43",
+      "base": "KN-G12SP-10_Front",
+      "variant": "KN-G12SP-10_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "1",
+          "before_nm": [
+            75000000,
+            300500641
+          ],
+          "scaled_nm": [
+            75000000,
+            300500641
+          ],
+          "grid_nm": [
+            75000000,
+            301000000
+          ]
+        },
+        {
+          "number": "2",
+          "before_nm": [
+            75000000,
+            315499808
+          ],
+          "scaled_nm": [
+            75000000,
+            315499808
+          ],
+          "grid_nm": [
+            75000000,
+            316000000
+          ]
+        },
+        {
+          "number": "PE",
+          "before_nm": [
+            75000000,
+            308000000
+          ],
+          "scaled_nm": [
+            75000000,
+            308000000
+          ],
+          "grid_nm": [
+            75000000,
+            308000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "52715a9b-4b11-4b19-a77a-58c4871e4c9d",
+      "reference": "TB42",
+      "base": "KN-T12GRY-25_Front",
+      "variant": "KN-T12GRY-25_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "BOT",
+          "before_nm": [
+            69000000,
+            315650000
+          ],
+          "scaled_nm": [
+            69000000,
+            315650000
+          ],
+          "grid_nm": [
+            69000000,
+            316000000
+          ]
+        },
+        {
+          "number": "TOP",
+          "before_nm": [
+            69000000,
+            300350000
+          ],
+          "scaled_nm": [
+            69000000,
+            300350000
+          ],
+          "grid_nm": [
+            69000000,
+            301000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "52754e15-95c1-407a-8564-ba5837b148f2",
+      "reference": "TB13",
+      "base": "KN-T12GRY-25_Front",
+      "variant": "KN-T12GRY-25_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "BOT",
+          "before_nm": [
+            251000000,
+            137650000
+          ],
+          "scaled_nm": [
+            251000000,
+            137650000
+          ],
+          "grid_nm": [
+            251000000,
+            138000000
+          ]
+        },
+        {
+          "number": "TOP",
+          "before_nm": [
+            251000000,
+            122350000
+          ],
+          "scaled_nm": [
+            251000000,
+            122350000
+          ],
+          "grid_nm": [
+            251000000,
+            123000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "54c59d4d-702a-46fe-8703-c671cc3a568d",
+      "reference": "TB41",
+      "base": "KN-T12GRY-25_Front",
+      "variant": "KN-T12GRY-25_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "BOT",
+          "before_nm": [
+            64000000,
+            315650000
+          ],
+          "scaled_nm": [
+            64000000,
+            315650000
+          ],
+          "grid_nm": [
+            64000000,
+            316000000
+          ]
+        },
+        {
+          "number": "TOP",
+          "before_nm": [
+            64000000,
+            300350000
+          ],
+          "scaled_nm": [
+            64000000,
+            300350000
+          ],
+          "grid_nm": [
+            64000000,
+            301000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "58db6f61-7594-40df-855b-9b52b7ea8db4",
+      "reference": "TB10",
+      "base": "KN-T12GRY-25_Front",
+      "variant": "KN-T12GRY-25_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "BOT",
+          "before_nm": [
+            236000000,
+            137650000
+          ],
+          "scaled_nm": [
+            236000000,
+            137650000
+          ],
+          "grid_nm": [
+            236000000,
+            138000000
+          ]
+        },
+        {
+          "number": "TOP",
+          "before_nm": [
+            236000000,
+            122350000
+          ],
+          "scaled_nm": [
+            236000000,
+            122350000
+          ],
+          "grid_nm": [
+            236000000,
+            123000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "59758ce8-c3c6-47ec-88d1-c877937f0598",
+      "reference": "TB2",
+      "base": "KN-T12GRY-25_Front",
+      "variant": "KN-T12GRY-25_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "BOT",
+          "before_nm": [
+            223000000,
+            137650000
+          ],
+          "scaled_nm": [
+            223000000,
+            137650000
+          ],
+          "grid_nm": [
+            223000000,
+            138000000
+          ]
+        },
+        {
+          "number": "TOP",
+          "before_nm": [
+            223000000,
+            122350000
+          ],
+          "scaled_nm": [
+            223000000,
+            122350000
+          ],
+          "grid_nm": [
+            223000000,
+            123000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "597b786e-4ac2-491c-9073-9bd131e26112",
+      "reference": "K2",
+      "base": "HMC-9B30-11-DS_Front",
+      "variant": "HMC-9B30-11-DS_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "1",
+          "before_nm": [
+            354500000,
+            107000000
+          ],
+          "scaled_nm": [
+            354111111,
+            107000000
+          ],
+          "grid_nm": [
+            355000000,
+            107000000
+          ]
+        },
+        {
+          "number": "2",
+          "before_nm": [
+            354500000,
+            153000000
+          ],
+          "scaled_nm": [
+            354111111,
+            153000000
+          ],
+          "grid_nm": [
+            355000000,
+            153000000
+          ]
+        },
+        {
+          "number": "3",
+          "before_nm": [
+            366500000,
+            107000000
+          ],
+          "scaled_nm": [
+            366377778,
+            107000000
+          ],
+          "grid_nm": [
+            367000000,
+            107000000
+          ]
+        },
+        {
+          "number": "4",
+          "before_nm": [
+            366500000,
+            153000000
+          ],
+          "scaled_nm": [
+            366377778,
+            153000000
+          ],
+          "grid_nm": [
+            367000000,
+            153000000
+          ]
+        },
+        {
+          "number": "5",
+          "before_nm": [
+            378500000,
+            107000000
+          ],
+          "scaled_nm": [
+            378644444,
+            107000000
+          ],
+          "grid_nm": [
+            379000000,
+            107000000
+          ]
+        },
+        {
+          "number": "6",
+          "before_nm": [
+            378500000,
+            153000000
+          ],
+          "scaled_nm": [
+            378644444,
+            153000000
+          ],
+          "grid_nm": [
+            379000000,
+            153000000
+          ]
+        },
+        {
+          "number": "31",
+          "before_nm": [
+            387600000,
+            115950000
+          ],
+          "scaled_nm": [
+            387946667,
+            115950000
+          ],
+          "grid_nm": [
+            388000000,
+            116000000
+          ]
+        },
+        {
+          "number": "32",
+          "before_nm": [
+            387600000,
+            144050000
+          ],
+          "scaled_nm": [
+            387946667,
+            144050000
+          ],
+          "grid_nm": [
+            388000000,
+            145000000
+          ]
+        },
+        {
+          "number": "43",
+          "before_nm": [
+            387600000,
+            106700000
+          ],
+          "scaled_nm": [
+            387946667,
+            106700000
+          ],
+          "grid_nm": [
+            388000000,
+            107000000
+          ]
+        },
+        {
+          "number": "44",
+          "before_nm": [
+            387600000,
+            153300000
+          ],
+          "scaled_nm": [
+            387946667,
+            153300000
+          ],
+          "grid_nm": [
+            388000000,
+            154000000
+          ]
+        },
+        {
+          "number": "A1.BOT",
+          "before_nm": [
+            366200000,
+            161250000
+          ],
+          "scaled_nm": [
+            366071111,
+            161250000
+          ],
+          "grid_nm": [
+            367000000,
+            162000000
+          ]
+        },
+        {
+          "number": "A1.TOP",
+          "before_nm": [
+            366200000,
+            98750000
+          ],
+          "scaled_nm": [
+            366071111,
+            98750000
+          ],
+          "grid_nm": [
+            367000000,
+            99000000
+          ]
+        },
+        {
+          "number": "A2.BOT",
+          "before_nm": [
+            377800000,
+            161250000
+          ],
+          "scaled_nm": [
+            377928889,
+            161250000
+          ],
+          "grid_nm": [
+            378000000,
+            162000000
+          ]
+        },
+        {
+          "number": "A2.TOP",
+          "before_nm": [
+            377800000,
+            98750000
+          ],
+          "scaled_nm": [
+            377928889,
+            98750000
+          ],
+          "grid_nm": [
+            378000000,
+            99000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "60c128e3-9628-4a27-9e2b-440e7799d5af",
+      "reference": "TB11",
+      "base": "KN-T12GRY-25_Front",
+      "variant": "KN-T12GRY-25_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "BOT",
+          "before_nm": [
+            241000000,
+            137650000
+          ],
+          "scaled_nm": [
+            241000000,
+            137650000
+          ],
+          "grid_nm": [
+            241000000,
+            138000000
+          ]
+        },
+        {
+          "number": "TOP",
+          "before_nm": [
+            241000000,
+            122350000
+          ],
+          "scaled_nm": [
+            241000000,
+            122350000
+          ],
+          "grid_nm": [
+            241000000,
+            123000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "63be61a3-f2b5-4e7f-acc1-5df3183c4e59",
+      "reference": "TB62",
+      "base": "KN-T12GRY-25_Front",
+      "variant": "KN-T12GRY-25_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "BOT",
+          "before_nm": [
+            197000000,
+            315650000
+          ],
+          "scaled_nm": [
+            197000000,
+            315650000
+          ],
+          "grid_nm": [
+            197000000,
+            316000000
+          ]
+        },
+        {
+          "number": "TOP",
+          "before_nm": [
+            197000000,
+            300350000
+          ],
+          "scaled_nm": [
+            197000000,
+            300350000
+          ],
+          "grid_nm": [
+            197000000,
+            301000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "66690ea5-28e9-4480-9aa0-a6292f3380ce",
+      "reference": "REF**",
+      "base": "KN-EB7-10_Front",
+      "variant": "KN-EB7-10_Front_Grid1mm",
+      "pads": []
+    },
+    {
+      "uuid": "668e9352-c702-47d2-8fdf-23cb39332c77",
+      "reference": "TB50",
+      "base": "KN-G12SP-10_Front",
+      "variant": "KN-G12SP-10_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "1",
+          "before_nm": [
+            198000000,
+            122500641
+          ],
+          "scaled_nm": [
+            198000000,
+            122500641
+          ],
+          "grid_nm": [
+            198000000,
+            123000000
+          ]
+        },
+        {
+          "number": "2",
+          "before_nm": [
+            198000000,
+            137499808
+          ],
+          "scaled_nm": [
+            198000000,
+            137499808
+          ],
+          "grid_nm": [
+            198000000,
+            138000000
+          ]
+        },
+        {
+          "number": "PE",
+          "before_nm": [
+            198000000,
+            130000000
+          ],
+          "scaled_nm": [
+            198000000,
+            130000000
+          ],
+          "grid_nm": [
+            198000000,
+            130000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "69fd8778-ddb6-4d5a-86d0-033e5a9c840b",
+      "reference": "TB22",
+      "base": "KN-T12GRY-25_Front",
+      "variant": "KN-T12GRY-25_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "BOT",
+          "before_nm": [
+            277000000,
+            137650000
+          ],
+          "scaled_nm": [
+            277000000,
+            137650000
+          ],
+          "grid_nm": [
+            277000000,
+            138000000
+          ]
+        },
+        {
+          "number": "TOP",
+          "before_nm": [
+            277000000,
+            122350000
+          ],
+          "scaled_nm": [
+            277000000,
+            122350000
+          ],
+          "grid_nm": [
+            277000000,
+            123000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "6a44dee9-45a5-4503-a9c2-1273f172a13c",
+      "reference": "TB24",
+      "base": "KN-T12GRY-25_Front",
+      "variant": "KN-T12GRY-25_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "BOT",
+          "before_nm": [
+            287000000,
+            137650000
+          ],
+          "scaled_nm": [
+            287000000,
+            137650000
+          ],
+          "grid_nm": [
+            287000000,
+            138000000
+          ]
+        },
+        {
+          "number": "TOP",
+          "before_nm": [
+            287000000,
+            122350000
+          ],
+          "scaled_nm": [
+            287000000,
+            122350000
+          ],
+          "grid_nm": [
+            287000000,
+            123000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "6d091486-19b0-4430-8450-45bfd8433b8e",
+      "reference": "TB67",
+      "base": "KN-T12GRY-25_Front",
+      "variant": "KN-T12GRY-25_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "BOT",
+          "before_nm": [
+            225000000,
+            315650000
+          ],
+          "scaled_nm": [
+            225000000,
+            315650000
+          ],
+          "grid_nm": [
+            225000000,
+            316000000
+          ]
+        },
+        {
+          "number": "TOP",
+          "before_nm": [
+            225000000,
+            300350000
+          ],
+          "scaled_nm": [
+            225000000,
+            300350000
+          ],
+          "grid_nm": [
+            225000000,
+            301000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "6e46f6cc-1daf-437f-8d24-0108f64b3d66",
+      "reference": "TB61",
+      "base": "KN-T12GRY-25_Front",
+      "variant": "KN-T12GRY-25_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "BOT",
+          "before_nm": [
+            192000000,
+            315650000
+          ],
+          "scaled_nm": [
+            192000000,
+            315650000
+          ],
+          "grid_nm": [
+            192000000,
+            316000000
+          ]
+        },
+        {
+          "number": "TOP",
+          "before_nm": [
+            192000000,
+            300350000
+          ],
+          "scaled_nm": [
+            192000000,
+            300350000
+          ],
+          "grid_nm": [
+            192000000,
+            301000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "7584fc8b-b7c3-4abd-814f-d1cf3915f9c8",
+      "reference": "SP6",
+      "base": "HMX1-SSVRC-DC_Front",
+      "variant": "HMX1-SSVRC-DC_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "1",
+          "before_nm": [
+            252200000,
+            277763258
+          ],
+          "scaled_nm": [
+            252106952,
+            277763258
+          ],
+          "grid_nm": [
+            253000000,
+            278000000
+          ]
+        },
+        {
+          "number": "2",
+          "before_nm": [
+            263800000,
+            277763258
+          ],
+          "scaled_nm": [
+            263893048,
+            277763258
+          ],
+          "grid_nm": [
+            264000000,
+            278000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "7ce81b40-2a32-461d-b2c1-351a6ebf35ea",
+      "reference": "PS1",
+      "base": "NDR-240-24_Front",
+      "variant": "NDR-240-24_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "1_BOT",
+          "before_nm": [
+            118475449,
+            364150000
+          ],
+          "scaled_nm": [
+            118419504,
+            364150000
+          ],
+          "grid_nm": [
+            119000000,
+            365000000
+          ]
+        },
+        {
+          "number": "1_TOP",
+          "before_nm": [
+            111088340,
+            255600000
+          ],
+          "scaled_nm": [
+            110915139,
+            255600000
+          ],
+          "grid_nm": [
+            111000000,
+            256000000
+          ]
+        },
+        {
+          "number": "2_BOT",
+          "before_nm": [
+            126350449,
+            364150000
+          ],
+          "scaled_nm": [
+            126419504,
+            364150000
+          ],
+          "grid_nm": [
+            127000000,
+            365000000
+          ]
+        },
+        {
+          "number": "2_TOP",
+          "before_nm": [
+            117375840,
+            255600000
+          ],
+          "scaled_nm": [
+            117302441,
+            255600000
+          ],
+          "grid_nm": [
+            118000000,
+            256000000
+          ]
+        },
+        {
+          "number": "3_BOT",
+          "before_nm": [
+            133975449,
+            364150000
+          ],
+          "scaled_nm": [
+            134165535,
+            364150000
+          ],
+          "grid_nm": [
+            135000000,
+            365000000
+          ]
+        },
+        {
+          "number": "3_TOP",
+          "before_nm": [
+            123775840,
+            255600000
+          ],
+          "scaled_nm": [
+            123804028,
+            255600000
+          ],
+          "grid_nm": [
+            124000000,
+            256000000
+          ]
+        },
+        {
+          "number": "4_TOP",
+          "before_nm": [
+            130275840,
+            255600000
+          ],
+          "scaled_nm": [
+            130407203,
+            255600000
+          ],
+          "grid_nm": [
+            131000000,
+            256000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "7ef0ce18-05ad-43d8-beeb-29af014f1062",
+      "reference": "REF**",
+      "base": "KN-ST1BLK_Front",
+      "variant": "KN-ST1BLK_Front_Grid1mm",
+      "pads": []
+    },
+    {
+      "uuid": "881a4fe9-8c01-4d3c-ba81-5e2d7ef47b2a",
+      "reference": "FH1",
+      "base": "RM25030-3SR_Front",
+      "variant": "RM25030-3SR_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "P1.A",
+          "before_nm": [
+            92881509,
+            96970002
+          ],
+          "scaled_nm": [
+            93040429,
+            96970002
+          ],
+          "grid_nm": [
+            94000000,
+            97000000
+          ]
+        },
+        {
+          "number": "P1.B",
+          "before_nm": [
+            93061509,
+            163030002
+          ],
+          "scaled_nm": [
+            93219243,
+            163030002
+          ],
+          "grid_nm": [
+            94000000,
+            164000000
+          ]
+        },
+        {
+          "number": "P2.A",
+          "before_nm": [
+            117394109,
+            96970002
+          ],
+          "scaled_nm": [
+            117391512,
+            96970002
+          ],
+          "grid_nm": [
+            118000000,
+            97000000
+          ]
+        },
+        {
+          "number": "P2.B",
+          "before_nm": [
+            117574109,
+            163030002
+          ],
+          "scaled_nm": [
+            117570326,
+            163030002
+          ],
+          "grid_nm": [
+            118000000,
+            164000000
+          ]
+        },
+        {
+          "number": "P3.A",
+          "before_nm": [
+            141906719,
+            96970002
+          ],
+          "scaled_nm": [
+            141742605,
+            96970002
+          ],
+          "grid_nm": [
+            142000000,
+            97000000
+          ]
+        },
+        {
+          "number": "P3.B",
+          "before_nm": [
+            142086719,
+            163030002
+          ],
+          "scaled_nm": [
+            141921419,
+            163030002
+          ],
+          "grid_nm": [
+            142000000,
+            164000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "8d14a07b-b4c4-4e43-80eb-bf39e546929f",
+      "reference": "REF**",
+      "base": "KN-ST1BLK_Front",
+      "variant": "KN-ST1BLK_Front_Grid1mm",
+      "pads": []
+    },
+    {
+      "uuid": "9a0e744a-f2cb-4826-b202-8d749982b9f5",
+      "reference": "K3",
+      "base": "HC3096N-52-900-24_Front",
+      "variant": "HC3096N-52-900-24_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "13",
+          "before_nm": [
+            168199999,
+            263360007
+          ],
+          "scaled_nm": [
+            168173183,
+            263360007
+          ],
+          "grid_nm": [
+            169000000,
+            264000000
+          ]
+        },
+        {
+          "number": "14",
+          "before_nm": [
+            173279999,
+            263360007
+          ],
+          "scaled_nm": [
+            173281563,
+            263360007
+          ],
+          "grid_nm": [
+            174000000,
+            264000000
+          ]
+        },
+        {
+          "number": "23",
+          "before_nm": [
+            178359999,
+            263360007
+          ],
+          "scaled_nm": [
+            178389943,
+            263360007
+          ],
+          "grid_nm": [
+            179000000,
+            264000000
+          ]
+        },
+        {
+          "number": "24",
+          "before_nm": [
+            167640001,
+            352639992
+          ],
+          "scaled_nm": [
+            167610057,
+            352639992
+          ],
+          "grid_nm": [
+            168000000,
+            353000000
+          ]
+        },
+        {
+          "number": "31",
+          "before_nm": [
+            172720001,
+            352639992
+          ],
+          "scaled_nm": [
+            172718437,
+            352639992
+          ],
+          "grid_nm": [
+            173000000,
+            353000000
+          ]
+        },
+        {
+          "number": "32",
+          "before_nm": [
+            177800001,
+            352639992
+          ],
+          "scaled_nm": [
+            177826817,
+            352639992
+          ],
+          "grid_nm": [
+            178000000,
+            353000000
+          ]
+        },
+        {
+          "number": "41",
+          "before_nm": [
+            170180001,
+            341039992
+          ],
+          "scaled_nm": [
+            170164247,
+            341039992
+          ],
+          "grid_nm": [
+            171000000,
+            342000000
+          ]
+        },
+        {
+          "number": "42",
+          "before_nm": [
+            175260001,
+            341039992
+          ],
+          "scaled_nm": [
+            175272627,
+            341039992
+          ],
+          "grid_nm": [
+            176000000,
+            342000000
+          ]
+        },
+        {
+          "number": "A1+",
+          "before_nm": [
+            170739999,
+            274960007
+          ],
+          "scaled_nm": [
+            170727373,
+            274960007
+          ],
+          "grid_nm": [
+            171000000,
+            275000000
+          ]
+        },
+        {
+          "number": "A2",
+          "before_nm": [
+            175819999,
+            274960007
+          ],
+          "scaled_nm": [
+            175835753,
+            274960007
+          ],
+          "grid_nm": [
+            176000000,
+            275000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "9aea2771-44e7-4700-9a38-494fb944a4d6",
+      "reference": "SP4",
+      "base": "HMX1-SSVRC-DC_Front",
+      "variant": "HMX1-SSVRC-DC_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "1",
+          "before_nm": [
+            308200000,
+            277763258
+          ],
+          "scaled_nm": [
+            308106952,
+            277763258
+          ],
+          "grid_nm": [
+            309000000,
+            278000000
+          ]
+        },
+        {
+          "number": "2",
+          "before_nm": [
+            319800000,
+            277763258
+          ],
+          "scaled_nm": [
+            319893048,
+            277763258
+          ],
+          "grid_nm": [
+            320000000,
+            278000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "9b16d96c-61a2-47ac-8086-d5cbbb8f73b1",
+      "reference": "REF**",
+      "base": "KN-ST1BLK_Front",
+      "variant": "KN-ST1BLK_Front_Grid1mm",
+      "pads": []
+    },
+    {
+      "uuid": "9fdf03b9-7f23-481b-a930-8d37a7c0b950",
+      "reference": "OL4",
+      "base": "HTOR32-6-S_Front",
+      "variant": "HTOR32-6-S_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "2",
+          "before_nm": [
+            299700000,
+            373475000
+          ],
+          "scaled_nm": [
+            299382222,
+            373475000
+          ],
+          "grid_nm": [
+            300000000,
+            374000000
+          ]
+        },
+        {
+          "number": "4",
+          "before_nm": [
+            314000000,
+            373475000
+          ],
+          "scaled_nm": [
+            314000000,
+            373475000
+          ],
+          "grid_nm": [
+            314000000,
+            374000000
+          ]
+        },
+        {
+          "number": "6",
+          "before_nm": [
+            328300000,
+            373475000
+          ],
+          "scaled_nm": [
+            328617778,
+            373475000
+          ],
+          "grid_nm": [
+            329000000,
+            374000000
+          ]
+        },
+        {
+          "number": "95",
+          "before_nm": [
+            299000000,
+            360075000
+          ],
+          "scaled_nm": [
+            298666667,
+            360075000
+          ],
+          "grid_nm": [
+            299000000,
+            361000000
+          ]
+        },
+        {
+          "number": "96",
+          "before_nm": [
+            309000000,
+            360075000
+          ],
+          "scaled_nm": [
+            308888889,
+            360075000
+          ],
+          "grid_nm": [
+            309000000,
+            361000000
+          ]
+        },
+        {
+          "number": "97",
+          "before_nm": [
+            319000000,
+            360075000
+          ],
+          "scaled_nm": [
+            319111111,
+            360075000
+          ],
+          "grid_nm": [
+            320000000,
+            361000000
+          ]
+        },
+        {
+          "number": "98",
+          "before_nm": [
+            329000000,
+            360075000
+          ],
+          "scaled_nm": [
+            329333333,
+            360075000
+          ],
+          "grid_nm": [
+            330000000,
+            361000000
+          ]
+        },
+        {
+          "number": "IN1",
+          "before_nm": [
+            296500000,
+            310725000
+          ],
+          "scaled_nm": [
+            296111111,
+            310725000
+          ],
+          "grid_nm": [
+            297000000,
+            311000000
+          ]
+        },
+        {
+          "number": "IN2",
+          "before_nm": [
+            308500000,
+            310725000
+          ],
+          "scaled_nm": [
+            308377778,
+            310725000
+          ],
+          "grid_nm": [
+            309000000,
+            311000000
+          ]
+        },
+        {
+          "number": "IN3",
+          "before_nm": [
+            320500000,
+            310725000
+          ],
+          "scaled_nm": [
+            320644444,
+            310725000
+          ],
+          "grid_nm": [
+            321000000,
+            311000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "a4bc448f-0f6b-457b-8ecb-67b424a87ff1",
+      "reference": "K6",
+      "base": "HMC-9B30-11-DS_Front",
+      "variant": "HMC-9B30-11-DS_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "1",
+          "before_nm": [
+            240500000,
+            285000000
+          ],
+          "scaled_nm": [
+            240111111,
+            285000000
+          ],
+          "grid_nm": [
+            241000000,
+            285000000
+          ]
+        },
+        {
+          "number": "2",
+          "before_nm": [
+            240500000,
+            331000000
+          ],
+          "scaled_nm": [
+            240111111,
+            331000000
+          ],
+          "grid_nm": [
+            241000000,
+            331000000
+          ]
+        },
+        {
+          "number": "3",
+          "before_nm": [
+            252500000,
+            285000000
+          ],
+          "scaled_nm": [
+            252377778,
+            285000000
+          ],
+          "grid_nm": [
+            253000000,
+            285000000
+          ]
+        },
+        {
+          "number": "4",
+          "before_nm": [
+            252500000,
+            331000000
+          ],
+          "scaled_nm": [
+            252377778,
+            331000000
+          ],
+          "grid_nm": [
+            253000000,
+            331000000
+          ]
+        },
+        {
+          "number": "5",
+          "before_nm": [
+            264500000,
+            285000000
+          ],
+          "scaled_nm": [
+            264644444,
+            285000000
+          ],
+          "grid_nm": [
+            265000000,
+            285000000
+          ]
+        },
+        {
+          "number": "6",
+          "before_nm": [
+            264500000,
+            331000000
+          ],
+          "scaled_nm": [
+            264644444,
+            331000000
+          ],
+          "grid_nm": [
+            265000000,
+            331000000
+          ]
+        },
+        {
+          "number": "31",
+          "before_nm": [
+            273600000,
+            293950000
+          ],
+          "scaled_nm": [
+            273946667,
+            293950000
+          ],
+          "grid_nm": [
+            274000000,
+            294000000
+          ]
+        },
+        {
+          "number": "32",
+          "before_nm": [
+            273600000,
+            322050000
+          ],
+          "scaled_nm": [
+            273946667,
+            322050000
+          ],
+          "grid_nm": [
+            274000000,
+            323000000
+          ]
+        },
+        {
+          "number": "43",
+          "before_nm": [
+            273600000,
+            284700000
+          ],
+          "scaled_nm": [
+            273946667,
+            284700000
+          ],
+          "grid_nm": [
+            274000000,
+            285000000
+          ]
+        },
+        {
+          "number": "44",
+          "before_nm": [
+            273600000,
+            331300000
+          ],
+          "scaled_nm": [
+            273946667,
+            331300000
+          ],
+          "grid_nm": [
+            274000000,
+            332000000
+          ]
+        },
+        {
+          "number": "A1.BOT",
+          "before_nm": [
+            252200000,
+            339250000
+          ],
+          "scaled_nm": [
+            252071111,
+            339250000
+          ],
+          "grid_nm": [
+            253000000,
+            340000000
+          ]
+        },
+        {
+          "number": "A1.TOP",
+          "before_nm": [
+            252200000,
+            276750000
+          ],
+          "scaled_nm": [
+            252071111,
+            276750000
+          ],
+          "grid_nm": [
+            253000000,
+            277000000
+          ]
+        },
+        {
+          "number": "A2.BOT",
+          "before_nm": [
+            263800000,
+            339250000
+          ],
+          "scaled_nm": [
+            263928889,
+            339250000
+          ],
+          "grid_nm": [
+            264000000,
+            340000000
+          ]
+        },
+        {
+          "number": "A2.TOP",
+          "before_nm": [
+            263800000,
+            276750000
+          ],
+          "scaled_nm": [
+            263928889,
+            276750000
+          ],
+          "grid_nm": [
+            264000000,
+            277000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "aac2a755-8c96-4239-8dbd-b69e60b464dd",
+      "reference": "REF**",
+      "base": "KN-ST1BLK_Front",
+      "variant": "KN-ST1BLK_Front_Grid1mm",
+      "pads": []
+    },
+    {
+      "uuid": "ad835248-78dc-403e-8ea9-571ab5824776",
+      "reference": "REF**",
+      "base": "KN-ST1BLK_Front",
+      "variant": "KN-ST1BLK_Front_Grid1mm",
+      "pads": []
+    },
+    {
+      "uuid": "aebd7f26-e1c2-4ed7-9f45-b5088ba48af9",
+      "reference": "MI1",
+      "base": "HMX1-MI_Front",
+      "variant": "HMX1-MI_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "111",
+          "before_nm": [
+            343599982,
+            98500000
+          ],
+          "scaled_nm": [
+            343622623,
+            98500000
+          ],
+          "grid_nm": [
+            344000000,
+            99000000
+          ]
+        },
+        {
+          "number": "112",
+          "before_nm": [
+            343599982,
+            151000000
+          ],
+          "scaled_nm": [
+            343622623,
+            151000000
+          ],
+          "grid_nm": [
+            344000000,
+            151000000
+          ]
+        },
+        {
+          "number": "121",
+          "before_nm": [
+            343599982,
+            109000000
+          ],
+          "scaled_nm": [
+            343622623,
+            109000000
+          ],
+          "grid_nm": [
+            344000000,
+            109000000
+          ]
+        },
+        {
+          "number": "122",
+          "before_nm": [
+            343599982,
+            161500000
+          ],
+          "scaled_nm": [
+            343622623,
+            161500000
+          ],
+          "grid_nm": [
+            344000000,
+            162000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "b2e4189c-8740-4773-add8-8bf56050e00b",
+      "reference": "TB51",
+      "base": "KN-G12SP-10_Front",
+      "variant": "KN-G12SP-10_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "1",
+          "before_nm": [
+            204000000,
+            122500641
+          ],
+          "scaled_nm": [
+            204000000,
+            122500641
+          ],
+          "grid_nm": [
+            204000000,
+            123000000
+          ]
+        },
+        {
+          "number": "2",
+          "before_nm": [
+            204000000,
+            137499808
+          ],
+          "scaled_nm": [
+            204000000,
+            137499808
+          ],
+          "grid_nm": [
+            204000000,
+            138000000
+          ]
+        },
+        {
+          "number": "PE",
+          "before_nm": [
+            204000000,
+            130000000
+          ],
+          "scaled_nm": [
+            204000000,
+            130000000
+          ],
+          "grid_nm": [
+            204000000,
+            130000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "b73101be-cc14-4294-bd66-473649f8a7d4",
+      "reference": "TB3",
+      "base": "KN-T12GRY-25_Front",
+      "variant": "KN-T12GRY-25_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "BOT",
+          "before_nm": [
+            228000000,
+            137650000
+          ],
+          "scaled_nm": [
+            228000000,
+            137650000
+          ],
+          "grid_nm": [
+            228000000,
+            138000000
+          ]
+        },
+        {
+          "number": "TOP",
+          "before_nm": [
+            228000000,
+            122350000
+          ],
+          "scaled_nm": [
+            228000000,
+            122350000
+          ],
+          "grid_nm": [
+            228000000,
+            123000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "b885ada7-38ef-4084-a174-530a59a648fc",
+      "reference": "REF**",
+      "base": "KN-ST1BLK_Front",
+      "variant": "KN-ST1BLK_Front_Grid1mm",
+      "pads": []
+    },
+    {
+      "uuid": "c2581345-7cce-4fa4-8153-a7918ef11b17",
+      "reference": "REF**",
+      "base": "KN-ST1BLK_Front",
+      "variant": "KN-ST1BLK_Front_Grid1mm",
+      "pads": []
+    },
+    {
+      "uuid": "c2a1a46b-a854-4a80-84c2-eefbb6b75117",
+      "reference": "TB64",
+      "base": "KN-T12GRY-25_Front",
+      "variant": "KN-T12GRY-25_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "BOT",
+          "before_nm": [
+            207000000,
+            315650000
+          ],
+          "scaled_nm": [
+            207000000,
+            315650000
+          ],
+          "grid_nm": [
+            207000000,
+            316000000
+          ]
+        },
+        {
+          "number": "TOP",
+          "before_nm": [
+            207000000,
+            300350000
+          ],
+          "scaled_nm": [
+            207000000,
+            300350000
+          ],
+          "grid_nm": [
+            207000000,
+            301000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "c4a4fe75-89f6-4250-8e67-b7e293aaccfe",
+      "reference": "TB30",
+      "base": "KN-T12GRY-25_Front",
+      "variant": "KN-T12GRY-25_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "BOT",
+          "before_nm": [
+            36000000,
+            315650000
+          ],
+          "scaled_nm": [
+            36000000,
+            315650000
+          ],
+          "grid_nm": [
+            36000000,
+            316000000
+          ]
+        },
+        {
+          "number": "TOP",
+          "before_nm": [
+            36000000,
+            300350000
+          ],
+          "scaled_nm": [
+            36000000,
+            300350000
+          ],
+          "grid_nm": [
+            36000000,
+            301000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "c6a069cf-78c1-4b23-a1cd-948c5e4e1d8a",
+      "reference": "TB12",
+      "base": "KN-T12GRY-25_Front",
+      "variant": "KN-T12GRY-25_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "BOT",
+          "before_nm": [
+            246000000,
+            137650000
+          ],
+          "scaled_nm": [
+            246000000,
+            137650000
+          ],
+          "grid_nm": [
+            246000000,
+            138000000
+          ]
+        },
+        {
+          "number": "TOP",
+          "before_nm": [
+            246000000,
+            122350000
+          ],
+          "scaled_nm": [
+            246000000,
+            122350000
+          ],
+          "grid_nm": [
+            246000000,
+            123000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "c733f7a6-755d-4987-a627-da9a1ad56608",
+      "reference": "REF**",
+      "base": "KN-ST1BLK_Front",
+      "variant": "KN-ST1BLK_Front_Grid1mm",
+      "pads": []
+    },
+    {
+      "uuid": "c9af24ee-2c3a-4e26-9451-1cd9b57be249",
+      "reference": "TB60",
+      "base": "KN-T12GRY-25_Front",
+      "variant": "KN-T12GRY-25_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "BOT",
+          "before_nm": [
+            187000000,
+            315650000
+          ],
+          "scaled_nm": [
+            187000000,
+            315650000
+          ],
+          "grid_nm": [
+            187000000,
+            316000000
+          ]
+        },
+        {
+          "number": "TOP",
+          "before_nm": [
+            187000000,
+            300350000
+          ],
+          "scaled_nm": [
+            187000000,
+            300350000
+          ],
+          "grid_nm": [
+            187000000,
+            301000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "cda5f54f-21cb-42d1-bf20-ea5292de69d9",
+      "reference": "OL6",
+      "base": "HTOR32-6-S_Front",
+      "variant": "HTOR32-6-S_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "2",
+          "before_nm": [
+            243700000,
+            373475000
+          ],
+          "scaled_nm": [
+            243382222,
+            373475000
+          ],
+          "grid_nm": [
+            244000000,
+            374000000
+          ]
+        },
+        {
+          "number": "4",
+          "before_nm": [
+            258000000,
+            373475000
+          ],
+          "scaled_nm": [
+            258000000,
+            373475000
+          ],
+          "grid_nm": [
+            258000000,
+            374000000
+          ]
+        },
+        {
+          "number": "6",
+          "before_nm": [
+            272300000,
+            373475000
+          ],
+          "scaled_nm": [
+            272617778,
+            373475000
+          ],
+          "grid_nm": [
+            273000000,
+            374000000
+          ]
+        },
+        {
+          "number": "95",
+          "before_nm": [
+            243000000,
+            360075000
+          ],
+          "scaled_nm": [
+            242666667,
+            360075000
+          ],
+          "grid_nm": [
+            243000000,
+            361000000
+          ]
+        },
+        {
+          "number": "96",
+          "before_nm": [
+            253000000,
+            360075000
+          ],
+          "scaled_nm": [
+            252888889,
+            360075000
+          ],
+          "grid_nm": [
+            253000000,
+            361000000
+          ]
+        },
+        {
+          "number": "97",
+          "before_nm": [
+            263000000,
+            360075000
+          ],
+          "scaled_nm": [
+            263111111,
+            360075000
+          ],
+          "grid_nm": [
+            264000000,
+            361000000
+          ]
+        },
+        {
+          "number": "98",
+          "before_nm": [
+            273000000,
+            360075000
+          ],
+          "scaled_nm": [
+            273333333,
+            360075000
+          ],
+          "grid_nm": [
+            274000000,
+            361000000
+          ]
+        },
+        {
+          "number": "IN1",
+          "before_nm": [
+            240500000,
+            310725000
+          ],
+          "scaled_nm": [
+            240111111,
+            310725000
+          ],
+          "grid_nm": [
+            241000000,
+            311000000
+          ]
+        },
+        {
+          "number": "IN2",
+          "before_nm": [
+            252500000,
+            310725000
+          ],
+          "scaled_nm": [
+            252377778,
+            310725000
+          ],
+          "grid_nm": [
+            253000000,
+            311000000
+          ]
+        },
+        {
+          "number": "IN3",
+          "before_nm": [
+            264500000,
+            310725000
+          ],
+          "scaled_nm": [
+            264644444,
+            310725000
+          ],
+          "grid_nm": [
+            265000000,
+            311000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "d4509d04-27e2-42b4-ac32-5478a6a20657",
+      "reference": "TB68",
+      "base": "KN-T12GRY-25_Front",
+      "variant": "KN-T12GRY-25_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "BOT",
+          "before_nm": [
+            230000000,
+            315650000
+          ],
+          "scaled_nm": [
+            230000000,
+            315650000
+          ],
+          "grid_nm": [
+            230000000,
+            316000000
+          ]
+        },
+        {
+          "number": "TOP",
+          "before_nm": [
+            230000000,
+            300350000
+          ],
+          "scaled_nm": [
+            230000000,
+            300350000
+          ],
+          "grid_nm": [
+            230000000,
+            301000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "d67cf62c-eb0b-409b-a9e5-b2828d852472",
+      "reference": "TB1",
+      "base": "KN-T12GRY-25_Front",
+      "variant": "KN-T12GRY-25_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "BOT",
+          "before_nm": [
+            218000000,
+            137650000
+          ],
+          "scaled_nm": [
+            218000000,
+            137650000
+          ],
+          "grid_nm": [
+            218000000,
+            138000000
+          ]
+        },
+        {
+          "number": "TOP",
+          "before_nm": [
+            218000000,
+            122350000
+          ],
+          "scaled_nm": [
+            218000000,
+            122350000
+          ],
+          "grid_nm": [
+            218000000,
+            123000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "e10d5b3f-1389-4739-880a-c11f651aab9d",
+      "reference": "REF**",
+      "base": "KN-EB7-10_Front",
+      "variant": "KN-EB7-10_Front_Grid1mm",
+      "pads": []
+    },
+    {
+      "uuid": "e203608c-d243-4409-a916-b4fe0c330d32",
+      "reference": "TB40",
+      "base": "KN-T12GRY-25_Front",
+      "variant": "KN-T12GRY-25_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "BOT",
+          "before_nm": [
+            59000000,
+            315650000
+          ],
+          "scaled_nm": [
+            59000000,
+            315650000
+          ],
+          "grid_nm": [
+            59000000,
+            316000000
+          ]
+        },
+        {
+          "number": "TOP",
+          "before_nm": [
+            59000000,
+            300350000
+          ],
+          "scaled_nm": [
+            59000000,
+            300350000
+          ],
+          "grid_nm": [
+            59000000,
+            301000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "e3c47e97-adfa-4c36-820a-ebb14df36d02",
+      "reference": "REF**",
+      "base": "KN-EB7-10_Front",
+      "variant": "KN-EB7-10_Front_Grid1mm",
+      "pads": []
+    },
+    {
+      "uuid": "e649482a-048f-454d-b9e8-2685488b69c5",
+      "reference": "K4",
+      "base": "HMC-9B30-11-DS_Front",
+      "variant": "HMC-9B30-11-DS_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "1",
+          "before_nm": [
+            296500000,
+            285000000
+          ],
+          "scaled_nm": [
+            296111111,
+            285000000
+          ],
+          "grid_nm": [
+            297000000,
+            285000000
+          ]
+        },
+        {
+          "number": "2",
+          "before_nm": [
+            296500000,
+            331000000
+          ],
+          "scaled_nm": [
+            296111111,
+            331000000
+          ],
+          "grid_nm": [
+            297000000,
+            331000000
+          ]
+        },
+        {
+          "number": "3",
+          "before_nm": [
+            308500000,
+            285000000
+          ],
+          "scaled_nm": [
+            308377778,
+            285000000
+          ],
+          "grid_nm": [
+            309000000,
+            285000000
+          ]
+        },
+        {
+          "number": "4",
+          "before_nm": [
+            308500000,
+            331000000
+          ],
+          "scaled_nm": [
+            308377778,
+            331000000
+          ],
+          "grid_nm": [
+            309000000,
+            331000000
+          ]
+        },
+        {
+          "number": "5",
+          "before_nm": [
+            320500000,
+            285000000
+          ],
+          "scaled_nm": [
+            320644444,
+            285000000
+          ],
+          "grid_nm": [
+            321000000,
+            285000000
+          ]
+        },
+        {
+          "number": "6",
+          "before_nm": [
+            320500000,
+            331000000
+          ],
+          "scaled_nm": [
+            320644444,
+            331000000
+          ],
+          "grid_nm": [
+            321000000,
+            331000000
+          ]
+        },
+        {
+          "number": "31",
+          "before_nm": [
+            329600000,
+            293950000
+          ],
+          "scaled_nm": [
+            329946667,
+            293950000
+          ],
+          "grid_nm": [
+            330000000,
+            294000000
+          ]
+        },
+        {
+          "number": "32",
+          "before_nm": [
+            329600000,
+            322050000
+          ],
+          "scaled_nm": [
+            329946667,
+            322050000
+          ],
+          "grid_nm": [
+            330000000,
+            323000000
+          ]
+        },
+        {
+          "number": "43",
+          "before_nm": [
+            329600000,
+            284700000
+          ],
+          "scaled_nm": [
+            329946667,
+            284700000
+          ],
+          "grid_nm": [
+            330000000,
+            285000000
+          ]
+        },
+        {
+          "number": "44",
+          "before_nm": [
+            329600000,
+            331300000
+          ],
+          "scaled_nm": [
+            329946667,
+            331300000
+          ],
+          "grid_nm": [
+            330000000,
+            332000000
+          ]
+        },
+        {
+          "number": "A1.BOT",
+          "before_nm": [
+            308200000,
+            339250000
+          ],
+          "scaled_nm": [
+            308071111,
+            339250000
+          ],
+          "grid_nm": [
+            309000000,
+            340000000
+          ]
+        },
+        {
+          "number": "A1.TOP",
+          "before_nm": [
+            308200000,
+            276750000
+          ],
+          "scaled_nm": [
+            308071111,
+            276750000
+          ],
+          "grid_nm": [
+            309000000,
+            277000000
+          ]
+        },
+        {
+          "number": "A2.BOT",
+          "before_nm": [
+            319800000,
+            339250000
+          ],
+          "scaled_nm": [
+            319928889,
+            339250000
+          ],
+          "grid_nm": [
+            320000000,
+            340000000
+          ]
+        },
+        {
+          "number": "A2.TOP",
+          "before_nm": [
+            319800000,
+            276750000
+          ],
+          "scaled_nm": [
+            319928889,
+            276750000
+          ],
+          "grid_nm": [
+            320000000,
+            277000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "e696360c-b34b-4d02-b8a6-b1dfa3b5bb88",
+      "reference": "TB63",
+      "base": "KN-T12GRY-25_Front",
+      "variant": "KN-T12GRY-25_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "BOT",
+          "before_nm": [
+            202000000,
+            315650000
+          ],
+          "scaled_nm": [
+            202000000,
+            315650000
+          ],
+          "grid_nm": [
+            202000000,
+            316000000
+          ]
+        },
+        {
+          "number": "TOP",
+          "before_nm": [
+            202000000,
+            300350000
+          ],
+          "scaled_nm": [
+            202000000,
+            300350000
+          ],
+          "grid_nm": [
+            202000000,
+            301000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "f365cabb-7051-4936-a4d2-08bd4d97e853",
+      "reference": "TB20",
+      "base": "KN-T12GRY-25_Front",
+      "variant": "KN-T12GRY-25_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "BOT",
+          "before_nm": [
+            264000000,
+            137650000
+          ],
+          "scaled_nm": [
+            264000000,
+            137650000
+          ],
+          "grid_nm": [
+            264000000,
+            138000000
+          ]
+        },
+        {
+          "number": "TOP",
+          "before_nm": [
+            264000000,
+            122350000
+          ],
+          "scaled_nm": [
+            264000000,
+            122350000
+          ],
+          "grid_nm": [
+            264000000,
+            123000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "f6eda896-c4c8-4316-90bf-3ba29c62cf68",
+      "reference": "REF**",
+      "base": "KN-ST1BLK_Front",
+      "variant": "KN-ST1BLK_Front_Grid1mm",
+      "pads": []
+    },
+    {
+      "uuid": "fa8ee1db-f6fc-4498-b77f-a04dbe3a5d21",
+      "reference": "K5",
+      "base": "HMC-9B30-11-DS_Front",
+      "variant": "HMC-9B30-11-DS_Front_Grid1mm",
+      "pads": [
+        {
+          "number": "1",
+          "before_nm": [
+            353500000,
+            285000000
+          ],
+          "scaled_nm": [
+            353111111,
+            285000000
+          ],
+          "grid_nm": [
+            354000000,
+            285000000
+          ]
+        },
+        {
+          "number": "2",
+          "before_nm": [
+            353500000,
+            331000000
+          ],
+          "scaled_nm": [
+            353111111,
+            331000000
+          ],
+          "grid_nm": [
+            354000000,
+            331000000
+          ]
+        },
+        {
+          "number": "3",
+          "before_nm": [
+            365500000,
+            285000000
+          ],
+          "scaled_nm": [
+            365377778,
+            285000000
+          ],
+          "grid_nm": [
+            366000000,
+            285000000
+          ]
+        },
+        {
+          "number": "4",
+          "before_nm": [
+            365500000,
+            331000000
+          ],
+          "scaled_nm": [
+            365377778,
+            331000000
+          ],
+          "grid_nm": [
+            366000000,
+            331000000
+          ]
+        },
+        {
+          "number": "5",
+          "before_nm": [
+            377500000,
+            285000000
+          ],
+          "scaled_nm": [
+            377644444,
+            285000000
+          ],
+          "grid_nm": [
+            378000000,
+            285000000
+          ]
+        },
+        {
+          "number": "6",
+          "before_nm": [
+            377500000,
+            331000000
+          ],
+          "scaled_nm": [
+            377644444,
+            331000000
+          ],
+          "grid_nm": [
+            378000000,
+            331000000
+          ]
+        },
+        {
+          "number": "31",
+          "before_nm": [
+            386600000,
+            293950000
+          ],
+          "scaled_nm": [
+            386946667,
+            293950000
+          ],
+          "grid_nm": [
+            387000000,
+            294000000
+          ]
+        },
+        {
+          "number": "32",
+          "before_nm": [
+            386600000,
+            322050000
+          ],
+          "scaled_nm": [
+            386946667,
+            322050000
+          ],
+          "grid_nm": [
+            387000000,
+            323000000
+          ]
+        },
+        {
+          "number": "43",
+          "before_nm": [
+            386600000,
+            284700000
+          ],
+          "scaled_nm": [
+            386946667,
+            284700000
+          ],
+          "grid_nm": [
+            387000000,
+            285000000
+          ]
+        },
+        {
+          "number": "44",
+          "before_nm": [
+            386600000,
+            331300000
+          ],
+          "scaled_nm": [
+            386946667,
+            331300000
+          ],
+          "grid_nm": [
+            387000000,
+            332000000
+          ]
+        },
+        {
+          "number": "A1.BOT",
+          "before_nm": [
+            365200000,
+            339250000
+          ],
+          "scaled_nm": [
+            365071111,
+            339250000
+          ],
+          "grid_nm": [
+            366000000,
+            340000000
+          ]
+        },
+        {
+          "number": "A1.TOP",
+          "before_nm": [
+            365200000,
+            276750000
+          ],
+          "scaled_nm": [
+            365071111,
+            276750000
+          ],
+          "grid_nm": [
+            366000000,
+            277000000
+          ]
+        },
+        {
+          "number": "A2.BOT",
+          "before_nm": [
+            376800000,
+            339250000
+          ],
+          "scaled_nm": [
+            376928889,
+            339250000
+          ],
+          "grid_nm": [
+            377000000,
+            340000000
+          ]
+        },
+        {
+          "number": "A2.TOP",
+          "before_nm": [
+            376800000,
+            276750000
+          ],
+          "scaled_nm": [
+            376928889,
+            276750000
+          ],
+          "grid_nm": [
+            377000000,
+            277000000
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "faf9ee7e-1a79-4478-8d3e-579c3d277d95",
+      "reference": "REF**",
+      "base": "KN-EB7-10_Front",
+      "variant": "KN-EB7-10_Front_Grid1mm",
+      "pads": []
+    }
+  ],
+  "adjusted_instances": 71,
+  "adjusted_pin_pads": 205,
+  "track_changes": [
+    {
+      "uuid": "3e606371-ace7-44b7-8b34-91053be1f96b",
+      "before": {
+        "net": "PE",
+        "layer": 0,
+        "start": [
+          75000000,
+          300500641
+        ],
+        "end": [
+          75000000,
+          242500000
+        ],
+        "width_nm": 200000
+      },
+      "after_start": [
+        75000000,
+        301000000
+      ],
+      "after_end": [
+        75000000,
+        242500000
+      ]
+    },
+    {
+      "uuid": "6e57d49e-f618-427b-9e45-c8054ec247bb",
+      "before": {
+        "net": "PE",
+        "layer": 0,
+        "start": [
+          198000000,
+          191000000
+        ],
+        "end": [
+          198000000,
+          137499808
+        ],
+        "width_nm": 200000
+      },
+      "after_start": [
+        198000000,
+        191000000
+      ],
+      "after_end": [
+        198000000,
+        138000000
+      ]
+    },
+    {
+      "uuid": "38c8bbd3-4283-40b7-a516-8b2b99cc5f5c",
+      "before": {
+        "net": "L3_IN",
+        "layer": 0,
+        "start": [
+          59000000,
+          300350000
+        ],
+        "end": [
+          59000000,
+          216000000
+        ],
+        "width_nm": 200000
+      },
+      "after_start": [
+        59000000,
+        301000000
+      ],
+      "after_end": [
+        59000000,
+        216000000
+      ]
+    },
+    {
+      "uuid": "984fea97-f7cc-4993-b8a9-f82fe0f31d4c",
+      "before": {
+        "net": "L3_IN",
+        "layer": 0,
+        "start": [
+          93061509,
+          163030002
+        ],
+        "end": [
+          93061509,
+          181938491
+        ],
+        "width_nm": 200000
+      },
+      "after_start": [
+        94000000,
+        164000000
+      ],
+      "after_end": [
+        94000000,
+        181000000
+      ]
+    },
+    {
+      "uuid": "a4878dc5-d4a7-468f-9fa7-4526b32857e3",
+      "before": {
+        "net": "L3_IN",
+        "layer": 0,
+        "start": [
+          93061509,
+          181938491
+        ],
+        "end": [
+          59000000,
+          216000000
+        ],
+        "width_nm": 200000
+      },
+      "after_start": [
+        94000000,
+        181000000
+      ],
+      "after_end": [
+        59000000,
+        216000000
+      ]
+    },
+    {
+      "uuid": "5151c470-f353-40bb-9dcb-0ef80dcdce5f",
+      "before": {
+        "net": "L2_IN",
+        "layer": 0,
+        "start": [
+          117574109,
+          163030002
+        ],
+        "end": [
+          117574109,
+          182425891
+        ],
+        "width_nm": 200000
+      },
+      "after_start": [
+        118000000,
+        164000000
+      ],
+      "after_end": [
+        118000000,
+        182000000
+      ]
+    },
+    {
+      "uuid": "ca7a86e5-ac32-4ccf-ab46-c1ffeb40d01a",
+      "before": {
+        "net": "L2_IN",
+        "layer": 0,
+        "start": [
+          64000000,
+          300350000
+        ],
+        "end": [
+          64000000,
+          226000000
+        ],
+        "width_nm": 200000
+      },
+      "after_start": [
+        64000000,
+        301000000
+      ],
+      "after_end": [
+        64000000,
+        226000000
+      ]
+    },
+    {
+      "uuid": "f4a21034-6ad3-4cb2-ac8e-fd8500e378e4",
+      "before": {
+        "net": "L2_IN",
+        "layer": 0,
+        "start": [
+          117574109,
+          182425891
+        ],
+        "end": [
+          110000000,
+          190000000
+        ],
+        "width_nm": 200000
+      },
+      "after_start": [
+        118000000,
+        182000000
+      ],
+      "after_end": [
+        110000000,
+        190000000
+      ]
+    },
+    {
+      "uuid": "02f0a11c-4a6a-483e-bf3a-b4dbfc25fd95",
+      "before": {
+        "net": "L1_IN",
+        "layer": 0,
+        "start": [
+          142086719,
+          185913281
+        ],
+        "end": [
+          134746898,
+          193253102
+        ],
+        "width_nm": 200000
+      },
+      "after_start": [
+        142000000,
+        186000000
+      ],
+      "after_end": [
+        134746898,
+        193253102
+      ]
+    },
+    {
+      "uuid": "79ff81b1-0dfe-45ec-886d-ea0544e33447",
+      "before": {
+        "net": "L1_IN",
+        "layer": 0,
+        "start": [
+          142086719,
+          163030002
+        ],
+        "end": [
+          142086719,
+          185913281
+        ],
+        "width_nm": 200000
+      },
+      "after_start": [
+        142000000,
+        164000000
+      ],
+      "after_end": [
+        142000000,
+        186000000
+      ]
+    },
+    {
+      "uuid": "d1ab1f26-43ae-4a7b-b1ae-97c36a153b8c",
+      "before": {
+        "net": "L1_IN",
+        "layer": 0,
+        "start": [
+          69000000,
+          236116721
+        ],
+        "end": [
+          69000000,
+          300350000
+        ],
+        "width_nm": 200000
+      },
+      "after_start": [
+        69000000,
+        236116721
+      ],
+      "after_end": [
+        69000000,
+        301000000
+      ]
+    }
+  ],
+  "route_pairs_preserved": 4,
+  "route_warnings": []
+}

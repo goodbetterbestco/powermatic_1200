@@ -1,0 +1,86 @@
+{
+  "source_sha256": "211173dc4c33f5cda34279aa4ccb15abfc5d1605ec3c0a9bcfbbdec98d31985c",
+  "candidate_sha256": "4ff23785505c8c04713a78df4104294a9625a8237670d5dc959459be5c09b157",
+  "changed_footprint_fields": [
+    {
+      "reference": "SP4",
+      "before": "Controls:HMX1-SSVRC-DC_Front",
+      "after": "Controls:HMX1-SSVRC-DC_Front_Grid1mm"
+    },
+    {
+      "reference": "K3",
+      "before": "Controls:HC3096N-52-900-24_Front",
+      "after": "Controls:HC3096N-52-900-24_Front_Grid1mm"
+    },
+    {
+      "reference": "K6",
+      "before": "Controls:HMC-9B30-11-DS_Front",
+      "after": "Controls:HMC-9B30-11-DS_Front_Grid1mm"
+    },
+    {
+      "reference": "FH1",
+      "before": "Controls:RM25030-3SR_Front",
+      "after": "Controls:RM25030-3SR_Front_Grid1mm"
+    },
+    {
+      "reference": "SP5",
+      "before": "Controls:HMX1-SSVRC-DC_Front",
+      "after": "Controls:HMX1-SSVRC-DC_Front_Grid1mm"
+    },
+    {
+      "reference": "OL4",
+      "before": "Controls:HTOR32-6-S_Front",
+      "after": "Controls:HTOR32-6-S_Front_Grid1mm"
+    },
+    {
+      "reference": "K5",
+      "before": "Controls:HMC-9B30-11-DS_Front",
+      "after": "Controls:HMC-9B30-11-DS_Front_Grid1mm"
+    },
+    {
+      "reference": "SP6",
+      "before": "Controls:HMX1-SSVRC-DC_Front",
+      "after": "Controls:HMX1-SSVRC-DC_Front_Grid1mm"
+    },
+    {
+      "reference": "PS1",
+      "before": "Controls:NDR-240-24_Front",
+      "after": "Controls:NDR-240-24_Front_Grid1mm"
+    },
+    {
+      "reference": "Q1",
+      "before": "Controls:FAZ-D4-2-NA-L_Front",
+      "after": "Controls:FAZ-D4-2-NA-L_Front_Grid1mm"
+    },
+    {
+      "reference": "OL6",
+      "before": "Controls:HTOR32-6-S_Front",
+      "after": "Controls:HTOR32-6-S_Front_Grid1mm"
+    },
+    {
+      "reference": "SP1",
+      "before": "Controls:HMX1-SSVRC-DC_Front",
+      "after": "Controls:HMX1-SSVRC-DC_Front_Grid1mm"
+    },
+    {
+      "reference": "SP2",
+      "before": "Controls:HMX1-SSVRC-DC_Front",
+      "after": "Controls:HMX1-SSVRC-DC_Front_Grid1mm"
+    },
+    {
+      "reference": "K1",
+      "before": "Controls:HMC-9B30-11-DS_Front",
+      "after": "Controls:HMC-9B30-11-DS_Front_Grid1mm"
+    },
+    {
+      "reference": "K2",
+      "before": "Controls:HMC-9B30-11-DS_Front",
+      "after": "Controls:HMC-9B30-11-DS_Front_Grid1mm"
+    },
+    {
+      "reference": "K4",
+      "before": "Controls:HMC-9B30-11-DS_Front",
+      "after": "Controls:HMC-9B30-11-DS_Front_Grid1mm"
+    }
+  ]
+}
