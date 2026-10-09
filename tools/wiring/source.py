@@ -29,6 +29,29 @@ def parse(text):
     return root
 
 
+
+# KiCad's native board serializer puts root footprints and their children at
+# one and two tabs respectively. Read only their metadata, never dense artwork.
+FOOTPRINT_BLOCK = re.compile(r'^\t\(footprint\b.*?^\t\)', re.M | re.S)
+FOOTPRINT_FIELD = re.compile(r'^\t\t\((?:uuid|property|jumper_pad_groups)\b.*?(?=^\t\t\(|^\t\)|\Z)', re.M | re.S)
+
+
+def footprint_metadata(text):
+    """Fast native-serialized metadata, with full parsing for other formatting."""
+    blocks = FOOTPRINT_BLOCK.findall(text)
+    if blocks and len(blocks) == len(re.findall(r'^\s*\(footprint\b', text, re.M)):
+        result = []
+        for raw in blocks:
+            fields = FOOTPRINT_FIELD.findall(raw)
+            parsed = [parse(f) for f in fields]
+            if sum(n[0] == 'uuid' for n in parsed) != 1 or sum(n[0] != 'uuid' for n in parsed) != len(re.findall(r'^\s*\((?:property|jumper_pad_groups)\b', raw, re.M)):
+                break
+            result.append(['footprint', *parsed])
+        else:
+            return result
+    return nodes(parse(text), 'footprint')
+
+
 def nodes(node, name):
     return [n for n in node if isinstance(n, list) and n and n[0] == name]
 

@@ -38,15 +38,26 @@ Finder app after updating the reviewer to use its latest server features.
 
 ## Generate a wiring review
 
-The [wire-size policy](WIRING_STANDARD.md) defines conductor classes and exceptions. The current wire-record generator awaits reconciliation with the 2026-10-06 PCB-only terminal migration; old records still target removed schematic terminals. The existing generated schedule is a historical partial review until that work is complete.
+The [wire-size policy](WIRING_STANDARD.md) defines conductor classes and exceptions.
+`Open BOM Review.app` and `Open Wire Schedule Review.app` use the shared
+`bom_review` editor. On launch they extract fresh saved KiCad data into the
+existing BOM or wiring CSV. The browser's Refresh button repeats extraction.
+Overwrite saves browser edits only to that live CSV; it never writes to KiCad.
+There is one CSV per schedule and no automatically retained CSV history.
 
-Double-click **Generate Wiring Review.app** to generate a read-only review from
-wire records stored in the saved schematic and terminal/duct positions in the PCB.
-The previous generated review covered six incoming phase conductors; other sections
-still require reconciliation with the schematic. The existing 91-row schedule remains
-available as a migration reference.
+The BOM's SOURCE column distinguishes KiCad-linked rows from Local purchasing
+items. SOURCE KEY, hidden in the grid, identifies linked parts across refreshes.
+KICAD QTY is the modeled count; purchasing QUA and packaging remain CSV data.
+Refresh retains all Local rows and the purchasing fields on linked rows. Initial
+tagging preserves all existing BOM values. See [schedule extraction](tools/schedules/README.md).
 
-See [schematic-owned wiring](tools/wiring/README.md) for the record editor, routing
+Both wire-review Finder apps use the same live `Wire_schedule.csv`. Complete
+saved PCB trace paths become physical wire rows; bends/arcs/vias do not create
+extra wires. Refresh updates routes and footprint termination data and reports
+unrouted or ambiguous connections. There are currently no saved traces, so a
+fresh schedule contains zero routed wires. Old `Wire.Wxxx` fields are not used.
+
+See [KiCad-owned wiring](tools/wiring/README.md) for the record editor, routing
 rules and generated coverage report. To generate without opening a browser:
 
 ```sh
@@ -54,6 +65,10 @@ python3 tools/wiring/generate.py
 ```
 
 ## Shared parts library
+
+Control-net names follow the shared `_parts` naming convention. See the
+[project signal table](SIGNAL_NAMING.md) for operator connections, enable paths,
+coil feeds and intermediate links.
 
 Reusable assets are kept in the separate `_parts` repository:
 

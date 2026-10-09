@@ -1,11 +1,26 @@
-# Schematic-owned wiring
+# KiCad-owned wiring
 
-Wire records in the saved `.kicad_sch` file are authoritative. The PCB supplies
-terminal positions and duct geometry. The generated CSV is a review output.
+Saved PCB traces own physical conductor paths. The saved schematic owns logical
+connectivity and per-terminal gauge declarations. Placed footprints own
+termination selections and can override physical gauge with `Wire.AWG.<pin>`.
+The live CSV is an extracted, locally editable schedule.
+
+Use the current names in the [project signal table](../../SIGNAL_NAMING.md).
+Net renames must flow through schematic labels, PCB pad/track nets and embedded
+`Wire.Sizes` data before extraction. Old `Wire.Wxxx` records are not read by the
+trace exporter.
+
+Stale `Wire.Sizes` net stamps are reported and their gauge declarations ignored,
+so an edited or flipped symbol does not hide unrelated routed wires. Resolve
+the stale declaration to restore its sizing evidence. Nets on the actual routed
+endpoints must still agree. Different nets reaching the opposite internally
+common clamps of one block are reported as electrical conflicts; all explicitly
+drawn wires remain visible, and the extraction review is marked incomplete.
 
 Preferred conductor sizes and component-specific exceptions are defined in the
-project [wire-size policy](../../WIRING_STANDARD.md). Actual AWG and terminations
-remain per-conductor data; the generator must not substitute a default for a
+project [wire-size policy](../../WIRING_STANDARD.md). Actual AWG remains
+per-conductor data and terminations belong to the endpoint footprints. The
+generator must not substitute a default for a
 factory lead or cable-core specification.
 
 ## Connection sizes before physical routing
@@ -49,81 +64,80 @@ python3 tools/wiring/sizes.py --stage /private/tmp/powermatic-sizes/powermatic_1
 python3 tools/wiring/sizes.py --schematic /private/tmp/powermatic-sizes/powermatic_1200.kicad_sch
 ```
 
-Connection-size declarations are not a physical wire schedule. `Wire.Wxxx`
-records still own each actual conductor's endpoints, gauge, termination and
-length; reconcile those records and the PCB-only terminal routes before
-generating a complete cut list. Keep an explicit AWG in each physical record
-when it is added; do not infer its gauge from a net-wide default.
+Connection-size declarations are not a physical wire schedule. Actual saved
+trace paths identify conductors; endpoint metadata supplies their gauges and
+terminations. Resolve per-wire sizing conflicts before using a cut list. No
+net-wide or copper-width gauge default is inferred.
 
 ## Pin termination descriptions
 
-Each physical schematic symbol has one combined custom field per pin, named
+Each physical part footprint has one combined custom field per terminal, named
 `Termination.<pin>`: for example `Termination.A1.BOT` or `Termination.P1.A`.
-The 2026-10-06 draft populates 184 fields on 25 symbols from existing termination
-records, using current AWG values. Fields remain hidden on the drawing and can
-be edited in Symbol Properties or the Symbol Fields Table. These are custom
-symbol fields keyed by pin number, not native pin properties.
+Fields are hidden on F.Fab and editable in Footprint Properties. These are custom
+footprint fields keyed by actual pad number, not graphics or a separate summary.
+The schedule reads TERM 1 from the source footprint and TERM 2 from the destination
+footprint. Missing fields stop export. Wire records do not own termination copies.
 
-See the [pin termination draft](../../reviews/pin_terminations_2026-10-06/terminations.md)
-and its provenance. Existing TBD dimensions remain for review. Supplied contacts,
-retained jumpers and direct-mounted connections are separate from loose-wire
-crimps. The report's counts are pin fields, not purchasing quantities; PCB-only
-terminal blocks and mechanical studs are outside this symbol-field inventory.
+The footprint migration moves existing symbol selections into placed footprints
+and includes PCB-only terminal blocks. M1, S1 and J6 have metadata-only
+footprints: no pads, artwork or models, and excluded from BOM/position exports.
+J2 now uses the mains gland model/artwork as its physical routing proxy, with
+four pads matching plug terminals X, Y, Z and G. It owns its plug termination
+fields and inherits the plug's schematic sizing declarations. The four existing
+incoming routes are preserved. `Wire.LengthScope` declares that their cut
+estimates cover the panel tail only, excluding the external supply cord.
+Enclosure, door and backplate stud descriptions live on the enclosure footprint;
+rail lug descriptions live on each rail footprint. Legacy bond descriptions
+remain drafts for later topology reconciliation. Feedthrough and ground wire
+clamps describe the ferrule/twin-ferrule capability without attaching a wire
+gauge to the part. Blocks and unused jumpers are available routing resources
+until allocated. Supplied contacts, retained jumpers, cable pass-throughs and
+direct-mounted connections are separate from loose-wire crimps. Counts are
+terminal fields, not purchasing quantities.
+
+A route terminating at an otherwise uncontinued gland pad is exported as an
+explicit drawn section, with the gland's N/A termination and an incomplete
+external-length warning. When both paired gland sides are routed, the exporter
+joins them into one continuous wire rather than adding a termination at the gland.
 
 Refresh the review from saved fields with:
 
 ```sh
-python3 tools/wiring/terminations.py --report reviews/pin_terminations_2026-10-06/terminations.md
+python3 tools/wiring/terminations.py --report /private/tmp/footprint_terminations.json
 ```
 
-`terminations.py --stage <candidate.kicad_sch>` prepares a separate candidate
-from existing records; it preserves any already-populated Termination fields.
-Applying a candidate still requires the saved/editor-pause checkpoint and hash
-checks. This command does not itself overwrite the source schematic.
+`terminations.py --stage-dir <separate directory>` prepares both schematic and
+PCB candidates. Existing footprint selections are preserved; conflicting symbol
+and footprint choices stop migration. Importing the old CSV is a one-time
+migration fallback, not a runtime schedule source. Applying candidates requires
+saved editors, an editing pause and source-hash checks. Staging never overwrites
+the active files. Preserve these project fields when updating footprints from a
+library; actual conductor gauges and selections belong to the placed instances.
 
-Since the 2026-10-06 migration, terminal blocks and glands are PCB-only. Existing
-incoming-phase records still target removed schematic terminals, so generation
-currently fails until endpoint support and the physical wire records are
-reconciled. Previously generated reports and the root legacy schedule are
-historical references, not current complete wiring documentation.
+Terminal blocks and glands are PCB-only. The saved PCB traces now define the
+physical wire graph. Complete pad-to-pad paths become wire rows; unused graphics
+and unrouted nets do not. Old W001/W003/W005 schematic records are not used and
+their stale UUIDs do not block trace extraction. See the
+[trace rules](../schedules/README.md#wiring-ownership) for branches, layers,
+glands, gauge selection and cut-length allowances.
 
-Start the generated review from Finder with **Generate Wiring Review.app**, or:
+Open **Open Wire Schedule Review.app** or **Generate Wiring Review.app**. Both
+extract fresh traces into the single existing `Wire_schedule.csv`; Refresh does
+the same in the browser. CSV edits remain local. No CSV history is retained.
 
 ```sh
 python3 tools/wiring/generate.py --open
 ```
 
-The launcher reuses one localhost reviewer and does not open a Terminal window.
-The generated review is read-only: Find, sorting, flags and copying work, but
-cell edits and Overwrite are disabled. Save CSV downloads a report copy.
+## Route a wire
 
-## Historical incoming-phase section
-
-The original six records covered the incoming phases only:
-
-| Wire | From | To |
-|---|---|---|
-| W001 | J2.X / L1 | TB40.BOT |
-| W002 | TB40.TOP | FH1.P1.A |
-| W003 | J2.Y / L2 | TB41.BOT |
-| W004 | TB41.TOP | FH1.P2.A |
-| W005 | J2.Z / L3 | TB42.BOT |
-| W006 | TB42.TOP | FH1.P3.A |
-
-These records are **pending review**. The three mains rows measure panel tails
-through the power gland. They do not replace the overall external cable allowance
-in the BOM. Existing cut estimates are retained as minimums during migration.
-Automatic cuts use the modeled route plus 200 mm, rounded upward to 50 mm.
-
-The chosen feedthrough convention is TOP/BOT as actual schematic pin and footprint
-pad numbers. The transition keeps the PCB placement and pad coordinates unchanged;
-native netlist comparison checks that renamed pins keep their original connections.
-The three PE blocks are reviewed separately from the feedthrough block symbol.
-
-The legacy 91-row `Wire_schedule.csv` has been preserved. Six rows have been
-migrated; 85 remain for section-by-section reconciliation. Generating a partial
-schedule cannot overwrite the legacy file. Coverage in the generated report
-shows which electrical nets have a complete physical connection plan.
+In PCB Editor, draw a continuous trace between actual terminal pads and save the
+PCB. Refresh the wiring browser to add the row. Deleting that saved path removes
+the row on Refresh. A path through an intermediate terminal becomes two wires;
+branch at a terminal rather than at an unmarked point in space. Set
+`Wire.AWG.<pin>` in Footprint Properties when existing endpoint sizing does not
+identify the actual conductor. The existing manual-record helpers below are
+legacy tools and do not drive the current trace export.
 
 ## Add or edit a wire
 
@@ -137,8 +151,7 @@ python3 tools/wiring/records.py set W001 --length auto
 python3 tools/wiring/records.py set W001 --review reviewed
 python3 tools/wiring/records.py set W002 --from TB40.TOP --to FH1.P1.A
 python3 tools/wiring/records.py add W007 --from FH1.P1.B --to SW1.1 \
-  --section '02 Fuse outputs and disconnect' --awg 14 \
-  --term1 'Ferrule 14 AWG; L=TBD mm' --term2 'Ferrule 14 AWG; L=TBD mm'
+  --section '02 Fuse outputs and disconnect' --awg 14
 python3 tools/wiring/generate.py
 ```
 
@@ -149,7 +162,8 @@ it was checking the new record.
 
 Records are hidden `Wire.W001`, `Wire.W002`, etc. properties on each wire's origin
 symbol. Each is a JSON object with its origin pin, target symbol UUID and pin,
-section, gauge, termination text, connection kind, length policy and review state.
+section, gauge, connection kind, length policy and review state. Termination text
+is read from the endpoint footprints' `Termination.<pin>` fields.
 Endpoint UUIDs let reference renumbering follow the same physical symbol. Deleting
 and replacing a symbol intentionally requires relinking its wire records.
 An explicit origin UUID prevents copied symbols from silently duplicating the
@@ -177,17 +191,19 @@ device. Sidewall and gland endpoints use the closest open duct end. Same-whole-
 duct paths use the target half's centerline; different whole ducts use whole
 centerlines and the vertical trunk. This version supports one vertical trunk.
 
-Every record must resolve to real schematic pins on the same connected net.
+Current trace endpoints must resolve to real footprint terminals and agree
+with the saved schematic's electrical nets. The manual-record validation below
+applies only to the legacy helpers.
+
+Every legacy record must resolve to real schematic pins on the same connected net.
 Directly drawn wire paths are also checked for the wrong physical terminal clamp,
 even when TOP/BOT are electrically common. Missing PCB pads, deleted symbols,
 duplicate records and inconsistent routing endpoints stop generation. Conflicting
 unrecorded sections are not silently filled in from legacy data or caption text.
 
-Outputs:
-
-- `reviews/wiring_generated/Wire_schedule_generated.csv`: generated eight-column review.
-- `reviews/wiring_generated/review.md`: section, length and coverage review.
-- `reviews/wiring_generated/Wire_schedule_generated.source.json`: derived audit/provenance.
+Output: root `Wire_schedule.csv`, the single live eight-column schedule.
+No extra generated CSV or archived CSV is created. Coverage/provenance are
+returned to the caller for status reporting rather than kept as schedule copies.
 
 The exporter checks saved file hashes so a concurrent save cannot publish a mixed
 schematic/PCB snapshot. `--check` validates without writing; `--section` filters a

@@ -267,7 +267,14 @@ def change_fields(text, updates):
                 p = parse(child)
                 value = fields.pop(p[1])
                 if value is None:
-                    sub.append((aa, bb, ''))
+                    # Remove the complete property line, including its indent,
+                    # when the property is the only content on that line.
+                    start = raw.rfind('\n', 0, aa) + 1
+                    end = raw.find('\n', bb)
+                    if not raw[start:aa].strip() and end >= 0 and not raw[bb:end].strip():
+                        sub.append((start, end + 1, ''))
+                    else:
+                        sub.append((aa, bb, ''))
                 else:
                     old = json.dumps(p[2], ensure_ascii=False)
                     sub.append((aa, bb, child.replace(old, json.dumps(value, ensure_ascii=False), 1)))
@@ -344,6 +351,15 @@ class Panel:
         self.vertical = [d for d in self.ducts if not d['horizontal']]
         if not self.horizontal or len(self.vertical) != 1:
             raise ValueError('Routing currently requires horizontal ducts and one vertical trunk.')
+
+    def termination(self, ref, pin):
+        footprint = self.footprints.get(ref)
+        if footprint is None:
+            raise ValueError(f'{ref}: termination owner footprint is missing.')
+        value = prop(footprint, 'Termination.' + str(pin))
+        if value is None or not value.strip():
+            raise ValueError(f'{ref}.{pin}: footprint Termination.{pin} is missing or empty.')
+        return value
 
     def endpoint(self, ref, pin, side=None):
         if (ref, pin) not in self.pads:
@@ -463,7 +479,7 @@ def make_rows(schematic, panel, records, pin_nets):
             raise ValueError(f'{wid}: length mode must be auto or manual.')
         row = [schematic.display_name(fs), schematic.display_pin(fs, fp, from_side),
                schematic.display_name(ts), schematic.display_pin(ts, tp, to_side),
-               awg, value, str(r.get('term1', 'TBD')), str(r.get('term2', 'TBD'))]
+               awg, value, panel.termination(fr, fp), panel.termination(tr, tp)]
         detail.update(exported=True, row=row, length_mode=length['mode'])
         rows.append(row)
         details.append(detail)

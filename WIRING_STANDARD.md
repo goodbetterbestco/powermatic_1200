@@ -1,8 +1,12 @@
 # Wire-size policy — Powermatic 1200
 
+Control signal names are governed by [SIGNAL_NAMING.md](SIGNAL_NAMING.md) and
+its linked shared standard. Use the schematic's native net names consistently
+in sizing declarations, physical wire records, PCB pad nets and generated outputs.
+
 Preferred gauge set: **12 AWG, 14 AWG, 16 AWG, 18 AWG and 22 AWG**. Use AWG consistently; the previously stated “12GA” means 12 AWG in this project. These are preferred conductor classes, not a requirement to replace factory leads or purchased bonding assemblies with those sizes.
 
-This document is the project policy. Actual conductor gauge, cable/part identity and termination belong in the individual wiring records. A preferred gauge does not by itself establish ampacity, fault protection or terminal suitability.
+This document is the project policy. Actual conductor gauge and cable/part identity belong in the individual wiring records. Termination selections belong to the endpoint footprints' `Termination.<pin>` fields. A preferred gauge does not by itself establish ampacity, fault protection or terminal suitability.
 
 ## Preferred applications
 
@@ -57,13 +61,20 @@ T contacts are normally closed; B contacts are normally open. There are no
 terminals have #8-32 screws and accept a maximum terminal width or ring OD of
 9 mm. The five new 16 AWG wire ends use ring terminals sized for #8 studs, with
 an OD no greater than 9 mm. This selection is stored in S2's corresponding
-`Termination.<pin>` fields.
+footprint `Termination.<pin>` fields.
 
-S3's three new 16 AWG wire ends (1.L, 1.U and 2.U) use the same existing
+S3's three new 16 AWG wire ends (1B, 1T and 2T) use the same existing
 16 AWG #8-32 ring-terminal selection, assigned by the owner on 2026-10-06.
-This selection is stored in S3's corresponding `Termination.<pin>` fields.
+This selection is stored in S3's corresponding footprint `Termination.<pin>` fields.
 
 ## Component-specific exceptions
+
+H2 is the red Schneider XB4BVB4 E-stop/control-disabled indicator below SW1.
+Connect raw `+24V` to K3.31, K3.32 to H2.X1 on
+`CONTROL_ESTOP_DISABLED_FB`, and H2.X2 to `0V`. The two new K3 terminal
+connections and both H2 terminals use blue 18 AWG panel-control wiring with
+ferrule terminations. The existing E-stop connector/conduit wiring is unchanged.
+Physical routes and cut lengths remain pending, as for the other panel wires.
 
 | Actual size | Component / use | Treatment |
 |---|---|---|
@@ -71,6 +82,18 @@ This selection is stored in S3's corresponding `Termination.<pin>` fields.
 | Manufacturer-defined | Suppressor leads, retained switch straps and other fixed device wiring | Keep the actual supplied conductor specification. Do not assign an unverified stock gauge or create an extra assembly wire for a factory/internal connection. |
 
 KN-G12SP-10 accepts 26–12 AWG. Use separate suitable clamps for the incoming cable PE, the 12 AWG motor-conduit PE and PSU PE wire. Its two wire clamps and conductive rail foot are electrically common. Prepare each conductor according to the terminal manufacturer's instructions. The 10 AWG bonding-jumper ends use compatible studs or a wire-splicing connector rated for that conductor; they do not enter these KN-G12SP-10 clamps.
+
+All feedthrough-terminal and grounding-block wire clamps use ferrules: one
+conductor in a clamp uses a single ferrule; two conductors sharing one clamp use
+a twin ferrule sized for the actual conductors. This owner requirement is stored
+in each block footprint's `Wire.TerminationPolicy`. Individual
+`Termination.<terminal>` fields describe the part's termination capability:
+`Ferrule or twin ferrule as required`. They do not assign a conductor gauge,
+barrel length or wire count to an available routing resource. Blocks and unused
+jumpers are allocated only when needed during physical routing; available clamps
+do not constitute missing wiring data. Select ferrule size, barrel length and
+single/twin form for the actual assigned conductors during routing. The grounding block's
+PE rail contact is a retained conductive foot, not a ferruled wire clamp.
 
 ## Bonding plan and conductor classification
 
@@ -99,15 +122,15 @@ The insulated Wago forms a wire-to-wire PE junction; placing it inside a metal m
 ## Where information belongs
 
 1. **Policy:** this document owns preferred gauge classes, application defaults and explicit exceptions. Root README and tools/wiring/README link here; avoid duplicating a second policy table in the BOM or generator.
-2. **Schematic data:** custom `Wire.Sizes` fields now record conductor sizing at every connected terminal, including separate panel, conduit and factory-lead applications on the same net. M1.PE explicitly records the 12 AWG motor-conduit PE. `Wire.SizePlan` retains the proposed prefabricated bonding assemblies. One combined `Termination.<pin>` custom symbol field records the draft termination description at each physical schematic pin; review edits belong in those fields. These fields do not define conductor routes or cut lengths. The schematic's `Wire.Wxxx` properties remain the source of truth for detailed physical conductor records, carrying actual AWG, endpoint IDs, connection kind, terminations and length. PCB-only terminal/gland endpoints require migration support in the wiring model before a complete new schedule can be generated. Policy does not silently infer a wire graph or terminal allocation.
+2. **KiCad data:** custom schematic `Wire.Sizes` fields record per-terminal conductor sizing and `Wire.SizePlan` retains proposed bonding assemblies. M1.PE records 12 AWG motor-conduit PE. Saved PCB trace paths own physical wire endpoints and route geometry; the old schematic `Wire.Wxxx` fields are no longer the schedule source. One combined `Termination.<pin>` field on each placed footprint owns the termination selection at that terminal. TERM 1 and TERM 2 are read from the source and destination footprints. M1, J2, S1 and J6 use metadata-only footprints without physical geometry, excluded from BOM and position exports. Mechanical stud descriptions live on the enclosure footprint and rail lug descriptions on rail footprints. Reports and wire records do not own duplicate termination selections. These fields do not define routes or wire allocation; Completed routed paths generate wire rows; missing gauge assignments and unrouted connections are reported.
 3. **Procurement:** `Powermatic_BOM_revP.csv` owns exact cable/device/spool/ferrule/lug/kit selections and purchase quantities. Include AWG and conductor count in cable descriptions and AWG in termination descriptions; retain the exact supplier part number. A preferred gauge without a required wire is not an automatic BOM purchase.
-4. **Derived review:** `reviews/wire_sizes_2026-10-06/sizing.md` and its JSON companion are generated connection-sizing reviews from the saved schematic fields. `reviews/wiring_generated/Wire_schedule_generated.csv` is a historical generated physical-wire review, not an independent editable source. Root `Wire_schedule.csv` is the legacy migration reference, not a current completed assembly schedule.
+4. **Live schedules:** `Wire_schedule.csv` is the single live physical-wire schedule. Finder launch or browser Refresh extracts completed saved PCB trace paths into it. CSV edits remain local and never update KiCad. No traces are currently saved, so the fresh schedule contains zero routed wires. `Powermatic_BOM_revP.csv` retains SOURCE tags and stable keys so refresh updates KiCad-linked data while preserving Local purchasing rows and fields; KICAD QTY is separate from purchasing QUA. No historical CSV variants are generated.
 5. **Part specifications:** `_parts` datasheets and catalog entries own supplied cable/lead sizes, terminal wire ranges and manufacturer-specific termination requirements. Keep project-wide stock policy here rather than embedding it in reusable symbols.
 
 ## Current reconciliation items
 
-- The legacy 91-row schedule contains 4 rows at 12 AWG, 36 at 14 AWG, 44 at 18 AWG and 7 at 16 AWG. It has no 22 AWG rows. Its M12-socket rows list 18 AWG even though J1's actual factory leads are 22 AWG. Any 18 AWG extension must be recorded as a separate conductor with an explicit joining method; it cannot silently change the factory-lead gauge.
-- Old schematic incoming-phase wire records target deleted terminal symbols. The generator currently fails on those endpoints. Do not regenerate or treat an old generated report as current until PCB-only endpoint support and the actual wire graph are reconciled.
+- J1's factory leads are 22 AWG. Any 18 AWG extension must be routed as a separate conductor with an explicit joining method; it cannot silently change the factory-lead gauge. The live schedule now reports only completed saved trace paths.
+- Old schematic incoming-phase wire records target deleted terminal symbols. They are not read by the trace exporter. Route actual physical paths in the PCB and save before refreshing the schedule; missing routing is reported as incomplete. J2 uses a four-pad mains-gland footprint proxy matching X/Y/Z/G. Its existing incoming traces define the panel tail, not the unrecorded external supply cord; footprint `Wire.LengthScope` records this limit. Gland-only boundaries remain explicit drawn sections, with no inferred electrical termination.
 - BOM cable descriptions currently emphasize outside diameter but omit AWG/core count. Its motor/controls cable and gland selections require reconciliation with the new conduit plan. Current loose-wire entries cover 14 AWG black and green/yellow and 18 AWG blue; ferrule entries cover 14 and 18 AWG. Add the required 12 AWG motor PE wire, 16 AWG control-conduit wire, conduit fittings and terminations against the eventual wire list. Choose ferrules/lugs for the actual conductor and device terminal; color alone is not a size specification.
 - The saved schematic shows no dedicated DC branch overcurrent device after PS1. NDR-240-24 is a 10 A supply with constant-current overload limiting at 105–130% rated output. Reconfirm protection for the 18 AWG control conductors and especially the 22 AWG factory leads; nominal coil current and a 24 V label are not sufficient evidence of fault protection. This policy records intended classes, not final approval of every wire size.
 - Exact wire insulation/type, temperature/voltage rating, routing derating and terminal preparation must be verified against the actual product and circuit. The existing BOM's “machine wire” entries alone do not establish all those specifications.

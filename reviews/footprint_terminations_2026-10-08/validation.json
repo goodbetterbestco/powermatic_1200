@@ -1,0 +1,13 @@
+{
+  "source_schematic_sha256": "c0a2246da99ce71f9d574f2b38707b936ae4efca0860aa61f78efa688c121d4b",
+  "source_pcb_sha256": "02970f50bd33438cb59f57a8709e2e4c996d5d266923bdd3764f27f2ae389a24",
+  "candidate_schematic_sha256": "13b38ece8d4cfe9663c44c794e428104958a249d50a556fe31e35a0599e11ef1",
+  "candidate_pcb_sha256": "4031c251de4cdb8188b3e14bcdd5ec0e4411c659e94e97f080573debd52e2493",
+  "old_footprints": 93,
+  "new_footprints": 97,
+  "termination_fields": 305,
+  "termination_owners": 67,
+  "native_connected_pin_assignments": 186,
+  "original_geometry_and_net_assignments_unchanged": true,
+  "migration_idempotent": true
+}

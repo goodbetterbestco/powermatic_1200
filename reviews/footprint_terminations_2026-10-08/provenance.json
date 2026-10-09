@@ -1,0 +1,2137 @@
+[
+  {
+    "reference": "TB33",
+    "footprint_uuid": "013df479-a6f5-43c6-9dc7-5b630e4cf676",
+    "pin": "BOT",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB33",
+    "footprint_uuid": "013df479-a6f5-43c6-9dc7-5b630e4cf676",
+    "pin": "TOP",
+    "termination": "Termination type TBD; conductor size TBD",
+    "source": "No recorded selection; left explicit"
+  },
+  {
+    "reference": "J5",
+    "footprint_uuid": "0215050f-05a2-425e-9bff-f2350a9db3b8",
+    "pin": "1.IN",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "J5",
+    "footprint_uuid": "0215050f-05a2-425e-9bff-f2350a9db3b8",
+    "pin": "1.OUT",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "J5",
+    "footprint_uuid": "0215050f-05a2-425e-9bff-f2350a9db3b8",
+    "pin": "2.IN",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "J5",
+    "footprint_uuid": "0215050f-05a2-425e-9bff-f2350a9db3b8",
+    "pin": "2.OUT",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "J5",
+    "footprint_uuid": "0215050f-05a2-425e-9bff-f2350a9db3b8",
+    "pin": "3.IN",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "J5",
+    "footprint_uuid": "0215050f-05a2-425e-9bff-f2350a9db3b8",
+    "pin": "3.OUT",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "J5",
+    "footprint_uuid": "0215050f-05a2-425e-9bff-f2350a9db3b8",
+    "pin": "4.IN",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "J5",
+    "footprint_uuid": "0215050f-05a2-425e-9bff-f2350a9db3b8",
+    "pin": "4.OUT",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "J5",
+    "footprint_uuid": "0215050f-05a2-425e-9bff-f2350a9db3b8",
+    "pin": "5.IN",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "J5",
+    "footprint_uuid": "0215050f-05a2-425e-9bff-f2350a9db3b8",
+    "pin": "5.OUT",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "J5",
+    "footprint_uuid": "0215050f-05a2-425e-9bff-f2350a9db3b8",
+    "pin": "6.IN",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "J5",
+    "footprint_uuid": "0215050f-05a2-425e-9bff-f2350a9db3b8",
+    "pin": "6.OUT",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "J5",
+    "footprint_uuid": "0215050f-05a2-425e-9bff-f2350a9db3b8",
+    "pin": "7.IN",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "J5",
+    "footprint_uuid": "0215050f-05a2-425e-9bff-f2350a9db3b8",
+    "pin": "7.OUT",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "J5",
+    "footprint_uuid": "0215050f-05a2-425e-9bff-f2350a9db3b8",
+    "pin": "8.IN",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "J5",
+    "footprint_uuid": "0215050f-05a2-425e-9bff-f2350a9db3b8",
+    "pin": "8.OUT",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "SP5",
+    "footprint_uuid": "031e30fb-772e-4c58-bea9-90bd535d3cda",
+    "pin": "1",
+    "termination": "Supplied fork-ended lead (retained)",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "SP5",
+    "footprint_uuid": "031e30fb-772e-4c58-bea9-90bd535d3cda",
+    "pin": "2",
+    "termination": "Supplied fork-ended lead (retained)",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "J4",
+    "footprint_uuid": "04b863d3-e11d-48b7-91b1-760d5f6e080e",
+    "pin": "T1.IN",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "J4",
+    "footprint_uuid": "04b863d3-e11d-48b7-91b1-760d5f6e080e",
+    "pin": "T1.OUT",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "J4",
+    "footprint_uuid": "04b863d3-e11d-48b7-91b1-760d5f6e080e",
+    "pin": "T2.IN",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "J4",
+    "footprint_uuid": "04b863d3-e11d-48b7-91b1-760d5f6e080e",
+    "pin": "T2.OUT",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "J4",
+    "footprint_uuid": "04b863d3-e11d-48b7-91b1-760d5f6e080e",
+    "pin": "T3.IN",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "J4",
+    "footprint_uuid": "04b863d3-e11d-48b7-91b1-760d5f6e080e",
+    "pin": "T3.OUT",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "J4",
+    "footprint_uuid": "04b863d3-e11d-48b7-91b1-760d5f6e080e",
+    "pin": "T4.IN",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "J4",
+    "footprint_uuid": "04b863d3-e11d-48b7-91b1-760d5f6e080e",
+    "pin": "T4.OUT",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "J4",
+    "footprint_uuid": "04b863d3-e11d-48b7-91b1-760d5f6e080e",
+    "pin": "T5.IN",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "J4",
+    "footprint_uuid": "04b863d3-e11d-48b7-91b1-760d5f6e080e",
+    "pin": "T5.OUT",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "J4",
+    "footprint_uuid": "04b863d3-e11d-48b7-91b1-760d5f6e080e",
+    "pin": "T6.IN",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "J4",
+    "footprint_uuid": "04b863d3-e11d-48b7-91b1-760d5f6e080e",
+    "pin": "T6.OUT",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "SP2",
+    "footprint_uuid": "0c9ab87b-a159-4601-a791-6bd2cb8e4b3c",
+    "pin": "1",
+    "termination": "Supplied fork-ended lead (retained)",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "SP2",
+    "footprint_uuid": "0c9ab87b-a159-4601-a791-6bd2cb8e4b3c",
+    "pin": "2",
+    "termination": "Supplied fork-ended lead (retained)",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K1",
+    "footprint_uuid": "0efcbc76-f026-47f5-86c9-db4fc3aa8810",
+    "pin": "1",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K1",
+    "footprint_uuid": "0efcbc76-f026-47f5-86c9-db4fc3aa8810",
+    "pin": "2",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K1",
+    "footprint_uuid": "0efcbc76-f026-47f5-86c9-db4fc3aa8810",
+    "pin": "3",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K1",
+    "footprint_uuid": "0efcbc76-f026-47f5-86c9-db4fc3aa8810",
+    "pin": "31",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K1",
+    "footprint_uuid": "0efcbc76-f026-47f5-86c9-db4fc3aa8810",
+    "pin": "32",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K1",
+    "footprint_uuid": "0efcbc76-f026-47f5-86c9-db4fc3aa8810",
+    "pin": "4",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K1",
+    "footprint_uuid": "0efcbc76-f026-47f5-86c9-db4fc3aa8810",
+    "pin": "43",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K1",
+    "footprint_uuid": "0efcbc76-f026-47f5-86c9-db4fc3aa8810",
+    "pin": "44",
+    "termination": "Twin ferrule 2 \u00d7 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K1",
+    "footprint_uuid": "0efcbc76-f026-47f5-86c9-db4fc3aa8810",
+    "pin": "5",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K1",
+    "footprint_uuid": "0efcbc76-f026-47f5-86c9-db4fc3aa8810",
+    "pin": "6",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K1",
+    "footprint_uuid": "0efcbc76-f026-47f5-86c9-db4fc3aa8810",
+    "pin": "A1.BOT",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K1",
+    "footprint_uuid": "0efcbc76-f026-47f5-86c9-db4fc3aa8810",
+    "pin": "A1.TOP",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K1",
+    "footprint_uuid": "0efcbc76-f026-47f5-86c9-db4fc3aa8810",
+    "pin": "A2.BOT",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K1",
+    "footprint_uuid": "0efcbc76-f026-47f5-86c9-db4fc3aa8810",
+    "pin": "A2.TOP",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "TB21",
+    "footprint_uuid": "15faab88-6fe4-4706-85f6-e7194763f3fa",
+    "pin": "BOT",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB21",
+    "footprint_uuid": "15faab88-6fe4-4706-85f6-e7194763f3fa",
+    "pin": "TOP",
+    "termination": "Termination type TBD; conductor size TBD",
+    "source": "No recorded selection; left explicit"
+  },
+  {
+    "reference": "TB32",
+    "footprint_uuid": "17662ee0-4299-4738-a83d-2b511a5421ad",
+    "pin": "BOT",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB32",
+    "footprint_uuid": "17662ee0-4299-4738-a83d-2b511a5421ad",
+    "pin": "TOP",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "Q1",
+    "footprint_uuid": "1a7a6239-26e0-4582-bc1e-2f0f661a9d3e",
+    "pin": "1",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "Q1",
+    "footprint_uuid": "1a7a6239-26e0-4582-bc1e-2f0f661a9d3e",
+    "pin": "2",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "Q1",
+    "footprint_uuid": "1a7a6239-26e0-4582-bc1e-2f0f661a9d3e",
+    "pin": "3",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "Q1",
+    "footprint_uuid": "1a7a6239-26e0-4582-bc1e-2f0f661a9d3e",
+    "pin": "4",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "TB65",
+    "footprint_uuid": "1be87848-f24f-4518-855a-11f5dd4a9f69",
+    "pin": "BOT",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB65",
+    "footprint_uuid": "1be87848-f24f-4518-855a-11f5dd4a9f69",
+    "pin": "TOP",
+    "termination": "Termination type TBD; conductor size TBD",
+    "source": "No recorded selection; left explicit"
+  },
+  {
+    "reference": "H2",
+    "footprint_uuid": "230961c6-11b9-4848-a8e8-800494ae1acb",
+    "pin": "X1",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Existing indicator wiring selection"
+  },
+  {
+    "reference": "H2",
+    "footprint_uuid": "230961c6-11b9-4848-a8e8-800494ae1acb",
+    "pin": "X2",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Existing indicator wiring selection"
+  },
+  {
+    "reference": "TB23",
+    "footprint_uuid": "240f1404-bc97-4505-bf53-88bf08e3bbc2",
+    "pin": "BOT",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB23",
+    "footprint_uuid": "240f1404-bc97-4505-bf53-88bf08e3bbc2",
+    "pin": "TOP",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB31",
+    "footprint_uuid": "25858a0d-f879-4a96-9250-262ea227f996",
+    "pin": "BOT",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB31",
+    "footprint_uuid": "25858a0d-f879-4a96-9250-262ea227f996",
+    "pin": "TOP",
+    "termination": "Termination type TBD; conductor size TBD",
+    "source": "No recorded selection; left explicit"
+  },
+  {
+    "reference": "TB52",
+    "footprint_uuid": "2ad761f3-4d96-4020-9b0a-09ef1c05f4d2",
+    "pin": "1",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB52",
+    "footprint_uuid": "2ad761f3-4d96-4020-9b0a-09ef1c05f4d2",
+    "pin": "2",
+    "termination": "Ferrule 12 AWG; L=TBD mm",
+    "source": "Owner motor-conduit PE correction to 12 AWG"
+  },
+  {
+    "reference": "TB52",
+    "footprint_uuid": "2ad761f3-4d96-4020-9b0a-09ef1c05f4d2",
+    "pin": "PE",
+    "termination": "Conductive DIN-rail foot (retained)",
+    "source": "Ground terminal rail contact"
+  },
+  {
+    "reference": "TB66",
+    "footprint_uuid": "32eea564-4672-448f-84fa-ee64152e3eda",
+    "pin": "BOT",
+    "termination": "Ferrule 16 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB66",
+    "footprint_uuid": "32eea564-4672-448f-84fa-ee64152e3eda",
+    "pin": "TOP",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "SP1",
+    "footprint_uuid": "3373b8c0-1f3f-43f2-9f73-a1f9ced928bb",
+    "pin": "1",
+    "termination": "Supplied fork-ended lead (retained)",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "SP1",
+    "footprint_uuid": "3373b8c0-1f3f-43f2-9f73-a1f9ced928bb",
+    "pin": "2",
+    "termination": "Supplied fork-ended lead (retained)",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "TB14",
+    "footprint_uuid": "37e3c92b-3e61-487c-8b8a-32894ad8d025",
+    "pin": "BOT",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB14",
+    "footprint_uuid": "37e3c92b-3e61-487c-8b8a-32894ad8d025",
+    "pin": "TOP",
+    "termination": "Termination type TBD; conductor size TBD",
+    "source": "No recorded selection; left explicit"
+  },
+  {
+    "reference": "MI2",
+    "footprint_uuid": "45b1a989-855f-4e87-a02d-5725845b9cd2",
+    "pin": "111",
+    "termination": "N/A \u2014 mechanical interlock; no wire termination",
+    "source": "Mechanical interlock marker"
+  },
+  {
+    "reference": "MI2",
+    "footprint_uuid": "45b1a989-855f-4e87-a02d-5725845b9cd2",
+    "pin": "112",
+    "termination": "N/A \u2014 mechanical interlock; no wire termination",
+    "source": "Mechanical interlock marker"
+  },
+  {
+    "reference": "MI2",
+    "footprint_uuid": "45b1a989-855f-4e87-a02d-5725845b9cd2",
+    "pin": "121",
+    "termination": "N/A \u2014 mechanical interlock; no wire termination",
+    "source": "Mechanical interlock marker"
+  },
+  {
+    "reference": "MI2",
+    "footprint_uuid": "45b1a989-855f-4e87-a02d-5725845b9cd2",
+    "pin": "122",
+    "termination": "N/A \u2014 mechanical interlock; no wire termination",
+    "source": "Mechanical interlock marker"
+  },
+  {
+    "reference": "REF**",
+    "footprint_uuid": "4a82e854-d557-4d87-92ee-631d3da6308f",
+    "pin": "1",
+    "termination": "Termination type TBD; conductor size TBD",
+    "source": "No recorded selection; left explicit"
+  },
+  {
+    "reference": "REF**",
+    "footprint_uuid": "4a82e854-d557-4d87-92ee-631d3da6308f",
+    "pin": "2",
+    "termination": "Termination type TBD; conductor size TBD",
+    "source": "No recorded selection; left explicit"
+  },
+  {
+    "reference": "REF**",
+    "footprint_uuid": "4a82e854-d557-4d87-92ee-631d3da6308f",
+    "pin": "PE",
+    "termination": "Conductive DIN-rail foot (retained)",
+    "source": "Ground terminal rail contact"
+  },
+  {
+    "reference": "TB42",
+    "footprint_uuid": "52715a9b-4b11-4b19-a77a-58c4871e4c9d",
+    "pin": "BOT",
+    "termination": "Ferrule 12 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB42",
+    "footprint_uuid": "52715a9b-4b11-4b19-a77a-58c4871e4c9d",
+    "pin": "TOP",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB13",
+    "footprint_uuid": "52754e15-95c1-407a-8564-ba5837b148f2",
+    "pin": "BOT",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB13",
+    "footprint_uuid": "52754e15-95c1-407a-8564-ba5837b148f2",
+    "pin": "TOP",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB41",
+    "footprint_uuid": "54c59d4d-702a-46fe-8703-c671cc3a568d",
+    "pin": "BOT",
+    "termination": "Ferrule 12 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB41",
+    "footprint_uuid": "54c59d4d-702a-46fe-8703-c671cc3a568d",
+    "pin": "TOP",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB10",
+    "footprint_uuid": "58db6f61-7594-40df-855b-9b52b7ea8db4",
+    "pin": "BOT",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB10",
+    "footprint_uuid": "58db6f61-7594-40df-855b-9b52b7ea8db4",
+    "pin": "TOP",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB2",
+    "footprint_uuid": "59758ce8-c3c6-47ec-88d1-c877937f0598",
+    "pin": "BOT",
+    "termination": "Termination type TBD; conductor size TBD",
+    "source": "No recorded selection; left explicit"
+  },
+  {
+    "reference": "TB2",
+    "footprint_uuid": "59758ce8-c3c6-47ec-88d1-c877937f0598",
+    "pin": "TOP",
+    "termination": "Termination type TBD; conductor size TBD",
+    "source": "No recorded selection; left explicit"
+  },
+  {
+    "reference": "K2",
+    "footprint_uuid": "597b786e-4ac2-491c-9073-9bd131e26112",
+    "pin": "1",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K2",
+    "footprint_uuid": "597b786e-4ac2-491c-9073-9bd131e26112",
+    "pin": "2",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K2",
+    "footprint_uuid": "597b786e-4ac2-491c-9073-9bd131e26112",
+    "pin": "3",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K2",
+    "footprint_uuid": "597b786e-4ac2-491c-9073-9bd131e26112",
+    "pin": "31",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K2",
+    "footprint_uuid": "597b786e-4ac2-491c-9073-9bd131e26112",
+    "pin": "32",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K2",
+    "footprint_uuid": "597b786e-4ac2-491c-9073-9bd131e26112",
+    "pin": "4",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K2",
+    "footprint_uuid": "597b786e-4ac2-491c-9073-9bd131e26112",
+    "pin": "43",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K2",
+    "footprint_uuid": "597b786e-4ac2-491c-9073-9bd131e26112",
+    "pin": "44",
+    "termination": "Twin ferrule 2 \u00d7 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K2",
+    "footprint_uuid": "597b786e-4ac2-491c-9073-9bd131e26112",
+    "pin": "5",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K2",
+    "footprint_uuid": "597b786e-4ac2-491c-9073-9bd131e26112",
+    "pin": "6",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K2",
+    "footprint_uuid": "597b786e-4ac2-491c-9073-9bd131e26112",
+    "pin": "A1.BOT",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K2",
+    "footprint_uuid": "597b786e-4ac2-491c-9073-9bd131e26112",
+    "pin": "A1.TOP",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K2",
+    "footprint_uuid": "597b786e-4ac2-491c-9073-9bd131e26112",
+    "pin": "A2.BOT",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K2",
+    "footprint_uuid": "597b786e-4ac2-491c-9073-9bd131e26112",
+    "pin": "A2.TOP",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "TB11",
+    "footprint_uuid": "60c128e3-9628-4a27-9e2b-440e7799d5af",
+    "pin": "BOT",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB11",
+    "footprint_uuid": "60c128e3-9628-4a27-9e2b-440e7799d5af",
+    "pin": "TOP",
+    "termination": "Termination type TBD; conductor size TBD",
+    "source": "No recorded selection; left explicit"
+  },
+  {
+    "reference": "TB62",
+    "footprint_uuid": "63be61a3-f2b5-4e7f-acc1-5df3183c4e59",
+    "pin": "BOT",
+    "termination": "Ferrule 16 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB62",
+    "footprint_uuid": "63be61a3-f2b5-4e7f-acc1-5df3183c4e59",
+    "pin": "TOP",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB50",
+    "footprint_uuid": "668e9352-c702-47d2-8fdf-23cb39332c77",
+    "pin": "1",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB50",
+    "footprint_uuid": "668e9352-c702-47d2-8fdf-23cb39332c77",
+    "pin": "2",
+    "termination": "Ferrule 12 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB50",
+    "footprint_uuid": "668e9352-c702-47d2-8fdf-23cb39332c77",
+    "pin": "PE",
+    "termination": "Conductive DIN-rail foot (retained)",
+    "source": "Ground terminal rail contact"
+  },
+  {
+    "reference": "TB22",
+    "footprint_uuid": "69fd8778-ddb6-4d5a-86d0-033e5a9c840b",
+    "pin": "BOT",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB22",
+    "footprint_uuid": "69fd8778-ddb6-4d5a-86d0-033e5a9c840b",
+    "pin": "TOP",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB24",
+    "footprint_uuid": "6a44dee9-45a5-4503-a9c2-1273f172a13c",
+    "pin": "BOT",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB24",
+    "footprint_uuid": "6a44dee9-45a5-4503-a9c2-1273f172a13c",
+    "pin": "TOP",
+    "termination": "Termination type TBD; conductor size TBD",
+    "source": "No recorded selection; left explicit"
+  },
+  {
+    "reference": "TB67",
+    "footprint_uuid": "6d091486-19b0-4430-8450-45bfd8433b8e",
+    "pin": "BOT",
+    "termination": "Ferrule 16 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB67",
+    "footprint_uuid": "6d091486-19b0-4430-8450-45bfd8433b8e",
+    "pin": "TOP",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB61",
+    "footprint_uuid": "6e46f6cc-1daf-437f-8d24-0108f64b3d66",
+    "pin": "BOT",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB61",
+    "footprint_uuid": "6e46f6cc-1daf-437f-8d24-0108f64b3d66",
+    "pin": "TOP",
+    "termination": "Termination type TBD; conductor size TBD",
+    "source": "No recorded selection; left explicit"
+  },
+  {
+    "reference": "SP6",
+    "footprint_uuid": "7584fc8b-b7c3-4abd-814f-d1cf3915f9c8",
+    "pin": "1",
+    "termination": "Supplied fork-ended lead (retained)",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "SP6",
+    "footprint_uuid": "7584fc8b-b7c3-4abd-814f-d1cf3915f9c8",
+    "pin": "2",
+    "termination": "Supplied fork-ended lead (retained)",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "PS1",
+    "footprint_uuid": "7ce81b40-2a32-461d-b2c1-351a6ebf35ea",
+    "pin": "1_BOT",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "PS1",
+    "footprint_uuid": "7ce81b40-2a32-461d-b2c1-351a6ebf35ea",
+    "pin": "1_TOP",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "PS1",
+    "footprint_uuid": "7ce81b40-2a32-461d-b2c1-351a6ebf35ea",
+    "pin": "2_BOT",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "PS1",
+    "footprint_uuid": "7ce81b40-2a32-461d-b2c1-351a6ebf35ea",
+    "pin": "2_TOP",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "PS1",
+    "footprint_uuid": "7ce81b40-2a32-461d-b2c1-351a6ebf35ea",
+    "pin": "3_BOT",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "PS1",
+    "footprint_uuid": "7ce81b40-2a32-461d-b2c1-351a6ebf35ea",
+    "pin": "3_TOP",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "PS1",
+    "footprint_uuid": "7ce81b40-2a32-461d-b2c1-351a6ebf35ea",
+    "pin": "4_TOP",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "FH1",
+    "footprint_uuid": "881a4fe9-8c01-4d3c-ba81-5e2d7ef47b2a",
+    "pin": "P1.A",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "FH1",
+    "footprint_uuid": "881a4fe9-8c01-4d3c-ba81-5e2d7ef47b2a",
+    "pin": "P1.B",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "FH1",
+    "footprint_uuid": "881a4fe9-8c01-4d3c-ba81-5e2d7ef47b2a",
+    "pin": "P2.A",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "FH1",
+    "footprint_uuid": "881a4fe9-8c01-4d3c-ba81-5e2d7ef47b2a",
+    "pin": "P2.B",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "FH1",
+    "footprint_uuid": "881a4fe9-8c01-4d3c-ba81-5e2d7ef47b2a",
+    "pin": "P3.A",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "FH1",
+    "footprint_uuid": "881a4fe9-8c01-4d3c-ba81-5e2d7ef47b2a",
+    "pin": "P3.B",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "H1",
+    "footprint_uuid": "90abbf71-3550-46ac-966f-45ca5039ce4e",
+    "pin": "X1",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Existing indicator wiring selection"
+  },
+  {
+    "reference": "H1",
+    "footprint_uuid": "90abbf71-3550-46ac-966f-45ca5039ce4e",
+    "pin": "X2",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Existing indicator wiring selection"
+  },
+  {
+    "reference": "K3",
+    "footprint_uuid": "9a0e744a-f2cb-4826-b202-8d749982b9f5",
+    "pin": "13",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K3",
+    "footprint_uuid": "9a0e744a-f2cb-4826-b202-8d749982b9f5",
+    "pin": "14",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K3",
+    "footprint_uuid": "9a0e744a-f2cb-4826-b202-8d749982b9f5",
+    "pin": "23",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K3",
+    "footprint_uuid": "9a0e744a-f2cb-4826-b202-8d749982b9f5",
+    "pin": "24",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K3",
+    "footprint_uuid": "9a0e744a-f2cb-4826-b202-8d749982b9f5",
+    "pin": "31",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K3",
+    "footprint_uuid": "9a0e744a-f2cb-4826-b202-8d749982b9f5",
+    "pin": "32",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K3",
+    "footprint_uuid": "9a0e744a-f2cb-4826-b202-8d749982b9f5",
+    "pin": "41",
+    "termination": "N/A \u2014 unused pin",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K3",
+    "footprint_uuid": "9a0e744a-f2cb-4826-b202-8d749982b9f5",
+    "pin": "42",
+    "termination": "N/A \u2014 unused pin",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K3",
+    "footprint_uuid": "9a0e744a-f2cb-4826-b202-8d749982b9f5",
+    "pin": "A1+",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K3",
+    "footprint_uuid": "9a0e744a-f2cb-4826-b202-8d749982b9f5",
+    "pin": "A2",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "SP4",
+    "footprint_uuid": "9aea2771-44e7-4700-9a38-494fb944a4d6",
+    "pin": "1",
+    "termination": "Supplied fork-ended lead (retained)",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "SP4",
+    "footprint_uuid": "9aea2771-44e7-4700-9a38-494fb944a4d6",
+    "pin": "2",
+    "termination": "Supplied fork-ended lead (retained)",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "OL4",
+    "footprint_uuid": "9fdf03b9-7f23-481b-a930-8d37a7c0b950",
+    "pin": "2",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "OL4",
+    "footprint_uuid": "9fdf03b9-7f23-481b-a930-8d37a7c0b950",
+    "pin": "4",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "OL4",
+    "footprint_uuid": "9fdf03b9-7f23-481b-a930-8d37a7c0b950",
+    "pin": "6",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "OL4",
+    "footprint_uuid": "9fdf03b9-7f23-481b-a930-8d37a7c0b950",
+    "pin": "95",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "OL4",
+    "footprint_uuid": "9fdf03b9-7f23-481b-a930-8d37a7c0b950",
+    "pin": "96",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "OL4",
+    "footprint_uuid": "9fdf03b9-7f23-481b-a930-8d37a7c0b950",
+    "pin": "97",
+    "termination": "N/A \u2014 unused pin",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "OL4",
+    "footprint_uuid": "9fdf03b9-7f23-481b-a930-8d37a7c0b950",
+    "pin": "98",
+    "termination": "N/A \u2014 unused pin",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "OL4",
+    "footprint_uuid": "9fdf03b9-7f23-481b-a930-8d37a7c0b950",
+    "pin": "IN1",
+    "termination": "N/A \u2014 direct-mounted connection",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "OL4",
+    "footprint_uuid": "9fdf03b9-7f23-481b-a930-8d37a7c0b950",
+    "pin": "IN2",
+    "termination": "N/A \u2014 direct-mounted connection",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "OL4",
+    "footprint_uuid": "9fdf03b9-7f23-481b-a930-8d37a7c0b950",
+    "pin": "IN3",
+    "termination": "N/A \u2014 direct-mounted connection",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K6",
+    "footprint_uuid": "a4bc448f-0f6b-457b-8ecb-67b424a87ff1",
+    "pin": "1",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K6",
+    "footprint_uuid": "a4bc448f-0f6b-457b-8ecb-67b424a87ff1",
+    "pin": "2",
+    "termination": "N/A \u2014 direct-mounted connection",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K6",
+    "footprint_uuid": "a4bc448f-0f6b-457b-8ecb-67b424a87ff1",
+    "pin": "3",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K6",
+    "footprint_uuid": "a4bc448f-0f6b-457b-8ecb-67b424a87ff1",
+    "pin": "31",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K6",
+    "footprint_uuid": "a4bc448f-0f6b-457b-8ecb-67b424a87ff1",
+    "pin": "32",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K6",
+    "footprint_uuid": "a4bc448f-0f6b-457b-8ecb-67b424a87ff1",
+    "pin": "4",
+    "termination": "N/A \u2014 direct-mounted connection",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K6",
+    "footprint_uuid": "a4bc448f-0f6b-457b-8ecb-67b424a87ff1",
+    "pin": "43",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K6",
+    "footprint_uuid": "a4bc448f-0f6b-457b-8ecb-67b424a87ff1",
+    "pin": "44",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K6",
+    "footprint_uuid": "a4bc448f-0f6b-457b-8ecb-67b424a87ff1",
+    "pin": "5",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K6",
+    "footprint_uuid": "a4bc448f-0f6b-457b-8ecb-67b424a87ff1",
+    "pin": "6",
+    "termination": "N/A \u2014 direct-mounted connection",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K6",
+    "footprint_uuid": "a4bc448f-0f6b-457b-8ecb-67b424a87ff1",
+    "pin": "A1.BOT",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K6",
+    "footprint_uuid": "a4bc448f-0f6b-457b-8ecb-67b424a87ff1",
+    "pin": "A1.TOP",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K6",
+    "footprint_uuid": "a4bc448f-0f6b-457b-8ecb-67b424a87ff1",
+    "pin": "A2.BOT",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K6",
+    "footprint_uuid": "a4bc448f-0f6b-457b-8ecb-67b424a87ff1",
+    "pin": "A2.TOP",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "MI1",
+    "footprint_uuid": "aebd7f26-e1c2-4ed7-9f45-b5088ba48af9",
+    "pin": "111",
+    "termination": "N/A \u2014 mechanical interlock; no wire termination",
+    "source": "Mechanical interlock marker"
+  },
+  {
+    "reference": "MI1",
+    "footprint_uuid": "aebd7f26-e1c2-4ed7-9f45-b5088ba48af9",
+    "pin": "112",
+    "termination": "N/A \u2014 mechanical interlock; no wire termination",
+    "source": "Mechanical interlock marker"
+  },
+  {
+    "reference": "MI1",
+    "footprint_uuid": "aebd7f26-e1c2-4ed7-9f45-b5088ba48af9",
+    "pin": "121",
+    "termination": "N/A \u2014 mechanical interlock; no wire termination",
+    "source": "Mechanical interlock marker"
+  },
+  {
+    "reference": "MI1",
+    "footprint_uuid": "aebd7f26-e1c2-4ed7-9f45-b5088ba48af9",
+    "pin": "122",
+    "termination": "N/A \u2014 mechanical interlock; no wire termination",
+    "source": "Mechanical interlock marker"
+  },
+  {
+    "reference": "TB51",
+    "footprint_uuid": "b2e4189c-8740-4773-add8-8bf56050e00b",
+    "pin": "1",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB51",
+    "footprint_uuid": "b2e4189c-8740-4773-add8-8bf56050e00b",
+    "pin": "2",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB51",
+    "footprint_uuid": "b2e4189c-8740-4773-add8-8bf56050e00b",
+    "pin": "PE",
+    "termination": "Conductive DIN-rail foot (retained)",
+    "source": "Ground terminal rail contact"
+  },
+  {
+    "reference": "TB3",
+    "footprint_uuid": "b73101be-cc14-4294-bd66-473649f8a7d4",
+    "pin": "BOT",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB3",
+    "footprint_uuid": "b73101be-cc14-4294-bd66-473649f8a7d4",
+    "pin": "TOP",
+    "termination": "Termination type TBD; conductor size TBD",
+    "source": "No recorded selection; left explicit"
+  },
+  {
+    "reference": "TB64",
+    "footprint_uuid": "c2a1a46b-a854-4a80-84c2-eefbb6b75117",
+    "pin": "BOT",
+    "termination": "Ferrule 16 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB64",
+    "footprint_uuid": "c2a1a46b-a854-4a80-84c2-eefbb6b75117",
+    "pin": "TOP",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "S2",
+    "footprint_uuid": "c491acc7-9a93-470c-9bec-6c85ea3dcdc5",
+    "pin": "1B",
+    "termination": "Ring terminal, 16 AWG; stud=#8-32; OD<=9 mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "S2",
+    "footprint_uuid": "c491acc7-9a93-470c-9bec-6c85ea3dcdc5",
+    "pin": "1T",
+    "termination": "Retained jumper",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "S2",
+    "footprint_uuid": "c491acc7-9a93-470c-9bec-6c85ea3dcdc5",
+    "pin": "2B",
+    "termination": "Ring terminal, 16 AWG; stud=#8-32; OD<=9 mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "S2",
+    "footprint_uuid": "c491acc7-9a93-470c-9bec-6c85ea3dcdc5",
+    "pin": "2T",
+    "termination": "N/A \u2014 unused pin",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "S2",
+    "footprint_uuid": "c491acc7-9a93-470c-9bec-6c85ea3dcdc5",
+    "pin": "3B",
+    "termination": "Ring terminal, 16 AWG; stud=#8-32; OD<=9 mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "S2",
+    "footprint_uuid": "c491acc7-9a93-470c-9bec-6c85ea3dcdc5",
+    "pin": "3T",
+    "termination": "Retained jumper",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "S2",
+    "footprint_uuid": "c491acc7-9a93-470c-9bec-6c85ea3dcdc5",
+    "pin": "4B",
+    "termination": "Required jumper, 2B-4B",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "S2",
+    "footprint_uuid": "c491acc7-9a93-470c-9bec-6c85ea3dcdc5",
+    "pin": "4T",
+    "termination": "N/A \u2014 unused pin",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "S2",
+    "footprint_uuid": "c491acc7-9a93-470c-9bec-6c85ea3dcdc5",
+    "pin": "5T",
+    "termination": "Ring terminal, 16 AWG; stud=#8-32; OD<=9 mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "S2",
+    "footprint_uuid": "c491acc7-9a93-470c-9bec-6c85ea3dcdc5",
+    "pin": "6T",
+    "termination": "Ring terminal, 16 AWG; stud=#8-32; OD<=9 mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "TB30",
+    "footprint_uuid": "c4a4fe75-89f6-4250-8e67-b7e293aaccfe",
+    "pin": "BOT",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB30",
+    "footprint_uuid": "c4a4fe75-89f6-4250-8e67-b7e293aaccfe",
+    "pin": "TOP",
+    "termination": "Termination type TBD; conductor size TBD",
+    "source": "No recorded selection; left explicit"
+  },
+  {
+    "reference": "TB12",
+    "footprint_uuid": "c6a069cf-78c1-4b23-a1cd-948c5e4e1d8a",
+    "pin": "BOT",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB12",
+    "footprint_uuid": "c6a069cf-78c1-4b23-a1cd-948c5e4e1d8a",
+    "pin": "TOP",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB60",
+    "footprint_uuid": "c9af24ee-2c3a-4e26-9451-1cd9b57be249",
+    "pin": "BOT",
+    "termination": "Ferrule 16 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB60",
+    "footprint_uuid": "c9af24ee-2c3a-4e26-9451-1cd9b57be249",
+    "pin": "TOP",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "OL6",
+    "footprint_uuid": "cda5f54f-21cb-42d1-bf20-ea5292de69d9",
+    "pin": "2",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "OL6",
+    "footprint_uuid": "cda5f54f-21cb-42d1-bf20-ea5292de69d9",
+    "pin": "4",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "OL6",
+    "footprint_uuid": "cda5f54f-21cb-42d1-bf20-ea5292de69d9",
+    "pin": "6",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "OL6",
+    "footprint_uuid": "cda5f54f-21cb-42d1-bf20-ea5292de69d9",
+    "pin": "95",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "OL6",
+    "footprint_uuid": "cda5f54f-21cb-42d1-bf20-ea5292de69d9",
+    "pin": "96",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "OL6",
+    "footprint_uuid": "cda5f54f-21cb-42d1-bf20-ea5292de69d9",
+    "pin": "97",
+    "termination": "N/A \u2014 unused pin",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "OL6",
+    "footprint_uuid": "cda5f54f-21cb-42d1-bf20-ea5292de69d9",
+    "pin": "98",
+    "termination": "N/A \u2014 unused pin",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "OL6",
+    "footprint_uuid": "cda5f54f-21cb-42d1-bf20-ea5292de69d9",
+    "pin": "IN1",
+    "termination": "N/A \u2014 direct-mounted connection",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "OL6",
+    "footprint_uuid": "cda5f54f-21cb-42d1-bf20-ea5292de69d9",
+    "pin": "IN2",
+    "termination": "N/A \u2014 direct-mounted connection",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "OL6",
+    "footprint_uuid": "cda5f54f-21cb-42d1-bf20-ea5292de69d9",
+    "pin": "IN3",
+    "termination": "N/A \u2014 direct-mounted connection",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "SW1",
+    "footprint_uuid": "cde670ae-42bf-430c-a5b0-51b20b9c4d96",
+    "pin": "1",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "SW1",
+    "footprint_uuid": "cde670ae-42bf-430c-a5b0-51b20b9c4d96",
+    "pin": "2",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "SW1",
+    "footprint_uuid": "cde670ae-42bf-430c-a5b0-51b20b9c4d96",
+    "pin": "3",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "SW1",
+    "footprint_uuid": "cde670ae-42bf-430c-a5b0-51b20b9c4d96",
+    "pin": "4",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "SW1",
+    "footprint_uuid": "cde670ae-42bf-430c-a5b0-51b20b9c4d96",
+    "pin": "5",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "SW1",
+    "footprint_uuid": "cde670ae-42bf-430c-a5b0-51b20b9c4d96",
+    "pin": "6",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "J1",
+    "footprint_uuid": "d1934e84-b876-4976-92bb-4d5b82c21482",
+    "pin": "1",
+    "termination": "Factory pigtail, 22 AWG (retained)",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "J1",
+    "footprint_uuid": "d1934e84-b876-4976-92bb-4d5b82c21482",
+    "pin": "2",
+    "termination": "Factory pigtail, 22 AWG (retained)",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "J1",
+    "footprint_uuid": "d1934e84-b876-4976-92bb-4d5b82c21482",
+    "pin": "3",
+    "termination": "Factory pigtail, 22 AWG (retained)",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "J1",
+    "footprint_uuid": "d1934e84-b876-4976-92bb-4d5b82c21482",
+    "pin": "4",
+    "termination": "Factory pigtail, 22 AWG (retained)",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "TB68",
+    "footprint_uuid": "d4509d04-27e2-42b4-ac32-5478a6a20657",
+    "pin": "BOT",
+    "termination": "Ferrule 16 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB68",
+    "footprint_uuid": "d4509d04-27e2-42b4-ac32-5478a6a20657",
+    "pin": "TOP",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB1",
+    "footprint_uuid": "d67cf62c-eb0b-409b-a9e5-b2828d852472",
+    "pin": "BOT",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB1",
+    "footprint_uuid": "d67cf62c-eb0b-409b-a9e5-b2828d852472",
+    "pin": "TOP",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "J3",
+    "footprint_uuid": "db6e2adf-e7b1-45d2-ba94-e0c09957a3cb",
+    "pin": "G.IN",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "J3",
+    "footprint_uuid": "db6e2adf-e7b1-45d2-ba94-e0c09957a3cb",
+    "pin": "G.OUT",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "J3",
+    "footprint_uuid": "db6e2adf-e7b1-45d2-ba94-e0c09957a3cb",
+    "pin": "X.IN",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "J3",
+    "footprint_uuid": "db6e2adf-e7b1-45d2-ba94-e0c09957a3cb",
+    "pin": "X.OUT",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "J3",
+    "footprint_uuid": "db6e2adf-e7b1-45d2-ba94-e0c09957a3cb",
+    "pin": "Y.IN",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "J3",
+    "footprint_uuid": "db6e2adf-e7b1-45d2-ba94-e0c09957a3cb",
+    "pin": "Y.OUT",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "J3",
+    "footprint_uuid": "db6e2adf-e7b1-45d2-ba94-e0c09957a3cb",
+    "pin": "Z.IN",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "J3",
+    "footprint_uuid": "db6e2adf-e7b1-45d2-ba94-e0c09957a3cb",
+    "pin": "Z.OUT",
+    "termination": "N/A \u2014 cable pass-through; no electrical termination",
+    "source": "Gland routing marker"
+  },
+  {
+    "reference": "TB40",
+    "footprint_uuid": "e203608c-d243-4409-a916-b4fe0c330d32",
+    "pin": "BOT",
+    "termination": "Ferrule 12 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB40",
+    "footprint_uuid": "e203608c-d243-4409-a916-b4fe0c330d32",
+    "pin": "TOP",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "K4",
+    "footprint_uuid": "e649482a-048f-454d-b9e8-2685488b69c5",
+    "pin": "1",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K4",
+    "footprint_uuid": "e649482a-048f-454d-b9e8-2685488b69c5",
+    "pin": "2",
+    "termination": "N/A \u2014 direct-mounted connection",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K4",
+    "footprint_uuid": "e649482a-048f-454d-b9e8-2685488b69c5",
+    "pin": "3",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K4",
+    "footprint_uuid": "e649482a-048f-454d-b9e8-2685488b69c5",
+    "pin": "31",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K4",
+    "footprint_uuid": "e649482a-048f-454d-b9e8-2685488b69c5",
+    "pin": "32",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K4",
+    "footprint_uuid": "e649482a-048f-454d-b9e8-2685488b69c5",
+    "pin": "4",
+    "termination": "N/A \u2014 direct-mounted connection",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K4",
+    "footprint_uuid": "e649482a-048f-454d-b9e8-2685488b69c5",
+    "pin": "43",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K4",
+    "footprint_uuid": "e649482a-048f-454d-b9e8-2685488b69c5",
+    "pin": "44",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K4",
+    "footprint_uuid": "e649482a-048f-454d-b9e8-2685488b69c5",
+    "pin": "5",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K4",
+    "footprint_uuid": "e649482a-048f-454d-b9e8-2685488b69c5",
+    "pin": "6",
+    "termination": "N/A \u2014 direct-mounted connection",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K4",
+    "footprint_uuid": "e649482a-048f-454d-b9e8-2685488b69c5",
+    "pin": "A1.BOT",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K4",
+    "footprint_uuid": "e649482a-048f-454d-b9e8-2685488b69c5",
+    "pin": "A1.TOP",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K4",
+    "footprint_uuid": "e649482a-048f-454d-b9e8-2685488b69c5",
+    "pin": "A2.BOT",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K4",
+    "footprint_uuid": "e649482a-048f-454d-b9e8-2685488b69c5",
+    "pin": "A2.TOP",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "TB63",
+    "footprint_uuid": "e696360c-b34b-4d02-b8a6-b1dfa3b5bb88",
+    "pin": "BOT",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB63",
+    "footprint_uuid": "e696360c-b34b-4d02-b8a6-b1dfa3b5bb88",
+    "pin": "TOP",
+    "termination": "Termination type TBD; conductor size TBD",
+    "source": "No recorded selection; left explicit"
+  },
+  {
+    "reference": "S3",
+    "footprint_uuid": "ecec9467-c37c-4c04-a1ad-b2052ef1774d",
+    "pin": "1B",
+    "termination": "Ring terminal, 16 AWG; stud=#8-32; OD<=9 mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "S3",
+    "footprint_uuid": "ecec9467-c37c-4c04-a1ad-b2052ef1774d",
+    "pin": "1T",
+    "termination": "Ring terminal, 16 AWG; stud=#8-32; OD<=9 mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "S3",
+    "footprint_uuid": "ecec9467-c37c-4c04-a1ad-b2052ef1774d",
+    "pin": "2B",
+    "termination": "Retained jumper",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "S3",
+    "footprint_uuid": "ecec9467-c37c-4c04-a1ad-b2052ef1774d",
+    "pin": "2T",
+    "termination": "Ring terminal, 16 AWG; stud=#8-32; OD<=9 mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "S3",
+    "footprint_uuid": "ecec9467-c37c-4c04-a1ad-b2052ef1774d",
+    "pin": "3B",
+    "termination": "Retained jumper",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "S3",
+    "footprint_uuid": "ecec9467-c37c-4c04-a1ad-b2052ef1774d",
+    "pin": "3T",
+    "termination": "Retained jumper",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "S3",
+    "footprint_uuid": "ecec9467-c37c-4c04-a1ad-b2052ef1774d",
+    "pin": "4B",
+    "termination": "Retained jumper",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "S3",
+    "footprint_uuid": "ecec9467-c37c-4c04-a1ad-b2052ef1774d",
+    "pin": "4T",
+    "termination": "Retained jumper",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "S3",
+    "footprint_uuid": "ecec9467-c37c-4c04-a1ad-b2052ef1774d",
+    "pin": "5B",
+    "termination": "Retained jumper",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "S3",
+    "footprint_uuid": "ecec9467-c37c-4c04-a1ad-b2052ef1774d",
+    "pin": "5T",
+    "termination": "Retained jumper",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "S3",
+    "footprint_uuid": "ecec9467-c37c-4c04-a1ad-b2052ef1774d",
+    "pin": "6B",
+    "termination": "N/A \u2014 unused pin",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "S3",
+    "footprint_uuid": "ecec9467-c37c-4c04-a1ad-b2052ef1774d",
+    "pin": "6T",
+    "termination": "Retained jumper",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "S3",
+    "footprint_uuid": "ecec9467-c37c-4c04-a1ad-b2052ef1774d",
+    "pin": "7B",
+    "termination": "Retained jumper",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "S3",
+    "footprint_uuid": "ecec9467-c37c-4c04-a1ad-b2052ef1774d",
+    "pin": "7T",
+    "termination": "Retained jumper",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "S3",
+    "footprint_uuid": "ecec9467-c37c-4c04-a1ad-b2052ef1774d",
+    "pin": "8B",
+    "termination": "Retained jumper",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "S3",
+    "footprint_uuid": "ecec9467-c37c-4c04-a1ad-b2052ef1774d",
+    "pin": "8T",
+    "termination": "N/A \u2014 unused pin",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "TB20",
+    "footprint_uuid": "f365cabb-7051-4936-a4d2-08bd4d97e853",
+    "pin": "BOT",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "TB20",
+    "footprint_uuid": "f365cabb-7051-4936-a4d2-08bd4d97e853",
+    "pin": "TOP",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Legacy schedule draft, pending wiring reconciliation"
+  },
+  {
+    "reference": "K5",
+    "footprint_uuid": "fa8ee1db-f6fc-4498-b77f-a04dbe3a5d21",
+    "pin": "1",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K5",
+    "footprint_uuid": "fa8ee1db-f6fc-4498-b77f-a04dbe3a5d21",
+    "pin": "2",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K5",
+    "footprint_uuid": "fa8ee1db-f6fc-4498-b77f-a04dbe3a5d21",
+    "pin": "3",
+    "termination": "Twin ferrule 2 \u00d7 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K5",
+    "footprint_uuid": "fa8ee1db-f6fc-4498-b77f-a04dbe3a5d21",
+    "pin": "31",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K5",
+    "footprint_uuid": "fa8ee1db-f6fc-4498-b77f-a04dbe3a5d21",
+    "pin": "32",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K5",
+    "footprint_uuid": "fa8ee1db-f6fc-4498-b77f-a04dbe3a5d21",
+    "pin": "4",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K5",
+    "footprint_uuid": "fa8ee1db-f6fc-4498-b77f-a04dbe3a5d21",
+    "pin": "43",
+    "termination": "Twin ferrule 2 \u00d7 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K5",
+    "footprint_uuid": "fa8ee1db-f6fc-4498-b77f-a04dbe3a5d21",
+    "pin": "44",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K5",
+    "footprint_uuid": "fa8ee1db-f6fc-4498-b77f-a04dbe3a5d21",
+    "pin": "5",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K5",
+    "footprint_uuid": "fa8ee1db-f6fc-4498-b77f-a04dbe3a5d21",
+    "pin": "6",
+    "termination": "Ferrule 14 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K5",
+    "footprint_uuid": "fa8ee1db-f6fc-4498-b77f-a04dbe3a5d21",
+    "pin": "A1.BOT",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K5",
+    "footprint_uuid": "fa8ee1db-f6fc-4498-b77f-a04dbe3a5d21",
+    "pin": "A1.TOP",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K5",
+    "footprint_uuid": "fa8ee1db-f6fc-4498-b77f-a04dbe3a5d21",
+    "pin": "A2.BOT",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "K5",
+    "footprint_uuid": "fa8ee1db-f6fc-4498-b77f-a04dbe3a5d21",
+    "pin": "A2.TOP",
+    "termination": "Ferrule 18 AWG; L=TBD mm",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "J6",
+    "footprint_uuid": "e1fcf95a-4b1c-48f7-8f26-809d52c96c37",
+    "pin": "1",
+    "termination": "M12 mating contact (retained)",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "J6",
+    "footprint_uuid": "e1fcf95a-4b1c-48f7-8f26-809d52c96c37",
+    "pin": "2",
+    "termination": "M12 mating contact (retained)",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "J6",
+    "footprint_uuid": "e1fcf95a-4b1c-48f7-8f26-809d52c96c37",
+    "pin": "3",
+    "termination": "M12 mating contact (retained)",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "J6",
+    "footprint_uuid": "e1fcf95a-4b1c-48f7-8f26-809d52c96c37",
+    "pin": "4",
+    "termination": "M12 mating contact (retained)",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "J2",
+    "footprint_uuid": "f1852a78-033c-48c7-b595-067beab29d8f",
+    "pin": "G",
+    "termination": "Plug clamp, 12 AWG",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "J2",
+    "footprint_uuid": "f1852a78-033c-48c7-b595-067beab29d8f",
+    "pin": "X",
+    "termination": "Plug clamp, 12 AWG",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "J2",
+    "footprint_uuid": "f1852a78-033c-48c7-b595-067beab29d8f",
+    "pin": "Y",
+    "termination": "Plug clamp, 12 AWG",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "J2",
+    "footprint_uuid": "f1852a78-033c-48c7-b595-067beab29d8f",
+    "pin": "Z",
+    "termination": "Plug clamp, 12 AWG",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "S1",
+    "footprint_uuid": "c65d3959-1fdc-420d-a015-7c183640df16",
+    "pin": "1",
+    "termination": "Supplied assembly connection (retained)",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "S1",
+    "footprint_uuid": "c65d3959-1fdc-420d-a015-7c183640df16",
+    "pin": "2",
+    "termination": "Supplied assembly connection (retained)",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "S1",
+    "footprint_uuid": "c65d3959-1fdc-420d-a015-7c183640df16",
+    "pin": "3",
+    "termination": "Supplied assembly connection (retained)",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "S1",
+    "footprint_uuid": "c65d3959-1fdc-420d-a015-7c183640df16",
+    "pin": "4",
+    "termination": "Supplied assembly connection (retained)",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "M1",
+    "footprint_uuid": "f0cbeb54-eac7-42a1-9730-a23d721d4a2b",
+    "pin": "PE",
+    "termination": "Wire-splice connector, 12 AWG",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "M1",
+    "footprint_uuid": "f0cbeb54-eac7-42a1-9730-a23d721d4a2b",
+    "pin": "T1",
+    "termination": "Wire-splice connector, 14 AWG",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "M1",
+    "footprint_uuid": "f0cbeb54-eac7-42a1-9730-a23d721d4a2b",
+    "pin": "T2",
+    "termination": "Wire-splice connector, 14 AWG",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "M1",
+    "footprint_uuid": "f0cbeb54-eac7-42a1-9730-a23d721d4a2b",
+    "pin": "T3",
+    "termination": "Wire-splice connector, 14 AWG",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "M1",
+    "footprint_uuid": "f0cbeb54-eac7-42a1-9730-a23d721d4a2b",
+    "pin": "T4",
+    "termination": "Wire-splice connector, 14 AWG",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "M1",
+    "footprint_uuid": "f0cbeb54-eac7-42a1-9730-a23d721d4a2b",
+    "pin": "T5",
+    "termination": "Wire-splice connector, 14 AWG",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "M1",
+    "footprint_uuid": "f0cbeb54-eac7-42a1-9730-a23d721d4a2b",
+    "pin": "T6",
+    "termination": "Wire-splice connector, 14 AWG",
+    "source": "Moved from existing symbol field"
+  },
+  {
+    "reference": "Enclosure",
+    "footprint_uuid": "92ca8d2b-1088-488b-99fd-eac830d2e7df",
+    "pin": "STUD",
+    "termination": "Ring 14 AWG; OD=TBD mm; ID=TBD mm (\u00bc-20 stud)",
+    "source": "Legacy mechanical bond draft; topology remains pending"
+  },
+  {
+    "reference": "Enclosure Door",
+    "footprint_uuid": "92ca8d2b-1088-488b-99fd-eac830d2e7df",
+    "pin": "DOOR_STUD",
+    "termination": "Ring 14 AWG; OD=TBD mm; ID=TBD mm",
+    "source": "Legacy mechanical bond draft; topology remains pending"
+  },
+  {
+    "reference": "Backplate",
+    "footprint_uuid": "92ca8d2b-1088-488b-99fd-eac830d2e7df",
+    "pin": "BACKPLATE_STUD",
+    "termination": "Ring 14 AWG; OD=TBD mm; ID=TBD mm",
+    "source": "Legacy mechanical bond draft; topology remains pending"
+  },
+  {
+    "reference": "Din Rail Top",
+    "footprint_uuid": "9481ac46-0af2-4745-8148-d2cdb1debc11",
+    "pin": "LUG",
+    "termination": "Ring 14 AWG; OD=TBD mm; ID=TBD mm",
+    "source": "Legacy mechanical bond draft; topology remains pending"
+  },
+  {
+    "reference": "Din Rail Bottom",
+    "footprint_uuid": "6776b713-2f9d-4d96-83a6-de8cc5f150da",
+    "pin": "LUG",
+    "termination": "Ring 14 AWG; OD=TBD mm; ID=TBD mm",
+    "source": "Legacy mechanical bond draft; topology remains pending"
+  }
+]

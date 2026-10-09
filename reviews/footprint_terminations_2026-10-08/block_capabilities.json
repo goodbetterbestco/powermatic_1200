@@ -1,0 +1,471 @@
+{
+  "source_sha256": "08d87e5d206a49ffb4b661c43e328e1e165848dad441435fbf42634a6f5698d3",
+  "final_sha256": "fdf6a442a08632ac2e6a835f642579779ef12beaed11c2476f39a9db69bd4e53",
+  "updated_clamps": 66,
+  "termination_capability": "Ferrule or twin ferrule as required",
+  "changes": [
+    {
+      "reference": "TB33",
+      "footprint_uuid": "013df479-a6f5-43c6-9dc7-5b630e4cf676",
+      "terminal": "BOT",
+      "old": "Ferrule 18 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB33",
+      "footprint_uuid": "013df479-a6f5-43c6-9dc7-5b630e4cf676",
+      "terminal": "TOP",
+      "old": "Ferrule or twin ferrule as required; AWG=TBD; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB21",
+      "footprint_uuid": "15faab88-6fe4-4706-85f6-e7194763f3fa",
+      "terminal": "BOT",
+      "old": "Ferrule 18 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB21",
+      "footprint_uuid": "15faab88-6fe4-4706-85f6-e7194763f3fa",
+      "terminal": "TOP",
+      "old": "Ferrule or twin ferrule as required; AWG=TBD; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB32",
+      "footprint_uuid": "17662ee0-4299-4738-a83d-2b511a5421ad",
+      "terminal": "BOT",
+      "old": "Ferrule 18 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB32",
+      "footprint_uuid": "17662ee0-4299-4738-a83d-2b511a5421ad",
+      "terminal": "TOP",
+      "old": "Ferrule 18 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB65",
+      "footprint_uuid": "1be87848-f24f-4518-855a-11f5dd4a9f69",
+      "terminal": "BOT",
+      "old": "Ferrule 14 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB65",
+      "footprint_uuid": "1be87848-f24f-4518-855a-11f5dd4a9f69",
+      "terminal": "TOP",
+      "old": "Ferrule or twin ferrule as required; AWG=TBD; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB23",
+      "footprint_uuid": "240f1404-bc97-4505-bf53-88bf08e3bbc2",
+      "terminal": "BOT",
+      "old": "Ferrule 18 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB23",
+      "footprint_uuid": "240f1404-bc97-4505-bf53-88bf08e3bbc2",
+      "terminal": "TOP",
+      "old": "Ferrule 18 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB31",
+      "footprint_uuid": "25858a0d-f879-4a96-9250-262ea227f996",
+      "terminal": "BOT",
+      "old": "Ferrule 18 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB31",
+      "footprint_uuid": "25858a0d-f879-4a96-9250-262ea227f996",
+      "terminal": "TOP",
+      "old": "Ferrule or twin ferrule as required; AWG=TBD; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB52",
+      "footprint_uuid": "2ad761f3-4d96-4020-9b0a-09ef1c05f4d2",
+      "terminal": "1",
+      "old": "Ferrule 14 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB52",
+      "footprint_uuid": "2ad761f3-4d96-4020-9b0a-09ef1c05f4d2",
+      "terminal": "2",
+      "old": "Ferrule 12 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB66",
+      "footprint_uuid": "32eea564-4672-448f-84fa-ee64152e3eda",
+      "terminal": "BOT",
+      "old": "Ferrule 16 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB66",
+      "footprint_uuid": "32eea564-4672-448f-84fa-ee64152e3eda",
+      "terminal": "TOP",
+      "old": "Ferrule 14 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB14",
+      "footprint_uuid": "37e3c92b-3e61-487c-8b8a-32894ad8d025",
+      "terminal": "BOT",
+      "old": "Ferrule 18 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB14",
+      "footprint_uuid": "37e3c92b-3e61-487c-8b8a-32894ad8d025",
+      "terminal": "TOP",
+      "old": "Ferrule or twin ferrule as required; AWG=TBD; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "REF**",
+      "footprint_uuid": "4a82e854-d557-4d87-92ee-631d3da6308f",
+      "terminal": "1",
+      "old": "Ferrule or twin ferrule as required; AWG=TBD; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "REF**",
+      "footprint_uuid": "4a82e854-d557-4d87-92ee-631d3da6308f",
+      "terminal": "2",
+      "old": "Ferrule or twin ferrule as required; AWG=TBD; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB42",
+      "footprint_uuid": "52715a9b-4b11-4b19-a77a-58c4871e4c9d",
+      "terminal": "BOT",
+      "old": "Ferrule 12 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB42",
+      "footprint_uuid": "52715a9b-4b11-4b19-a77a-58c4871e4c9d",
+      "terminal": "TOP",
+      "old": "Ferrule 14 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB13",
+      "footprint_uuid": "52754e15-95c1-407a-8564-ba5837b148f2",
+      "terminal": "BOT",
+      "old": "Ferrule 18 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB13",
+      "footprint_uuid": "52754e15-95c1-407a-8564-ba5837b148f2",
+      "terminal": "TOP",
+      "old": "Ferrule 18 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB41",
+      "footprint_uuid": "54c59d4d-702a-46fe-8703-c671cc3a568d",
+      "terminal": "BOT",
+      "old": "Ferrule 12 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB41",
+      "footprint_uuid": "54c59d4d-702a-46fe-8703-c671cc3a568d",
+      "terminal": "TOP",
+      "old": "Ferrule 14 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB10",
+      "footprint_uuid": "58db6f61-7594-40df-855b-9b52b7ea8db4",
+      "terminal": "BOT",
+      "old": "Ferrule 18 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB10",
+      "footprint_uuid": "58db6f61-7594-40df-855b-9b52b7ea8db4",
+      "terminal": "TOP",
+      "old": "Ferrule 18 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB2",
+      "footprint_uuid": "59758ce8-c3c6-47ec-88d1-c877937f0598",
+      "terminal": "BOT",
+      "old": "Ferrule or twin ferrule as required; AWG=TBD; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB2",
+      "footprint_uuid": "59758ce8-c3c6-47ec-88d1-c877937f0598",
+      "terminal": "TOP",
+      "old": "Ferrule or twin ferrule as required; AWG=TBD; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB11",
+      "footprint_uuid": "60c128e3-9628-4a27-9e2b-440e7799d5af",
+      "terminal": "BOT",
+      "old": "Ferrule 18 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB11",
+      "footprint_uuid": "60c128e3-9628-4a27-9e2b-440e7799d5af",
+      "terminal": "TOP",
+      "old": "Ferrule or twin ferrule as required; AWG=TBD; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB62",
+      "footprint_uuid": "63be61a3-f2b5-4e7f-acc1-5df3183c4e59",
+      "terminal": "BOT",
+      "old": "Ferrule 16 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB62",
+      "footprint_uuid": "63be61a3-f2b5-4e7f-acc1-5df3183c4e59",
+      "terminal": "TOP",
+      "old": "Ferrule 14 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB50",
+      "footprint_uuid": "668e9352-c702-47d2-8fdf-23cb39332c77",
+      "terminal": "1",
+      "old": "Ferrule 14 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB50",
+      "footprint_uuid": "668e9352-c702-47d2-8fdf-23cb39332c77",
+      "terminal": "2",
+      "old": "Ferrule 12 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB22",
+      "footprint_uuid": "69fd8778-ddb6-4d5a-86d0-033e5a9c840b",
+      "terminal": "BOT",
+      "old": "Ferrule 18 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB22",
+      "footprint_uuid": "69fd8778-ddb6-4d5a-86d0-033e5a9c840b",
+      "terminal": "TOP",
+      "old": "Ferrule 18 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB24",
+      "footprint_uuid": "6a44dee9-45a5-4503-a9c2-1273f172a13c",
+      "terminal": "BOT",
+      "old": "Ferrule 18 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB24",
+      "footprint_uuid": "6a44dee9-45a5-4503-a9c2-1273f172a13c",
+      "terminal": "TOP",
+      "old": "Ferrule or twin ferrule as required; AWG=TBD; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB67",
+      "footprint_uuid": "6d091486-19b0-4430-8450-45bfd8433b8e",
+      "terminal": "BOT",
+      "old": "Ferrule 16 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB67",
+      "footprint_uuid": "6d091486-19b0-4430-8450-45bfd8433b8e",
+      "terminal": "TOP",
+      "old": "Ferrule 14 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB61",
+      "footprint_uuid": "6e46f6cc-1daf-437f-8d24-0108f64b3d66",
+      "terminal": "BOT",
+      "old": "Ferrule 14 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB61",
+      "footprint_uuid": "6e46f6cc-1daf-437f-8d24-0108f64b3d66",
+      "terminal": "TOP",
+      "old": "Ferrule or twin ferrule as required; AWG=TBD; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB51",
+      "footprint_uuid": "b2e4189c-8740-4773-add8-8bf56050e00b",
+      "terminal": "1",
+      "old": "Ferrule 14 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB51",
+      "footprint_uuid": "b2e4189c-8740-4773-add8-8bf56050e00b",
+      "terminal": "2",
+      "old": "Ferrule 14 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB3",
+      "footprint_uuid": "b73101be-cc14-4294-bd66-473649f8a7d4",
+      "terminal": "BOT",
+      "old": "Ferrule 18 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB3",
+      "footprint_uuid": "b73101be-cc14-4294-bd66-473649f8a7d4",
+      "terminal": "TOP",
+      "old": "Ferrule or twin ferrule as required; AWG=TBD; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB64",
+      "footprint_uuid": "c2a1a46b-a854-4a80-84c2-eefbb6b75117",
+      "terminal": "BOT",
+      "old": "Ferrule 16 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB64",
+      "footprint_uuid": "c2a1a46b-a854-4a80-84c2-eefbb6b75117",
+      "terminal": "TOP",
+      "old": "Ferrule 14 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB30",
+      "footprint_uuid": "c4a4fe75-89f6-4250-8e67-b7e293aaccfe",
+      "terminal": "BOT",
+      "old": "Ferrule 18 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB30",
+      "footprint_uuid": "c4a4fe75-89f6-4250-8e67-b7e293aaccfe",
+      "terminal": "TOP",
+      "old": "Ferrule or twin ferrule as required; AWG=TBD; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB12",
+      "footprint_uuid": "c6a069cf-78c1-4b23-a1cd-948c5e4e1d8a",
+      "terminal": "BOT",
+      "old": "Ferrule 18 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB12",
+      "footprint_uuid": "c6a069cf-78c1-4b23-a1cd-948c5e4e1d8a",
+      "terminal": "TOP",
+      "old": "Ferrule 18 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB60",
+      "footprint_uuid": "c9af24ee-2c3a-4e26-9451-1cd9b57be249",
+      "terminal": "BOT",
+      "old": "Ferrule 16 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB60",
+      "footprint_uuid": "c9af24ee-2c3a-4e26-9451-1cd9b57be249",
+      "terminal": "TOP",
+      "old": "Ferrule 14 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB68",
+      "footprint_uuid": "d4509d04-27e2-42b4-ac32-5478a6a20657",
+      "terminal": "BOT",
+      "old": "Ferrule 16 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB68",
+      "footprint_uuid": "d4509d04-27e2-42b4-ac32-5478a6a20657",
+      "terminal": "TOP",
+      "old": "Ferrule 14 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB1",
+      "footprint_uuid": "d67cf62c-eb0b-409b-a9e5-b2828d852472",
+      "terminal": "BOT",
+      "old": "Ferrule 18 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB1",
+      "footprint_uuid": "d67cf62c-eb0b-409b-a9e5-b2828d852472",
+      "terminal": "TOP",
+      "old": "Ferrule 18 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB40",
+      "footprint_uuid": "e203608c-d243-4409-a916-b4fe0c330d32",
+      "terminal": "BOT",
+      "old": "Ferrule 12 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB40",
+      "footprint_uuid": "e203608c-d243-4409-a916-b4fe0c330d32",
+      "terminal": "TOP",
+      "old": "Ferrule 14 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB63",
+      "footprint_uuid": "e696360c-b34b-4d02-b8a6-b1dfa3b5bb88",
+      "terminal": "BOT",
+      "old": "Ferrule 14 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB63",
+      "footprint_uuid": "e696360c-b34b-4d02-b8a6-b1dfa3b5bb88",
+      "terminal": "TOP",
+      "old": "Ferrule or twin ferrule as required; AWG=TBD; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB20",
+      "footprint_uuid": "f365cabb-7051-4936-a4d2-08bd4d97e853",
+      "terminal": "BOT",
+      "old": "Ferrule 18 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    },
+    {
+      "reference": "TB20",
+      "footprint_uuid": "f365cabb-7051-4936-a4d2-08bd4d97e853",
+      "terminal": "TOP",
+      "old": "Ferrule 18 AWG; L=TBD mm",
+      "new": "Ferrule or twin ferrule as required"
+    }
+  ],
+  "geometry_pads_nets_models_and_other_fields_unchanged": true
+}

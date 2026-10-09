@@ -102,7 +102,7 @@ def seed(sch_path, pcb_path, legacy_path, apply=False):
         source_ep, target_ep = index.endpoint(fr, fp), index.endpoint(tr, tp)
         record = {'schema': 1, 'from_symbol_uuid': source_ep['symbol_uuid'], 'from_pin': fp, 'to': target_ep, 'section': '01 Incoming phases',
                   'kind': 'panel_cable_core' if fr == 'J2' else 'wire', 'review': 'pending',
-                  'awg': old['AWG'], 'term1': old['TERM 1'], 'term2': old['TERM 2'],
+                  'awg': old['AWG'],
                   'length': {'mode': 'auto', 'slack_mm': '200', 'round_mm': '50',
                              'minimum_mm': old['LENGTH']},
                   'migration_note': 'The legacy cut estimate is retained as a minimum until this section is reviewed.'}

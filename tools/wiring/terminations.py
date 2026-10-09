@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Populate or review one custom Termination.<pin> symbol field per physical pin."""
+"""Legacy symbol-field migration helpers; CLI now owns footprint terminations."""
 from __future__ import annotations
 
 import argparse
@@ -37,7 +37,9 @@ def legacy_endpoint(name, pin):
         if match:
             return ref, match[1]
     if ref == 'S3':
-        first = re.sub(r'^(\d+)([UL])$', r'\1.\2', first)
+        match = re.fullmatch(r'([1-8])\.?([UL])', first)
+        if match:
+            first = match[1] + {'U': 'T', 'L': 'B'}[match[2]]
     if ref == 'S2':
         first = {'L1': '2T', 'R2': '1T', 'L2': '2B', 'R1': '1B',
                  'L3': '4T', 'R4': '3T', 'L4': '4B', 'R3': '3B',
@@ -76,7 +78,8 @@ def records(schematic, schedule):
                 profiles[prop(schematic.by_ref[ref][0], 'Value')].add(term)
     for record in schematic.records():
         ref = prop(schematic.by_uuid[record['from_endpoint']['symbol_uuid']], 'Reference')
-        by_pin[ref, record['from_pin']] = {(record['term1'], record['id'], '1')}
+        if 'term1' in record:  # Legacy import only; current records have no termination copies.
+            by_pin[ref, record['from_pin']] = {(record['term1'], record['id'], '1')}
         # The existing three destinations are deleted symbol UUIDs. Never bind
         # them to a guessed PCB-only clamp or another same-named symbol.
     return by_pin, profiles
@@ -229,4 +232,5 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    from footprint_terminations import main as footprint_main
+    footprint_main()

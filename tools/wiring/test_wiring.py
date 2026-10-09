@@ -23,8 +23,10 @@ def schematic():
 
 def board():
     devices = '''(footprint "Test:Pair" (at 100 130) (property "Reference" "TB1")
+                   (property "Termination.1" "ferrule") (property "Termination.2" "ferrule")
                    (pad "1" thru_hole circle (at 0 -7.65)) (pad "2" thru_hole circle (at 0 7.65)))
                  (footprint "Test:Pair" (at 200 307) (property "Reference" "F1")
+                   (property "Termination.1" "ring") (property "Termination.2" "ring")
                    (pad "1" thru_hole circle (at 0 -20)) (pad "2" thru_hole circle (at 0 20)))'''
     def duct(at):
         return f'''(footprint "Controls:T1-1530G1-1_400mm_Front" (at {at})
@@ -100,6 +102,19 @@ class WiringTests(unittest.TestCase):
     def test_manual_length_preserves_user_text(self):
         rows, _ = make_rows(self.sch, self.panel, [record()], self.nets)
         self.assertEqual(rows[0][5], '00450')
+
+    def test_schedule_reads_footprints_instead_of_stale_wire_termination_copies(self):
+        rows, _ = make_rows(self.sch, self.panel,
+                            [record(term1='stale source', term2='stale target')], self.nets)
+        self.assertEqual(rows[0][6:], ['ferrule', 'ring'])
+        changed = Panel(board().replace('"Termination.1" "ring"', '"Termination.1" "new selection"'))
+        rows, _ = make_rows(self.sch, changed, [record()], self.nets)
+        self.assertEqual(rows[0][7], 'new selection')
+
+    def test_missing_footprint_termination_does_not_fall_back_to_wire_record(self):
+        panel = Panel(board().replace('(property "Termination.1" "ring")', ''))
+        with self.assertRaisesRegex(ValueError, 'footprint Termination.1 is missing'):
+            make_rows(self.sch, panel, [record()], self.nets)
 
     def test_nan_manual_length_is_rejected(self):
         with self.assertRaisesRegex(ValueError, 'manual length'):

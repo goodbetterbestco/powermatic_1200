@@ -120,7 +120,7 @@ def populate(text):
         _, pin_nets = export_netlist(snapshot, work)
     external = {
         'S2': {'5T', '6T', '2B', '1B', '3B'},
-        'S3': {'1.L', '1.U', '2.U'},
+        'S3': {'1B', '1T', '2T'},
     }
     direct = {
         ('K4', '2'), ('K4', '4'), ('K4', '6'),

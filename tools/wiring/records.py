@@ -31,8 +31,6 @@ def main():
     add.add_argument('--to', dest='to_text', required=True)
     add.add_argument('--section', required=True)
     add.add_argument('--awg', default='18')
-    add.add_argument('--term1', default='TBD')
-    add.add_argument('--term2', default='TBD')
     add.add_argument('--kind', default='wire')
     add.add_argument('--route-from')
     add.add_argument('--route-to')
@@ -44,8 +42,6 @@ def main():
     edit.add_argument('--route-from', help='physical endpoint such as J3.X, or direct to remove an override')
     edit.add_argument('--route-to', help='physical endpoint, or direct to remove an override')
     edit.add_argument('--awg')
-    edit.add_argument('--term1')
-    edit.add_argument('--term2')
     edit.add_argument('--length', help='manual mm, or auto')
     edit.add_argument('--review', choices=['pending', 'reviewed'])
     edit.add_argument('--kind')
@@ -68,7 +64,7 @@ def main():
             source = endpoint(sch, args.from_text)
             owner = source['symbol_uuid']
             record = {'schema': 1, 'from_symbol_uuid': owner, 'from_pin': source['pin'], 'to': endpoint(sch, args.to_text),
-                      'section': args.section, 'awg': args.awg, 'term1': args.term1, 'term2': args.term2,
+                      'section': args.section, 'awg': args.awg,
                       'kind': args.kind, 'review': 'pending',
                       'length': {'mode': 'manual', 'mm': args.length} if args.length else {'mode': 'auto'}}
             if args.route_from:
@@ -86,7 +82,7 @@ def main():
                 source = endpoint(sch, args.from_text)
                 owner = source['symbol_uuid']
                 record['from_pin'] = source['pin']
-            for field in ['awg', 'term1', 'term2', 'review', 'kind']:
+            for field in ['awg', 'review', 'kind']:
                 value = getattr(args, field)
                 if value is not None:
                     record[field] = value

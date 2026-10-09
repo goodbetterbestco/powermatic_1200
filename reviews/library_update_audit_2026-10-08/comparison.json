@@ -1,0 +1,290 @@
+{
+  "schematic_sha256": "8b0c91e64e0e5983e798c4db135ab4e570c0f91f4097eb18a59f36af332c189f",
+  "controls_sha256": "140bb7f5b18179da0c90436b869153c90e1a22feb810b229709a904d12917e52",
+  "checked_instances": [
+    "SP1",
+    "SP2",
+    "SP4",
+    "SP5",
+    "SP6",
+    "FH1",
+    "SW1",
+    "K3",
+    "Q1",
+    "PS1"
+  ],
+  "groups": [
+    {
+      "part": "HMX1-SSVRC-DC",
+      "references": [
+        "SP1",
+        "SP2",
+        "SP4",
+        "SP5",
+        "SP6"
+      ],
+      "source_symbol": "Controls:HMX1-SSVRC-DC",
+      "pins": 2,
+      "pin_changes": [],
+      "drawing_changed": false,
+      "root_changes": [],
+      "properties": [
+        {
+          "field": "Part ID",
+          "cached_value": "HMX1-SSVRC-DC",
+          "library_value": null,
+          "position_changed": true
+        },
+        {
+          "field": "Supplier",
+          "cached_value": "AutomationDirect",
+          "library_value": null,
+          "position_changed": true
+        },
+        {
+          "field": "Supplier PN",
+          "cached_value": "HMX1-SSVRC-DC",
+          "library_value": null,
+          "position_changed": true
+        },
+        {
+          "field": "inventory",
+          "cached_value": 0.0,
+          "library_value": null,
+          "position_changed": true
+        },
+        {
+          "field": "ki_fp_filters",
+          "cached_value": "Controls:HMX1-SSVRC-DC_Front",
+          "library_value": null,
+          "position_changed": true
+        }
+      ]
+    },
+    {
+      "part": "RM25030-3SR",
+      "references": [
+        "FH1"
+      ],
+      "source_symbol": "Controls:RM25030-3SR",
+      "pins": 6,
+      "pin_changes": [],
+      "drawing_changed": false,
+      "root_changes": [],
+      "properties": [
+        {
+          "field": "Part ID",
+          "cached_value": "RM25030-3SR",
+          "library_value": null,
+          "position_changed": true
+        },
+        {
+          "field": "Supplier",
+          "cached_value": "AutomationDirect",
+          "library_value": null,
+          "position_changed": true
+        },
+        {
+          "field": "Supplier PN",
+          "cached_value": "RM25030-3SR",
+          "library_value": null,
+          "position_changed": true
+        },
+        {
+          "field": "inventory",
+          "cached_value": 0.0,
+          "library_value": null,
+          "position_changed": true
+        },
+        {
+          "field": "ki_fp_filters",
+          "cached_value": "Controls:RM25030-3SR_Front",
+          "library_value": null,
+          "position_changed": true
+        }
+      ]
+    },
+    {
+      "part": "222102",
+      "references": [
+        "SW1"
+      ],
+      "source_symbol": "Controls:222102",
+      "pins": 6,
+      "pin_changes": [],
+      "drawing_changed": false,
+      "root_changes": [],
+      "properties": [
+        {
+          "field": "Part ID",
+          "cached_value": 222102.0,
+          "library_value": null,
+          "position_changed": true
+        },
+        {
+          "field": "Supplier",
+          "cached_value": "McMaster-Carr",
+          "library_value": null,
+          "position_changed": true
+        },
+        {
+          "field": "Supplier PN",
+          "cached_value": "6759K211",
+          "library_value": null,
+          "position_changed": true
+        },
+        {
+          "field": "inventory",
+          "cached_value": 1.0,
+          "library_value": null,
+          "position_changed": true
+        },
+        {
+          "field": "ki_fp_filters",
+          "cached_value": "Controls:222102_LeftWall",
+          "library_value": null,
+          "position_changed": true
+        }
+      ]
+    },
+    {
+      "part": "HC3096N-52-900-24",
+      "references": [
+        "K3"
+      ],
+      "source_symbol": "Controls:HC3096N-52-900-24",
+      "pins": 10,
+      "pin_changes": [],
+      "drawing_changed": false,
+      "root_changes": [],
+      "properties": [
+        {
+          "field": "Package",
+          "cached_value": "DIN-RAIL",
+          "library_value": "",
+          "position_changed": false
+        },
+        {
+          "field": "Part ID",
+          "cached_value": "HC3096N-52-900-24",
+          "library_value": null,
+          "position_changed": true
+        },
+        {
+          "field": "Supplier",
+          "cached_value": "AutomationDirect",
+          "library_value": null,
+          "position_changed": true
+        },
+        {
+          "field": "Supplier PN",
+          "cached_value": "HC3096N-52-900-24",
+          "library_value": null,
+          "position_changed": true
+        },
+        {
+          "field": "inventory",
+          "cached_value": 0.0,
+          "library_value": null,
+          "position_changed": true
+        },
+        {
+          "field": "ki_fp_filters",
+          "cached_value": "Controls:HC3096N-52-900-24_Front",
+          "library_value": null,
+          "position_changed": true
+        }
+      ]
+    },
+    {
+      "part": "FAZ-D4-2-NA-L",
+      "references": [
+        "Q1"
+      ],
+      "source_symbol": "Controls:FAZ-D4-2-NA-L",
+      "pins": 4,
+      "pin_changes": [],
+      "drawing_changed": false,
+      "root_changes": [],
+      "properties": [
+        {
+          "field": "Part ID",
+          "cached_value": "FAZ-D4-2-NA-L",
+          "library_value": null,
+          "position_changed": true
+        },
+        {
+          "field": "Supplier",
+          "cached_value": "AutomationDirect",
+          "library_value": null,
+          "position_changed": true
+        },
+        {
+          "field": "Supplier PN",
+          "cached_value": "FAZ-D4-2-NA-L",
+          "library_value": null,
+          "position_changed": true
+        },
+        {
+          "field": "inventory",
+          "cached_value": 0.0,
+          "library_value": null,
+          "position_changed": true
+        },
+        {
+          "field": "ki_fp_filters",
+          "cached_value": "Controls:FAZ-D4-2-NA-L_Front",
+          "library_value": null,
+          "position_changed": true
+        }
+      ]
+    },
+    {
+      "part": "NDR-240-24",
+      "references": [
+        "PS1"
+      ],
+      "source_symbol": "Controls:NDR-240-24",
+      "pins": 7,
+      "pin_changes": [],
+      "drawing_changed": false,
+      "root_changes": [],
+      "properties": [
+        {
+          "field": "Part ID",
+          "cached_value": "NDR-240-24",
+          "library_value": null,
+          "position_changed": true
+        },
+        {
+          "field": "Supplier",
+          "cached_value": "Personal inventory (GBB)",
+          "library_value": null,
+          "position_changed": true
+        },
+        {
+          "field": "Supplier PN",
+          "cached_value": "NDR-240-24",
+          "library_value": null,
+          "position_changed": true
+        },
+        {
+          "field": "inventory",
+          "cached_value": 0.0,
+          "library_value": null,
+          "position_changed": true
+        },
+        {
+          "field": "ki_fp_filters",
+          "cached_value": "Controls:NDR-240-24_Front",
+          "library_value": null,
+          "position_changed": true
+        }
+      ]
+    }
+  ],
+  "active_files_changed": false,
+  "drc_cli_exit": 134,
+  "metadata_candidate_erc_warnings": 10,
+  "candidate_note": "Comparison copy only; it is not a native Update Symbols from Library result."
+}

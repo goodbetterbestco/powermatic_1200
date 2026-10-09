@@ -1,0 +1,115 @@
+{
+  "blocks": 33,
+  "wire_clamps": 66,
+  "updated_terminals": [
+    {
+      "reference": "TB33",
+      "footprint_uuid": "013df479-a6f5-43c6-9dc7-5b630e4cf676",
+      "terminal": "TOP",
+      "old": "Termination type TBD; conductor size TBD",
+      "new": "Ferrule or twin ferrule as required; AWG=TBD; L=TBD mm"
+    },
+    {
+      "reference": "TB21",
+      "footprint_uuid": "15faab88-6fe4-4706-85f6-e7194763f3fa",
+      "terminal": "TOP",
+      "old": "Termination type TBD; conductor size TBD",
+      "new": "Ferrule or twin ferrule as required; AWG=TBD; L=TBD mm"
+    },
+    {
+      "reference": "TB65",
+      "footprint_uuid": "1be87848-f24f-4518-855a-11f5dd4a9f69",
+      "terminal": "TOP",
+      "old": "Termination type TBD; conductor size TBD",
+      "new": "Ferrule or twin ferrule as required; AWG=TBD; L=TBD mm"
+    },
+    {
+      "reference": "TB31",
+      "footprint_uuid": "25858a0d-f879-4a96-9250-262ea227f996",
+      "terminal": "TOP",
+      "old": "Termination type TBD; conductor size TBD",
+      "new": "Ferrule or twin ferrule as required; AWG=TBD; L=TBD mm"
+    },
+    {
+      "reference": "TB14",
+      "footprint_uuid": "37e3c92b-3e61-487c-8b8a-32894ad8d025",
+      "terminal": "TOP",
+      "old": "Termination type TBD; conductor size TBD",
+      "new": "Ferrule or twin ferrule as required; AWG=TBD; L=TBD mm"
+    },
+    {
+      "reference": "REF**",
+      "footprint_uuid": "4a82e854-d557-4d87-92ee-631d3da6308f",
+      "terminal": "1",
+      "old": "Termination type TBD; conductor size TBD",
+      "new": "Ferrule or twin ferrule as required; AWG=TBD; L=TBD mm"
+    },
+    {
+      "reference": "REF**",
+      "footprint_uuid": "4a82e854-d557-4d87-92ee-631d3da6308f",
+      "terminal": "2",
+      "old": "Termination type TBD; conductor size TBD",
+      "new": "Ferrule or twin ferrule as required; AWG=TBD; L=TBD mm"
+    },
+    {
+      "reference": "TB2",
+      "footprint_uuid": "59758ce8-c3c6-47ec-88d1-c877937f0598",
+      "terminal": "BOT",
+      "old": "Termination type TBD; conductor size TBD",
+      "new": "Ferrule or twin ferrule as required; AWG=TBD; L=TBD mm"
+    },
+    {
+      "reference": "TB2",
+      "footprint_uuid": "59758ce8-c3c6-47ec-88d1-c877937f0598",
+      "terminal": "TOP",
+      "old": "Termination type TBD; conductor size TBD",
+      "new": "Ferrule or twin ferrule as required; AWG=TBD; L=TBD mm"
+    },
+    {
+      "reference": "TB11",
+      "footprint_uuid": "60c128e3-9628-4a27-9e2b-440e7799d5af",
+      "terminal": "TOP",
+      "old": "Termination type TBD; conductor size TBD",
+      "new": "Ferrule or twin ferrule as required; AWG=TBD; L=TBD mm"
+    },
+    {
+      "reference": "TB24",
+      "footprint_uuid": "6a44dee9-45a5-4503-a9c2-1273f172a13c",
+      "terminal": "TOP",
+      "old": "Termination type TBD; conductor size TBD",
+      "new": "Ferrule or twin ferrule as required; AWG=TBD; L=TBD mm"
+    },
+    {
+      "reference": "TB61",
+      "footprint_uuid": "6e46f6cc-1daf-437f-8d24-0108f64b3d66",
+      "terminal": "TOP",
+      "old": "Termination type TBD; conductor size TBD",
+      "new": "Ferrule or twin ferrule as required; AWG=TBD; L=TBD mm"
+    },
+    {
+      "reference": "TB3",
+      "footprint_uuid": "b73101be-cc14-4294-bd66-473649f8a7d4",
+      "terminal": "TOP",
+      "old": "Termination type TBD; conductor size TBD",
+      "new": "Ferrule or twin ferrule as required; AWG=TBD; L=TBD mm"
+    },
+    {
+      "reference": "TB30",
+      "footprint_uuid": "c4a4fe75-89f6-4250-8e67-b7e293aaccfe",
+      "terminal": "TOP",
+      "old": "Termination type TBD; conductor size TBD",
+      "new": "Ferrule or twin ferrule as required; AWG=TBD; L=TBD mm"
+    },
+    {
+      "reference": "TB63",
+      "footprint_uuid": "e696360c-b34b-4d02-b8a6-b1dfa3b5bb88",
+      "terminal": "TOP",
+      "old": "Termination type TBD; conductor size TBD",
+      "new": "Ferrule or twin ferrule as required; AWG=TBD; L=TBD mm"
+    }
+  ],
+  "policy": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. Size for the actual conductor(s).",
+  "source_sha256": "4031c251de4cdb8188b3e14bcdd5ec0e4411c659e94e97f080573debd52e2493",
+  "final_sha256": "08d87e5d206a49ffb4b661c43e328e1e165848dad441435fbf42634a6f5698d3",
+  "geometry_pads_nets_models_and_other_fields_unchanged": true
+}

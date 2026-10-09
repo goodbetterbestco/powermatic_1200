@@ -1,0 +1,7 @@
+{
+  "extractor": "tools/schedules/extract.py",
+  "outputs": {
+    "bom": "Powermatic_BOM_revP.csv",
+    "wire": "Wire_schedule.csv"
+  }
+}

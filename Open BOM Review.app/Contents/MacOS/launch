@@ -7,4 +7,4 @@ if [[ -z "$bom_python" ]]; then
     if [[ -x "$candidate" ]]; then bom_python="$candidate"; break; fi
   done
 fi
-exec /usr/bin/osascript "${0:A:h:h}/Resources/launcher.applescript" "$bom_python" "$bom_helper" "$bom_directory"
+exec /usr/bin/osascript "${0:A:h:h}/Resources/launcher.applescript" "$bom_python" "$bom_helper" "$bom_directory" "bom"

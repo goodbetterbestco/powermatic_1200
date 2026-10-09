@@ -1,52 +1,53 @@
-TYPE,NAME,QUA,PACK,UNIT,COST,LINE,SUPPLIER,SPN
-Contactor,Magnetic Contactor,5,1,EA,31.00,155.00,AD,HMC-9B30-11-DS
-Contactor,Contactor Interlock,2,1,EA,16.50,33.00,AD,HMX1-MI
-Contactor,Coil Enable Relay,1,1,EA,46.50,46.50,AD,HC3096N-52-900-24
-Contactor,Reversing Busbars,1,1,EA,17.00,17.00,AD,HMX1-BBREV
-Power,DC Power Supply,1,1,EA,0.00,0.00,GBB,NDR-240-24
-Power,Circuit Breaker,1,1,EA,55.00,55.00,AD,FAZ-D4-2-NA-L
-Power,Mains Disconnect,1,1,EA,0.00,0.00,GBB,6759K211
-Fuse,Class RK5 Fuse,3,1,EA,7.74,23.22,AllFuses,FRN-R-10
-Fuse,Class R Fuse Holder,1,1,EA,54.00,54.00,AD,RM25030-3SR
-Fuse,Fuse Cover,3,1,EA,14.00,42.00,GRAINGER,CVR-RH-25030
-Operator,Drum Switch,1,1,EA,0.00,0.00,GBB,AB_365_TAV2111
-Operator,Button Station,1,1,EA,0.00,0.00,GBB,FURNAS_50MA3KLE
-Contactor,Thermal Overload,2,1,EA,31.50,63.00,AD,HTOR32-6-S
-Contactor,Coil Surge Suppressor,5,1,EA,12.00,60.00,AD,HMX1-SSVRC-DC
-Operator,Indicator Lamp White,1,1,EA,0.00,0.00,GBB,DK_4008-XB4BVB1-ND
-Operator,M12 Panel Socket,1,1,EA,0.00,0.00,GBB,DK_A125513-ND
-Terminal,Feedthrough Terminal,2,25,PACK,9.75,19.50,AD,KN-T12GRY-25
-Terminal,End Cover,1,25,PACK,6.75,6.75,AD,KN-ECT6GRY-25
-Terminal,End Bracket,2,10,PACK,11.50,23.00,AD,KN-EB7-10
-Terminal,Jumper 10P,1,5,PACK,13.50,13.50,AD,KN-10J12
-Terminal,Adhesive Marker,1,250,PACK,13.50,13.50,AD,KN-L5-BLANK-250
-Enclosure,Enclosure,1,1,EA,353.00,353.00,AD,EN4SD20208GY
-Enclosure,Backplate,1,1,EA,51.00,51.00,AD,EP2020
-Enclosure,Mounting Feet,1,4,PACK,0.00,0.00,AD,EZPMFHD
-Conduit,Liquid Tite,1,5,PACK,16.50,16.50,AD,BNSPDX-23-W
-Conduit,Liquid Tite,1,5,PACK,7.50,7.50,AD,BSPBX-22-W
-Conduit,Liquid Tite,1,5,PACK,11.5,11.50,AD,BSPDX-23-W
-Power,Cable 12AWG 4C 16.5mm OD,1,10,FT,0.00,0.00,GBB,7081K33
-Power,Plug,1,1,EA,0.00,0.00,GBB,7164K52
-Conduit,"3/4"" liquid-tight conduit",1,0,FT,0,0.00,-,-
-Enclousre,Din-Rail 35x7.5x400mm,1,4,EA,11.00,11.00,AD,DN-R35S-400-4
-Conduit,WireDuct 40x80x1000mm,2,1,EA,18.50,37.00,AD,T1-1530G1-1
-Hardware,Ferrule 14 AWG,0,0,PACK,0.00,0.00,-,-
-Hardware,Ferrule 18 AWG,0,0,PACK,0.00,0.00,-,-
-Wiring,14 AWG Black,1,0,FT,0.00,0.00,-,-
-Wiring,14 AWG Green/Yellow,1,0,FT,0.00,0.00,-,-
-Terminal,PE Terminal,1,10,PACK,29,29.00,AD,KN-G12SP-10
-Terminal,Separator,2,10,PACK,11.00,22.00,AD,KN-ST1BLK
-Terminal,Top Cover,2,25,PACK,15.00,30.00,AD,KN-TC-1S
-Operator,E-Stop Assembly,1,1,EA,0,0.00,GBB,Inventory
-Hardware,Ring 16 AWG #8-32,0,0,PACK,0,0.00,-,-
-Hardware,Ring 18 AWG #8-32,0,0,PACK,0,0.00,-,-
-Enclosure,Enclosure Bonding Kit,2,1,EA,,0.00,,GRDKIT01
-Conduit,"3/4"" liquid-tight fittings",1,1,EA,0,0.00,-,-
-Wiring,12 AWG Green/Yellow,1,0,FT,0.00,0.00,-,-
-Wiring,18 AWG Blue,1,0,FT,0.00,0.00,-,-
-Wiring,16 AWG Blue,1,0,FT,0.00,0.00,-,-
-Hardware,Ferrule 12 AWG,0,0,PACK,0.00,0.00,-,-
-Hardware,Ferrule 16 AWG,0,0,PACK,0.00,0.00,-,-
-Hardware,Twin Ferrule 2x14 AWG,0,0,PACK,0.00,0.00,-,-
-Hardware,Twin Ferrule 2x18 AWG,0,0,PACK,0.00,0.00,-,-
+TYPE,NAME,QUA,PACK,UNIT,COST,LINE,SUPPLIER,SPN,SOURCE,SOURCE KEY,KICAD QTY
+Contactor,Power Contactor (HMC-9B30-11-DS),5,1,EA,31.00,155.00,AD,HMC-9B30-11-DS,KiCad,part:hmc9b3011ds,5
+Contactor,Contactor Interlock (HMX1-MI),2,1,EA,16.50,33.00,AD,HMX1-MI,KiCad,part:hmx1mi,2
+Contactor,Coil Enable Relay (HC3096N-52-900-24),1,1,EA,46.50,46.50,AD,HC3096N-52-900-24,KiCad,part:hc3096n5290024,1
+Contactor,Reversing Busbars,1,1,EA,17.00,17.00,AD,HMX1-BBREV,Local,,
+Power,DC Power Supply (NDR-240-24),1,1,EA,0.00,0.00,GBB,NDR-240-24,KiCad,part:ndr24024,1
+Power,Circuit Breaker (FAZ-D4/2-NA-L),1,1,EA,55.00,55.00,AD,FAZ-D4-2-NA-L,KiCad,part:fazd42nal,1
+Power,Motor Disconnect (222102),1,1,EA,0.00,0.00,GBB,6759K211,KiCad,part:222102,1
+Fuse,Class RK5 Fuse,3,1,EA,7.74,23.22,AllFuses,FRN-R-10,KiCad,part:frnr10,3
+Fuse,Fuse Holder (RM25030-3SR),1,1,EA,54.00,54.00,AD,RM25030-3SR,KiCad,part:rm250303sr,1
+Fuse,Fuse Cover,3,1,EA,14.00,42.00,GRAINGER,CVR-RH-25030,KiCad,part:cvrrh25030,3
+Operator,Speed Switch (365-TAV2111),1,1,EA,0.00,0.00,GBB,AB_365_TAV2111,KiCad,part:365tav2111,1
+Operator,Button Station (50MA3KLE),1,1,EA,0.00,0.00,GBB,FURNAS_50MA3KLE,KiCad,part:50ma3kle,1
+Contactor,Thermal Overload (HTOR32-6-S),2,1,EA,31.50,63.00,AD,HTOR32-6-S,KiCad,part:htor326s,2
+Contactor,Coil Surge Suppressor (HMX1-SSVRC-DC),5,1,EA,12.00,60.00,AD,HMX1-SSVRC-DC,KiCad,part:hmx1ssvrcdc,5
+Operator,White Indicator (XB4BVB1),1,1,EA,0.00,0.00,GBB,DK_4008-XB4BVB1-ND,KiCad,part:xb4bvb1,1
+Operator,Red Indicator (XB4BVB4),1,1,EA,,0.00,DK,4008-XB4BVB4-ND,KiCad,part:xb4bvb4,1
+Operator,M12 Panel Socket (T4171310004-001),1,1,EA,0.00,0.00,GBB,DK_A125513-ND,KiCad,part:t4171310004001,1
+Terminal,Feedthrough Terminal (KN-T12GRY-25),2,25,PACK,9.75,19.50,AD,KN-T12GRY-25,KiCad,part:knt12gry25,29
+Terminal,End Cover,1,25,PACK,6.75,6.75,AD,KN-ECT6GRY-25,Local,,
+Terminal,End Bracket,2,10,PACK,11.50,23.00,AD,KN-EB7-10,KiCad,part:kneb710,7
+Terminal,Jumper 10P,1,5,PACK,13.50,13.50,AD,KN-10J12,Local,,
+Terminal,Adhesive Marker,1,250,PACK,13.50,13.50,AD,KN-L5-BLANK-250,Local,,
+Enclosure,Enclosure,1,1,EA,353.00,353.00,AD,EN4SD20208GY,KiCad,part:en4sd20208gy,1
+Enclosure,Backplate,1,1,EA,51.00,51.00,AD,EP2020,Local,,
+Enclosure,Mounting Feet,1,4,PACK,0.00,0.00,AD,EZPMFHD,Local,,
+Conduit,Power Cable Gland (BNSPDX-23-W),1,5,PACK,16.50,16.50,AD,BNSPDX-23-W,KiCad,part:bnspdx23w,1
+Conduit,Speed / Direction Cable Gland (BSPBX-22-W),1,5,PACK,7.50,7.50,AD,BSPBX-22-W,KiCad,part:bspbx22w,1
+Conduit,Motor Cable Gland (BSPDX-23-W),1,5,PACK,11.5,11.50,AD,BSPDX-23-W,KiCad,part:bspdx23w,1
+Power,Cable 12AWG 4C 16.5mm OD,1,10,FT,0.00,0.00,GBB,7081K33,Local,,
+Power,Plug,1,1,EA,0.00,0.00,GBB,7164K52,Local,,
+Conduit,"3/4"" liquid-tight conduit",1,0,FT,0,0.00,-,-,Local,,
+Enclousre,Din-Rail 35x7.5x400mm,1,4,EA,11.00,11.00,AD,DN-R35S-400-4,Local,,
+Conduit,WireDuct 40x80x1000mm,2,1,EA,18.50,37.00,AD,T1-1530G1-1,KiCad,part:t11530g11,4
+Hardware,Ferrule 14 AWG,0,0,PACK,0.00,0.00,-,-,Local,,
+Hardware,Ferrule 18 AWG,0,0,PACK,0.00,0.00,-,-,Local,,
+Wiring,14 AWG Black,1,0,FT,0.00,0.00,-,-,Local,,
+Wiring,14 AWG Green/Yellow,1,0,FT,0.00,0.00,-,-,Local,,
+Terminal,Grounding Terminal (KN-G12SP-10),1,10,PACK,29,29.00,AD,KN-G12SP-10,KiCad,part:kng12sp10,4
+Terminal,Separator,2,10,PACK,11.00,22.00,AD,KN-ST1BLK,KiCad,part:knst1blk,13
+Terminal,Top Cover,2,25,PACK,15.00,30.00,AD,KN-TC-1S,Local,,
+Operator,E-Stop Assembly,1,1,EA,0,0.00,GBB,Inventory,Local,,
+Hardware,Ring 16 AWG #8-32,0,0,PACK,0,0.00,-,-,Local,,
+Hardware,Ring 18 AWG #8-32,0,0,PACK,0,0.00,-,-,Local,,
+Enclosure,Enclosure Bonding Kit,2,1,EA,,0.00,,GRDKIT01,Local,,
+Conduit,"3/4"" liquid-tight fittings",1,1,EA,0,0.00,-,-,Local,,
+Wiring,12 AWG Green/Yellow,1,0,FT,0.00,0.00,-,-,Local,,
+Wiring,18 AWG Blue,1,0,FT,0.00,0.00,-,-,Local,,
+Wiring,16 AWG Blue,1,0,FT,0.00,0.00,-,-,Local,,
+Hardware,Ferrule 12 AWG,0,0,PACK,0.00,0.00,-,-,Local,,
+Hardware,Ferrule 16 AWG,0,0,PACK,0.00,0.00,-,-,Local,,
+Hardware,Twin Ferrule 2x14 AWG,0,0,PACK,0.00,0.00,-,-,Local,,
+Hardware,Twin Ferrule 2x18 AWG,0,0,PACK,0.00,0.00,-,-,Local,,
