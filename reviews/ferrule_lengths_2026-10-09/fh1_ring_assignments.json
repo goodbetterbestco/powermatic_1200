@@ -1,0 +1,217 @@
+{
+  "owner_checkpoint": "save closed",
+  "terminal_fields_updated": 6,
+  "changes": [
+    {
+      "ref": "FH1",
+      "pin": "P1.A",
+      "net": "L3_IN",
+      "before": "Ferrule 14 AWG; L=TBD mm",
+      "after": "Ring terminal, 14 AWG; stud=#10-32; OD<=9 mm"
+    },
+    {
+      "ref": "FH1",
+      "pin": "P1.B",
+      "net": "/L3_FUSED",
+      "before": "Ferrule 14 AWG; L=TBD mm",
+      "after": "Ring terminal, 14 AWG; stud=#10-32; OD<=9 mm"
+    },
+    {
+      "ref": "FH1",
+      "pin": "P2.A",
+      "net": "L2_IN",
+      "before": "Ferrule 14 AWG; L=TBD mm",
+      "after": "Ring terminal, 14 AWG; stud=#10-32; OD<=9 mm"
+    },
+    {
+      "ref": "FH1",
+      "pin": "P2.B",
+      "net": "/L2_FUSED",
+      "before": "Ferrule 14 AWG; L=TBD mm",
+      "after": "Ring terminal, 14 AWG; stud=#10-32; OD<=9 mm"
+    },
+    {
+      "ref": "FH1",
+      "pin": "P3.A",
+      "net": "L1_IN",
+      "before": "Ferrule 14 AWG; L=TBD mm",
+      "after": "Ring terminal, 14 AWG; stud=#10-32; OD<=9 mm"
+    },
+    {
+      "ref": "FH1",
+      "pin": "P3.B",
+      "net": "/L1_FUSED",
+      "before": "Ferrule 14 AWG; L=TBD mm",
+      "after": "Ring terminal, 14 AWG; stud=#10-32; OD<=9 mm"
+    }
+  ],
+  "pcb_before_sha256": "9f0022ed4ffec80f1f104c2cece850bcf2646feba8d534fc4b0580ed93317e23",
+  "pcb_after_sha256": "55b4f7d794028489556effa33320c3e09e071c1110bb658982a569a84a7df02b",
+  "schematic_sha256": "0bfebb9d81f19a410c6ed6f262cc66d7a9df66ec3802d07990d0bb5c858f8185",
+  "all_other_fields_placement_pads_nets_models_and_tracks_preserved": true,
+  "schematic_unchanged": true,
+  "fit_basis": {
+    "terminal_recess_nominal_width_mm": 12.6,
+    "selected_max_ring_od_mm": 9,
+    "candidate": "AutomationDirect Z+F V70RK004012",
+    "candidate_wire_awg_range": "16-14",
+    "candidate_hole_mm": 5,
+    "candidate_tongue_width_mm": 8.6,
+    "candidate_overall_length_mm": 23,
+    "width_clearance_total_mm": 4,
+    "status": "Drawing-based lateral clearance check; physical seating, crimp barrel, cover and wire exit fit not bench verified. Exact supplier item remains a procurement candidate."
+  },
+  "sources": [
+    "https://cdn.automationdirect.com/static/specs/efusemodblocksr.pdf",
+    "https://cdn.automationdirect.com/static/drawings/RM25030-3SR.pdf",
+    "https://cdn.automationdirect.com/static/specs/dinwiring.pdf",
+    "https://cdn.automationdirect.com/static/specs/cutsheet/V70RK004012_cutsheet.pdf"
+  ],
+  "native_extraction_passed": true,
+  "generated_rows": 17,
+  "trace_objects": 272,
+  "changed_schedule_rows": 6,
+  "schedule_changes": [
+    {
+      "before": [
+        "Fuse Holder",
+        "P1.A",
+        "TB42",
+        "TOP",
+        "14",
+        "290",
+        "Ferrule 14 AWG; L=TBD mm",
+        "Ferrule; L=10 mm"
+      ],
+      "after": [
+        "Fuse Holder",
+        "P1.A",
+        "TB42",
+        "TOP",
+        "14",
+        "290",
+        "Ring terminal, 14 AWG; stud=#10-32; OD<=9 mm",
+        "Ferrule; L=10 mm"
+      ]
+    },
+    {
+      "before": [
+        "Fuse Holder",
+        "P1.B",
+        "Motor Disconnect",
+        "5",
+        "14",
+        "280",
+        "Ferrule 14 AWG; L=TBD mm",
+        "Ferrule 14 AWG; L=TBD mm"
+      ],
+      "after": [
+        "Fuse Holder",
+        "P1.B",
+        "Motor Disconnect",
+        "5",
+        "14",
+        "280",
+        "Ring terminal, 14 AWG; stud=#10-32; OD<=9 mm",
+        "Ferrule 14 AWG; L=TBD mm"
+      ]
+    },
+    {
+      "before": [
+        "Fuse Holder",
+        "P2.A",
+        "TB41",
+        "TOP",
+        "14",
+        "270",
+        "Ferrule 14 AWG; L=TBD mm",
+        "Ferrule; L=10 mm"
+      ],
+      "after": [
+        "Fuse Holder",
+        "P2.A",
+        "TB41",
+        "TOP",
+        "14",
+        "270",
+        "Ring terminal, 14 AWG; stud=#10-32; OD<=9 mm",
+        "Ferrule; L=10 mm"
+      ]
+    },
+    {
+      "before": [
+        "Fuse Holder",
+        "P2.B",
+        "Motor Disconnect",
+        "3",
+        "14",
+        "250",
+        "Ferrule 14 AWG; L=TBD mm",
+        "Ferrule 14 AWG; L=TBD mm"
+      ],
+      "after": [
+        "Fuse Holder",
+        "P2.B",
+        "Motor Disconnect",
+        "3",
+        "14",
+        "250",
+        "Ring terminal, 14 AWG; stud=#10-32; OD<=9 mm",
+        "Ferrule 14 AWG; L=TBD mm"
+      ]
+    },
+    {
+      "before": [
+        "Fuse Holder",
+        "P3.A",
+        "TB40",
+        "TOP",
+        "14",
+        "250",
+        "Ferrule 14 AWG; L=TBD mm",
+        "Ferrule; L=10 mm"
+      ],
+      "after": [
+        "Fuse Holder",
+        "P3.A",
+        "TB40",
+        "TOP",
+        "14",
+        "250",
+        "Ring terminal, 14 AWG; stud=#10-32; OD<=9 mm",
+        "Ferrule; L=10 mm"
+      ]
+    },
+    {
+      "before": [
+        "Fuse Holder",
+        "P3.B",
+        "Motor Disconnect",
+        "1",
+        "14",
+        "220",
+        "Ferrule 14 AWG; L=TBD mm",
+        "Ferrule 14 AWG; L=TBD mm"
+      ],
+      "after": [
+        "Fuse Holder",
+        "P3.B",
+        "Motor Disconnect",
+        "1",
+        "14",
+        "220",
+        "Ring terminal, 14 AWG; stud=#10-32; OD<=9 mm",
+        "Ferrule 14 AWG; L=TBD mm"
+      ]
+    }
+  ],
+  "warnings": [
+    "133 unfinished trace endpoints; only completed pad-to-pad paths are exported.",
+    "Trace-only loops/components without two terminal pads are omitted.",
+    "J2: Panel tail only; external mains cord length is not included",
+    "AWG not specified on TB43.1 -> TB51.2",
+    "AWG not specified on TB50.1 -> TB52.2"
+  ],
+  "source_files_verified": true,
+  "bom_modified": false
+}

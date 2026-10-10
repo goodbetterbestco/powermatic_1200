@@ -5385,7 +5385,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Controls:XB4BVB1_Front"
+			(property "ki_fp_filters" "Controls:XB4BVB1_LeftWall"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)

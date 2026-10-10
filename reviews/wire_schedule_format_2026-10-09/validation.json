@@ -1,0 +1,142 @@
+{
+  "date": "2026-10-09",
+  "owner_checkpoint": "saved and exited",
+  "columns": [
+    "From",
+    "Pin",
+    "To",
+    "Pin",
+    "AWG",
+    "Length",
+    "Term 1",
+    "Term 2"
+  ],
+  "termination_examples": [
+    "F18_10mm",
+    "F2x18_10mm",
+    "R18_1032_9mm",
+    "B18_5mm",
+    "supplier",
+    "F14_TBDmm",
+    "FTBD_10mm"
+  ],
+  "data_cells": "Only compact F/R/B codes, supplier or blank; notes retained in source metadata and review reports.",
+  "source_pin_aliases": {
+    "changes": [
+      {
+        "ref": "PS1",
+        "field": "Wire.PinLabel.1_BOT",
+        "before": null,
+        "after": "PE"
+      },
+      {
+        "ref": "PS1",
+        "field": "Wire.PinLabel.2_BOT",
+        "before": null,
+        "after": "N"
+      },
+      {
+        "ref": "PS1",
+        "field": "Wire.PinLabel.3_BOT",
+        "before": null,
+        "after": "L"
+      },
+      {
+        "ref": "PS1",
+        "field": "Wire.PinLabel.1_TOP",
+        "before": null,
+        "after": "V1_NEG"
+      },
+      {
+        "ref": "PS1",
+        "field": "Wire.PinLabel.2_TOP",
+        "before": null,
+        "after": "V2_NEG"
+      },
+      {
+        "ref": "PS1",
+        "field": "Wire.PinLabel.3_TOP",
+        "before": null,
+        "after": "V1_POS"
+      },
+      {
+        "ref": "PS1",
+        "field": "Wire.PinLabel.4_TOP",
+        "before": null,
+        "after": "V2_POS"
+      },
+      {
+        "ref": "FH1",
+        "field": "Wire.PinLabel.P1.A",
+        "before": null,
+        "after": "P1A"
+      },
+      {
+        "ref": "FH1",
+        "field": "Wire.PinLabel.P1.B",
+        "before": null,
+        "after": "P1B"
+      },
+      {
+        "ref": "FH1",
+        "field": "Wire.PinLabel.P2.A",
+        "before": null,
+        "after": "P2A"
+      },
+      {
+        "ref": "FH1",
+        "field": "Wire.PinLabel.P2.B",
+        "before": null,
+        "after": "P2B"
+      },
+      {
+        "ref": "FH1",
+        "field": "Wire.PinLabel.P3.A",
+        "before": null,
+        "after": "P3A"
+      },
+      {
+        "ref": "FH1",
+        "field": "Wire.PinLabel.P3.B",
+        "before": null,
+        "after": "P3B"
+      }
+    ],
+    "pcb_before_sha256": "55b4f7d794028489556effa33320c3e09e071c1110bb658982a569a84a7df02b",
+    "pcb_after_sha256": "16f578d3b5f84f6b805b2fc381b7f94e438af329a4baa14c4822b2ebec61a810",
+    "schematic_sha256": "0bfebb9d81f19a410c6ed6f262cc66d7a9df66ec3802d07990d0bb5c858f8185",
+    "geometry_nets_and_all_termination_fields_preserved": true
+  },
+  "live_refresh": {
+    "http_status": 200,
+    "generated_rows": 17,
+    "supplier_rows": 4,
+    "compact_cells_only": true,
+    "gauges_and_lengths_preserved": true,
+    "csv_sha256": "03f4643dfae350231ac5245bdd5a2bee577d17b8aba6a632da016c3503a8102e",
+    "url": "http://127.0.0.1:53207/?initial=1&mode=wire",
+    "refresh_passed": true
+  },
+  "verification": {
+    "project_tests": 54,
+    "app_csv_tests": 18,
+    "refresh_source_tests": 6,
+    "headless_browser_passed": true,
+    "duplicate_pin_columns_distinct": true,
+    "find_and_flag_labels_passed": true,
+    "screen_sharing_used": false
+  },
+  "shared_app_files_changed": [
+    "csv.js",
+    "app.js",
+    "kicad_source.py",
+    "tests/csv.test.cjs",
+    "tests/test_kicad_source.py"
+  ],
+  "preserved": "All electrical pin numbers, termination specifications, net connectivity, placements and routing; all original wire gauges and cut lengths.",
+  "project_source_files": {
+    "kicad/powermatic_1200/powermatic_1200.kicad_pcb": "16f578d3b5f84f6b805b2fc381b7f94e438af329a4baa14c4822b2ebec61a810",
+    "kicad/powermatic_1200/powermatic_1200.kicad_sch": "0bfebb9d81f19a410c6ed6f262cc66d7a9df66ec3802d07990d0bb5c858f8185",
+    "Wire_schedule.csv": "03f4643dfae350231ac5245bdd5a2bee577d17b8aba6a632da016c3503a8102e"
+  }
+}

@@ -1,0 +1,1591 @@
+{
+  "schema": 2,
+  "source_schematic": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/powermatic_1200.kicad_sch",
+  "source_pcb": "/private/tmp/powermatic-busbar/staged/powermatic_1200.kicad_pcb",
+  "schematic_sha256": "0bfebb9d81f19a410c6ed6f262cc66d7a9df66ec3802d07990d0bb5c858f8185",
+  "pcb_sha256": "0127efc05dc4936cde24b01fddf230578756ab7459322c33a85240a656414560",
+  "generated_rows": 17,
+  "omitted_records": 0,
+  "sections": {
+    "PCB traces": 17
+  },
+  "review_states": {
+    "pending": 17
+  },
+  "complete": false,
+  "net_coverage": [
+    {
+      "net": "+24V",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K3.13"
+        ],
+        [
+          "H1.X1"
+        ],
+        [
+          "J1.1"
+        ],
+        [
+          "PS1.3_TOP"
+        ],
+        [
+          "S1.1"
+        ],
+        [
+          "K3.31"
+        ],
+        [
+          "J6.1"
+        ],
+        [
+          "PS1.4_TOP"
+        ]
+      ]
+    },
+    {
+      "net": "+24V_EN",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "OL4.95"
+        ],
+        [
+          "K3.24"
+        ]
+      ]
+    },
+    {
+      "net": "/CONTROL_ESTOP_CONTACT_LINK",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "S1.3"
+        ],
+        [
+          "J6.3"
+        ],
+        [
+          "J6.2"
+        ],
+        [
+          "J1.3"
+        ],
+        [
+          "J1.2"
+        ],
+        [
+          "S1.2"
+        ]
+      ]
+    },
+    {
+      "net": "/CONTROL_K3_CONTACT_LINK",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K3.14"
+        ],
+        [
+          "K3.23"
+        ]
+      ]
+    },
+    {
+      "net": "/DIRECTION_FWD_COIL",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K2.32"
+        ],
+        [
+          "K1.A1.TOP"
+        ],
+        [
+          "K1.A1.BOT"
+        ],
+        [
+          "SP1.1"
+        ]
+      ]
+    },
+    {
+      "net": "/DIRECTION_REV_COIL",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K2.A1.BOT"
+        ],
+        [
+          "K2.A1.TOP"
+        ],
+        [
+          "K1.32"
+        ],
+        [
+          "SP2.1"
+        ]
+      ]
+    },
+    {
+      "net": "/HS_SHORT",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K5.1"
+        ],
+        [
+          "K5.3"
+        ],
+        [
+          "K5.5"
+        ]
+      ]
+    },
+    {
+      "net": "/L1_FUSED",
+      "covered": true,
+      "remaining_groups": [
+        [
+          "FH1.P3.B",
+          "SW1.1"
+        ]
+      ]
+    },
+    {
+      "net": "/L1_HIGH",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "OL6.IN1"
+        ],
+        [
+          "K6.2"
+        ]
+      ]
+    },
+    {
+      "net": "/L1_LOW",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "OL4.IN1"
+        ],
+        [
+          "K4.2"
+        ]
+      ]
+    },
+    {
+      "net": "/L1_PSU",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "Q1.2"
+        ],
+        [
+          "PS1.3_BOT"
+        ]
+      ]
+    },
+    {
+      "net": "/L2_FUSED",
+      "covered": true,
+      "remaining_groups": [
+        [
+          "FH1.P2.B",
+          "SW1.3"
+        ]
+      ]
+    },
+    {
+      "net": "/L2_HIGH",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K6.4"
+        ],
+        [
+          "OL6.IN2"
+        ]
+      ]
+    },
+    {
+      "net": "/L2_LOW",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K4.4"
+        ],
+        [
+          "OL4.IN2"
+        ]
+      ]
+    },
+    {
+      "net": "/L2_PSU",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "Q1.4"
+        ],
+        [
+          "PS1.2_BOT"
+        ]
+      ]
+    },
+    {
+      "net": "/L3_FUSED",
+      "covered": true,
+      "remaining_groups": [
+        [
+          "FH1.P1.B",
+          "SW1.5"
+        ]
+      ]
+    },
+    {
+      "net": "/L3_HIGH",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K6.6"
+        ],
+        [
+          "OL6.IN3"
+        ]
+      ]
+    },
+    {
+      "net": "/L3_LOW",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K4.6"
+        ],
+        [
+          "OL4.IN3"
+        ]
+      ]
+    },
+    {
+      "net": "/SPEED_HIGH_SHORTING_COIL",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K4.32"
+        ],
+        [
+          "K5.43"
+        ],
+        [
+          "SP5.1"
+        ],
+        [
+          "K5.A1.BOT"
+        ],
+        [
+          "K5.A1.TOP"
+        ]
+      ]
+    },
+    {
+      "net": "/SPEED_LOW_COIL",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K4.A1.TOP"
+        ],
+        [
+          "K4.A1.BOT"
+        ],
+        [
+          "K5.32"
+        ],
+        [
+          "SP4.1"
+        ]
+      ]
+    },
+    {
+      "net": "0V",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K5.A2.TOP"
+        ],
+        [
+          "K6.A2.BOT"
+        ],
+        [
+          "SP6.2"
+        ],
+        [
+          "K2.A2.BOT"
+        ],
+        [
+          "K1.A2.TOP"
+        ],
+        [
+          "SP5.2"
+        ],
+        [
+          "PS1.2_TOP"
+        ],
+        [
+          "H2.X2"
+        ],
+        [
+          "K4.A2.BOT"
+        ],
+        [
+          "K6.A2.TOP"
+        ],
+        [
+          "K3.A2"
+        ],
+        [
+          "SP4.2"
+        ],
+        [
+          "K2.A2.TOP"
+        ],
+        [
+          "SP2.2"
+        ],
+        [
+          "H1.X2"
+        ],
+        [
+          "K5.A2.BOT"
+        ],
+        [
+          "K4.A2.TOP"
+        ],
+        [
+          "PS1.1_TOP"
+        ],
+        [
+          "SP1.2"
+        ],
+        [
+          "K1.A2.BOT"
+        ]
+      ]
+    },
+    {
+      "net": "CONTROL_ESTOP_DISABLED_FB",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "H2.X1"
+        ],
+        [
+          "K3.32"
+        ]
+      ]
+    },
+    {
+      "net": "CONTROL_ESTOP_ENABLE",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "J6.4"
+        ],
+        [
+          "S1.4"
+        ],
+        [
+          "K3.A1+"
+        ],
+        [
+          "J1.4"
+        ]
+      ]
+    },
+    {
+      "net": "CONTROL_LOW_OVERLOAD_ENABLE",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "OL4.96"
+        ],
+        [
+          "OL6.95"
+        ]
+      ]
+    },
+    {
+      "net": "CONTROL_OVERLOAD_ENABLE",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "S2.1T"
+        ],
+        [
+          "S2.5T"
+        ],
+        [
+          "S2.3T"
+        ],
+        [
+          "OL6.96"
+        ]
+      ]
+    },
+    {
+      "net": "CONTROL_RUN_ENABLE",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K4.43"
+        ],
+        [
+          "S2.6T"
+        ],
+        [
+          "S3.1B"
+        ],
+        [
+          "K6.43"
+        ],
+        [
+          "S3.2B"
+        ]
+      ]
+    },
+    {
+      "net": "DIRECTION_ENABLE",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K2.43"
+        ],
+        [
+          "K4.44"
+        ],
+        [
+          "S2.2B"
+        ],
+        [
+          "S2.4B"
+        ],
+        [
+          "K1.43"
+        ],
+        [
+          "K6.44"
+        ]
+      ]
+    },
+    {
+      "net": "DIRECTION_FWD_CMD",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "S2.1B"
+        ],
+        [
+          "K1.44"
+        ],
+        [
+          "K2.31"
+        ]
+      ]
+    },
+    {
+      "net": "DIRECTION_REV_CMD",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K1.31"
+        ],
+        [
+          "S2.3B"
+        ],
+        [
+          "K2.44"
+        ]
+      ]
+    },
+    {
+      "net": "L1_DIR",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K4.1"
+        ],
+        [
+          "K1.2",
+          "K2.6"
+        ],
+        [
+          "K6.1"
+        ]
+      ]
+    },
+    {
+      "net": "L1_IN",
+      "covered": true,
+      "remaining_groups": [
+        [
+          "FH1.P3.A",
+          "J2.X"
+        ]
+      ]
+    },
+    {
+      "net": "L1_SW",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K1.1",
+          "K2.1"
+        ],
+        [
+          "SW1.2"
+        ],
+        [
+          "Q1.1"
+        ]
+      ]
+    },
+    {
+      "net": "L2_DIR",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K4.3"
+        ],
+        [
+          "K6.3"
+        ],
+        [
+          "K1.4",
+          "K2.4"
+        ]
+      ]
+    },
+    {
+      "net": "L2_IN",
+      "covered": true,
+      "remaining_groups": [
+        [
+          "FH1.P2.A",
+          "J2.Y"
+        ]
+      ]
+    },
+    {
+      "net": "L2_SW",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "Q1.3"
+        ],
+        [
+          "SW1.4"
+        ],
+        [
+          "K1.3",
+          "K2.3"
+        ]
+      ]
+    },
+    {
+      "net": "L3_DIR",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K6.5"
+        ],
+        [
+          "K1.6",
+          "K2.2"
+        ],
+        [
+          "K4.5"
+        ]
+      ]
+    },
+    {
+      "net": "L3_IN",
+      "covered": true,
+      "remaining_groups": [
+        [
+          "FH1.P1.A",
+          "J2.Z"
+        ]
+      ]
+    },
+    {
+      "net": "L3_SW",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "SW1.6"
+        ],
+        [
+          "K1.5",
+          "K2.5"
+        ]
+      ]
+    },
+    {
+      "net": "M1_T1",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K5.2"
+        ],
+        [
+          "M1.T1"
+        ],
+        [
+          "OL4.2"
+        ]
+      ]
+    },
+    {
+      "net": "M1_T2",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "OL4.4"
+        ],
+        [
+          "M1.T2"
+        ],
+        [
+          "K5.4"
+        ]
+      ]
+    },
+    {
+      "net": "M1_T3",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "M1.T3"
+        ],
+        [
+          "K5.6"
+        ],
+        [
+          "OL4.6"
+        ]
+      ]
+    },
+    {
+      "net": "M1_T4",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "OL6.2"
+        ],
+        [
+          "M1.T4"
+        ]
+      ]
+    },
+    {
+      "net": "M1_T5",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "M1.T5"
+        ],
+        [
+          "OL6.4"
+        ]
+      ]
+    },
+    {
+      "net": "M1_T6",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "OL6.6"
+        ],
+        [
+          "M1.T6"
+        ]
+      ]
+    },
+    {
+      "net": "Net-(S3-HI3_B)",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "S3.5B"
+        ],
+        [
+          "S3.3B"
+        ],
+        [
+          "S3.4B"
+        ]
+      ]
+    },
+    {
+      "net": "Net-(S3-HI5_T)",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "S3.7T"
+        ],
+        [
+          "S3.5T"
+        ]
+      ]
+    },
+    {
+      "net": "Net-(S3-HI6_T)",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "S3.4T"
+        ],
+        [
+          "S3.6T"
+        ]
+      ]
+    },
+    {
+      "net": "Net-(S3-HI8_B)",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "S3.7B"
+        ],
+        [
+          "S3.8B"
+        ]
+      ]
+    },
+    {
+      "net": "PE",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "PS1.1_BOT"
+        ],
+        [
+          "J2.G"
+        ],
+        [
+          "M1.PE"
+        ]
+      ]
+    },
+    {
+      "net": "SPEED_HIGH_CMD",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "S3.2T"
+        ],
+        [
+          "K4.31"
+        ]
+      ]
+    },
+    {
+      "net": "SPEED_HIGH_COIL",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K5.44"
+        ],
+        [
+          "K6.A1.BOT"
+        ],
+        [
+          "SP6.1"
+        ],
+        [
+          "K6.A1.TOP"
+        ]
+      ]
+    },
+    {
+      "net": "SPEED_LOW_CMD",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "S3.1T"
+        ],
+        [
+          "S3.3T"
+        ],
+        [
+          "K6.31"
+        ]
+      ]
+    },
+    {
+      "net": "SPEED_LOW_K6_NC_LINK",
+      "covered": false,
+      "remaining_groups": [
+        [
+          "K6.32"
+        ],
+        [
+          "K5.31"
+        ]
+      ]
+    }
+  ],
+  "unfinished_symbols_outside_recorded_nets": [],
+  "records": [
+    {
+      "id": "trace:71ea5f320e68323a",
+      "from": "FH1.P1.A",
+      "to": "TB42.TOP",
+      "net": "L3_IN",
+      "kind": "wire",
+      "exported": true,
+      "row": [
+        "Fuse Holder",
+        "FH1_P1A",
+        "Terminal 42",
+        "TB42_TOP",
+        "14",
+        "290",
+        "R14_1032_9mm",
+        "F14_10mm"
+      ],
+      "section": "PCB traces",
+      "route_mm": 182.445489,
+      "review": "pending",
+      "cut_mm": 290,
+      "slack_mm": 100,
+      "track_ids": [
+        "3b4fb756-70f3-4ea6-b6cc-9a8837c9618a",
+        "436278d7-1a79-4f38-bafb-1321f5ac772e",
+        "529b34d9-ca55-4bc7-9126-7929b3982a47",
+        "75cd8ce0-ccbf-41a0-b1cf-2cde6204e4d6",
+        "f09c7716-94ae-44ee-9312-1c39e1c00987"
+      ],
+      "endpoint_pad_ids": [
+        "bbf0dc71-9a9b-4ea3-9568-e2ee57505470",
+        "ca9e1ee7-11c3-42e7-b41f-d062e556cf16"
+      ]
+    },
+    {
+      "id": "trace:c2f7f26011a960c8",
+      "from": "FH1.P1.B",
+      "to": "SW1.5",
+      "net": "/L3_FUSED",
+      "kind": "wire",
+      "exported": true,
+      "row": [
+        "Fuse Holder",
+        "FH1_P1B",
+        "Motor Disconnect",
+        "SW1_5",
+        "14",
+        "280",
+        "R14_1032_9mm",
+        "B14_12mm"
+      ],
+      "section": "PCB traces",
+      "route_mm": 179.613568,
+      "review": "pending",
+      "cut_mm": 280,
+      "slack_mm": 100,
+      "track_ids": [
+        "13482dbe-c2d5-4285-8470-5f525657d7ed",
+        "8becbfe0-c694-4ed3-ad93-7e7d9f88d5f3",
+        "9f854e86-fcff-431f-b704-787f00bd6d47",
+        "bbf35b9a-c799-4c68-b689-93e7a9cc8823",
+        "c87faced-2261-4ec6-bcfb-ad921c4976f1"
+      ],
+      "endpoint_pad_ids": [
+        "257b5975-1cce-462f-a1cb-b07f73592bba",
+        "5e9e13fe-61ed-4e14-ba83-8a9df1402262"
+      ]
+    },
+    {
+      "id": "trace:e018d0ecfc1ea88c",
+      "from": "FH1.P2.A",
+      "to": "TB41.TOP",
+      "net": "L2_IN",
+      "kind": "wire",
+      "exported": true,
+      "row": [
+        "Fuse Holder",
+        "FH1_P2A",
+        "Terminal 41",
+        "TB41_TOP",
+        "14",
+        "270",
+        "R14_1032_9mm",
+        "F14_10mm"
+      ],
+      "section": "PCB traces",
+      "route_mm": 163.94027,
+      "review": "pending",
+      "cut_mm": 270,
+      "slack_mm": 100,
+      "track_ids": [
+        "0967ab7c-9c40-4467-a95b-d19ec4f1d56d",
+        "234bd804-cdaa-4b4a-b4f7-e7eaed5df898",
+        "3e9f7ae8-c0c1-42b2-8bf6-e676b9ffbdd4",
+        "7fe813af-8213-403b-8a68-46745806cf4b",
+        "b81c0cf8-9640-4a1e-a193-cdc0bd535874"
+      ],
+      "endpoint_pad_ids": [
+        "186f2085-1801-421b-85c1-a2daef951326",
+        "f09ee3f2-965c-435c-a788-1255528bccbf"
+      ]
+    },
+    {
+      "id": "trace:af66692346daddd3",
+      "from": "FH1.P2.B",
+      "to": "SW1.3",
+      "net": "/L2_FUSED",
+      "kind": "wire",
+      "exported": true,
+      "row": [
+        "Fuse Holder",
+        "FH1_P2B",
+        "Motor Disconnect",
+        "SW1_3",
+        "14",
+        "250",
+        "R14_1032_9mm",
+        "B14_12mm"
+      ],
+      "section": "PCB traces",
+      "route_mm": 145.79464,
+      "review": "pending",
+      "cut_mm": 250,
+      "slack_mm": 100,
+      "track_ids": [
+        "1ef7e4bb-3d81-4c8a-a7a5-cf7cd95a7f25",
+        "3d114f43-1f56-4dd6-b848-60b6b208ecc4",
+        "a046293f-8dbb-4b67-954e-76840492278a",
+        "c80b36e0-1415-451a-8d9f-a21c3fdab71b",
+        "e6ab1f99-e177-4a33-956f-4ee9971c93b4"
+      ],
+      "endpoint_pad_ids": [
+        "f1fc4f44-9050-4094-857e-6db655a62aa6",
+        "a0959408-3d6e-46ce-b097-37eaaf6eea9c"
+      ]
+    },
+    {
+      "id": "trace:341bde8f5d6c2e97",
+      "from": "FH1.P3.A",
+      "to": "TB40.TOP",
+      "net": "L1_IN",
+      "kind": "wire",
+      "exported": true,
+      "row": [
+        "Fuse Holder",
+        "FH1_P3A",
+        "Terminal 40",
+        "TB40_TOP",
+        "14",
+        "250",
+        "R14_1032_9mm",
+        "F14_10mm"
+      ],
+      "section": "PCB traces",
+      "route_mm": 148.363979,
+      "review": "pending",
+      "cut_mm": 250,
+      "slack_mm": 100,
+      "track_ids": [
+        "5b777cca-743c-4fb3-aaee-c5afffe3d49e",
+        "65ae418a-7ffa-4f41-a238-b7aa2b7bb22d",
+        "88b0e15c-175f-4a6d-b357-081b5ec23175"
+      ],
+      "endpoint_pad_ids": [
+        "38a7b67d-ea8a-40ea-b6fd-425ef0b088e9",
+        "ce9bf54b-47f0-4f5e-89ba-c1617adb75de"
+      ]
+    },
+    {
+      "id": "trace:0cc73fea53deee80",
+      "from": "FH1.P3.B",
+      "to": "SW1.1",
+      "net": "/L1_FUSED",
+      "kind": "wire",
+      "exported": true,
+      "row": [
+        "Fuse Holder",
+        "FH1_P3B",
+        "Motor Disconnect",
+        "SW1_1",
+        "14",
+        "220",
+        "R14_1032_9mm",
+        "B14_12mm"
+      ],
+      "section": "PCB traces",
+      "route_mm": 112.561495,
+      "review": "pending",
+      "cut_mm": 220,
+      "slack_mm": 100,
+      "track_ids": [
+        "41597ed1-055d-4feb-b5aa-ec51eee4bf41",
+        "b0178bb2-331d-4543-a9c7-702e88f48cd9",
+        "bb6673ba-1a7f-4544-b51f-bd9898c89928",
+        "ca0afefd-c67d-4ffc-91a3-301deb97beb9",
+        "f55b84cd-2acf-42b6-8339-5f9a644e8232"
+      ],
+      "endpoint_pad_ids": [
+        "fba5ae6f-6635-4de2-a7c4-6f3eb548f050",
+        "ac215f0f-44c9-4214-8a61-37635c61a064"
+      ]
+    },
+    {
+      "id": "trace:3f6ba3e329055384",
+      "from": "J1.1",
+      "to": "TB30.BOT",
+      "net": "+24V",
+      "kind": "wire",
+      "exported": true,
+      "row": [
+        "M12 Panel Socket",
+        "J1_1",
+        "Terminal 30",
+        "TB30_BOT",
+        "22",
+        "190",
+        "supplier",
+        "F22_10mm"
+      ],
+      "section": "PCB traces",
+      "route_mm": 89.213203,
+      "review": "pending",
+      "cut_mm": 190,
+      "slack_mm": 100,
+      "track_ids": [
+        "2abc14ac-64a5-4d89-983d-88a17a588537",
+        "4d7fa37e-5aff-4ba4-8860-ce7aa4657633",
+        "5bfd43e7-f71a-4653-829e-4f9457adf181",
+        "7261cca4-0943-4d08-9a40-a9845cbd9443",
+        "81a159d6-8d78-4864-8554-dcbac94f2e20",
+        "f6f8d3a9-d01c-4fc9-94cb-41e497c94d6e",
+        "f8edf47e-68bf-466f-8720-489fd0b2d9bc"
+      ],
+      "endpoint_pad_ids": [
+        "5be79936-fe97-4112-bd56-52e870d5058c",
+        "f5963224-f384-40df-abf0-09c7aff14a30"
+      ]
+    },
+    {
+      "id": "trace:3eee4e20ffd6fcc5",
+      "from": "J1.2",
+      "to": "TB31.BOT",
+      "net": "/CONTROL_ESTOP_CONTACT_LINK",
+      "kind": "wire",
+      "exported": true,
+      "row": [
+        "M12 Panel Socket",
+        "J1_2",
+        "Terminal 31",
+        "TB31_BOT",
+        "22",
+        "200",
+        "supplier",
+        "F22_10mm"
+      ],
+      "section": "PCB traces",
+      "route_mm": 94.577164,
+      "review": "pending",
+      "cut_mm": 200,
+      "slack_mm": 100,
+      "track_ids": [
+        "0a4a3d1e-f753-42aa-876a-5a6676a72a87",
+        "1300c761-aace-44ea-b901-f69d968b6e6d",
+        "2741e28e-8b82-45ab-97f8-db8f7cb3ef5f",
+        "613f720e-bf0c-4500-bf07-54e5ee0f7937",
+        "783c0e9b-916b-49a9-8575-4204a88d0c2d",
+        "89c6f481-ea5c-4b10-8e1b-aa9a6fc5caa7",
+        "e0e272a1-6ca1-4c46-b70c-f4a7a4f32ace"
+      ],
+      "endpoint_pad_ids": [
+        "3182b60b-6e53-4f00-9fa0-d22ee06f2e17",
+        "83d3c042-3567-445a-9393-4e37c9fa1ba4"
+      ]
+    },
+    {
+      "id": "trace:0511ef80f792aba9",
+      "from": "J1.3",
+      "to": "TB33.BOT",
+      "net": "/CONTROL_ESTOP_CONTACT_LINK",
+      "kind": "wire",
+      "exported": true,
+      "row": [
+        "M12 Panel Socket",
+        "J1_3",
+        "Terminal 33",
+        "TB33_BOT",
+        "22",
+        "210",
+        "supplier",
+        "F22_10mm"
+      ],
+      "section": "PCB traces",
+      "route_mm": 100.526912,
+      "review": "pending",
+      "cut_mm": 210,
+      "slack_mm": 100,
+      "track_ids": [
+        "3947bf6d-964a-431d-a5fc-2a99a2924bb6",
+        "7716af01-7e28-4835-b253-c556ce54b232",
+        "95f20381-37cf-4a2e-be5e-65752d5f252a",
+        "9efb571c-1eeb-437f-98c5-329946b2b403",
+        "cad2f909-a910-4c79-a24c-8c1aba4da192",
+        "cb545f38-2558-4c37-931c-69f26d743212",
+        "d41d0882-a7dc-4b13-8aae-587e8257150b"
+      ],
+      "endpoint_pad_ids": [
+        "5e49b7ba-c64f-4d6a-bcc6-519bada2d9f8",
+        "d7f78e89-60dc-4943-bb09-9078ea51c8d8"
+      ]
+    },
+    {
+      "id": "trace:2184869b553de923",
+      "from": "J1.4",
+      "to": "TB32.BOT",
+      "net": "CONTROL_ESTOP_ENABLE",
+      "kind": "wire",
+      "exported": true,
+      "row": [
+        "M12 Panel Socket",
+        "J1_4",
+        "Terminal 32",
+        "TB32_BOT",
+        "22",
+        "210",
+        "supplier",
+        "F22_10mm"
+      ],
+      "section": "PCB traces",
+      "route_mm": 106.769553,
+      "review": "pending",
+      "cut_mm": 210,
+      "slack_mm": 100,
+      "track_ids": [
+        "063e531c-6df6-443e-b6ae-87cb7d480c0a",
+        "0b95c25f-60f3-4d57-aacb-239d70c8908a",
+        "471db433-1f05-47c0-b736-b88f8e1e98e8",
+        "5a7f4c4f-6bcf-40b0-8fc5-0fc5a97ab1a4",
+        "8abee258-9d72-40dd-a9b9-c31d19a576e0",
+        "9784d129-2b65-4a0d-8944-24903cc5613b",
+        "e075f13f-0bc2-4128-b55c-a4820e60438d"
+      ],
+      "endpoint_pad_ids": [
+        "05645eaf-1dce-43aa-9832-7cfadb412dea",
+        "f776c4af-6cda-43a3-ab64-4d38456e7c4d"
+      ]
+    },
+    {
+      "id": "trace:9b94a26c6ef03f8c",
+      "from": "J2.G",
+      "to": "TB43.2",
+      "net": "PE",
+      "kind": "wire",
+      "exported": true,
+      "row": [
+        "Mains Plug",
+        "J2_G",
+        "Terminal 43",
+        "TB43_2",
+        "12",
+        "270",
+        "B12",
+        "F12_10mm"
+      ],
+      "section": "PCB traces",
+      "route_mm": 161.0,
+      "review": "pending",
+      "cut_mm": 270,
+      "slack_mm": 100,
+      "track_ids": [
+        "8a8fb94a-4934-4c84-a19d-3d0cb6ed5a84"
+      ],
+      "endpoint_pad_ids": [
+        "96cef2eb-b39b-4d4b-acbc-58b07c052d0a",
+        "8a0bdf22-b508-489a-811b-bf31eaa923c8"
+      ]
+    },
+    {
+      "id": "trace:fefcf6196c5ca23a",
+      "from": "J2.X",
+      "to": "TB40.BOT",
+      "net": "L1_IN",
+      "kind": "wire",
+      "exported": true,
+      "row": [
+        "Mains Plug",
+        "J2_X",
+        "Terminal 40",
+        "TB40_BOT",
+        "12",
+        "270",
+        "B12",
+        "F12_10mm"
+      ],
+      "section": "PCB traces",
+      "route_mm": 161.0,
+      "review": "pending",
+      "cut_mm": 270,
+      "slack_mm": 100,
+      "track_ids": [
+        "0b968b48-bbd0-4230-ba49-a7547d458564"
+      ],
+      "endpoint_pad_ids": [
+        "00a196a9-d0f2-4f0f-b4a7-95fd3db033e7",
+        "9cde01dd-beb1-40b4-8fe7-c21eb04d544e"
+      ]
+    },
+    {
+      "id": "trace:c866605606570967",
+      "from": "J2.Y",
+      "to": "TB41.BOT",
+      "net": "L2_IN",
+      "kind": "wire",
+      "exported": true,
+      "row": [
+        "Mains Plug",
+        "J2_Y",
+        "Terminal 41",
+        "TB41_BOT",
+        "12",
+        "270",
+        "B12",
+        "F12_10mm"
+      ],
+      "section": "PCB traces",
+      "route_mm": 161.0,
+      "review": "pending",
+      "cut_mm": 270,
+      "slack_mm": 100,
+      "track_ids": [
+        "c41aced2-bd13-403c-92e8-8246aac65a99"
+      ],
+      "endpoint_pad_ids": [
+        "aa3375f0-ab68-40f6-9fcf-e471eb79e79b",
+        "c3a91a10-c10e-4466-a58a-cba8b42aa62f"
+      ]
+    },
+    {
+      "id": "trace:2c18182dcfe96874",
+      "from": "J2.Z",
+      "to": "TB42.BOT",
+      "net": "L3_IN",
+      "kind": "wire",
+      "exported": true,
+      "row": [
+        "Mains Plug",
+        "J2_Z",
+        "Terminal 42",
+        "TB42_BOT",
+        "12",
+        "270",
+        "B12",
+        "F12_10mm"
+      ],
+      "section": "PCB traces",
+      "route_mm": 161.0,
+      "review": "pending",
+      "cut_mm": 270,
+      "slack_mm": 100,
+      "track_ids": [
+        "314157dd-2bd6-482a-81c7-b1b1bc0489d3"
+      ],
+      "endpoint_pad_ids": [
+        "dc183596-9ad4-486d-9f3e-3c6dc716bd96",
+        "554e23fe-474c-43ba-b5a7-747b63e24115"
+      ]
+    },
+    {
+      "id": "trace:6712547c747c6adc",
+      "from": "PS1.1_BOT",
+      "to": "TB50.2",
+      "net": "PE",
+      "kind": "wire",
+      "exported": true,
+      "row": [
+        "DC Power Supply",
+        "PS1_PE",
+        "Terminal 50",
+        "TB50_2",
+        "14",
+        "300",
+        "B14_5mm",
+        "F14_10mm"
+      ],
+      "section": "PCB traces",
+      "route_mm": 199.284271,
+      "review": "pending",
+      "cut_mm": 300,
+      "slack_mm": 100,
+      "track_ids": [
+        "113a2e59-3292-421f-87f6-2380b9fbf2cc",
+        "776f8b77-a547-484c-bdb5-f661d1523660",
+        "7eba9cb4-f567-44b4-b7b6-c63c51e5fa90",
+        "cd653dff-45f8-4d82-90ce-277f107405ec",
+        "e1afa737-6851-49d9-803f-d2e376251606"
+      ],
+      "endpoint_pad_ids": [
+        "630a2e35-7e67-4088-a11a-5310518281e5",
+        "becf3dcc-740a-4399-85b5-0e1bfb2b97ee"
+      ]
+    },
+    {
+      "id": "trace:f5540923d9547721",
+      "from": "TB43.1",
+      "to": "TB51.2",
+      "net": "PE",
+      "kind": "wire",
+      "exported": true,
+      "row": [
+        "Terminal 43",
+        "TB43_1",
+        "Terminal 51",
+        "TB51_2",
+        "12",
+        "360",
+        "F12_10mm",
+        "F12_10mm"
+      ],
+      "section": "PCB traces",
+      "route_mm": 255.426407,
+      "review": "pending",
+      "cut_mm": 360,
+      "slack_mm": 100,
+      "track_ids": [
+        "12b7a6ef-6414-4d85-bdf2-5ed586cc6338",
+        "41de2645-4136-493b-8be1-1f86121e3689",
+        "70cbd3d2-ebd7-4615-bc38-76988cf2d17b",
+        "a5fb0a19-eeb2-48cf-969d-e3292968b04c",
+        "c2a4d9ff-6fb9-45af-8ac8-59ba9fa79301"
+      ],
+      "endpoint_pad_ids": [
+        "5db49811-3920-4ef7-a2fe-01b27f232d2e",
+        "2058f086-84bc-4b57-b393-150910937aba"
+      ]
+    },
+    {
+      "id": "trace:28e26ca23a41c38c",
+      "from": "TB50.1",
+      "to": "TB52.2",
+      "net": "PE",
+      "kind": "wire",
+      "exported": true,
+      "row": [
+        "Terminal 50",
+        "TB50_1",
+        "Terminal 52",
+        "TB52_2",
+        "14",
+        "270",
+        "F14_10mm",
+        "F14_10mm"
+      ],
+      "section": "PCB traces",
+      "route_mm": 164.656854,
+      "review": "pending",
+      "cut_mm": 270,
+      "slack_mm": 100,
+      "track_ids": [
+        "0d806b70-c00f-412b-b01a-dd7b148e1231",
+        "9928ba97-a434-483b-a7ef-02b76d1e6eab",
+        "c21251e5-c33d-4ee6-aa1c-39c2c96bae14"
+      ],
+      "endpoint_pad_ids": [
+        "5a6c3d6d-08cb-4127-bb69-3c6db61c9945",
+        "816434e3-379e-426e-8903-73605e272440"
+      ]
+    }
+  ],
+  "csv_is_generated": true,
+  "wire_source": "PCB traces",
+  "trace_objects": 272,
+  "warnings": [
+    "133 unfinished trace endpoints; only completed pad-to-pad paths are exported.",
+    "Trace-only loops/components without two terminal pads are omitted.",
+    "J2: Panel tail only; external mains cord length is not included"
+  ],
+  "route_sections": 0,
+  "legacy_wire_fields_used": false,
+  "supplied_assemblies": [
+    {
+      "reference": "BB1",
+      "part": "HMX1-BBREV",
+      "quantity": 1,
+      "connections": [
+        {
+          "assembly": "BB1",
+          "part": "HMX1-BBREV",
+          "pad_ids": [
+            "01db0f59-96cb-430a-9c51-92c6a4ed31c8",
+            "ca313c02-e772-49cc-88ed-945c04aee79a"
+          ],
+          "endpoints": [
+            [
+              "K1",
+              "1"
+            ],
+            [
+              "K2",
+              "1"
+            ]
+          ],
+          "net": "L1_SW"
+        },
+        {
+          "assembly": "BB1",
+          "part": "HMX1-BBREV",
+          "pad_ids": [
+            "07ec72d1-6d08-45d7-930d-555af9c9915b",
+            "553fc983-0a59-478f-a944-724d217dad59"
+          ],
+          "endpoints": [
+            [
+              "K1",
+              "3"
+            ],
+            [
+              "K2",
+              "3"
+            ]
+          ],
+          "net": "L2_SW"
+        },
+        {
+          "assembly": "BB1",
+          "part": "HMX1-BBREV",
+          "pad_ids": [
+            "95b7c638-cfa3-4a31-9b3c-7b1606aff3f2",
+            "609d7c18-2997-4502-a004-0042479271af"
+          ],
+          "endpoints": [
+            [
+              "K1",
+              "5"
+            ],
+            [
+              "K2",
+              "5"
+            ]
+          ],
+          "net": "L3_SW"
+        },
+        {
+          "assembly": "BB1",
+          "part": "HMX1-BBREV",
+          "pad_ids": [
+            "332cec9e-be32-408f-95bf-5719ddfc1ac8",
+            "327f490e-d30d-42d9-915a-a9864db9b274"
+          ],
+          "endpoints": [
+            [
+              "K1",
+              "2"
+            ],
+            [
+              "K2",
+              "6"
+            ]
+          ],
+          "net": "L1_DIR"
+        },
+        {
+          "assembly": "BB1",
+          "part": "HMX1-BBREV",
+          "pad_ids": [
+            "a98ca377-5e76-4112-acee-ad8e995cb856",
+            "51919344-ef9b-45a6-808e-376d9441c4e8"
+          ],
+          "endpoints": [
+            [
+              "K1",
+              "4"
+            ],
+            [
+              "K2",
+              "4"
+            ]
+          ],
+          "net": "L2_DIR"
+        },
+        {
+          "assembly": "BB1",
+          "part": "HMX1-BBREV",
+          "pad_ids": [
+            "b3ac6385-fffa-4bc5-96e7-485e9e6b0f54",
+            "6a39b964-81cf-4c8e-95ca-1093e9e027d6"
+          ],
+          "endpoints": [
+            [
+              "K1",
+              "6"
+            ],
+            [
+              "K2",
+              "2"
+            ]
+          ],
+          "net": "L3_DIR"
+        }
+      ]
+    }
+  ],
+  "unrouted_nets": [
+    "+24V",
+    "+24V_EN",
+    "/CONTROL_ESTOP_CONTACT_LINK",
+    "/CONTROL_K3_CONTACT_LINK",
+    "/DIRECTION_FWD_COIL",
+    "/DIRECTION_REV_COIL",
+    "/HS_SHORT",
+    "/L1_HIGH",
+    "/L1_LOW",
+    "/L1_PSU",
+    "/L2_HIGH",
+    "/L2_LOW",
+    "/L2_PSU",
+    "/L3_HIGH",
+    "/L3_LOW",
+    "/SPEED_HIGH_SHORTING_COIL",
+    "/SPEED_LOW_COIL",
+    "0V",
+    "CONTROL_ESTOP_DISABLED_FB",
+    "CONTROL_ESTOP_ENABLE",
+    "CONTROL_LOW_OVERLOAD_ENABLE",
+    "CONTROL_OVERLOAD_ENABLE",
+    "CONTROL_RUN_ENABLE",
+    "DIRECTION_ENABLE",
+    "DIRECTION_FWD_CMD",
+    "DIRECTION_REV_CMD",
+    "L1_DIR",
+    "L1_SW",
+    "L2_DIR",
+    "L2_SW",
+    "L3_DIR",
+    "L3_SW",
+    "M1_T1",
+    "M1_T2",
+    "M1_T3",
+    "M1_T4",
+    "M1_T5",
+    "M1_T6",
+    "Net-(S3-HI3_B)",
+    "Net-(S3-HI5_T)",
+    "Net-(S3-HI6_T)",
+    "Net-(S3-HI8_B)",
+    "PE",
+    "SPEED_HIGH_CMD",
+    "SPEED_HIGH_COIL",
+    "SPEED_LOW_CMD",
+    "SPEED_LOW_K6_NC_LINK"
+  ]
+}

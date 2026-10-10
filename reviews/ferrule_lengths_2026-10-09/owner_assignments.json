@@ -1,0 +1,235 @@
+{
+  "owner_checkpoint": "saved and closed",
+  "source_pcb": "/Users/evanthayer/Projects/_hardware/powermatic_1200/kicad/powermatic_1200/powermatic_1200.kicad_pcb",
+  "pcb_before_sha256": "7e245750b82a09ce7185401bca82b3585b0c7e4287a0703eb74249c0c9897fa9",
+  "pcb_after_sha256": "cfa3867ee4c9357682e1065a21a52754802bb0db8dde9f16ee2d63206fae5581",
+  "schematic_sha256": "0bfebb9d81f19a410c6ed6f262cc66d7a9df66ec3802d07990d0bb5c858f8185",
+  "terminal_fields_updated": 11,
+  "changes": [
+    {
+      "ref": "Q1",
+      "pin": "1",
+      "field": "Termination.1",
+      "net": "L1_SW",
+      "before": "Ferrule 14 AWG; L=TBD mm",
+      "after": "Bare stranded copper, 14 AWG; strip per device instructions"
+    },
+    {
+      "ref": "Q1",
+      "pin": "2",
+      "field": "Termination.2",
+      "net": "/L1_PSU",
+      "before": "Ferrule 14 AWG; L=TBD mm",
+      "after": "Bare stranded copper, 14 AWG; strip per device instructions"
+    },
+    {
+      "ref": "Q1",
+      "pin": "3",
+      "field": "Termination.3",
+      "net": "L2_SW",
+      "before": "Ferrule 14 AWG; L=TBD mm",
+      "after": "Bare stranded copper, 14 AWG; strip per device instructions"
+    },
+    {
+      "ref": "Q1",
+      "pin": "4",
+      "field": "Termination.4",
+      "net": "/L2_PSU",
+      "before": "Ferrule 14 AWG; L=TBD mm",
+      "after": "Bare stranded copper, 14 AWG; strip per device instructions"
+    },
+    {
+      "ref": "PS1",
+      "pin": "1_BOT",
+      "field": "Termination.1_BOT",
+      "net": "PE",
+      "before": "Ferrule 14 AWG; L=TBD mm",
+      "after": "Bare stranded copper, 14 AWG; strip=5 mm"
+    },
+    {
+      "ref": "PS1",
+      "pin": "2_BOT",
+      "field": "Termination.2_BOT",
+      "net": "/L2_PSU",
+      "before": "Ferrule 14 AWG; L=TBD mm",
+      "after": "Bare stranded copper, 14 AWG; strip=5 mm"
+    },
+    {
+      "ref": "PS1",
+      "pin": "3_BOT",
+      "field": "Termination.3_BOT",
+      "net": "/L1_PSU",
+      "before": "Ferrule 14 AWG; L=TBD mm",
+      "after": "Bare stranded copper, 14 AWG; strip=5 mm"
+    },
+    {
+      "ref": "H1",
+      "pin": "X1",
+      "field": "Termination.X1",
+      "net": "+24V",
+      "before": "Ferrule 18 AWG; L=TBD mm",
+      "after": "Ferrule 18 AWG; L=6 mm"
+    },
+    {
+      "ref": "H1",
+      "pin": "X2",
+      "field": "Termination.X2",
+      "net": "0V",
+      "before": "Ferrule 18 AWG; L=TBD mm",
+      "after": "Ferrule 18 AWG; L=6 mm"
+    },
+    {
+      "ref": "H2",
+      "pin": "X1",
+      "field": "Termination.X1",
+      "net": "CONTROL_ESTOP_DISABLED_FB",
+      "before": "Ferrule 18 AWG; L=TBD mm",
+      "after": "Ferrule 18 AWG; L=6 mm"
+    },
+    {
+      "ref": "H2",
+      "pin": "X2",
+      "field": "Termination.X2",
+      "net": "0V",
+      "before": "Ferrule 18 AWG; L=TBD mm",
+      "after": "Ferrule 18 AWG; L=6 mm"
+    }
+  ],
+  "geometry_existing_fields_and_all_tracks_preserved": true,
+  "schematic_unchanged": true,
+  "PS1_DC_outputs": "Existing ferrule fields retained; this request assigns the three bottom L/N/PE input ends only.",
+  "lamp_length_status": "Owner selected standard 6 mm metal barrel; not a new manufacturer fit approval.",
+  "native_extraction_passed": true,
+  "generated_rows": 17,
+  "trace_objects": 272,
+  "changed_schedule_rows": 1,
+  "source_files_verified": true,
+  "ad_catalog_confirmed": [
+    {
+      "type": "single",
+      "awg_per_conductor": 18,
+      "metal_barrel_mm": 8,
+      "color": "Gray",
+      "mm2_per_conductor": 0.75,
+      "part_number": "V30AE000041"
+    },
+    {
+      "type": "single",
+      "awg_per_conductor": 16,
+      "metal_barrel_mm": 8,
+      "color": "Black",
+      "mm2_per_conductor": 1.5,
+      "part_number": "V30AE000048"
+    },
+    {
+      "type": "single",
+      "awg_per_conductor": 12,
+      "metal_barrel_mm": 10,
+      "color": "Gray",
+      "mm2_per_conductor": 4,
+      "part_number": "V30AE000055"
+    },
+    {
+      "type": "single",
+      "awg_per_conductor": 14,
+      "metal_barrel_mm": 12,
+      "color": "Blue",
+      "mm2_per_conductor": 2.5,
+      "part_number": "V30AE000053"
+    },
+    {
+      "type": "single",
+      "awg_per_conductor": 14,
+      "metal_barrel_mm": 8,
+      "color": "Blue",
+      "mm2_per_conductor": 2.5,
+      "part_number": "V30AE000052"
+    },
+    {
+      "type": "single",
+      "awg_per_conductor": 16,
+      "metal_barrel_mm": 10,
+      "color": "Black",
+      "mm2_per_conductor": 1.5,
+      "part_number": "V30AE000049"
+    },
+    {
+      "type": "single",
+      "awg_per_conductor": 18,
+      "metal_barrel_mm": 8,
+      "color": "Red",
+      "mm2_per_conductor": 1,
+      "part_number": "V30AE000045"
+    },
+    {
+      "type": "single",
+      "awg_per_conductor": 12,
+      "metal_barrel_mm": 12,
+      "color": "Gray",
+      "mm2_per_conductor": 4,
+      "part_number": "V30AE000056"
+    },
+    {
+      "type": "twin",
+      "awg_per_conductor": 14,
+      "metal_barrel_mm": 10,
+      "color": "Blue",
+      "mm2_per_conductor": 2.5,
+      "part_number": "V30AE000611"
+    },
+    {
+      "type": "twin",
+      "awg_per_conductor": 16,
+      "metal_barrel_mm": 8,
+      "color": "Black",
+      "mm2_per_conductor": 1.5,
+      "part_number": "V30AE000625"
+    },
+    {
+      "type": "twin",
+      "awg_per_conductor": 18,
+      "metal_barrel_mm": 12,
+      "color": "Red",
+      "mm2_per_conductor": 1,
+      "part_number": "V30AE000736"
+    },
+    {
+      "type": "twin",
+      "awg_per_conductor": 18,
+      "metal_barrel_mm": 10,
+      "color": "Gray",
+      "mm2_per_conductor": 0.75,
+      "part_number": "V30AE000734"
+    },
+    {
+      "type": "twin",
+      "awg_per_conductor": 16,
+      "metal_barrel_mm": 12,
+      "color": "Black",
+      "mm2_per_conductor": 1.5,
+      "part_number": "V30AE000738"
+    },
+    {
+      "type": "twin",
+      "awg_per_conductor": 18,
+      "metal_barrel_mm": 8,
+      "color": "Gray",
+      "mm2_per_conductor": 0.75,
+      "part_number": "V30AE000607"
+    },
+    {
+      "type": "twin",
+      "awg_per_conductor": 18,
+      "metal_barrel_mm": 8,
+      "color": "Red",
+      "mm2_per_conductor": 1,
+      "part_number": "V30AE000609"
+    }
+  ],
+  "catalog_source": "https://cdn.automationdirect.com/static/specs/dinwiring.pdf",
+  "catalog_scope": "Available options only; no automatic assignments to unresolved terminals or purchase quantities.",
+  "PS1_DC_output_followup": {
+    "report": "ps1_top_bare_assignments.json",
+    "selection": "All four top terminals assigned bare stranded copper, 18 AWG; strip=5 mm. Supersedes the retained-ferrule status at this earlier checkpoint."
+  }
+}

@@ -1,0 +1,965 @@
+{
+  "owner_checkpoint": "saved closed",
+  "feedthrough_blocks": [
+    "TB1",
+    "TB10",
+    "TB11",
+    "TB12",
+    "TB13",
+    "TB14",
+    "TB2",
+    "TB20",
+    "TB21",
+    "TB22",
+    "TB23",
+    "TB24",
+    "TB3",
+    "TB30",
+    "TB31",
+    "TB32",
+    "TB33",
+    "TB40",
+    "TB41",
+    "TB42",
+    "TB60",
+    "TB61",
+    "TB62",
+    "TB63",
+    "TB64",
+    "TB65",
+    "TB66",
+    "TB67",
+    "TB68"
+  ],
+  "ground_blocks": [
+    "TB43",
+    "TB50",
+    "TB51",
+    "TB52"
+  ],
+  "termination_fields_updated": 66,
+  "policy_fields_updated": 33,
+  "changes": [
+    {
+      "ref": "TB33",
+      "field": "Termination.TOP",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB33",
+      "field": "Termination.BOT",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB33",
+      "field": "Wire.TerminationPolicy",
+      "before": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. Size for the actual conductor(s).",
+      "after": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. L=10 mm. Size for the actual conductor(s)."
+    },
+    {
+      "ref": "TB21",
+      "field": "Termination.TOP",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB21",
+      "field": "Termination.BOT",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB21",
+      "field": "Wire.TerminationPolicy",
+      "before": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. Size for the actual conductor(s).",
+      "after": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. L=10 mm. Size for the actual conductor(s)."
+    },
+    {
+      "ref": "TB32",
+      "field": "Termination.TOP",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB32",
+      "field": "Termination.BOT",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB32",
+      "field": "Wire.TerminationPolicy",
+      "before": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. Size for the actual conductor(s).",
+      "after": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. L=10 mm. Size for the actual conductor(s)."
+    },
+    {
+      "ref": "TB65",
+      "field": "Termination.TOP",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB65",
+      "field": "Termination.BOT",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB65",
+      "field": "Wire.TerminationPolicy",
+      "before": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. Size for the actual conductor(s).",
+      "after": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. L=10 mm. Size for the actual conductor(s)."
+    },
+    {
+      "ref": "TB23",
+      "field": "Termination.TOP",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB23",
+      "field": "Termination.BOT",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB23",
+      "field": "Wire.TerminationPolicy",
+      "before": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. Size for the actual conductor(s).",
+      "after": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. L=10 mm. Size for the actual conductor(s)."
+    },
+    {
+      "ref": "TB31",
+      "field": "Termination.TOP",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB31",
+      "field": "Termination.BOT",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB31",
+      "field": "Wire.TerminationPolicy",
+      "before": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. Size for the actual conductor(s).",
+      "after": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. L=10 mm. Size for the actual conductor(s)."
+    },
+    {
+      "ref": "TB52",
+      "field": "Termination.1",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Single ferrule; L=10 mm"
+    },
+    {
+      "ref": "TB52",
+      "field": "Termination.2",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Single ferrule; L=10 mm"
+    },
+    {
+      "ref": "TB52",
+      "field": "Wire.TerminationPolicy",
+      "before": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. Size for the actual conductor(s).",
+      "after": "One conductor per clamp only: single ferrule. L=10 mm. Size for the actual conductor."
+    },
+    {
+      "ref": "TB66",
+      "field": "Termination.TOP",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB66",
+      "field": "Termination.BOT",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB66",
+      "field": "Wire.TerminationPolicy",
+      "before": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. Size for the actual conductor(s).",
+      "after": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. L=10 mm. Size for the actual conductor(s)."
+    },
+    {
+      "ref": "TB14",
+      "field": "Termination.TOP",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB14",
+      "field": "Termination.BOT",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB14",
+      "field": "Wire.TerminationPolicy",
+      "before": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. Size for the actual conductor(s).",
+      "after": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. L=10 mm. Size for the actual conductor(s)."
+    },
+    {
+      "ref": "TB43",
+      "field": "Termination.1",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Single ferrule; L=10 mm"
+    },
+    {
+      "ref": "TB43",
+      "field": "Termination.2",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Single ferrule; L=10 mm"
+    },
+    {
+      "ref": "TB43",
+      "field": "Wire.TerminationPolicy",
+      "before": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. Size for the actual conductor(s).",
+      "after": "One conductor per clamp only: single ferrule. L=10 mm. Size for the actual conductor."
+    },
+    {
+      "ref": "TB42",
+      "field": "Termination.TOP",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB42",
+      "field": "Termination.BOT",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB42",
+      "field": "Wire.TerminationPolicy",
+      "before": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. Size for the actual conductor(s).",
+      "after": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. L=10 mm. Size for the actual conductor(s)."
+    },
+    {
+      "ref": "TB13",
+      "field": "Termination.TOP",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB13",
+      "field": "Termination.BOT",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB13",
+      "field": "Wire.TerminationPolicy",
+      "before": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. Size for the actual conductor(s).",
+      "after": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. L=10 mm. Size for the actual conductor(s)."
+    },
+    {
+      "ref": "TB41",
+      "field": "Termination.TOP",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB41",
+      "field": "Termination.BOT",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB41",
+      "field": "Wire.TerminationPolicy",
+      "before": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. Size for the actual conductor(s).",
+      "after": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. L=10 mm. Size for the actual conductor(s)."
+    },
+    {
+      "ref": "TB10",
+      "field": "Termination.TOP",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB10",
+      "field": "Termination.BOT",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB10",
+      "field": "Wire.TerminationPolicy",
+      "before": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. Size for the actual conductor(s).",
+      "after": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. L=10 mm. Size for the actual conductor(s)."
+    },
+    {
+      "ref": "TB2",
+      "field": "Termination.TOP",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB2",
+      "field": "Termination.BOT",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB2",
+      "field": "Wire.TerminationPolicy",
+      "before": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. Size for the actual conductor(s).",
+      "after": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. L=10 mm. Size for the actual conductor(s)."
+    },
+    {
+      "ref": "TB11",
+      "field": "Termination.TOP",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB11",
+      "field": "Termination.BOT",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB11",
+      "field": "Wire.TerminationPolicy",
+      "before": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. Size for the actual conductor(s).",
+      "after": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. L=10 mm. Size for the actual conductor(s)."
+    },
+    {
+      "ref": "TB62",
+      "field": "Termination.TOP",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB62",
+      "field": "Termination.BOT",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB62",
+      "field": "Wire.TerminationPolicy",
+      "before": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. Size for the actual conductor(s).",
+      "after": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. L=10 mm. Size for the actual conductor(s)."
+    },
+    {
+      "ref": "TB50",
+      "field": "Termination.1",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Single ferrule; L=10 mm"
+    },
+    {
+      "ref": "TB50",
+      "field": "Termination.2",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Single ferrule; L=10 mm"
+    },
+    {
+      "ref": "TB50",
+      "field": "Wire.TerminationPolicy",
+      "before": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. Size for the actual conductor(s).",
+      "after": "One conductor per clamp only: single ferrule. L=10 mm. Size for the actual conductor."
+    },
+    {
+      "ref": "TB22",
+      "field": "Termination.TOP",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB22",
+      "field": "Termination.BOT",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB22",
+      "field": "Wire.TerminationPolicy",
+      "before": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. Size for the actual conductor(s).",
+      "after": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. L=10 mm. Size for the actual conductor(s)."
+    },
+    {
+      "ref": "TB24",
+      "field": "Termination.TOP",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB24",
+      "field": "Termination.BOT",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB24",
+      "field": "Wire.TerminationPolicy",
+      "before": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. Size for the actual conductor(s).",
+      "after": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. L=10 mm. Size for the actual conductor(s)."
+    },
+    {
+      "ref": "TB67",
+      "field": "Termination.TOP",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB67",
+      "field": "Termination.BOT",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB67",
+      "field": "Wire.TerminationPolicy",
+      "before": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. Size for the actual conductor(s).",
+      "after": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. L=10 mm. Size for the actual conductor(s)."
+    },
+    {
+      "ref": "TB61",
+      "field": "Termination.TOP",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB61",
+      "field": "Termination.BOT",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB61",
+      "field": "Wire.TerminationPolicy",
+      "before": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. Size for the actual conductor(s).",
+      "after": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. L=10 mm. Size for the actual conductor(s)."
+    },
+    {
+      "ref": "TB51",
+      "field": "Termination.1",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Single ferrule; L=10 mm"
+    },
+    {
+      "ref": "TB51",
+      "field": "Termination.2",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Single ferrule; L=10 mm"
+    },
+    {
+      "ref": "TB51",
+      "field": "Wire.TerminationPolicy",
+      "before": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. Size for the actual conductor(s).",
+      "after": "One conductor per clamp only: single ferrule. L=10 mm. Size for the actual conductor."
+    },
+    {
+      "ref": "TB3",
+      "field": "Termination.TOP",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB3",
+      "field": "Termination.BOT",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB3",
+      "field": "Wire.TerminationPolicy",
+      "before": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. Size for the actual conductor(s).",
+      "after": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. L=10 mm. Size for the actual conductor(s)."
+    },
+    {
+      "ref": "TB64",
+      "field": "Termination.TOP",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB64",
+      "field": "Termination.BOT",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB64",
+      "field": "Wire.TerminationPolicy",
+      "before": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. Size for the actual conductor(s).",
+      "after": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. L=10 mm. Size for the actual conductor(s)."
+    },
+    {
+      "ref": "TB30",
+      "field": "Termination.TOP",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB30",
+      "field": "Termination.BOT",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB30",
+      "field": "Wire.TerminationPolicy",
+      "before": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. Size for the actual conductor(s).",
+      "after": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. L=10 mm. Size for the actual conductor(s)."
+    },
+    {
+      "ref": "TB12",
+      "field": "Termination.TOP",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB12",
+      "field": "Termination.BOT",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB12",
+      "field": "Wire.TerminationPolicy",
+      "before": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. Size for the actual conductor(s).",
+      "after": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. L=10 mm. Size for the actual conductor(s)."
+    },
+    {
+      "ref": "TB60",
+      "field": "Termination.TOP",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB60",
+      "field": "Termination.BOT",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB60",
+      "field": "Wire.TerminationPolicy",
+      "before": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. Size for the actual conductor(s).",
+      "after": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. L=10 mm. Size for the actual conductor(s)."
+    },
+    {
+      "ref": "TB68",
+      "field": "Termination.TOP",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB68",
+      "field": "Termination.BOT",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB68",
+      "field": "Wire.TerminationPolicy",
+      "before": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. Size for the actual conductor(s).",
+      "after": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. L=10 mm. Size for the actual conductor(s)."
+    },
+    {
+      "ref": "TB1",
+      "field": "Termination.TOP",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB1",
+      "field": "Termination.BOT",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB1",
+      "field": "Wire.TerminationPolicy",
+      "before": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. Size for the actual conductor(s).",
+      "after": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. L=10 mm. Size for the actual conductor(s)."
+    },
+    {
+      "ref": "TB40",
+      "field": "Termination.TOP",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB40",
+      "field": "Termination.BOT",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB40",
+      "field": "Wire.TerminationPolicy",
+      "before": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. Size for the actual conductor(s).",
+      "after": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. L=10 mm. Size for the actual conductor(s)."
+    },
+    {
+      "ref": "TB63",
+      "field": "Termination.TOP",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB63",
+      "field": "Termination.BOT",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB63",
+      "field": "Wire.TerminationPolicy",
+      "before": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. Size for the actual conductor(s).",
+      "after": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. L=10 mm. Size for the actual conductor(s)."
+    },
+    {
+      "ref": "TB20",
+      "field": "Termination.TOP",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB20",
+      "field": "Termination.BOT",
+      "before": "Ferrule or twin ferrule as required",
+      "after": "Ferrule or twin ferrule as required; L=10 mm"
+    },
+    {
+      "ref": "TB20",
+      "field": "Wire.TerminationPolicy",
+      "before": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. Size for the actual conductor(s).",
+      "after": "One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. L=10 mm. Size for the actual conductor(s)."
+    }
+  ],
+  "pcb_before_sha256": "190c8560136554a49a63086686695d7bed8ad079f0d26d04e814be9d303d7445",
+  "pcb_after_sha256": "9f0022ed4ffec80f1f104c2cece850bcf2646feba8d534fc4b0580ed93317e23",
+  "schematic_sha256": "0bfebb9d81f19a410c6ed6f262cc66d7a9df66ec3802d07990d0bb5c858f8185",
+  "geometry_routing_and_all_other_fields_preserved": true,
+  "schematic_unchanged": true,
+  "native_extraction_passed": true,
+  "generated_rows": 17,
+  "trace_objects": 272,
+  "changed_schedule_rows": 14,
+  "schedule_changes": [
+    {
+      "before": [
+        "Fuse Holder",
+        "P1.A",
+        "TB42",
+        "TOP",
+        "14",
+        "290",
+        "Ferrule 14 AWG; L=TBD mm",
+        "Ferrule"
+      ],
+      "after": [
+        "Fuse Holder",
+        "P1.A",
+        "TB42",
+        "TOP",
+        "14",
+        "290",
+        "Ferrule 14 AWG; L=TBD mm",
+        "Ferrule; L=10 mm"
+      ]
+    },
+    {
+      "before": [
+        "Fuse Holder",
+        "P2.A",
+        "TB41",
+        "TOP",
+        "14",
+        "270",
+        "Ferrule 14 AWG; L=TBD mm",
+        "Ferrule"
+      ],
+      "after": [
+        "Fuse Holder",
+        "P2.A",
+        "TB41",
+        "TOP",
+        "14",
+        "270",
+        "Ferrule 14 AWG; L=TBD mm",
+        "Ferrule; L=10 mm"
+      ]
+    },
+    {
+      "before": [
+        "Fuse Holder",
+        "P3.A",
+        "TB40",
+        "TOP",
+        "14",
+        "250",
+        "Ferrule 14 AWG; L=TBD mm",
+        "Ferrule"
+      ],
+      "after": [
+        "Fuse Holder",
+        "P3.A",
+        "TB40",
+        "TOP",
+        "14",
+        "250",
+        "Ferrule 14 AWG; L=TBD mm",
+        "Ferrule; L=10 mm"
+      ]
+    },
+    {
+      "before": [
+        "M12 Panel Socket",
+        "1",
+        "TB30",
+        "BOT",
+        "22",
+        "190",
+        "Factory pigtail, 22 AWG (retained)",
+        "Ferrule"
+      ],
+      "after": [
+        "M12 Panel Socket",
+        "1",
+        "TB30",
+        "BOT",
+        "22",
+        "190",
+        "Factory pigtail, 22 AWG (retained)",
+        "Ferrule; L=10 mm"
+      ]
+    },
+    {
+      "before": [
+        "M12 Panel Socket",
+        "2",
+        "TB31",
+        "BOT",
+        "22",
+        "200",
+        "Factory pigtail, 22 AWG (retained)",
+        "Ferrule"
+      ],
+      "after": [
+        "M12 Panel Socket",
+        "2",
+        "TB31",
+        "BOT",
+        "22",
+        "200",
+        "Factory pigtail, 22 AWG (retained)",
+        "Ferrule; L=10 mm"
+      ]
+    },
+    {
+      "before": [
+        "M12 Panel Socket",
+        "3",
+        "TB33",
+        "BOT",
+        "22",
+        "210",
+        "Factory pigtail, 22 AWG (retained)",
+        "Ferrule"
+      ],
+      "after": [
+        "M12 Panel Socket",
+        "3",
+        "TB33",
+        "BOT",
+        "22",
+        "210",
+        "Factory pigtail, 22 AWG (retained)",
+        "Ferrule; L=10 mm"
+      ]
+    },
+    {
+      "before": [
+        "M12 Panel Socket",
+        "4",
+        "TB32",
+        "BOT",
+        "22",
+        "210",
+        "Factory pigtail, 22 AWG (retained)",
+        "Ferrule"
+      ],
+      "after": [
+        "M12 Panel Socket",
+        "4",
+        "TB32",
+        "BOT",
+        "22",
+        "210",
+        "Factory pigtail, 22 AWG (retained)",
+        "Ferrule; L=10 mm"
+      ]
+    },
+    {
+      "before": [
+        "Mains Plug",
+        "G",
+        "TB43",
+        "2",
+        "12",
+        "270",
+        "Plug clamp, 12 AWG",
+        "Ferrule"
+      ],
+      "after": [
+        "Mains Plug",
+        "G",
+        "TB43",
+        "2",
+        "12",
+        "270",
+        "Plug clamp, 12 AWG",
+        "Single ferrule; L=10 mm"
+      ]
+    },
+    {
+      "before": [
+        "Mains Plug",
+        "X",
+        "TB40",
+        "BOT",
+        "12",
+        "270",
+        "Plug clamp, 12 AWG",
+        "Ferrule"
+      ],
+      "after": [
+        "Mains Plug",
+        "X",
+        "TB40",
+        "BOT",
+        "12",
+        "270",
+        "Plug clamp, 12 AWG",
+        "Ferrule; L=10 mm"
+      ]
+    },
+    {
+      "before": [
+        "Mains Plug",
+        "Y",
+        "TB41",
+        "BOT",
+        "12",
+        "270",
+        "Plug clamp, 12 AWG",
+        "Ferrule"
+      ],
+      "after": [
+        "Mains Plug",
+        "Y",
+        "TB41",
+        "BOT",
+        "12",
+        "270",
+        "Plug clamp, 12 AWG",
+        "Ferrule; L=10 mm"
+      ]
+    },
+    {
+      "before": [
+        "Mains Plug",
+        "Z",
+        "TB42",
+        "BOT",
+        "12",
+        "270",
+        "Plug clamp, 12 AWG",
+        "Ferrule"
+      ],
+      "after": [
+        "Mains Plug",
+        "Z",
+        "TB42",
+        "BOT",
+        "12",
+        "270",
+        "Plug clamp, 12 AWG",
+        "Ferrule; L=10 mm"
+      ]
+    },
+    {
+      "before": [
+        "DC Power Supply",
+        "1_BOT",
+        "TB50",
+        "2",
+        "14",
+        "300",
+        "Bare stranded copper, 14 AWG; strip=5 mm",
+        "Ferrule"
+      ],
+      "after": [
+        "DC Power Supply",
+        "1_BOT",
+        "TB50",
+        "2",
+        "14",
+        "300",
+        "Bare stranded copper, 14 AWG; strip=5 mm",
+        "Single ferrule; L=10 mm"
+      ]
+    },
+    {
+      "before": [
+        "TB43",
+        "1",
+        "TB51",
+        "2",
+        "",
+        "360",
+        "Ferrule",
+        "Ferrule"
+      ],
+      "after": [
+        "TB43",
+        "1",
+        "TB51",
+        "2",
+        "",
+        "360",
+        "Single ferrule; L=10 mm",
+        "Single ferrule; L=10 mm"
+      ]
+    },
+    {
+      "before": [
+        "TB50",
+        "1",
+        "TB52",
+        "2",
+        "",
+        "270",
+        "Ferrule",
+        "Ferrule"
+      ],
+      "after": [
+        "TB50",
+        "1",
+        "TB52",
+        "2",
+        "",
+        "270",
+        "Single ferrule; L=10 mm",
+        "Single ferrule; L=10 mm"
+      ]
+    }
+  ],
+  "warnings": [
+    "133 unfinished trace endpoints; only completed pad-to-pad paths are exported.",
+    "Trace-only loops/components without two terminal pads are omitted.",
+    "J2: Panel tail only; external mains cord length is not included",
+    "AWG not specified on TB43.1 -> TB51.2",
+    "AWG not specified on TB50.1 -> TB52.2"
+  ],
+  "source_files_verified": true
+}

@@ -1,0 +1,91 @@
+{
+  "removed_fields": [
+    {
+      "footprint": "DN-R35S1_400mm_Front",
+      "uuid": "6776b713-2f9d-4d96-83a6-de8cc5f150da",
+      "field": "Termination.LUG"
+    },
+    {
+      "footprint": "DN-R35S1_400mm_Front",
+      "uuid": "9481ac46-0af2-4745-8148-d2cdb1debc11",
+      "field": "Termination.LUG"
+    },
+    {
+      "footprint": "EN4SD20208GY_Open_Front_Grid1mm",
+      "uuid": "92ca8d2b-1088-488b-99fd-eac830d2e7df",
+      "field": "Termination.STUD"
+    },
+    {
+      "footprint": "EN4SD20208GY_Open_Front_Grid1mm",
+      "uuid": "92ca8d2b-1088-488b-99fd-eac830d2e7df",
+      "field": "Termination.DOOR_STUD"
+    },
+    {
+      "footprint": "EN4SD20208GY_Open_Front_Grid1mm",
+      "uuid": "92ca8d2b-1088-488b-99fd-eac830d2e7df",
+      "field": "Termination.BACKPLATE_STUD"
+    }
+  ],
+  "pcb_before_sha256": "a9b1eb2bcb3cac64f1301af856fa621091f78d0c4788ce86590c1044d3159fbc",
+  "pcb_after_sha256": "8beb90a882f070ad9eb76971691414c74598d088bb499d022b1be71daac1c078",
+  "geometry_and_other_data": "byte-preserved",
+  "doc_update": "bonding hardware ownership",
+  "removed_ring_fields_total": 5,
+  "sw1_assignments": [
+    {
+      "field": "Termination.1",
+      "before": "Ferrule 14 AWG; L=TBD mm",
+      "after": "Bare stranded copper, 14 AWG; strip=12 mm"
+    },
+    {
+      "field": "Termination.2",
+      "before": "Ferrule 14 AWG; L=TBD mm",
+      "after": "Bare stranded copper, 14 AWG; strip=12 mm"
+    },
+    {
+      "field": "Termination.3",
+      "before": "Ferrule 14 AWG; L=TBD mm",
+      "after": "Bare stranded copper, 14 AWG; strip=12 mm"
+    },
+    {
+      "field": "Termination.4",
+      "before": "Ferrule 14 AWG; L=TBD mm",
+      "after": "Bare stranded copper, 14 AWG; strip=12 mm"
+    },
+    {
+      "field": "Termination.5",
+      "before": "Ferrule 14 AWG; L=TBD mm",
+      "after": "Bare stranded copper, 14 AWG; strip=12 mm"
+    },
+    {
+      "field": "Termination.6",
+      "before": "Ferrule 14 AWG; L=TBD mm",
+      "after": "Bare stranded copper, 14 AWG; strip=12 mm"
+    }
+  ],
+  "schedule_changes": [
+    {
+      "row": 3,
+      "pin": "SW1_5",
+      "before": "F14_TBDmm",
+      "after": "B14_12mm"
+    },
+    {
+      "row": 5,
+      "pin": "SW1_3",
+      "before": "F14_TBDmm",
+      "after": "B14_12mm"
+    },
+    {
+      "row": 7,
+      "pin": "SW1_1",
+      "before": "F14_TBDmm",
+      "after": "B14_12mm"
+    }
+  ],
+  "generated_rows": 17,
+  "trace_objects": 272,
+  "schematic_unchanged": true,
+  "validation": "Native KiCad parse and extraction passed; all CSV cells except three routed SW1 terminations are unchanged.",
+  "written_files_verified": true
+}

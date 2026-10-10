@@ -1,0 +1,11 @@
+{
+  "installed_validation": "passed",
+  "wire_rows": 17,
+  "tracks": 272,
+  "project_tests": 60,
+  "BOM_kit_quantity": 1,
+  "native_jumper_groups_per_piece": 3,
+  "other_footprints_unchanged": true,
+  "schedule_unchanged": true,
+  "live_refresh_http_status": 200
+}

@@ -15,7 +15,7 @@ import xml.etree.ElementTree as ET
 
 from source import parse, nodes, one, prop, children, key, replace
 
-HEADERS = ['FROM', 'FROM PIN', 'TO', 'TO PIN', 'AWG', 'LENGTH', 'TERM 1', 'TERM 2']
+HEADERS = ['From', 'Pin', 'To', 'Pin', 'AWG', 'Length', 'Term 1', 'Term 2']
 KINDS = {'wire', 'panel_cable_core', 'factory', 'internal', 'bridge', 'plug_cable'}
 OMITTED = {'factory', 'internal', 'bridge', 'plug_cable'}
 PREFIX = 'Wire.'

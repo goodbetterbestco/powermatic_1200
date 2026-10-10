@@ -1,0 +1,146 @@
+{
+  "owner_checkpoint": "saved closed",
+  "pcb_before_sha256": "83f447cc84fa2e80fd37d226b2baac3c835f2f0015b154a84ac4db44a604497e",
+  "pcb_after_sha256": "05f6de21e8b08066fe1b3a02affc9c947256b57b0648054f2e2de7c4eaeb3603",
+  "schematic_sha256": "0bfebb9d81f19a410c6ed6f262cc66d7a9df66ec3802d07990d0bb5c858f8185",
+  "changes": [
+    {
+      "ref": "M1",
+      "field": "Termination.T1",
+      "before": "Wire-splice connector, 14 AWG",
+      "after": "Bare stranded copper, 14 AWG; strip=11 mm"
+    },
+    {
+      "ref": "M1",
+      "field": "Wire.Connector.T1",
+      "before": null,
+      "after": "WAGO 221-412"
+    },
+    {
+      "ref": "M1",
+      "field": "Termination.T2",
+      "before": "Wire-splice connector, 14 AWG",
+      "after": "Bare stranded copper, 14 AWG; strip=11 mm"
+    },
+    {
+      "ref": "M1",
+      "field": "Wire.Connector.T2",
+      "before": null,
+      "after": "WAGO 221-412"
+    },
+    {
+      "ref": "M1",
+      "field": "Termination.T3",
+      "before": "Wire-splice connector, 14 AWG",
+      "after": "Bare stranded copper, 14 AWG; strip=11 mm"
+    },
+    {
+      "ref": "M1",
+      "field": "Wire.Connector.T3",
+      "before": null,
+      "after": "WAGO 221-412"
+    },
+    {
+      "ref": "M1",
+      "field": "Termination.T4",
+      "before": "Wire-splice connector, 14 AWG",
+      "after": "Bare stranded copper, 14 AWG; strip=11 mm"
+    },
+    {
+      "ref": "M1",
+      "field": "Wire.Connector.T4",
+      "before": null,
+      "after": "WAGO 221-412"
+    },
+    {
+      "ref": "M1",
+      "field": "Termination.T5",
+      "before": "Wire-splice connector, 14 AWG",
+      "after": "Bare stranded copper, 14 AWG; strip=11 mm"
+    },
+    {
+      "ref": "M1",
+      "field": "Wire.Connector.T5",
+      "before": null,
+      "after": "WAGO 221-412"
+    },
+    {
+      "ref": "M1",
+      "field": "Termination.T6",
+      "before": "Wire-splice connector, 14 AWG",
+      "after": "Bare stranded copper, 14 AWG; strip=11 mm"
+    },
+    {
+      "ref": "M1",
+      "field": "Wire.Connector.T6",
+      "before": null,
+      "after": "WAGO 221-412"
+    },
+    {
+      "ref": "M1",
+      "field": "Termination.PE",
+      "before": "Wire-splice connector, 12 AWG",
+      "after": "Bare stranded copper, 12 AWG; strip=13 mm"
+    },
+    {
+      "ref": "M1",
+      "field": "Wire.Connector.PE",
+      "before": null,
+      "after": "WAGO 221-613"
+    },
+    {
+      "ref": "M1",
+      "field": "Wire.ConnectionPlan.PE",
+      "before": null,
+      "after": "{\"schema\":1,\"connector\":\"WAGO 221-613\",\"ports\":3,\"one_conductor_per_port\":true,\"strip_mm\":13,\"manufacturer_strip_range_mm\":[12,14],\"connections\":[{\"port\":1,\"role\":\"motor-conduit PE feed\",\"awg\":12,\"termination\":\"Bare stranded copper, 12 AWG; strip=13 mm\"},{\"port\":2,\"role\":\"motor-body bonding strap\",\"awg\":10,\"termination\":\"Bare stranded copper, 10 AWG; strip=13 mm\"},{\"port\":3,\"role\":\"machine-frame bonding strap\",\"awg\":10,\"termination\":\"Bare stranded copper, 10 AWG; strip=13 mm\"}]}"
+    }
+  ],
+  "pe_junction_plan": {
+    "schema": 1,
+    "connector": "WAGO 221-613",
+    "ports": 3,
+    "one_conductor_per_port": true,
+    "strip_mm": 13,
+    "manufacturer_strip_range_mm": [
+      12,
+      14
+    ],
+    "connections": [
+      {
+        "port": 1,
+        "role": "motor-conduit PE feed",
+        "awg": 12,
+        "termination": "Bare stranded copper, 12 AWG; strip=13 mm"
+      },
+      {
+        "port": 2,
+        "role": "motor-body bonding strap",
+        "awg": 10,
+        "termination": "Bare stranded copper, 10 AWG; strip=13 mm"
+      },
+      {
+        "port": 3,
+        "role": "machine-frame bonding strap",
+        "awg": 10,
+        "termination": "Bare stranded copper, 10 AWG; strip=13 mm"
+      }
+    ]
+  },
+  "geometry_routing_nets_and_other_fields_preserved": true,
+  "schematic_unchanged": true,
+  "connector_counts_required": {
+    "221-412": 6,
+    "221-613": 1
+  },
+  "bom_modified": false,
+  "native_extraction_passed": true,
+  "generated_rows": 17,
+  "trace_objects": 272,
+  "wire_schedule_unchanged": true,
+  "motor_routes_pending": true,
+  "warnings": [
+    "133 unfinished trace endpoints; only completed pad-to-pad paths are exported.",
+    "Trace-only loops/components without two terminal pads are omitted.",
+    "J2: Panel tail only; external mains cord length is not included"
+  ]
+}

@@ -2,7 +2,7 @@ TYPE,NAME,QUA,PACK,UNIT,COST,LINE,SUPPLIER,SPN,SOURCE,SOURCE KEY,KICAD QTY
 Contactor,Power Contactor (HMC-9B30-11-DS),5,1,EA,31.00,155.00,AD,HMC-9B30-11-DS,KiCad,part:hmc9b3011ds,5
 Contactor,Contactor Interlock (HMX1-MI),2,1,EA,16.50,33.00,AD,HMX1-MI,KiCad,part:hmx1mi,2
 Contactor,Coil Enable Relay (HC3096N-52-900-24),1,1,EA,46.50,46.50,AD,HC3096N-52-900-24,KiCad,part:hc3096n5290024,1
-Contactor,Reversing Busbars,1,1,EA,17.00,17.00,AD,HMX1-BBREV,Local,,
+Contactor,Reversing Busbars (K1/K2),1,1,EA,17.00,17.00,AD,HMX1-BBREV,Local,,
 Power,DC Power Supply (NDR-240-24),1,1,EA,0.00,0.00,GBB,NDR-240-24,KiCad,part:ndr24024,1
 Power,Circuit Breaker (FAZ-D4/2-NA-L),1,1,EA,55.00,55.00,AD,FAZ-D4-2-NA-L,KiCad,part:fazd42nal,1
 Power,Motor Disconnect (222102),1,1,EA,0.00,0.00,GBB,6759K211,KiCad,part:222102,1
@@ -24,9 +24,8 @@ Terminal,Adhesive Marker,1,250,PACK,13.50,13.50,AD,KN-L5-BLANK-250,Local,,
 Enclosure,Enclosure,1,1,EA,353.00,353.00,AD,EN4SD20208GY,KiCad,part:en4sd20208gy,1
 Enclosure,Backplate,1,1,EA,51.00,51.00,AD,EP2020,Local,,
 Enclosure,Mounting Feet,1,4,PACK,0.00,0.00,AD,EZPMFHD,Local,,
-Conduit,Power Cable Gland (BNSPDX-23-W),1,5,PACK,16.50,16.50,AD,BNSPDX-23-W,KiCad,part:bnspdx23w,1
-Conduit,Speed / Direction Cable Gland (BSPBX-22-W),1,5,PACK,7.50,7.50,AD,BSPBX-22-W,KiCad,part:bspbx22w,1
-Conduit,Motor Cable Gland (BSPDX-23-W),1,5,PACK,11.5,11.50,AD,BSPDX-23-W,KiCad,part:bspdx23w,1
+Conduit,Speed / Direction Cable Gland,1,5,PACK,7.50,7.50,AD,BSPBX-22-W,KiCad,part:bspbx22w,1
+Conduit,Motor Cable Gland,1,5,PACK,11.5,11.50,AD,BSPDX-23-W,KiCad,part:bspdx23w,1
 Power,Cable 12AWG 4C 16.5mm OD,1,10,FT,0.00,0.00,GBB,7081K33,Local,,
 Power,Plug,1,1,EA,0.00,0.00,GBB,7164K52,Local,,
 Conduit,"3/4"" liquid-tight conduit",1,0,FT,0,0.00,-,-,Local,,
@@ -37,7 +36,7 @@ Hardware,Ferrule 18 AWG,0,0,PACK,0.00,0.00,-,-,Local,,
 Wiring,14 AWG Black,1,0,FT,0.00,0.00,-,-,Local,,
 Wiring,14 AWG Green/Yellow,1,0,FT,0.00,0.00,-,-,Local,,
 Terminal,Grounding Terminal (KN-G12SP-10),1,10,PACK,29,29.00,AD,KN-G12SP-10,KiCad,part:kng12sp10,4
-Terminal,Separator,2,10,PACK,11.00,22.00,AD,KN-ST1BLK,KiCad,part:knst1blk,13
+Terminal,Separator,2,10,PACK,11.00,22.00,AD,KN-ST1BLK,KiCad,part:knst1blk,12
 Terminal,Top Cover,2,25,PACK,15.00,30.00,AD,KN-TC-1S,Local,,
 Operator,E-Stop Assembly,1,1,EA,0,0.00,GBB,Inventory,Local,,
 Hardware,Ring 16 AWG #8-32,0,0,PACK,0,0.00,-,-,Local,,

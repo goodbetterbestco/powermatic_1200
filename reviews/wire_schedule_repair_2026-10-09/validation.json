@@ -1,0 +1,20 @@
+{
+  "saved_closed_checkpoint": "Owner confirmed saved and closed PCB editor before repair",
+  "fields_added": 135,
+  "footprints_changed": 11,
+  "existing_geometry_and_fields_preserved": true,
+  "schematic_unchanged": true,
+  "pcb_sha256": "3e3c777cc9037f5e24c652bb274dae8af9e52c253aa755026cda1910844d3454",
+  "native_extraction": "passed",
+  "live_refresh_http_status": 200,
+  "generated_rows": 17,
+  "trace_objects": 272,
+  "complete": false,
+  "warnings": [
+    "133 unfinished trace endpoints; only completed pad-to-pad paths are exported.",
+    "Trace-only loops/components without two terminal pads are omitted.",
+    "J2: Panel tail only; external mains cord length is not included",
+    "AWG not specified on TB43.1 -> TB51.2",
+    "AWG not specified on TB50.1 -> TB52.2"
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "pcb_sha256": "551feedba6761024004cb62554957eb4bb53a95d5ef24aa185984001b48ef6d9",
+  "schematic_sha256": "0bfebb9d81f19a410c6ed6f262cc66d7a9df66ec3802d07990d0bb5c858f8185",
+  "footprints": [
+    {
+      "reference": "J5",
+      "uuid": "0215050f-05a2-425e-9bff-f2350a9db3b8",
+      "fields": {
+        "Termination.1.IN": "N/A \u2014 cable pass-through; no electrical termination",
+        "Termination.1.OUT": "N/A \u2014 cable pass-through; no electrical termination",
+        "Termination.2.IN": "N/A \u2014 cable pass-through; no electrical termination",
+        "Termination.2.OUT": "N/A \u2014 cable pass-through; no electrical termination",
+        "Termination.3.IN": "N/A \u2014 cable pass-through; no electrical termination",
+        "Termination.3.OUT": "N/A \u2014 cable pass-through; no electrical termination",
+        "Termination.4.IN": "N/A \u2014 cable pass-through; no electrical termination",
+        "Termination.4.OUT": "N/A \u2014 cable pass-through; no electrical termination",
+        "Termination.5.IN": "N/A \u2014 cable pass-through; no electrical termination",
+        "Termination.5.OUT": "N/A \u2014 cable pass-through; no electrical termination",
+        "Termination.6.IN": "N/A \u2014 cable pass-through; no electrical termination",
+        "Termination.6.OUT": "N/A \u2014 cable pass-through; no electrical termination",
+        "Termination.7.IN": "N/A \u2014 cable pass-through; no electrical termination",
+        "Termination.7.OUT": "N/A \u2014 cable pass-through; no electrical termination",
+        "Termination.8.IN": "N/A \u2014 cable pass-through; no electrical termination",
+        "Termination.8.OUT": "N/A \u2014 cable pass-through; no electrical termination",
+        "Part Name": "Speed / Direction\nCable Gland"
+      }
+    },
+    {
+      "reference": "J4",
+      "uuid": "04b863d3-e11d-48b7-91b1-760d5f6e080e",
+      "fields": {
+        "Termination.T1.IN": "N/A \u2014 cable pass-through; no electrical termination",
+        "Termination.T1.OUT": "N/A \u2014 cable pass-through; no electrical termination",
+        "Termination.T2.IN": "N/A \u2014 cable pass-through; no electrical termination",
+        "Termination.T2.OUT": "N/A \u2014 cable pass-through; no electrical termination",
+        "Termination.T3.IN": "N/A \u2014 cable pass-through; no electrical termination",
+        "Termination.T3.OUT": "N/A \u2014 cable pass-through; no electrical termination",
+        "Termination.T4.IN": "N/A \u2014 cable pass-through; no electrical termination",
+        "Termination.T4.OUT": "N/A \u2014 cable pass-through; no electrical termination",
+        "Termination.T5.IN": "N/A \u2014 cable pass-through; no electrical termination",
+        "Termination.T5.OUT": "N/A \u2014 cable pass-through; no electrical termination",
+        "Termination.T6.IN": "N/A \u2014 cable pass-through; no electrical termination",
+        "Termination.T6.OUT": "N/A \u2014 cable pass-through; no electrical termination",
+        "Part Name": "Motor\nCable Gland"
+      }
+    },
+    {
+      "reference": "K1",
+      "uuid": "0efcbc76-f026-47f5-86c9-db4fc3aa8810",
+      "fields": {
+        "Termination.1": "Ferrule 14 AWG; L=TBD mm",
+        "Termination.2": "Ferrule 14 AWG; L=TBD mm",
+        "Termination.3": "Ferrule 14 AWG; L=TBD mm",
+        "Termination.31": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.32": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.4": "Ferrule 14 AWG; L=TBD mm",
+        "Termination.43": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.44": "Twin ferrule 2 \u00d7 18 AWG; L=TBD mm",
+        "Termination.5": "Ferrule 14 AWG; L=TBD mm",
+        "Termination.6": "Ferrule 14 AWG; L=TBD mm",
+        "Termination.A1.BOT": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.A1.TOP": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.A2.BOT": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.A2.TOP": "Ferrule 18 AWG; L=TBD mm",
+        "Part Name": "Power\nContactor"
+      }
+    },
+    {
+      "reference": "K2",
+      "uuid": "597b786e-4ac2-491c-9073-9bd131e26112",
+      "fields": {
+        "Termination.1": "Ferrule 14 AWG; L=TBD mm",
+        "Termination.2": "Ferrule 14 AWG; L=TBD mm",
+        "Termination.3": "Ferrule 14 AWG; L=TBD mm",
+        "Termination.31": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.32": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.4": "Ferrule 14 AWG; L=TBD mm",
+        "Termination.43": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.44": "Twin ferrule 2 \u00d7 18 AWG; L=TBD mm",
+        "Termination.5": "Ferrule 14 AWG; L=TBD mm",
+        "Termination.6": "Ferrule 14 AWG; L=TBD mm",
+        "Termination.A1.BOT": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.A1.TOP": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.A2.BOT": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.A2.TOP": "Ferrule 18 AWG; L=TBD mm",
+        "Part Name": "Power\nContactor"
+      }
+    },
+    {
+      "reference": "OL4",
+      "uuid": "9fdf03b9-7f23-481b-a930-8d37a7c0b950",
+      "fields": {
+        "Termination.2": "Ferrule 14 AWG; L=TBD mm",
+        "Termination.4": "Ferrule 14 AWG; L=TBD mm",
+        "Termination.6": "Ferrule 14 AWG; L=TBD mm",
+        "Termination.95": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.96": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.97": "N/A \u2014 unused pin",
+        "Termination.98": "N/A \u2014 unused pin",
+        "Termination.IN1": "N/A \u2014 direct-mounted connection",
+        "Termination.IN2": "N/A \u2014 direct-mounted connection",
+        "Termination.IN3": "N/A \u2014 direct-mounted connection",
+        "Part Name": "Thermal\nOverload"
+      }
+    },
+    {
+      "reference": "K6",
+      "uuid": "a4bc448f-0f6b-457b-8ecb-67b424a87ff1",
+      "fields": {
+        "Termination.1": "Ferrule 14 AWG; L=TBD mm",
+        "Termination.2": "N/A \u2014 direct-mounted connection",
+        "Termination.3": "Ferrule 14 AWG; L=TBD mm",
+        "Termination.31": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.32": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.4": "N/A \u2014 direct-mounted connection",
+        "Termination.43": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.44": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.5": "Ferrule 14 AWG; L=TBD mm",
+        "Termination.6": "N/A \u2014 direct-mounted connection",
+        "Termination.A1.BOT": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.A1.TOP": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.A2.BOT": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.A2.TOP": "Ferrule 18 AWG; L=TBD mm",
+        "Part Name": "Power\nContactor"
+      }
+    },
+    {
+      "reference": "FH1",
+      "uuid": "ad6df86e-1e9b-4601-88da-11ef46ef177f",
+      "fields": {
+        "Termination.P1.A": "Ferrule 14 AWG; L=TBD mm",
+        "Termination.P1.B": "Ferrule 14 AWG; L=TBD mm",
+        "Termination.P2.A": "Ferrule 14 AWG; L=TBD mm",
+        "Termination.P2.B": "Ferrule 14 AWG; L=TBD mm",
+        "Termination.P3.A": "Ferrule 14 AWG; L=TBD mm",
+        "Termination.P3.B": "Ferrule 14 AWG; L=TBD mm"
+      }
+    },
+    {
+      "reference": "OL6",
+      "uuid": "cda5f54f-21cb-42d1-bf20-ea5292de69d9",
+      "fields": {
+        "Termination.2": "Ferrule 14 AWG; L=TBD mm",
+        "Termination.4": "Ferrule 14 AWG; L=TBD mm",
+        "Termination.6": "Ferrule 14 AWG; L=TBD mm",
+        "Termination.95": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.96": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.97": "N/A \u2014 unused pin",
+        "Termination.98": "N/A \u2014 unused pin",
+        "Termination.IN1": "N/A \u2014 direct-mounted connection",
+        "Termination.IN2": "N/A \u2014 direct-mounted connection",
+        "Termination.IN3": "N/A \u2014 direct-mounted connection",
+        "Part Name": "Thermal\nOverload"
+      }
+    },
+    {
+      "reference": "K4",
+      "uuid": "e649482a-048f-454d-b9e8-2685488b69c5",
+      "fields": {
+        "Termination.1": "Ferrule 14 AWG; L=TBD mm",
+        "Termination.2": "N/A \u2014 direct-mounted connection",
+        "Termination.3": "Ferrule 14 AWG; L=TBD mm",
+        "Termination.31": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.32": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.4": "N/A \u2014 direct-mounted connection",
+        "Termination.43": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.44": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.5": "Ferrule 14 AWG; L=TBD mm",
+        "Termination.6": "N/A \u2014 direct-mounted connection",
+        "Termination.A1.BOT": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.A1.TOP": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.A2.BOT": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.A2.TOP": "Ferrule 18 AWG; L=TBD mm",
+        "Part Name": "Power\nContactor"
+      }
+    },
+    {
+      "reference": "H2",
+      "uuid": "efea9f43-9429-4776-a9e7-2369564f2476",
+      "fields": {
+        "Termination.X1": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.X2": "Ferrule 18 AWG; L=TBD mm"
+      }
+    },
+    {
+      "reference": "K5",
+      "uuid": "fa8ee1db-f6fc-4498-b77f-a04dbe3a5d21",
+      "fields": {
+        "Termination.1": "Ferrule 14 AWG; L=TBD mm",
+        "Termination.2": "Ferrule 14 AWG; L=TBD mm",
+        "Termination.3": "Twin ferrule 2 \u00d7 14 AWG; L=TBD mm",
+        "Termination.31": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.32": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.4": "Ferrule 14 AWG; L=TBD mm",
+        "Termination.43": "Twin ferrule 2 \u00d7 18 AWG; L=TBD mm",
+        "Termination.44": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.5": "Ferrule 14 AWG; L=TBD mm",
+        "Termination.6": "Ferrule 14 AWG; L=TBD mm",
+        "Termination.A1.BOT": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.A1.TOP": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.A2.BOT": "Ferrule 18 AWG; L=TBD mm",
+        "Termination.A2.TOP": "Ferrule 18 AWG; L=TBD mm",
+        "Part Name": "Power\nContactor"
+      }
+    }
+  ]
+}

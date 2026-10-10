@@ -17,8 +17,10 @@ from terminations import legacy_endpoint, pin_numbers
 
 PREFIX = 'Termination.'
 EXTERNAL = {'M1', 'J2', 'S1', 'J6'}
-BLOCK_POLICY = 'One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. Size for the actual conductor(s).'
-BLOCK_TERMINATION = 'Ferrule or twin ferrule as required'
+BLOCK_POLICY = 'One conductor per clamp: ferrule; two conductors per clamp: twin ferrule. L=10 mm. Size for the actual conductor(s).'
+BLOCK_TERMINATION = 'Ferrule or twin ferrule as required; L=10 mm'
+GROUND_POLICY = 'One conductor per clamp only: single ferrule. L=10 mm. Size for the actual conductor.'
+GROUND_TERMINATION = 'Single ferrule; L=10 mm'
 
 
 def field(name, value, at):
@@ -101,8 +103,9 @@ def stage(schematic_text, pcb_text, legacy_path):
     for f in footprints:
         ref, fid = prop(f, 'Reference'), one(f, 'uuid')[1]
         terminal_block = any(name in f[1] for name in ['KN-T12GRY-25', 'KN-G12SP-10'])
+        ground_block = 'KN-G12SP-10' in f[1]
         if terminal_block:
-            updates.setdefault(fid, {})['Wire.TerminationPolicy'] = BLOCK_POLICY
+            updates.setdefault(fid, {})['Wire.TerminationPolicy'] = GROUND_POLICY if ground_block else BLOCK_POLICY
         pads = {p[1] for p in nodes(f, 'pad') if p[1]}
         metadata_only = prop(f, 'Wire.MetadataOnly') == 'yes'
         pins = set(json.loads(prop(f, 'Wire.TerminalPins'))) if metadata_only else pads
@@ -136,7 +139,8 @@ def stage(schematic_text, pcb_text, legacy_path):
                 if pin in old and value != old[pin]:
                     raise ValueError(f'{ref}.{pin}: footprint and symbol termination selections conflict.')
             elif terminal_block and pin != 'PE':
-                value, source = BLOCK_TERMINATION, 'Owner block termination capability; allocation occurs during routing'
+                value = GROUND_TERMINATION if ground_block else BLOCK_TERMINATION
+                source = 'Owner block termination capability; allocation occurs during routing'
             elif pin in old:
                 value, source = old[pin], 'Moved from existing symbol field'
             elif ref in ['H1', 'H2']:

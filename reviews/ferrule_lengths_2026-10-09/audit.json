@@ -1,0 +1,1185 @@
+{
+  "reviewed_on": "2026-10-09",
+  "scope": "All saved footprint terminal fields explicitly mentioning ferrules, including unallocated terminal blocks; not just the partial routed CSV.",
+  "parts": [
+    {
+      "ref": "TB33",
+      "value": "KN-T12GRY-25",
+      "mpn": "KN-T12GRY-25",
+      "name": "Feedthrough\nTerminal",
+      "datasheet": "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf",
+      "terms": {
+        "BOT": "Ferrule or twin ferrule as required",
+        "TOP": "Ferrule or twin ferrule as required"
+      },
+      "review": {
+        "status": "recommended_from_terminal_strip_spec",
+        "strip_mm": 10,
+        "recommended_barrel_mm": 10,
+        "evidence": "Manufacturer terminal strip specification; 10 mm barrel is an engineering selection, not an explicit OEM ferrule approval. Gauge and twin ferrule compatibility need their own check.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/konnectsingle.pdf"
+        ],
+        "local_source": "KN-T12GRY-25_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "K1",
+      "value": "HMC-9B30-11-DS",
+      "mpn": "HMC-9B30-11-DS",
+      "name": "Power\nContactor",
+      "datasheet": "${PARTS_LIB}/datasheets/HMC-9B30-11-DS_Datasheet.pdf",
+      "terms": {
+        "1": "Ferrule 14 AWG; L=TBD mm",
+        "2": "Ferrule 14 AWG; L=TBD mm",
+        "3": "Ferrule 14 AWG; L=TBD mm",
+        "31": "Ferrule 18 AWG; L=TBD mm",
+        "32": "Ferrule 18 AWG; L=TBD mm",
+        "4": "Ferrule 14 AWG; L=TBD mm",
+        "43": "Ferrule 18 AWG; L=TBD mm",
+        "44": "Twin ferrule 2 \u00d7 18 AWG; L=TBD mm",
+        "5": "Ferrule 14 AWG; L=TBD mm",
+        "6": "Ferrule 14 AWG; L=TBD mm",
+        "A1.BOT": "Ferrule 18 AWG; L=TBD mm",
+        "A1.TOP": "Ferrule 18 AWG; L=TBD mm",
+        "A2.BOT": "Ferrule 18 AWG; L=TBD mm",
+        "A2.TOP": "Ferrule 18 AWG; L=TBD mm"
+      },
+      "review": {
+        "status": "length_pending",
+        "recommended_barrel_mm": null,
+        "evidence": "Reviewed scanned HMC/HTOR instruction manual and current connection tables. Ferrule wire-size/diameter and torque information does not establish barrel length. Main, auxiliary and coil terminal preparation need manufacturer confirmation or actual clamp inspection. Ring terminal width 9.6/7.6 mm must not be mistaken for ferrule length. Direct-mounted overload terminals and supplied suppressor leads stay excluded.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/ironhorsehmcandhtor.pdf"
+        ],
+        "local_source": "HMC_Contactor_Instructions.pdf"
+      }
+    },
+    {
+      "ref": "TB21",
+      "value": "KN-T12GRY-25",
+      "mpn": "KN-T12GRY-25",
+      "name": "Feedthrough\nTerminal",
+      "datasheet": "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf",
+      "terms": {
+        "BOT": "Ferrule or twin ferrule as required",
+        "TOP": "Ferrule or twin ferrule as required"
+      },
+      "review": {
+        "status": "recommended_from_terminal_strip_spec",
+        "strip_mm": 10,
+        "recommended_barrel_mm": 10,
+        "evidence": "Manufacturer terminal strip specification; 10 mm barrel is an engineering selection, not an explicit OEM ferrule approval. Gauge and twin ferrule compatibility need their own check.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/konnectsingle.pdf"
+        ],
+        "local_source": "KN-T12GRY-25_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "TB32",
+      "value": "KN-T12GRY-25",
+      "mpn": "KN-T12GRY-25",
+      "name": "Feedthrough\nTerminal",
+      "datasheet": "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf",
+      "terms": {
+        "BOT": "Ferrule or twin ferrule as required",
+        "TOP": "Ferrule or twin ferrule as required"
+      },
+      "review": {
+        "status": "recommended_from_terminal_strip_spec",
+        "strip_mm": 10,
+        "recommended_barrel_mm": 10,
+        "evidence": "Manufacturer terminal strip specification; 10 mm barrel is an engineering selection, not an explicit OEM ferrule approval. Gauge and twin ferrule compatibility need their own check.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/konnectsingle.pdf"
+        ],
+        "local_source": "KN-T12GRY-25_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "Q1",
+      "value": "FAZ-D4/2-NA-L",
+      "mpn": "FAZ-D4/2-NA-L",
+      "name": "Circuit\nBreaker",
+      "datasheet": "${PARTS_LIB}/datasheets/FAZ-D4-2-NA-L_Datasheet.pdf",
+      "terms": {
+        "1": "Ferrule 14 AWG; L=TBD mm",
+        "2": "Ferrule 14 AWG; L=TBD mm",
+        "3": "Ferrule 14 AWG; L=TBD mm",
+        "4": "Ferrule 14 AWG; L=TBD mm"
+      },
+      "review": {
+        "status": "correct_ferrule_selection",
+        "recommended_barrel_mm": null,
+        "evidence": "Eaton does not recommend ferrules or crimp terminals for FAZ-NA. Recommend bare stranded copper prepared per its installation instructions.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/eatonfazna.pdf"
+        ],
+        "local_source": "Eaton_FAZ_AD.pdf"
+      }
+    },
+    {
+      "ref": "TB65",
+      "value": "KN-T12GRY-25",
+      "mpn": "KN-T12GRY-25",
+      "name": "Feedthrough\nTerminal",
+      "datasheet": "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf",
+      "terms": {
+        "BOT": "Ferrule or twin ferrule as required",
+        "TOP": "Ferrule or twin ferrule as required"
+      },
+      "review": {
+        "status": "recommended_from_terminal_strip_spec",
+        "strip_mm": 10,
+        "recommended_barrel_mm": 10,
+        "evidence": "Manufacturer terminal strip specification; 10 mm barrel is an engineering selection, not an explicit OEM ferrule approval. Gauge and twin ferrule compatibility need their own check.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/konnectsingle.pdf"
+        ],
+        "local_source": "KN-T12GRY-25_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "TB23",
+      "value": "KN-T12GRY-25",
+      "mpn": "KN-T12GRY-25",
+      "name": "Feedthrough\nTerminal",
+      "datasheet": "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf",
+      "terms": {
+        "BOT": "Ferrule or twin ferrule as required",
+        "TOP": "Ferrule or twin ferrule as required"
+      },
+      "review": {
+        "status": "recommended_from_terminal_strip_spec",
+        "strip_mm": 10,
+        "recommended_barrel_mm": 10,
+        "evidence": "Manufacturer terminal strip specification; 10 mm barrel is an engineering selection, not an explicit OEM ferrule approval. Gauge and twin ferrule compatibility need their own check.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/konnectsingle.pdf"
+        ],
+        "local_source": "KN-T12GRY-25_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "TB31",
+      "value": "KN-T12GRY-25",
+      "mpn": "KN-T12GRY-25",
+      "name": "Feedthrough\nTerminal",
+      "datasheet": "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf",
+      "terms": {
+        "BOT": "Ferrule or twin ferrule as required",
+        "TOP": "Ferrule or twin ferrule as required"
+      },
+      "review": {
+        "status": "recommended_from_terminal_strip_spec",
+        "strip_mm": 10,
+        "recommended_barrel_mm": 10,
+        "evidence": "Manufacturer terminal strip specification; 10 mm barrel is an engineering selection, not an explicit OEM ferrule approval. Gauge and twin ferrule compatibility need their own check.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/konnectsingle.pdf"
+        ],
+        "local_source": "KN-T12GRY-25_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "TB52",
+      "value": "KN-G12SP-10",
+      "mpn": "KN-G12SP-10",
+      "name": "Grounding\nTerminal",
+      "datasheet": "${PARTS_LIB}/datasheets/KN-G12SP-10_Datasheet.pdf",
+      "terms": {
+        "1": "Ferrule or twin ferrule as required",
+        "2": "Ferrule or twin ferrule as required"
+      },
+      "review": {
+        "status": "recommended_single_only_from_terminal_strip_spec",
+        "strip_mm": 10,
+        "recommended_barrel_mm": 10,
+        "evidence": "Manufacturer specifies 10 mm stripping and one conductor per terminal. Current generic twin ferrule option conflicts with that instruction.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/konnectgnd.pdf"
+        ],
+        "local_source": "KN-G12SP-10_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "TB66",
+      "value": "KN-T12GRY-25",
+      "mpn": "KN-T12GRY-25",
+      "name": "Feedthrough\nTerminal",
+      "datasheet": "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf",
+      "terms": {
+        "BOT": "Ferrule or twin ferrule as required",
+        "TOP": "Ferrule or twin ferrule as required"
+      },
+      "review": {
+        "status": "recommended_from_terminal_strip_spec",
+        "strip_mm": 10,
+        "recommended_barrel_mm": 10,
+        "evidence": "Manufacturer terminal strip specification; 10 mm barrel is an engineering selection, not an explicit OEM ferrule approval. Gauge and twin ferrule compatibility need their own check.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/konnectsingle.pdf"
+        ],
+        "local_source": "KN-T12GRY-25_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "TB14",
+      "value": "KN-T12GRY-25",
+      "mpn": "KN-T12GRY-25",
+      "name": "Feedthrough\nTerminal",
+      "datasheet": "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf",
+      "terms": {
+        "BOT": "Ferrule or twin ferrule as required",
+        "TOP": "Ferrule or twin ferrule as required"
+      },
+      "review": {
+        "status": "recommended_from_terminal_strip_spec",
+        "strip_mm": 10,
+        "recommended_barrel_mm": 10,
+        "evidence": "Manufacturer terminal strip specification; 10 mm barrel is an engineering selection, not an explicit OEM ferrule approval. Gauge and twin ferrule compatibility need their own check.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/konnectsingle.pdf"
+        ],
+        "local_source": "KN-T12GRY-25_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "TB43",
+      "value": "KN-G12SP-10",
+      "mpn": null,
+      "name": null,
+      "datasheet": "",
+      "terms": {
+        "1": "Ferrule or twin ferrule as required",
+        "2": "Ferrule or twin ferrule as required"
+      },
+      "review": {
+        "status": "recommended_single_only_from_terminal_strip_spec",
+        "strip_mm": 10,
+        "recommended_barrel_mm": 10,
+        "evidence": "Manufacturer specifies 10 mm stripping and one conductor per terminal. Current generic twin ferrule option conflicts with that instruction.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/konnectgnd.pdf"
+        ],
+        "local_source": "KN-G12SP-10_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "TB42",
+      "value": "KN-T12GRY-25",
+      "mpn": "KN-T12GRY-25",
+      "name": "Feedthrough\nTerminal",
+      "datasheet": "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf",
+      "terms": {
+        "BOT": "Ferrule or twin ferrule as required",
+        "TOP": "Ferrule or twin ferrule as required"
+      },
+      "review": {
+        "status": "recommended_from_terminal_strip_spec",
+        "strip_mm": 10,
+        "recommended_barrel_mm": 10,
+        "evidence": "Manufacturer terminal strip specification; 10 mm barrel is an engineering selection, not an explicit OEM ferrule approval. Gauge and twin ferrule compatibility need their own check.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/konnectsingle.pdf"
+        ],
+        "local_source": "KN-T12GRY-25_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "TB13",
+      "value": "KN-T12GRY-25",
+      "mpn": "KN-T12GRY-25",
+      "name": "Feedthrough\nTerminal",
+      "datasheet": "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf",
+      "terms": {
+        "BOT": "Ferrule or twin ferrule as required",
+        "TOP": "Ferrule or twin ferrule as required"
+      },
+      "review": {
+        "status": "recommended_from_terminal_strip_spec",
+        "strip_mm": 10,
+        "recommended_barrel_mm": 10,
+        "evidence": "Manufacturer terminal strip specification; 10 mm barrel is an engineering selection, not an explicit OEM ferrule approval. Gauge and twin ferrule compatibility need their own check.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/konnectsingle.pdf"
+        ],
+        "local_source": "KN-T12GRY-25_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "TB41",
+      "value": "KN-T12GRY-25",
+      "mpn": "KN-T12GRY-25",
+      "name": "Feedthrough\nTerminal",
+      "datasheet": "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf",
+      "terms": {
+        "BOT": "Ferrule or twin ferrule as required",
+        "TOP": "Ferrule or twin ferrule as required"
+      },
+      "review": {
+        "status": "recommended_from_terminal_strip_spec",
+        "strip_mm": 10,
+        "recommended_barrel_mm": 10,
+        "evidence": "Manufacturer terminal strip specification; 10 mm barrel is an engineering selection, not an explicit OEM ferrule approval. Gauge and twin ferrule compatibility need their own check.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/konnectsingle.pdf"
+        ],
+        "local_source": "KN-T12GRY-25_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "TB10",
+      "value": "KN-T12GRY-25",
+      "mpn": "KN-T12GRY-25",
+      "name": "Feedthrough\nTerminal",
+      "datasheet": "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf",
+      "terms": {
+        "BOT": "Ferrule or twin ferrule as required",
+        "TOP": "Ferrule or twin ferrule as required"
+      },
+      "review": {
+        "status": "recommended_from_terminal_strip_spec",
+        "strip_mm": 10,
+        "recommended_barrel_mm": 10,
+        "evidence": "Manufacturer terminal strip specification; 10 mm barrel is an engineering selection, not an explicit OEM ferrule approval. Gauge and twin ferrule compatibility need their own check.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/konnectsingle.pdf"
+        ],
+        "local_source": "KN-T12GRY-25_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "TB2",
+      "value": "KN-T12GRY-25",
+      "mpn": "KN-T12GRY-25",
+      "name": "Feedthrough\nTerminal",
+      "datasheet": "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf",
+      "terms": {
+        "BOT": "Ferrule or twin ferrule as required",
+        "TOP": "Ferrule or twin ferrule as required"
+      },
+      "review": {
+        "status": "recommended_from_terminal_strip_spec",
+        "strip_mm": 10,
+        "recommended_barrel_mm": 10,
+        "evidence": "Manufacturer terminal strip specification; 10 mm barrel is an engineering selection, not an explicit OEM ferrule approval. Gauge and twin ferrule compatibility need their own check.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/konnectsingle.pdf"
+        ],
+        "local_source": "KN-T12GRY-25_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "K2",
+      "value": "HMC-9B30-11-DS",
+      "mpn": "HMC-9B30-11-DS",
+      "name": "Power\nContactor",
+      "datasheet": "${PARTS_LIB}/datasheets/HMC-9B30-11-DS_Datasheet.pdf",
+      "terms": {
+        "1": "Ferrule 14 AWG; L=TBD mm",
+        "2": "Ferrule 14 AWG; L=TBD mm",
+        "3": "Ferrule 14 AWG; L=TBD mm",
+        "31": "Ferrule 18 AWG; L=TBD mm",
+        "32": "Ferrule 18 AWG; L=TBD mm",
+        "4": "Ferrule 14 AWG; L=TBD mm",
+        "43": "Ferrule 18 AWG; L=TBD mm",
+        "44": "Twin ferrule 2 \u00d7 18 AWG; L=TBD mm",
+        "5": "Ferrule 14 AWG; L=TBD mm",
+        "6": "Ferrule 14 AWG; L=TBD mm",
+        "A1.BOT": "Ferrule 18 AWG; L=TBD mm",
+        "A1.TOP": "Ferrule 18 AWG; L=TBD mm",
+        "A2.BOT": "Ferrule 18 AWG; L=TBD mm",
+        "A2.TOP": "Ferrule 18 AWG; L=TBD mm"
+      },
+      "review": {
+        "status": "length_pending",
+        "recommended_barrel_mm": null,
+        "evidence": "Reviewed scanned HMC/HTOR instruction manual and current connection tables. Ferrule wire-size/diameter and torque information does not establish barrel length. Main, auxiliary and coil terminal preparation need manufacturer confirmation or actual clamp inspection. Ring terminal width 9.6/7.6 mm must not be mistaken for ferrule length. Direct-mounted overload terminals and supplied suppressor leads stay excluded.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/ironhorsehmcandhtor.pdf"
+        ],
+        "local_source": "HMC_Contactor_Instructions.pdf"
+      }
+    },
+    {
+      "ref": "TB11",
+      "value": "KN-T12GRY-25",
+      "mpn": "KN-T12GRY-25",
+      "name": "Feedthrough\nTerminal",
+      "datasheet": "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf",
+      "terms": {
+        "BOT": "Ferrule or twin ferrule as required",
+        "TOP": "Ferrule or twin ferrule as required"
+      },
+      "review": {
+        "status": "recommended_from_terminal_strip_spec",
+        "strip_mm": 10,
+        "recommended_barrel_mm": 10,
+        "evidence": "Manufacturer terminal strip specification; 10 mm barrel is an engineering selection, not an explicit OEM ferrule approval. Gauge and twin ferrule compatibility need their own check.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/konnectsingle.pdf"
+        ],
+        "local_source": "KN-T12GRY-25_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "TB62",
+      "value": "KN-T12GRY-25",
+      "mpn": "KN-T12GRY-25",
+      "name": "Feedthrough\nTerminal",
+      "datasheet": "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf",
+      "terms": {
+        "BOT": "Ferrule or twin ferrule as required",
+        "TOP": "Ferrule or twin ferrule as required"
+      },
+      "review": {
+        "status": "recommended_from_terminal_strip_spec",
+        "strip_mm": 10,
+        "recommended_barrel_mm": 10,
+        "evidence": "Manufacturer terminal strip specification; 10 mm barrel is an engineering selection, not an explicit OEM ferrule approval. Gauge and twin ferrule compatibility need their own check.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/konnectsingle.pdf"
+        ],
+        "local_source": "KN-T12GRY-25_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "TB50",
+      "value": "KN-G12SP-10",
+      "mpn": "KN-G12SP-10",
+      "name": "Grounding\nTerminal",
+      "datasheet": "${PARTS_LIB}/datasheets/KN-G12SP-10_Datasheet.pdf",
+      "terms": {
+        "1": "Ferrule or twin ferrule as required",
+        "2": "Ferrule or twin ferrule as required"
+      },
+      "review": {
+        "status": "recommended_single_only_from_terminal_strip_spec",
+        "strip_mm": 10,
+        "recommended_barrel_mm": 10,
+        "evidence": "Manufacturer specifies 10 mm stripping and one conductor per terminal. Current generic twin ferrule option conflicts with that instruction.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/konnectgnd.pdf"
+        ],
+        "local_source": "KN-G12SP-10_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "TB22",
+      "value": "KN-T12GRY-25",
+      "mpn": "KN-T12GRY-25",
+      "name": "Feedthrough\nTerminal",
+      "datasheet": "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf",
+      "terms": {
+        "BOT": "Ferrule or twin ferrule as required",
+        "TOP": "Ferrule or twin ferrule as required"
+      },
+      "review": {
+        "status": "recommended_from_terminal_strip_spec",
+        "strip_mm": 10,
+        "recommended_barrel_mm": 10,
+        "evidence": "Manufacturer terminal strip specification; 10 mm barrel is an engineering selection, not an explicit OEM ferrule approval. Gauge and twin ferrule compatibility need their own check.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/konnectsingle.pdf"
+        ],
+        "local_source": "KN-T12GRY-25_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "TB24",
+      "value": "KN-T12GRY-25",
+      "mpn": "KN-T12GRY-25",
+      "name": "Feedthrough\nTerminal",
+      "datasheet": "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf",
+      "terms": {
+        "BOT": "Ferrule or twin ferrule as required",
+        "TOP": "Ferrule or twin ferrule as required"
+      },
+      "review": {
+        "status": "recommended_from_terminal_strip_spec",
+        "strip_mm": 10,
+        "recommended_barrel_mm": 10,
+        "evidence": "Manufacturer terminal strip specification; 10 mm barrel is an engineering selection, not an explicit OEM ferrule approval. Gauge and twin ferrule compatibility need their own check.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/konnectsingle.pdf"
+        ],
+        "local_source": "KN-T12GRY-25_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "TB67",
+      "value": "KN-T12GRY-25",
+      "mpn": "KN-T12GRY-25",
+      "name": "Feedthrough\nTerminal",
+      "datasheet": "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf",
+      "terms": {
+        "BOT": "Ferrule or twin ferrule as required",
+        "TOP": "Ferrule or twin ferrule as required"
+      },
+      "review": {
+        "status": "recommended_from_terminal_strip_spec",
+        "strip_mm": 10,
+        "recommended_barrel_mm": 10,
+        "evidence": "Manufacturer terminal strip specification; 10 mm barrel is an engineering selection, not an explicit OEM ferrule approval. Gauge and twin ferrule compatibility need their own check.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/konnectsingle.pdf"
+        ],
+        "local_source": "KN-T12GRY-25_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "TB61",
+      "value": "KN-T12GRY-25",
+      "mpn": "KN-T12GRY-25",
+      "name": "Feedthrough\nTerminal",
+      "datasheet": "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf",
+      "terms": {
+        "BOT": "Ferrule or twin ferrule as required",
+        "TOP": "Ferrule or twin ferrule as required"
+      },
+      "review": {
+        "status": "recommended_from_terminal_strip_spec",
+        "strip_mm": 10,
+        "recommended_barrel_mm": 10,
+        "evidence": "Manufacturer terminal strip specification; 10 mm barrel is an engineering selection, not an explicit OEM ferrule approval. Gauge and twin ferrule compatibility need their own check.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/konnectsingle.pdf"
+        ],
+        "local_source": "KN-T12GRY-25_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "PS1",
+      "value": "NDR-240-24",
+      "mpn": "NDR-240-24",
+      "name": "DC Power\nSupply",
+      "datasheet": "${PARTS_LIB}/datasheets/NDR-240-24_NDR-240-24.pdf",
+      "terms": {
+        "1_BOT": "Ferrule 14 AWG; L=TBD mm",
+        "1_TOP": "Ferrule 18 AWG; L=TBD mm",
+        "2_BOT": "Ferrule 14 AWG; L=TBD mm",
+        "2_TOP": "Ferrule 18 AWG; L=TBD mm",
+        "3_BOT": "Ferrule 14 AWG; L=TBD mm",
+        "3_TOP": "Ferrule 18 AWG; L=TBD mm",
+        "4_TOP": "Ferrule 18 AWG; L=TBD mm"
+      },
+      "review": {
+        "status": "length_pending_short_terminal",
+        "strip_mm": 5,
+        "recommended_barrel_mm": null,
+        "evidence": "Mean Well NDR installation manual recommends 5 mm wire stripping, misspelled strapping in its English text. Does not specify an approved ferrule barrel. Do not default to 8/10/12 mm on this evidence.",
+        "sources": [
+          "https://www.meanwell.com/Upload/PDF/NDR%20DIN%20rail.pdf"
+        ],
+        "local_source": "NDR-240-24_NDR-240-24.pdf"
+      }
+    },
+    {
+      "ref": "H1",
+      "value": "XB4BVB1",
+      "mpn": "XB4BVB1",
+      "name": "White\nIndicator",
+      "datasheet": "${PARTS_LIB}/datasheets/XB4BVB1_XB4BVB1.pdf",
+      "terms": {
+        "X1": "Ferrule 18 AWG; L=TBD mm",
+        "X2": "Ferrule 18 AWG; L=TBD mm"
+      },
+      "review": {
+        "status": "length_pending",
+        "strip_mm": 6.8,
+        "candidate_standard_barrel_mm": 6,
+        "recommended_barrel_mm": null,
+        "evidence": "Schneider instruction sheet shows 6.8 mm conductor preparation. Standard 6 mm ferrules exist, but this is a candidate and not a verified OEM ferrule barrel specification.",
+        "sources": [
+          "https://download.se.com/files?p_Doc_Ref=155997103A55&p_File_Name=155997103A55_08.pdf&p_enDocType=Instruction+sheet",
+          "https://www.se.com/us/en/download/document/BRU46063/"
+        ],
+        "local_source": "XB4BVB1_XB4BVB1.pdf"
+      }
+    },
+    {
+      "ref": "K3",
+      "value": "HC3096N-52-900-24",
+      "mpn": "HC3096N-52-900-24",
+      "name": "Coil Enable\nRelay",
+      "datasheet": "${PARTS_LIB}/datasheets/HC3096N_Datasheet.pdf",
+      "terms": {
+        "13": "Ferrule 18 AWG; L=TBD mm",
+        "14": "Ferrule 18 AWG; L=TBD mm",
+        "23": "Ferrule 18 AWG; L=TBD mm",
+        "24": "Ferrule 18 AWG; L=TBD mm",
+        "31": "Ferrule 18 AWG; L=TBD mm",
+        "32": "Ferrule 18 AWG; L=TBD mm",
+        "A1+": "Ferrule 18 AWG; L=TBD mm",
+        "A2": "Ferrule 18 AWG; L=TBD mm"
+      },
+      "review": {
+        "status": "length_pending",
+        "recommended_barrel_mm": null,
+        "evidence": "Dold datasheet publishes wire range and 0.5 Nm screw torque, but no ferrule barrel or strip length was found.",
+        "sources": [
+          "https://www.dold.com/media/7e/32/49/1746608174/HC3096N_en.pdf",
+          "https://cdn.automationdirect.com/static/specs/doldfgrelays.pdf"
+        ],
+        "local_source": "HC3096N_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "OL4",
+      "value": "HTOR32-6-S",
+      "mpn": "HTOR32-6-S",
+      "name": "Thermal\nOverload",
+      "datasheet": "${PARTS_LIB}/datasheets/HTOR32-6-S_Datasheet.pdf",
+      "terms": {
+        "2": "Ferrule 14 AWG; L=TBD mm",
+        "4": "Ferrule 14 AWG; L=TBD mm",
+        "6": "Ferrule 14 AWG; L=TBD mm",
+        "95": "Ferrule 18 AWG; L=TBD mm",
+        "96": "Ferrule 18 AWG; L=TBD mm"
+      },
+      "review": {
+        "status": "length_pending",
+        "recommended_barrel_mm": null,
+        "evidence": "Published instructions give wire range and tightening torque, but do not establish a ferrule barrel length. Main output and auxiliary trip terminals need separate confirmation. IN1/IN2/IN3 are direct mounted, not ferrule connections.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/ironhorsehmcandhtor.pdf"
+        ],
+        "local_source": "HTOR32-6-S_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "K6",
+      "value": "HMC-9B30-11-DS",
+      "mpn": "HMC-9B30-11-DS",
+      "name": "Power\nContactor",
+      "datasheet": "${PARTS_LIB}/datasheets/HMC-9B30-11-DS_Datasheet.pdf",
+      "terms": {
+        "1": "Ferrule 14 AWG; L=TBD mm",
+        "3": "Ferrule 14 AWG; L=TBD mm",
+        "31": "Ferrule 18 AWG; L=TBD mm",
+        "32": "Ferrule 18 AWG; L=TBD mm",
+        "43": "Ferrule 18 AWG; L=TBD mm",
+        "44": "Ferrule 18 AWG; L=TBD mm",
+        "5": "Ferrule 14 AWG; L=TBD mm",
+        "A1.BOT": "Ferrule 18 AWG; L=TBD mm",
+        "A1.TOP": "Ferrule 18 AWG; L=TBD mm",
+        "A2.BOT": "Ferrule 18 AWG; L=TBD mm",
+        "A2.TOP": "Ferrule 18 AWG; L=TBD mm"
+      },
+      "review": {
+        "status": "length_pending",
+        "recommended_barrel_mm": null,
+        "evidence": "Reviewed scanned HMC/HTOR instruction manual and current connection tables. Ferrule wire-size/diameter and torque information does not establish barrel length. Main, auxiliary and coil terminal preparation need manufacturer confirmation or actual clamp inspection. Ring terminal width 9.6/7.6 mm must not be mistaken for ferrule length. Direct-mounted overload terminals and supplied suppressor leads stay excluded.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/ironhorsehmcandhtor.pdf"
+        ],
+        "local_source": "HMC_Contactor_Instructions.pdf"
+      }
+    },
+    {
+      "ref": "FH1",
+      "value": "RM25030-3SR",
+      "mpn": "RM25030-3SR",
+      "name": "Fuse Holder",
+      "datasheet": "${PARTS_LIB}/datasheets/RM25030-3SR_Datasheet.pdf",
+      "terms": {
+        "P1.A": "Ferrule 14 AWG; L=TBD mm",
+        "P1.B": "Ferrule 14 AWG; L=TBD mm",
+        "P2.A": "Ferrule 14 AWG; L=TBD mm",
+        "P2.B": "Ferrule 14 AWG; L=TBD mm",
+        "P3.A": "Ferrule 14 AWG; L=TBD mm",
+        "P3.B": "Ferrule 14 AWG; L=TBD mm"
+      },
+      "review": {
+        "status": "length_and_terminal_style_pending",
+        "recommended_barrel_mm": null,
+        "evidence": "OEM drawings distinguish SR screw, PR pressure plate, CR box lug; AD product describes SR as screw with pressure plate. No ferrule insertion specification was found. Verify actual terminal construction and approved preparation before assigning a ferrule. Modular ferrule fuse block refers to the fuse end style, not a wire ferrule approval.",
+        "sources": [
+          "https://www.eaton.com/content/dam/eaton/products/electrical-circuit-protection/fuses/modular-fuse-blocks/bus-ele-cd-rm25030-hm25030.pdf",
+          "https://cdn.automationdirect.com/static/specs/efusemodblocksr.pdf"
+        ],
+        "local_source": "RM25030-3SR_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "TB51",
+      "value": "KN-G12SP-10",
+      "mpn": "KN-G12SP-10",
+      "name": "Grounding\nTerminal",
+      "datasheet": "${PARTS_LIB}/datasheets/KN-G12SP-10_Datasheet.pdf",
+      "terms": {
+        "1": "Ferrule or twin ferrule as required",
+        "2": "Ferrule or twin ferrule as required"
+      },
+      "review": {
+        "status": "recommended_single_only_from_terminal_strip_spec",
+        "strip_mm": 10,
+        "recommended_barrel_mm": 10,
+        "evidence": "Manufacturer specifies 10 mm stripping and one conductor per terminal. Current generic twin ferrule option conflicts with that instruction.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/konnectgnd.pdf"
+        ],
+        "local_source": "KN-G12SP-10_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "TB3",
+      "value": "KN-T12GRY-25",
+      "mpn": "KN-T12GRY-25",
+      "name": "Feedthrough\nTerminal",
+      "datasheet": "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf",
+      "terms": {
+        "BOT": "Ferrule or twin ferrule as required",
+        "TOP": "Ferrule or twin ferrule as required"
+      },
+      "review": {
+        "status": "recommended_from_terminal_strip_spec",
+        "strip_mm": 10,
+        "recommended_barrel_mm": 10,
+        "evidence": "Manufacturer terminal strip specification; 10 mm barrel is an engineering selection, not an explicit OEM ferrule approval. Gauge and twin ferrule compatibility need their own check.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/konnectsingle.pdf"
+        ],
+        "local_source": "KN-T12GRY-25_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "TB64",
+      "value": "KN-T12GRY-25",
+      "mpn": "KN-T12GRY-25",
+      "name": "Feedthrough\nTerminal",
+      "datasheet": "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf",
+      "terms": {
+        "BOT": "Ferrule or twin ferrule as required",
+        "TOP": "Ferrule or twin ferrule as required"
+      },
+      "review": {
+        "status": "recommended_from_terminal_strip_spec",
+        "strip_mm": 10,
+        "recommended_barrel_mm": 10,
+        "evidence": "Manufacturer terminal strip specification; 10 mm barrel is an engineering selection, not an explicit OEM ferrule approval. Gauge and twin ferrule compatibility need their own check.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/konnectsingle.pdf"
+        ],
+        "local_source": "KN-T12GRY-25_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "TB30",
+      "value": "KN-T12GRY-25",
+      "mpn": "KN-T12GRY-25",
+      "name": "Feedthrough\nTerminal",
+      "datasheet": "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf",
+      "terms": {
+        "BOT": "Ferrule or twin ferrule as required",
+        "TOP": "Ferrule or twin ferrule as required"
+      },
+      "review": {
+        "status": "recommended_from_terminal_strip_spec",
+        "strip_mm": 10,
+        "recommended_barrel_mm": 10,
+        "evidence": "Manufacturer terminal strip specification; 10 mm barrel is an engineering selection, not an explicit OEM ferrule approval. Gauge and twin ferrule compatibility need their own check.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/konnectsingle.pdf"
+        ],
+        "local_source": "KN-T12GRY-25_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "TB12",
+      "value": "KN-T12GRY-25",
+      "mpn": "KN-T12GRY-25",
+      "name": "Feedthrough\nTerminal",
+      "datasheet": "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf",
+      "terms": {
+        "BOT": "Ferrule or twin ferrule as required",
+        "TOP": "Ferrule or twin ferrule as required"
+      },
+      "review": {
+        "status": "recommended_from_terminal_strip_spec",
+        "strip_mm": 10,
+        "recommended_barrel_mm": 10,
+        "evidence": "Manufacturer terminal strip specification; 10 mm barrel is an engineering selection, not an explicit OEM ferrule approval. Gauge and twin ferrule compatibility need their own check.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/konnectsingle.pdf"
+        ],
+        "local_source": "KN-T12GRY-25_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "TB60",
+      "value": "KN-T12GRY-25",
+      "mpn": "KN-T12GRY-25",
+      "name": "Feedthrough\nTerminal",
+      "datasheet": "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf",
+      "terms": {
+        "BOT": "Ferrule or twin ferrule as required",
+        "TOP": "Ferrule or twin ferrule as required"
+      },
+      "review": {
+        "status": "recommended_from_terminal_strip_spec",
+        "strip_mm": 10,
+        "recommended_barrel_mm": 10,
+        "evidence": "Manufacturer terminal strip specification; 10 mm barrel is an engineering selection, not an explicit OEM ferrule approval. Gauge and twin ferrule compatibility need their own check.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/konnectsingle.pdf"
+        ],
+        "local_source": "KN-T12GRY-25_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "OL6",
+      "value": "HTOR32-6-S",
+      "mpn": "HTOR32-6-S",
+      "name": "Thermal\nOverload",
+      "datasheet": "${PARTS_LIB}/datasheets/HTOR32-6-S_Datasheet.pdf",
+      "terms": {
+        "2": "Ferrule 14 AWG; L=TBD mm",
+        "4": "Ferrule 14 AWG; L=TBD mm",
+        "6": "Ferrule 14 AWG; L=TBD mm",
+        "95": "Ferrule 18 AWG; L=TBD mm",
+        "96": "Ferrule 18 AWG; L=TBD mm"
+      },
+      "review": {
+        "status": "length_pending",
+        "recommended_barrel_mm": null,
+        "evidence": "Published instructions give wire range and tightening torque, but do not establish a ferrule barrel length. Main output and auxiliary trip terminals need separate confirmation. IN1/IN2/IN3 are direct mounted, not ferrule connections.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/ironhorsehmcandhtor.pdf"
+        ],
+        "local_source": "HTOR32-6-S_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "SW1",
+      "value": "222102",
+      "mpn": "222102",
+      "name": "Motor\nDisconnect",
+      "datasheet": "${PARTS_LIB}/datasheets/222102_Datasheet.pdf",
+      "terms": {
+        "1": "Ferrule 14 AWG; L=TBD mm",
+        "2": "Ferrule 14 AWG; L=TBD mm",
+        "3": "Ferrule 14 AWG; L=TBD mm",
+        "4": "Ferrule 14 AWG; L=TBD mm",
+        "5": "Ferrule 14 AWG; L=TBD mm",
+        "6": "Ferrule 14 AWG; L=TBD mm"
+      },
+      "review": {
+        "status": "length_pending",
+        "recommended_barrel_mm": null,
+        "evidence": "Installed switch is BACO 0172001, marketed as 222102/McMaster 6759K211. BACO catalog gives wire capacity with end cap but no terminal insertion/strip length was found.",
+        "sources": [
+          "https://products.bacocontrols.com/item/all-categories/disconnect-switches/0172001",
+          "https://bacocontrols.com/wp-content/uploads/Baco-Controls-Catalog-803.pdf"
+        ],
+        "local_source": "222102_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "TB68",
+      "value": "KN-T12GRY-25",
+      "mpn": "KN-T12GRY-25",
+      "name": "Feedthrough\nTerminal",
+      "datasheet": "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf",
+      "terms": {
+        "BOT": "Ferrule or twin ferrule as required",
+        "TOP": "Ferrule or twin ferrule as required"
+      },
+      "review": {
+        "status": "recommended_from_terminal_strip_spec",
+        "strip_mm": 10,
+        "recommended_barrel_mm": 10,
+        "evidence": "Manufacturer terminal strip specification; 10 mm barrel is an engineering selection, not an explicit OEM ferrule approval. Gauge and twin ferrule compatibility need their own check.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/konnectsingle.pdf"
+        ],
+        "local_source": "KN-T12GRY-25_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "TB1",
+      "value": "KN-T12GRY-25",
+      "mpn": "KN-T12GRY-25",
+      "name": "Feedthrough\nTerminal",
+      "datasheet": "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf",
+      "terms": {
+        "BOT": "Ferrule or twin ferrule as required",
+        "TOP": "Ferrule or twin ferrule as required"
+      },
+      "review": {
+        "status": "recommended_from_terminal_strip_spec",
+        "strip_mm": 10,
+        "recommended_barrel_mm": 10,
+        "evidence": "Manufacturer terminal strip specification; 10 mm barrel is an engineering selection, not an explicit OEM ferrule approval. Gauge and twin ferrule compatibility need their own check.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/konnectsingle.pdf"
+        ],
+        "local_source": "KN-T12GRY-25_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "TB40",
+      "value": "KN-T12GRY-25",
+      "mpn": "KN-T12GRY-25",
+      "name": "Feedthrough\nTerminal",
+      "datasheet": "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf",
+      "terms": {
+        "BOT": "Ferrule or twin ferrule as required",
+        "TOP": "Ferrule or twin ferrule as required"
+      },
+      "review": {
+        "status": "recommended_from_terminal_strip_spec",
+        "strip_mm": 10,
+        "recommended_barrel_mm": 10,
+        "evidence": "Manufacturer terminal strip specification; 10 mm barrel is an engineering selection, not an explicit OEM ferrule approval. Gauge and twin ferrule compatibility need their own check.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/konnectsingle.pdf"
+        ],
+        "local_source": "KN-T12GRY-25_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "K4",
+      "value": "HMC-9B30-11-DS",
+      "mpn": "HMC-9B30-11-DS",
+      "name": "Power\nContactor",
+      "datasheet": "${PARTS_LIB}/datasheets/HMC-9B30-11-DS_Datasheet.pdf",
+      "terms": {
+        "1": "Ferrule 14 AWG; L=TBD mm",
+        "3": "Ferrule 14 AWG; L=TBD mm",
+        "31": "Ferrule 18 AWG; L=TBD mm",
+        "32": "Ferrule 18 AWG; L=TBD mm",
+        "43": "Ferrule 18 AWG; L=TBD mm",
+        "44": "Ferrule 18 AWG; L=TBD mm",
+        "5": "Ferrule 14 AWG; L=TBD mm",
+        "A1.BOT": "Ferrule 18 AWG; L=TBD mm",
+        "A1.TOP": "Ferrule 18 AWG; L=TBD mm",
+        "A2.BOT": "Ferrule 18 AWG; L=TBD mm",
+        "A2.TOP": "Ferrule 18 AWG; L=TBD mm"
+      },
+      "review": {
+        "status": "length_pending",
+        "recommended_barrel_mm": null,
+        "evidence": "Reviewed scanned HMC/HTOR instruction manual and current connection tables. Ferrule wire-size/diameter and torque information does not establish barrel length. Main, auxiliary and coil terminal preparation need manufacturer confirmation or actual clamp inspection. Ring terminal width 9.6/7.6 mm must not be mistaken for ferrule length. Direct-mounted overload terminals and supplied suppressor leads stay excluded.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/ironhorsehmcandhtor.pdf"
+        ],
+        "local_source": "HMC_Contactor_Instructions.pdf"
+      }
+    },
+    {
+      "ref": "TB63",
+      "value": "KN-T12GRY-25",
+      "mpn": "KN-T12GRY-25",
+      "name": "Feedthrough\nTerminal",
+      "datasheet": "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf",
+      "terms": {
+        "BOT": "Ferrule or twin ferrule as required",
+        "TOP": "Ferrule or twin ferrule as required"
+      },
+      "review": {
+        "status": "recommended_from_terminal_strip_spec",
+        "strip_mm": 10,
+        "recommended_barrel_mm": 10,
+        "evidence": "Manufacturer terminal strip specification; 10 mm barrel is an engineering selection, not an explicit OEM ferrule approval. Gauge and twin ferrule compatibility need their own check.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/konnectsingle.pdf"
+        ],
+        "local_source": "KN-T12GRY-25_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "H2",
+      "value": "XB4BVB4",
+      "mpn": "XB4BVB4",
+      "name": "Red\nIndicator",
+      "datasheet": "${PARTS_LIB}/datasheets/XB4BVB4_XB4BVB4.pdf",
+      "terms": {
+        "X1": "Ferrule 18 AWG; L=TBD mm",
+        "X2": "Ferrule 18 AWG; L=TBD mm"
+      },
+      "review": {
+        "status": "length_pending",
+        "strip_mm": 6.8,
+        "candidate_standard_barrel_mm": 6,
+        "recommended_barrel_mm": null,
+        "evidence": "Same screw-terminal light-block family as XB4BVB1. 6.8 mm preparation is not an instruction to buy a 6.8 mm ferrule. Standard 6 mm candidate requires confirmation.",
+        "sources": [
+          "https://download.se.com/files?p_Doc_Ref=155997103A55&p_File_Name=155997103A55_08.pdf&p_enDocType=Instruction+sheet",
+          "https://www.se.com/us/en/download/document/BRU46063/"
+        ],
+        "local_source": "XB4BVB4_XB4BVB4.pdf"
+      }
+    },
+    {
+      "ref": "TB20",
+      "value": "KN-T12GRY-25",
+      "mpn": "KN-T12GRY-25",
+      "name": "Feedthrough\nTerminal",
+      "datasheet": "${PARTS_LIB}/datasheets/KN-T12GRY-25_Datasheet.pdf",
+      "terms": {
+        "BOT": "Ferrule or twin ferrule as required",
+        "TOP": "Ferrule or twin ferrule as required"
+      },
+      "review": {
+        "status": "recommended_from_terminal_strip_spec",
+        "strip_mm": 10,
+        "recommended_barrel_mm": 10,
+        "evidence": "Manufacturer terminal strip specification; 10 mm barrel is an engineering selection, not an explicit OEM ferrule approval. Gauge and twin ferrule compatibility need their own check.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/konnectsingle.pdf"
+        ],
+        "local_source": "KN-T12GRY-25_Datasheet.pdf"
+      }
+    },
+    {
+      "ref": "K5",
+      "value": "HMC-9B30-11-DS",
+      "mpn": "HMC-9B30-11-DS",
+      "name": "Power\nContactor",
+      "datasheet": "${PARTS_LIB}/datasheets/HMC-9B30-11-DS_Datasheet.pdf",
+      "terms": {
+        "1": "Ferrule 14 AWG; L=TBD mm",
+        "2": "Ferrule 14 AWG; L=TBD mm",
+        "3": "Twin ferrule 2 \u00d7 14 AWG; L=TBD mm",
+        "31": "Ferrule 18 AWG; L=TBD mm",
+        "32": "Ferrule 18 AWG; L=TBD mm",
+        "4": "Ferrule 14 AWG; L=TBD mm",
+        "43": "Twin ferrule 2 \u00d7 18 AWG; L=TBD mm",
+        "44": "Ferrule 18 AWG; L=TBD mm",
+        "5": "Ferrule 14 AWG; L=TBD mm",
+        "6": "Ferrule 14 AWG; L=TBD mm",
+        "A1.BOT": "Ferrule 18 AWG; L=TBD mm",
+        "A1.TOP": "Ferrule 18 AWG; L=TBD mm",
+        "A2.BOT": "Ferrule 18 AWG; L=TBD mm",
+        "A2.TOP": "Ferrule 18 AWG; L=TBD mm"
+      },
+      "review": {
+        "status": "length_pending",
+        "recommended_barrel_mm": null,
+        "evidence": "Reviewed scanned HMC/HTOR instruction manual and current connection tables. Ferrule wire-size/diameter and torque information does not establish barrel length. Main, auxiliary and coil terminal preparation need manufacturer confirmation or actual clamp inspection. Ring terminal width 9.6/7.6 mm must not be mistaken for ferrule length. Direct-mounted overload terminals and supplied suppressor leads stay excluded.",
+        "sources": [
+          "https://cdn.automationdirect.com/static/specs/ironhorsehmcandhtor.pdf"
+        ],
+        "local_source": "HMC_Contactor_Instructions.pdf"
+      }
+    }
+  ],
+  "part_count": 47,
+  "terminal_field_count": 175,
+  "terminal_fields_by_status": {
+    "recommended_from_terminal_strip_spec": 58,
+    "length_pending": 92,
+    "correct_ferrule_selection": 4,
+    "recommended_single_only_from_terminal_strip_spec": 8,
+    "length_pending_short_terminal": 7,
+    "length_and_terminal_style_pending": 6
+  },
+  "length_definition": "Metal barrel/contact length, not overall length or conductor stripping length. Use ferrule manufacturer strip instructions when crimping.",
+  "procurement_candidates": [
+    {
+      "supplier": "AD",
+      "part": "V30AE000055",
+      "wire": "12 AWG single",
+      "barrel_mm": 10,
+      "pack": 500,
+      "source": "https://cdn.automationdirect.com/static/specs/cutsheet/V30AE000055_cutsheet.pdf"
+    },
+    {
+      "supplier": "AD",
+      "part": "V30AE000049",
+      "wire": "16 AWG single",
+      "barrel_mm": 10,
+      "pack": 500,
+      "source": "https://cdn.automationdirect.com/static/specs/cutsheet/V30AE000049_cutsheet.pdf"
+    },
+    {
+      "supplier": "AD",
+      "part": "V30AE000734",
+      "wire": "2 x 18 AWG twin, 2 x 0.75 mm2",
+      "barrel_mm": 10,
+      "pack": 500,
+      "source": "https://cdn.automationdirect.com/static/specs/cutsheet/V30AE000734_cutsheet.pdf"
+    },
+    {
+      "supplier": "AD",
+      "part": "V30AE000611",
+      "wire": "2 x 14 AWG twin",
+      "barrel_mm": 10,
+      "pack": 500,
+      "source": "https://cdn.automationdirect.com/static/specs/cutsheet/V30AE000611_cutsheet.pdf"
+    },
+    {
+      "supplier": "Phoenix Contact",
+      "part": "3202533",
+      "name": "AI 2.5-10 BU",
+      "wire": "14 AWG single",
+      "barrel_mm": 10,
+      "source": "https://www.phoenixcontact.com/en-us/products/3202533"
+    },
+    {
+      "supplier": "Phoenix Contact",
+      "part": "3201288",
+      "name": "AI 0.75-10 GY",
+      "wire": "18 AWG single",
+      "barrel_mm": 10,
+      "source": "https://www.phoenixcontact.com/en-us/products/3201288"
+    },
+    {
+      "supplier": "Phoenix Contact",
+      "part": "3241129",
+      "name": "AI 0.34-10 TQ",
+      "wire": "22 AWG single",
+      "barrel_mm": 10,
+      "source": "https://www.phoenixcontact.com/en-us/products/3241129"
+    },
+    {
+      "supplier": "Phoenix Contact",
+      "part": "3200690",
+      "name": "AI 0.75-6 GY",
+      "wire": "18 AWG single",
+      "barrel_mm": 6,
+      "status": "lamp candidate only; fit not confirmed",
+      "source": "https://www.phoenixcontact.com/en-us/products/3200690"
+    }
+  ],
+  "procurement_notes": [
+    "Catalog availability does not establish compatibility with a device.",
+    "AD current published ferrule catalog lists 14 AWG singles at 8/12 mm and 18 AWG singles at 8 mm, so exact 10 mm singles require another source.",
+    "AD single ferrule catalog starts at 20 AWG; 22 AWG factory pigtails need an appropriate separate source.",
+    "Ground block clamps are one conductor only; no twin assignment approved.",
+    "No exact purchasing quantity is inferred from unallocated pad fields."
+  ],
+  "pcb_sha256": "3e3c777cc9037f5e24c652bb274dae8af9e52c253aa755026cda1910844d3454",
+  "schematic_sha256": "0bfebb9d81f19a410c6ed6f262cc66d7a9df66ec3802d07990d0bb5c858f8185",
+  "local_datasheet_sha256": {
+    "/Users/evanthayer/Projects/_parts/datasheets/KN-T12GRY-25_Datasheet.pdf": "d8074384ef3ed1af987f003e4ccb7c41a3bd8bc890dd4b496218d41e821f1c4d",
+    "/Users/evanthayer/Projects/_parts/datasheets/KN-G12SP-10_Datasheet.pdf": "eef83fc51e0a931001eca98ee194a3dfd353b5288edd08025d1a89334826cebd",
+    "/Users/evanthayer/Projects/_parts/datasheets/Eaton_FAZ_AD.pdf": "0f34d6882ba25677d0f070dd47cde286fd6556d3422c5d29b8980bc8b55c82a3",
+    "/Users/evanthayer/Projects/_parts/datasheets/XB4BVB1_XB4BVB1.pdf": "c85ec9c967fa46b90bacfa9f887b3e88b14817ef2066324971f0af33c08d66b2",
+    "/Users/evanthayer/Projects/_parts/datasheets/XB4BVB4_XB4BVB4.pdf": "44d9ee8ae450c99f73ed317de688fbe8bdd006afe2082aea44d68d424eec0ae2",
+    "/Users/evanthayer/Projects/_parts/datasheets/NDR-240-24_NDR-240-24.pdf": "383b37857443a4921952fc42b43b7dad456f150c670882d6f5e89e79f62446a1",
+    "/Users/evanthayer/Projects/_parts/datasheets/HMC_Contactor_Instructions.pdf": "72cc40e6da05cab1b7e639543e06fb534e632a4d8d5769611d84e245777d60fe",
+    "/Users/evanthayer/Projects/_parts/datasheets/HTOR32-6-S_Datasheet.pdf": "9017cfa1fe181a61057e83bc87e6b9674a89a97651d4079193bc0a98aedf15b5",
+    "/Users/evanthayer/Projects/_parts/datasheets/HC3096N_Datasheet.pdf": "26dee87db27d0ed8a4a1c70d1f59888a365ef76b778d45ff10a89ec18808ae5d",
+    "/Users/evanthayer/Projects/_parts/datasheets/222102_Datasheet.pdf": "8e7bdd0dbc4d35d65ab4b7c6f87bb25a191249be88d449ac81416e87e00ed517",
+    "/Users/evanthayer/Projects/_parts/datasheets/RM25030-3SR_Datasheet.pdf": "3a37878da3aa4388507938e3cabfb7e192697fa6812de130f63cde102b41d342"
+  },
+  "kicad_modified": false,
+  "bom_modified": false,
+  "wire_schedule_modified": false,
+  "screen_sharing_used": false,
+  "unresolved": "Exact ferrule barrel lengths for contactor/overload/relay/disconnect/fuse-holder terminals and short lamp/PSU clamps need manufacturer ferrule instructions or actual terminal fit measurements.",
+  "owner_followup": {
+    "date": "2026-10-09",
+    "report": "owner_assignments.json",
+    "changes": "Q1 four ends bare, PS1 lower L/N/PE ends bare with 5 mm strip, H1/H2 ends 6 mm ferrules. Initial audit below remains the pre-assignment research snapshot."
+  },
+  "terminal_block_followup": {
+    "report": "terminal_block_assignments.json",
+    "research_report": "research_followup.json",
+    "selection": "All 29 feedthrough and 4 ground blocks now use 10 mm ferrule barrels; ground clamps single only. Original parts array remains the initial research snapshot."
+  }
+}

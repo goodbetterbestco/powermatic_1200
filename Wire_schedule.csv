@@ -1,9 +1,18 @@
-FROM,FROM PIN,TO,TO PIN,AWG,LENGTH,TERM 1,TERM 2
-Fuse Holder,P1.B,TB40,TOP,14,260,Ferrule 14 AWG; L=TBD mm,Ferrule
-Fuse Holder,P2.B,TB41,TOP,14,260,Ferrule 14 AWG; L=TBD mm,Ferrule
-Fuse Holder,P3.B,TB42,TOP,14,270,Ferrule 14 AWG; L=TBD mm,Ferrule
-Mains Plug,G,TB43,2,12,270,"Plug clamp, 12 AWG",Ferrule
-Mains Plug,X,TB40,BOT,12,270,"Plug clamp, 12 AWG",Ferrule
-Mains Plug,Y,TB41,BOT,12,270,"Plug clamp, 12 AWG",Ferrule
-Mains Plug,Z,TB42,BOT,12,270,"Plug clamp, 12 AWG",Ferrule
-TB43,1,TB50,2,,360,Ferrule,Ferrule
+From,Pin,To,Pin,AWG,Length,Term 1,Term 2
+Fuse Holder,FH1_P1A,Terminal 42,TB42_TOP,14,290,R14_1032_9mm,F14_10mm
+Fuse Holder,FH1_P1B,Motor Disconnect,SW1_5,14,280,R14_1032_9mm,B14_12mm
+Fuse Holder,FH1_P2A,Terminal 41,TB41_TOP,14,270,R14_1032_9mm,F14_10mm
+Fuse Holder,FH1_P2B,Motor Disconnect,SW1_3,14,250,R14_1032_9mm,B14_12mm
+Fuse Holder,FH1_P3A,Terminal 40,TB40_TOP,14,250,R14_1032_9mm,F14_10mm
+Fuse Holder,FH1_P3B,Motor Disconnect,SW1_1,14,220,R14_1032_9mm,B14_12mm
+M12 Panel Socket,J1_1,Terminal 30,TB30_BOT,22,190,supplier,F22_10mm
+M12 Panel Socket,J1_2,Terminal 31,TB31_BOT,22,200,supplier,F22_10mm
+M12 Panel Socket,J1_3,Terminal 33,TB33_BOT,22,210,supplier,F22_10mm
+M12 Panel Socket,J1_4,Terminal 32,TB32_BOT,22,210,supplier,F22_10mm
+Mains Plug,J2_G,Terminal 43,TB43_2,12,270,B12,F12_10mm
+Mains Plug,J2_X,Terminal 40,TB40_BOT,12,270,B12,F12_10mm
+Mains Plug,J2_Y,Terminal 41,TB41_BOT,12,270,B12,F12_10mm
+Mains Plug,J2_Z,Terminal 42,TB42_BOT,12,270,B12,F12_10mm
+DC Power Supply,PS1_PE,Terminal 50,TB50_2,14,300,B14_5mm,F14_10mm
+Terminal 43,TB43_1,Terminal 51,TB51_2,12,360,F12_10mm,F12_10mm
+Terminal 50,TB50_1,Terminal 52,TB52_2,14,270,F14_10mm,F14_10mm

@@ -1,0 +1,182 @@
+{
+  "reference": "BB1",
+  "footprint_uuid": "d7846484-a101-4790-a579-a199c492d639",
+  "library_id": "Controls:HMX1-BBREV_Front_Grid1mm",
+  "origin_mm": [
+    315,
+    130
+  ],
+  "host_uuids": {
+    "K1": "0efcbc76-f026-47f5-86c9-db4fc3aa8810",
+    "K2": "597b786e-4ac2-491c-9073-9bd131e26112"
+  },
+  "overlapping_contacts": [
+    {
+      "pad": "A1",
+      "host": "K1",
+      "host_pin": "1",
+      "local_xy": [
+        -15.0,
+        -18.499995999999996
+      ],
+      "net": "L1_SW"
+    },
+    {
+      "pad": "A2",
+      "host": "K1",
+      "host_pin": "2",
+      "local_xy": [
+        -16.0,
+        23.0
+      ],
+      "net": "L1_DIR"
+    },
+    {
+      "pad": "A3",
+      "host": "K1",
+      "host_pin": "3",
+      "local_xy": [
+        -5.0,
+        -18.499995999999996
+      ],
+      "net": "L2_SW"
+    },
+    {
+      "pad": "A4",
+      "host": "K1",
+      "host_pin": "4",
+      "local_xy": [
+        -5.0,
+        23.0
+      ],
+      "net": "L2_DIR"
+    },
+    {
+      "pad": "A5",
+      "host": "K1",
+      "host_pin": "5",
+      "local_xy": [
+        5.0,
+        -18.499995999999996
+      ],
+      "net": "L3_SW"
+    },
+    {
+      "pad": "A6",
+      "host": "K1",
+      "host_pin": "6",
+      "local_xy": [
+        5.0,
+        23.0
+      ],
+      "net": "L3_DIR"
+    },
+    {
+      "pad": "B1",
+      "host": "K2",
+      "host_pin": "1",
+      "local_xy": [
+        42.0,
+        -18.499995999999996
+      ],
+      "net": "L1_SW"
+    },
+    {
+      "pad": "B2",
+      "host": "K2",
+      "host_pin": "2",
+      "local_xy": [
+        41.0,
+        23.0
+      ],
+      "net": "L3_DIR"
+    },
+    {
+      "pad": "B3",
+      "host": "K2",
+      "host_pin": "3",
+      "local_xy": [
+        52.0,
+        -18.499995999999996
+      ],
+      "net": "L2_SW"
+    },
+    {
+      "pad": "B4",
+      "host": "K2",
+      "host_pin": "4",
+      "local_xy": [
+        52.0,
+        23.0
+      ],
+      "net": "L2_DIR"
+    },
+    {
+      "pad": "B5",
+      "host": "K2",
+      "host_pin": "5",
+      "local_xy": [
+        62.0,
+        -18.499995999999996
+      ],
+      "net": "L3_SW"
+    },
+    {
+      "pad": "B6",
+      "host": "K2",
+      "host_pin": "6",
+      "local_xy": [
+        62.0,
+        23.0
+      ],
+      "net": "L1_DIR"
+    }
+  ],
+  "native_jumper_pad_groups": [
+    [
+      "A1",
+      "B1"
+    ],
+    [
+      "A3",
+      "B3"
+    ],
+    [
+      "A5",
+      "B5"
+    ],
+    [
+      "A2",
+      "B6"
+    ],
+    [
+      "A4",
+      "B4"
+    ],
+    [
+      "A6",
+      "B2"
+    ]
+  ],
+  "graphic_counts": {
+    "F.Fab": 3608,
+    "F.SilkS": 562
+  },
+  "existing_pcb_objects": "All existing bytes preserved; one new footprint added.",
+  "source_pcb_sha256": "8beb90a882f070ad9eb76971691414c74598d088bb499d022b1be71daac1c078",
+  "candidate_pcb_sha256": "0127efc05dc4936cde24b01fddf230578756ab7459322c33a85240a656414560",
+  "geometry_source": "Manufacturer STEP front hidden-line projection, source PDF checked.",
+  "front_transforms": [
+    {
+      "name": "line",
+      "dx": 20.25,
+      "dy": -49.5
+    },
+    {
+      "name": "load",
+      "dx": 20.25,
+      "dy": -27.3
+    }
+  ],
+  "model_link": "No installed 3D link; source STEP retained. Physical placement in depth remains unverified."
+}

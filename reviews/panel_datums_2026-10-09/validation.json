@@ -1,0 +1,27 @@
+{
+  "native_netlist_unchanged": true,
+  "net_count": 63,
+  "erc_errors": 0,
+  "erc_warnings": 1,
+  "changed_instances": [
+    "J5",
+    "J4",
+    "H1",
+    "SW1",
+    "J1",
+    "J2",
+    "H2"
+  ],
+  "unchanged_instances": 89,
+  "placed_integer_local_pad_centers": 46,
+  "physical_xy_artwork_and_text_retained": true,
+  "all_pad_identities_nets_and_uuids_retained": true,
+  "only_placed_model_height_change": "H2: 0 to 60.05 mm",
+  "all_unrelated_board_bytes_and_schematic_bytes_unchanged": true,
+  "source_and_library_hashes_match_candidates": true,
+  "native_loading_and_serialization_reload_passed": true,
+  "integer_global_pads_at_integral_origins_and_cardinal_rotations_verified": true,
+  "drc_baseline_exit_code": 134,
+  "drc_final_exit_code": 134,
+  "drc_report_produced": false
+}

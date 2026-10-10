@@ -9,6 +9,7 @@ import sys
 
 from model import Schematic
 from source import nodes,one,prop
+from presentation import pin_label,termination_code
 
 SHARED=Path(__file__).resolve().parents[4]/'bom_review'
 sys.path.insert(0,str(SHARED))
@@ -50,7 +51,7 @@ def sizes(schematic,pin_nets,warnings=None):
 
 def pad_name(pad,board):
     ref=pad['ref'];fields=pad['fields']
-    if ref.startswith('TB'):return ref
+    if re.fullmatch(r'TB\d+',ref):return 'Terminal '+ref[2:]
     name=' '.join((fields.get('Part Name') or fields.get('Value') or ref).split())
     matching={p['ref'] for p in board['pads'] if ' '.join((p['fields'].get('Part Name') or p['fields'].get('Value') or p['ref']).split())==name}
     return name+' '+ref if len(matching)>1 else name
@@ -60,10 +61,14 @@ def termination(pad,count,warnings):
     text=pad['termination']
     if not text.strip():
         raise ValueError(pad['ref']+'.'+pad['pin']+': footprint termination field is missing.')
-    if text=='Ferrule or twin ferrule as required':
-        if count==1:return 'Ferrule'
-        if count==2:return 'Twin ferrule'
+    capability,separator,preparation=text.partition(';')
+    suffix=separator+preparation if separator else ''
+    if capability=='Ferrule or twin ferrule as required':
+        if count==1:return 'Ferrule'+suffix
+        if count==2:return 'Twin ferrule'+suffix
         warnings.append(pad['ref']+'.'+pad['pin']+f': {count} wires share one clamp; allocate additional clamps.')
+    elif capability=='Single ferrule' and count>1:
+        warnings.append(pad['ref']+'.'+pad['pin']+f': {count} wires share a single-conductor clamp; allocate separate clamps.')
     return text
 
 
@@ -72,7 +77,10 @@ def rows_from_traces(board,schematic,pin_nets,slack_mm=100,round_mm=10):
         raise ValueError('Trace cut allowance must be nonnegative and rounding must be positive.')
     routes,warnings=extract_routes(board)
     declared=sizes(schematic,pin_nets,warnings)
-    counts=Counter(p['id'] for route in routes for p in [route['from'],route['to']])
+    supplied={frozenset(c['pad_ids']):c for c in board.get('supplied_connections',[])}
+    counts=Counter(p['id'] for route in routes
+                   if frozenset([route['from']['id'],route['to']['id']]) not in supplied
+                   for p in [route['from'],route['to']])
     assigned=defaultdict(set);rows=[];details=[];unknown=set()
     for route in routes:
         pair=[route['from'],route['to']];nets=set();gauges=set()
@@ -111,13 +119,23 @@ def rows_from_traces(board,schematic,pin_nets,slack_mm=100,round_mm=10):
         if not net:warnings.append('Unassigned electrical net on '+pair[0]['ref']+'.'+pair[0]['pin']+' -> '+pair[1]['ref']+'.'+pair[1]['pin'])
         for pad in pair:
             if net:assigned[pad['id']].add(net)
+        supplier=supplied.get(frozenset(p['id'] for p in pair))
+        if supplier:
+            details.append({'id':route['id'],'from':pair[0]['ref']+'.'+pair[0]['pin'],
+                            'to':pair[1]['ref']+'.'+pair[1]['pin'],'net':net,
+                            'kind':'factory','exported':False,'section':'Supplier assembly',
+                            'assembly':supplier['assembly'],'part':supplier['part'],
+                            'review':'supplier','track_ids':route['track_ids'],
+                            'endpoint_pad_ids':[p['id'] for p in pair]})
+            continue
         awg=str(next(iter(gauges))) if len(gauges)==1 else ''
         if not awg:
             unknown.add(route['id'])
             warnings.append('AWG '+('conflict '+str(sorted(gauges)) if gauges else 'not specified')+' on '+pair[0]['ref']+'.'+pair[0]['pin']+' -> '+pair[1]['ref']+'.'+pair[1]['pin'])
         cut=math.ceil((route['route_mm']+slack_mm-1e-7)/round_mm)*round_mm
-        row=[pad_name(pair[0],board),pair[0]['pin'],pad_name(pair[1],board),pair[1]['pin'],awg,f'{cut:g}',
-             termination(pair[0],counts[pair[0]['id']],warnings),termination(pair[1],counts[pair[1]['id']],warnings)]
+        terms=[termination(p,counts[p['id']],warnings) for p in pair]
+        row=[pad_name(pair[0],board),pin_label(pair[0]),pad_name(pair[1],board),pin_label(pair[1]),awg,f'{cut:g}',
+             termination_code(terms[0],awg),termination_code(terms[1],awg)]
         rows.append(row)
         details.append({'id':route['id'],'from':pair[0]['ref']+'.'+pair[0]['pin'],
                         'to':pair[1]['ref']+'.'+pair[1]['pin'],'net':net,'kind':'route-section' if boundary else 'wire','exported':True,

@@ -1,0 +1,70 @@
+{
+  "corrections": [
+    {
+      "name": "HMX1-BBREV_TOP",
+      "reference": "BB1",
+      "origin": [
+        "at",
+        "315",
+        "130"
+      ],
+      "reference_xy": [
+        20.25,
+        -43
+      ],
+      "fab_primitives": {
+        "fp_line": 124,
+        "fp_arc": 12,
+        "fp_curve": 76
+      },
+      "silk_primitives": {
+        "fp_line": 22,
+        "fp_arc": 0,
+        "fp_poly": 7
+      },
+      "pads_and_native_groups": "unchanged",
+      "source_graphic_shift_mm": [
+        20.25,
+        -36.25
+      ]
+    },
+    {
+      "name": "HMX1-BBREV_BOT",
+      "reference": "BB2",
+      "origin": [
+        "at",
+        "315",
+        "130"
+      ],
+      "reference_xy": [
+        26.05,
+        40
+      ],
+      "fab_primitives": {
+        "fp_line": 94,
+        "fp_arc": 12,
+        "fp_curve": 128
+      },
+      "silk_primitives": {
+        "fp_line": 46,
+        "fp_arc": 24,
+        "fp_poly": 1
+      },
+      "pads_and_native_groups": "unchanged",
+      "source_graphic_shift_mm": [
+        26.05,
+        32.75
+      ]
+    }
+  ],
+  "candidate_sha256": "c536c9c1bb19533a6b090ec7ad96272b76f6b33becc3a79604b1926af0b4ab2d",
+  "source_sha256": "fddf3e1af227a11ee3c6de9c095d1d0d7854b4edb3189f954cf021929adf4a02",
+  "rules_fixed": [
+    "FP-CTRL-006",
+    "FP-CTRL-007",
+    "FP-CTRL-008",
+    "FP-CTRL-009",
+    "FP-CTRL-010"
+  ],
+  "3D_alignment": "Nominal candidate checked; source CAD interference recorded, model left unlinked."
+}

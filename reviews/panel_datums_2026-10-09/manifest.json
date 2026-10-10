@@ -1,0 +1,2107 @@
+{
+  "library": [
+    {
+      "name": "BNSPDX-23-W_BottomWall",
+      "source_sha256": "70e40f38ba360eccc21ed3562f348c17b0939a5c114c9efb50dd4c58dc8109a5",
+      "candidate_sha256": "8727eedf2db4ec64715996b50708ae0e4c01eed669802bb621523f4d3823c259",
+      "old_datum_xy": [
+        0,
+        0
+      ],
+      "datum": "Y=0 is the outer panel face; X=0 is the gland axis",
+      "pads": [
+        {
+          "number": "X.IN",
+          "before": [
+            -3.81,
+            -8.0
+          ],
+          "datum_relative": [
+            -3.81,
+            -8.0
+          ],
+          "after": [
+            -4,
+            -8
+          ],
+          "rounding_delta": [
+            -0.18999999999999995,
+            0.0
+          ]
+        },
+        {
+          "number": "X.OUT",
+          "before": [
+            -3.81,
+            121.92
+          ],
+          "datum_relative": [
+            -3.81,
+            121.92
+          ],
+          "after": [
+            -4,
+            122
+          ],
+          "rounding_delta": [
+            -0.18999999999999995,
+            0.0799999999999983
+          ]
+        },
+        {
+          "number": "Y.IN",
+          "before": [
+            -1.27,
+            -8.0
+          ],
+          "datum_relative": [
+            -1.27,
+            -8.0
+          ],
+          "after": [
+            -1,
+            -8
+          ],
+          "rounding_delta": [
+            0.27,
+            0.0
+          ]
+        },
+        {
+          "number": "Y.OUT",
+          "before": [
+            -1.27,
+            121.92
+          ],
+          "datum_relative": [
+            -1.27,
+            121.92
+          ],
+          "after": [
+            -1,
+            122
+          ],
+          "rounding_delta": [
+            0.27,
+            0.0799999999999983
+          ]
+        },
+        {
+          "number": "Z.IN",
+          "before": [
+            1.27,
+            -8.0
+          ],
+          "datum_relative": [
+            1.27,
+            -8.0
+          ],
+          "after": [
+            1,
+            -8
+          ],
+          "rounding_delta": [
+            -0.27,
+            0.0
+          ]
+        },
+        {
+          "number": "Z.OUT",
+          "before": [
+            1.27,
+            121.92
+          ],
+          "datum_relative": [
+            1.27,
+            121.92
+          ],
+          "after": [
+            1,
+            122
+          ],
+          "rounding_delta": [
+            -0.27,
+            0.0799999999999983
+          ]
+        },
+        {
+          "number": "G.IN",
+          "before": [
+            3.81,
+            -8.0
+          ],
+          "datum_relative": [
+            3.81,
+            -8.0
+          ],
+          "after": [
+            4,
+            -8
+          ],
+          "rounding_delta": [
+            0.18999999999999995,
+            0.0
+          ]
+        },
+        {
+          "number": "G.OUT",
+          "before": [
+            3.81,
+            121.92
+          ],
+          "datum_relative": [
+            3.81,
+            121.92
+          ],
+          "after": [
+            4,
+            122
+          ],
+          "rounding_delta": [
+            0.18999999999999995,
+            0.0799999999999983
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BNSPDX-23-W_MainsPlug_BottomWall",
+      "source_sha256": "01edef9ff06be1d2cf01279e75adeb732cd5f49fc9706344de5c526e664293fa",
+      "candidate_sha256": "be8ed36962f43b79640fa38ea4b5ef5515c3999245b91909698422520c9466a9",
+      "old_datum_xy": [
+        0,
+        0
+      ],
+      "datum": "Y=0 is the outer panel face; X=0 is the gland axis",
+      "pads": [
+        {
+          "number": "X",
+          "before": [
+            -3.81,
+            -8.0
+          ],
+          "datum_relative": [
+            -3.81,
+            -8.0
+          ],
+          "after": [
+            -4,
+            -8
+          ],
+          "rounding_delta": [
+            -0.18999999999999995,
+            0.0
+          ]
+        },
+        {
+          "number": "Y",
+          "before": [
+            -1.27,
+            -8.0
+          ],
+          "datum_relative": [
+            -1.27,
+            -8.0
+          ],
+          "after": [
+            -1,
+            -8
+          ],
+          "rounding_delta": [
+            0.27,
+            0.0
+          ]
+        },
+        {
+          "number": "Z",
+          "before": [
+            1.27,
+            -8.0
+          ],
+          "datum_relative": [
+            1.27,
+            -8.0
+          ],
+          "after": [
+            1,
+            -8
+          ],
+          "rounding_delta": [
+            -0.27,
+            0.0
+          ]
+        },
+        {
+          "number": "G",
+          "before": [
+            3.81,
+            -8.0
+          ],
+          "datum_relative": [
+            3.81,
+            -8.0
+          ],
+          "after": [
+            4,
+            -8
+          ],
+          "rounding_delta": [
+            0.18999999999999995,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BSPDX-23-W_BottomWall",
+      "source_sha256": "d5e9ccbe9e06fc439bb98438f11d16a9b1e2411d361958387ee84645252fc66f",
+      "candidate_sha256": "435464e459f448c8c6509542daa50a6cc533576c5493913b0ab3fbbe86338718",
+      "old_datum_xy": [
+        0,
+        0
+      ],
+      "datum": "Y=0 is the outer panel face; X=0 is the gland axis",
+      "pads": [
+        {
+          "number": "T1.IN",
+          "before": [
+            -6.35,
+            -8.0
+          ],
+          "datum_relative": [
+            -6.35,
+            -8.0
+          ],
+          "after": [
+            -6,
+            -8
+          ],
+          "rounding_delta": [
+            0.34999999999999964,
+            0.0
+          ]
+        },
+        {
+          "number": "T1.OUT",
+          "before": [
+            -6.35,
+            40.64
+          ],
+          "datum_relative": [
+            -6.35,
+            40.64
+          ],
+          "after": [
+            -6,
+            41
+          ],
+          "rounding_delta": [
+            0.34999999999999964,
+            0.35999999999999943
+          ]
+        },
+        {
+          "number": "T2.IN",
+          "before": [
+            -3.81,
+            -8.0
+          ],
+          "datum_relative": [
+            -3.81,
+            -8.0
+          ],
+          "after": [
+            -4,
+            -8
+          ],
+          "rounding_delta": [
+            -0.18999999999999995,
+            0.0
+          ]
+        },
+        {
+          "number": "T2.OUT",
+          "before": [
+            -3.81,
+            40.64
+          ],
+          "datum_relative": [
+            -3.81,
+            40.64
+          ],
+          "after": [
+            -4,
+            41
+          ],
+          "rounding_delta": [
+            -0.18999999999999995,
+            0.35999999999999943
+          ]
+        },
+        {
+          "number": "T3.IN",
+          "before": [
+            -1.27,
+            -8.0
+          ],
+          "datum_relative": [
+            -1.27,
+            -8.0
+          ],
+          "after": [
+            -1,
+            -8
+          ],
+          "rounding_delta": [
+            0.27,
+            0.0
+          ]
+        },
+        {
+          "number": "T3.OUT",
+          "before": [
+            -1.27,
+            40.64
+          ],
+          "datum_relative": [
+            -1.27,
+            40.64
+          ],
+          "after": [
+            -1,
+            41
+          ],
+          "rounding_delta": [
+            0.27,
+            0.35999999999999943
+          ]
+        },
+        {
+          "number": "T4.IN",
+          "before": [
+            1.27,
+            -8.0
+          ],
+          "datum_relative": [
+            1.27,
+            -8.0
+          ],
+          "after": [
+            1,
+            -8
+          ],
+          "rounding_delta": [
+            -0.27,
+            0.0
+          ]
+        },
+        {
+          "number": "T4.OUT",
+          "before": [
+            1.27,
+            40.64
+          ],
+          "datum_relative": [
+            1.27,
+            40.64
+          ],
+          "after": [
+            1,
+            41
+          ],
+          "rounding_delta": [
+            -0.27,
+            0.35999999999999943
+          ]
+        },
+        {
+          "number": "T5.IN",
+          "before": [
+            3.81,
+            -8.0
+          ],
+          "datum_relative": [
+            3.81,
+            -8.0
+          ],
+          "after": [
+            4,
+            -8
+          ],
+          "rounding_delta": [
+            0.18999999999999995,
+            0.0
+          ]
+        },
+        {
+          "number": "T5.OUT",
+          "before": [
+            3.81,
+            40.64
+          ],
+          "datum_relative": [
+            3.81,
+            40.64
+          ],
+          "after": [
+            4,
+            41
+          ],
+          "rounding_delta": [
+            0.18999999999999995,
+            0.35999999999999943
+          ]
+        },
+        {
+          "number": "T6.IN",
+          "before": [
+            6.35,
+            -8.0
+          ],
+          "datum_relative": [
+            6.35,
+            -8.0
+          ],
+          "after": [
+            6,
+            -8
+          ],
+          "rounding_delta": [
+            -0.34999999999999964,
+            0.0
+          ]
+        },
+        {
+          "number": "T6.OUT",
+          "before": [
+            6.35,
+            40.64
+          ],
+          "datum_relative": [
+            6.35,
+            40.64
+          ],
+          "after": [
+            6,
+            41
+          ],
+          "rounding_delta": [
+            -0.34999999999999964,
+            0.35999999999999943
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BSPBX-22-W_BottomWall",
+      "source_sha256": "1781021dc5404399b07b8fc0616347ffd9664878714f7a69fdec56bf478ee7b5",
+      "candidate_sha256": "74d6a9d4c22e638269b44032907cab6284358114cf2207c0335aa8bc6d602150",
+      "old_datum_xy": [
+        0,
+        0
+      ],
+      "datum": "Y=0 is the outer panel face; X=0 is the gland axis",
+      "pads": [
+        {
+          "number": "1.IN",
+          "before": [
+            -8.89,
+            -8.0
+          ],
+          "datum_relative": [
+            -8.89,
+            -8.0
+          ],
+          "after": [
+            -9,
+            -8
+          ],
+          "rounding_delta": [
+            -0.10999999999999943,
+            0.0
+          ]
+        },
+        {
+          "number": "1.OUT",
+          "before": [
+            -8.89,
+            35.56
+          ],
+          "datum_relative": [
+            -8.89,
+            35.56
+          ],
+          "after": [
+            -9,
+            36
+          ],
+          "rounding_delta": [
+            -0.10999999999999943,
+            0.4399999999999977
+          ]
+        },
+        {
+          "number": "2.IN",
+          "before": [
+            -6.35,
+            -8.0
+          ],
+          "datum_relative": [
+            -6.35,
+            -8.0
+          ],
+          "after": [
+            -6,
+            -8
+          ],
+          "rounding_delta": [
+            0.34999999999999964,
+            0.0
+          ]
+        },
+        {
+          "number": "2.OUT",
+          "before": [
+            -6.35,
+            35.56
+          ],
+          "datum_relative": [
+            -6.35,
+            35.56
+          ],
+          "after": [
+            -6,
+            36
+          ],
+          "rounding_delta": [
+            0.34999999999999964,
+            0.4399999999999977
+          ]
+        },
+        {
+          "number": "3.IN",
+          "before": [
+            -3.81,
+            -8.0
+          ],
+          "datum_relative": [
+            -3.81,
+            -8.0
+          ],
+          "after": [
+            -4,
+            -8
+          ],
+          "rounding_delta": [
+            -0.18999999999999995,
+            0.0
+          ]
+        },
+        {
+          "number": "3.OUT",
+          "before": [
+            -3.81,
+            35.56
+          ],
+          "datum_relative": [
+            -3.81,
+            35.56
+          ],
+          "after": [
+            -4,
+            36
+          ],
+          "rounding_delta": [
+            -0.18999999999999995,
+            0.4399999999999977
+          ]
+        },
+        {
+          "number": "4.IN",
+          "before": [
+            -1.27,
+            -8.0
+          ],
+          "datum_relative": [
+            -1.27,
+            -8.0
+          ],
+          "after": [
+            -1,
+            -8
+          ],
+          "rounding_delta": [
+            0.27,
+            0.0
+          ]
+        },
+        {
+          "number": "4.OUT",
+          "before": [
+            -1.27,
+            35.56
+          ],
+          "datum_relative": [
+            -1.27,
+            35.56
+          ],
+          "after": [
+            -1,
+            36
+          ],
+          "rounding_delta": [
+            0.27,
+            0.4399999999999977
+          ]
+        },
+        {
+          "number": "5.IN",
+          "before": [
+            1.27,
+            -8.0
+          ],
+          "datum_relative": [
+            1.27,
+            -8.0
+          ],
+          "after": [
+            1,
+            -8
+          ],
+          "rounding_delta": [
+            -0.27,
+            0.0
+          ]
+        },
+        {
+          "number": "5.OUT",
+          "before": [
+            1.27,
+            35.56
+          ],
+          "datum_relative": [
+            1.27,
+            35.56
+          ],
+          "after": [
+            1,
+            36
+          ],
+          "rounding_delta": [
+            -0.27,
+            0.4399999999999977
+          ]
+        },
+        {
+          "number": "6.IN",
+          "before": [
+            3.81,
+            -8.0
+          ],
+          "datum_relative": [
+            3.81,
+            -8.0
+          ],
+          "after": [
+            4,
+            -8
+          ],
+          "rounding_delta": [
+            0.18999999999999995,
+            0.0
+          ]
+        },
+        {
+          "number": "6.OUT",
+          "before": [
+            3.81,
+            35.56
+          ],
+          "datum_relative": [
+            3.81,
+            35.56
+          ],
+          "after": [
+            4,
+            36
+          ],
+          "rounding_delta": [
+            0.18999999999999995,
+            0.4399999999999977
+          ]
+        },
+        {
+          "number": "7.IN",
+          "before": [
+            6.35,
+            -8.0
+          ],
+          "datum_relative": [
+            6.35,
+            -8.0
+          ],
+          "after": [
+            6,
+            -8
+          ],
+          "rounding_delta": [
+            -0.34999999999999964,
+            0.0
+          ]
+        },
+        {
+          "number": "7.OUT",
+          "before": [
+            6.35,
+            35.56
+          ],
+          "datum_relative": [
+            6.35,
+            35.56
+          ],
+          "after": [
+            6,
+            36
+          ],
+          "rounding_delta": [
+            -0.34999999999999964,
+            0.4399999999999977
+          ]
+        },
+        {
+          "number": "8.IN",
+          "before": [
+            8.89,
+            -8.0
+          ],
+          "datum_relative": [
+            8.89,
+            -8.0
+          ],
+          "after": [
+            9,
+            -8
+          ],
+          "rounding_delta": [
+            0.10999999999999943,
+            0.0
+          ]
+        },
+        {
+          "number": "8.OUT",
+          "before": [
+            8.89,
+            35.56
+          ],
+          "datum_relative": [
+            8.89,
+            35.56
+          ],
+          "after": [
+            9,
+            36
+          ],
+          "rounding_delta": [
+            0.10999999999999943,
+            0.4399999999999977
+          ]
+        }
+      ]
+    },
+    {
+      "name": "222102_LeftWall",
+      "source_sha256": "e854ad01fe688c4151fe54a55a97b2c09cb4b957bd200f828833bbe737c3b7d6",
+      "candidate_sha256": "6a9f02e2c82eeeec51d6f2dd94410d6e5abd17a850969e029ab7ef64e0ffef50",
+      "old_datum_xy": [
+        0,
+        0
+      ],
+      "datum": "X=0 is the outer panel face; Y=0 is the shaft axis",
+      "pads": [
+        {
+          "number": "1",
+          "before": [
+            24.408736,
+            -34.35
+          ],
+          "datum_relative": [
+            24.408736,
+            -34.35
+          ],
+          "after": [
+            24,
+            -34
+          ],
+          "rounding_delta": [
+            -0.4087360000000011,
+            0.3500000000000014
+          ]
+        },
+        {
+          "number": "3",
+          "before": [
+            29.604888,
+            -25.35
+          ],
+          "datum_relative": [
+            29.604888,
+            -25.35
+          ],
+          "after": [
+            30,
+            -25
+          ],
+          "rounding_delta": [
+            0.395112000000001,
+            0.3500000000000014
+          ]
+        },
+        {
+          "number": "5",
+          "before": [
+            19.212583,
+            -25.35
+          ],
+          "datum_relative": [
+            19.212583,
+            -25.35
+          ],
+          "after": [
+            19,
+            -25
+          ],
+          "rounding_delta": [
+            -0.21258299999999863,
+            0.3500000000000014
+          ]
+        },
+        {
+          "number": "2",
+          "before": [
+            24.408735,
+            22.35
+          ],
+          "datum_relative": [
+            24.408735,
+            22.35
+          ],
+          "after": [
+            24,
+            22
+          ],
+          "rounding_delta": [
+            -0.40873500000000007,
+            -0.3500000000000014
+          ]
+        },
+        {
+          "number": "4",
+          "before": [
+            29.604888,
+            31.35
+          ],
+          "datum_relative": [
+            29.604888,
+            31.35
+          ],
+          "after": [
+            30,
+            31
+          ],
+          "rounding_delta": [
+            0.395112000000001,
+            -0.3500000000000014
+          ]
+        },
+        {
+          "number": "6",
+          "before": [
+            19.212583,
+            31.35
+          ],
+          "datum_relative": [
+            19.212583,
+            31.35
+          ],
+          "after": [
+            19,
+            31
+          ],
+          "rounding_delta": [
+            -0.21258299999999863,
+            -0.3500000000000014
+          ]
+        }
+      ]
+    },
+    {
+      "name": "XB4BVB1_LeftWall",
+      "source_sha256": "322346cb635cc11f267a500bd3e6c0b9a0c2ce29cbd406be2d425b13d816a8db",
+      "candidate_sha256": "722684105d9a94fd61e2d30e34a451bf018d7ce20766741c430c0a84f4e2c357",
+      "old_datum_xy": [
+        -16.82571,
+        0
+      ],
+      "datum": "X=0 is the outer panel face at the bezel underside; Y=0 is the operating axis",
+      "pads": [
+        {
+          "number": "X1",
+          "before": [
+            23.34364,
+            -8.806627
+          ],
+          "datum_relative": [
+            40.16935,
+            -8.806627
+          ],
+          "after": [
+            40,
+            -9
+          ],
+          "rounding_delta": [
+            -0.16935000000000144,
+            -0.19337299999999935
+          ]
+        },
+        {
+          "number": "X2",
+          "before": [
+            23.34364,
+            9.206623
+          ],
+          "datum_relative": [
+            40.16935,
+            9.206623
+          ],
+          "after": [
+            40,
+            9
+          ],
+          "rounding_delta": [
+            -0.16935000000000144,
+            -0.20662300000000045
+          ]
+        }
+      ]
+    },
+    {
+      "name": "XB4BVB4_LeftWall",
+      "source_sha256": "d74c4ed5e230da1470f3fd0b921608455c8b2654d3c544283f038a9a5d977579",
+      "candidate_sha256": "d9060525c1b1552ea341e9999f869831f9c03b5fc081adcbb4f4a775d591d67b",
+      "old_datum_xy": [
+        -16.82571,
+        0
+      ],
+      "datum": "X=0 is the outer panel face at the bezel underside; Y=0 is the operating axis",
+      "pads": [
+        {
+          "number": "X1",
+          "before": [
+            23.34364,
+            -8.806627
+          ],
+          "datum_relative": [
+            40.16935,
+            -8.806627
+          ],
+          "after": [
+            40,
+            -9
+          ],
+          "rounding_delta": [
+            -0.16935000000000144,
+            -0.19337299999999935
+          ]
+        },
+        {
+          "number": "X2",
+          "before": [
+            23.34364,
+            9.206623
+          ],
+          "datum_relative": [
+            40.16935,
+            9.206623
+          ],
+          "after": [
+            40,
+            9
+          ],
+          "rounding_delta": [
+            -0.16935000000000144,
+            -0.20662300000000045
+          ]
+        }
+      ]
+    },
+    {
+      "name": "T4171310004-001_LeftWall",
+      "source_sha256": "b4ad52fca60d0dfbe2d1bb76c949def01655141fc34993bde9a7cb9ddb02da87",
+      "candidate_sha256": "32f1984559f6e68c1310d0cb0ee92e6b098ef0b1bbb57f746681cb85043e644e",
+      "old_datum_xy": [
+        3,
+        0
+      ],
+      "datum": "X=0 is the outer panel face at the modeled sealing-ring rear tangent; Y=0 is the connector axis",
+      "pads": [
+        {
+          "number": "1",
+          "before": [
+            9.45,
+            -1.767767
+          ],
+          "datum_relative": [
+            6.449999999999999,
+            -1.767767
+          ],
+          "after": [
+            6,
+            -2
+          ],
+          "rounding_delta": [
+            -0.4499999999999993,
+            -0.2322329999999999
+          ]
+        },
+        {
+          "number": "2",
+          "before": [
+            12.95,
+            -1.767767
+          ],
+          "datum_relative": [
+            9.95,
+            -1.767767
+          ],
+          "after": [
+            10,
+            -2
+          ],
+          "rounding_delta": [
+            0.05000000000000071,
+            -0.2322329999999999
+          ]
+        },
+        {
+          "number": "3",
+          "before": [
+            9.45,
+            1.767767
+          ],
+          "datum_relative": [
+            6.449999999999999,
+            1.767767
+          ],
+          "after": [
+            6,
+            2
+          ],
+          "rounding_delta": [
+            -0.4499999999999993,
+            0.2322329999999999
+          ]
+        },
+        {
+          "number": "4",
+          "before": [
+            12.95,
+            1.767767
+          ],
+          "datum_relative": [
+            9.95,
+            1.767767
+          ],
+          "after": [
+            10,
+            2
+          ],
+          "rounding_delta": [
+            0.05000000000000071,
+            0.2322329999999999
+          ]
+        }
+      ]
+    }
+  ],
+  "placements": [
+    {
+      "reference": "J5",
+      "name": "BSPBX-22-W_BottomWall",
+      "before_origin": [
+        "435",
+        "485.241"
+      ],
+      "after_origin": [
+        "435",
+        "485.241"
+      ],
+      "pads": [
+        {
+          "number": "1.IN",
+          "before": [
+            -8.89,
+            -8.0
+          ],
+          "datum_relative": [
+            -8.89,
+            -8.0
+          ],
+          "after": [
+            -9,
+            -8
+          ],
+          "rounding_delta": [
+            -0.10999999999999943,
+            0.0
+          ]
+        },
+        {
+          "number": "1.OUT",
+          "before": [
+            -8.89,
+            35.56
+          ],
+          "datum_relative": [
+            -8.89,
+            35.56
+          ],
+          "after": [
+            -9,
+            36
+          ],
+          "rounding_delta": [
+            -0.10999999999999943,
+            0.4399999999999977
+          ]
+        },
+        {
+          "number": "2.IN",
+          "before": [
+            -6.35,
+            -8.0
+          ],
+          "datum_relative": [
+            -6.35,
+            -8.0
+          ],
+          "after": [
+            -6,
+            -8
+          ],
+          "rounding_delta": [
+            0.34999999999999964,
+            0.0
+          ]
+        },
+        {
+          "number": "2.OUT",
+          "before": [
+            -6.35,
+            35.56
+          ],
+          "datum_relative": [
+            -6.35,
+            35.56
+          ],
+          "after": [
+            -6,
+            36
+          ],
+          "rounding_delta": [
+            0.34999999999999964,
+            0.4399999999999977
+          ]
+        },
+        {
+          "number": "3.IN",
+          "before": [
+            -3.81,
+            -8.0
+          ],
+          "datum_relative": [
+            -3.81,
+            -8.0
+          ],
+          "after": [
+            -4,
+            -8
+          ],
+          "rounding_delta": [
+            -0.18999999999999995,
+            0.0
+          ]
+        },
+        {
+          "number": "3.OUT",
+          "before": [
+            -3.81,
+            35.56
+          ],
+          "datum_relative": [
+            -3.81,
+            35.56
+          ],
+          "after": [
+            -4,
+            36
+          ],
+          "rounding_delta": [
+            -0.18999999999999995,
+            0.4399999999999977
+          ]
+        },
+        {
+          "number": "4.IN",
+          "before": [
+            -1.27,
+            -8.0
+          ],
+          "datum_relative": [
+            -1.27,
+            -8.0
+          ],
+          "after": [
+            -1,
+            -8
+          ],
+          "rounding_delta": [
+            0.27,
+            0.0
+          ]
+        },
+        {
+          "number": "4.OUT",
+          "before": [
+            -1.27,
+            35.56
+          ],
+          "datum_relative": [
+            -1.27,
+            35.56
+          ],
+          "after": [
+            -1,
+            36
+          ],
+          "rounding_delta": [
+            0.27,
+            0.4399999999999977
+          ]
+        },
+        {
+          "number": "5.IN",
+          "before": [
+            1.27,
+            -8.0
+          ],
+          "datum_relative": [
+            1.27,
+            -8.0
+          ],
+          "after": [
+            1,
+            -8
+          ],
+          "rounding_delta": [
+            -0.27,
+            0.0
+          ]
+        },
+        {
+          "number": "5.OUT",
+          "before": [
+            1.27,
+            35.56
+          ],
+          "datum_relative": [
+            1.27,
+            35.56
+          ],
+          "after": [
+            1,
+            36
+          ],
+          "rounding_delta": [
+            -0.27,
+            0.4399999999999977
+          ]
+        },
+        {
+          "number": "6.IN",
+          "before": [
+            3.81,
+            -8.0
+          ],
+          "datum_relative": [
+            3.81,
+            -8.0
+          ],
+          "after": [
+            4,
+            -8
+          ],
+          "rounding_delta": [
+            0.18999999999999995,
+            0.0
+          ]
+        },
+        {
+          "number": "6.OUT",
+          "before": [
+            3.81,
+            35.56
+          ],
+          "datum_relative": [
+            3.81,
+            35.56
+          ],
+          "after": [
+            4,
+            36
+          ],
+          "rounding_delta": [
+            0.18999999999999995,
+            0.4399999999999977
+          ]
+        },
+        {
+          "number": "7.IN",
+          "before": [
+            6.35,
+            -8.0
+          ],
+          "datum_relative": [
+            6.35,
+            -8.0
+          ],
+          "after": [
+            6,
+            -8
+          ],
+          "rounding_delta": [
+            -0.34999999999999964,
+            0.0
+          ]
+        },
+        {
+          "number": "7.OUT",
+          "before": [
+            6.35,
+            35.56
+          ],
+          "datum_relative": [
+            6.35,
+            35.56
+          ],
+          "after": [
+            6,
+            36
+          ],
+          "rounding_delta": [
+            -0.34999999999999964,
+            0.4399999999999977
+          ]
+        },
+        {
+          "number": "8.IN",
+          "before": [
+            8.89,
+            -8.0
+          ],
+          "datum_relative": [
+            8.89,
+            -8.0
+          ],
+          "after": [
+            9,
+            -8
+          ],
+          "rounding_delta": [
+            0.10999999999999943,
+            0.0
+          ]
+        },
+        {
+          "number": "8.OUT",
+          "before": [
+            8.89,
+            35.56
+          ],
+          "datum_relative": [
+            8.89,
+            35.56
+          ],
+          "after": [
+            9,
+            36
+          ],
+          "rounding_delta": [
+            0.10999999999999943,
+            0.4399999999999977
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "J4",
+      "name": "BSPDX-23-W_BottomWall",
+      "before_origin": [
+        "385",
+        "485.241"
+      ],
+      "after_origin": [
+        "385",
+        "485.241"
+      ],
+      "pads": [
+        {
+          "number": "T1.IN",
+          "before": [
+            -6.35,
+            -8.0
+          ],
+          "datum_relative": [
+            -6.35,
+            -8.0
+          ],
+          "after": [
+            -6,
+            -8
+          ],
+          "rounding_delta": [
+            0.34999999999999964,
+            0.0
+          ]
+        },
+        {
+          "number": "T1.OUT",
+          "before": [
+            -6.35,
+            40.64
+          ],
+          "datum_relative": [
+            -6.35,
+            40.64
+          ],
+          "after": [
+            -6,
+            41
+          ],
+          "rounding_delta": [
+            0.34999999999999964,
+            0.35999999999999943
+          ]
+        },
+        {
+          "number": "T2.IN",
+          "before": [
+            -3.81,
+            -8.0
+          ],
+          "datum_relative": [
+            -3.81,
+            -8.0
+          ],
+          "after": [
+            -4,
+            -8
+          ],
+          "rounding_delta": [
+            -0.18999999999999995,
+            0.0
+          ]
+        },
+        {
+          "number": "T2.OUT",
+          "before": [
+            -3.81,
+            40.64
+          ],
+          "datum_relative": [
+            -3.81,
+            40.64
+          ],
+          "after": [
+            -4,
+            41
+          ],
+          "rounding_delta": [
+            -0.18999999999999995,
+            0.35999999999999943
+          ]
+        },
+        {
+          "number": "T3.IN",
+          "before": [
+            -1.27,
+            -8.0
+          ],
+          "datum_relative": [
+            -1.27,
+            -8.0
+          ],
+          "after": [
+            -1,
+            -8
+          ],
+          "rounding_delta": [
+            0.27,
+            0.0
+          ]
+        },
+        {
+          "number": "T3.OUT",
+          "before": [
+            -1.27,
+            40.64
+          ],
+          "datum_relative": [
+            -1.27,
+            40.64
+          ],
+          "after": [
+            -1,
+            41
+          ],
+          "rounding_delta": [
+            0.27,
+            0.35999999999999943
+          ]
+        },
+        {
+          "number": "T4.IN",
+          "before": [
+            1.27,
+            -8.0
+          ],
+          "datum_relative": [
+            1.27,
+            -8.0
+          ],
+          "after": [
+            1,
+            -8
+          ],
+          "rounding_delta": [
+            -0.27,
+            0.0
+          ]
+        },
+        {
+          "number": "T4.OUT",
+          "before": [
+            1.27,
+            40.64
+          ],
+          "datum_relative": [
+            1.27,
+            40.64
+          ],
+          "after": [
+            1,
+            41
+          ],
+          "rounding_delta": [
+            -0.27,
+            0.35999999999999943
+          ]
+        },
+        {
+          "number": "T5.IN",
+          "before": [
+            3.81,
+            -8.0
+          ],
+          "datum_relative": [
+            3.81,
+            -8.0
+          ],
+          "after": [
+            4,
+            -8
+          ],
+          "rounding_delta": [
+            0.18999999999999995,
+            0.0
+          ]
+        },
+        {
+          "number": "T5.OUT",
+          "before": [
+            3.81,
+            40.64
+          ],
+          "datum_relative": [
+            3.81,
+            40.64
+          ],
+          "after": [
+            4,
+            41
+          ],
+          "rounding_delta": [
+            0.18999999999999995,
+            0.35999999999999943
+          ]
+        },
+        {
+          "number": "T6.IN",
+          "before": [
+            6.35,
+            -8.0
+          ],
+          "datum_relative": [
+            6.35,
+            -8.0
+          ],
+          "after": [
+            6,
+            -8
+          ],
+          "rounding_delta": [
+            -0.34999999999999964,
+            0.0
+          ]
+        },
+        {
+          "number": "T6.OUT",
+          "before": [
+            6.35,
+            40.64
+          ],
+          "datum_relative": [
+            6.35,
+            40.64
+          ],
+          "after": [
+            6,
+            41
+          ],
+          "rounding_delta": [
+            -0.34999999999999964,
+            0.35999999999999943
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "H1",
+      "name": "XB4BVB1_LeftWall",
+      "before_origin": [
+        "-10",
+        "52"
+      ],
+      "after_origin": [
+        "-26.82571",
+        "52"
+      ],
+      "pads": [
+        {
+          "number": "X1",
+          "before": [
+            23.34364,
+            -8.806627
+          ],
+          "datum_relative": [
+            40.16935,
+            -8.806627
+          ],
+          "after": [
+            40,
+            -9
+          ],
+          "rounding_delta": [
+            -0.16935000000000144,
+            -0.19337299999999935
+          ]
+        },
+        {
+          "number": "X2",
+          "before": [
+            23.34364,
+            9.206623
+          ],
+          "datum_relative": [
+            40.16935,
+            9.206623
+          ],
+          "after": [
+            40,
+            9
+          ],
+          "rounding_delta": [
+            -0.16935000000000144,
+            -0.20662300000000045
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "SW1",
+      "name": "222102_LeftWall",
+      "before_origin": [
+        "-25",
+        "130"
+      ],
+      "after_origin": [
+        "-25",
+        "130"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "before": [
+            24.408736,
+            -34.35
+          ],
+          "datum_relative": [
+            24.408736,
+            -34.35
+          ],
+          "after": [
+            24,
+            -34
+          ],
+          "rounding_delta": [
+            -0.4087360000000011,
+            0.3500000000000014
+          ]
+        },
+        {
+          "number": "2",
+          "before": [
+            24.408735,
+            22.35
+          ],
+          "datum_relative": [
+            24.408735,
+            22.35
+          ],
+          "after": [
+            24,
+            22
+          ],
+          "rounding_delta": [
+            -0.40873500000000007,
+            -0.3500000000000014
+          ]
+        },
+        {
+          "number": "3",
+          "before": [
+            29.604888,
+            -25.35
+          ],
+          "datum_relative": [
+            29.604888,
+            -25.35
+          ],
+          "after": [
+            30,
+            -25
+          ],
+          "rounding_delta": [
+            0.395112000000001,
+            0.3500000000000014
+          ]
+        },
+        {
+          "number": "4",
+          "before": [
+            29.604888,
+            31.35
+          ],
+          "datum_relative": [
+            29.604888,
+            31.35
+          ],
+          "after": [
+            30,
+            31
+          ],
+          "rounding_delta": [
+            0.395112000000001,
+            -0.3500000000000014
+          ]
+        },
+        {
+          "number": "5",
+          "before": [
+            19.212583,
+            -25.35
+          ],
+          "datum_relative": [
+            19.212583,
+            -25.35
+          ],
+          "after": [
+            19,
+            -25
+          ],
+          "rounding_delta": [
+            -0.21258299999999863,
+            0.3500000000000014
+          ]
+        },
+        {
+          "number": "6",
+          "before": [
+            19.212583,
+            31.35
+          ],
+          "datum_relative": [
+            19.212583,
+            31.35
+          ],
+          "after": [
+            19,
+            31
+          ],
+          "rounding_delta": [
+            -0.21258299999999863,
+            -0.3500000000000014
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "J1",
+      "name": "T4171310004-001_LeftWall",
+      "before_origin": [
+        "-25",
+        "307.5"
+      ],
+      "after_origin": [
+        "-22",
+        "307.5"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "before": [
+            9.45,
+            -1.767767
+          ],
+          "datum_relative": [
+            6.449999999999999,
+            -1.767767
+          ],
+          "after": [
+            6,
+            -2
+          ],
+          "rounding_delta": [
+            -0.4499999999999993,
+            -0.2322329999999999
+          ]
+        },
+        {
+          "number": "2",
+          "before": [
+            12.95,
+            -1.767767
+          ],
+          "datum_relative": [
+            9.95,
+            -1.767767
+          ],
+          "after": [
+            10,
+            -2
+          ],
+          "rounding_delta": [
+            0.05000000000000071,
+            -0.2322329999999999
+          ]
+        },
+        {
+          "number": "3",
+          "before": [
+            9.45,
+            1.767767
+          ],
+          "datum_relative": [
+            6.449999999999999,
+            1.767767
+          ],
+          "after": [
+            6,
+            2
+          ],
+          "rounding_delta": [
+            -0.4499999999999993,
+            0.2322329999999999
+          ]
+        },
+        {
+          "number": "4",
+          "before": [
+            12.95,
+            1.767767
+          ],
+          "datum_relative": [
+            9.95,
+            1.767767
+          ],
+          "after": [
+            10,
+            2
+          ],
+          "rounding_delta": [
+            0.05000000000000071,
+            0.2322329999999999
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "J2",
+      "name": "BNSPDX-23-W_MainsPlug_BottomWall",
+      "before_origin": [
+        "57",
+        "485.241"
+      ],
+      "after_origin": [
+        "57",
+        "485.241"
+      ],
+      "pads": [
+        {
+          "number": "G",
+          "before": [
+            3.81,
+            -8.0
+          ],
+          "datum_relative": [
+            3.81,
+            -8.0
+          ],
+          "after": [
+            4,
+            -8
+          ],
+          "rounding_delta": [
+            0.18999999999999995,
+            0.0
+          ]
+        },
+        {
+          "number": "X",
+          "before": [
+            -3.81,
+            -8.0
+          ],
+          "datum_relative": [
+            -3.81,
+            -8.0
+          ],
+          "after": [
+            -4,
+            -8
+          ],
+          "rounding_delta": [
+            -0.18999999999999995,
+            0.0
+          ]
+        },
+        {
+          "number": "Y",
+          "before": [
+            -1.27,
+            -8.0
+          ],
+          "datum_relative": [
+            -1.27,
+            -8.0
+          ],
+          "after": [
+            -1,
+            -8
+          ],
+          "rounding_delta": [
+            0.27,
+            0.0
+          ]
+        },
+        {
+          "number": "Z",
+          "before": [
+            1.27,
+            -8.0
+          ],
+          "datum_relative": [
+            1.27,
+            -8.0
+          ],
+          "after": [
+            1,
+            -8
+          ],
+          "rounding_delta": [
+            -0.27,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "H2",
+      "name": "XB4BVB4_LeftWall",
+      "before_origin": [
+        "-10",
+        "207"
+      ],
+      "after_origin": [
+        "-26.82571",
+        "207"
+      ],
+      "pads": [
+        {
+          "number": "X1",
+          "before": [
+            23.34364,
+            -8.806627
+          ],
+          "datum_relative": [
+            40.16935,
+            -8.806627
+          ],
+          "after": [
+            40,
+            -9
+          ],
+          "rounding_delta": [
+            -0.16935000000000144,
+            -0.19337299999999935
+          ]
+        },
+        {
+          "number": "X2",
+          "before": [
+            23.34364,
+            9.206623
+          ],
+          "datum_relative": [
+            40.16935,
+            9.206623
+          ],
+          "after": [
+            40,
+            9
+          ],
+          "rounding_delta": [
+            -0.16935000000000144,
+            -0.20662300000000045
+          ]
+        }
+      ]
+    }
+  ],
+  "schematic": "Existing placed-symbol footprint IDs already select these same updated library files; J4 and J5 are board-only mechanical glands.",
+  "lamp_height": {
+    "white_and_red_model_z_offset_mm": 60.05,
+    "operating_axis_height_above_component_plane_mm": 75,
+    "red_previous_offset_mm": 0,
+    "white_source_axis_height_mm": 14.95
+  }
+}

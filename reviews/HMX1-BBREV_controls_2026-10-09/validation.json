@@ -1,0 +1,12 @@
+{
+  "native_extraction": "passed",
+  "wire_rows": 17,
+  "tracks": 272,
+  "native_supplier_bridges": 6,
+  "minimum_rendered_straight_silk_clearance_mm": 0.14999963556503215,
+  "pads_and_groups": "unchanged",
+  "other_footprints": "byte-preserved",
+  "BOM": "unchanged",
+  "visual_check": "Final native fabrication and assembled silkscreen exports rendered and inspected.",
+  "open_item": "3D mating alignment: nominal candidates interfere with host CAD; no candidate linked."
+}

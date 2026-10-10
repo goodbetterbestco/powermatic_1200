@@ -1,0 +1,51 @@
+{
+  "owner_checkpoint": "saved closed",
+  "terminal_fields_updated": 4,
+  "changes": [
+    {
+      "ref": "PS1",
+      "pin": "1_TOP",
+      "net": "0V",
+      "before": "Ferrule 18 AWG; L=TBD mm",
+      "after": "Bare stranded copper, 18 AWG; strip=5 mm"
+    },
+    {
+      "ref": "PS1",
+      "pin": "2_TOP",
+      "net": "0V",
+      "before": "Ferrule 18 AWG; L=TBD mm",
+      "after": "Bare stranded copper, 18 AWG; strip=5 mm"
+    },
+    {
+      "ref": "PS1",
+      "pin": "3_TOP",
+      "net": "+24V",
+      "before": "Ferrule 18 AWG; L=TBD mm",
+      "after": "Bare stranded copper, 18 AWG; strip=5 mm"
+    },
+    {
+      "ref": "PS1",
+      "pin": "4_TOP",
+      "net": "+24V",
+      "before": "Ferrule 18 AWG; L=TBD mm",
+      "after": "Bare stranded copper, 18 AWG; strip=5 mm"
+    }
+  ],
+  "pcb_before_sha256": "cfa3867ee4c9357682e1065a21a52754802bb0db8dde9f16ee2d63206fae5581",
+  "pcb_after_sha256": "190c8560136554a49a63086686695d7bed8ad079f0d26d04e814be9d303d7445",
+  "schematic_sha256": "0bfebb9d81f19a410c6ed6f262cc66d7a9df66ec3802d07990d0bb5c858f8185",
+  "all_other_fields_placement_pads_nets_models_and_tracks_preserved": true,
+  "schematic_unchanged": true,
+  "native_extraction_passed": true,
+  "generated_rows": 17,
+  "trace_objects": 272,
+  "schedule_rows_unchanged": true,
+  "top_terminal_routes_pending": true,
+  "warnings": [
+    "133 unfinished trace endpoints; only completed pad-to-pad paths are exported.",
+    "Trace-only loops/components without two terminal pads are omitted.",
+    "J2: Panel tail only; external mains cord length is not included",
+    "AWG not specified on TB43.1 -> TB51.2",
+    "AWG not specified on TB50.1 -> TB52.2"
+  ]
+}

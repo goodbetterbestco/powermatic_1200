@@ -220,3 +220,21 @@ are listed in the coverage report without blocking the current section.
 python3 -m unittest discover -s tools/wiring -p 'test_*.py'
 python3 tools/wiring/generate.py --check
 ```
+# Supplied busbar contacts
+
+The HMX1-BBREV_TOP and HMX1-BBREV_BOT footprints each use three native KiCad
+`jumper_pad_groups`, for six isolated bridges in total. `Wire.SuppliedAssembly=busbar` marks its contacts as supplier hardware.
+`Wire.MatingPads` contains a schema-1 map from each accessory pad to a host role
+and terminal number; `Wire.Host.A` and `Wire.Host.B` bind those roles to the
+placed host footprint UUIDs. Host roles are independent of reference renaming.
+
+Extraction validates every overlap, host identity, schematic net, and native
+jumper group before collapsing a supplier contact onto its host terminal.
+Unexplained overlaps still fail. Native busbar bridges count toward electrical
+coverage and are omitted from loose-wire rows and ferrule conductor counts.
+External wires retain the host terminal's name and preparation selection.
+
+
+The TOP/BOT pieces share `Wire.KitID`; `Wire.PurchaseQuantity` assigns the one
+kit to TOP (1) and no additional purchase to BOT (0). Their `PartID` values
+identify the pieces while both retain manufacturer MPN `HMX1-BBREV`.

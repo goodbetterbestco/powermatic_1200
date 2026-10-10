@@ -1,0 +1,97 @@
+{
+  "pcb_before_sha256": "c9efcc60a791003f370ce61ac0d93f268dbdcdc9d94e6b93b94f545d49c62963",
+  "pcb_after_sha256": "83f447cc84fa2e80fd37d226b2baac3c835f2f0015b154a84ac4db44a604497e",
+  "schematic_sha256": "0bfebb9d81f19a410c6ed6f262cc66d7a9df66ec3802d07990d0bb5c858f8185",
+  "changes": [
+    {
+      "ref": "TB52",
+      "pin": "2",
+      "field": "Wire.AWG.2",
+      "before": null,
+      "after": "14"
+    },
+    {
+      "ref": "TB43",
+      "pin": "1",
+      "field": "Wire.AWG.1",
+      "before": null,
+      "after": "12"
+    },
+    {
+      "ref": "TB50",
+      "pin": "1",
+      "field": "Wire.AWG.1",
+      "before": null,
+      "after": "14"
+    },
+    {
+      "ref": "TB51",
+      "pin": "2",
+      "field": "Wire.AWG.2",
+      "before": null,
+      "after": "12"
+    }
+  ],
+  "geometry_routing_nets_and_all_other_fields_preserved": true,
+  "wire_gauges": {
+    "TB43_1 -> TB51_2": 12,
+    "TB50_1 -> TB52_2": 14
+  },
+  "basis": "Owner-defined incoming mains PE continuation retains 12 AWG; PSU PE branch matches existing PS1 PE conductor at 14 AWG.",
+  "owner_checkpoint": "saved closed",
+  "native_extraction_passed": true,
+  "generated_rows": 17,
+  "trace_objects": 272,
+  "schedule_changes": [
+    {
+      "before": [
+        "Terminal 43",
+        "TB43_1",
+        "Terminal 51",
+        "TB51_2",
+        "",
+        "360",
+        "FTBD_10mm",
+        "FTBD_10mm"
+      ],
+      "after": [
+        "Terminal 43",
+        "TB43_1",
+        "Terminal 51",
+        "TB51_2",
+        "12",
+        "360",
+        "F12_10mm",
+        "F12_10mm"
+      ]
+    },
+    {
+      "before": [
+        "Terminal 50",
+        "TB50_1",
+        "Terminal 52",
+        "TB52_2",
+        "",
+        "270",
+        "FTBD_10mm",
+        "FTBD_10mm"
+      ],
+      "after": [
+        "Terminal 50",
+        "TB50_1",
+        "Terminal 52",
+        "TB52_2",
+        "14",
+        "270",
+        "F14_10mm",
+        "F14_10mm"
+      ]
+    }
+  ],
+  "warnings": [
+    "133 unfinished trace endpoints; only completed pad-to-pad paths are exported.",
+    "Trace-only loops/components without two terminal pads are omitted.",
+    "J2: Panel tail only; external mains cord length is not included"
+  ],
+  "all_scheduled_wire_gauges_assigned": true
+}

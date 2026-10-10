@@ -1,7 +1,7 @@
 import json
 import unittest
 from model import Schematic,change_fields
-from traces import rows_from_traces
+from traces import rows_from_traces, termination
 from test_wiring import schematic
 
 
@@ -17,13 +17,37 @@ def route_board(awg='18'):
 
 
 class TraceAdapterTests(unittest.TestCase):
+    def test_block_length_survives_single_and_twin_allocation(self):
+        b=route_board()
+        b['pads'][0]['termination']='Ferrule or twin ferrule as required; L=10 mm'
+        rows,_,warnings=rows_from_traces(b,self.sch,self.nets)
+        block_term=rows[0][6] if rows[0][0]=='Terminal 1' else rows[0][7]
+        self.assertEqual(block_term,'F18_10mm')
+        self.assertEqual(warnings,[])
+        b['pads'].append({'id':'C','ref':'TB2','pin':'TOP','at':[0,10],
+                         'fields':{},'net':'NET','termination':'Ferrule or twin ferrule as required; L=10 mm'})
+        b['tracks'].append({'id':'s2','kind':'segment','start':[0,0],'end':[0,10],
+                            'layer':'F.Cu','net':'NET','length_mm':10})
+        b['contacts'] += [{'track':'s2','pad':'A','point':[0,0]},{'track':'s2','pad':'C','point':[0,10]}]
+        rows,_,warnings=rows_from_traces(b,self.sch,self.nets)
+        self.assertTrue(all((row[6] if row[0]=='Terminal 1' else row[7])=='F2x18_10mm' for row in rows))
+        self.assertEqual(warnings,[])
+
+    def test_ground_clamp_rejects_twin_allocation_with_visible_warning(self):
+        pad={'ref':'TB43','pin':'2','termination':'Single ferrule; L=10 mm'}
+        warnings=[]
+        self.assertEqual(termination(pad,1,warnings),'Single ferrule; L=10 mm')
+        self.assertEqual(warnings,[])
+        self.assertEqual(termination(pad,2,warnings),'Single ferrule; L=10 mm')
+        self.assertIn('single-conductor clamp',warnings[0])
+
     def setUp(self):
         self.sch=Schematic(schematic());self.nets={('TB1','1'):'NET',('F1','1'):'NET'}
 
     def test_complete_trace_adds_a_wire_without_any_wire_record(self):
         rows,details,warnings=rows_from_traces(route_board(),self.sch,self.nets)
         self.assertEqual(len(rows),1);self.assertEqual(rows[0][4:6],['18','110'])
-        self.assertIn('Ferrule',rows[0][6:]);self.assertEqual(details[0]['route_mm'],10)
+        self.assertIn('F18_TBDmm',rows[0][6:]);self.assertEqual(details[0]['route_mm'],10)
         self.assertEqual(warnings,[])
 
     def test_route_disappears_when_trace_is_removed(self):
@@ -37,7 +61,7 @@ class TraceAdapterTests(unittest.TestCase):
     def test_unassigned_board_only_block_inherits_the_connected_circuit(self):
         b=route_board();b['pads'][0]['ref']='TB40';b['pads'][0]['net']='';
         rows,_,_=rows_from_traces(b,self.sch,{('F1','1'):'NET'})
-        self.assertIn(['TB40','1'],[rows[0][:2],rows[0][2:4]])
+        self.assertIn(['Terminal 40','TB40_1'],[rows[0][:2],rows[0][2:4]])
 
     def test_unknown_or_conflicting_gauges_remain_blank_and_are_reported(self):
         b=route_board('14')
@@ -82,7 +106,7 @@ class TraceAdapterTests(unittest.TestCase):
         b['pads'][0]['termination']='N/A — cable pass-through; no electrical termination'
         rows,details,warnings=rows_from_traces(b,self.sch,self.nets)
         self.assertEqual(len(rows),1);self.assertEqual(details[0]['kind'],'route-section')
-        self.assertIn(b['pads'][0]['termination'],rows[0][6:])
+        self.assertIn('',rows[0][6:])
         self.assertTrue(any('external run' in w for w in warnings))
 
     def test_common_block_net_conflicts_are_visible_without_hiding_recorded_wires(self):
@@ -111,7 +135,7 @@ class TraceAdapterTests(unittest.TestCase):
         b['contacts'] += [{'track':'s2','pad':'A','point':[0,0]},{'track':'s2','pad':'C','point':[0,10]}]
         rows,_,warnings=rows_from_traces(b,self.sch,self.nets)
         self.assertEqual(len(rows),2);self.assertEqual(warnings,[])
-        self.assertTrue(all('Twin ferrule' in row[6:] for row in rows))
+        self.assertTrue(all('F2x18_TBDmm' in row[6:] for row in rows))
 
 
 if __name__=='__main__':unittest.main()

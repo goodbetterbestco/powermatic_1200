@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-09",
+  "owner_selections": {
+    "standard_two_conductor_splices": "221-412",
+    "motor_box_10_awg_strap_connections": "221-612"
+  },
+  "manufacturer_data": {
+    "221-412": {
+      "ports": 2,
+      "max_awg": 12,
+      "strip_mm": 11
+    },
+    "221-612": {
+      "ports": 2,
+      "max_awg": 10,
+      "strip_mm_range": [
+        12,
+        14
+      ]
+    },
+    "221-613": {
+      "ports": 3,
+      "max_awg": 10,
+      "status": "Alternative pending owner decision; not substituted."
+    }
+  },
+  "unambiguous_use": "Six individual 14 AWG conduit-to-motor-lead splices use 221-412, one conductor per port.",
+  "pending": "Existing PE junction calls for one 12 AWG feed and two 10 AWG straps. Selected 221-612 has only two ports. Await 221-613 selection or revised PE topology.",
+  "kicad_modified": false,
+  "bom_modified": false,
+  "screen_sharing_used": false,
+  "sources": [
+    "https://www.wago.com/us/wire-splicing-connectors/compact-splicing-connector/p/221-412",
+    "https://www.wago.com/us/wire-splicing-connectors/compact-splicing-connector/p/221-612",
+    "https://www.wago.com/us/wire-splicing-connectors/compact-splicing-connector/p/221-613",
+    "https://wago.partcommunity.com/3d-cad-models/?countryIso=US&info=wago%2Fpg07%2Fserie221%2F0221-0412_0999-0962.prj&languageIso=en",
+    "https://wago-embedded.customer-domain.wago.com/3d-cad-models/221-612-splicing-connector-with-levers-for-all-conductor-types-max-6-mm-2-conductor-transparent-housing-surrounding-air-temperature-max-85-c-t85-wago?info=wago%2Fpg07%2Fserie221%2F0221-0612_0999-0962.prj"
+  ],
+  "owner_followup": {
+    "PE_junction": "221-613 selected in place of the initial 221-612 proposal",
+    "checkpoint": "saved closed",
+    "report": "assignments.json",
+    "strip_mm_selected": {
+      "221-412": 11,
+      "221-613": 13
+    }
+  }
+}

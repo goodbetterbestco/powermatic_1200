@@ -1,0 +1,13 @@
+{
+  "installed_verification": "passed",
+  "active_footprints": [
+    "HMX1-BBREV_BOT.kicad_mod",
+    "HMX1-BBREV_TOP.kicad_mod"
+  ],
+  "wire_rows": 17,
+  "tracks": 272,
+  "supplier_bridges": 6,
+  "BOM_and_schematic_unchanged": true,
+  "3D_alignment": "unresolved",
+  "live_refresh_http_status": 200
+}

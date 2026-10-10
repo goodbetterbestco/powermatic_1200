@@ -1,0 +1,183 @@
+{
+  "backplate_mm": [
+    462,
+    462
+  ],
+  "enclosure_mm": [
+    508,
+    508
+  ],
+  "enclosure_corners": [
+    [
+      -23,
+      -23
+    ],
+    [
+      485,
+      -23
+    ],
+    [
+      485,
+      485
+    ],
+    [
+      -23,
+      485
+    ]
+  ],
+  "border_mm": 23,
+  "placements": [
+    {
+      "ref": "J5",
+      "before": [
+        "435",
+        "485.241"
+      ],
+      "after": [
+        435,
+        485
+      ]
+    },
+    {
+      "ref": "J4",
+      "before": [
+        "385",
+        "485.241"
+      ],
+      "after": [
+        385,
+        485
+      ]
+    },
+    {
+      "ref": "H1",
+      "before": [
+        "-26.82571",
+        "52"
+      ],
+      "after": [
+        -23,
+        52
+      ]
+    },
+    {
+      "ref": "enclosure",
+      "old_id": "Controls:EN4SD20208GY_Open_Front",
+      "new_id": "Controls:EN4SD20208GY_Open_Front_Grid1mm",
+      "origin": [
+        0,
+        462
+      ],
+      "drawing_delta": [
+        0.241,
+        -0.241
+      ]
+    },
+    {
+      "ref": "SW1",
+      "before": [
+        "-25",
+        "130"
+      ],
+      "after": [
+        -23,
+        130
+      ]
+    },
+    {
+      "ref": "J1",
+      "before": [
+        "-22",
+        "307.5"
+      ],
+      "after": [
+        -23,
+        308
+      ]
+    },
+    {
+      "ref": "J2",
+      "before": [
+        "57",
+        "485.241"
+      ],
+      "after": [
+        57,
+        485
+      ]
+    },
+    {
+      "ref": "H2",
+      "before": [
+        "-26.82571",
+        "207"
+      ],
+      "after": [
+        -23,
+        207
+      ]
+    }
+  ],
+  "edge_cuts_modified_uuids": [
+    "d51217a7-d0ad-4fad-9694-e3fed3d9d62a",
+    "a2589c94-795c-4cce-a4e9-c8ea7245d748",
+    "98063875-4419-4444-a359-acde685d334c",
+    "c3533b09-0f1a-40ec-93e7-e9d4d3e5d944",
+    "a7388dba-54ff-4bf5-919b-61aac91166ae",
+    "e1c698db-20d1-42e5-be01-b3bb51209c04",
+    "f6540607-5b73-4b80-b3c2-cb630bb5b51d",
+    "5b240b07-4dba-464f-8df3-254f1c4cdd95",
+    "6bc9adcb-957c-4e70-bc20-a4714d4fd563",
+    "4d567ca3-b541-48bf-82be-b292f1d4748c",
+    "dffbd031-e19f-469b-9256-a25050144e6e",
+    "3e8af9c3-fd22-48fa-b664-5a86585372f5",
+    "588707af-e009-4e4f-9d76-41bf4a2d00e7",
+    "a17825c8-a47c-4d0d-b0f1-d25746c0c608",
+    "0b7d7bdc-23f2-4405-9f3a-d67adec0fe73",
+    "30109cd4-19f6-481d-9bed-720b98852a6b",
+    "532ae2b9-d4d1-462e-8fa0-9aab56521491",
+    "30a21e72-be6d-4044-a19e-857d0f4a3af3",
+    "32931c97-b580-4c4f-9c43-22c7aab548d6",
+    "79ed08b5-677d-409b-a8f0-3ebca1958603",
+    "8231364e-ce3b-45e4-8f2c-ce126768a7c2",
+    "376e75d8-8b1e-4894-b6b7-ac8eac0dd2ce",
+    "82664100-f347-49ac-a304-6cebb0e7c031",
+    "981bcb91-5c96-441d-8595-357549371ab3",
+    "646fc3ed-045d-451c-bdcc-d4b2108a6ee5"
+  ],
+  "library_source": "/Users/evanthayer/Projects/_parts/footprints/Controls.pretty/EN4SD20208GY_Open_Front.kicad_mod",
+  "source_sha256": "0c7482b0305798173a6fecffc19c43b26c18be20a61a3eabe7e8f2509b39b96a",
+  "variant": "EN4SD20208GY_Open_Front_Grid1mm",
+  "candidate_sha256": "5c2bb5da29a54380b3e8c5928764c380f2040b59aa5bd1b593626e2357e8c768",
+  "notes": "Existing fuse-insert and cover mating origins retained; their mating offsets are outside the seven wall-device placement changes.",
+  "model": {
+    "source": "${PARTS_LIB}/3dmodels/Controls/EN4SD20208GY_Open_BackplateOrigin.step",
+    "source_sha256": "e800628d8fc3a23c60cc10591e3d7fdc78365e31d60a6a402d329e3843653a6f",
+    "solid_count": 9,
+    "source_body_bounds": [
+      -23.241,
+      -23.241,
+      -26.3396,
+      484.759,
+      484.759,
+      193.7514
+    ],
+    "routing_model_offset": [
+      0.241,
+      0.241,
+      0
+    ],
+    "model_scale": [
+      1,
+      1,
+      1
+    ],
+    "mapped_global_body_xy_bounds": [
+      -23,
+      -23,
+      485,
+      485
+    ],
+    "backplate_representation": "The source enclosure STEP contains the housing and its hardware; the resized KiCad board supplies the backplate view."
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "pieces": [
+    {
+      "reference": "BB1",
+      "name": "HMX1-BBREV_TOP",
+      "uuid": "d7846484-a101-4790-a579-a199c492d639",
+      "origin": [
+        "315",
+        "130"
+      ],
+      "pads": [
+        "A1",
+        "A3",
+        "A5",
+        "B1",
+        "B3",
+        "B5"
+      ],
+      "jumper_pad_groups": [
+        [
+          "A1",
+          "B1"
+        ],
+        [
+          "A3",
+          "B3"
+        ],
+        [
+          "A5",
+          "B5"
+        ]
+      ],
+      "purchase_quantity": 1,
+      "graphics": 1556
+    },
+    {
+      "reference": "BB2",
+      "name": "HMX1-BBREV_BOT",
+      "uuid": "0af66549-7e1a-4ea9-adc9-0f546a4972a4",
+      "origin": [
+        "315",
+        "130"
+      ],
+      "pads": [
+        "A2",
+        "A4",
+        "A6",
+        "B2",
+        "B4",
+        "B6"
+      ],
+      "jumper_pad_groups": [
+        [
+          "A2",
+          "B6"
+        ],
+        [
+          "A4",
+          "B4"
+        ],
+        [
+          "A6",
+          "B2"
+        ]
+      ],
+      "purchase_quantity": 0,
+      "graphics": 2614
+    }
+  ],
+  "total_contacts": 12,
+  "total_native_jumper_groups": 6,
+  "purchased_kits": 1,
+  "original_graphics_and_pads_preserved": true,
+  "other_objects_preserved": true,
+  "source_sha256": "4c113c8d8f508a1a306603c00742157ad152c5092d003ad677ce237008719b80",
+  "candidate_sha256": "fddf3e1af227a11ee3c6de9c095d1d0d7854b4edb3189f954cf021929adf4a02"
+}

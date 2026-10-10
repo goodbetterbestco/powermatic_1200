@@ -178,7 +178,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -190,7 +189,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -202,7 +200,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -587,56 +584,56 @@
       {
         "name": "CONTROL",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 103,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
         "name": "DEVICE_INTERNAL",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 107,
+        "priority": 13,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
         "name": "DIRECTION",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 104,
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
         "name": "INCOMING_MAINS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 100,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
         "name": "MOTOR_POWER",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 102,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
         "name": "PANEL_POWER",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 101,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
         "name": "PE",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 106,
+        "priority": 12,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
         "name": "SPEED",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 105,
+        "priority": 11,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       }
@@ -644,8 +641,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "CONTROL",

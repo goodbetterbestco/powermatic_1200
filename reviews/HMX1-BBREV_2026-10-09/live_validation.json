@@ -1,0 +1,28 @@
+{
+  "wire_rows": 17,
+  "trace_objects": 272,
+  "existing_footprints_preserved": 95,
+  "schematic_unchanged": true,
+  "CSV_unchanged": true,
+  "supplier_bridge_count": 6,
+  "project_tests": 59,
+  "shared_route_tests": 18,
+  "native_routed_overlap_probe": {
+    "passed": true,
+    "row": [
+      "Power Contactor K1",
+      "K1_1",
+      "TEST",
+      "TEST_1",
+      "14",
+      "130",
+      "F14_TBDmm",
+      "F14_10mm"
+    ]
+  },
+  "live_refresh": {
+    "http_status": 200,
+    "wire_rows": 17,
+    "schedule_values_preserved": true
+  }
+}

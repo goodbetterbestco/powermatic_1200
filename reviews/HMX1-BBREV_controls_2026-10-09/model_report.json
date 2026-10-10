@@ -1,0 +1,62 @@
+{
+  "TOP": {
+    "rigid_transform": [
+      1,
+      0,
+      0,
+      20.25,
+      0,
+      0,
+      -1,
+      49.5,
+      0,
+      1,
+      0,
+      78.1
+    ],
+    "bounds": [
+      -25.1,
+      23.0,
+      75.1,
+      65.6,
+      49.5,
+      86.60000009999999
+    ],
+    "host_overlap_volume_mm3": [
+      51.83627878422793,
+      51.836278784227964
+    ],
+    "mating_reference": "Host main-terminal shaft plane: nominal Z=84.6 mm; source shaft plane Y=6.5 mm. Line tip Y=23; load tip Y=-23. Source STEP preserved.",
+    "source": "HMX1-BBREV.step"
+  },
+  "BOT": {
+    "rigid_transform": [
+      1,
+      0,
+      0,
+      20.25,
+      0,
+      0,
+      -1,
+      27.3,
+      0,
+      1,
+      0,
+      78.1
+    ],
+    "bounds": [
+      -19.300000000000004,
+      -42.5000001,
+      76.1,
+      71.4,
+      -22.999999999999993,
+      98.89999999999999
+    ],
+    "host_overlap_volume_mm3": [
+      57.225849302203066,
+      57.22584930220294
+    ],
+    "mating_reference": "Host main-terminal shaft plane: nominal Z=84.6 mm; source shaft plane Y=6.5 mm. Line tip Y=23; load tip Y=-23. Source STEP preserved.",
+    "source": "HMX1-BBREV.step"
+  }
+}

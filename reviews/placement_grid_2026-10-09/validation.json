@@ -1,0 +1,38 @@
+{
+  "backplate_width_mm": 462,
+  "backplate_height_mm": 462,
+  "enclosure_corners_xy_mm": [
+    [
+      -23,
+      -23
+    ],
+    [
+      485,
+      -23
+    ],
+    [
+      485,
+      485
+    ],
+    [
+      -23,
+      485
+    ]
+  ],
+  "integer_wall_device_origins": 7,
+  "integer_global_wire_target_centers": 46,
+  "footprints": 96,
+  "pads": 277,
+  "track_segments": 0,
+  "unchanged_footprints": 88,
+  "all_pad_offsets_and_identities_and_nets_retained": true,
+  "all_property_values_retained": true,
+  "closed_backplate_outline": true,
+  "hole_radii_retained": true,
+  "matching_indicator_model_z_mm": 60.05,
+  "schematic_and_project_settings_bytes_retained": true,
+  "native_loading_and_serialization_reload_passed": true,
+  "erc_violations": 0,
+  "drc_exit_code": 134,
+  "drc_report_produced": false
+}

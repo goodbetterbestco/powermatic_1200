@@ -1,0 +1,74 @@
+{
+  "reviewed_on": "2026-10-09",
+  "screen_sharing_used": false,
+  "terminal_assignments_report": "terminal_block_assignments.json",
+  "new_confirmed_barrel_lengths": [],
+  "findings": [
+    {
+      "parts": [
+        "K1",
+        "K2",
+        "K4",
+        "K5",
+        "K6",
+        "OL4",
+        "OL6"
+      ],
+      "status": "length_unresolved",
+      "evidence": "Reviewed current HMC/HTOR catalog and the linked two-page contactor insert, including scanned tables. They provide wire capacities, terminal dimensions and torque; no barrel or stripping length established for the installed HMC-9B/HTOR32 terminals. Ring-terminal width and general dimensions are not ferrule lengths.",
+      "sources": [
+        "https://cdn.automationdirect.com/static/specs/ironhorsehmcandhtor.pdf",
+        "https://cdn.automationdirect.com/static/manuals/ironhorsemotorcontrols/hmc9b150aadc.pdf"
+      ]
+    },
+    {
+      "parts": [
+        "K3"
+      ],
+      "status": "length_unresolved",
+      "evidence": "Revisited DOLD product downloads and HC3096N datasheet. Solid/flexible 0.5-2.5 mm2, captive slotted screws, 0.5 Nm; no strip or ferrule barrel length.",
+      "sources": [
+        "https://www.dold.com/en/products/relay-modules/safety-technology/extension-delay-time-interface-modules/interface-modules/hc-3096n",
+        "https://www.dold.com/media/7e/32/49/1746608174/HC3096N_en.pdf?ts=1781589862"
+      ]
+    },
+    {
+      "parts": [
+        "SW1"
+      ],
+      "status": "length_unresolved",
+      "evidence": "BACO 0172001 product page, catalog 803 (printed pages 196-199), quick-reference and handle booklet identify the 25A/32A family and stranded wire with cap capacities, but no insertion/strip/barrel length.",
+      "sources": [
+        "https://products.bacocontrols.com/item/all-categories/disconnect-switches/0172001",
+        "https://bacocontrols.com/wp-content/uploads/Baco-Controls-Catalog-803.pdf",
+        "https://bacocontrols.com/wp-content/uploads/Defeatable-Handle-Booklet-1.pdf"
+      ]
+    },
+    {
+      "parts": [
+        "FH1"
+      ],
+      "status": "termination_type_correction_recommended",
+      "evidence": "Eaton exact RM25030-3SR page and family customer drawing identify SR as screw and PR as pressure plate. AD Class R block specification printed page tCPR-229 calls out ring or fork terminals to fit #10-32 screw. Recommendation: use appropriate 14 AWG ring/fork termination for the installed SR hardware rather than assigning a ferrule barrel. No change made to FH1 fields in this task; saved ferrule fields remain pending correction.",
+      "sources": [
+        "https://www.eaton.com/us/en-us/skuPage.RM25030-3SR.html",
+        "https://www.eaton.com/content/dam/eaton/products/electrical-circuit-protection/fuses/modular-fuse-blocks/bus-ele-cd-rm25030-hm25030.pdf",
+        "https://cdn.automationdirect.com/static/specs/efusemodblocksr.pdf"
+      ]
+    }
+  ],
+  "next_evidence_needed": "Manufacturer-specified ferrule metal length or terminal insertion/contact-depth measurements for HMC coil/aux/main, HTOR aux/output, DOLD module, BACO disconnect. Do not infer a length solely from wire gauge or ferrule catalog availability.",
+  "validation": {
+    "trace_adapter_tests": 15,
+    "footprint_termination_tests": 4,
+    "native_wire_extraction_passed": true,
+    "generated_rows": 17,
+    "trace_objects": 272,
+    "changed_schedule_rows": 14,
+    "geometry_routing_and_schematic_preserved": true
+  },
+  "FH1_owner_followup": {
+    "report": "fh1_ring_assignments.json",
+    "selection": "All six FH1 ends now ring terminal, 14 AWG; stud=#10-32; OD<=9 mm. Supersedes the pending-correction status at the earlier research checkpoint."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "parts": [
+    {
+      "family": "HMC contactor",
+      "part": "HMC-9B30-11-DS",
+      "drawing": "https://cdn.automationdirect.com/static/drawings/2d/HMC-9B30-11-DS.pdf",
+      "archive": "https://cdn.automationdirect.com/static/drawings/2d/HMC-9B30-11-DS.zip"
+    },
+    {
+      "family": "HTOR overload",
+      "part": "HTOR32-6-S",
+      "drawing": "https://cdn.automationdirect.com/static/drawings/2d/HTOR32-6-S.pdf",
+      "archive": "https://cdn.automationdirect.com/static/drawings/2d/HTOR32-6-S.zip"
+    },
+    {
+      "family": "DOLD relay",
+      "part": "HC3096N-52-900-24",
+      "drawing": "https://cdn.automationdirect.com/static/drawings/HC3096N-52-900-24.pdf",
+      "archive": "https://cdn.automationdirect.com/static/drawings/HC3096N-52-900-24.zip"
+    }
+  ],
+  "findings": {
+    "downloaded_archives": "Each contains DWG and PDF; no DXF in these archives.",
+    "pdf_comparison": "Downloaded PDFs are byte-identical to local catalog drawing PDFs.",
+    "visual_review": "All three PDF outline drawings were rendered and inspected. They show external dimensions and terminal arrangement, but no conductor insertion depth or clamp/contact-depth section.",
+    "ferrule_length": "Not established by these drawings. Requires terminal-specific manufacturer preparation data or physical verification.",
+    "SW1": "Owner selected bare 14 AWG stranded copper with 12 mm stripping on all six SW1 terminals; applied to saved PCB."
+  },
+  "ring_removal": "Applied: five leftover mechanical ring fields removed."
+}

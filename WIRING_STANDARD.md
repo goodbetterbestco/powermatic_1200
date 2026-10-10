@@ -130,12 +130,79 @@ This selection is stored in S3's corresponding footprint `Termination.<pin>` fie
 
 ## Component-specific exceptions
 
+### K1/K2 reversing busbars — owner selection, 2026-10-09
+
+Use one HMX1-BBREV kit on K1/K2, represented by two PCB-only footprints:
+BB1 `HMX1-BBREV_TOP` is the upper/line-side piece; BB2 `HMX1-BBREV_BOT` is the
+lower/load-side piece. Each has six contact pads and three native KiCad
+`jumper_pad_groups`. TOP joins 1–1, 3–3 and 5–5; BOT joins 2–6, 4–4 and 6–2.
+The existing local BOM item remains one kit. TOP owns purchase quantity 1 and
+BOT quantity 0; both share `Wire.KitID=HMX1-BBREV_K1_K2` and retain the actual
+manufacturer MPN `HMX1-BBREV`. The exact TOP/BOT names are footprint IDs and
+`PartID` values, not separately orderable manufacturer part numbers.
+
+Both footprints bind host roles A/B to the K1/K2 footprint UUIDs and record each
+mated pad. Extraction checks host identity, exact overlap and net agreement,
+then recognizes the native jumper groups without adding loose-wire rows.
+Incoming and outgoing loose wires keep their K1/K2 terminal preparation
+selections. Unspecified overlapping terminals remain extraction errors. The
+front elevations preserve manufacturer geometry and logical routing targets;
+installed 3D depth and physical assembly fit have not been verified.
+
+No suitable catalogued IronHorse kit was found for K4/K5. Keep its existing
+wiring plan, including the K5 1–3–5 shorting bridge. HMX1-BBREV's reversing
+connections do not match that pair. Source: [IronHorse accessory catalog](https://cdn.automationdirect.com/static/specs/ironhorsehmcandhtor.pdf).
+
+
 H2 is the red Schneider XB4BVB4 E-stop/control-disabled indicator below SW1.
 Connect raw `+24V` to K3.31, K3.32 to H2.X1 on
 `CONTROL_ESTOP_DISABLED_FB`, and H2.X2 to `0V`. The two new K3 terminal
 connections and both H2 terminals use blue 18 AWG panel-control wiring with
 ferrule terminations. The existing E-stop connector/conduit wiring is unchanged.
 Physical routes and cut lengths remain pending, as for the other panel wires.
+
+### Terminal preparation selections — owner decisions, 2026-10-09
+
+Ferrule `L` means the metal barrel/contact length, not overall ferrule length or
+wire stripping length. Strip wire according to the selected ferrule's instructions.
+
+| Component / terminals | Selected preparation |
+|---|---|
+| Q1 pins 1/3 (`L1_SW`/`L2_SW`) and 2/4 (`L1_PSU`/`L2_PSU`) | Bare stranded copper, 14 AWG; strip per device instructions. Eaton does not recommend ferrules or crimp terminals for FAZ-NA. |
+| PS1 `3_BOT` L (`L1_PSU`), `2_BOT` N (`L2_PSU`), `1_BOT` PE | Bare stranded copper, 14 AWG; 5 mm stripping per the NDR installation manual. These are the three AC-input/PE terminals, not three phase inputs. |
+| PS1 `1_TOP`/`2_TOP` (−V, `0V`) and `3_TOP`/`4_TOP` (+V, `+24V`) | Bare stranded copper, 18 AWG; 5 mm stripping per the NDR installation manual. |
+| H1/H2 X1 and X2 | Single ferrule, 18 AWG, standard 6 mm metal barrel; owner-selected length. |
+| KN-T12GRY-25 feedthrough clamps | Single or twin ferrule for the assigned conductor(s); 10 mm metal barrel. |
+| KN-G12SP-10 ground clamps | Single ferrule only, one conductor per clamp; 10 mm metal barrel. |
+| FH1 `P1.A`/`P1.B`, `P2.A`/`P2.B`, `P3.A`/`P3.B` | Ring terminal, 14 AWG; #10-32 screw; ring tongue OD ≤9 mm to clear the terminal recess. |
+| SW1 pins 1-6 | Bare stranded copper, 14 AWG; 12 mm stripping per the disconnect instructions checked by the owner. |
+
+These selections are stored on the saved footprint instances. All seven PS1
+terminals use bare stranded copper. Mean Well's NDR manual gives common wire
+preparation instructions for input and output; it does not explicitly approve
+or prohibit ferrules. The lamp choice records the owner's decision; it does not
+claim a completed physical fit check.
+
+FH1 uses the RM25030-3SR screw-terminal version. The AD drawing shows a nominal
+12.6 mm terminal-recess width; the selected 9 mm maximum ring OD keeps clearance
+within that width. AD/Z+F V70RK004012 is a sourcing candidate: 16–14 AWG,
+5 mm hole, 8.6 mm ring tongue width, 23 mm overall length. The catalog dimensions
+support lateral fit; screw seating, barrel/wire exit and cover clearance still
+require a physical assembly check. This selection replaces all six previous
+FH1 ferrule fields. Sources: [FH1 drawing](https://cdn.automationdirect.com/static/drawings/RM25030-3SR.pdf),
+[AD ring-terminal dimensions](https://cdn.automationdirect.com/static/specs/dinwiring.pdf),
+[Class R block terminal specification](https://cdn.automationdirect.com/static/specs/efusemodblocksr.pdf).
+
+AutomationDirect's Z+F catalog lists standard single/twin barrel lengths of
+8, 10 and 12 mm in the applicable wire sizes. The gray 18 AWG versions are
+0.75 mm² per conductor; the red versions are 1.0 mm² per conductor. Keep those
+capacities distinct when selecting a ferrule for the actual wire. This catalog
+availability does not assign a length to the remaining unverified terminals.
+The owner-selected 6 mm lamp ferrules require a separate source.
+
+Sources: [FAZ-NA specifications](https://cdn.automationdirect.com/static/specs/eatonfazna.pdf),
+[NDR installation manual](https://www.meanwell.com/Upload/PDF/NDR%20DIN%20rail.pdf),
+[AD Z+F ferrule catalog](https://cdn.automationdirect.com/static/specs/dinwiring.pdf).
 
 | Actual size | Component / use | Treatment |
 |---|---|---|
@@ -144,15 +211,23 @@ Physical routes and cut lengths remain pending, as for the other panel wires.
 
 KN-G12SP-10 accepts 26–12 AWG. Use separate suitable clamps for the incoming cable PE, the 12 AWG motor-conduit PE and PSU PE wire. Its two wire clamps and conductive rail foot are electrically common. Prepare each conductor according to the terminal manufacturer's instructions. The 10 AWG bonding-jumper ends use compatible studs or a wire-splicing connector rated for that conductor; they do not enter these KN-G12SP-10 clamps.
 
-All feedthrough-terminal and grounding-block wire clamps use ferrules: one
-conductor in a clamp uses a single ferrule; two conductors sharing one clamp use
-a twin ferrule sized for the actual conductors. This owner requirement is stored
-in each block footprint's `Wire.TerminationPolicy`. Individual
-`Termination.<terminal>` fields describe the part's termination capability:
-`Ferrule or twin ferrule as required`. They do not assign a conductor gauge,
-barrel length or wire count to an available routing resource. Blocks and unused
+The routed PE continuation `TB43_1` to `TB51_2` uses 12 AWG to match the incoming
+mains PE core. The PSU PE branch `TB50_1` to `TB52_2` uses 14 AWG to match the
+existing PS1 PE feed. These actual-wire assignments are stored in the four
+endpoint footprints' `Wire.AWG.<pin>` fields; they do not set a gauge for the
+whole PE net or for unused terminal-block clamps. Both ends use single ferrules
+with a 10 mm metal barrel (`F12_10mm` or `F14_10mm`).
+
+All feedthrough-terminal and grounding-block wire clamps use ferrules with a
+10 mm metal barrel. Feedthrough clamps use a single ferrule for one conductor
+or a twin ferrule for two conductors, sized for the actual conductors. Ground
+clamps accept one conductor only and use a single ferrule; no twin ferrules.
+These owner requirements are stored in each block footprint's
+`Wire.TerminationPolicy`. Individual `Termination.<terminal>` fields describe
+the part's termination capability and selected barrel length. They do not assign
+a conductor gauge or wire count to an available routing resource. Blocks and unused
 jumpers are allocated only when needed during physical routing; available clamps
-do not constitute missing wiring data. Select ferrule size, barrel length and
+do not constitute missing wiring data. Select ferrule gauge and permitted
 single/twin form for the actual assigned conductors during routing. The grounding block's
 PE rail contact is a retained conductive foot, not a ferruled wire clamp.
 
@@ -168,7 +243,17 @@ Use **PE** for protective-earth conductor naming. Document the actual installati
 
 ## Motor-end Wago connections
 
-The owner specifies Wago splices for the six 14 AWG motor-conduit conductors to the corresponding T1–T6 motor leads, and a separate Wago PE splice. Each power splice connects only its corresponding conduit conductor and motor lead. Select its connector against the actual supplied motor-lead size/type and the 14 AWG conduit conductor; do not assume the power and PE splices require identical connector models.
+The owner selects WAGO 221-412 for standard two-conductor wire splices, including
+the six 14 AWG motor-conduit conductors to the corresponding T1–T6 motor leads.
+Each power splice connects only its corresponding conduit conductor and motor
+lead, one conductor per port. The 221-412 accepts up to 12 AWG and specifies
+11 mm stripping. Prepare these ends as bare copper; retain the actual supplied
+motor-lead gauge and check it against the connector's conductor range.
+
+For the motor-box PE junction involving the 10 AWG grounding straps, the owner
+selects the three-port WAGO 221-613, rated for conductors up to 10 AWG. It
+replaces the initial two-port 221-612 proposal for this junction. WAGO specifies
+12–14 mm stripping; the project uses 13 mm bare ends on all three conductors.
 
 The PE splice needs at least three suitable ports, one conductor per port:
 
@@ -176,14 +261,51 @@ The PE splice needs at least three suitable ports, one conductor per port:
 2. Modified jumper to motor body: 10 AWG if GRDKIT01 is selected.
 3. Modified jumper to machine frame: 10 AWG if GRDKIT01 is selected.
 
-The owner confirms that the connector model is not yet selected and directs that connector selection remain open while the wire-standard work proceeds. The PE splice must accept one 12 AWG conduit PE conductor and two 10 AWG jumper conductors, one per port. Record the exact model and its prescribed conductor preparation when selected; no connector SKU or strip length is assumed here. The gauge policy and confirmed jumper-end modifications do not depend on selecting that model now.
+The selected PE junction accommodates one 12 AWG conduit PE conductor and two
+10 AWG jumper conductors, one per port. The M1 metadata footprint stores the
+connector models, seven motor-conduit end preparations and the three-port PE
+connection plan. Compact schedule term codes will be `B14_11mm` for the six
+power-conductor ends, `B12_13mm` for the PE feed and `B10_13mm` for each modified
+strap end. Six 221-412 connectors and one 221-613 are required for this topology.
+These are required component counts; purchasing pack quantities remain separate.
 
 The insulated Wago forms a wire-to-wire PE junction; placing it inside a metal motor junction box does not itself bond that box. Account for the box-to-motor-body bond through a verified conductive attachment or an explicit separate bonding connection. Motor-body and frame bonding attachment hardware/locations remain to be defined and verified.
+
+## Wire schedule presentation
+
+The generated CSV and editor use eight positional columns:
+`From, Pin, To, Pin, AWG, Length, Term 1, Term 2`. The two `Pin` titles have
+separate column positions; they are not dictionary keys. Length is in millimetres.
+
+Pin labels include the reference, followed by an underscore and the terminal
+identifier, for example `PS1_PE`, `FH1_P2A`, `TB40_TOP`, `K1_A1_TOP`.
+Hidden PCB footprint fields `Wire.PinLabel.<electrical pin number>` supply
+aliases for PS1 and FH1. PS1 output aliases are `V1_NEG`, `V2_NEG`, `V1_POS`,
+`V2_POS`. Other compound identifiers replace delimiters with underscores.
+Electrical pad numbers, schematic connectivity and routing remain unchanged.
+Terminal-block device names display as `Terminal 40`, for example, for `TB40`.
+
+Compact termination codes have no underscore between type and wire gauge:
+
+- `F18_10mm`: single ferrule for 18 AWG, 10 mm metal barrel.
+- `F2x18_10mm`: twin ferrule for two 18 AWG conductors, 10 mm metal barrel.
+- `R18_1032_9mm`: ring for 18 AWG, #10-32 screw, maximum ring tongue width 9 mm.
+- `B18_5mm`: bare stranded 18 AWG copper, 5 mm strip length. Omit the final
+  segment when no numeric stripping length is assigned.
+- `F14_TBDmm` or `FTBD_10mm`: retain unresolved length or conductor gauge visibly.
+- `supplier`: a termination already installed by the device/cable supplier.
+- Blank: a non-electrical routing marker that receives no termination.
+
+These are generated presentation labels. The saved footprint `Termination.*`
+fields retain the full specification, including maximum ring-width limits,
+single-conductor restrictions and factory-connection descriptions. A terminal
+block's compact ferrule gauge comes from the actual routed wire; its source
+capability does not assign a gauge. Refresh regenerates the compact labels.
 
 ## Where information belongs
 
 1. **Policy:** this document owns preferred gauge classes, application defaults and explicit exceptions. Root README and tools/wiring/README link here; avoid duplicating a second policy table in the BOM or generator.
-2. **KiCad data:** custom schematic `Wire.Sizes` fields record per-terminal conductor sizing and `Wire.SizePlan` retains proposed bonding assemblies. M1.PE records 12 AWG motor-conduit PE. Saved PCB trace paths own physical wire endpoints and route geometry; the old schematic `Wire.Wxxx` fields are no longer the schedule source. One combined `Termination.<pin>` field on each placed footprint owns the termination selection at that terminal. TERM 1 and TERM 2 are read from the source and destination footprints. M1, J2, S1 and J6 use metadata-only footprints without physical geometry, excluded from BOM and position exports. Mechanical stud descriptions live on the enclosure footprint and rail lug descriptions on rail footprints. Reports and wire records do not own duplicate termination selections. These fields do not define routes or wire allocation; Completed routed paths generate wire rows; missing gauge assignments and unrouted connections are reported.
+2. **KiCad data:** custom schematic `Wire.Sizes` fields record per-terminal conductor sizing and `Wire.SizePlan` retains proposed bonding assemblies. M1.PE records 12 AWG motor-conduit PE. Saved PCB trace paths own physical wire endpoints and route geometry; the old schematic `Wire.Wxxx` fields are no longer the schedule source. One combined `Termination.<pin>` field on each placed footprint owns the termination selection at that terminal. TERM 1 and TERM 2 are read from the source and destination footprints. M1, J2, S1 and J6 use metadata-only footprints without physical geometry, excluded from BOM and position exports. Bonding-strap attachment hardware belongs in the BOM; mechanical bonding points do not carry wire-schedule termination fields. Reports and wire records do not own duplicate termination selections. These fields do not define routes or wire allocation; Completed routed paths generate wire rows; missing gauge assignments and unrouted connections are reported.
 3. **Procurement:** `Powermatic_BOM_revP.csv` owns exact cable/device/spool/ferrule/lug/kit selections and purchase quantities. Include AWG and conductor count in cable descriptions and AWG in termination descriptions; retain the exact supplier part number. A preferred gauge without a required wire is not an automatic BOM purchase.
 4. **Live schedules:** `Wire_schedule.csv` is the single live physical-wire schedule. Finder launch or browser Refresh extracts completed saved PCB trace paths into it. CSV edits remain local and never update KiCad. No traces are currently saved, so the fresh schedule contains zero routed wires. `Powermatic_BOM_revP.csv` retains SOURCE tags and stable keys so refresh updates KiCad-linked data while preserving Local purchasing rows and fields; KICAD QTY is separate from purchasing QUA. No historical CSV variants are generated.
 5. **Part specifications:** `_parts` datasheets and catalog entries own supplied cable/lead sizes, terminal wire ranges and manufacturer-specific termination requirements. Keep project-wide stock policy here rather than embedding it in reusable symbols.
@@ -210,6 +332,20 @@ The insulated Wago forms a wire-to-wire PE junction; placing it inside a metal m
 - [Mean Well NDR-240 specification](https://www.meanwell.com/Upload/PDF/NDR-240/NDR-240-SPEC.PDF).
 - [Wago 221-613, three-conductor 10 AWG connector](https://www.wago.com/us/wire-splicing-connectors/compact-splicing-connector/p/221-613).
 - [Wago 221-412/413/415 conductor specifications](https://www.wago.com/us/products/electrical-interconnect/splicing-connectors-221).
+
+## Panel-layout alignment grid
+
+This industrial-controls PCB view is an alignment and wiring workspace. Optimize
+it for ease of placement and routing on a 1 mm grid. Prefer integer X/Y footprint
+origins and wire-target centers; use the outer face of the mounting panel as the
+datum for wall-mounted devices. Preserve terminal identity and connectivity when
+adapting a footprint's routing representation.
+
+The backplate view is 462 x 462 mm, from (0, 0) to (462, 462). The 508 x 508 mm
+enclosure is centered around it with a 23 mm border: its outer corner datums are
+(-23, -23), (485, -23), (485, 485), and (-23, 485). Side-wall device origins use
+X=-23; bottom-wall gland origins use Y=485. These layout choices do not change
+the enclosure's manufacturer dimensions. See the [placement grid review](reviews/placement_grid_2026-10-09/README.md).
 
 ## Integer-grid DIN routing views
 

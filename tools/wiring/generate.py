@@ -16,6 +16,7 @@ import webbrowser
 from model import HEADERS, Schematic, atomic_write, digest, export_netlist, prop
 from source import footprint_metadata, nodes, one
 from traces import native_board, rows_from_traces
+from assemblies import supplied_assemblies
 
 PROJECT = Path(__file__).resolve().parents[2]
 DEFAULT_SCH = PROJECT / 'kicad/powermatic_1200/powermatic_1200.kicad_sch'
@@ -86,15 +87,17 @@ def generate(sch_path, pcb_path, output, section=None, check=False):
         geometry = native_board(board_snapshot,work)
         geometry['internal_groups']=[];geometry['pass_through_pairs']=[]
         pad_ids={(p['footprint_id'],p['pin']):p['id'] for p in geometry['pads']}
-        for footprint in footprint_metadata(board.decode()):
+        footprints = footprint_metadata(board.decode())
+        for footprint in footprints:
             fid=one(footprint,'uuid')[1];ref=prop(footprint,'Reference')
             group_node=one(footprint,'jumper_pad_groups')
-            if group_node:
+            if group_node and prop(footprint, 'Wire.SuppliedAssembly') != 'busbar':
                 for group in group_node[1:]:
                     geometry['internal_groups'].append([[ref,pin] for pin in group])
                     ids=[pad_ids.get((fid,pin)) for pin in group]
                     if len(ids)==2 and all(ids) and all(next(p for p in geometry['pads'] if p['id']==pid).get('pass_through') for pid in ids):
                         geometry['pass_through_pairs'].append(ids)
+        assemblies = supplied_assemblies(geometry, footprints, pin_nets)
         rows,details,warnings = rows_from_traces(geometry,schematic,pin_nets)
         for d in details:
             if any(ref in unfinished for ref, pin in nets.get(d['net'], ())):
@@ -110,7 +113,7 @@ def generate(sch_path, pcb_path, output, section=None, check=False):
               'records': details, 'csv_is_generated': True,'wire_source':'PCB traces',
               'trace_objects':len(geometry['tracks']),'warnings':warnings,
               'route_sections':sum(d['kind']=='route-section' for d in details),
-              'legacy_wire_fields_used':False,
+              'legacy_wire_fields_used':False, 'supplied_assemblies': assemblies,
               'unrouted_nets': [n['net'] for n in audit if not n['covered']]}
     if digest(sch_path.read_bytes()) != digest(source) or digest(pcb_path.read_bytes()) != digest(board):
         raise ValueError('The schematic or PCB changed during generation. Save and generate again.')
