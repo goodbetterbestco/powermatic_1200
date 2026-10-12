@@ -238,3 +238,12 @@ External wires retain the host terminal's name and preparation selection.
 The TOP/BOT pieces share `Wire.KitID`; `Wire.PurchaseQuantity` assigns the one
 kit to TOP (1) and no additional purchase to BOT (0). Their `PartID` values
 identify the pieces while both retain manufacturer MPN `HMX1-BBREV`.
+
+Installed station jumpers can declare exact retained terminal pairs in a
+footprint-owned `Wire.RetainedLinks` field, for example
+`{"schema":1,"pairs":[["1T","3T"],["3T","5T"]]}` on S2. Extraction checks
+that each terminal exists and both pad nets match the saved schematic. These
+specific connections count toward coverage and are omitted from cut-wire rows
+and conductor counts. Other connections to the same device remain scheduled;
+S2's required 2B–4B jumper is not declared retained. A termination label or
+shared net alone does not declare an installed jumper.

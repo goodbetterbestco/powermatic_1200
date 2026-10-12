@@ -67,3 +67,36 @@ class AssemblyTests(unittest.TestCase):
         self.assertIn('F18_TBDmm',rows[0][6:])
         self.assertFalse(any(term.startswith('F2x') for term in rows[0][6:]))
         self.assertEqual(warnings,[])
+
+    def retained_fixture(self):
+        board=route_board();board['internal_groups']=[]
+        for pad,pin in zip(board['pads'],['1T','3T']):
+            pad.update({'ref':'S2','pin':pin,'footprint_id':'station',
+                        'termination':'Ferrule or twin ferrule as required; L=10 mm'})
+        payload={'schema':1,'pairs':[['1T','3T']]}
+        footprint=parse('(footprint (uuid "station") (property "Reference" "S2") '
+            '(property "MPN" "STATION") (property "Wire.RetainedLinks" '+json.dumps(json.dumps(payload))+'))')
+        return board,footprint,{('S2','1T'):'NET',('S2','3T'):'NET'}
+
+    def test_explicit_retained_link_omits_only_its_declared_wire(self):
+        board,fp,nets=self.retained_fixture()
+        board['pads'].append({'id':'external','footprint_id':'external','ref':'TB2','pin':'1',
+            'at':[0,10],'fields':{},'net':'NET','termination':'Ferrule 18 AWG; L=10 mm'})
+        board['tracks'].append({'id':'external-wire','kind':'segment','start':[0,0],'end':[0,10],
+            'layer':'F.Cu','net':'NET','length_mm':10})
+        board['contacts'] += [{'track':'external-wire','pad':'A','point':[0,0]},
+                             {'track':'external-wire','pad':'external','point':[0,10]}]
+        supplied_assemblies(board,[fp],nets)
+        rows,details,warnings=rows_from_traces(board,Schematic(schematic()),nets)
+        self.assertEqual(len(rows),1)
+        self.assertFalse(any(term.startswith('F2x') for term in rows[0][6:]))
+        self.assertEqual(sum(d['kind']=='factory' and not d['exported'] for d in details),1)
+        self.assertEqual(warnings,[])
+
+    def test_retained_link_net_conflict_or_missing_terminal_is_rejected(self):
+        for change in ['net','terminal','schematic']:
+            board,fp,nets=self.retained_fixture()
+            if change=='net':board['pads'][1]['net']='OTHER'
+            elif change=='terminal':board['pads'].pop()
+            else:nets['S2','3T']='OTHER'
+            with self.assertRaises(ValueError):supplied_assemblies(board,[fp],nets)

@@ -1,0 +1,305 @@
+{
+  "before": {
+    "wire_rows": [
+      [
+        "Control wire destination EXT1",
+        "EXT1_1",
+        "Speed Switch",
+        "S3_1B",
+        "16",
+        "160",
+        "R16_832_9mm",
+        "R16_832_9mm"
+      ],
+      [
+        "Control wire destination EXT2",
+        "EXT2_1",
+        "Speed Switch",
+        "S3_1T",
+        "16",
+        "160",
+        "R16_832_9mm",
+        "R16_832_9mm"
+      ],
+      [
+        "Control wire destination EXT3",
+        "EXT3_1",
+        "Speed Switch",
+        "S3_2T",
+        "16",
+        "160",
+        "R16_832_9mm",
+        "R16_832_9mm"
+      ]
+    ],
+    "row_count": 3,
+    "warnings": [],
+    "jumper_groups": [],
+    "coverage": [
+      {
+        "net": "CONTROL_RUN_ENABLE",
+        "covered": false,
+        "remaining_groups": [
+          [
+            "EXT1.1",
+            "S3.1B"
+          ],
+          [
+            "S3.2B"
+          ]
+        ]
+      },
+      {
+        "net": "Net-(S3-HI3_B)",
+        "covered": false,
+        "remaining_groups": [
+          [
+            "S3.3B"
+          ],
+          [
+            "S3.4B"
+          ],
+          [
+            "S3.5B"
+          ]
+        ]
+      },
+      {
+        "net": "Net-(S3-HI5_T)",
+        "covered": false,
+        "remaining_groups": [
+          [
+            "S3.5T"
+          ],
+          [
+            "S3.7T"
+          ]
+        ]
+      },
+      {
+        "net": "Net-(S3-HI6_T)",
+        "covered": false,
+        "remaining_groups": [
+          [
+            "S3.4T"
+          ],
+          [
+            "S3.6T"
+          ]
+        ]
+      },
+      {
+        "net": "Net-(S3-HI8_B)",
+        "covered": false,
+        "remaining_groups": [
+          [
+            "S3.7B"
+          ],
+          [
+            "S3.8B"
+          ]
+        ]
+      },
+      {
+        "net": "SPEED_HIGH_CMD",
+        "covered": true,
+        "remaining_groups": [
+          [
+            "EXT3.1",
+            "S3.2T"
+          ]
+        ]
+      },
+      {
+        "net": "SPEED_LOW_CMD",
+        "covered": false,
+        "remaining_groups": [
+          [
+            "EXT2.1",
+            "S3.1T"
+          ],
+          [
+            "S3.3T"
+          ]
+        ]
+      }
+    ]
+  },
+  "after": {
+    "wire_rows": [
+      [
+        "Control wire destination EXT1",
+        "EXT1_1",
+        "Speed Switch",
+        "S3_1B",
+        "16",
+        "160",
+        "R16_832_9mm",
+        "R16_832_9mm"
+      ],
+      [
+        "Control wire destination EXT2",
+        "EXT2_1",
+        "Speed Switch",
+        "S3_1T",
+        "16",
+        "160",
+        "R16_832_9mm",
+        "R16_832_9mm"
+      ],
+      [
+        "Control wire destination EXT3",
+        "EXT3_1",
+        "Speed Switch",
+        "S3_2T",
+        "16",
+        "160",
+        "R16_832_9mm",
+        "R16_832_9mm"
+      ]
+    ],
+    "row_count": 3,
+    "warnings": [],
+    "jumper_groups": [
+      [
+        [
+          "S3",
+          "1B"
+        ],
+        [
+          "S3",
+          "2B"
+        ]
+      ],
+      [
+        [
+          "S3",
+          "1T"
+        ],
+        [
+          "S3",
+          "3T"
+        ]
+      ],
+      [
+        [
+          "S3",
+          "3B"
+        ],
+        [
+          "S3",
+          "4B"
+        ],
+        [
+          "S3",
+          "5B"
+        ]
+      ],
+      [
+        [
+          "S3",
+          "4T"
+        ],
+        [
+          "S3",
+          "6T"
+        ]
+      ],
+      [
+        [
+          "S3",
+          "5T"
+        ],
+        [
+          "S3",
+          "7T"
+        ]
+      ],
+      [
+        [
+          "S3",
+          "7B"
+        ],
+        [
+          "S3",
+          "8B"
+        ]
+      ]
+    ],
+    "coverage": [
+      {
+        "net": "CONTROL_RUN_ENABLE",
+        "covered": true,
+        "remaining_groups": [
+          [
+            "EXT1.1",
+            "S3.1B",
+            "S3.2B"
+          ]
+        ]
+      },
+      {
+        "net": "Net-(S3-HI3_B)",
+        "covered": true,
+        "remaining_groups": [
+          [
+            "S3.3B",
+            "S3.4B",
+            "S3.5B"
+          ]
+        ]
+      },
+      {
+        "net": "Net-(S3-HI5_T)",
+        "covered": true,
+        "remaining_groups": [
+          [
+            "S3.5T",
+            "S3.7T"
+          ]
+        ]
+      },
+      {
+        "net": "Net-(S3-HI6_T)",
+        "covered": true,
+        "remaining_groups": [
+          [
+            "S3.4T",
+            "S3.6T"
+          ]
+        ]
+      },
+      {
+        "net": "Net-(S3-HI8_B)",
+        "covered": true,
+        "remaining_groups": [
+          [
+            "S3.7B",
+            "S3.8B"
+          ]
+        ]
+      },
+      {
+        "net": "SPEED_HIGH_CMD",
+        "covered": true,
+        "remaining_groups": [
+          [
+            "EXT3.1",
+            "S3.2T"
+          ]
+        ]
+      },
+      {
+        "net": "SPEED_LOW_CMD",
+        "covered": true,
+        "remaining_groups": [
+          [
+            "EXT2.1",
+            "S3.1T",
+            "S3.3T"
+          ]
+        ]
+      }
+    ]
+  }
+}

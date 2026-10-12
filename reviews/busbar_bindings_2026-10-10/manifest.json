@@ -1,0 +1,874 @@
+{
+  "bindings": {
+    "BB1": {
+      "A": {
+        "reference": "K1",
+        "uuid": "0efcbc76-f026-47f5-86c9-db4fc3aa8810"
+      },
+      "B": {
+        "reference": "K2",
+        "uuid": "597b786e-4ac2-491c-9073-9bd131e26112"
+      }
+    },
+    "BB2": {
+      "A": {
+        "reference": "K1",
+        "uuid": "0efcbc76-f026-47f5-86c9-db4fc3aa8810"
+      },
+      "B": {
+        "reference": "K2",
+        "uuid": "597b786e-4ac2-491c-9073-9bd131e26112"
+      }
+    }
+  },
+  "removed_duplicate_targets": [
+    {
+      "footprint": "BB2",
+      "pin": "A2",
+      "at": [
+        "43",
+        "23"
+      ],
+      "uuid": "effec817-fed8-41e0-8345-dfe2a778b0f6"
+    },
+    {
+      "footprint": "BB2",
+      "pin": "A4",
+      "at": [
+        "53",
+        "23"
+      ],
+      "uuid": "fbd0955a-9c8a-4569-a080-6ab174cb2793"
+    },
+    {
+      "footprint": "BB2",
+      "pin": "A6",
+      "at": [
+        "63",
+        "23"
+      ],
+      "uuid": "c77108d6-71b8-4368-bcde-bd2b939ee522"
+    },
+    {
+      "footprint": "HMX1-BBREV_BOT",
+      "pin": "A2",
+      "at": [
+        "43",
+        "23"
+      ],
+      "uuid": "55494269-9d96-43b1-8908-32fb7aed0c22"
+    },
+    {
+      "footprint": "HMX1-BBREV_BOT",
+      "pin": "A4",
+      "at": [
+        "53",
+        "23"
+      ],
+      "uuid": "16ea88bd-e526-4826-a132-a4c7929b133a"
+    },
+    {
+      "footprint": "HMX1-BBREV_BOT",
+      "pin": "A6",
+      "at": [
+        "63",
+        "23"
+      ],
+      "uuid": "89eb91fe-186a-4152-bee0-3f0831ab5ca0"
+    }
+  ],
+  "logical_pad_changes": [
+    {
+      "footprint": "BB1",
+      "pin": "A1",
+      "before": [
+        "-15.001395",
+        "-19"
+      ],
+      "after": [
+        "-15",
+        "-19"
+      ],
+      "net": "L1_SW"
+    },
+    {
+      "footprint": "BB1",
+      "pin": "A3",
+      "before": [
+        "-5.001395",
+        "-19"
+      ],
+      "after": [
+        "-5",
+        "-19"
+      ],
+      "net": "L2_SW"
+    },
+    {
+      "footprint": "BB1",
+      "pin": "A5",
+      "before": [
+        "4.998605",
+        "-19"
+      ],
+      "after": [
+        "5",
+        "-19"
+      ],
+      "net": "L3_SW"
+    },
+    {
+      "footprint": "BB1",
+      "pin": "B1",
+      "before": [
+        "42.998605",
+        "-19"
+      ],
+      "after": [
+        "43",
+        "-19"
+      ],
+      "net": "L1_SW"
+    },
+    {
+      "footprint": "BB1",
+      "pin": "B3",
+      "before": [
+        "52.998605",
+        "-19"
+      ],
+      "after": [
+        "53",
+        "-19"
+      ],
+      "net": "L2_SW"
+    },
+    {
+      "footprint": "BB1",
+      "pin": "B5",
+      "before": [
+        "62.998605",
+        "-19"
+      ],
+      "after": [
+        "63",
+        "-19"
+      ],
+      "net": "L3_SW"
+    },
+    {
+      "footprint": "BB2",
+      "pin": "A2",
+      "before": [
+        "-15",
+        "23"
+      ],
+      "after": [
+        "-15",
+        "23"
+      ],
+      "net": "L1_DIR"
+    },
+    {
+      "footprint": "HMX1-BBREV_TOP",
+      "pin": "A1",
+      "before": [
+        "-15.001395",
+        "-19"
+      ],
+      "after": [
+        "-15",
+        "-19"
+      ],
+      "net": null
+    },
+    {
+      "footprint": "HMX1-BBREV_TOP",
+      "pin": "A3",
+      "before": [
+        "-5.001395",
+        "-19"
+      ],
+      "after": [
+        "-5",
+        "-19"
+      ],
+      "net": null
+    },
+    {
+      "footprint": "HMX1-BBREV_TOP",
+      "pin": "A5",
+      "before": [
+        "4.998605",
+        "-19"
+      ],
+      "after": [
+        "5",
+        "-19"
+      ],
+      "net": null
+    },
+    {
+      "footprint": "HMX1-BBREV_TOP",
+      "pin": "B1",
+      "before": [
+        "42.998605",
+        "-19"
+      ],
+      "after": [
+        "43",
+        "-19"
+      ],
+      "net": null
+    },
+    {
+      "footprint": "HMX1-BBREV_TOP",
+      "pin": "B3",
+      "before": [
+        "52.998605",
+        "-19"
+      ],
+      "after": [
+        "53",
+        "-19"
+      ],
+      "net": null
+    },
+    {
+      "footprint": "HMX1-BBREV_TOP",
+      "pin": "B5",
+      "before": [
+        "62.998605",
+        "-19"
+      ],
+      "after": [
+        "63",
+        "-19"
+      ],
+      "net": null
+    }
+  ],
+  "termination_fields_restored": [
+    {
+      "reference": "K1",
+      "footprint_uuid": "0efcbc76-f026-47f5-86c9-db4fc3aa8810",
+      "pin": "1",
+      "termination": "Ferrule 14 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 14
+    },
+    {
+      "reference": "K1",
+      "footprint_uuid": "0efcbc76-f026-47f5-86c9-db4fc3aa8810",
+      "pin": "2",
+      "termination": "Ferrule 14 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 14
+    },
+    {
+      "reference": "K1",
+      "footprint_uuid": "0efcbc76-f026-47f5-86c9-db4fc3aa8810",
+      "pin": "3",
+      "termination": "Ferrule 14 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 14
+    },
+    {
+      "reference": "K1",
+      "footprint_uuid": "0efcbc76-f026-47f5-86c9-db4fc3aa8810",
+      "pin": "31",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K1",
+      "footprint_uuid": "0efcbc76-f026-47f5-86c9-db4fc3aa8810",
+      "pin": "32",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K1",
+      "footprint_uuid": "0efcbc76-f026-47f5-86c9-db4fc3aa8810",
+      "pin": "4",
+      "termination": "Ferrule 14 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 14
+    },
+    {
+      "reference": "K1",
+      "footprint_uuid": "0efcbc76-f026-47f5-86c9-db4fc3aa8810",
+      "pin": "43",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K1",
+      "footprint_uuid": "0efcbc76-f026-47f5-86c9-db4fc3aa8810",
+      "pin": "44",
+      "termination": "Twin ferrule 2 \u00d7 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K1",
+      "footprint_uuid": "0efcbc76-f026-47f5-86c9-db4fc3aa8810",
+      "pin": "5",
+      "termination": "Ferrule 14 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 14
+    },
+    {
+      "reference": "K1",
+      "footprint_uuid": "0efcbc76-f026-47f5-86c9-db4fc3aa8810",
+      "pin": "6",
+      "termination": "Ferrule 14 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 14
+    },
+    {
+      "reference": "K1",
+      "footprint_uuid": "0efcbc76-f026-47f5-86c9-db4fc3aa8810",
+      "pin": "A1.BOT",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K1",
+      "footprint_uuid": "0efcbc76-f026-47f5-86c9-db4fc3aa8810",
+      "pin": "A1.TOP",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K1",
+      "footprint_uuid": "0efcbc76-f026-47f5-86c9-db4fc3aa8810",
+      "pin": "A2.BOT",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K1",
+      "footprint_uuid": "0efcbc76-f026-47f5-86c9-db4fc3aa8810",
+      "pin": "A2.TOP",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K2",
+      "footprint_uuid": "597b786e-4ac2-491c-9073-9bd131e26112",
+      "pin": "1",
+      "termination": "Ferrule 14 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 14
+    },
+    {
+      "reference": "K2",
+      "footprint_uuid": "597b786e-4ac2-491c-9073-9bd131e26112",
+      "pin": "2",
+      "termination": "Ferrule 14 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 14
+    },
+    {
+      "reference": "K2",
+      "footprint_uuid": "597b786e-4ac2-491c-9073-9bd131e26112",
+      "pin": "3",
+      "termination": "Ferrule 14 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 14
+    },
+    {
+      "reference": "K2",
+      "footprint_uuid": "597b786e-4ac2-491c-9073-9bd131e26112",
+      "pin": "31",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K2",
+      "footprint_uuid": "597b786e-4ac2-491c-9073-9bd131e26112",
+      "pin": "32",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K2",
+      "footprint_uuid": "597b786e-4ac2-491c-9073-9bd131e26112",
+      "pin": "4",
+      "termination": "Ferrule 14 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 14
+    },
+    {
+      "reference": "K2",
+      "footprint_uuid": "597b786e-4ac2-491c-9073-9bd131e26112",
+      "pin": "43",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K2",
+      "footprint_uuid": "597b786e-4ac2-491c-9073-9bd131e26112",
+      "pin": "44",
+      "termination": "Twin ferrule 2 \u00d7 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K2",
+      "footprint_uuid": "597b786e-4ac2-491c-9073-9bd131e26112",
+      "pin": "5",
+      "termination": "Ferrule 14 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 14
+    },
+    {
+      "reference": "K2",
+      "footprint_uuid": "597b786e-4ac2-491c-9073-9bd131e26112",
+      "pin": "6",
+      "termination": "Ferrule 14 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 14
+    },
+    {
+      "reference": "K2",
+      "footprint_uuid": "597b786e-4ac2-491c-9073-9bd131e26112",
+      "pin": "A1.BOT",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K2",
+      "footprint_uuid": "597b786e-4ac2-491c-9073-9bd131e26112",
+      "pin": "A1.TOP",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K2",
+      "footprint_uuid": "597b786e-4ac2-491c-9073-9bd131e26112",
+      "pin": "A2.BOT",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K2",
+      "footprint_uuid": "597b786e-4ac2-491c-9073-9bd131e26112",
+      "pin": "A2.TOP",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K4",
+      "footprint_uuid": "e649482a-048f-454d-b9e8-2685488b69c5",
+      "pin": "1",
+      "termination": "Ferrule 14 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 14
+    },
+    {
+      "reference": "K4",
+      "footprint_uuid": "e649482a-048f-454d-b9e8-2685488b69c5",
+      "pin": "2",
+      "termination": "N/A \u2014 direct-mounted connection",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": null
+    },
+    {
+      "reference": "K4",
+      "footprint_uuid": "e649482a-048f-454d-b9e8-2685488b69c5",
+      "pin": "3",
+      "termination": "Ferrule 14 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 14
+    },
+    {
+      "reference": "K4",
+      "footprint_uuid": "e649482a-048f-454d-b9e8-2685488b69c5",
+      "pin": "31",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K4",
+      "footprint_uuid": "e649482a-048f-454d-b9e8-2685488b69c5",
+      "pin": "32",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K4",
+      "footprint_uuid": "e649482a-048f-454d-b9e8-2685488b69c5",
+      "pin": "4",
+      "termination": "N/A \u2014 direct-mounted connection",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": null
+    },
+    {
+      "reference": "K4",
+      "footprint_uuid": "e649482a-048f-454d-b9e8-2685488b69c5",
+      "pin": "43",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K4",
+      "footprint_uuid": "e649482a-048f-454d-b9e8-2685488b69c5",
+      "pin": "44",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K4",
+      "footprint_uuid": "e649482a-048f-454d-b9e8-2685488b69c5",
+      "pin": "5",
+      "termination": "Ferrule 14 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 14
+    },
+    {
+      "reference": "K4",
+      "footprint_uuid": "e649482a-048f-454d-b9e8-2685488b69c5",
+      "pin": "6",
+      "termination": "N/A \u2014 direct-mounted connection",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": null
+    },
+    {
+      "reference": "K4",
+      "footprint_uuid": "e649482a-048f-454d-b9e8-2685488b69c5",
+      "pin": "A1.BOT",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K4",
+      "footprint_uuid": "e649482a-048f-454d-b9e8-2685488b69c5",
+      "pin": "A1.TOP",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K4",
+      "footprint_uuid": "e649482a-048f-454d-b9e8-2685488b69c5",
+      "pin": "A2.BOT",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K4",
+      "footprint_uuid": "e649482a-048f-454d-b9e8-2685488b69c5",
+      "pin": "A2.TOP",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K5",
+      "footprint_uuid": "fa8ee1db-f6fc-4498-b77f-a04dbe3a5d21",
+      "pin": "1",
+      "termination": "Ferrule 14 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 14
+    },
+    {
+      "reference": "K5",
+      "footprint_uuid": "fa8ee1db-f6fc-4498-b77f-a04dbe3a5d21",
+      "pin": "2",
+      "termination": "Ferrule 14 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 14
+    },
+    {
+      "reference": "K5",
+      "footprint_uuid": "fa8ee1db-f6fc-4498-b77f-a04dbe3a5d21",
+      "pin": "3",
+      "termination": "Twin ferrule 2 \u00d7 14 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 14
+    },
+    {
+      "reference": "K5",
+      "footprint_uuid": "fa8ee1db-f6fc-4498-b77f-a04dbe3a5d21",
+      "pin": "31",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K5",
+      "footprint_uuid": "fa8ee1db-f6fc-4498-b77f-a04dbe3a5d21",
+      "pin": "32",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K5",
+      "footprint_uuid": "fa8ee1db-f6fc-4498-b77f-a04dbe3a5d21",
+      "pin": "4",
+      "termination": "Ferrule 14 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 14
+    },
+    {
+      "reference": "K5",
+      "footprint_uuid": "fa8ee1db-f6fc-4498-b77f-a04dbe3a5d21",
+      "pin": "43",
+      "termination": "Twin ferrule 2 \u00d7 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K5",
+      "footprint_uuid": "fa8ee1db-f6fc-4498-b77f-a04dbe3a5d21",
+      "pin": "44",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K5",
+      "footprint_uuid": "fa8ee1db-f6fc-4498-b77f-a04dbe3a5d21",
+      "pin": "5",
+      "termination": "Ferrule 14 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 14
+    },
+    {
+      "reference": "K5",
+      "footprint_uuid": "fa8ee1db-f6fc-4498-b77f-a04dbe3a5d21",
+      "pin": "6",
+      "termination": "Ferrule 14 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 14
+    },
+    {
+      "reference": "K5",
+      "footprint_uuid": "fa8ee1db-f6fc-4498-b77f-a04dbe3a5d21",
+      "pin": "A1.BOT",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K5",
+      "footprint_uuid": "fa8ee1db-f6fc-4498-b77f-a04dbe3a5d21",
+      "pin": "A1.TOP",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K5",
+      "footprint_uuid": "fa8ee1db-f6fc-4498-b77f-a04dbe3a5d21",
+      "pin": "A2.BOT",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K5",
+      "footprint_uuid": "fa8ee1db-f6fc-4498-b77f-a04dbe3a5d21",
+      "pin": "A2.TOP",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K6",
+      "footprint_uuid": "a4bc448f-0f6b-457b-8ecb-67b424a87ff1",
+      "pin": "1",
+      "termination": "Ferrule 14 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 14
+    },
+    {
+      "reference": "K6",
+      "footprint_uuid": "a4bc448f-0f6b-457b-8ecb-67b424a87ff1",
+      "pin": "2",
+      "termination": "N/A \u2014 direct-mounted connection",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": null
+    },
+    {
+      "reference": "K6",
+      "footprint_uuid": "a4bc448f-0f6b-457b-8ecb-67b424a87ff1",
+      "pin": "3",
+      "termination": "Ferrule 14 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 14
+    },
+    {
+      "reference": "K6",
+      "footprint_uuid": "a4bc448f-0f6b-457b-8ecb-67b424a87ff1",
+      "pin": "31",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K6",
+      "footprint_uuid": "a4bc448f-0f6b-457b-8ecb-67b424a87ff1",
+      "pin": "32",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K6",
+      "footprint_uuid": "a4bc448f-0f6b-457b-8ecb-67b424a87ff1",
+      "pin": "4",
+      "termination": "N/A \u2014 direct-mounted connection",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": null
+    },
+    {
+      "reference": "K6",
+      "footprint_uuid": "a4bc448f-0f6b-457b-8ecb-67b424a87ff1",
+      "pin": "43",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K6",
+      "footprint_uuid": "a4bc448f-0f6b-457b-8ecb-67b424a87ff1",
+      "pin": "44",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K6",
+      "footprint_uuid": "a4bc448f-0f6b-457b-8ecb-67b424a87ff1",
+      "pin": "5",
+      "termination": "Ferrule 14 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 14
+    },
+    {
+      "reference": "K6",
+      "footprint_uuid": "a4bc448f-0f6b-457b-8ecb-67b424a87ff1",
+      "pin": "6",
+      "termination": "N/A \u2014 direct-mounted connection",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": null
+    },
+    {
+      "reference": "K6",
+      "footprint_uuid": "a4bc448f-0f6b-457b-8ecb-67b424a87ff1",
+      "pin": "A1.BOT",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K6",
+      "footprint_uuid": "a4bc448f-0f6b-457b-8ecb-67b424a87ff1",
+      "pin": "A1.TOP",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K6",
+      "footprint_uuid": "a4bc448f-0f6b-457b-8ecb-67b424a87ff1",
+      "pin": "A2.BOT",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    },
+    {
+      "reference": "K6",
+      "footprint_uuid": "a4bc448f-0f6b-457b-8ecb-67b424a87ff1",
+      "pin": "A2.TOP",
+      "termination": "Ferrule 18 AWG; L=TBD mm",
+      "source": "Moved from existing symbol field",
+      "checked_current_AWG": 18
+    }
+  ],
+  "contactor_placements_changed": false,
+  "busbar_global_artwork_changed": false,
+  "S2_terminal_join_repairs": [
+    {
+      "net": "DIRECTION_ENABLE",
+      "point": [
+        "384",
+        "607"
+      ],
+      "target": [
+        "391.25",
+        "607.035141"
+      ],
+      "terminal": "S2.2B",
+      "remove": "69f785cf-adf9-4426-9f73-41cf1151ef5b",
+      "redirect": [
+        "435b4950-5220-4897-8d1e-c80b495a4f26",
+        "f7d91ee3-8082-44a2-9134-0b447bc5b6f9"
+      ]
+    },
+    {
+      "net": "CONTROL_OVERLOAD_ENABLE",
+      "point": [
+        "442.483245",
+        "648.516755"
+      ],
+      "target": [
+        "434.75",
+        "648.516755"
+      ],
+      "terminal": "S2.3T",
+      "remove": "20b775d2-4793-4149-a3d6-b96b88f8cb61",
+      "redirect": [
+        "36ef7de5-331d-4a2e-a734-ad2723e28778",
+        "433063e8-743b-47ad-a681-48d9269170d4"
+      ]
+    }
+  ],
+  "S2_retained_links": {
+    "schema": 1,
+    "pairs": [
+      [
+        "1T",
+        "3T"
+      ],
+      [
+        "3T",
+        "5T"
+      ]
+    ]
+  },
+  "other_tracks_changed": false,
+  "existing_host_origin_spacing_mm": 58,
+  "notes": [
+    "Logical contact targets match the saved HMC grid pads; physical busbar fit is not newly qualified.",
+    "BB2 origin changes from Y=130.0625 to the host datum Y=130. Its graphics and fields translate +0.0625 mm locally, preserving their global board positions. The six logical pads move down 0.0625 mm to the host terminals.",
+    "Current shared footprints and descriptions are made consistent with the existing 58 mm logical routing target span.",
+    "Missing contactor terminations restored from recorded selections after matching the current footprint UUIDs, pad IDs and Wire.Sizes AWG.",
+    "Two existing S2 off-terminal branches are moved onto S2.2B and S2.3T, preserving their nets and terminal endpoint relationships.",
+    "The installed S2 links 1T-3T and 3T-5T are explicitly retained hardware; the required 2B-4B jumper remains a scheduled new wire."
+  ]
+}

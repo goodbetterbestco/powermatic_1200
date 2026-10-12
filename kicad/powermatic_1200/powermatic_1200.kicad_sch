@@ -14,6 +14,14 @@
 			(on_board no)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(jumper_pin_groups
+				("1B" "2B")
+				("1T" "3T")
+				("3B" "4B" "5B")
+				("4T" "6T")
+				("5T" "7T")
+				("7B" "8B")
+			)
 			(property "Reference" "S"
 				(at 0 23.495 0)
 				(show_name no)
@@ -2983,8 +2991,8 @@
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
-			(on_board no)
-			(in_pos_files yes)
+			(on_board yes)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "M"
 				(at 0 14.605 0)
@@ -3006,7 +3014,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Controls:PWRM1200-MOTOR_Top_150mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3072,7 +3080,7 @@
 					)
 				)
 			)
-			(property "Package" ""
+			(property "Package" "Machine motor (150 mm illustrative top view)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -17535,8 +17543,8 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(in_pos_files yes)
+		(on_board yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "f758497e-4710-4fd6-9851-f0e206557c67")
 		(property "Reference" "M1"
@@ -17559,7 +17567,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Controls:PWRM1200-MOTOR_Top_150mm"
 			(at 302.26 -7.62 0)
 			(hide yes)
 			(show_name no)
@@ -17625,7 +17633,7 @@
 				)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "Machine motor (150 mm illustrative top view)"
 			(at 302.26 -7.62 0)
 			(hide yes)
 			(show_name no)

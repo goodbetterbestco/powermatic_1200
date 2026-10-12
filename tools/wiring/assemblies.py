@@ -9,6 +9,40 @@ def supplied_assemblies(board, footprints, pin_nets):
     pads = {(p['footprint_id'], p['pin']): p for p in board['pads']}
     aliases, connections, assemblies = {}, [], []
     for footprint in footprints:
+        retained = prop(footprint, 'Wire.RetainedLinks')
+        if retained is not None:
+            fid = one(footprint, 'uuid')[1]
+            ref = prop(footprint, 'Reference')
+            payload = json.loads(retained)
+            pairs = payload.get('pairs', [])
+            if payload.get('schema') != 1 or not isinstance(pairs, list) or not pairs:
+                raise ValueError(ref + ': invalid retained-link declaration.')
+            bridges, seen = [], set()
+            for pair in pairs:
+                if (not isinstance(pair, list) or len(pair) != 2
+                        or not all(isinstance(pin, str) for pin in pair)
+                        or pair[0] == pair[1] or frozenset(pair) in seen):
+                    raise ValueError(ref + ': retained links require unique two-terminal pairs.')
+                seen.add(frozenset(pair))
+                contacts = [pads.get((fid, pin)) for pin in pair]
+                if any(p is None for p in contacts):
+                    raise ValueError(ref + ': retained link references a missing terminal.')
+                nets = {p['net'] for p in contacts}
+                if (len(nets) != 1 or not next(iter(nets))
+                        or next(iter(nets)).startswith('unconnected-')
+                        or any(pin_nets.get((ref, p['pin'])) != p['net'] for p in contacts)):
+                    raise ValueError(ref + ': retained link and saved schematic nets disagree.')
+                endpoints = [[ref, p['pin']] for p in contacts]
+                bridge = {'assembly': ref, 'part': prop(footprint, 'MPN'),
+                          'pad_ids': [p['id'] for p in contacts],
+                          'endpoints': endpoints, 'net': contacts[0]['net']}
+                connections.append(bridge)
+                bridges.append(bridge)
+                board['internal_groups'].append(endpoints)
+            assemblies.append({'reference': ref, 'part': prop(footprint, 'MPN'),
+                               'quantity': 0, 'kind': 'retained_links',
+                               'kit_id': None, 'piece': prop(footprint, 'PartID'),
+                               'connections': bridges})
         if prop(footprint, 'Wire.SuppliedAssembly') != 'busbar':
             continue
         fid = one(footprint, 'uuid')[1]

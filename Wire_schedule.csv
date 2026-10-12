@@ -14,5 +14,6 @@ Mains Plug,J2_X,Terminal 40,TB40_BOT,12,270,B12,F12_10mm
 Mains Plug,J2_Y,Terminal 41,TB41_BOT,12,270,B12,F12_10mm
 Mains Plug,J2_Z,Terminal 42,TB42_BOT,12,270,B12,F12_10mm
 DC Power Supply,PS1_PE,Terminal 50,TB50_2,14,300,B14_5mm,F14_10mm
+Button Station,S2_2B,Button Station,S2_4B,16,160,R16_832_9mm,
 Terminal 43,TB43_1,Terminal 51,TB51_2,12,360,F12_10mm,F12_10mm
 Terminal 50,TB50_1,Terminal 52,TB52_2,14,270,F14_10mm,F14_10mm
