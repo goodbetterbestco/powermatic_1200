@@ -1,63 +1,63 @@
-TYPE,NAME,QUA,PACK,ORDER,UNIT,COST,LINE,SUPPLIER,SPN,SOURCE,SOURCE KEY
-Contactor,Power Contactor,5,1,5,EA,31.00,155.00,AD,HMC-9B30-11-DS,KiCad,part:hmc9b3011ds
-Contactor,Contactor Interlock,2,1,2,EA,16.50,33.00,AD,HMX1-MI,KiCad,part:hmx1mi
-Contactor,Coil Enable Relay,1,1,1,EA,46.50,46.50,AD,HC3096N-52-900-24,KiCad,part:hc3096n5290024
-Contactor,Reversing Busbar Kit,1,1,1,EA,17.00,17.00,AD,HMX1-BBREV,Local,
-Power,Circuit Breaker,1,1,1,EA,59,59.00,AD,FAZ-D4-2-NA-L,KiCad,part:fazd42nal
-Fuse,Power Fuse,3,1,3,EA,7.74,23.22,AllFuses,FRN-R-10,KiCad,part:frnr10
-Fuse,Fuse Holder,1,1,1,EA,54.00,54.00,AD,RM25030-3SR,KiCad,part:rm250303sr
-Fuse,Fuse Cover,3,1,3,EA,18.50,55.50,AD,CVRI-RH-25030,KiCad,part:cvrrh25030
-Contactor,Thermal Overload,2,1,2,EA,31.50,63.00,AD,HTOR32-6-S,KiCad,part:htor326s
-Contactor,Coil Surge Suppressor,5,1,5,EA,12.00,60.00,AD,HMX1-SSVRC-DC,KiCad,part:hmx1ssvrcdc
-Operator,Red Indicator,1,1,1,EA,52.92,52.92,DK,XB4BVB4,KiCad,part:xb4bvb4
-Terminal,Feedthrough Terminal,57,100,1,PACK,36.50,36.50,AD,KN-T12GRY-100,KiCad,part:knt12gry25
-Terminal,End Cover,31,25,2,PACK,6.75,13.50,AD,KN-ECT6GRY-25,Local,
-Terminal,End Bracket,9,10,1,PACK,13.50,13.50,AD,KN-EB7V0-10,KiCad,part:kneb710
-Terminal,Terminal Jumper,5,5,1,PACK,13.50,13.50,AD,KN-10J12,Local,
-Terminal,Adhesive Marker,62,250,1,PACK,13.50,13.50,AD,KN-L5-BLANK-250,Local,
-Enclosure,Enclosure,1,1,1,EA,454.00,454.00,AD,EN4SD30208GY,KiCad,part:en4sd30208gy
-Enclosure,Backplate,1,1,1,EA,106.00,106.00,AD,EP3020,Local,
-Enclosure,Mounting Feet,4,4,1,PACK,20.00,20.00,AD,EZPMFHD,Local,
-Enclousre,DIN Rail,3,4,1,EA,11.00,11.00,AD,DN-R35S-400-4,Local,
-Conduit,WireDuct 40x80x1000mm,3,1,3,EA,18.50,55.50,AD,T1-1530G1-1,KiCad,part:t11530g11
-Hardware,Single Ferrule,3,100,1,PACK,10.43,10.43,MCMC,7950K16,Local,
-Hardware,Single Ferrule,4,100,1,PACK,11.70,11.70,MCMC,7950K71,Local,
-Hardware,Single Ferrule,45,100,1,PACK,11.79,11.79,MCMC,7950K73,Local,
-Hardware,Single Ferrule,14,100,1,PACK,15.89,15.89,MCMC,7950K24,Local,
-Hardware,Single Ferrule,32,1,40,EA,.27,10.80,DK,3202533,Local,
-Hardware,Single Ferrule,12,100,1,PACK,17.49,17.49,MCMC,7950K31,Local,
-Hardware,Ring Terminal 16-14,13,50,1,PACK,11.38,11.38,MCMC,7113K49,Local,
-Hardware,Ring Terminal 16-14,3,50,1,PACK,11.38,11.38,MCMC,7113K24,Local,
-Hardware,Ring Terminal 12-10,3,10,1,PACK,15.69,15.69,MCMC,8429T62,Local,
-Wiring,Machine Tool Wire,119.5,50,3,FT,20.50,61.50,MCMC,9874T13,Local,
-Wiring,Machine Tool Wire,7.2,10,1,FT,65.22,65.22,MCMC,6513T531,Local,
-Terminal,Grounding Terminal,5,10,1,PACK,29,29.00,AD,KN-G12SP-10,KiCad,part:kng12sp10
-Terminal,Separator,28,10,3,PACK,5,15.00,AD,KN-ST1BLK,KiCad,part:knst1blk
-Terminal,Top Cover,44,25,2,PACK,15.00,30.00,AD,KN-TC-1S,Local,
-Enclosure,Bonding Kit,3,2,2,PACK,36.00,72.00,AD,GRDKIT01,Local,
-Wiring,Machine Tool Wire,8.6,50,1,FT,94.27,94.27,MCMC,6513T633,Local,
-Wiring,Machine Tool Wire,93.8,50,2,FT,13.00,26.00,MCMC,9874T11,Local,
-Wiring,Machine Tool Wire,58.7,100,1,FT,33.00,33.00,MCMC,9874T12,Local,
-Hardware,Wago Lever Splice 3-Port,2,30,1,PACK,24.50,24.50,AD,221-613,Local,
-Conduit,Mains Cable Gland,1,5,1,PACK,16.50,16.50,AD,BNSPDX-23-W,Local,
-Wiring,Machine Tool Wire,11.7,50,1,FT,31.00,31.00,MCMC,9874T14,Local,
-Fuse,DC Feed Fused Terminal,1,1,1,EA,21.78,21.78,MCMC,9553T3,KiCad,part:281623
-Terminal,Fuse End Cover,1,1,1,EA,1.65,1.65,MCMC,9553T2,KiCad,part:9553t2
-Fuse,Control Fuse,1,5,1,PACK,13.50,13.50,AD,ABC2,Local,
-Conduit,Liquidtight Conduit,6,10,1,FT,20.40,20.40,MCMC,7581K42,Local,
-Conduit,Straight Conduit Connector,4,1,4,EA,2.99,11.96,MCMC,9106K422,Local,
-Conduit,Elbow Conduit Connector,2,1,2,EA,4.87,9.74,MCMC,9106K522,Local,
-Conduit,Reducer Bushing,1,1,1,EA,2.07,2.07,MCMC,44605K262,Local,
-Hardware,Grounding Kit,2,1,2,EA,3.25,6.50,AD,WGNDKT,Local,
-switch,Speed Switch,1,1,0,EA,0,0.00,GBB," 365-TAV2111",KiCad,part:365tav2111
-indicator,White Indicator,1,1,0,EA,0,0.00,GBB,XB4BVB1,KiCad,part:xb4bvb1
-switch,Button Station,1,1,0,EA,0,0.00,GBB,50MA3KLE,KiCad,part:50ma3kle
-connector,M12 Panel Socket,1,1,0,EA,0,0.00,GBB,A125513-ND,KiCad,part:t4171310004001
-power supply,DC Power Supply,1,1,0,EA,0,0.00,GBB,NDR-240-24,KiCad,part:ndr24024
-switch,Motor Disconnect,1,1,0,EA,0,0.00,GBB,6759K211,KiCad,part:222102
-motor,Two-Speed Motor,1,1,0,EA,0.00,0.00,GBB,5K_184_TFR2_7BB,KiCad,part:5k184tfr27bb
-Wiring,Mains Cable,1,1,0,EA,0.00,0.00,GBB,WXP_4A_1204_25,Local,
-switch,Emergency Stop,1,1,0,EA,0.00,0.00,GBB,XB4BS8444,KiCad,part:xb4bs8444
-Timer,Multifunction Timer,2,1,2,EA,53.00,106.00,AD,RK7817-81-61,KiCad,part:rk78178161
-Contactor,Auxiliary Contacts,1,1,1,EA,8.50,8.50,AD,HMX1-AUX11-F,KiCad,part:hmx1aux11f
-Hardware,Wago Lever Splice 2-Port,6,50,1,PACK,30.50,30.50,AD,221-612,Local,
+TYPE,NAME,QUA,PACK,ORDER,UNIT,COST,LINE,SUPPLIER,SPN
+Contactor,Power Contactor,5,1,5,EA,31.00,155.00,AD,HMC-9B30-11-DS
+Contactor,Contactor Interlock,2,1,2,EA,16.50,33.00,AD,HMX1-MI
+Contactor,Coil Enable Relay,1,1,1,EA,46.50,46.50,AD,HC3096N-52-900-24
+Contactor,Reversing Busbar Kit,1,1,1,EA,17.00,17.00,AD,HMX1-BBREV
+Power,Circuit Breaker,1,1,1,EA,59,59.00,AD,FAZ-D4-2-NA-L
+Fuse,Power Fuse,3,1,3,EA,7.74,23.22,AllFuses,FRN-R-10
+Fuse,Fuse Holder,1,1,1,EA,54.00,54.00,AD,RM25030-3SR
+Fuse,Fuse Cover,3,1,3,EA,18.50,55.50,AD,CVRI-RH-25030
+Contactor,Thermal Overload,2,1,2,EA,31.50,63.00,AD,HTOR32-6-S
+Contactor,Coil Surge Suppressor,5,1,5,EA,12.00,60.00,AD,HMX1-SSVRC-DC
+Operator,Red Indicator,1,1,1,EA,52.92,52.92,DK,XB4BVB4
+Terminal,Feedthrough Terminal,57,100,1,PACK,36.50,36.50,AD,KN-T12GRY-100
+Terminal,End Cover,31,25,2,PACK,6.75,13.50,AD,KN-ECT6GRY-25
+Terminal,End Bracket,9,10,1,PACK,13.50,13.50,AD,KN-EB7V0-10
+Terminal,Terminal Jumper,5,5,1,PACK,13.50,13.50,AD,KN-10J12
+Terminal,Adhesive Marker,62,250,1,PACK,13.50,13.50,AD,KN-L5-BLANK-250
+Enclosure,Enclosure,1,1,1,EA,454.00,454.00,AD,EN4SD30208GY
+Enclosure,Backplate,1,1,1,EA,106.00,106.00,AD,EP3020
+Enclosure,Mounting Feet,4,4,1,PACK,20.00,20.00,AD,EZPMFHD
+Enclousre,DIN Rail,3,4,1,EA,11.00,11.00,AD,DN-R35S-400-4
+Conduit,WireDuct 40x80x1000mm,3,1,3,EA,18.50,55.50,AD,T1-1530G1-1
+Hardware,Single Ferrule,3,100,1,PACK,10.43,10.43,MCMC,7950K16
+Hardware,Single Ferrule,4,100,1,PACK,11.70,11.70,MCMC,7950K71
+Hardware,Single Ferrule,45,100,1,PACK,11.79,11.79,MCMC,7950K73
+Hardware,Single Ferrule,14,100,1,PACK,15.89,15.89,MCMC,7950K24
+Hardware,Single Ferrule,32,1,40,EA,.27,10.80,DK,3202533
+Hardware,Single Ferrule,12,100,1,PACK,17.49,17.49,MCMC,7950K31
+Hardware,Ring Terminal 16-14,13,50,1,PACK,11.38,11.38,MCMC,7113K49
+Hardware,Ring Terminal 16-14,3,50,1,PACK,11.38,11.38,MCMC,7113K24
+Hardware,Ring Terminal 12-10,3,10,1,PACK,15.69,15.69,MCMC,8429T62
+Wiring,Machine Tool Wire,119.5,50,3,FT,20.50,61.50,MCMC,9874T13
+Wiring,Machine Tool Wire,7.2,10,1,FT,65.22,65.22,MCMC,6513T531
+Terminal,Grounding Terminal,5,10,1,PACK,29,29.00,AD,KN-G12SP-10
+Terminal,Separator,28,10,3,PACK,5,15.00,AD,KN-ST1BLK
+Terminal,Top Cover,44,25,2,PACK,15.00,30.00,AD,KN-TC-1S
+Enclosure,Bonding Kit,3,2,2,PACK,36.00,72.00,AD,GRDKIT01
+Wiring,Machine Tool Wire,8.6,50,1,FT,94.27,94.27,MCMC,6513T633
+Wiring,Machine Tool Wire,93.8,50,2,FT,13.00,26.00,MCMC,9874T11
+Wiring,Machine Tool Wire,58.7,100,1,FT,33.00,33.00,MCMC,9874T12
+Hardware,Wago Lever Splice 3-Port,2,30,1,PACK,24.50,24.50,AD,221-613
+Conduit,Mains Cable Gland,1,5,1,PACK,16.50,16.50,AD,BNSPDX-23-W
+Wiring,Machine Tool Wire,11.7,50,1,FT,31.00,31.00,MCMC,9874T14
+Fuse,DC Feed Fused Terminal,1,1,1,EA,21.78,21.78,MCMC,9553T3
+Terminal,Fuse End Cover,1,1,1,EA,1.65,1.65,MCMC,9553T2
+Fuse,Control Fuse,1,5,1,PACK,13.50,13.50,AD,ABC2
+Conduit,Liquidtight Conduit,6,10,1,FT,20.40,20.40,MCMC,7581K42
+Conduit,Straight Conduit Connector,4,1,4,EA,2.99,11.96,MCMC,9106K422
+Conduit,Elbow Conduit Connector,2,1,2,EA,4.87,9.74,MCMC,9106K522
+Conduit,Reducer Bushing,1,1,1,EA,2.07,2.07,MCMC,44605K262
+Hardware,Grounding Kit,2,1,2,EA,3.25,6.50,AD,WGNDKT
+switch,Speed Switch,1,1,0,EA,0,0.00,GBB," 365-TAV2111"
+indicator,White Indicator,1,1,0,EA,0,0.00,GBB,XB4BVB1
+switch,Button Station,1,1,0,EA,0,0.00,GBB,50MA3KLE
+connector,M12 Panel Socket,1,1,0,EA,0,0.00,GBB,A125513-ND
+power supply,DC Power Supply,1,1,0,EA,0,0.00,GBB,NDR-240-24
+switch,Motor Disconnect,1,1,0,EA,0,0.00,GBB,6759K211
+motor,Two-Speed Motor,1,1,0,EA,0.00,0.00,GBB,5K_184_TFR2_7BB
+Wiring,Mains Cable,1,1,0,EA,0.00,0.00,GBB,WXP_4A_1204_25
+switch,Emergency Stop,1,1,0,EA,0.00,0.00,GBB,XB4BS8444
+Timer,Multifunction Timer,2,1,2,EA,53.00,106.00,AD,RK7817-81-61
+Contactor,Auxiliary Contacts,1,1,1,EA,8.50,8.50,AD,HMX1-AUX11-F
+Hardware,Wago Lever Splice 2-Port,6,50,1,PACK,30.50,30.50,AD,221-612
