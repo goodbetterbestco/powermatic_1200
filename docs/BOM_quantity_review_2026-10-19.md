@@ -1,20 +1,22 @@
 # BOM quantity review — 2026-10-19
 
-The 62-row `BOM_other.csv` does not show a general quantity-column scramble. The saved component and termination counts reconcile. Two wire requirements are slightly stale, one splice requirement is blank, and some physical parts need explicit purchasing coverage. No BOM cells were changed during this review. Its saved purchase total is **$2,203.28**.
+The 62-row `BOM_other.csv` does not show a general quantity-column scramble. The saved component and termination counts reconcile. The two stale wire requirements and obsolete WAGO row have now been corrected. All six loose-wire QUA values round upward to one decimal place. Its saved purchase total is **$2,206.78**, up $3.50 from the initial $2,203.28 audit total.
 
-## Deviations and unresolved coverage
+## Resolved deviations and remaining hardware check
 
 | Item | Saved BOM | Current evidence | Disposition |
 | --- | --- | --- | --- |
-| 16 AWG blue wire, `9874T12` | QUA 58.498 ft | Saved routes plus existing installation/end allowances require **58.695 ft** | Understated by 0.197 ft. ORDER 1 × PACK 100 ft still covers it. |
-| 14 AWG green/yellow wire, `6513T531` | QUA 7.087 ft | Same method requires **7.153 ft** | Understated by 0.066 ft. ORDER 1 × PACK 10 ft still covers it. |
-| Two-port WAGO, `221-612` | **Blank QUA**, PACK 50, ORDER 1, LINE $30.50 | No explicit two-port splice was found in the saved schematic/PCB; GS1 is a three-port `221-613` | Requirement remains unknown. Confirm intended use or remove this purchase; do not treat a blank as zero or as a verified requirement. |
+| 16 AWG blue wire, `9874T12` | QUA **58.7 ft** | Saved routes plus existing installation/end allowances require 58.695 ft | Corrected from 58.498 ft. ORDER 1 × PACK 100 ft still covers it. |
+| 14 AWG green/yellow wire, `6513T531` | QUA **7.2 ft** | Same method requires 7.153 ft | Corrected from 7.087 ft. ORDER 1 × PACK 10 ft still covers it. |
+| Two-port WAGO, `221-412` | QUA **6**, PACK **100**, ORDER 1, LINE **$34.00** | Wiring standard selects six two-port motor-lead splices, one for each T1–T6 conductor | Replaced the obsolete blank-QUA `221-612` row. Current AD listing specifies 100 per pack at $34.00. |
 | Three-port WAGO, `221-613` | QUA 2, PACK 30, ORDER 1 | One explicit GS1 splice and the motor PE splice represented by M1.PE | Two intended splices are supported by the wiring policy, although only one has its own part reference. |
-| Speed/direction gland, `BSPBX-22-W` | No dedicated row | J3 is present on the PCB | Account for **one** of this exact gland or document a compatible substitution/on-hand source. |
-| Motor gland, `BSPDX-23-W` | No dedicated row | J4 is present on the PCB | Account for **one** of this exact gland or document a compatible substitution/on-hand source. The `BNSPDX-23-W` mains-gland row does not establish that coverage. |
+| Speed/direction gland proxy, `BSPBX-22-W` | No purchase required | J3 is a drawing proxy superseded by the selected LFNC-B fittings | The initial audit incorrectly classified it as missing. Existing conduit/fitting rows cover this run. |
+| Motor gland proxy, `BSPDX-23-W` | No purchase required | J4 is a drawing proxy superseded by the selected LFNC-B fittings | The initial audit incorrectly classified it as missing. Retain the distinct mains-gland purchase. |
 | Frame/motor-bell PE hardware | No dedicated `Frame_PE_Lug_20mm` row | J5 and J7 are separate mechanical bonding points | Verify the applicable GBB/on-hand hardware allocation. The footprint is a bonding-location model, not an established purchasing SKU. |
 
-The blank `221-612` row is included in the $2,203.28 total because ORDER is 1. Setting ORDER to zero would reduce the total by $30.50, but no such change was made.
+The wiring standard explicitly supersedes the original two-port `221-612` PE proposal with `221-613`, while specifying six `221-412` motor power splices. Two `221-613` connectors remain required: the motor PE junction and GS1 at S3. Their existing one-pack purchase is unchanged. The corrected `221-412` purchase replaces the $30.50 obsolete line with a $34.00 line. [AutomationDirect pack and price, checked 2026-10-19](https://www.automationdirect.com/adc/shopping/catalog/wire_-a-_cable_termination/splicing_connectors/splicing_connectors/221-412).
+
+The gland resolution follows the existing **External conduit runs** policy in `WIRING_STANDARD.md`: J3/J4 artwork is excluded from BOM auto-add. The BOM already specifies 6 ft of LFNC-B, four `9106K422` straight fittings, two `9106K522` elbows and one `44605K262` reducer. Adding the old gland SKUs would duplicate superseded hardware.
 
 ## Quantities that reconcile
 
@@ -55,18 +57,18 @@ These are preparation counts; this review does not revalidate the substituted ri
 
 | Wire group | SKU | BOM QUA, ft | Current requirement, ft | Purchased stock, ft |
 | --- | --- | ---: | ---: | ---: |
-| 18 AWG blue | 9874T11 | 93.734 | 93.734 | 100 |
-| 16 AWG blue | 9874T12 | 58.498 | **58.695** | 100 |
-| 14 AWG black | 9874T13 | 119.456 | 119.456 | 150 |
-| 12 AWG black | 9874T14 | 11.680 | 11.680 | 50 |
-| 14 AWG green/yellow | 6513T531 | 7.087 | **7.153** | 10 |
-| 12 AWG green/yellow | 6513T633 | 8.563 | 8.563 | 50 |
+| 18 AWG blue | 9874T11 | 93.8 | 93.734 | 100 |
+| 16 AWG blue | 9874T12 | 58.7 | 58.695 | 100 |
+| 14 AWG black | 9874T13 | 119.5 | 119.456 | 150 |
+| 12 AWG black | 9874T14 | 11.7 | 11.680 | 50 |
+| 14 AWG green/yellow | 6513T531 | 7.2 | 7.153 | 10 |
+| 12 AWG green/yellow | 6513T633 | 8.6 | 8.563 | 50 |
 
-Calculated needs round upward to 0.001 ft. All six purchased stock amounts exceed the aggregate requirements. The 18 AWG blue stock has the least aggregate margin, about 6.266 ft. Individual spool cut allocation was not re-optimized in this review.
+Calculated needs in the evidence column round upward to 0.001 ft; saved wire QUA values round upward to **0.1 ft**, as requested. All six purchased stock amounts exceed the aggregate requirements. The 18 AWG blue stock has the least margin against the rounded BOM requirement, 6.2 ft. Individual spool cut allocation was not re-optimized in this review.
 
 The current saved PCB yields 124 routed wire rows. Loose stock excludes four factory M12 pigtails, four mains-cable tails, and two supplied 10 AWG bonding-assembly spans. Loose-stock total is 91,220 mm (about 299.278 ft before per-group rounding). Motor/station installation estimates retain the owner's 2026-10-15 run assumptions and normal termination/service allowances, rather than illustrative exterior PCB tracks.
 
-Across all rows with a numeric QUA, `PACK × ORDER ≥ QUA`, except GBB items which are explicitly on hand and retain ORDER 0. All 62 saved LINE values equal `ORDER × COST`. No purchase shortage was established for the listed, quantified requirements; blank requirements and missing coverage above remain open.
+All rows now have numeric QUA. `PACK × ORDER ≥ QUA`, except GBB items which are explicitly on hand and retain ORDER 0. All 62 saved LINE values equal `ORDER × COST`. No purchase shortage was established for the listed requirements; the separate mechanical bonding-hardware check above remains open.
 
 ## Review app defect
 
@@ -74,7 +76,7 @@ The current flat-file editing path recalculated LINE using QUA × COST even when
 
 The Open controls were replaced by a Documents dropdown listing root CSV names. Selection changes the loaded document and guarded Overwrite destination. Refresh reloads that selected CSV. Unsaved changes require confirmation before switching; stale saves and paths outside the project are rejected. `Project Review.app` launches the separate `~/Projects/bom_review` application. No JLCPCB BOM was invented; that document appears in the selector when a real `BOM_jlcpcb.csv` is added.
 
-Validation: 58 Python tests and 30 JavaScript tests passed, including document listing, selected-file overwrite, stale-version rejection, path/symlink restrictions and ORDER-based calculations. Browser checks used a temporary two-document project: cancelling a switch retained edits, Overwrite changed only the selected fixture, and switching back restored the $2,203.28 BOM total. The real BOM remained byte-identical.
+Validation: 58 Python tests and 30 JavaScript tests passed, including document listing, selected-file overwrite, stale-version rejection, path/symlink restrictions and ORDER-based calculations. Initial browser checks used a temporary two-document project: cancelling a switch retained edits, Overwrite changed only the selected fixture, and switching back restored the initial BOM total. The subsequent authorized BOM edit changed only six wire QUA cells, the two WAGO display names and the former `221-612` row's specification. The reviewer preserves the saved one-decimal wire quantities through CSV round trips.
 
 ## Evidence and limits
 

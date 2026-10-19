@@ -29,18 +29,18 @@ Hardware,Single Ferrule,12,100,1,PACK,17.49,17.49,MCMC,7950K31,Local,
 Hardware,Ring Terminal 16-14,13,50,1,PACK,11.38,11.38,MCMC,7113K49,Local,
 Hardware,Ring Terminal 16-14,3,50,1,PACK,11.38,11.38,MCMC,7113K24,Local,
 Hardware,Ring Terminal 12-10,3,10,1,PACK,15.69,15.69,MCMC,8429T62,Local,
-Wiring,Machine Tool Wire,119.456,50,3,FT,20.50,61.50,MCMC,9874T13,Local,
-Wiring,Machine Tool Wire,7.087,10,1,FT,65.22,65.22,MCMC,6513T531,Local,
+Wiring,Machine Tool Wire,119.5,50,3,FT,20.50,61.50,MCMC,9874T13,Local,
+Wiring,Machine Tool Wire,7.2,10,1,FT,65.22,65.22,MCMC,6513T531,Local,
 Terminal,Grounding Terminal,5,10,1,PACK,29,29.00,AD,KN-G12SP-10,KiCad,part:kng12sp10
 Terminal,Separator,28,10,3,PACK,5,15.00,AD,KN-ST1BLK,KiCad,part:knst1blk
 Terminal,Top Cover,44,25,2,PACK,15.00,30.00,AD,KN-TC-1S,Local,
 Enclosure,Bonding Kit,3,2,2,PACK,36.00,72.00,AD,GRDKIT01,Local,
-Wiring,Machine Tool Wire,8.563,50,1,FT,94.27,94.27,MCMC,6513T633,Local,
-Wiring,Machine Tool Wire,93.734,50,2,FT,13.00,26.00,MCMC,9874T11,Local,
-Wiring,Machine Tool Wire,58.498,100,1,FT,33.00,33.00,MCMC,9874T12,Local,
-Hardware,Wago Lever Splice,2,30,1,PACK,24.50,24.50,AD,221-613,Local,
+Wiring,Machine Tool Wire,8.6,50,1,FT,94.27,94.27,MCMC,6513T633,Local,
+Wiring,Machine Tool Wire,93.8,50,2,FT,13.00,26.00,MCMC,9874T11,Local,
+Wiring,Machine Tool Wire,58.7,100,1,FT,33.00,33.00,MCMC,9874T12,Local,
+Hardware,Wago Lever Splice 3-Port,2,30,1,PACK,24.50,24.50,AD,221-613,Local,
 Conduit,Mains Cable Gland,1,5,1,PACK,16.50,16.50,AD,BNSPDX-23-W,Local,
-Wiring,Machine Tool Wire,11.68,50,1,FT,31.00,31.00,MCMC,9874T14,Local,
+Wiring,Machine Tool Wire,11.7,50,1,FT,31.00,31.00,MCMC,9874T14,Local,
 Fuse,DC Feed Fused Terminal,1,1,1,EA,21.78,21.78,MCMC,9553T3,KiCad,part:281623
 Terminal,Fuse End Cover,1,1,1,EA,1.65,1.65,MCMC,9553T2,KiCad,part:9553t2
 Fuse,Control Fuse,1,5,1,PACK,13.50,13.50,AD,ABC2,Local,
@@ -60,4 +60,4 @@ Wiring,Mains Cable,1,1,0,EA,0.00,0.00,GBB,WXP_4A_1204_25,Local,
 switch,Emergency Stop,1,1,0,EA,0.00,0.00,GBB,XB4BS8444,KiCad,part:xb4bs8444
 Timer,Multifunction Timer,2,1,2,EA,53.00,106.00,AD,RK7817-81-61,KiCad,part:rk78178161
 Contactor,Auxiliary Contacts,1,1,1,EA,8.50,8.50,AD,HMX1-AUX11-F,KiCad,part:hmx1aux11f
-Hardware,Wago Lever Splice,,50,1,PACK,30.50,30.50,AD,221-612,Local,
+Hardware,Wago Lever Splice 2-Port,6,100,1,PACK,34.00,34.00,AD,221-412,Local,
