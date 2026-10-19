@@ -178,7 +178,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -190,7 +189,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -202,7 +200,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -644,8 +641,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "CONTROL",
@@ -657,19 +654,27 @@
       },
       {
         "netclass": "CONTROL",
-        "pattern": "+24V_EN"
+        "pattern": "+24V_RAW"
       },
       {
         "netclass": "AWG_18",
-        "pattern": "+24V_EN"
+        "pattern": "+24V_RAW"
       },
       {
         "netclass": "CONTROL",
-        "pattern": "/CONTROL_ESTOP_CONTACT_LINK"
+        "pattern": "/+24V_EN"
+      },
+      {
+        "netclass": "AWG_18",
+        "pattern": "/+24V_EN"
+      },
+      {
+        "netclass": "CONTROL",
+        "pattern": "CONTROL_ESTOP_CONTACT_LINK"
       },
       {
         "netclass": "AWG_22",
-        "pattern": "/CONTROL_ESTOP_CONTACT_LINK"
+        "pattern": "CONTROL_ESTOP_CONTACT_LINK"
       },
       {
         "netclass": "CONTROL",
@@ -817,27 +822,27 @@
       },
       {
         "netclass": "CONTROL",
-        "pattern": "CONTROL_ESTOP_DISABLED_FB"
+        "pattern": "/CONTROL_ESTOP_DISABLED_FB"
       },
       {
         "netclass": "AWG_18",
-        "pattern": "CONTROL_ESTOP_DISABLED_FB"
+        "pattern": "/CONTROL_ESTOP_DISABLED_FB"
       },
       {
         "netclass": "CONTROL",
-        "pattern": "CONTROL_ESTOP_ENABLE"
+        "pattern": "/CONTROL_ESTOP_ENABLE"
       },
       {
         "netclass": "AWG_18",
-        "pattern": "CONTROL_ESTOP_ENABLE"
+        "pattern": "/CONTROL_ESTOP_ENABLE"
       },
       {
         "netclass": "CONTROL",
-        "pattern": "CONTROL_LOW_OVERLOAD_ENABLE"
+        "pattern": "/CONTROL_LOW_OVERLOAD_ENABLE"
       },
       {
         "netclass": "AWG_18",
-        "pattern": "CONTROL_LOW_OVERLOAD_ENABLE"
+        "pattern": "/CONTROL_LOW_OVERLOAD_ENABLE"
       },
       {
         "netclass": "CONTROL",
@@ -945,11 +950,11 @@
       },
       {
         "netclass": "PANEL_POWER",
-        "pattern": "L3_SW"
+        "pattern": "/L3_SW"
       },
       {
         "netclass": "AWG_14",
-        "pattern": "L3_SW"
+        "pattern": "/L3_SW"
       },
       {
         "netclass": "MOTOR_POWER",
@@ -1049,11 +1054,11 @@
       },
       {
         "netclass": "SPEED",
-        "pattern": "SPEED_HIGH_COIL"
+        "pattern": "/SPEED_HIGH_COIL"
       },
       {
         "netclass": "AWG_18",
-        "pattern": "SPEED_HIGH_COIL"
+        "pattern": "/SPEED_HIGH_COIL"
       },
       {
         "netclass": "SPEED",
@@ -1065,11 +1070,43 @@
       },
       {
         "netclass": "SPEED",
-        "pattern": "SPEED_LOW_K6_NC_LINK"
+        "pattern": "HIGH_SEQUENCE_ENABLE"
       },
       {
         "netclass": "AWG_18",
-        "pattern": "SPEED_LOW_K6_NC_LINK"
+        "pattern": "HIGH_SEQUENCE_ENABLE"
+      },
+      {
+        "netclass": "SPEED",
+        "pattern": "HIGH_SEQUENCE_TRIGGER"
+      },
+      {
+        "netclass": "AWG_18",
+        "pattern": "HIGH_SEQUENCE_TRIGGER"
+      },
+      {
+        "netclass": "SPEED",
+        "pattern": "LOW_SEQUENCE_ENABLE"
+      },
+      {
+        "netclass": "AWG_18",
+        "pattern": "LOW_SEQUENCE_ENABLE"
+      },
+      {
+        "netclass": "SPEED",
+        "pattern": "SPEED_LOW_TIMED_ENABLE"
+      },
+      {
+        "netclass": "AWG_18",
+        "pattern": "SPEED_LOW_TIMED_ENABLE"
+      },
+      {
+        "netclass": "SPEED",
+        "pattern": "/LOW_K5_RELEASED"
+      },
+      {
+        "netclass": "AWG_18",
+        "pattern": "/LOW_K5_RELEASED"
       }
     ]
   },
@@ -1213,7 +1250,7 @@
         "uuid": "e44f68e1-a298-4b0d-a2e0-68bc2c75ea41"
       }
     ],
-    "used_designators": "FH2",
+    "used_designators": "#FLG4-5,#FLG7,FH2",
     "variants": []
   },
   "sheets": [
