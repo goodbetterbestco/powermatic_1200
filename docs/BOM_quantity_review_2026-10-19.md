@@ -1,6 +1,6 @@
 # BOM quantity review — 2026-10-19
 
-The 62-row `BOM_other.csv` does not show a general quantity-column scramble. The saved component and termination counts reconcile. The two stale wire requirements and obsolete WAGO row have now been corrected. All six loose-wire QUA values round upward to one decimal place. Its saved purchase total is **$2,206.78**, up $3.50 from the initial $2,203.28 audit total.
+The 62-row `BOM_other.csv` does not show a general quantity-column scramble. The saved component and termination counts reconcile. The two stale wire requirements and unresolved WAGO row have now been corrected. All six loose-wire QUA values round upward to one decimal place. Its saved purchase total is **$2,206.78**, up $3.50 from the initial $2,203.28 audit total.
 
 ## Resolved deviations and remaining hardware check
 
@@ -8,13 +8,13 @@ The 62-row `BOM_other.csv` does not show a general quantity-column scramble. The
 | --- | --- | --- | --- |
 | 16 AWG blue wire, `9874T12` | QUA **58.7 ft** | Saved routes plus existing installation/end allowances require 58.695 ft | Corrected from 58.498 ft. ORDER 1 × PACK 100 ft still covers it. |
 | 14 AWG green/yellow wire, `6513T531` | QUA **7.2 ft** | Same method requires 7.153 ft | Corrected from 7.087 ft. ORDER 1 × PACK 10 ft still covers it. |
-| Two-port WAGO, `221-412` | QUA **6**, PACK **100**, ORDER 1, LINE **$34.00** | Wiring standard selects six two-port motor-lead splices, one for each T1–T6 conductor | Replaced the obsolete blank-QUA `221-612` row. Current AD listing specifies 100 per pack at $34.00. |
+| Two-port WAGO, `221-412` | QUA **6**, PACK **100**, ORDER 1, LINE **$34.00** | Wiring standard selects six two-port motor-lead splices, one for each T1–T6 conductor | Replaced the blank-QUA `221-612` row to match the saved project splice selection. This does not classify `221-612` as an obsolete product. Current AD listing specifies 100 per pack at $34.00. |
 | Three-port WAGO, `221-613` | QUA 2, PACK 30, ORDER 1 | One explicit GS1 splice and the motor PE splice represented by M1.PE | Two intended splices are supported by the wiring policy, although only one has its own part reference. |
 | Speed/direction gland proxy, `BSPBX-22-W` | No purchase required | J3 is a drawing proxy superseded by the selected LFNC-B fittings | The initial audit incorrectly classified it as missing. Existing conduit/fitting rows cover this run. |
 | Motor gland proxy, `BSPDX-23-W` | No purchase required | J4 is a drawing proxy superseded by the selected LFNC-B fittings | The initial audit incorrectly classified it as missing. Retain the distinct mains-gland purchase. |
 | Frame/motor-bell PE hardware | No dedicated `Frame_PE_Lug_20mm` row | J5 and J7 are separate mechanical bonding points | Verify the applicable GBB/on-hand hardware allocation. The footprint is a bonding-location model, not an established purchasing SKU. |
 
-The wiring standard explicitly supersedes the original two-port `221-612` PE proposal with `221-613`, while specifying six `221-412` motor power splices. Two `221-613` connectors remain required: the motor PE junction and GS1 at S3. Their existing one-pack purchase is unchanged. The corrected `221-412` purchase replaces the $30.50 obsolete line with a $34.00 line. [AutomationDirect pack and price, checked 2026-10-19](https://www.automationdirect.com/adc/shopping/catalog/wire_-a-_cable_termination/splicing_connectors/splicing_connectors/221-412).
+The wiring standard explicitly supersedes the original two-port `221-612` PE proposal with `221-613`, while specifying six `221-412` motor power splices. This is a project selection change, not a product lifecycle claim about `221-612`. Two `221-613` connectors remain required: the motor PE junction and GS1 at S3. Their existing one-pack purchase is unchanged. The corrected `221-412` purchase replaces the $30.50 prior-selection line with a $34.00 line. [AutomationDirect pack and price, checked 2026-10-19](https://www.automationdirect.com/adc/shopping/catalog/wire_-a-_cable_termination/splicing_connectors/splicing_connectors/221-412).
 
 The gland resolution follows the existing **External conduit runs** policy in `WIRING_STANDARD.md`: J3/J4 artwork is excluded from BOM auto-add. The BOM already specifies 6 ft of LFNC-B, four `9106K422` straight fittings, two `9106K522` elbows and one `44605K262` reducer. Adding the old gland SKUs would duplicate superseded hardware.
 
