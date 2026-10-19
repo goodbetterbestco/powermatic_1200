@@ -11,6 +11,7 @@ Rev P is the current contactor-based design. Operator controls use 24 VDC; motor
 - [Signal names](docs/SIGNAL_NAMING.md)
 - [Saved wire schedule](docs/Wire_schedule.csv)
 - [Wire length totals](docs/Wire_length_totals.csv)
+- [BOM quantity review](docs/BOM_quantity_review_2026-10-19.md)
 
 ## Project Review
 

@@ -1,5 +1,7 @@
 # Wiring and routing standard — Powermatic 1200
 
+> Repository cleanup, 2026-10-19: references below to project scripts, generated review folders and extraction commands are historical. Those tools were removed; Project Review now edits the saved root CSVs. Technical wiring policy and installation assumptions remain here.
+
 Control signal names are governed by [SIGNAL_NAMING.md](SIGNAL_NAMING.md) and
 its linked shared standard. Use the schematic's native net names consistently
 in sizing declarations, physical wire records, PCB pad nets and generated outputs.
