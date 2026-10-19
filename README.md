@@ -19,6 +19,8 @@ Double-click **Project Review.app** to launch the separate [bom_review editor](h
 
 `QUA` is the project requirement in pieces or feet. `PACK` is the amount per purchase unit, `ORDER` is the number of purchase units, and `COST` is the price per purchase unit. `LINE = ORDER × COST`. GBB items are on hand and keep `ORDER = 0`. The CSV is manually reviewed; the launcher does not regenerate it from KiCad.
 
+`FLAG` and `FLAG DESCRIPTION` retain the review selection and its document-wide description in the CSV. The app displays them through the checkbox and Description controls. Use **Overwrite** to save changes; reopening or Refresh restores the saved flags. Flags indicate the purpose stated in Description and do not change purchasing quantities.
+
 ## Shared parts
 
 Reusable symbols, footprints, models and datasheets belong in the sibling `_parts` repository. The enclosure selection is Hammond EN4SD30208GY with EP3020 backplate. Verify the saved schematic, board and physical fit independently before fabrication or procurement.
