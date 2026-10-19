@@ -911,16 +911,16 @@ Use **PE** for protective-earth conductor naming. Document the actual installati
 
 ## Motor-end Wago connections
 
-The owner selects WAGO 221-412 for standard two-conductor wire splices, including
+The owner selects WAGO 221-612 for standard two-conductor wire splices, including
 the six 14 AWG motor-conduit conductors to the corresponding T1–T6 motor leads.
 Each power splice connects only its corresponding conduit conductor and motor
-lead, one conductor per port. The 221-412 accepts up to 12 AWG and specifies
-11 mm stripping. Prepare these ends as bare copper; retain the actual supplied
+lead, one conductor per port. The 221-612 accepts 20–10 AWG and specifies
+12–14 mm stripping; use 13 mm. Prepare these ends as bare copper; retain the actual supplied
 motor-lead gauge and check it against the connector's conductor range.
 
 For the motor-box PE junction involving the 10 AWG grounding straps, the owner
 selects the three-port WAGO 221-613, rated for conductors up to 10 AWG. It
-replaces the initial two-port 221-612 proposal for this junction. WAGO specifies
+provides the three independent ports needed for this junction. WAGO specifies
 12–14 mm stripping; the project uses 13 mm bare ends on all three conductors.
 
 The PE splice needs at least three suitable ports, one conductor per port:
@@ -932,10 +932,15 @@ The PE splice needs at least three suitable ports, one conductor per port:
 The selected PE junction accommodates one 12 AWG conduit PE conductor and two
 10 AWG jumper conductors, one per port. The M1 metadata footprint stores the
 connector models, seven motor-conduit end preparations and the three-port PE
-connection plan. Compact schedule term codes will be `B14_11mm` for the six
+connection plan. Compact schedule term codes will be `B14_13mm` for the six
 power-conductor ends, `B12_13mm` for the PE feed and `B10_13mm` for each modified
-strap end. Six 221-412 connectors and one 221-613 are required for this topology.
+strap end. Six 221-612 connectors and one 221-613 are required for this topology.
 These are required component counts; purchasing pack quantities remain separate.
+
+Owner selection, 2026-10-19: use 221-612 for the six motor power splices. The
+AutomationDirect 50-piece pack costs $30.50, leaving 44 spares, versus a
+100-piece 221-412 pack at $34.00. The BOM retains two 221-613 connectors in
+total, including the separate S3 housing PE splice.
 
 The insulated Wago forms a wire-to-wire PE junction; placing it inside a metal motor junction box does not itself bond that box. Account for the box-to-motor-body bond through a verified conductive attachment or an explicit separate bonding connection. Motor-body and frame bonding attachment hardware/locations remain to be defined and verified.
 
@@ -1036,7 +1041,7 @@ estimate. See the [metadata and export verification](reviews/mechanical_interloc
 - [KN-G12SP-10 manufacturer cut sheet](https://cdn.automationdirect.com/static/specs/cutsheet/KN-G12SP-10_cutsheet.pdf).
 - [Mean Well NDR-240 specification](https://www.meanwell.com/Upload/PDF/NDR-240/NDR-240-SPEC.PDF).
 - [Wago 221-613, three-conductor 10 AWG connector](https://www.wago.com/us/wire-splicing-connectors/compact-splicing-connector/p/221-613).
-- [Wago 221-412/413/415 conductor specifications](https://www.wago.com/us/products/electrical-interconnect/splicing-connectors-221).
+- [Wago 221-612 conductor specifications](https://www.wago.com/us/wire-splicing-connectors/compact-splicing-connector/p/221-612).
 
 ## Panel-layout alignment grid
 

@@ -683289,7 +683289,7 @@
 				)
 			)
 		)
-		(property "Termination.T1" "Bare stranded copper, 14 AWG; strip=11 mm"
+		(property "Termination.T1" "Bare stranded copper, 14 AWG; strip=13 mm"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -683301,7 +683301,7 @@
 				)
 			)
 		)
-		(property "Termination.T2" "Bare stranded copper, 14 AWG; strip=11 mm"
+		(property "Termination.T2" "Bare stranded copper, 14 AWG; strip=13 mm"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -683313,7 +683313,7 @@
 				)
 			)
 		)
-		(property "Termination.T3" "Bare stranded copper, 14 AWG; strip=11 mm"
+		(property "Termination.T3" "Bare stranded copper, 14 AWG; strip=13 mm"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -683325,7 +683325,7 @@
 				)
 			)
 		)
-		(property "Termination.T4" "Bare stranded copper, 14 AWG; strip=11 mm"
+		(property "Termination.T4" "Bare stranded copper, 14 AWG; strip=13 mm"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -683337,7 +683337,7 @@
 				)
 			)
 		)
-		(property "Termination.T5" "Bare stranded copper, 14 AWG; strip=11 mm"
+		(property "Termination.T5" "Bare stranded copper, 14 AWG; strip=13 mm"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -683349,7 +683349,7 @@
 				)
 			)
 		)
-		(property "Termination.T6" "Bare stranded copper, 14 AWG; strip=11 mm"
+		(property "Termination.T6" "Bare stranded copper, 14 AWG; strip=13 mm"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)

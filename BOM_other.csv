@@ -60,4 +60,4 @@ Wiring,Mains Cable,1,1,0,EA,0.00,0.00,GBB,WXP_4A_1204_25,Local,
 switch,Emergency Stop,1,1,0,EA,0.00,0.00,GBB,XB4BS8444,KiCad,part:xb4bs8444
 Timer,Multifunction Timer,2,1,2,EA,53.00,106.00,AD,RK7817-81-61,KiCad,part:rk78178161
 Contactor,Auxiliary Contacts,1,1,1,EA,8.50,8.50,AD,HMX1-AUX11-F,KiCad,part:hmx1aux11f
-Hardware,Wago Lever Splice 2-Port,6,100,1,PACK,34.00,34.00,AD,221-412,Local,
+Hardware,Wago Lever Splice 2-Port,6,50,1,PACK,30.50,30.50,AD,221-612,Local,

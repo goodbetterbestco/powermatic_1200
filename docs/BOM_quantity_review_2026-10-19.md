@@ -1,6 +1,6 @@
 # BOM quantity review — 2026-10-19
 
-The 62-row `BOM_other.csv` does not show a general quantity-column scramble. The saved component and termination counts reconcile. The two stale wire requirements and unresolved WAGO row have now been corrected. All six loose-wire QUA values round upward to one decimal place. Its saved purchase total is **$2,206.78**, up $3.50 from the initial $2,203.28 audit total.
+The 62-row `BOM_other.csv` does not show a general quantity-column scramble. The saved component and termination counts reconcile. The two stale wire requirements and unresolved WAGO row have now been corrected. All six loose-wire QUA values round upward to one decimal place. Its saved purchase total is **$2,203.28** after the owner's final 221-612 selection.
 
 ## Resolved deviations and remaining hardware check
 
@@ -8,13 +8,13 @@ The 62-row `BOM_other.csv` does not show a general quantity-column scramble. The
 | --- | --- | --- | --- |
 | 16 AWG blue wire, `9874T12` | QUA **58.7 ft** | Saved routes plus existing installation/end allowances require 58.695 ft | Corrected from 58.498 ft. ORDER 1 × PACK 100 ft still covers it. |
 | 14 AWG green/yellow wire, `6513T531` | QUA **7.2 ft** | Same method requires 7.153 ft | Corrected from 7.087 ft. ORDER 1 × PACK 10 ft still covers it. |
-| Two-port WAGO, `221-412` | QUA **6**, PACK **100**, ORDER 1, LINE **$34.00** | Wiring standard selects six two-port motor-lead splices, one for each T1–T6 conductor | Replaced the blank-QUA `221-612` row to match the saved project splice selection. This does not classify `221-612` as an obsolete product. Current AD listing specifies 100 per pack at $34.00. |
+| Two-port WAGO, `221-612` | QUA **6**, PACK **50**, ORDER 1, LINE **$30.50** | Owner selects the smaller purchase pack for six motor-lead splices, one for each T1–T6 conductor | Six required connectors and 44 spares. PCB termination fields and the saved schedule now specify 13 mm stripping for these six ends. |
 | Three-port WAGO, `221-613` | QUA 2, PACK 30, ORDER 1 | One explicit GS1 splice and the motor PE splice represented by M1.PE | Two intended splices are supported by the wiring policy, although only one has its own part reference. |
 | Speed/direction gland proxy, `BSPBX-22-W` | No purchase required | J3 is a drawing proxy superseded by the selected LFNC-B fittings | The initial audit incorrectly classified it as missing. Existing conduit/fitting rows cover this run. |
 | Motor gland proxy, `BSPDX-23-W` | No purchase required | J4 is a drawing proxy superseded by the selected LFNC-B fittings | The initial audit incorrectly classified it as missing. Retain the distinct mains-gland purchase. |
 | Frame/motor-bell PE hardware | No dedicated `Frame_PE_Lug_20mm` row | J5 and J7 are separate mechanical bonding points | Verify the applicable GBB/on-hand hardware allocation. The footprint is a bonding-location model, not an established purchasing SKU. |
 
-The wiring standard explicitly supersedes the original two-port `221-612` PE proposal with `221-613`, while specifying six `221-412` motor power splices. This is a project selection change, not a product lifecycle claim about `221-612`. Two `221-613` connectors remain required: the motor PE junction and GS1 at S3. Their existing one-pack purchase is unchanged. The corrected `221-412` purchase replaces the $30.50 prior-selection line with a $34.00 line. [AutomationDirect pack and price, checked 2026-10-19](https://www.automationdirect.com/adc/shopping/catalog/wire_-a-_cable_termination/splicing_connectors/splicing_connectors/221-412).
+The owner selected `221-612` for the six motor power splices on 2026-10-19 after comparing its 50-piece pack at $30.50 with the 100-piece `221-412` pack at $34.00. Both accept the specified 14 AWG conductors; `221-612` uses 12–14 mm stripping, with 13 mm selected here. Two `221-613` connectors remain required: the motor PE junction and GS1 at S3. Their existing one-pack purchase is unchanged. [AutomationDirect pack and price, checked 2026-10-19](https://www.automationdirect.com/adc/shopping/catalog/wire_-a-_cable_termination/splicing_connectors/splicing_connectors/221-612).
 
 The gland resolution follows the existing **External conduit runs** policy in `WIRING_STANDARD.md`: J3/J4 artwork is excluded from BOM auto-add. The BOM already specifies 6 ft of LFNC-B, four `9106K422` straight fittings, two `9106K522` elbows and one `44605K262` reducer. Adding the old gland SKUs would duplicate superseded hardware.
 
@@ -76,13 +76,14 @@ The current flat-file editing path recalculated LINE using QUA × COST even when
 
 The Open controls were replaced by a Documents dropdown listing root CSV names. Selection changes the loaded document and guarded Overwrite destination. Refresh reloads that selected CSV. Unsaved changes require confirmation before switching; stale saves and paths outside the project are rejected. `Project Review.app` launches the separate `~/Projects/bom_review` application. No JLCPCB BOM was invented; that document appears in the selector when a real `BOM_jlcpcb.csv` is added.
 
-Validation: 58 Python tests and 30 JavaScript tests passed, including document listing, selected-file overwrite, stale-version rejection, path/symlink restrictions and ORDER-based calculations. Initial browser checks used a temporary two-document project: cancelling a switch retained edits, Overwrite changed only the selected fixture, and switching back restored the initial BOM total. The subsequent authorized BOM edit changed only six wire QUA cells, the two WAGO display names and the former `221-612` row's specification. The reviewer preserves the saved one-decimal wire quantities through CSV round trips.
+Validation: 58 Python tests and 30 JavaScript tests passed, including document listing, selected-file overwrite, stale-version rejection, path/symlink restrictions and ORDER-based calculations. Initial browser checks used a temporary two-document project: cancelling a switch retained edits, Overwrite changed only the selected fixture, and switching back restored the initial BOM total. The authorized BOM edits corrected six wire QUA cells, the two WAGO display names and the two-port splice quantity. The final selection retains `221-612` with PACK 50 and COST/LINE $30.50. The reviewer preserves the saved one-decimal wire quantities through CSV round trips.
 
 ## Evidence and limits
 
-Read from saved native KiCad files and the saved CSV on 2026-10-19. No KiCad file was edited, and the source hashes were checked again after the audit.
+Read from saved native KiCad files and the saved CSV on 2026-10-19. After the quantity audit, the owner confirmed KiCad saved/closed and editing paused, then authorized changing only M1's six `Termination.T1`–`Termination.T6` strip lengths from 11 mm to 13 mm. No geometry, routes, nets or other fields changed during that edit. The schematic remains unchanged. PCB hashes below distinguish the quantity-audit source from the subsequent metadata-only update.
 
 - Schematic SHA-256: `12b9fa941a7652fee1bd74d6e6d22fc3da00cab96878a638435029767531ea08`
-- PCB SHA-256: `7f5b2e1cfd71b2cc3ed4f97316e5b6db836d21878b8d2bba4aadcff2a669dc4a`
+- PCB SHA-256 at quantity audit, before the six strip-length changes: `7f5b2e1cfd71b2cc3ed4f97316e5b6db836d21878b8d2bba4aadcff2a669dc4a`
+- Current saved PCB SHA-256 after the six strip-length changes: `1da240703884273b00e2b56d1f831ba2b2c82cd253d6ff8adf267b0575b25d8c`
 - The route reader found complete drawing connectivity and warned that the external mains cord length is not included. This is a quantity audit, not an ERC/DRC, physical fit, supplier-stock or installation signoff.
 - The cleanup is published as `cac6076`; existing uncommitted KiCad changes were left unstaged. Old committed tools/reports are recoverable from Git. Untracked reports and automatic backups removed by the requested cleanup were not added to Git.
