@@ -17,3 +17,9 @@ reviews/wiring_generated/.review-server.json
 *.kicad_prl
 *.lck
 *-backups/
+
+# Generated reviews and retired project tooling
+/output/
+/outputs/
+/reviews/
+/tools/
