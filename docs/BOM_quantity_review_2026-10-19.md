@@ -1,5 +1,36 @@
 # BOM quantity review — 2026-10-19
 
+## Lower-right enclosure jumper completed — 2026-10-20
+
+This update supersedes the previously planned TB50-to-lug connection below.
+The owner confirms **TB50**, rather than TB40, as the source. Saved TB50.1 is
+PE; TB40.TOP is switched L1 and is not used for this bond. Routed a continuous
+12 AWG green/yellow wire from the top TB50.1 clamp through the duct to J8.PE,
+the lower-right mounting/grounding stud identified by the owner as 5/16 inch.
+J8 reuses the existing canonical mechanical-lug routing marker at (450,430) mm,
+rounding the saved mounting-circle center (449.5286,430.4786) mm to the routing
+grid. It does not add purchased lug hardware or modify the mounting hole.
+
+The 507.562 mm route gives a **610 mm cut estimate** with the documented
+20 mm termination and 30 mm service allowance at each end, rounded upward
+to 10 mm. Native track/pad clearance is at least 0.2 mm on its F.Cu layer.
+All existing tracks and the owner's latest saved label adjustments are retained.
+The regenerated schedule preserves all 125 existing rows and adds this one,
+bringing it to 126 wire rows. Loose-stock totals are 116 wires / 92.190 m.
+
+The 12 AWG green/yellow requirement increases from 9.8 to **11.8 ft**, rounded
+upward to one decimal place. Its 50 ft purchase remains unchanged. The existing
+15-ferrule requirement already included the TB50 end; no additional ferrule
+purchase is added. The lug end uses **McMaster-Carr 9388K35**, a nylon-insulated
+16–12 AWG ring with a 5/16-inch stud hole, suitable for the 12 AWG conductor.
+It is a separate BOM row: MCMC 9388K35, QUA/PACK/ORDER 1/10/1, UNIT PACK,
+at $5.75 per pack of ten, increasing the purchase total to **$2,209.03**.
+The new ring is a purchase requirement; it is not marked received. All existing
+receipt flags and other purchasing fields are preserved.
+
+See `WIRING_STANDARD.md`, **Lower-right stud ring terminal**, for specifications,
+manufacturer/distributor sources and the endpoint-owned termination code.
+
 ## Bonding revision — 2026-10-20
 
 This revision supersedes the affected quantities in the historical audit below.

@@ -35,7 +35,7 @@ Terminal,Grounding Terminal,6,10,1,PACK,29,29.00,AD,KN-G12SP-10,,Awaiting receip
 Terminal,Separator,28,10,3,PACK,5,15.00,AD,KN-ST1BLK,,Awaiting receipt - due 2026-10-20
 Terminal,Top Cover,44,25,2,PACK,15.00,30.00,AD,KN-TC-1S,,Awaiting receipt - due 2026-10-20
 Enclosure,Bonding Kit,3,2,2,PACK,36.00,72.00,AD,GRDKIT01,,Awaiting receipt - due 2026-10-20
-Wiring,Machine Tool Wire,9.8,50,1,FT,94.27,94.27,MCMC,6513T633,,Awaiting receipt - due 2026-10-20
+Wiring,Machine Tool Wire,11.8,50,1,FT,94.27,94.27,MCMC,6513T633,,Awaiting receipt - due 2026-10-20
 Wiring,Machine Tool Wire,93.8,50,2,FT,13.00,26.00,MCMC,9874T11,,Awaiting receipt - due 2026-10-20
 Wiring,Machine Tool Wire,58.7,100,1,FT,33.00,33.00,MCMC,9874T12,,Awaiting receipt - due 2026-10-20
 Hardware,Wago Lever Splice 3-Port,2,30,1,PACK,24.50,24.50,AD,221-613,,Awaiting receipt - due 2026-10-20
@@ -61,3 +61,4 @@ switch,Emergency Stop,1,1,0,EA,0.00,0.00,GBB,XB4BS8444,,Awaiting receipt - due 2
 Timer,Multifunction Timer,2,1,2,EA,53.00,106.00,AD,RK7817-81-61,,Awaiting receipt - due 2026-10-20
 Contactor,Auxiliary Contacts,1,1,1,EA,8.50,8.50,AD,HMX1-AUX11-F,,Awaiting receipt - due 2026-10-20
 Hardware,Wago Lever Splice 2-Port,6,50,1,PACK,30.50,30.50,AD,221-612,,Awaiting receipt - due 2026-10-20
+Hardware,Ring Terminal 16-12 5/16 in,1,10,1,PACK,5.75,5.75,MCMC,9388K35,,Awaiting receipt - due 2026-10-20

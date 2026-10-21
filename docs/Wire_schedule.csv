@@ -24,6 +24,7 @@ Mains Plug,J2_Y,Terminal 80,TB80_BOT,12,270,B12,F12_10mm
 Mains Plug,J2_Z,Terminal 81,TB81_BOT,12,270,B12,F12_10mm
 Frame PE Lug,J5_PE,Motor Bell PE Stud,J7_PE,10,180,supplier,supplier
 Motor Bell PE Stud,J7_PE,Two-Speed Motor,M1_PE,10,200,supplier,B10_13mm
+Enclosure Grounding Lug,J8_PE,Terminal 50,TB50_1,12,610,R12_516_15.494mm,F12_10mm
 HMC-9B30-11-DS K1,K1_2,Terminal 23,TB23_BOT,14,1170,B14,F14_10mm
 HMC-9B30-11-DS K1,K1_3,Terminal 42,TB42_TOP,14,1180,B14,F14_10mm
 HMC-9B30-11-DS K1,K1_31,Terminal 75,TB75_BOT,18,470,B18,F18_10mm

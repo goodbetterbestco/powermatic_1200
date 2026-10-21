@@ -103770,15 +103770,20 @@
 				)
 			)
 		)
-		(sheetname "/")
-		(sheetfile "powermatic_1200.kicad_sch")
 		(property "Wire.BondingPlan" "TB52.2 to TB98.1: 12 AWG green/yellow rail 1 to rail 2 jumper. Routed continuously on In22.Cu."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9da6e00c-65ac-4173-a8d1-ad2f2150cef9")
-			(effects (font (size 1 1) (thickness 0.15)))
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
+		(sheetname "/")
+		(sheetfile "powermatic_1200.kicad_sch")
 		(attr board_only exclude_from_pos_files allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(jumper_pad_groups
@@ -117224,7 +117229,7 @@
 		(descr "KN-G12SP-10_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls grounding terminal DIN PE Grid1mm routing-view")
 		(property "Reference" "TB43"
-			(at 3 -29 90)
+			(at -3 -29 90)
 			(layer "F.SilkS")
 			(uuid "4ac39001-e4a1-490a-9d64-6aa2ac8a7a14")
 			(effects
@@ -138393,7 +138398,7 @@
 		(descr "KN-G12SP-10_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls grounding terminal DIN PE Grid1mm routing-view")
 		(property "Reference" "TB50"
-			(at 0 -26 0)
+			(at 0 -29 90)
 			(layer "F.SilkS")
 			(uuid "6249271f-6e36-4269-9cc1-d99069b081fb")
 			(effects
@@ -138509,15 +138514,20 @@
 				)
 			)
 		)
-		(sheetname "/")
-		(sheetfile "powermatic_1200.kicad_sch")
-		(property "Wire.BondingPlan" "TB50.1 to manufacturer-designated enclosure/backplate grounding lug: 12 AWG green/yellow, ferrule at TB50 and compatible ring at lug. Planned; not routed. Confirm stud size and installed cut length."
+		(property "Wire.BondingPlan" "TB50.1 to J8.PE lower-right enclosure/backplate grounding stud: 12 AWG green/yellow, 10 mm single ferrule at TB50.1 and McMaster 9388K35 5/16 in ring at J8. Routed; retain the four backplate mounting/bonding interfaces."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "293b7b6e-77dc-4ba2-ad25-87563ad88e18")
-			(effects (font (size 1 1) (thickness 0.15)))
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
+		(sheetname "/")
+		(sheetfile "powermatic_1200.kicad_sch")
 		(attr board_only exclude_from_pos_files allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(jumper_pad_groups
@@ -894511,6 +894521,549 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "Controls:KN-G12SP-10_Front"
+		(layer "F.Cu")
+		(uuid "da0bfcaf-c53c-4993-9b28-d38c871eaf06")
+		(at 391 67)
+		(descr "KN-G12SP-10_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
+		(tags "Controls grounding terminal DIN PE Grid1mm routing-view")
+		(property "Reference" "TB98"
+			(at 0 -29 90)
+			(layer "F.SilkS")
+			(uuid "85bce848-5d02-4426-b651-086cb2513e37")
+			(effects
+				(font
+					(size 2.5 2.5)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "KN-G12SP-10"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "499934d8-9559-4708-8305-f1309dbe1a8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1e00525-d1e7-40b8-9cea-323ec5247e43")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Rail 2 protective-earth terminal; conductive DIN-rail foot. Routed 12 AWG jumper from TB52.2 to clamp 1; clamp 2 spare."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "429192eb-8fee-412b-87a9-fd68ac0f77e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting" "din_top"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "00c261bf-e52a-442c-a9ad-960e5e5e486a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Termination.1" "Single ferrule, 12 AWG; L=10 mm"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c801dc8d-9d1f-4379-9b06-781747805026")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Termination.2" "Single ferrule; L=10 mm"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fffe83a3-dd74-4477-b10b-3148a65f6a90")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Termination.JMP" "N/A — internal jumper contact; no field wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9f9026e3-8f31-485b-b2a2-72f976555628")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Termination.PE" "Conductive DIN-rail contact; no field wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ea78d67f-4380-4fe9-937d-c7e09fbb8d09")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "AutomationDirect"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "113c64c9-14d0-40da-8f55-7f9bbcb13e86")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier PN" "KN-G12SP-10"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "098aa94d-d38e-41f2-bda7-39cd42725046")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part ID" "KN-G12SP-10"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4505b965-fb2e-49bb-a6e4-185281963eaa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Wire.Sizes" "{\"schema\":1,\"owner_uuid\":\"da0bfcaf-c53c-4993-9b28-d38c871eaf06\",\"entries\":[{\"pin\":\"1\",\"net\":\"PE\",\"scope\":\"panel_pe\",\"awg\":12,\"color\":\"Green/Yellow\"}]}"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "47d19d53-5020-4a95-aa5f-5e6c05ea55d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Wire.AWG.1" "12"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "748a7d9c-c3d9-4564-880b-c4f2ee84b221")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Wire.AWG.2" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c687bdd-ca21-444d-a6a7-c4b9d5c050b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Wire.BondingPlan" "TB52.2 to TB98.1: 12 AWG green/yellow rail 1 to rail 2 jumper. Routed continuously on In22.Cu. Clamp 2 spare."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e1a5c6de-e55d-4635-bc0f-f5971ce38119")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files allow_missing_courtyard)
+		(duplicate_pad_numbers_are_jumpers no)
+		(jumper_pad_groups
+			("1" "2" "JMP" "PE")
+		)
+		(fp_line
+			(start -3 -23)
+			(end -3 21)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6e0d95f0-df80-4fa6-8484-d553c8466903")
+		)
+		(fp_line
+			(start -3 -21)
+			(end 3 -21)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d64af487-9be5-4fd8-b668-9e9d40e91414")
+		)
+		(fp_line
+			(start -3 -16)
+			(end 3 -16)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dce9fa41-8058-4190-843e-da69325b6f18")
+		)
+		(fp_line
+			(start -3 -3)
+			(end 3 -3)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "18ec5101-5362-485b-9258-cb683f40352b")
+		)
+		(fp_line
+			(start -3 3)
+			(end 3 3)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b7c55c44-508b-4659-a208-737e86aaf87e")
+		)
+		(fp_line
+			(start -3 16)
+			(end 3 16)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "785ab4a1-00c3-429d-ab26-039004164232")
+		)
+		(fp_line
+			(start -3 19)
+			(end 3 19)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c80fc183-57ad-4b13-9959-dca9c7273f37")
+		)
+		(fp_line
+			(start -3 21)
+			(end 3 21)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7109fa23-da5b-4afd-b71d-5312cd7fe29c")
+		)
+		(fp_line
+			(start 3 -23)
+			(end -3 -23)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2d3ee2b6-1932-457f-b13f-6f91e4f16ab6")
+		)
+		(fp_line
+			(start 3 21)
+			(end 3 -23)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "70852b5f-a218-4398-a46a-ba1509bba62f")
+		)
+		(fp_circle
+			(center 0 -11)
+			(end 2 -11)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "be8a7cd5-e378-4a8e-b585-cf1580a0a194")
+		)
+		(fp_circle
+			(center 0 11)
+			(end 2 11)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "1c6742a5-10f3-4dbd-8ed9-57c2c65c0092")
+		)
+		(fp_poly
+			(pts
+				(xy 3 21) (xy 3 -23) (xy -3 -23) (xy -3 21)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.Adhes")
+			(uuid "be0a3498-627b-4ab1-8327-60460e86ecf4")
+		)
+		(fp_line
+			(start -3 -23)
+			(end -3 21)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "7aba40c9-19d3-4faf-b16b-c5d5422ca9e7")
+		)
+		(fp_line
+			(start -3 -23)
+			(end 3 -23)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "f4773503-eebd-4197-a263-0ae7628f22ae")
+		)
+		(fp_line
+			(start -3 -21)
+			(end 3 -21)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "21c3f563-8d9a-480e-a042-549db67e215e")
+		)
+		(fp_line
+			(start -3 -18)
+			(end 3 -18)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "072267d4-26d0-4ce5-b709-8612d04e39b3")
+		)
+		(fp_line
+			(start -3 -16)
+			(end 3 -16)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "d38f2338-7c94-409e-bc87-6fc6475bfa5e")
+		)
+		(fp_line
+			(start -3 -14)
+			(end 3 -14)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "c4c0cb44-79c8-40bd-8b14-faadcac5b65a")
+		)
+		(fp_line
+			(start -3 -3)
+			(end 3 -3)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "a8cba8ee-a8d7-419e-b969-f8d3ee800c2c")
+		)
+		(fp_line
+			(start -3 3)
+			(end 3 3)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "eb5e04c2-dc1a-4f90-8341-e031004de98a")
+		)
+		(fp_line
+			(start -3 14)
+			(end 3 14)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "0e0685f5-ffad-4a9e-afda-a7fff9383d5d")
+		)
+		(fp_line
+			(start -3 16)
+			(end 3 16)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "a77692f7-33d9-4170-9693-1126ac345550")
+		)
+		(fp_line
+			(start -3 18)
+			(end 3 18)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "065f0477-7b8f-474c-9dee-020c1413e590")
+		)
+		(fp_line
+			(start -3 19)
+			(end 3 19)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "a09c40d0-2574-4326-a143-c56116eed58b")
+		)
+		(fp_line
+			(start -3 21)
+			(end 3 21)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "64acd0e0-4e5c-4ca5-ab65-2393ceacff73")
+		)
+		(fp_line
+			(start 3 -23)
+			(end 3 21)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "4e5d7282-7f9b-4611-9ebb-3fe18fc4cc8d")
+		)
+		(fp_circle
+			(center 0 -11)
+			(end 2 -11)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "3b2bc10e-d891-47c4-9f39-6c788d12f753")
+		)
+		(fp_circle
+			(center 0 11)
+			(end 2 11)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "9c1777d7-2a72-4667-be3e-c63259dd9c88")
+		)
+		(pad "1" thru_hole circle
+			(at 0 -11)
+			(size 3 3)
+			(drill 2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "PE")
+			(uuid "876c37a8-264b-4ba2-856c-8278ada00728")
+		)
+		(pad "2" thru_hole circle
+			(at 0 11)
+			(size 3 3)
+			(drill 2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "PE")
+			(uuid "4e1b5f6e-ec5e-47ab-8c64-7a1101db6bf6")
+		)
+		(pad "JMP" thru_hole circle
+			(at 0 0)
+			(size 3 3)
+			(drill 2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "PE")
+			(uuid "42ceeba6-2411-4ab5-b3d1-211d139a2574")
+		)
+		(pad "PE" smd rect
+			(at 0 -6)
+			(size 3 3)
+			(layers "F.Cu" "F.Mask")
+			(net "PE")
+			(uuid "e30a3a13-2d89-47a0-850b-d0a92923465e")
+		)
+		(embedded_fonts no)
+		(model "${PARTS_LIB}/3dmodels/Controls/KN-G12SP-10_DIN35x7p5.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Controls:BNSPDX-23-W_MainsPlug_BottomWall"
 		(locked yes)
 		(layer "F.Cu")
@@ -1135174,6 +1135727,48 @@
 		(uuid "f520cb35-b6f6-4e1d-a56c-63dd5d7cb247")
 	)
 	(segment
+		(start 288 -98)
+		(end 288 -31)
+		(width 2.052)
+		(layer "In22.Cu")
+		(net "PE")
+		(uuid "5b3136db-21ed-4b95-bb37-eb189c7351ee")
+	)
+	(segment
+		(start 391 -21)
+		(end 391 56)
+		(width 2.052)
+		(layer "In22.Cu")
+		(net "PE")
+		(uuid "6fe76f91-f4b0-484b-b933-9d9267a608b3")
+	)
+	(segment
+		(start 293 -26)
+		(end 386 -26)
+		(width 2.052)
+		(layer "In22.Cu")
+		(net "PE")
+		(uuid "cbc074da-25ac-4aca-8b12-0a8a0e8b046d")
+	)
+	(arc
+		(start 386 -26)
+		(mid 389.535534 -24.535534)
+		(end 391 -21)
+		(width 2.052)
+		(layer "In22.Cu")
+		(net "PE")
+		(uuid "8b07c0f4-f12f-42f9-a8fe-1a7b27840be3")
+	)
+	(arc
+		(start 288 -31)
+		(mid 289.464466 -27.464466)
+		(end 293 -26)
+		(width 2.052)
+		(layer "In22.Cu")
+		(net "PE")
+		(uuid "bd39e285-d149-4ce9-a984-3d54eb6c6396")
+	)
+	(segment
 		(start 285 195)
 		(end 239 195)
 		(width 1.024)
@@ -1140853,12 +1141448,6 @@
 			"e146fcf7-1257-53bc-a6a7-efe4bdeb04a6"
 		)
 	)
-	(group "Entry arrangement: PE"
-		(uuid "83adc90f-55d9-4f09-a95d-e88b99e860f6")
-		(members "4a82e854-d557-4d87-92ee-631d3da6308f" "668e9352-c702-47d2-8fdf-23cb39332c77"
-			"d890394e-eeed-5a53-9e72-4079152f86f2"
-		)
-	)
 	(group "Timer bank: LOW_SEQUENCE_ENABLE"
 		(uuid "8e00251d-d564-43e8-a741-9513450838e4")
 		(members "0ad355df-d584-4029-a577-c2fea0a44875" "80d3624a-5527-41b3-b6f6-33d8ae29ad98"
@@ -1142025,16 +1142614,16 @@
 		)
 	)
 	(embedded_fonts no)
-	(footprint "Controls:KN-G12SP-10_Front"
+	(footprint "Controls:Frame_PE_Lug_20mm"
 		(layer "F.Cu")
-		(uuid "da0bfcaf-c53c-4993-9b28-d38c871eaf06")
-		(at 391 67)
-		(descr "KN-G12SP-10_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
-		(tags "Controls grounding terminal DIN PE Grid1mm routing-view")
-		(property "Reference" "TB98"
-			(at 0 -29 90)
+		(uuid "187ec637-c6a4-44ae-84f0-2a1e2ecc55e2")
+		(at 450 430)
+		(descr "PCB-only frame protective-earth lug routing target. User-defined 20 mm circular marker with centered PE THT pad. Logical machine-frame wiring representation; the 3 mm pad and 2 mm drill are routing-target geometry, not installed lug or fastener dimensions.")
+		(tags "frame PE protective earth bonding lug PCB-only")
+		(property "Reference" "J8"
+			(at 0 -12 0)
 			(layer "F.SilkS")
-			(uuid "85bce848-5d02-4426-b651-086cb2513e37")
+			(uuid "7cfa5fe4-674d-4168-9fed-0ef5b7680a9a")
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -1142042,11 +1142631,10 @@
 				)
 			)
 		)
-		(property "Value" "KN-G12SP-10"
-			(at 0 0 0)
+		(property "Value" "Frame_PE_Lug_20mm"
+			(at 0 12 0)
 			(layer "F.Fab")
-			(hide yes)
-			(uuid "499934d8-9559-4708-8305-f1309dbe1a8d")
+			(uuid "763c0ef4-2c78-4609-b94d-6a7d0be55061")
 			(effects
 				(font
 					(size 1 1)
@@ -1142058,137 +1142646,29 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c1e00525-d1e7-40b8-9cea-323ec5247e43")
+			(uuid "a5e011e2-5bbf-4728-ac31-0970ea11506f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Rail 2 protective-earth terminal; conductive DIN-rail foot. Routed 12 AWG jumper from TB52.2 to clamp 1; clamp 2 spare."
+		(property "Description" "Lower-right manufacturer-provided backplate/enclosure grounding stud, owner-confirmed 5/16 in. Routing target at (450,430) mm rounds saved mounting center (449.5286,430.4786) mm to the 1 mm routing grid. Marker geometry is not hardware or a drilling specification."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "429192eb-8fee-412b-87a9-fd68ac0f77e7")
+			(uuid "cbd8fb5d-d395-4753-a12a-655ffc56bfc5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Mounting" "din_top"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "00c261bf-e52a-442c-a9ad-960e5e5e486a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Termination.1" "Single ferrule, 12 AWG; L=10 mm"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "c801dc8d-9d1f-4379-9b06-781747805026")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Termination.2" "Single ferrule; L=10 mm"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "fffe83a3-dd74-4477-b10b-3148a65f6a90")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Termination.JMP" "N/A — internal jumper contact; no field wire"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "9f9026e3-8f31-485b-b2a2-72f976555628")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Termination.PE" "Conductive DIN-rail contact; no field wire"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "ea78d67f-4380-4fe9-937d-c7e09fbb8d09")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier" "AutomationDirect"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "113c64c9-14d0-40da-8f55-7f9bbcb13e86")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" "KN-G12SP-10"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "098aa94d-d38e-41f2-bda7-39cd42725046")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part ID" "KN-G12SP-10"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "4505b965-fb2e-49bb-a6e4-185281963eaa")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Wire.Sizes" "{\"schema\":1,\"owner_uuid\":\"da0bfcaf-c53c-4993-9b28-d38c871eaf06\",\"entries\":[{\"pin\":\"1\",\"net\":\"PE\",\"scope\":\"panel_pe\",\"awg\":12,\"color\":\"Green/Yellow\"}]}"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "47d19d53-5020-4a95-aa5f-5e6c05ea55d3")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Wire.AWG.1" "12"
+		(property "Part Name" "Enclosure Grounding Lug"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "748a7d9c-c3d9-4564-880b-c4f2ee84b221")
+			(uuid "8e1a6f28-2dfa-4d50-853d-e558ef2b1ab5")
 			(effects
 				(font
 					(size 1 1)
@@ -1142196,11 +1142676,11 @@
 				)
 			)
 		)
-		(property "Wire.AWG.2" ""
+		(property "Termination.PE" "Ring terminal, 12 AWG; stud=5/16 in; nominal ring width=15.494 mm; supplier=McMaster-Carr; SKU=9388K35; 16-12 AWG nylon-insulated tin-plated copper crimp ring"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0c687bdd-ca21-444d-a6a7-c4b9d5c050b4")
+			(uuid "2e9b0acf-a080-4ecc-92ba-d353d6fd637c")
 			(effects
 				(font
 					(size 1 1)
@@ -1142208,401 +1142688,157 @@
 				)
 			)
 		)
-		(property "Wire.BondingPlan" "TB52.2 to TB98.1: 12 AWG green/yellow rail 1 to rail 2 jumper. Routed continuously on In22.Cu. Clamp 2 spare."
+		(property "Wire.AWG.PE" "12"
+			(at 343 749 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b684a94b-0a38-49e9-a612-70ff3057b5bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Wire.TerminationCode.PE" "R12_516_15.494mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e1a5c6de-e55d-4635-bc0f-f5971ce38119")
-			(effects (font (size 1 1) (thickness 0.15)))
+			(uuid "50e67c57-284d-4e17-b0f4-5957e6aecb18")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
-		(attr board_only exclude_from_pos_files allow_missing_courtyard)
+		(property "BOM.CountedIn" "Enclosure-provided grounding stud and mounting hardware. McMaster 9388K35 ring terminal is a separate BOM consumable."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "338444ac-c835-462e-b342-d4348debd87b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Wire.BondingPlan" "TB50.1 to J8.PE lower-right enclosure/backplate grounding stud: 12 AWG green/yellow, 10 mm single ferrule at TB50.1 and McMaster 9388K35 5/16 in ring at J8. Routed; retain the four backplate mounting/bonding interfaces."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d489751-71c0-462a-9b2f-4d5e6cc76d72")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
-		(jumper_pad_groups
-			("1" "2" "JMP" "PE")
-		)
-		(fp_line
-			(start -3 -23)
-			(end -3 21)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6e0d95f0-df80-4fa6-8484-d553c8466903")
-		)
-		(fp_line
-			(start -3 -21)
-			(end 3 -21)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d64af487-9be5-4fd8-b668-9e9d40e91414")
-		)
-		(fp_line
-			(start -3 -16)
-			(end 3 -16)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "dce9fa41-8058-4190-843e-da69325b6f18")
-		)
-		(fp_line
-			(start -3 -3)
-			(end 3 -3)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "18ec5101-5362-485b-9258-cb683f40352b")
-		)
-		(fp_line
-			(start -3 3)
-			(end 3 3)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b7c55c44-508b-4659-a208-737e86aaf87e")
-		)
-		(fp_line
-			(start -3 16)
-			(end 3 16)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "785ab4a1-00c3-429d-ab26-039004164232")
-		)
-		(fp_line
-			(start -3 19)
-			(end 3 19)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c80fc183-57ad-4b13-9959-dca9c7273f37")
-		)
-		(fp_line
-			(start -3 21)
-			(end 3 21)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7109fa23-da5b-4afd-b71d-5312cd7fe29c")
-		)
-		(fp_line
-			(start 3 -23)
-			(end -3 -23)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2d3ee2b6-1932-457f-b13f-6f91e4f16ab6")
-		)
-		(fp_line
-			(start 3 21)
-			(end 3 -23)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "70852b5f-a218-4398-a46a-ba1509bba62f")
-		)
 		(fp_circle
-			(center 0 -11)
-			(end 2 -11)
+			(center 0 0)
+			(end 9 0)
 			(stroke
-				(width 0.25)
-				(type solid)
+				(width 0.2)
+				(type default)
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "be8a7cd5-e378-4a8e-b585-cf1580a0a194")
+			(uuid "954cb7b4-eb2f-4396-8754-1407b797e068")
 		)
 		(fp_circle
-			(center 0 11)
-			(end 2 11)
+			(center 0 0)
+			(end 10 0)
 			(stroke
 				(width 0.25)
-				(type solid)
+				(type default)
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "1c6742a5-10f3-4dbd-8ed9-57c2c65c0092")
-		)
-		(fp_poly
-			(pts
-				(xy 3 21) (xy 3 -23) (xy -3 -23) (xy -3 21)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "B.Adhes")
-			(uuid "be0a3498-627b-4ab1-8327-60460e86ecf4")
-		)
-		(fp_line
-			(start -3 -23)
-			(end -3 21)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.Fab")
-			(uuid "7aba40c9-19d3-4faf-b16b-c5d5422ca9e7")
-		)
-		(fp_line
-			(start -3 -23)
-			(end 3 -23)
-			(stroke
-				(width 0.15)
-				(type default)
-			)
-			(layer "F.Fab")
-			(uuid "f4773503-eebd-4197-a263-0ae7628f22ae")
-		)
-		(fp_line
-			(start -3 -21)
-			(end 3 -21)
-			(stroke
-				(width 0.15)
-				(type default)
-			)
-			(layer "F.Fab")
-			(uuid "21c3f563-8d9a-480e-a042-549db67e215e")
-		)
-		(fp_line
-			(start -3 -18)
-			(end 3 -18)
-			(stroke
-				(width 0.15)
-				(type default)
-			)
-			(layer "F.Fab")
-			(uuid "072267d4-26d0-4ce5-b709-8612d04e39b3")
-		)
-		(fp_line
-			(start -3 -16)
-			(end 3 -16)
-			(stroke
-				(width 0.15)
-				(type default)
-			)
-			(layer "F.Fab")
-			(uuid "d38f2338-7c94-409e-bc87-6fc6475bfa5e")
-		)
-		(fp_line
-			(start -3 -14)
-			(end 3 -14)
-			(stroke
-				(width 0.15)
-				(type default)
-			)
-			(layer "F.Fab")
-			(uuid "c4c0cb44-79c8-40bd-8b14-faadcac5b65a")
-		)
-		(fp_line
-			(start -3 -3)
-			(end 3 -3)
-			(stroke
-				(width 0.15)
-				(type default)
-			)
-			(layer "F.Fab")
-			(uuid "a8cba8ee-a8d7-419e-b969-f8d3ee800c2c")
-		)
-		(fp_line
-			(start -3 3)
-			(end 3 3)
-			(stroke
-				(width 0.15)
-				(type default)
-			)
-			(layer "F.Fab")
-			(uuid "eb5e04c2-dc1a-4f90-8341-e031004de98a")
-		)
-		(fp_line
-			(start -3 14)
-			(end 3 14)
-			(stroke
-				(width 0.15)
-				(type default)
-			)
-			(layer "F.Fab")
-			(uuid "0e0685f5-ffad-4a9e-afda-a7fff9383d5d")
-		)
-		(fp_line
-			(start -3 16)
-			(end 3 16)
-			(stroke
-				(width 0.15)
-				(type default)
-			)
-			(layer "F.Fab")
-			(uuid "a77692f7-33d9-4170-9693-1126ac345550")
-		)
-		(fp_line
-			(start -3 18)
-			(end 3 18)
-			(stroke
-				(width 0.15)
-				(type default)
-			)
-			(layer "F.Fab")
-			(uuid "065f0477-7b8f-474c-9dee-020c1413e590")
-		)
-		(fp_line
-			(start -3 19)
-			(end 3 19)
-			(stroke
-				(width 0.15)
-				(type default)
-			)
-			(layer "F.Fab")
-			(uuid "a09c40d0-2574-4326-a143-c56116eed58b")
-		)
-		(fp_line
-			(start -3 21)
-			(end 3 21)
-			(stroke
-				(width 0.15)
-				(type default)
-			)
-			(layer "F.Fab")
-			(uuid "64acd0e0-4e5c-4ca5-ab65-2393ceacff73")
-		)
-		(fp_line
-			(start 3 -23)
-			(end 3 21)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.Fab")
-			(uuid "4e5d7282-7f9b-4611-9ebb-3fe18fc4cc8d")
+			(uuid "7f33136d-2e92-4c6a-958c-550617c508a8")
 		)
 		(fp_circle
-			(center 0 -11)
-			(end 2 -11)
+			(center 0 0)
+			(end 10 0)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "3b2bc10e-d891-47c4-9f39-6c788d12f753")
+			(uuid "ae3a0a92-f3fe-43ed-9b38-33b4bc09f7e6")
 		)
-		(fp_circle
-			(center 0 11)
-			(end 2 11)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "9c1777d7-2a72-4667-be3e-c63259dd9c88")
-		)
-		(pad "1" thru_hole circle
-			(at 0 -11)
-			(size 3 3)
-			(drill 2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "PE")
-			(uuid "876c37a8-264b-4ba2-856c-8278ada00728")
-		)
-		(pad "2" thru_hole circle
-			(at 0 11)
-			(size 3 3)
-			(drill 2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "PE")
-			(uuid "4e1b5f6e-ec5e-47ab-8c64-7a1101db6bf6")
-		)
-		(pad "JMP" thru_hole circle
+		(pad "PE" thru_hole circle
 			(at 0 0)
-			(size 3 3)
+			(size 4 4)
 			(drill 2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "PE")
-			(uuid "42ceeba6-2411-4ab5-b3d1-211d139a2574")
-		)
-		(pad "PE" smd rect
-			(at 0 -6)
-			(size 3 3)
-			(layers "F.Cu" "F.Mask")
-			(net "PE")
-			(uuid "e30a3a13-2d89-47a0-850b-d0a92923465e")
+			(uuid "ba0ee81d-89d6-42cf-94cc-a53ff7e5a61d")
 		)
 		(embedded_fonts no)
-		(model "${PARTS_LIB}/3dmodels/Controls/KN-G12SP-10_DIN35x7p5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(segment
-		(start 288 -98)
-		(end 288 -31)
+		(start 443 210)
+		(end 443 425)
 		(width 2.052)
-		(layer "In22.Cu")
+		(layer "F.Cu")
 		(net "PE")
-		(uuid "5b3136db-21ed-4b95-bb37-eb189c7351ee")
+		(uuid "3d677aa6-bbe4-4d57-af4a-285580498e8b")
 	)
 	(segment
-		(start 391 -21)
-		(end 391 56)
+		(start 243 287)
+		(end 243 210)
 		(width 2.052)
-		(layer "In22.Cu")
+		(layer "F.Cu")
 		(net "PE")
-		(uuid "6fe76f91-f4b0-484b-b933-9d9267a608b3")
+		(uuid "9188511a-3977-4eb9-b3c8-cf38710a8e49")
 	)
 	(segment
-		(start 293 -26)
-		(end 386 -26)
+		(start 448 430)
+		(end 450 430)
 		(width 2.052)
-		(layer "In22.Cu")
+		(layer "F.Cu")
 		(net "PE")
-		(uuid "cbc074da-25ac-4aca-8b12-0a8a0e8b046d")
+		(uuid "bb487701-fb1a-4b70-a915-45b061777c9e")
+	)
+	(segment
+		(start 248 205)
+		(end 438 205)
+		(width 2.052)
+		(layer "F.Cu")
+		(net "PE")
+		(uuid "ca34c401-60b3-4eb7-b75f-cd7dabe265b1")
 	)
 	(arc
-		(start 386 -26)
-		(mid 389.535534 -24.535534)
-		(end 391 -21)
+		(start 243 210)
+		(mid 244.464466 206.464466)
+		(end 248 205)
 		(width 2.052)
-		(layer "In22.Cu")
+		(layer "F.Cu")
 		(net "PE")
-		(uuid "8b07c0f4-f12f-42f9-a8fe-1a7b27840be3")
+		(uuid "3a4d01c0-6bc8-4788-a995-e6bf6062e647")
 	)
 	(arc
-		(start 288 -31)
-		(mid 289.464466 -27.464466)
-		(end 293 -26)
+		(start 443 425)
+		(mid 444.464466 428.535534)
+		(end 448 430)
 		(width 2.052)
-		(layer "In22.Cu")
+		(layer "F.Cu")
 		(net "PE")
-		(uuid "bd39e285-d149-4ce9-a984-3d54eb6c6396")
+		(uuid "b8e39b06-2647-4f01-9bd7-03cb483827c4")
+	)
+	(arc
+		(start 438 205)
+		(mid 441.535534 206.464466)
+		(end 443 210)
+		(width 2.052)
+		(layer "F.Cu")
+		(net "PE")
+		(uuid "dff37dc4-28b2-4584-8b27-559a2c5dc1b1")
 	)
 )
