@@ -9,13 +9,13 @@ Fuse,Fuse Holder,1,1,1,EA,54.00,54.00,AD,RM25030-3SR,,Awaiting receipt - due 202
 Fuse,Fuse Cover,3,1,3,EA,18.50,55.50,AD,CVRI-RH-25030,,Awaiting receipt - due 2026-10-20
 Contactor,Thermal Overload,2,1,2,EA,31.50,63.00,AD,HTOR32-6-S,,Awaiting receipt - due 2026-10-20
 Contactor,Coil Surge Suppressor,5,1,5,EA,12.00,60.00,AD,HMX1-SSVRC-DC,,Awaiting receipt - due 2026-10-20
-Operator,Red Indicator,1,1,1,EA,52.92,52.92,DK,XB4BVB4,1,Awaiting receipt - due 2026-10-20
+Operator,Red Indicator,1,1,1,EA,52.92,52.92,DK,XB4BVB4,,Awaiting receipt - due 2026-10-20
 Terminal,Feedthrough Terminal,57,100,1,PACK,36.50,36.50,AD,KN-T12GRY-100,,Awaiting receipt - due 2026-10-20
 Terminal,End Cover,31,25,2,PACK,6.75,13.50,AD,KN-ECT6GRY-25,,Awaiting receipt - due 2026-10-20
 Terminal,End Bracket,9,10,1,PACK,13.50,13.50,AD,KN-EB7V0-10,,Awaiting receipt - due 2026-10-20
 Terminal,Terminal Jumper,5,5,1,PACK,13.50,13.50,AD,KN-10J12,,Awaiting receipt - due 2026-10-20
-Terminal,Adhesive Marker,62,250,1,PACK,13.50,13.50,AD,KN-L5-BLANK-250,,Awaiting receipt - due 2026-10-20
-Enclosure,Enclosure,1,1,1,EA,454.00,454.00,AD,EN4SD30208GY,1,Awaiting receipt - due 2026-10-20
+Terminal,Adhesive Marker,63,250,1,PACK,13.50,13.50,AD,KN-L5-BLANK-250,,Awaiting receipt - due 2026-10-20
+Enclosure,Enclosure,1,1,1,EA,454.00,454.00,AD,EN4SD30208GY,,Awaiting receipt - due 2026-10-20
 Enclosure,Backplate,1,1,1,EA,106.00,106.00,AD,EP3020,,Awaiting receipt - due 2026-10-20
 Enclosure,Mounting Feet,4,4,1,PACK,20.00,20.00,AD,EZPMFHD,1,Awaiting receipt - due 2026-10-20
 Enclousre,DIN Rail,3,4,1,EA,11.00,11.00,AD,DN-R35S-400-4,,Awaiting receipt - due 2026-10-20
@@ -25,17 +25,17 @@ Hardware,Single Ferrule,4,100,1,PACK,11.70,11.70,MCMC,7950K71,,Awaiting receipt 
 Hardware,Single Ferrule,45,100,1,PACK,11.79,11.79,MCMC,7950K73,,Awaiting receipt - due 2026-10-20
 Hardware,Single Ferrule,14,100,1,PACK,15.89,15.89,MCMC,7950K24,,Awaiting receipt - due 2026-10-20
 Hardware,Single Ferrule,32,1,40,EA,.27,10.80,DK,3202533,1,Awaiting receipt - due 2026-10-20
-Hardware,Single Ferrule,12,100,1,PACK,17.49,17.49,MCMC,7950K31,,Awaiting receipt - due 2026-10-20
+Hardware,Single Ferrule,15,100,1,PACK,17.49,17.49,MCMC,7950K31,,Awaiting receipt - due 2026-10-20
 Hardware,Ring Terminal 16-14,13,50,1,PACK,11.38,11.38,MCMC,7113K49,,Awaiting receipt - due 2026-10-20
 Hardware,Ring Terminal 16-14,3,50,1,PACK,11.38,11.38,MCMC,7113K24,,Awaiting receipt - due 2026-10-20
 Hardware,Ring Terminal 12-10,3,10,1,PACK,15.69,15.69,MCMC,8429T62,,Awaiting receipt - due 2026-10-20
 Wiring,Machine Tool Wire,119.5,50,3,FT,20.50,61.50,MCMC,9874T13,,Awaiting receipt - due 2026-10-20
 Wiring,Machine Tool Wire,7.2,10,1,FT,65.22,65.22,MCMC,6513T531,,Awaiting receipt - due 2026-10-20
-Terminal,Grounding Terminal,5,10,1,PACK,29,29.00,AD,KN-G12SP-10,,Awaiting receipt - due 2026-10-20
+Terminal,Grounding Terminal,6,10,1,PACK,29,29.00,AD,KN-G12SP-10,,Awaiting receipt - due 2026-10-20
 Terminal,Separator,28,10,3,PACK,5,15.00,AD,KN-ST1BLK,,Awaiting receipt - due 2026-10-20
 Terminal,Top Cover,44,25,2,PACK,15.00,30.00,AD,KN-TC-1S,,Awaiting receipt - due 2026-10-20
-Enclosure,Bonding Kit,3,2,2,PACK,36.00,72.00,AD,GRDKIT01,1,Awaiting receipt - due 2026-10-20
-Wiring,Machine Tool Wire,8.6,50,1,FT,94.27,94.27,MCMC,6513T633,,Awaiting receipt - due 2026-10-20
+Enclosure,Bonding Kit,3,2,2,PACK,36.00,72.00,AD,GRDKIT01,,Awaiting receipt - due 2026-10-20
+Wiring,Machine Tool Wire,9.8,50,1,FT,94.27,94.27,MCMC,6513T633,,Awaiting receipt - due 2026-10-20
 Wiring,Machine Tool Wire,93.8,50,2,FT,13.00,26.00,MCMC,9874T11,,Awaiting receipt - due 2026-10-20
 Wiring,Machine Tool Wire,58.7,100,1,FT,33.00,33.00,MCMC,9874T12,,Awaiting receipt - due 2026-10-20
 Hardware,Wago Lever Splice 3-Port,2,30,1,PACK,24.50,24.50,AD,221-613,,Awaiting receipt - due 2026-10-20
@@ -48,7 +48,7 @@ Conduit,Liquidtight Conduit,6,10,1,FT,20.40,20.40,MCMC,7581K42,,Awaiting receipt
 Conduit,Straight Conduit Connector,4,1,4,EA,2.99,11.96,MCMC,9106K422,,Awaiting receipt - due 2026-10-20
 Conduit,Elbow Conduit Connector,2,1,2,EA,4.87,9.74,MCMC,9106K522,,Awaiting receipt - due 2026-10-20
 Conduit,Reducer Bushing,1,1,1,EA,2.07,2.07,MCMC,44605K262,,Awaiting receipt - due 2026-10-20
-Hardware,Grounding Kit,2,1,2,EA,3.25,6.50,AD,WGNDKT,1,Awaiting receipt - due 2026-10-20
+Hardware,Grounding Kit,2,1,2,EA,3.25,6.50,AD,WGNDKT,,Awaiting receipt - due 2026-10-20
 switch,Speed Switch,1,1,0,EA,0,0.00,GBB," 365-TAV2111",,Awaiting receipt - due 2026-10-20
 indicator,White Indicator,1,1,0,EA,0,0.00,GBB,XB4BVB1,,Awaiting receipt - due 2026-10-20
 switch,Button Station,1,1,0,EA,0,0.00,GBB,50MA3KLE,,Awaiting receipt - due 2026-10-20

@@ -62,12 +62,13 @@ uninsulated bars, as described in the manufacturer's accessory guidance.
 The standalone incoming phase blocks TB79–TB81, E-stop block TB83, and six
 single-circuit motor/command entry feedthroughs require no inter-block jumper.
 
-The KN-G12SP-10 PE blocks connect through their conductive feet to the bonded
-DIN rail; KN-10J12 is not specified for those blocks. Two PE JMP strokes depict
+The KN-G12SP-10 PE blocks connect through their conductive feet to the DIN
+rail; KN-10J12 is not specified for those blocks. Two PE JMP strokes depict
 the lower TB43/TB50 bank and upper TB51/TB52 bank. A separate 12 AWG wire joins
-TB51.2 to TB43.2, bonding the two rail banks. These strokes are not KN-10J12 clips.
-Keep the discrete PE feed between rails as a stranded wire; rail bonding does
-not replace that feed.
+TB51.2 to TB43.2. The rail-2 block TB98 adds a second 12 AWG wire from TB52.2
+to TB98.1. These wire jumpers bond all three rails. The JMP strokes are not
+KN-10J12 clips. Use the numbered wire clamps for jumpers; the PE pad represents
+the conductive foot and is not an additional wire terminal.
 
 Sources: [KN-10J12 OEM listing](https://www.automationdirect.com/adc/shopping/catalog/wire_-a-_cable_termination/terminal_blocks/jumpers/kn-10j12),
 [Konnect-It accessory guidance](https://cdn.automationdirect.com/static/specs/konnectoverview.pdf),
@@ -719,9 +720,11 @@ at both ends. Local station jumpers/pigtails keep their drawn lengths and normal
 end allowances. Round every complete cut upward to 10 mm. Factory leads, mains
 cable and prefabricated bonding straps remain separate from loose stock.
 
-`tools/wiring/external_lengths.json` records this basis for wire-schedule Refresh;
-native drawn lengths remain available in the extraction report alongside the
-installed estimates. `Wire_length_totals.csv` aggregates estimated route length,
+This section records the installed-run basis. The old
+`tools/wiring/external_lengths.json` and automatic Refresh software were removed
+during repository cleanup; recover any needed helper outside this repository.
+Regeneration must apply these assumptions to the saved panel-to-gland paths
+rather than substitute the illustrative exterior tracks. `Wire_length_totals.csv` aggregates estimated route length,
 termination allowance, service slack and rounding. Purchase PACK/ORDER stay fixed.
 
 The measured 0.868-inch S3 knockouts correspond to the nominal 7/8-inch hole
@@ -905,7 +908,51 @@ PE rail contact is a retained conductive foot, not a ferruled wire clamp.
 - One discrete incoming PE continuation: TB82.1 to main PE block TB43.1, using 12 AWG green/yellow panel wire.
 - One discrete external PE connection: the 12 AWG motor-conduit conductor between a suitable panel PE termination and the motor-end PE junction.
 - One discrete panel PE wire: PSU PE to a panel PE terminal, using the 14 AWG default subject to actual termination/protection requirements.
-- Owner's planned mechanical bonds: three conductive fasteners per rail to the backplate; four conductive fasteners from backplate to enclosure. GBB supplies mounting and bonding fasteners, including rail/duct mounting, outside the purchase BOM. All holes are to be drilled and tapped. Contact preparation, suitable thread engagement and installed bonding verification remain necessary. These connections are recorded as mechanical bonds, not purchased wire lengths.
+- Rail and enclosure bonding revision, 2026-10-20: use the terminal-foot and wire-jumper paths below for rail PE continuity. Rail/duct mounting screws provide mechanical attachment; the bonding plan does not rely on those screws as the rail PE path. The owner confirms that the backplate mounts directly on four enclosure grounding lugs/studs. Retain those four mounting/bonding interfaces with the supplied bonding hardware and prepared conductive contact surfaces. Verify the installed backplate-to-enclosure bond. GBB supplies mounting and bonding fasteners and a stud-compatible ring terminal outside the purchase BOM. The earlier requirement to drill and tap every mounting hole is superseded by this plan; self-drilling mounting screws may be used within their specified material and thickness limits.
+
+### Rail and enclosure bonding connections — 2026-10-20
+
+Rail 1 is the upper rail, rail 2 the middle rail and rail 3 the lower rail.
+The physical PCB layout contains TB98 at X=391, Y=67 mm on rail 2. Its right
+end bracket moves from X=395 to X=401 mm; the other rail devices stay in place.
+The new block leaves room for the existing end cover after TB97.
+TB98 is a PCB-only physical terminal, following the existing incoming-terminal
+convention. Its wire clamps and conductive rail foot are internally common.
+
+| Connection | Conductor / hardware | Saved-design status |
+|---|---|---|
+| Incoming cable PE to TB82.2 on rail 3 | Supplied 12 AWG cable core | Existing route; retain. |
+| TB82.1 to TB43.1 on rail 3 | 12 AWG green/yellow, single 10 mm ferrule at each end | Existing route; retain. |
+| Rail 3 TB43.2 to rail 1 TB51.2 | 12 AWG green/yellow, single 10 mm ferrule at each end | Existing route; retain. |
+| Rail 1 TB52.2 to rail 2 TB98.1 | 12 AWG green/yellow, single 10 mm ferrule at each end | New continuous PCB route; regenerate the wire schedule from the saved PCB. |
+| Rail 3 TB50.1 to a manufacturer-provided enclosure/backplate grounding lug | 12 AWG green/yellow; single 10 mm ferrule at TB50.1 and a GBB-supplied ring matching the selected stud | Planned connection. Confirm the physical stud, ring fit and cut length during installation; no fictitious PCB lug location or wire length is assigned. |
+| Backplate to enclosure | Four owner-confirmed grounding mounting lugs/studs, supplied nuts and bonding hardware, prepared conductive interfaces | Mechanical bond; verify continuity after assembly. No separate backplate-to-enclosure jumper is counted for these four interfaces. |
+| Enclosure bonding stud to door bonding stud | Existing GRDKIT01 factory 10 AWG strap with compatible ring lugs | Retain the separate door bond. |
+
+Use one conductor per numbered clamp. TB98.2 remains spare. KN-G12SP-10
+accepts 26–12 AWG; do not insert the GRDKIT01 10 AWG strap ends into it.
+Hammond's assembly drawing distinguishes the panel-mounting hardware from the
+separate 1/4-20 enclosure ground stud: confirm the actual chosen attachment
+before selecting its ring. Use the manufacturer's hardware/contact preparation
+and torque requirements for the applicable connection, rather than assuming
+that contact through paint is conductive.
+
+The revised requirement is six PE blocks, 63 terminal marker positions and
+15 loose 12 AWG single ferrules (12 existing, two for TB52–TB98, one for the
+planned TB50-to-lug jumper). Existing purchase packs cover these additions.
+The rail-1-to-rail-2 jumper is routed continuously on In22.Cu, with a
+252.708 mm centerline and a 360 mm cut estimate under the existing schedule
+allowance and rounding rule. The resulting saved 12 AWG green/yellow loose-wire
+requirement is 9.8 ft, rounded upward to one decimal place; the 50 ft purchase
+is unchanged. The unrouted TB50-to-lug jumper is an additional planned wire:
+measure its cut length and confirm the stud-compatible ring before cutting,
+then add that measured length to the wire requirement. It is not yet included
+in the trace-derived wire schedule or length totals. Its omission is an open
+installation measurement, not a zero-length wire. Verify the routed cut
+estimate against the assembled duct and terminal approaches as well.
+
+Sources: [KN-G12SP grounding-terminal specifications](https://cdn.automationdirect.com/static/specs/konnectgnd.pdf),
+[Hammond Eclipse assembly and bonding details](https://www.hammfg.com/files/parts/bulletins/BUL10136.pdf).
 
 Use **PE** for protective-earth conductor naming. Document the actual installation and bonding verification separately from this planned topology.
 

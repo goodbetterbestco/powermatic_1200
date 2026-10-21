@@ -113,6 +113,7 @@ Motor Disconnect,SW1_4,Terminal 42,TB42_BOT,14,1090,B14_12mm,F14_10mm
 Terminal 13,TB13_BOT,Multifunction Timer TD1,TD1_A2,18,950,F18_10mm,B18_7mm
 Terminal 43,TB43_1,Terminal 82,TB82_1,12,430,F12_10mm,F12_10mm
 Terminal 43,TB43_2,Terminal 51,TB51_2,12,1080,F12_10mm,F12_10mm
+Terminal 52,TB52_2,Terminal 98,TB98_1,12,360,F12_10mm,F12_10mm
 Terminal 77,TB77_BOT,Terminal 88,TB88_TOP,18,280,F18_10mm,F18_10mm
 Terminal 84,TB84_BOT,Multifunction Timer TD2,TD2_18,18,680,F18_10mm,B18_7mm
 Terminal 85,TB85_BOT,Terminal 92,TB92_TOP,18,300,F18_10mm,F18_10mm

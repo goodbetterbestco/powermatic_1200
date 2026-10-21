@@ -1,5 +1,49 @@
 # BOM quantity review — 2026-10-19
 
+## Bonding revision — 2026-10-20
+
+This revision supersedes the affected quantities in the historical audit below.
+Added PCB-only PE terminal TB98 on the middle rail, moved only its right end
+bracket 6 mm outward, and routed a 12 AWG green/yellow jumper from TB52.2 to
+TB98.1. The existing TB43.2–TB51.2 jumper remains in place. The owner confirms
+that the backplate mounts on four enclosure grounding lugs/studs; the current
+connection table and installation checks are in `WIRING_STANDARD.md` under
+**Rail and enclosure bonding connections — 2026-10-20**.
+
+| Requirement | Previous | Revised | Purchase effect |
+|---|---:|---:|---|
+| KN-G12SP-10 PE blocks | 5 | 6 | Existing 10-pack covers the addition. |
+| Terminal marker positions | 62 | 63 | Existing 250-pack covers the addition. |
+| 12 AWG single ferrules, 7950K31 | 12 | 15 | Two for TB52–TB98 and one reserved for TB50-to-lug; existing 100-pack covers them. |
+| 12 AWG green/yellow loose wire, 6513T633 | 8.6 ft | 9.8 ft | Adds the 360 mm routed-jumper cut estimate; existing 50 ft purchase is unchanged. |
+
+The TB50.1-to-grounding-lug jumper is planned but not yet routed. Its cut
+length and stud-compatible ring must be confirmed on the enclosure, then its
+length added to the wire requirement. No imaginary lug location, ring-stud
+size or cut length was introduced into KiCad or the trace-derived schedule.
+The ferrule requirement already reserves its terminal-block end. GBB provides
+the stud-compatible ring and mounting/bonding hardware. Purchase quantities,
+prices and receipt flags are preserved; the purchase total remains $2,203.28.
+
+Regenerated `Wire_schedule.csv` from the saved PCB with the documented
+installed-conduit lengths and end allowances. The result has 125 rows: all
+124 prior wire rows are retained and TB52–TB98 is added at 360 mm. Fixed
+terminal jumper bars and PE-bank hardware are excluded from loose-wire rows.
+`Wire_length_totals.csv` is recalculated from those same paths and installed-run
+assumptions, including the previously audited 14 AWG PE and 16 AWG control-wire
+corrections. Its loose-wire total is 91.580 m across 115 wires. Factory cable
+cores, pigtails and two 10 AWG factory bonding spans remain outside loose stock.
+
+Native KiCad connectivity reports zero unconnected items. All 1,253 pre-existing
+track objects are byte-for-byte unchanged; the new jumper adds three segments
+and two 5 mm-radius bends. Only TB50/TB52 endpoint metadata and the rail-2 right
+end bracket change among existing footprints. The schematic is unchanged.
+The legacy schematic-coverage audit still reports the same 15 uncovered logical
+nets seen before this revision, including metadata-only and retained-connection
+endpoints; this update does not claim ERC or full schematic/layout reconciliation.
+
+## Original audit — 2026-10-19
+
 The 62-row `BOM_other.csv` does not show a general quantity-column scramble. The saved component and termination counts reconcile. The two stale wire requirements and unresolved WAGO row have now been corrected. All six loose-wire QUA values round upward to one decimal place. Its saved purchase total is **$2,203.28** after the owner's final 221-612 selection.
 
 ## Resolved deviations and remaining hardware check
