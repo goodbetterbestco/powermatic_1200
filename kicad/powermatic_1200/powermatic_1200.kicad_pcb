@@ -138514,7 +138514,7 @@
 				)
 			)
 		)
-		(property "Wire.BondingPlan" "TB50.1 to J8.PE lower-right enclosure/backplate grounding stud: 12 AWG green/yellow, 10 mm single ferrule at TB50.1 and McMaster 9388K35 5/16 in ring at J8. Routed; retain the four backplate mounting/bonding interfaces."
+		(property "Wire.BondingPlan" "TB50.1 to J8.PE: 12 AWG green/yellow to the existing lower-right enclosure grounding fixture on User.Drawings; endpoint concentric at (449.2876,449.2876) mm. 10 mm single ferrule at TB50.1; owner-selected 5/16 in McMaster 9388K35 ring at the lug."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -389143,7 +389143,7 @@
 				)
 			)
 		)
-		(property "Wire.SuppliedBond" "{\"schema\":1,\"sku\":\"GRDKIT01\",\"supplier\":\"Hammond\",\"wire\":\"existing_frame_PE\",\"awg\":10,\"supplied_length_mm\":304.8,\"termination_at_lug\":\"factory ring retained\",\"status\":\"routed\",\"from\":\"J7.PE motor bell stud\",\"to\":\"J5.PE drill press frame\",\"termination_at_motor_stud\":\"factory ring retained\"}"
+		(property "Wire.SuppliedBond" "{\"schema\":1,\"sku\":\"GRDKIT01\",\"supplier\":\"Hammond\",\"wire\":\"existing_frame_PE\",\"awg\":10,\"supplied_length_mm\":304.8,\"termination_at_lug\":\"factory ring retained\",\"status\":\"routed\",\"from\":\"M1.PE motor-box WAGO 221-613 splice\",\"to\":\"J5.PE drill press frame\",\"termination_at_splice\":\"ring removed; bare copper, 13 mm strip\"}"
 			(at 343 749 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1017241,7 +1017241,7 @@
 				)
 			)
 		)
-		(property "Wire.SplicePlan.PE" "{\"schema\":1,\"connector\":\"WAGO 221-613\",\"ports\":[{\"wire\":\"motor_PE_to_gland\",\"awg\":12,\"strip_mm\":13},{\"wire\":\"motor-body-bond\",\"to\":\"J7.PE\",\"awg\":10,\"strip_mm\":13,\"status\":\"routed\"},{\"status\":\"unused\"}]}"
+		(property "Wire.SplicePlan.PE" "{\"schema\":1,\"connector\":\"WAGO 221-613\",\"ports\":[{\"wire\":\"motor_PE_to_gland\",\"awg\":12,\"strip_mm\":13},{\"wire\":\"motor-body-bond\",\"to\":\"J7.PE\",\"awg\":10,\"strip_mm\":13,\"status\":\"routed\"},{\"wire\":\"machine-frame-bond\",\"to\":\"J5.PE\",\"awg\":10,\"strip_mm\":13,\"status\":\"routed\"}],\"location\":\"Inside motor junction box; M1.PE is the shared three-port interface\"}"
 			(at 245 638 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1135230,28 +1135230,12 @@
 		(uuid "f7ca80b5-d8ae-55e4-9b12-1f78dbc11579")
 	)
 	(segment
-		(start 240 905)
-		(end 240 854)
-		(width 2.588)
-		(layer "In3.Cu")
-		(net "PE")
-		(uuid "203579f4-ff6e-4cb7-afac-b5d6713e69e7")
-	)
-	(segment
 		(start 303 905)
 		(end 240 905)
 		(width 2.588)
 		(layer "In3.Cu")
 		(net "PE")
 		(uuid "2de94ff0-9dc5-475e-8960-6284c07bd96a")
-	)
-	(segment
-		(start 245 849)
-		(end 263 849)
-		(width 2.588)
-		(layer "In3.Cu")
-		(net "PE")
-		(uuid "38e88589-1fa3-4fc5-9b65-b6a6eb7c459b")
 	)
 	(segment
 		(start 308 875)
@@ -1135269,15 +1135253,6 @@
 		(layer "In3.Cu")
 		(net "PE")
 		(uuid "7cf07ea0-afbe-478f-8cd0-3de441d98748")
-	)
-	(arc
-		(start 240 854)
-		(mid 241 851)
-		(end 245 849)
-		(width 2.588)
-		(layer "In3.Cu")
-		(net "PE")
-		(uuid "b47301b1-af09-47ae-bb91-e9192cdd711a")
 	)
 	(segment
 		(start 78 205)
@@ -1142617,7 +1142592,7 @@
 	(footprint "Controls:Frame_PE_Lug_20mm"
 		(layer "F.Cu")
 		(uuid "187ec637-c6a4-44ae-84f0-2a1e2ecc55e2")
-		(at 450 430)
+		(at 449.2876 449.2876)
 		(descr "PCB-only frame protective-earth lug routing target. User-defined 20 mm circular marker with centered PE THT pad. Logical machine-frame wiring representation; the 3 mm pad and 2 mm drill are routing-target geometry, not installed lug or fastener dimensions.")
 		(tags "frame PE protective earth bonding lug PCB-only")
 		(property "Reference" "J8"
@@ -1142635,6 +1142610,7 @@
 			(at 0 12 0)
 			(layer "F.Fab")
 			(uuid "763c0ef4-2c78-4609-b94d-6a7d0be55061")
+			(hide yes)
 			(effects
 				(font
 					(size 1 1)
@@ -1142653,7 +1142629,7 @@
 				)
 			)
 		)
-		(property "Description" "Lower-right manufacturer-provided backplate/enclosure grounding stud, owner-confirmed 5/16 in. Routing target at (450,430) mm rounds saved mounting center (449.5286,430.4786) mm to the 1 mm routing grid. Marker geometry is not hardware or a drilling specification."
+		(property "Description" "Electrical routing endpoint concentric with the existing lower-right grounding fixture in EN4SD30208GY_Open_Front on User.Drawings at (449.2876,449.2876) mm. Reuses enclosure-supplied lug; no new lug or drilling geometry."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1142712,7 +1142688,7 @@
 				)
 			)
 		)
-		(property "BOM.CountedIn" "Enclosure-provided grounding stud and mounting hardware. McMaster 9388K35 ring terminal is a separate BOM consumable."
+		(property "BOM.CountedIn" "Enclosure-supplied grounding lug and hardware. McMaster 9388K35 ring terminal is a separate BOM consumable."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1142724,7 +1142700,7 @@
 				)
 			)
 		)
-		(property "Wire.BondingPlan" "TB50.1 to J8.PE lower-right enclosure/backplate grounding stud: 12 AWG green/yellow, 10 mm single ferrule at TB50.1 and McMaster 9388K35 5/16 in ring at J8. Routed; retain the four backplate mounting/bonding interfaces."
+		(property "Wire.BondingPlan" "TB50.1 to J8.PE: 12 AWG green/yellow to the existing lower-right enclosure grounding fixture on User.Drawings; endpoint concentric at (449.2876,449.2876) mm. 10 mm single ferrule at TB50.1; owner-selected 5/16 in McMaster 9388K35 ring at the lug."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1142738,39 +1142714,6 @@
 		)
 		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 9 0)
-			(stroke
-				(width 0.2)
-				(type default)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "954cb7b4-eb2f-4396-8754-1407b797e068")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 10 0)
-			(stroke
-				(width 0.25)
-				(type default)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "7f33136d-2e92-4c6a-958c-550617c508a8")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 10 0)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "ae3a0a92-f3fe-43ed-9b38-33b4bc09f7e6")
-		)
 		(pad "PE" thru_hole circle
 			(at 0 0)
 			(size 4 4)
@@ -1142783,28 +1142726,20 @@
 		(embedded_fonts no)
 	)
 	(segment
-		(start 443 210)
-		(end 443 425)
-		(width 2.052)
-		(layer "F.Cu")
-		(net "PE")
-		(uuid "3d677aa6-bbe4-4d57-af4a-285580498e8b")
-	)
-	(segment
 		(start 243 287)
 		(end 243 210)
 		(width 2.052)
 		(layer "F.Cu")
 		(net "PE")
-		(uuid "9188511a-3977-4eb9-b3c8-cf38710a8e49")
+		(uuid "18fd2052-7cd7-4f85-923f-70858a28c726")
 	)
 	(segment
-		(start 448 430)
-		(end 450 430)
-		(width 2.052)
+		(start 263 849)
+		(end 303 849)
+		(width 2.588)
 		(layer "F.Cu")
 		(net "PE")
-		(uuid "bb487701-fb1a-4b70-a915-45b061777c9e")
+		(uuid "37462817-794d-427d-9e80-002732c6ae1a")
 	)
 	(segment
 		(start 248 205)
@@ -1142812,25 +1142747,31 @@
 		(width 2.052)
 		(layer "F.Cu")
 		(net "PE")
-		(uuid "ca34c401-60b3-4eb7-b75f-cd7dabe265b1")
+		(uuid "68a47668-ee1e-4a0f-8ec8-e0e85cb52c5a")
 	)
-	(arc
-		(start 243 210)
-		(mid 244.464466 206.464466)
-		(end 248 205)
+	(segment
+		(start 308 854)
+		(end 308 875)
+		(width 2.588)
+		(layer "F.Cu")
+		(net "PE")
+		(uuid "68b6cd2e-1846-4dff-a5ed-37e66a96daf0")
+	)
+	(segment
+		(start 443 210)
+		(end 443 444.2876)
 		(width 2.052)
 		(layer "F.Cu")
 		(net "PE")
-		(uuid "3a4d01c0-6bc8-4788-a995-e6bf6062e647")
+		(uuid "efb453e4-4dd3-41ad-ba9d-1f54b37ff962")
 	)
-	(arc
-		(start 443 425)
-		(mid 444.464466 428.535534)
-		(end 448 430)
+	(segment
+		(start 448 449.2876)
+		(end 449.2876 449.2876)
 		(width 2.052)
 		(layer "F.Cu")
 		(net "PE")
-		(uuid "b8e39b06-2647-4f01-9bd7-03cb483827c4")
+		(uuid "f5896aff-0948-432d-a9b6-2e583104cf25")
 	)
 	(arc
 		(start 438 205)
@@ -1142839,6 +1142780,33 @@
 		(width 2.052)
 		(layer "F.Cu")
 		(net "PE")
-		(uuid "dff37dc4-28b2-4584-8b27-559a2c5dc1b1")
+		(uuid "232f7207-d83e-421b-b7c1-7246464ba7c3")
+	)
+	(arc
+		(start 243 210)
+		(mid 244.464466 206.464466)
+		(end 248 205)
+		(width 2.052)
+		(layer "F.Cu")
+		(net "PE")
+		(uuid "39147a2d-7d63-4ce9-ac25-1622e4210db7")
+	)
+	(arc
+		(start 303 849)
+		(mid 306.535534 850.464466)
+		(end 308 854)
+		(width 2.588)
+		(layer "F.Cu")
+		(net "PE")
+		(uuid "5dab7c45-f98a-42c7-b4a3-8a873875c021")
+	)
+	(arc
+		(start 443 444.2876)
+		(mid 444.464466 447.823134)
+		(end 448 449.2876)
+		(width 2.052)
+		(layer "F.Cu")
+		(net "PE")
+		(uuid "a84e9881-ff10-4b3b-b070-ff389e402bf1")
 	)
 )

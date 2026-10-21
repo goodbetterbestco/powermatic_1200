@@ -34,8 +34,8 @@ Wiring,Machine Tool Wire,7.2,10,1,FT,65.22,65.22,MCMC,6513T531,,Awaiting receipt
 Terminal,Grounding Terminal,6,10,1,PACK,29,29.00,AD,KN-G12SP-10,,Awaiting receipt - due 2026-10-20
 Terminal,Separator,28,10,3,PACK,5,15.00,AD,KN-ST1BLK,,Awaiting receipt - due 2026-10-20
 Terminal,Top Cover,44,25,2,PACK,15.00,30.00,AD,KN-TC-1S,,Awaiting receipt - due 2026-10-20
-Enclosure,Bonding Kit,3,2,2,PACK,36.00,72.00,AD,GRDKIT01,,Awaiting receipt - due 2026-10-20
-Wiring,Machine Tool Wire,11.8,50,1,FT,94.27,94.27,MCMC,6513T633,,Awaiting receipt - due 2026-10-20
+Enclosure,Bonding Kit,2,2,1,PACK,36.00,36.00,AD,GRDKIT01,,Awaiting receipt - due 2026-10-20
+Wiring,Machine Tool Wire,11.9,50,1,FT,94.27,94.27,MCMC,6513T633,,Awaiting receipt - due 2026-10-20
 Wiring,Machine Tool Wire,93.8,50,2,FT,13.00,26.00,MCMC,9874T11,,Awaiting receipt - due 2026-10-20
 Wiring,Machine Tool Wire,58.7,100,1,FT,33.00,33.00,MCMC,9874T12,,Awaiting receipt - due 2026-10-20
 Hardware,Wago Lever Splice 3-Port,2,30,1,PACK,24.50,24.50,AD,221-613,,Awaiting receipt - due 2026-10-20

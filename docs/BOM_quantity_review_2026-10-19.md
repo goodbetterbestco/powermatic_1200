@@ -1,35 +1,42 @@
 # BOM quantity review — 2026-10-19
 
-## Lower-right enclosure jumper completed — 2026-10-20
+## Supplied door jumper and parallel motor bonds — 2026-10-20
 
-This update supersedes the previously planned TB50-to-lug connection below.
-The owner confirms **TB50**, rather than TB40, as the source. Saved TB50.1 is
-PE; TB40.TOP is switched L1 and is not used for this bond. Routed a continuous
-12 AWG green/yellow wire from the top TB50.1 clamp through the duct to J8.PE,
-the lower-right mounting/grounding stud identified by the owner as 5/16 inch.
-J8 reuses the existing canonical mechanical-lug routing marker at (450,430) mm,
-rounding the saved mounting-circle center (449.5286,430.4786) mm to the routing
-grid. It does not add purchased lug hardware or modify the mounting hole.
+This revision supersedes the former three-GRDKIT01-assembly allocation and
+the earlier series motor/frame route. The owner confirms that the enclosure
+shipped with dedicated body and door lugs, a pre-terminated jumper and its
+hardware. Retain that supplied door bond; do not purchase another door strap.
+GRDKIT01 now requires **two assemblies**, both for the motor/frame branches:
+QUA 2, PACK 2, ORDER 1, COST $36.00, LINE $36.00. The prior supplier order
+was two packs/four assemblies; two assemblies remain spare. This BOM change
+states the required purchase, not a change to the actual order or receipt.
+All receipt flags are preserved. The BOM requirement total is **$2,173.03**.
 
-The 507.562 mm route gives a **610 mm cut estimate** with the documented
-20 mm termination and 30 mm service allowance at each end, rounded upward
-to 10 mm. Native track/pad clearance is at least 0.2 mm on its F.Cu layer.
-All existing tracks and the owner's latest saved label adjustments are retained.
-The regenerated schedule preserves all 125 existing rows and adds this one,
-bringing it to 126 wire rows. Loose-stock totals are 116 wires / 92.190 m.
+The J-box WAGO 221-613 at M1.PE now has three occupied ports: one 12 AWG
+conduit PE feed, one 10 AWG whip directly to motor-bell stud J7, and one
+10 AWG whip directly to machine-frame lug J5. Each conductor has its own port.
+Both whips retain their metal-part ring and have only their WAGO-end ring
+removed, with 13 mm bare copper stripping. **There is no J5-to-J7 series wire.**
+The frame branch has a 170 mm cut estimate; the motor branch remains 200 mm.
+Both use the existing factory 12-inch GRDKIT01 assemblies, subject to final
+installed length and lug fit, and are excluded from loose-wire stock totals.
 
-The 12 AWG green/yellow requirement increases from 9.8 to **11.8 ft**, rounded
-upward to one decimal place. Its 50 ft purchase remains unchanged. The existing
-15-ferrule requirement already included the TB50 end; no additional ferrule
-purchase is added. The lug end uses **McMaster-Carr 9388K35**, a nylon-insulated
-16–12 AWG ring with a 5/16-inch stud hole, suitable for the 12 AWG conductor.
-It is a separate BOM row: MCMC 9388K35, QUA/PACK/ORDER 1/10/1, UNIT PACK,
-at $5.75 per pack of ten, increasing the purchase total to **$2,209.03**.
-The new ring is a purchase requirement; it is not marked received. All existing
-receipt flags and other purchasing fields are preserved.
+J8.PE is now centered at **(449.2876,449.2876) mm**, concentric with the
+existing lower-right enclosure grounding fixture on User.Drawings in the
+`EN4SD30208GY_Open_Front` footprint. Duplicate J8 circle graphics and the
+generic value label are removed. Existing enclosure artwork and backplate
+mounting holes are unchanged. This is distinct from the backplate mounting
+hole at (449.5286,430.4786) mm. The TB50.1-to-J8 wire retains its 12 AWG
+green/yellow conductor and owner-selected McMaster 9388K35 ring for the
+5/16-inch lug; the revised endpoint gives a **630 mm cut estimate**.
 
-See `WIRING_STANDARD.md`, **Lower-right stud ring terminal**, for specifications,
-manufacturer/distributor sources and the endpoint-owned termination code.
+The 12 AWG green/yellow requirement is **11.9 ft**, rounded upward to one
+decimal place. Its 50 ft purchase remains unchanged. All ferrule, PE block,
+marker and other purchase requirements are retained. The regenerated schedule
+contains 126 wire rows; loose-stock totals cover 116 wires / **92.210 m**.
+Verify the installed mechanical bonds separately, including backplate-to-body
+contact and J-box-to-motor contact. See `WIRING_STANDARD.md` for the current
+connection table and termination details.
 
 ## Bonding revision — 2026-10-20
 

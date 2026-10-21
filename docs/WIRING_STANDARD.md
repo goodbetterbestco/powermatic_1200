@@ -739,7 +739,7 @@ S2's cast 3/4-inch **female** NPT entry needs a 3/4-inch **male** to 1/2-inch
 | 1/2-inch 90-degree LFNC-B connector, male NPT | 9106K522 | 2 individual fittings |
 | Steel 3/4-inch male x 1/2-inch female NPT reducer | 44605K262 | 1, at pendant |
 | Wiegmann field grounding kit, aluminum lug with mounting hardware | AD WGNDKT | 2 individual kits, one per metal control housing |
-| Bonding kit, two 10 AWG stranded straps with factory ring lugs and accessory hardware per pack | AD GRDKIT01 | 2 packs: four straps, three planned bonds plus one spare |
+| Bonding kit, two 10 AWG stranded straps with factory ring lugs and accessory hardware per pack | AD GRDKIT01 | 1 pack required: two straps for the separate motor and frame J-box branches; door jumper supplied with enclosure. Prior two-pack order provides two spares. |
 
 GBB supplies rail/duct mounting and bonding fasteners; these are excluded from
 purchases. GRDKIT01 includes #10-32 screws, nuts and washers, and each WGNDKT
@@ -876,7 +876,7 @@ Sources: [FAZ-NA specifications](https://cdn.automationdirect.com/static/specs/e
 
 | Actual size | Component / use | Treatment |
 |---|---|---|
-| 10 AWG | Selected Hammond GRDKIT01 prefabricated bonding jumpers | Record the supplied assembly and its installed terminations separately. The enclosure–door jumper retains ring lugs at both ends. Motor PE follows the motor conduit into the motor-box WAGO 221-613 splice, then a 10 AWG factory whip runs to the motor-bell stud J7; remove only that whip's splice-end ring and strip 13 mm, retaining its stud-end ring. A second 10 AWG factory whip runs from J7 to the drill-press frame lug J5 with both ring lugs retained. The two whips use separate rings on the same motor-bell stud; no PE conductor branches through the conduit wall. Two kits supply four 12-inch assemblies, one spare for the three planned bonds, subject to usable length after modification and stud fit. These are not loose-wire stock and cannot terminate in KN-G12SP-10 clamps. |
+| 10 AWG | Hammond GRDKIT01 motor/frame bonding jumpers | Two independent factory whips run from the motor-box WAGO 221-613: one to motor-bell stud J7 and one to machine-frame lug J5. Retain each metal-part ring; remove each splice-end ring and strip 13 mm for its own WAGO port. Do not chain J5 through J7. One two-assembly kit covers both bonds, subject to usable length and stud fit. The door uses its enclosure-supplied pre-terminated jumper and dedicated body/door lugs, with the supplied hardware; no GRDKIT01 assembly is allocated to the door. These factory assemblies are not loose-wire stock and their 10 AWG ends cannot enter KN-G12SP-10 clamps. |
 | Manufacturer-defined | Suppressor leads, retained switch straps and other fixed device wiring | Keep the actual supplied conductor specification. Do not assign an unverified stock gauge or create an extra assembly wire for a factory/internal connection. |
 
 KN-G12SP-10 accepts 26–12 AWG. Use separate suitable clamps for the incoming cable PE, the 12 AWG motor-conduit PE and PSU PE wire. Its two wire clamps and conductive rail foot are electrically common. Prepare each conductor according to the terminal manufacturer's instructions. The 10 AWG bonding-jumper ends use compatible studs or a wire-splicing connector rated for that conductor; they do not enter these KN-G12SP-10 clamps.
@@ -903,12 +903,12 @@ PE rail contact is a retained conductive foot, not a ferruled wire clamp.
 
 ## Bonding plan and conductor classification
 
-- Three prefab bonds: enclosure stud to door stud; motor-end Wago PE splice to motor body; that same splice to machine frame. The owner specifies cutting off the Wago-end jumper connector if present and inserting the correctly stripped conductor into the Wago. Keep the remaining ring lug at the bonded metal part.
+- Three prefab bonds: the enclosure-supplied pre-terminated jumper joins the dedicated enclosure-body and door lugs using supplied hardware; two separate GRDKIT01 whips join the motor-box WAGO PE splice to the motor body and machine frame. Each motor/frame whip retains its metal-part ring, with only its splice-end ring removed and that conductor stripped 13 mm. The motor and frame bonds are parallel branches at the J-box, with no series chain.
 - One cable-core PE connection: mains cable PE to incoming grounding block TB82, supplied within the incoming cable.
 - One discrete incoming PE continuation: TB82.1 to main PE block TB43.1, using 12 AWG green/yellow panel wire.
 - One discrete external PE connection: the 12 AWG motor-conduit conductor between a suitable panel PE termination and the motor-end PE junction.
 - One discrete panel PE wire: PSU PE to a panel PE terminal, using the 14 AWG default subject to actual termination/protection requirements.
-- Rail and enclosure bonding revision, 2026-10-20: use the terminal-foot and wire-jumper paths below for rail PE continuity. Rail/duct mounting screws provide mechanical attachment; the bonding plan does not rely on those screws as the rail PE path. The owner confirms that the backplate mounts directly on four enclosure grounding lugs/studs. Retain those four mounting/bonding interfaces with the supplied bonding hardware and prepared conductive contact surfaces. Verify the installed backplate-to-enclosure bond. GBB supplies mounting and bonding fasteners. One McMaster 9388K35 ring for the 5/16-inch lower-right stud is purchased separately in the BOM. The earlier requirement to drill and tap every mounting hole is superseded by this plan; self-drilling mounting screws may be used within their specified material and thickness limits.
+- Rail and enclosure bonding revision, 2026-10-20: use the terminal-foot and wire-jumper paths below for rail PE continuity. Rail/duct mounting screws provide mechanical attachment; the bonding plan does not rely on those screws as the rail PE path. The owner confirms that the backplate mounts directly on four enclosure grounding lugs/studs. Retain those four mounting/bonding interfaces with the supplied bonding hardware and prepared conductive contact surfaces. Verify the installed backplate-to-enclosure bond. GBB supplies mounting and bonding fasteners. One McMaster 9388K35 ring for the owner-selected 5/16-inch lower-right enclosure grounding lug is purchased separately in the BOM. The enclosure-supplied door jumper and its body/door lugs and hardware require no separate purchase. The earlier requirement to drill and tap every mounting hole is superseded by this plan; self-drilling mounting screws may be used within their specified material and thickness limits.
 
 ### Rail and enclosure bonding connections — 2026-10-20
 
@@ -924,22 +924,29 @@ convention. Its wire clamps and conductive rail foot are internally common.
 | Incoming cable PE to TB82.2 on rail 3 | Supplied 12 AWG cable core | Existing route; retain. |
 | TB82.1 to TB43.1 on rail 3 | 12 AWG green/yellow, single 10 mm ferrule at each end | Existing route; retain. |
 | Rail 3 TB43.2 to rail 1 TB51.2 | 12 AWG green/yellow, single 10 mm ferrule at each end | Existing route; retain. |
-| Rail 1 TB52.2 to rail 2 TB98.1 | 12 AWG green/yellow, single 10 mm ferrule at each end | New continuous PCB route; regenerate the wire schedule from the saved PCB. |
-| Rail 3 TB50.1 (top clamp) to J8.PE at the lower-right backplate/enclosure mounting lug | 12 AWG green/yellow; single 10 mm ferrule at TB50.1 and McMaster 9388K35 ring for 16–12 AWG and a 5/16-inch stud at J8 | Routed continuously on F.Cu; 507.562 mm centerline, 610 mm scheduled cut estimate. |
-| Backplate to enclosure | Four owner-confirmed grounding mounting lugs/studs, supplied nuts and bonding hardware, prepared conductive interfaces | Mechanical bond; verify continuity after assembly. No separate backplate-to-enclosure jumper is counted for these four interfaces. |
-| Enclosure bonding stud to door bonding stud | Existing GRDKIT01 factory 10 AWG strap with compatible ring lugs | Retain the separate door bond. |
+| Rail 1 TB52.2 to rail 2 TB98.1 | 12 AWG green/yellow, single 10 mm ferrule at each end | Continuous PCB route; included in the regenerated schedule. |
+| Rail 3 TB50.1 (top clamp) to existing lower-right enclosure grounding lug J8.PE | 12 AWG green/yellow; 10 mm ferrule at TB50.1 and owner-selected McMaster 9388K35 ring at the 5/16-inch lug | Continuous F.Cu route; 630 mm cut estimate. J8 is concentric with the existing User.Drawings fixture. |
+| Backplate to enclosure | Four owner-confirmed mounting studs, supplied nuts/bonding hardware and conductive interfaces | Mechanical bond; verify continuity after assembly. A painted mounting interface alone is not proof of bonding. |
+| Dedicated enclosure-body ground lug to dedicated door lug | Enclosure-supplied pre-terminated jumper and hardware, confirmed by owner | Retain factory ring ends; no separate GRDKIT01 purchase for this branch. Do not rely on hinges. |
+| Rail 1 TB51.1 to motor-box PE splice M1.PE | Continuous 12 AWG green/yellow through motor conduit/J4 | Existing feed; retain. M1.PE represents the WAGO 221-613 inside the J-box. |
+| Motor-box WAGO M1.PE to motor-bell stud J7.PE | Separate GRDKIT01 10 AWG whip; bare 13 mm end at WAGO, factory ring at motor stud | Existing route; 200 mm cut estimate. |
+| Motor-box WAGO M1.PE to machine-frame lug J5.PE | Separate GRDKIT01 10 AWG whip; bare 13 mm end at WAGO, factory ring at frame lug | Direct parallel branch; 170 mm cut estimate. No J5-to-J7 wire. |
 
 Use one conductor per numbered clamp. TB98.2 remains spare. KN-G12SP-10
 accepts 26–12 AWG; do not insert the GRDKIT01 10 AWG strap ends into it.
-The owner identifies the selected lower-right mounting/grounding stud as
-5/16 inch. J8 is a PCB-only routing marker at X=450, Y=430 mm, rounding the
-saved lower-right mounting-circle center X=449.5286, Y=430.4786 mm to the
-1 mm routing grid. It reuses `Controls:Frame_PE_Lug_20mm`; the 20 mm marker
-and its routing pad/drill are not installed stud dimensions or instructions
-to drill the backplate. Existing mounting-hole geometry is unchanged.
-Use the manufacturer's hardware/contact preparation and torque requirements
-for the applicable connection, rather than assuming contact through paint
-is conductive.
+The owner identifies the selected lower-right grounding lug as 5/16 inch.
+J8 is an electrical routing endpoint centered at X=449.2876, Y=449.2876 mm,
+concentric with the existing grounding fixture in `EN4SD30208GY_Open_Front`
+on User.Drawings. Its duplicate circular graphics and generic value label
+are removed; the existing fixture supplies the drawing. No new physical lug,
+mounting hole or enclosure artwork is added. This fixture is distinct from
+the lower-right backplate mounting hole at (449.5286,430.4786) mm.
+Use the supplied hardware and the manufacturer's contact preparation and
+torque requirements. Verify the backplate-to-body bond and continuity from
+incoming PE to all three rails, backplate, enclosure, door, motor and frame
+after assembly; exercise the door while checking its jumper. The insulated
+J-box WAGO does not itself bond the metal J-box: verify its conductive bond
+to the motor body or provide an explicit suitable bonding connection.
 
 The revised requirement is six PE blocks, 63 terminal marker positions and
 15 loose 12 AWG single ferrules (12 existing, two for TB52–TB98, one for
@@ -947,12 +954,20 @@ TB50.1–J8.PE). Existing purchase packs cover the PE block, markers and ferrule
 The rail-1-to-rail-2 jumper is routed continuously on In22.Cu, with a
 252.708 mm centerline and a 360 mm cut estimate under the existing schedule
 allowance and rounding rule. The resulting saved 12 AWG green/yellow loose-wire
-requirement, including the 610 mm TB50.1-to-J8.PE cut, is now 11.8 ft, rounded
+requirement, including the 630 mm TB50.1-to-J8.PE cut, is now 11.9 ft, rounded
 upward to one decimal place; the 50 ft purchase is unchanged. Both new jumpers
 are included in the regenerated wire schedule and length totals. The schedule
-has 126 wires and the loose-stock totals cover 116 wires / 92.190 m. Verify
+has 126 wires and the loose-stock totals cover 116 wires / 92.210 m. Verify
 the routed cut estimates against the assembled duct and terminal approaches
 before cutting.
+
+The two motor/frame whips require two GRDKIT01 assemblies. With two assemblies
+per pack, the BOM requirement is QUA 2, PACK 2, ORDER 1 at $36.00 per pack.
+The owner previously ordered two packs; that order history remains valid and
+provides two spare assemblies after the two required whips are allocated.
+The revised BOM expresses the build/purchase requirement, not a refund or a
+revision to the actual supplier order. The supplied door jumper is included
+with the enclosure and does not consume either required GRDKIT01 assembly.
 
 #### Lower-right stud ring terminal
 
@@ -968,7 +983,8 @@ The BOM adds **MCMC 9388K35**, QUA 1, PACK 10, ORDER 1, UNIT PACK, at
 $5.75 per pack checked 2026-10-20. One terminal is required; nine remain spare.
 This is an additional purchase requirement, not a confirmed receipt. Other
 purchase quantities and receipt flags are retained. The BOM purchase total
-is $2,209.03 before additional shipping/tax.
+is $2,173.03 before additional shipping/tax, including the revised single
+GRDKIT01 pack requirement.
 
 J8 owns the full `Termination.PE` selection and compact
 `Wire.TerminationCode.PE = R12_516_15.494mm`. This code identifies 12 AWG,
@@ -1014,7 +1030,7 @@ AutomationDirect 50-piece pack costs $30.50, leaving 44 spares, versus a
 100-piece 221-412 pack at $34.00. The BOM retains two 221-613 connectors in
 total, including the separate S3 housing PE splice.
 
-The insulated Wago forms a wire-to-wire PE junction; placing it inside a metal motor junction box does not itself bond that box. Account for the box-to-motor-body bond through a verified conductive attachment or an explicit separate bonding connection. Motor-body and frame bonding attachment hardware/locations remain to be defined and verified.
+The insulated Wago forms a wire-to-wire PE junction; placing it inside a metal motor junction box does not itself bond that box. Account for the box-to-motor-body bond through a verified conductive attachment or an explicit separate bonding connection. The saved routing uses J7 for the motor-bell stud and J5 for the machine-frame lug; verify the installed attachment hardware and conductive contact at each.
 
 ## Wire schedule presentation
 
@@ -1046,7 +1062,11 @@ single-conductor restrictions and factory-connection descriptions. A terminal
 block's compact ferrule gauge comes from the actual routed wire; its source
 capability does not assign a gauge. Refresh regenerates the compact labels.
 
-## Current routed termination inventory — 2026-10-14
+## Historical routed termination inventory — 2026-10-14
+
+This snapshot predates the 2026-10-20 bonding revisions above. The current
+126-wire schedule uses independent J-box-to-motor and J-box-to-frame bonds;
+the earlier frame-bond routing description below is historical.
 
 The single-ferrule 93-wire drawing has 186 wire ends: 70 single ferrules,
 16 loose ring lugs, 95 bare preparations and five

@@ -20579,7 +20579,7 @@
 				)
 			)
 		)
-		(property "Wire.SizePlan" "{\"schema\":1,\"owner_uuid\":\"f758497e-4710-4fd6-9851-f0e206557c67\",\"entries\":[{\"id\":\"motor-body-bond\",\"awg\":10,\"net\":\"PE\",\"scope\":\"prefab_bond\",\"from\":\"motor-box PE splice M1.PE\",\"to\":\"motor bell stud J7.PE\",\"status\":\"routed\",\"note\":\"GRDKIT01 10 AWG factory whip; retain motor-stud ring; remove splice-end ring and strip 13 mm for WAGO 221-613.\",\"sku\":\"GRDKIT01\"},{\"id\":\"machine-frame-bond\",\"awg\":10,\"net\":\"PE\",\"scope\":\"prefab_bond\",\"from\":\"motor bell stud J7.PE\",\"to\":\"machine frame lug J5.PE\",\"status\":\"routed\",\"note\":\"GRDKIT01 10 AWG factory whip; retain both factory ring lugs.\",\"sku\":\"GRDKIT01\"}]}"
+		(property "Wire.SizePlan" "{\"schema\":1,\"owner_uuid\":\"f758497e-4710-4fd6-9851-f0e206557c67\",\"entries\":[{\"id\":\"motor-body-bond\",\"awg\":10,\"net\":\"PE\",\"scope\":\"prefab_bond\",\"from\":\"motor-box PE splice M1.PE\",\"to\":\"motor bell stud J7.PE\",\"status\":\"routed\",\"note\":\"GRDKIT01 10 AWG factory whip; retain motor-stud ring; remove splice-end ring and strip 13 mm for WAGO 221-613.\",\"sku\":\"GRDKIT01\"},{\"id\":\"machine-frame-bond\",\"awg\":10,\"net\":\"PE\",\"scope\":\"prefab_bond\",\"from\":\"motor-box PE splice M1.PE\",\"to\":\"machine frame lug J5.PE\",\"status\":\"routed\",\"note\":\"GRDKIT01 10 AWG factory whip directly from J-box WAGO 221-613 to frame; retain frame ring, remove splice-end ring and strip 13 mm.\",\"sku\":\"GRDKIT01\"}]}"
 			(at 298.45 -11.43 0)
 			(hide yes)
 			(show_name no)
