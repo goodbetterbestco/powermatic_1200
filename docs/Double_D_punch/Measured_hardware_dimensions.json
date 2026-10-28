@@ -1,0 +1,65 @@
+{
+  "status": "Rev A prototype STEP and dimensioned drawings complete; physical interface and load qualification outstanding",
+  "source": "Owner measurements and photograph in this conversation; inches and datum P explicitly confirmed",
+  "datum_P": "Bearing exposed flat working face; contacts the new guide flange in Rev A",
+  "stud_thread": {
+    "designation": "7/16-20 UNF",
+    "nominal_major_diameter_mm": 11.1125,
+    "pitch_mm": 1.27,
+    "source": "Owner measured thread"
+  },
+  "measurements": {
+    "A_bearing_outer_diameter": {
+      "inches": 1.0,
+      "mm": 25.4,
+      "approximate": false
+    },
+    "T_bearing_stack_thickness": {
+      "inches": 0.4,
+      "mm": 10.16,
+      "approximate": true
+    },
+    "L3_P_to_first_full_thread": {
+      "inches": 0.5,
+      "mm": 12.7,
+      "approximate": false
+    },
+    "L2_P_to_last_full_thread": {
+      "inches": 3.0,
+      "mm": 76.2,
+      "approximate": false
+    },
+    "L1_P_to_physical_tip": {
+      "inches": 3.25,
+      "mm": 82.55,
+      "approximate": false
+    },
+    "cutter_flat_back_face_to_highest_internal_thread_crest": {
+      "inches": 0.675,
+      "mm": 17.145,
+      "approximate": true,
+      "note": "Owner explicitly clarified the endpoint as the highest thread peak, not the cutting tooth. This is reported axial thread reach from the flat back face; it is not overall cutter height and does not by itself establish full thread overlap after chamfers."
+    }
+  },
+  "measurement_note": "Conversion precision does not imply measurement accuracy. Owner supplied no tolerances. Bearing stack thickness and cutter thread reach are approximate.",
+  "derived": {
+    "full_male_thread_span_L2_minus_L3_mm": 63.5,
+    "tip_lead_length_L1_minus_L2_mm": 6.35
+  },
+  "existing_components": {
+    "female_die": "Unthreaded cup with draw-stud clearance hole",
+    "male_punch": "Photographed two-opposed-tooth cutter with relieved cutting face, threaded ID and knurled OD"
+  },
+  "unresolved": {
+    "F_punch_bore_mouth_to_mouth_length_mm": null,
+    "C1_entry_incomplete_thread_zone_mm": null,
+    "C2_exit_incomplete_thread_zone_mm": null,
+    "bearing_bore_ID_mm": null,
+    "cutter_overall_back_face_to_highest_tooth_mm": null
+  },
+  "bearing_bore_note": "May remain unmeasured if captive and the complete existing bearing/stud assembly is reused unchanged. Any projecting feature on face P must be accommodated.",
+  "catalog_length_note": "Use the owner-confirmed P-to-tip measurement for the assembly stack; the catalog nominal stud length uses a reference that has not been established as equivalent.",
+  "bearing_face_P": "Flat, confirmed by owner",
+  "photo_reference": "/Users/evanthayer/Downloads/IMG_4239.JPG",
+  "old_cutter_measurements_note": "Unknown original cutter overall height, bore length and thread chamfers do not block Rev A: the new cutter uses independently selected dimensions and thread engagement."
+}

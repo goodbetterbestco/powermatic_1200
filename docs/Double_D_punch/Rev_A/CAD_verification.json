@@ -1,0 +1,177 @@
+{
+  "solid_count_per_custom_part": {
+    "DD01_Cutter": 1,
+    "DD02_Cup_die": 1,
+    "DD03_Indexed_guide": 1
+  },
+  "STEP_roundtrip_valid": true,
+  "sweep": [
+    {
+      "cutter_tip_z_mm": 27.8796,
+      "against": "die",
+      "interference_mm3": 0.0
+    },
+    {
+      "cutter_tip_z_mm": 27.8796,
+      "against": "guide",
+      "interference_mm3": 0.0
+    },
+    {
+      "cutter_tip_z_mm": 27,
+      "against": "die",
+      "interference_mm3": 0.0
+    },
+    {
+      "cutter_tip_z_mm": 27,
+      "against": "guide",
+      "interference_mm3": 0.0
+    },
+    {
+      "cutter_tip_z_mm": 26,
+      "against": "die",
+      "interference_mm3": 0.0
+    },
+    {
+      "cutter_tip_z_mm": 26,
+      "against": "guide",
+      "interference_mm3": 0.0
+    },
+    {
+      "cutter_tip_z_mm": 25,
+      "against": "die",
+      "interference_mm3": 0.0
+    },
+    {
+      "cutter_tip_z_mm": 25,
+      "against": "guide",
+      "interference_mm3": 0.0
+    },
+    {
+      "cutter_tip_z_mm": 24,
+      "against": "die",
+      "interference_mm3": 0.0
+    },
+    {
+      "cutter_tip_z_mm": 24,
+      "against": "guide",
+      "interference_mm3": 0.0
+    },
+    {
+      "cutter_tip_z_mm": 23,
+      "against": "die",
+      "interference_mm3": 0.0
+    },
+    {
+      "cutter_tip_z_mm": 23,
+      "against": "guide",
+      "interference_mm3": 0.0
+    },
+    {
+      "cutter_tip_z_mm": 22,
+      "against": "die",
+      "interference_mm3": 0.0
+    },
+    {
+      "cutter_tip_z_mm": 22,
+      "against": "guide",
+      "interference_mm3": 0.0
+    },
+    {
+      "cutter_tip_z_mm": 21.0,
+      "against": "die",
+      "interference_mm3": 0.0
+    },
+    {
+      "cutter_tip_z_mm": 21.0,
+      "against": "guide",
+      "interference_mm3": 0.0
+    }
+  ],
+  "male_profile_perimeter_mm": 47.94790233183086,
+  "full_perimeter_force_reference_N": 31065.35577873683,
+  "force_note": "Flat-edge perimeter x thickness x assumed mild-steel shear strength 344.7 MPa. Not a maximum force or an operating torque.",
+  "min_net_nose_area_mm2": 58.338146195872966,
+  "average_compression_reference_MPa": 532.5050212331652,
+  "guide_bore_step_clearance_beyond_first_full_stud_thread_mm": 1.3000000000000007,
+  "guide_tip_to_socket_step_at_end_mm": 2.0,
+  "cutter_full_internal_thread_window_relative_mm": [
+    28.0,
+    45.0
+  ],
+  "full_thread_overlap_at_start_mm": 17.0,
+  "full_thread_overlap_at_end_mm": 17.0,
+  "cutter_back_at_start_mm": 73.8796,
+  "last_full_stud_thread_mm": 76.2,
+  "critical_limits": [
+    "Unmeasured stock shoulder must pass a 16 mm bore through first 14 mm from P. Verify before manufacture.",
+    "Keyway interrupts rear internal threads. Thread stripping, tooth bending, guide-key contact and stud capacity are not load qualified.",
+    "Guide has a 0.50 mm minimum radial wall above its shoulder. No clamp or set screw may bear on this stem.",
+    "Measure actual wall thickness; coupon-test finished hole size and burr before enclosure use."
+  ],
+  "assembly_exports": {
+    "Double_D_punch_assembly": {
+      "valid": true,
+      "solid_count": 5
+    },
+    "Double_D_punch_exploded": {
+      "valid": true,
+      "solid_count": 3
+    }
+  },
+  "DXF_profiles": {
+    "DD02_Die_opening.dxf": {
+      "units": "mm",
+      "entity_count": 8,
+      "types": [
+        "ARC",
+        "LINE"
+      ]
+    },
+    "DD02_Rear_socket_profile.dxf": {
+      "units": "mm",
+      "entity_count": 4,
+      "types": [
+        "ARC",
+        "LINE"
+      ]
+    },
+    "DD03_Rear_register_profile.dxf": {
+      "units": "mm",
+      "entity_count": 4,
+      "types": [
+        "ARC",
+        "LINE"
+      ]
+    },
+    "DD01_Cutting_outline.dxf": {
+      "units": "mm",
+      "entity_count": 4,
+      "types": [
+        "ARC",
+        "LINE"
+      ]
+    },
+    "DD01_Through_keyway_profile.dxf": {
+      "units": "mm",
+      "entity_count": 10,
+      "types": [
+        "ARC",
+        "LINE"
+      ]
+    },
+    "DD01_Guide_socket_profile.dxf": {
+      "units": "mm",
+      "entity_count": 4,
+      "types": [
+        "ARC"
+      ]
+    },
+    "DD03_Small_guide_profile.dxf": {
+      "units": "mm",
+      "entity_count": 4,
+      "types": [
+        "ARC"
+      ]
+    }
+  }
+}
