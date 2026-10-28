@@ -354,7 +354,7 @@
 		(at 303 298)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB33"
+		(property "Reference" "5H"
 			(at 0 -29 90)
 			(layer "F.SilkS")
 			(uuid "ef197478-27b7-4007-8e57-a784eb4c6c21")
@@ -13787,7 +13787,7 @@
 		(at 14 298)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB83"
+		(property "Reference" "4A"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "b470fa96-14d9-4164-8c46-a05419bd5d4f")
@@ -15294,7 +15294,7 @@
 		(at 382 -109)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB84"
+		(property "Reference" "1X"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "c6ad8aa8-db3e-4eb1-9dc3-1c2485b5cddd")
@@ -16801,7 +16801,7 @@
 		(at 274 -109)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB72"
+		(property "Reference" "1J"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "27fd8d90-30e8-4da9-84a2-6ff9f74cde8b")
@@ -18308,7 +18308,7 @@
 		(at 383 67)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB97"
+		(property "Reference" "3K"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "b86dab14-1b51-4b40-925b-2b74b10b7daa")
@@ -23877,7 +23877,7 @@
 		(at 67 298)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB81"
+		(property "Reference" "4G"
 			(at 0 -29 90)
 			(layer "F.SilkS")
 			(uuid "87563421-b83b-42bb-a875-570f24efc634")
@@ -32719,7 +32719,7 @@
 		(at 323 67)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB88"
+		(property "Reference" "3A"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "b914e814-495e-4cfa-bf0c-29c8fe3e6b74")
@@ -34226,7 +34226,7 @@
 		(at 302 -109)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB21"
+		(property "Reference" "1L"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "675cb109-f462-4576-8a3d-b05e658d7eae")
@@ -35733,7 +35733,7 @@
 		(at 87 67)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB87"
+		(property "Reference" "2F"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "51266ca5-319c-4a7e-9af8-7f9558e7c414")
@@ -37241,7 +37241,7 @@
 		(at 297 298)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB32"
+		(property "Reference" "5G"
 			(at 0 -29 90)
 			(layer "F.SilkS")
 			(uuid "9c10f208-aeb5-4d3c-886d-43fc0391e8f8")
@@ -57459,7 +57459,7 @@
 		(at 366 -109)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB65"
+		(property "Reference" "1V"
 			(at 0 -25 90)
 			(layer "F.SilkS")
 			(uuid "16bfec5a-6261-4579-bdfe-395c647d9d29")
@@ -59506,7 +59506,7 @@
 		(at 343 67)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB91"
+		(property "Reference" "3D"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "17d07ce0-69c3-4165-b84c-af363af8aed9")
@@ -61272,7 +61272,7 @@
 		(at 283 298)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB23"
+		(property "Reference" "5E"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "e8e0780d-8673-485e-9970-34692d622144")
@@ -62780,7 +62780,7 @@
 		(at 258 -109)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB31"
+		(property "Reference" "1G"
 			(at 0 -29 90)
 			(layer "F.SilkS")
 			(uuid "462fd0ab-da94-4a7d-9de6-73d475fecff5")
@@ -103665,7 +103665,7 @@
 		(at 288 -109)
 		(descr "KN-G12SP-10_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls grounding terminal DIN PE Grid1mm routing-view")
-		(property "Reference" "TB52"
+		(property "Reference" "G2"
 			(at 0 -29 90)
 			(layer "F.SilkS")
 			(uuid "d28bc7b8-45ba-44f1-b45a-0bf89d3a9ff6")
@@ -103770,7 +103770,7 @@
 				)
 			)
 		)
-		(property "Wire.BondingPlan" "TB52.2 to TB98.1: 12 AWG green/yellow rail 1 to rail 2 jumper. Routed continuously on In22.Cu."
+		(property "Wire.BondingPlan" "G2.2 to G3.1: 12 AWG green/yellow rail 1 to rail 2 jumper. Routed continuously on In22.Cu."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -104138,7 +104138,7 @@
 		(at 316 -109)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB73"
+		(property "Reference" "1N"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "24e5c296-708b-44dc-9dfb-1f417944703c")
@@ -107324,7 +107324,7 @@
 		(at 244 -109)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB66"
+		(property "Reference" "1E"
 			(at 0 -25 90)
 			(layer "F.SilkS")
 			(uuid "7f4e1b01-2894-4c52-ac3b-18e4db0bf220")
@@ -111111,7 +111111,7 @@
 		(at 81 67)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB14"
+		(property "Reference" "2E"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "d149a675-c99c-455b-a633-a68065d898c6")
@@ -112964,7 +112964,7 @@
 		(at 369 67)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB95"
+		(property "Reference" "3H"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "50e51043-cc1a-4b43-aa86-10a6a09d9420")
@@ -117228,7 +117228,7 @@
 		(at 237 298)
 		(descr "KN-G12SP-10_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls grounding terminal DIN PE Grid1mm routing-view")
-		(property "Reference" "TB43"
+		(property "Reference" "G5"
 			(at -3 -29 90)
 			(layer "F.SilkS")
 			(uuid "4ac39001-e4a1-490a-9d64-6aa2ac8a7a14")
@@ -117930,7 +117930,7 @@
 		(at 269 298)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB42"
+		(property "Reference" "5C"
 			(at 3 -29 90)
 			(layer "F.SilkS")
 			(uuid "849182f4-7e7c-4625-ac31-7fb759f2270a")
@@ -119358,7 +119358,7 @@
 		(at 75 67)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB13"
+		(property "Reference" "2D"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "8a1b0877-b930-4b81-8e42-e2288f9ea006")
@@ -120866,7 +120866,7 @@
 		(at 261 298)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB41"
+		(property "Reference" "5B"
 			(at 3 -29 90)
 			(layer "F.SilkS")
 			(uuid "11c7f21e-50f0-43e7-97a4-8dd8e8ed4966")
@@ -122294,7 +122294,7 @@
 		(at 57 67)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB10"
+		(property "Reference" "2A"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "ceff6756-5122-4ad1-bb8e-b9921788e399")
@@ -123801,7 +123801,7 @@
 		(at 41 298)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB2"
+		(property "Reference" "4C"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "3026f4af-a90e-48d5-8b66-6ef5bf513260")
@@ -131665,7 +131665,7 @@
 		(at 330 -109)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB75"
+		(property "Reference" "1Q"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "2befbe4c-d9ad-4e6a-ae73-8fa7d112ea7d")
@@ -133172,7 +133172,7 @@
 		(at 73 298)
 		(descr "KN-G12SP-10_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls grounding terminal DIN PE Grid1mm routing-view")
-		(property "Reference" "TB82"
+		(property "Reference" "G4"
 			(at 0 -29 90)
 			(layer "F.SilkS")
 			(uuid "aae50ba2-b470-41c1-b561-b8211fe02099")
@@ -133703,7 +133703,7 @@
 		(at 63 67)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB11"
+		(property "Reference" "2B"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "01bde2d4-e2a9-4b27-9784-f3637bc4ef15")
@@ -135211,7 +135211,7 @@
 		(at 358 -109)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB62"
+		(property "Reference" "1U"
 			(at 0 -25 90)
 			(layer "F.SilkS")
 			(uuid "a3a9ac86-8659-407f-9ff0-f94303325829")
@@ -138397,7 +138397,7 @@
 		(at 243 298)
 		(descr "KN-G12SP-10_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls grounding terminal DIN PE Grid1mm routing-view")
-		(property "Reference" "TB50"
+		(property "Reference" "G6"
 			(at 0 -29 90)
 			(layer "F.SilkS")
 			(uuid "6249271f-6e36-4269-9cc1-d99069b081fb")
@@ -138514,7 +138514,7 @@
 				)
 			)
 		)
-		(property "Wire.BondingPlan" "TB50.1 to J8.PE: 12 AWG green/yellow to the existing lower-right enclosure grounding fixture on User.Drawings; endpoint concentric at (449.2876,449.2876) mm. 10 mm single ferrule at TB50.1; owner-selected 5/16 in McMaster 9388K35 ring at the lug."
+		(property "Wire.BondingPlan" "G6.1 to J8.PE: 12 AWG green/yellow to the existing lower-right enclosure grounding fixture on User.Drawings; endpoint concentric at (449.2876,449.2876) mm. 10 mm single ferrule at G6.1; owner-selected 5/16 in McMaster 9388K35 ring at the lug."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -140352,7 +140352,7 @@
 		(at 308 -109)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB22"
+		(property "Reference" "1M"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "2d1a4316-a2fa-4632-a84f-9f4703de2077")
@@ -141859,7 +141859,7 @@
 		(at 289 298)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB24"
+		(property "Reference" "5F"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "175acd68-5517-403f-87ef-ccacb7e78b15")
@@ -143366,7 +143366,7 @@
 		(at 398 -109)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB86"
+		(property "Reference" "1Z"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "b521b021-df05-4653-a596-ae9ae1c59920")
@@ -144874,7 +144874,7 @@
 		(at 250 -109)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB67"
+		(property "Reference" "1F"
 			(at 0 -25 90)
 			(layer "F.SilkS")
 			(uuid "8dc4fd5c-7c11-40be-b6e1-3608cc39538a")
@@ -146381,7 +146381,7 @@
 		(at 329 67)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB89"
+		(property "Reference" "3B"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "c3c13204-1416-4ac4-a054-95da693442f9")
@@ -147888,7 +147888,7 @@
 		(at 222 -109)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB61"
+		(property "Reference" "1B"
 			(at 0 -25 90)
 			(layer "F.SilkS")
 			(uuid "21037b1f-42f2-40b2-8704-ca348fe73d28")
@@ -149563,7 +149563,7 @@
 		(at 311 298)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB70"
+		(property "Reference" "5J"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "1dbe8b06-fec9-4d45-9522-160f2d2366c6")
@@ -162163,7 +162163,7 @@
 		(at 377 67)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB96"
+		(property "Reference" "3J"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "7ef8dbec-5281-495b-8927-6f7369b5a719")
@@ -163670,7 +163670,7 @@
 		(at 390 -109)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB85"
+		(property "Reference" "1Y"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "13fa74a7-89cb-4617-8e46-f9539f0f79e6")
@@ -167116,7 +167116,7 @@
 		(at 349 67)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB92"
+		(property "Reference" "3E"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "7628d4c4-2a42-4e3f-ab1e-0412d9f0199e")
@@ -354057,7 +354057,7 @@
 		(at 266 -109)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB69"
+		(property "Reference" "1H"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "ea2b2990-f13b-4889-89ec-8b5fb5ff31bb")
@@ -427324,7 +427324,7 @@
 		(at 317 298)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB71"
+		(property "Reference" "5K"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "1f8ddda3-52f7-4f6b-a4d6-27d6658809eb")
@@ -428831,7 +428831,7 @@
 		(at 336 -109)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB76"
+		(property "Reference" "1R"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "f7798f78-99a5-4877-b1b2-564f3272b468")
@@ -430338,7 +430338,7 @@
 		(at 335 67)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB90"
+		(property "Reference" "3C"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "6850b8d3-871b-4dd1-aefe-e94ee6b653eb")
@@ -655301,7 +655301,7 @@
 		(at 282 -109)
 		(descr "KN-G12SP-10_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls grounding terminal DIN PE Grid1mm routing-view")
-		(property "Reference" "TB51"
+		(property "Reference" "G1"
 			(at 0 -29 90)
 			(layer "F.SilkS")
 			(uuid "c4630a1b-1d66-4eea-b655-c8a2966d7891")
@@ -655762,7 +655762,7 @@
 		(at 47 298)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB3"
+		(property "Reference" "4D"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "5a994f41-f899-4580-8cc4-65fa99151042")
@@ -660811,7 +660811,7 @@
 		(at 363 67)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB94"
+		(property "Reference" "3G"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "13451509-1215-45ad-a5bd-7a9ba314ee00")
@@ -662435,7 +662435,7 @@
 		(at 236 -109)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB64"
+		(property "Reference" "1D"
 			(at 0 -25 90)
 			(layer "F.SilkS")
 			(uuid "dcc69f24-0103-465f-891c-97d26550d4a8")
@@ -713868,7 +713868,7 @@
 		(at 275 298)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB30"
+		(property "Reference" "5D"
 			(at 0 -29 90)
 			(layer "F.SilkS")
 			(uuid "83800c08-0e8f-46f6-8d07-c86764968fa7")
@@ -830039,7 +830039,7 @@
 		(at 69 67)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB12"
+		(property "Reference" "2C"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "f5387f0a-9c4c-4953-8a2f-80959091c812")
@@ -831662,7 +831662,7 @@
 		(at 216 -109)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB60"
+		(property "Reference" "1A"
 			(at 0 -25 90)
 			(layer "F.SilkS")
 			(uuid "fdde9682-8886-4895-af70-47f64d7eaf88")
@@ -871947,7 +871947,7 @@
 		(at 55 298)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB79"
+		(property "Reference" "4E"
 			(at 0 -29 90)
 			(layer "F.SilkS")
 			(uuid "1b741630-3608-4e30-b838-c09583753910")
@@ -887272,7 +887272,7 @@
 		(at 374 -109)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB68"
+		(property "Reference" "1W"
 			(at 0 -25 90)
 			(layer "F.SilkS")
 			(uuid "42268985-e80c-4eb2-a95b-833ce9e4bd04")
@@ -888895,7 +888895,7 @@
 		(at 344 -109)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB77"
+		(property "Reference" "1S"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "d0f94d21-76a1-43b6-9976-0ccf5b5d8098")
@@ -890402,7 +890402,7 @@
 		(at 35 298)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB1"
+		(property "Reference" "4B"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "a6b9d54a-44cb-49db-8817-d921e9043884")
@@ -894527,7 +894527,7 @@
 		(at 391 67)
 		(descr "KN-G12SP-10_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls grounding terminal DIN PE Grid1mm routing-view")
-		(property "Reference" "TB98"
+		(property "Reference" "G3"
 			(at 0 -29 90)
 			(layer "F.SilkS")
 			(uuid "85bce848-5d02-4426-b651-086cb2513e37")
@@ -894561,7 +894561,7 @@
 				)
 			)
 		)
-		(property "Description" "Rail 2 protective-earth terminal; conductive DIN-rail foot. Routed 12 AWG jumper from TB52.2 to clamp 1; clamp 2 spare."
+		(property "Description" "Rail 2 protective-earth terminal; conductive DIN-rail foot. Routed 12 AWG jumper from G2.2 to clamp 1; clamp 2 spare."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -894704,7 +894704,7 @@
 				)
 			)
 		)
-		(property "Wire.BondingPlan" "TB52.2 to TB98.1: 12 AWG green/yellow rail 1 to rail 2 jumper. Routed continuously on In22.Cu. Clamp 2 spare."
+		(property "Wire.BondingPlan" "G2.2 to G3.1: 12 AWG green/yellow rail 1 to rail 2 jumper. Routed continuously on In22.Cu. Clamp 2 spare."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -909024,7 +909024,7 @@
 		(at 355 67)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB93"
+		(property "Reference" "3F"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "9abf483f-cdf4-455e-a15f-bd1ee0f0a48d")
@@ -910671,7 +910671,7 @@
 		(at 255 298)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB40"
+		(property "Reference" "5A"
 			(at 3 -29 90)
 			(layer "F.SilkS")
 			(uuid "538e87d8-9c4e-41aa-8446-60dea1b702fd")
@@ -912099,7 +912099,7 @@
 		(at 322 -109)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB74"
+		(property "Reference" "1P"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "754b9fb8-2e4c-4621-90cb-fe9dbc02ee3d")
@@ -915284,7 +915284,7 @@
 		(at 350 -109)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB78"
+		(property "Reference" "1T"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "37eb0686-6553-4e98-892b-fb7e54e33b5a")
@@ -923198,7 +923198,7 @@
 		(at 230 -109)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB63"
+		(property "Reference" "1C"
 			(at 0 -25 90)
 			(layer "F.SilkS")
 			(uuid "9fce816e-62d1-4554-8b9e-8aa9847ac498")
@@ -924705,7 +924705,7 @@
 		(at 61 298)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB80"
+		(property "Reference" "4F"
 			(at 0 -29 90)
 			(layer "F.SilkS")
 			(uuid "f751c633-3c97-4a7b-80d3-41398f853744")
@@ -1120063,7 +1120063,7 @@
 		(at 296 -109)
 		(descr "KN-T12GRY-25_Front 1 mm DIN routing view; integer mounting faces and upward-snapped wire targets. F.Fab and STEP retain nominal hardware geometry.")
 		(tags "Controls panel elevation review Grid1mm routing-view")
-		(property "Reference" "TB20"
+		(property "Reference" "1K"
 			(at 0 -24 90)
 			(layer "F.SilkS")
 			(uuid "1ce1e8eb-b425-41ab-bcf6-017c02feebd5")
@@ -1141342,7 +1141342,7 @@
 			"e14a617b-9b97-4b0c-8faa-de78423875f3"
 		)
 	)
-	(group "Wire: TB62.BOT - K5.43"
+	(group "Wire: 1U.BOT - K5.43"
 		(uuid "07c8597e-1bc7-4b5e-862a-41147d29f736")
 		(members "08156af1-30bc-5c99-919f-3cb2f42bfaf5" "189c2bc7-8e9e-5611-94d4-2346e43e8414"
 			"4d848a74-bce0-539f-a320-0d3631732604" "89e93c08-9066-5b33-8074-8e26c492aaa6"
@@ -1141399,7 +1141399,7 @@
 			"f36c6254-3f08-4b43-a7fa-479302d5e1c6"
 		)
 	)
-	(group "Wire: TD1.A3 - TB91.BOT"
+	(group "Wire: TD1.A3 - 3D.BOT"
 		(uuid "75b1cc38-d88e-42d4-9303-4befc913c9ee")
 		(members "1a7cb63c-20e3-58a1-bfa7-b61246698884" "4f30723c-330e-5f98-b382-6301e29df915"
 			"4fc81058-d5ed-5d0e-aa2d-888e56fbd813" "62960bf0-2b1e-51f2-9e53-24d4e5ba3330"
@@ -1141414,7 +1141414,7 @@
 			"4565eebc-cd65-589a-846f-74f55190b118"
 		)
 	)
-	(group "Wire: K1.31 - TB75.BOT"
+	(group "Wire: K1.31 - 1Q.BOT"
 		(uuid "82978728-b0ac-49ee-8b20-9e39432934cb")
 		(members "56b3225f-301f-51c8-b14c-f043e8f8ec50" "9368f58c-466c-5b5d-b41b-7472d56c25b4"
 			"98bbfc6f-b89f-548e-89e5-c1096e42bc21" "9aa4663d-4933-569f-8282-64dd8418b07d"
@@ -1141429,7 +1141429,7 @@
 			"c168be61-833d-4d21-a765-b229ed664fa6"
 		)
 	)
-	(group "Wire: K5.31 - TB90.BOT"
+	(group "Wire: K5.31 - 3C.BOT"
 		(uuid "9e017f9b-78fd-402f-bdba-cc576153a96f")
 		(members "2db73bdb-7e05-5727-9db9-e5103e29183f" "361560d4-64d4-5dd8-85fe-d20aede2f483"
 			"499fc21c-80b8-5948-8413-24ad27dfdc71" "4a37bb38-bb89-5b90-b0ee-04933043c1fe"
@@ -1141445,7 +1141445,7 @@
 			"b2e4189c-8740-4773-add8-8bf56050e00b"
 		)
 	)
-	(group "Wire: S3.1B - TB84.TOP"
+	(group "Wire: S3.1B - 1X.TOP"
 		(uuid "a553aa9d-b1e5-451b-b55d-44f462f52b5d")
 		(members "100df8f7-adec-54db-81d4-4c089d507185" "3a3bdf3f-5f09-5650-aa0d-b7141ef85408"
 			"414399ab-35ed-535e-90be-5cab27b9828a" "4313ffa8-2b74-57fb-8214-174e4372a9f6"
@@ -1141456,7 +1141456,7 @@
 			"f63aff7d-8c04-5288-be87-850ce39cd84f" "f8dc480c-c5e4-5279-96a4-0938fbf3e780"
 		)
 	)
-	(group "Wire: TD2.A3 - TB96.BOT"
+	(group "Wire: TD2.A3 - 3J.BOT"
 		(uuid "b37124e2-c0b8-40b1-9fdc-1b1b4f666ebc")
 		(members "140e494c-70ba-5c68-9f6a-3a58e9c316d3" "3423a8d8-e33c-5ffc-b4c4-0f8cc6406188"
 			"35a90298-145a-59a0-80eb-b6c182826d77" "6633982d-2584-5e82-925a-6f66d6fafac4"
@@ -1141492,7 +1141492,7 @@
 			"e14292f7-2669-4fa5-930f-ff788b4444e2"
 		)
 	)
-	(group "Wire: TD2.18 - TB84.BOT"
+	(group "Wire: TD2.18 - 1X.BOT"
 		(uuid "b7ae1f7d-cf38-46d0-8cdd-23589e8f1099")
 		(members "257aaf17-d55c-562e-be56-10c742dd9ca4" "39d872d5-ecba-545e-a5a6-cf2d6cef9523"
 			"3a61df5c-318d-5f4f-82f2-2a6336180093" "6f9500f8-5d02-5947-b7e4-0b189d714455"
@@ -1141542,7 +1141542,7 @@
 			"7c26d57c-59af-50b7-8e29-2c65e7201789"
 		)
 	)
-	(group "Example: local TB10.BOT - K3.A2"
+	(group "Example: local 2A.BOT - K3.A2"
 		(uuid "ead9b699-4339-4bcb-bce4-fc02ffd1836b")
 		(members "1275bfcb-ab06-4f03-a70d-2efb7f8cf079" "24bfb09e-9ce3-49b7-8fa3-ce0931d88c2a"
 			"2822c6e6-07a7-47ec-afe4-7dc621813d4c" "47541e91-d323-46bb-943f-29bb18bff770"
@@ -1141573,7 +1141573,7 @@
 			"f17d76c8-c252-45cf-becd-bd9c287f6ba3"
 		)
 	)
-	(group "Incoming landings: cord_L3_IN J2.Z - TB81.BOT"
+	(group "Incoming landings: cord_L3_IN J2.Z - 4G.BOT"
 		(uuid "3dac4064-da5f-4716-8d40-7b9a1396839e")
 		(members "5e8e5607-326a-474e-afe8-d72575a78777")
 	)
@@ -1141602,11 +1141602,11 @@
 			"f4028ab1-ccf5-4057-9fe5-25abf4ac1c10" "fedb63c8-a136-4428-92f6-fa104aaee880"
 		)
 	)
-	(group "Incoming landings: cord_L2_IN J2.Y - TB80.BOT"
+	(group "Incoming landings: cord_L2_IN J2.Y - 4F.BOT"
 		(uuid "8254cf69-a7ee-45e6-aaa7-8cc194eabbea")
 		(members "4995c1b3-ce19-4189-8bd3-e329762d6c01")
 	)
-	(group "Wire: FH1.P2.A - TB80.TOP"
+	(group "Wire: FH1.P2.A - 4F.TOP"
 		(uuid "86d35e67-ccfe-4009-b173-91db01c95236")
 		(members "0a7bbbc6-f4de-51a6-9c0c-caa560fa2d51" "180580a2-a6e9-58e4-8e19-ff0a745b06c1"
 			"24d5faed-a758-5c0e-8a81-70cfd72decc3" "6c1c2960-5821-598c-96d1-176c92a8cf09"
@@ -1141615,7 +1141615,7 @@
 			"edf4fa76-39b1-5e6b-82b8-854573b276c7" "f3bf702c-d318-5b9f-9070-c2cb5ae7e222"
 		)
 	)
-	(group "Wire: S2.6T - TB77.TOP"
+	(group "Wire: S2.6T - 1S.TOP"
 		(uuid "ac428735-15a8-4665-8e31-5d9369972d53")
 		(members "06a3195e-74aa-5858-a3ee-0c0403daea16" "0dab725f-f10c-5a54-91ec-5cc88996996c"
 			"238de69d-5044-5916-ae09-538f54f2952f" "2ce68991-9517-5277-8d0a-20fd066d61e8"
@@ -1141629,15 +1141629,15 @@
 			"f371f937-563a-5bb6-8325-3ff50fcd35e0" "fad90c22-7e2c-5436-9145-bc8e4ca0d6a4"
 		)
 	)
-	(group "Incoming landings: cord_PE J2.G - TB82.2"
+	(group "Incoming landings: cord_PE J2.G - G4.2"
 		(uuid "cfc8ed10-b4e8-443e-8a16-78094be09d1e")
 		(members "429bdc1c-ee69-4254-80ff-e7e524fb3252")
 	)
-	(group "Incoming landings: cord_L1_IN J2.X - TB79.BOT"
+	(group "Incoming landings: cord_L1_IN J2.X - 4E.BOT"
 		(uuid "f0e3a689-a4f1-4467-8466-c4e2088d2338")
 		(members "585f962c-c880-460b-af37-f931af3685f0")
 	)
-	(group "Wire: K2.43 - TB89.BOT"
+	(group "Wire: K2.43 - 3B.BOT"
 		(uuid "195de0d6-3a23-420f-a060-f947e393936f")
 		(members "032b363b-feb9-55ea-894c-92545752e453" "0cbc5479-d2b8-5ff8-abf7-c0f10fb25610"
 			"1b6d2bbe-617c-5d69-8ce1-b0cad3901b4a" "1bcc77d8-d078-587d-8354-60f1f7a5cc47"
@@ -1141648,7 +1141648,7 @@
 			"fd65105e-6dd2-5838-9b59-790012b2d155"
 		)
 	)
-	(group "Wire: SW1.2 - TB40.BOT"
+	(group "Wire: SW1.2 - 5A.BOT"
 		(uuid "363ca626-2c34-4177-98b6-77fa2be4326c")
 		(members "255f4bb7-ab6b-5b79-a379-a848122a0177" "358658db-0b26-5947-9d07-3fd4b5f55362"
 			"4138e0f3-b0cd-5ce7-aaed-ac0019eaa26c" "7a24cf9e-f0c4-50b0-96eb-6ea5058e20ea"
@@ -1141657,7 +1141657,7 @@
 			"dfe80f44-0138-57b1-840d-6c234dcb4b55"
 		)
 	)
-	(group "Wire: K5.2 - TB61.BOT"
+	(group "Wire: K5.2 - 1B.BOT"
 		(uuid "39d91120-96ff-4206-ac0e-24fdac558968")
 		(members "10ea3ae9-fc1f-54cc-966a-199cab3e1373" "2f7f3fe0-b0ed-5abb-9afa-167de8d96cde"
 			"49e0efc8-e06b-5100-87e3-2e15cbb1d3c3" "84b17afc-49b4-543c-b036-15cb24be4475"
@@ -1141666,7 +1141666,7 @@
 			"d5ce55ef-ca4c-5f16-9f4c-c734d880f6f6" "e6e4bd83-fad7-52ba-ae51-51dbe077592f"
 		)
 	)
-	(group "Wire: Q1.1 - TB41.BOT"
+	(group "Wire: Q1.1 - 5B.BOT"
 		(uuid "54c315d8-2549-4844-8847-d26b270e67bd")
 		(members "29dfed13-d64e-5b19-912d-ae1ea9c8714b" "483f72c7-aa26-541f-bd38-217061ddeb15"
 			"5bbf1ac1-a929-5319-ad03-21b9022c8964" "5ff1c696-afab-58ae-a21e-3cc1ba1f6a3f"
@@ -1141675,7 +1141675,7 @@
 			"9eb9079e-7f7f-5dd8-acfb-8cba10cd29a2" "ab7f9eb8-9017-55f2-97e5-5061a77ab763"
 		)
 	)
-	(group "Wire: K6.43 - TB78.BOT"
+	(group "Wire: K6.43 - 1T.BOT"
 		(uuid "88813821-bb27-4b6b-866a-618ba2e1a90a")
 		(members "1153b3e6-ca45-5aca-a30e-aa5e7d9340bc" "1e01df21-2535-5d6d-88cc-6b5ce715b671"
 			"2b033949-e871-5f32-bed7-999be6e1da12" "2ebe8599-9111-55cc-b48e-0d27580f83f3"
@@ -1141687,7 +1141687,7 @@
 			"f5c47eeb-4c66-551e-b7cd-3a96bc10f78c" "ff69852d-6b12-552e-bbe4-68ad1842a21d"
 		)
 	)
-	(group "Wire: S3.2B - TB78.TOP"
+	(group "Wire: S3.2B - 1T.TOP"
 		(uuid "8d1f9f62-c4b1-42dc-8c40-1ea35dca0dd3")
 		(members "2565716d-8628-52ba-9865-f862505199ca" "33ccfaad-3074-5e06-8841-9e9f1ecdb260"
 			"3ecd3cd9-e91a-5bd4-8e0f-7e0da24a6070" "41906a89-bcfd-5c1e-a8ba-abe54fde6bd4"
@@ -1141699,14 +1141699,14 @@
 			"fa661a4f-6991-5b71-869a-8e38dac52d7c"
 		)
 	)
-	(group "Example: local twin TB10.TOP - K4.A2.TOP"
+	(group "Example: local twin 2A.TOP - K4.A2.TOP"
 		(uuid "a0921ec3-0ab8-45e2-86a1-30eda8921662")
 		(members "3062ae7f-3d39-437b-bb37-b0c55bb50f70" "4b3f8c34-7636-4299-a9fe-6f998e4f6392"
 			"5c0a61db-cdf8-4574-818d-95c21b948caf" "97888ca8-2564-48e5-aed3-28894643ac81"
 			"eb8227d2-6d66-4c24-8651-d06e967016f1" "ff55d64b-9ffe-4271-9477-2c1b85c2d29d"
 		)
 	)
-	(group "Wire: TD1.B1 - TB94.TOP"
+	(group "Wire: TD1.B1 - 3G.TOP"
 		(uuid "a8ff0bcb-9552-4bad-ab2d-50ccb8c5c08d")
 		(members "23c39f2e-9bba-5548-986d-6b0e50534356" "28c59503-90b4-5ed6-85ff-971bf87acf14"
 			"39f009a4-e30c-5956-a486-d66febdda7d5" "3bd6734b-742f-5c5d-ab86-65564fbc3850"
@@ -1141728,7 +1141728,7 @@
 			"f5ae1be1-7be2-4efc-a31c-c09c45e9c43a"
 		)
 	)
-	(group "Wire: KA1.63 - TB93.BOT"
+	(group "Wire: KA1.63 - 3F.BOT"
 		(uuid "26b8ccef-fb14-4871-be80-8aa4476b9762")
 		(members "2968e0db-fa52-5d45-b4bb-48f413f3e360" "407300a0-a9db-5fba-80e8-e617fb7fef9f"
 			"428ab000-6a1e-5a86-ab6a-cc9d86b0e084" "4ee6a694-c6a5-5271-b68d-d2a2a0569408"
@@ -1141757,7 +1141757,7 @@
 			"f7ca80b5-d8ae-55e4-9b12-1f78dbc11579"
 		)
 	)
-	(group "Wire: OL4.2 - TB60.BOT"
+	(group "Wire: OL4.2 - 1A.BOT"
 		(uuid "52d39208-2840-480f-8b72-62f8312266ce")
 		(members "079268c3-639d-5887-9759-8161efaf0fc7" "0d35709d-4bcc-5102-9cce-c5980421eff6"
 			"723b4431-fefe-57f6-a026-44e93936aba7" "7f934cb7-9fe3-5232-9860-425ab70bb809"
@@ -1141766,7 +1141766,7 @@
 			"db4b430c-31df-5f0e-994b-cfc6b8d12abf" "e3ba535c-26ad-511f-aa3a-0c7d4657cc03"
 		)
 	)
-	(group "Wire: SW1.4 - TB42.BOT"
+	(group "Wire: SW1.4 - 5C.BOT"
 		(uuid "5c59e123-b08e-47ea-b02e-ca71e707520a")
 		(members "2de6a448-de85-5d3c-8543-08f53574007f" "699b8930-6d22-5358-a3f0-2e087f6cdec5"
 			"7977b13c-2ad7-5bfb-8fcc-368ebded6a1d" "9927fb8e-69a2-582f-bada-be9a0aa8f15b"
@@ -1141783,7 +1141783,7 @@
 		(uuid "5dd0f8fa-d26e-4f71-974c-471aed82ef0a")
 		(members "287dee1a-bfc9-446c-98ce-754851d29d82" "4d305a22-9ed5-446d-bb1f-b1ba4d5a5df9")
 	)
-	(group "Wire: K1.43 - TB88.BOT"
+	(group "Wire: K1.43 - 3A.BOT"
 		(uuid "654b172a-f721-46a3-9812-4e74a78883a8")
 		(members "12c0e501-68d4-5050-a490-a41751d41351" "1676acce-4cbf-5c6d-ad24-15e855eab679"
 			"414e5f1e-0968-54d6-8bde-6a3489ec7aab" "47fda363-76c4-557e-ab58-2384fe86b3c2"
@@ -1141794,14 +1141794,14 @@
 			"ef5d46e1-a920-54fe-b634-dd7fa2c63115"
 		)
 	)
-	(group "Power entry: PS1_PE TB50.2 - PS1.1_BOT"
+	(group "Power entry: PS1_PE G6.2 - PS1.1_BOT"
 		(uuid "ae810880-ba88-4f6f-83bd-28d7479c39b8")
 		(members "63581aab-5335-46f8-8e81-c7ef005dcd7f" "83aa4ff8-6d44-400c-9741-0e6bb00cc3ff"
 			"89a18673-1445-4fb6-8836-ecb3d0ecf2da" "a5b89846-f3b6-493d-bf70-58a4c4866093"
 			"f4199217-37a5-4745-b751-efc5bdaa91eb"
 		)
 	)
-	(group "Wire: OL6.2 - TB31.BOT"
+	(group "Wire: OL6.2 - 1G.BOT"
 		(uuid "c32eb6c5-d7ee-4373-bb94-77def4ab6213")
 		(members "25f2fe42-72ea-5500-abc5-7dfc92a028d5" "279012af-c522-5743-9bbe-29d2e6b288f9"
 			"46255df4-b6ea-5353-b383-25e35f9b1a86" "46fabeaf-39ea-5125-a9af-82bfb345be4d"
@@ -1141842,7 +1141842,7 @@
 		(uuid "ea146c71-5173-4a89-bc11-a98873ef142e")
 		(members "9646bcb9-7e85-406e-a743-c114c626b619")
 	)
-	(group "Wire: S3.3B - TB85.TOP"
+	(group "Wire: S3.3B - 1Y.TOP"
 		(uuid "f06cf7db-615d-42f0-a850-f0956fb0a496")
 		(members "1c934d59-f12d-5127-8cda-accc0433199e" "1d650e0e-8ae7-55d5-8d84-2ad6a26e84ad"
 			"2a767edf-e55d-5b63-800b-2ab46d688ac7" "3c67b7ca-ee03-50fc-9a3e-7b188a41a3b1"
@@ -1141859,7 +1141859,7 @@
 			"c7e475f8-0e1a-478c-9e6e-d8e21bf6dbef"
 		)
 	)
-	(group "Wire: Q1.3 - TB30.BOT"
+	(group "Wire: Q1.3 - 5D.BOT"
 		(uuid "49e19392-1aed-445c-ba02-9f122e0e1e52")
 		(members "0e9bcae4-fb4f-55aa-ab9e-e62cbab5e436" "13b4a54e-8bce-5d1b-8254-b117a41530e9"
 			"198c8308-da8d-5feb-b00b-ab562a27e029" "24058778-fc96-5e86-a1e2-13a115b81db4"
@@ -1141868,7 +1141868,7 @@
 			"ae2d81b2-af63-5766-bcd0-54d9c5e33ca9" "c7a87851-63a4-5947-b64a-23c4b178bdc1"
 		)
 	)
-	(group "Wire: K4.32 - TB91.TOP"
+	(group "Wire: K4.32 - 3D.TOP"
 		(uuid "4f8e52ae-a4c7-41b9-b2ca-3d4095987cbc")
 		(members "1581472d-ce05-5eb7-bba0-ceb98b8275e4" "1fb89db2-6a1c-5582-a2be-89e3b9780dc2"
 			"375ef976-e26d-57b7-8aa1-b9b07c5ae66e" "4aa068e7-26db-517f-8f49-6226289fc736"
@@ -1141884,7 +1141884,7 @@
 			"b47301b1-af09-47ae-bb91-e9192cdd711a"
 		)
 	)
-	(group "Wire: OL6.96 - TB68.BOT"
+	(group "Wire: OL6.96 - 1W.BOT"
 		(uuid "6c0ca308-b0e0-4262-b4bb-91673093b9dc")
 		(members "0baa8eba-a824-5351-bfbf-f372f1da63dd" "0dfe7cba-a8e8-5f09-bb44-52ce5a7e8765"
 			"183bdac8-ad4e-50a8-b1b0-aa14037b8abd" "3c9eaaa1-0150-59cd-b43b-a670b167ec9c"
@@ -1141894,7 +1141894,7 @@
 			"f654ffde-ad8e-5dbe-a706-72b1874dda4a"
 		)
 	)
-	(group "Wire: S3.3T - TB86.TOP"
+	(group "Wire: S3.3T - 1Z.TOP"
 		(uuid "7f807150-25c9-43cc-b3e4-b6f5db58cd1d")
 		(members "14339c04-e973-5fa0-b407-ed46d5715768" "17e91e63-bf27-5d6a-a484-31440ede0271"
 			"23a64a27-c091-5b4d-99cb-742ed0c61072" "3184f3de-d1ec-5f9f-8414-c3716e5f01e1"
@@ -1141905,7 +1141905,7 @@
 			"f7e551de-7696-5c69-b2bc-8d7289745243" "fba4e22d-88f3-5a12-b4e2-c3ee78589fe7"
 		)
 	)
-	(group "Wire: K6.31 - TB65.BOT"
+	(group "Wire: K6.31 - 1V.BOT"
 		(uuid "95fcbe38-bd81-4a5a-b7a2-756cb08bd2cb")
 		(members "1696b005-cd8a-57fa-9a2f-8ef2d39d85d9" "1fbc7706-9aa9-5986-aa7b-d1f9ae701a3a"
 			"44315452-a9ab-5aaa-9443-edae81a76ecb" "8375cd74-3c8f-5f9c-add1-ce01bd5b86b9"
@@ -1141914,7 +1141914,7 @@
 			"fe353580-73eb-5a9a-b3c6-1b221d56b7b6"
 		)
 	)
-	(group "Wire: K4.31 - TB89.TOP"
+	(group "Wire: K4.31 - 3B.TOP"
 		(uuid "ac9655ab-c8cb-46ae-bfc3-f762f2ed0d39")
 		(members "04a56c7a-404a-51dc-867c-b06e84006ea0" "251bd834-f05b-58d1-a823-1119e0c2f3dc"
 			"400a7d4e-e28b-5450-86e6-e0c366df0273" "41eac8de-5e63-5f33-88c3-2a46037fa154"
@@ -1141923,7 +1141923,7 @@
 			"c301e74f-4730-5716-9efb-1332667f55bc"
 		)
 	)
-	(group "Wire: TD1.15 - TB92.BOT"
+	(group "Wire: TD1.15 - 3E.BOT"
 		(uuid "db4f6678-f6cd-4b0d-8de0-113283062aab")
 		(members "12708902-9887-5d36-8aab-8c12f684e05a" "14225ec7-4f94-5d96-b64a-f8e89cd6d9ab"
 			"3de8e949-e690-5290-8cac-88e3a0248746" "4a6feaba-7086-507f-989b-0cef39f3556c"
@@ -1141937,7 +1141937,7 @@
 			"ec5e7caa-9854-4bfc-a04c-1aa0c6b81e10"
 		)
 	)
-	(group "Wire: K4.1 - TB24.BOT"
+	(group "Wire: K4.1 - 5F.BOT"
 		(uuid "00a52281-4903-4367-94af-a8dd9a21f9a1")
 		(members "17ef59c2-e413-5e3d-8bba-2ac1ba576475" "1ff46788-fafc-4427-9371-1eac2c5252a6"
 			"469187b2-4483-5982-84e2-5bc5ee3c0d5f" "53e78783-3a93-5b90-a0d3-fc55ba040a3e"
@@ -1141946,7 +1141946,7 @@
 			"cfc1d7d8-8122-5eb1-8300-8f555e8eddf0" "e7a0830a-4737-5046-9539-f853d61355e7"
 		)
 	)
-	(group "Wire: GS1.1 - TB52.1"
+	(group "Wire: GS1.1 - G2.1"
 		(uuid "3fc49323-6a8e-49e5-9349-ca69521ca74d")
 		(members "03b076f7-8ab8-5971-8bf6-39632b32a5c4" "1297412d-4609-5ddb-8485-b185b1656bb3"
 			"61938188-851d-5d0c-ae8b-1172293c28b9" "65d8de3b-c40f-5ed7-abca-666feffa44f0"
@@ -1141956,7 +1141956,7 @@
 			"e38c06b8-06d2-5b36-9d7a-8767c5ca8e23" "fbd737f1-89c2-5e19-9ae5-05e72fab57b3"
 		)
 	)
-	(group "Wire: K4.43 - TB90.TOP"
+	(group "Wire: K4.43 - 3C.TOP"
 		(uuid "5aed6e99-eecc-4fc8-9da7-2a47b2041adc")
 		(members "04ac29d9-c10a-528c-81fd-f983577a54a1" "2698f4b7-4ceb-5478-9277-6b7c347035e8"
 			"4dea106b-9c18-5a93-bf59-c9eb0055296a" "518dee1a-fb00-5677-942e-92a48dfa59be"
@@ -1141967,7 +1141967,7 @@
 			"d83d29b0-0dbb-5a7e-841f-916c03146449"
 		)
 	)
-	(group "Incoming landings: landing_to_main_PE TB82.1 - TB43.1"
+	(group "Incoming landings: landing_to_main_PE G4.1 - G5.1"
 		(uuid "765370bb-b3e8-439c-90e7-6788bc776823")
 		(members "0951cb52-c7a6-42d7-b389-0e3e206921dc" "981e6afb-05bf-4098-ab5d-c303325e8774"
 			"b44fe97a-2abb-4390-b87f-6e5c79e4cf52" "cbcbfed6-328b-4307-b94e-a2dc4ef988e0"
@@ -1141978,35 +1141978,35 @@
 		(uuid "80992761-45e0-4925-b15e-35a57346d33d")
 		(members "ed1a2e47-b09b-4651-89ff-0224e794468a")
 	)
-	(group "Wire: TD2.15 - TB97.BOT"
+	(group "Wire: TD2.15 - 3K.BOT"
 		(uuid "c73ce5a9-abcf-4312-b6bb-6e02b2c76856")
 		(members "22095cb6-b895-52a0-a8af-a1576f5245fa" "3e31a932-c714-5d11-8106-8a5ed2299dac"
 			"532d9dba-8272-5c29-b7a3-d2f1a652c008" "56af4390-99a2-58c5-8754-c3c1377a23ea"
 			"8a6192f3-e338-5b52-ba51-1fa49b9b6b3c"
 		)
 	)
-	(group "Wire: TB85.BOT - TB92.TOP"
+	(group "Wire: 1Y.BOT - 3E.TOP"
 		(uuid "23cd34d3-7529-40b7-9cb3-394970883e08")
 		(members "52f9c74d-fc3c-5c73-879c-69ce0d11b669" "7524e81a-98cc-5056-8ba2-c99e2cf717b5"
 			"b0836b8e-db80-5a55-914f-1392603e1b16" "d4e15096-e8fd-56a9-a8c2-6202dea63e2f"
 			"fd4387c4-a8b1-57c6-8611-5c970c70d76b"
 		)
 	)
-	(group "Wire: TD2.A2 - TB87.TOP"
+	(group "Wire: TD2.A2 - 2F.TOP"
 		(uuid "4237c629-60c3-411d-91f5-e1e278caef7e")
 		(members "1c28697a-a205-5679-82ce-c474a97e4bde" "4fa626cf-ef01-5a9c-977e-5ed65adc0c1e"
 			"9fbe7e05-caa2-5fd7-9fbb-295e09353844" "d29ad527-d8d7-544d-b1cc-2d2128c74cb0"
 			"ff049d90-d6e2-535e-a8a8-71a33c883984"
 		)
 	)
-	(group "Wire: TB86.BOT - TB95.TOP"
+	(group "Wire: 1Z.BOT - 3H.TOP"
 		(uuid "7fc66ffd-5990-4bd0-825d-f86b66372ccb")
 		(members "49e72caf-ce83-543a-8161-c51f21edf151" "af7d2b69-03e4-5ec8-b9dd-9acc79b22242"
 			"c06b3cf7-938c-559f-8dc7-3c18963b3c53" "d531a7b3-872e-560e-95fc-6f56018d168c"
 			"f5618d9c-0c03-5eda-b471-8299f6eca992"
 		)
 	)
-	(group "Wire: M1.T1 - TB60.TOP"
+	(group "Wire: M1.T1 - 1A.TOP"
 		(uuid "a6e974da-e012-4f2a-b471-63e09cea7f11")
 		(members "0191ae90-230b-5014-9195-a4a7801ad9d5" "0fd4f1fd-83c1-59c2-a2d9-dd1f33d9fe60"
 			"1e9412e7-6f92-5dd7-accf-40fa41dc2666" "315f1bd9-8490-51b6-9622-edc7da65dc9e"
@@ -1142017,7 +1142017,7 @@
 			"9dbdd7c7-58bb-51e2-a44d-05aa8ee5e954" "a1f34bf9-f5a9-5761-8499-8b61df5a520c"
 		)
 	)
-	(group "Wire: TB77.BOT - TB88.TOP"
+	(group "Wire: 1S.BOT - 3A.TOP"
 		(uuid "be8c0bf2-1395-4cae-a7f1-cb481e947e5d")
 		(members "1786e587-a4bd-5884-8626-068e7bfdcd70" "3e0c5feb-a92e-5e16-a87b-462868974c03"
 			"513a7f6f-84cd-5dcb-9d5b-dbfdf986947b" "b6ded450-99e1-5c92-a719-435873149239"
@@ -1142035,7 +1142035,7 @@
 			"fc3c474e-ac88-4ba0-b746-472119a5013d"
 		)
 	)
-	(group "Wire: M1.T3 - TB66.TOP"
+	(group "Wire: M1.T3 - 1E.TOP"
 		(uuid "3ed4c75d-5589-4b43-9023-76caf7cb1deb")
 		(members "0eef9f14-377b-5ed0-bd2e-b6a968a3b730" "2230a989-d74e-50f5-aa6a-43c58c397fd6"
 			"2b173264-f6f1-5465-a589-55804da716ef" "361b9b2c-a08f-597d-952c-dcc5a4a7d7fe"
@@ -1142047,7 +1142047,7 @@
 			"eec63d19-c2b9-529a-8e12-efb9cf6c1744" "ffbe1c5e-03b1-5954-bef7-d75f055600bc"
 		)
 	)
-	(group "Wire: KA1.64 - TB94.BOT"
+	(group "Wire: KA1.64 - 3G.BOT"
 		(uuid "864ca4dd-e0bd-41e9-83b5-9bf8105a1da1")
 		(members "13967bd0-4974-554a-b1c1-314c18416916" "209a2e38-aeaf-551f-b093-775c6eef32b5"
 			"33a75c86-da59-56db-aec2-4ef17bcd9666" "8726817f-05fe-5491-a152-abac67e7f677"
@@ -1142055,14 +1142055,14 @@
 			"f21a9388-1be2-5215-a0eb-4c422c96708c" "fd92baaa-72b7-5a1e-bc0e-779721bd7b24"
 		)
 	)
-	(group "Example: local TB12.BOT - PS1.1_TOP"
+	(group "Example: local 2C.BOT - PS1.1_TOP"
 		(uuid "a3b89f3e-a295-4b98-a614-0bc599bf0eed")
 		(members "102440b2-94b8-44b8-90fc-e60cc342ccd5" "99a02111-0b76-4271-b4df-fd6e4f29ba18"
 			"9c32b4b7-ba81-44c7-8811-c3d920e09c20" "9ea4401d-9aa1-40ce-829c-a0ed3f794984"
 			"ed3ad977-1f39-48b7-8d6d-a08f3a400891"
 		)
 	)
-	(group "Wire: KA1.52 - TB96.TOP"
+	(group "Wire: KA1.52 - 3J.TOP"
 		(uuid "cc58798b-1e02-4d9f-b63c-059a1d5080db")
 		(members "14dd0718-d8f8-51bc-bffd-b5782f64ac5b" "16c54eb4-c66d-5780-9c1e-7fc910c1c435"
 			"44d712fa-e878-5076-9350-44c9b6807455" "65ecf3e8-c1d9-51b7-b7ad-659e415adbcf"
@@ -1142072,7 +1142072,7 @@
 			"c3f18087-121a-531c-81b1-0ab887577a00" "d97b29d0-907c-563a-9406-afcd8d530eb7"
 		)
 	)
-	(group "Wire: K1.44 - TB74.BOT"
+	(group "Wire: K1.44 - 1P.BOT"
 		(uuid "f9f11976-b9e5-4012-ace3-017e694b268b")
 		(members "0aa76830-9405-5dc9-ab42-f111901d33c4" "0f9ef35a-e352-5b07-bfe7-1a8f286435a5"
 			"1a9d5874-7d5f-53ea-be63-b08a74678cf6" "217ae714-7a93-5885-920f-df6538c60007"
@@ -1142081,7 +1142081,7 @@
 			"e41202d4-a448-53cb-88aa-50403aef241f"
 		)
 	)
-	(group "Wire: TD1.A2 - TB13.BOT"
+	(group "Wire: TD1.A2 - 2D.BOT"
 		(uuid "2e8f8bf2-851b-4d6b-90db-07c6a1e34f91")
 		(members "36ea0306-2d48-5514-84ba-a43816f16a53" "3de5da73-67fd-5092-8bbc-9b3199f57481"
 			"50079c9f-a720-5951-b89b-e74c2e289e96" "65fdf413-014f-5cb6-8ff5-b86b05b32ec2"
@@ -1142090,7 +1142090,7 @@
 			"b34cfe7e-165a-5aa1-b33e-503c3ca3aed1"
 		)
 	)
-	(group "Wire: M1.T4 - TB31.TOP"
+	(group "Wire: M1.T4 - 1G.TOP"
 		(uuid "64e2955d-7a03-4fd0-b961-ff8fc4816004")
 		(members "3aa7888b-6dd5-522c-afcc-48af0dae85da" "3bc90a3b-6075-5ea8-80e6-cb7ec160d606"
 			"45319a5f-e21b-5593-bc36-ea6900b4e116" "56f094ad-a387-5199-9e4f-f96bf6f9f39d"
@@ -1142101,7 +1142101,7 @@
 			"c4748508-11d2-5979-ae85-68352e354799" "de2c5863-0d1a-5810-b1a7-91c77f0c38de"
 		)
 	)
-	(group "Wire: K4.3 - TB33.BOT"
+	(group "Wire: K4.3 - 5H.BOT"
 		(uuid "a4f968f1-ea93-45f7-b527-badee38a64b9")
 		(members "28db5452-8fc1-5386-9f37-1cb17bf70089" "4d303317-d8f9-49e7-976e-a0315fb395f6"
 			"61dd33e2-9b74-52b0-a53d-8dfae7b74d0e" "65e87858-d2c4-5b5f-991b-ef3a91261b02"
@@ -1142111,7 +1142111,7 @@
 			"e454af32-470c-5012-8e65-210743755248"
 		)
 	)
-	(group "Wire: K1.A2.BOT - TB12.TOP"
+	(group "Wire: K1.A2.BOT - 2C.TOP"
 		(uuid "166b2918-0d10-44d4-85dc-0ce4d5847669")
 		(members "0460398c-7f1a-559a-85bb-976cc6738e16" "441251f3-e885-5787-8a9a-0f89212af9f8"
 			"4f0bf1ef-acbf-55df-9267-a718059bd01a" "632ba580-bca1-5f84-981b-a9426d2784f1"
@@ -1142120,7 +1142120,7 @@
 			"a4f5f65b-6556-5800-9703-bdf81dde9833" "f16bc166-3266-5ad8-89ca-c66a5f8e9bda"
 		)
 	)
-	(group "Wire: S2.2B - TB22.TOP"
+	(group "Wire: S2.2B - 1M.TOP"
 		(uuid "338a6436-f011-4f77-92f4-c49e414dde03")
 		(members "01486b03-ae6b-5244-8723-b5e2281a64f9" "04380786-8eea-5884-9a96-b6867a247f0f"
 			"15be9974-da72-5198-b6a2-8ee2d7c1fb42" "15c8a85e-c4fd-54be-9b5b-0f95635d30ea"
@@ -1142134,7 +1142134,7 @@
 			"ef7e1e90-2dce-5a46-b6ae-8cddb2f3195e" "fe422a0d-cdcd-50e6-99fe-5979a74dbb99"
 		)
 	)
-	(group "Wire: K6.44 - TB21.BOT"
+	(group "Wire: K6.44 - 1L.BOT"
 		(uuid "752b78c7-e5c8-4af5-88fc-4aba70a7bbf8")
 		(members "038272dd-e048-54fc-b68e-15bef7609c5f" "1c518002-dfa0-5b1c-b76c-b7fed5e3d83a"
 			"1fcda7b4-3fc0-541c-8db7-cbcd59dfa31e" "51a1a6d8-0d23-5f67-b52c-4bf85cde91e7"
@@ -1142146,7 +1142146,7 @@
 			"d4d5e83c-211c-5a13-b8b1-b926501e0b05" "ea7f0399-2cc8-589e-8cd7-b0809ae1bec4"
 		)
 	)
-	(group "Wire: S3.1T - TB65.TOP"
+	(group "Wire: S3.1T - 1V.TOP"
 		(uuid "2d5f7e6b-fcbe-4754-89fd-d2fcc5961419")
 		(members "04b3912b-3c4e-51ae-acb0-eabee28dc867" "0b44336d-b87d-5df4-969e-6037e50589c9"
 			"2994583d-33f9-512a-9a1e-1a16848d8c30" "3c534cf1-bb19-502b-87ad-6560462afb5a"
@@ -1142158,7 +1142158,7 @@
 			"e17ef58d-882a-5a35-92d8-df8c6bb94760"
 		)
 	)
-	(group "Wire: FH1.P1.A - TB81.TOP"
+	(group "Wire: FH1.P1.A - 4G.TOP"
 		(uuid "633328db-7fc2-421e-9d15-1a48197945bc")
 		(members "055e9b1a-0985-57d4-addf-eb0f7a8a2e39" "4bc9463a-903c-5628-987b-3a96e7c05fac"
 			"718e5a27-f92f-5965-84d4-617cff81c9fb" "9b659d8f-eb05-52b7-a542-a6908c097206"
@@ -1142167,7 +1142167,7 @@
 			"bd10e681-f4bf-5fcd-b6d8-082fa8a59493" "fa8a4689-37ef-5900-b954-18a1db806a0f"
 		)
 	)
-	(group "Wire: K1.2 - TB23.BOT"
+	(group "Wire: K1.2 - 5E.BOT"
 		(uuid "64fd1283-33a8-4719-9496-3be318764401")
 		(members "0613af79-5e71-5376-8dda-b926d1d23c93" "2fda6e35-9b46-54be-87ce-b9db49c8df75"
 			"6d0af626-b269-58e0-b466-c451ccab8371" "8f0afe47-4778-57d7-b21c-4e380fff6953"
@@ -1142177,7 +1142177,7 @@
 			"fa59879a-7a40-5ef5-aeaf-5337327fda9f"
 		)
 	)
-	(group "Wire: TB43.2 - TB51.2"
+	(group "Wire: G5.2 - G1.2"
 		(uuid "8e7d7d57-82c3-4115-a046-a5d2b6b9fcab")
 		(members "031d2df3-cf18-5629-87df-9c4fe093cebf" "1f4a5da5-9b4c-54af-bc90-f3e0971bb1e3"
 			"3fe017b2-a707-5783-bd7e-0307b420fb14" "79ff94e1-557a-58a9-92c5-b57555586a78"
@@ -1142186,7 +1142186,7 @@
 			"e018b1a5-4ad8-5041-8188-e1a52725875a"
 		)
 	)
-	(group "Example: local twin TB10.TOP - K6.A2.TOP"
+	(group "Example: local twin 2A.TOP - K6.A2.TOP"
 		(uuid "af168e84-b86c-40bb-a0b8-cb10339b9d1f")
 		(members "058a3683-c306-4519-b751-a840b8cce4fa" "2317a7d8-d4bc-4851-9595-d9f15578a051"
 			"70a2c1b8-b7c8-4179-b976-a999529bf667" "adbec638-c70e-47bc-80a3-2cc9075d8584"
@@ -1142195,7 +1142195,7 @@
 			"e9bcc4ce-9b68-43f2-be7f-166392f21bc3"
 		)
 	)
-	(group "Wire: K1.4 - TB32.BOT"
+	(group "Wire: K1.4 - 5G.BOT"
 		(uuid "29440e81-9403-42b5-b590-2e54f258c219")
 		(members "150db24e-8c20-5f19-92b4-ff83f1874753" "1ec9ad06-3f67-588b-ad6f-1802d96893c2"
 			"28916041-8159-5ce2-bf6d-c350d74a1640" "56e5be58-b928-5dd8-ae36-62962694cc9a"
@@ -1142205,7 +1142205,7 @@
 			"f9c4c93e-ee12-5167-9569-8cf50c27db2f" "fd4b8168-de7f-57a5-bbb3-412fb0351130"
 		)
 	)
-	(group "Wire: S2.5T - TB68.TOP"
+	(group "Wire: S2.5T - 1W.TOP"
 		(uuid "a2048fd5-4176-4f5e-bcd5-f15093eee5e3")
 		(members "00de4168-5384-559b-b1d0-374fc444eccf" "0ec7f9ac-6736-5511-8792-443e89c24b3b"
 			"106702ab-47f9-5d7e-8f8e-6188a24398f7" "10825b70-3149-5ed4-83ef-ac3938a17167"
@@ -1142219,7 +1142219,7 @@
 			"e640dd9d-1c08-5ca0-8431-0bfc6e263bb8"
 		)
 	)
-	(group "Wire: K6.1 - TB23.TOP"
+	(group "Wire: K6.1 - 5E.TOP"
 		(uuid "cd40225d-e238-4fa1-a656-2f13e153d127")
 		(members "0c902429-3141-5a5a-b33a-dacce8cc779d" "3278d67f-ac17-5966-8574-9d2e3299f6ce"
 			"467fb45d-aa28-5a6f-8350-b5a7014afeff" "49f6d295-c521-583b-a1b4-514da6082032"
@@ -1142258,7 +1142258,7 @@
 			"f2dce740-e0bd-5f6a-a67e-bbd8abc77d93"
 		)
 	)
-	(group "Wire: H1.X1 - TB3.TOP"
+	(group "Wire: H1.X1 - 4D.TOP"
 		(uuid "74f1629f-bad6-4ad5-883b-c56f3370dad9")
 		(members "0619b4dc-e0e7-5684-b367-862c2d9989d3" "33674232-e727-5470-a400-3dcc4d009e90"
 			"4c23ad11-669e-507e-bf15-c5cdf66bce77" "4d0aea5c-6867-57af-a44b-1fd0efcbc0b1"
@@ -1142267,7 +1142267,7 @@
 			"fdedc074-4268-5616-97ed-8073cc562d7a"
 		)
 	)
-	(group "Wire: K4.44 - TB20.BOT"
+	(group "Wire: K4.44 - 1K.BOT"
 		(uuid "d381afb7-75fd-4720-aa6c-99e8d1454f7a")
 		(members "02380b1f-9c93-55ed-a867-5dfe2cd0bc66" "131e6407-d709-5524-85d0-db045c27dfad"
 			"2eb7eae1-3fe0-5ad3-894b-4c919036fc00" "3dbd3168-f2eb-541a-b223-1fc062c523fd"
@@ -1142278,7 +1142278,7 @@
 			"f78db376-ef7d-5868-8bfd-29236af79123"
 		)
 	)
-	(group "Wire: OL4.4 - TB63.BOT"
+	(group "Wire: OL4.4 - 1C.BOT"
 		(uuid "192c9737-79af-4a28-a6a6-fe254fc6472b")
 		(members "093b770e-4315-576e-9ed8-c949ceb48449" "2ffb4cc3-8380-5974-9a7d-29376d90f457"
 			"5aa9c8fe-0cec-5528-92c1-d5c6ac21c891" "61dc9bc5-c2de-5d2c-b28a-6183539abcb3"
@@ -1142287,7 +1142287,7 @@
 			"f5138e0a-96ec-5ad0-a790-cfa9786ae451" "f64d275c-c725-5943-8dc3-4ccd46750f91"
 		)
 	)
-	(group "Wire: S3.2T - TB62.TOP"
+	(group "Wire: S3.2T - 1U.TOP"
 		(uuid "41682020-511c-496a-b17c-05b437c6ce11")
 		(members "24850b80-e268-5bc1-8f1f-37eb0319d484" "343a6bc9-f959-599f-a90d-0e4bdd85c6fa"
 			"3a00f663-d0b3-50d0-8b30-dabd0c88915c" "3db0ccc0-59fd-55c4-bdcc-4d4640c72711"
@@ -1142299,7 +1142299,7 @@
 			"f0e87ada-e467-52c1-bb41-415c17016564"
 		)
 	)
-	(group "Wire: K2.A2.BOT - TB13.TOP"
+	(group "Wire: K2.A2.BOT - 2D.TOP"
 		(uuid "55c04200-f2d2-4357-b4c5-eb1adc3b28f3")
 		(members "05c82880-1a62-5fb9-9648-98548ff31068" "0c351533-cda6-5451-a23c-66535d40c4c4"
 			"36e36bdf-dc81-5c66-b94f-f61b8fcaf85d" "74231407-d6bd-5770-9ae5-5987837ee7fd"
@@ -1142315,7 +1142315,7 @@
 			"ee11fe7d-78d0-523c-a3e1-53d105088253"
 		)
 	)
-	(group "Wire: M1.T2 - TB63.TOP"
+	(group "Wire: M1.T2 - 1C.TOP"
 		(uuid "97d9cb0f-b2bb-4046-8f2b-2d2134e7e966")
 		(members "1a684e6e-12b5-59f9-9780-cd9c67fc6d4a" "2755aef6-f36c-5363-bbe6-80d91b9e2112"
 			"290cbeeb-e6e6-5ae5-a898-6c9e1bb63600" "2e6939d1-3847-5068-b6a6-30e8527de70d"
@@ -1142327,7 +1142327,7 @@
 			"f28bdd5e-4416-5170-9760-96b46b9f6a97" "fded61c6-2730-5c46-a903-640c3959c57a"
 		)
 	)
-	(group "Wire: FH1.P3.A - TB79.TOP"
+	(group "Wire: FH1.P3.A - 4E.TOP"
 		(uuid "cd3113ce-efd8-4b73-b6cf-ea903d383e55")
 		(members "01031c1c-95e8-53f7-b266-fbb4b1924842" "05a8f886-78c9-59d2-bfc3-c19829b253b7"
 			"0db1ec06-cf93-57e6-943c-d0cb82dd3b40" "33dca447-6288-579f-a346-86fceb656e3a"
@@ -1142336,7 +1142336,7 @@
 			"9f533aec-8e27-5044-9d1c-eee164382159" "a49618ea-4aa0-512a-9d87-c9c364f00312"
 		)
 	)
-	(group "Wire: K1.6 - TB70.BOT"
+	(group "Wire: K1.6 - 5J.BOT"
 		(uuid "d2b0d2b0-86fd-4235-9d0d-a51c8d24ee14")
 		(members "0f101bb1-877e-5fe3-a04e-0494f866f36e" "243240c2-99fd-5bd8-9911-c51f0c96f6b4"
 			"36f2ab25-a26b-572a-9d68-4648f011b286" "37a0a034-94cf-5ef3-b2b4-1c0af8996023"
@@ -1142349,7 +1142349,7 @@
 			"ffda3e6d-df60-55e6-9930-358a55a85ff1"
 		)
 	)
-	(group "Wire: K5.6 - TB67.BOT"
+	(group "Wire: K5.6 - 1F.BOT"
 		(uuid "46d0a167-d273-4e3a-a0b1-67316c550743")
 		(members "04227608-f3ea-5460-92fa-e87649f154a6" "19f6ddb6-d9dc-5a62-91af-a43607423bcf"
 			"50ef697c-b9ce-5a35-af91-ae9c9def1674" "5e7bf4c2-0af3-5f20-9ed2-fbbc5257ab0e"
@@ -1142359,7 +1142359,7 @@
 			"efc17b55-f661-565a-8aed-4a4678797e58"
 		)
 	)
-	(group "Wire: S2.1B - TB73.TOP"
+	(group "Wire: S2.1B - 1N.TOP"
 		(uuid "846a573e-30d0-4417-b649-b86a9e843da9")
 		(members "049d9f54-1a4e-544f-a772-1795bf2ce9b8" "0f8f89cc-031b-533d-9b66-9a1fe86f4893"
 			"2521b92d-599e-5933-a9cb-5d212f0e3ae7" "264f7b8e-2c87-5171-a52b-789aace683ec"
@@ -1142373,7 +1142373,7 @@
 			"e30fcc7d-6a29-5a88-80b4-a4ce9a95ede4" "e5529d38-b4c0-5741-b002-f4b377b949e2"
 		)
 	)
-	(group "Wire: OL6.4 - TB69.BOT"
+	(group "Wire: OL6.4 - 1H.BOT"
 		(uuid "a9a19e82-62e6-4eaa-926a-537d49da9ba3")
 		(members "14d76845-80db-5888-90f6-e33f08830442" "16b9ee85-8aa6-5415-b5d9-fa0607b32e59"
 			"1cda9c3e-2485-5bd9-a0ab-26c22181c48c" "22439b74-ada5-5e19-93dd-e9496366e7e1"
@@ -1142383,7 +1142383,7 @@
 			"fdcb7935-dcca-501f-ac6f-2904e03a9192"
 		)
 	)
-	(group "Wire: K4.5 - TB71.BOT"
+	(group "Wire: K4.5 - 5K.BOT"
 		(uuid "084d154c-3367-4f98-8d23-986003f15fb5")
 		(members "014031cb-675c-5e17-8c4f-4cb154ddf7fb" "0be7b68a-6197-4b48-90f9-21c5ccd91025"
 			"3118d54f-7359-5c58-906e-d3348ba3fcf9" "3842fc8a-3520-446d-9e62-783106ac6f9c"
@@ -1142393,7 +1142393,7 @@
 			"dfb7c6c5-e5d4-5c02-af31-60fac6cd2869"
 		)
 	)
-	(group "Wire: S2.3B - TB75.TOP"
+	(group "Wire: S2.3B - 1Q.TOP"
 		(uuid "4fcdafe9-d104-4f13-902a-2c352a80b300")
 		(members "03075cdd-2287-5ec1-b7cd-884cbf167507" "03be6f39-5621-5565-9f9f-ee7b98513cd2"
 			"177c7b5a-2fa2-5cf6-b115-56abd2aa55f6" "1da08357-4e18-5920-b22b-b4436f2a29a1"
@@ -1142407,7 +1142407,7 @@
 			"c863855b-04c7-5981-837c-c54bf835f6f7" "fad3ba28-f2a8-536d-b820-381c133fcc11"
 		)
 	)
-	(group "Wire: M1.T5 - TB69.TOP"
+	(group "Wire: M1.T5 - 1H.TOP"
 		(uuid "b7265154-8489-470c-868c-c493c1e460d6")
 		(members "03e36590-4c5d-5586-a440-8a175b0a27e1" "1933cefd-c0f1-5354-8b49-cb8c704184c5"
 			"200431b6-00ef-54ce-bd91-4beeee49c987" "4c3b2f28-33bb-5b54-86e0-9bd5a2555e73"
@@ -1142419,7 +1142419,7 @@
 			"ed82875a-aba2-59d8-bf82-58b8a7fbff20" "f245ea7a-afc3-526e-bd2a-832a84f84480"
 		)
 	)
-	(group "Wire: K2.31 - TB73.BOT"
+	(group "Wire: K2.31 - 1N.BOT"
 		(uuid "d40c0786-8246-409b-a093-016982a971e7")
 		(members "047bd244-3a5b-550d-8da6-d4371f8043d2" "05df4e38-897a-502c-a2df-5cf87c5776bd"
 			"257cf651-f5fa-52ea-bd88-414df0d27021" "2dc3bca9-155d-5bf9-b2ff-849c5a6cd00e"
@@ -1142448,7 +1142448,7 @@
 			"cabe97c1-380d-576b-865f-dc8d5f277260" "fb927dd7-326f-51bf-8173-64cf8eb8c522"
 		)
 	)
-	(group "Wire: K2.44 - TB76.BOT"
+	(group "Wire: K2.44 - 1R.BOT"
 		(uuid "8a5ec06a-cc64-4102-9216-f3c5557e7de8")
 		(members "066f1264-31b5-5f1e-96c0-ded0ef1bf780" "19c2a8fa-dfce-501d-9311-cf74f4cc0dfd"
 			"5071f2e4-4fb3-58c6-9c4b-e281f55972d2" "a0d02020-f280-5f44-88a1-08873d5e8aa9"
@@ -1142457,7 +1142457,7 @@
 			"fde52e63-e333-5db3-8a62-1125de341908"
 		)
 	)
-	(group "Wire: H1.X2 - TB11.BOT"
+	(group "Wire: H1.X2 - 2B.BOT"
 		(uuid "e2d7862f-c98d-47ad-8c74-c62181fa7219")
 		(members "0016cfa1-9ebb-5ad9-8896-c81775122614" "1a8de459-d8c3-50aa-99fb-9f30d00f8ad5"
 			"285bbff6-cf19-5de6-b0cc-71d06f005634" "43557b49-ec37-5454-8579-8f43f8856db1"
@@ -1142466,7 +1142466,7 @@
 			"f962bd2c-8894-5209-91cd-88814ac7cf93"
 		)
 	)
-	(group "Wire: M1.T6 - TB72.TOP"
+	(group "Wire: M1.T6 - 1J.TOP"
 		(uuid "b2108658-90c2-486a-84c8-d47e942dcfd9")
 		(members "00b442d8-e810-52de-9f5c-98d0887cc627" "235f987b-273a-5917-8e06-81b6fbbe8cbd"
 			"31e87b70-5b89-55c1-8d74-5eb501a0783d" "45a121b7-4809-5497-bc43-770616421cb8"
@@ -1142478,7 +1142478,7 @@
 			"fa025c08-2a87-5b3e-94e1-fcd874eaccaf" "faa5da6a-7c0c-5635-87b2-6b98ca3804f6"
 		)
 	)
-	(group "Wire: OL6.6 - TB72.BOT"
+	(group "Wire: OL6.6 - 1J.BOT"
 		(uuid "bf31f30f-feaf-49d8-9db3-9d922016f6e7")
 		(members "3008f92d-7188-5b99-af94-df0fd4b9c482" "407dd028-081a-5ad5-ac34-bb60a9c81079"
 			"6eebf924-f331-5d74-91a1-872b788819fd" "78f34792-9bbd-56ad-a9f4-b0e8aee6f0c5"
@@ -1142488,7 +1142488,7 @@
 			"f0adf054-8c07-5940-931e-47713250cdf1"
 		)
 	)
-	(group "Wire: K5.4 - TB64.BOT"
+	(group "Wire: K5.4 - 1D.BOT"
 		(uuid "11bddc5f-06c8-47f8-aa23-b60d6045edc9")
 		(members "0bd1df0e-33dd-5860-8d7c-58b3372480cd" "0bfebdb3-0ebd-59d9-bcff-93114dca4da3"
 			"20ca07b0-07d0-586c-9d9a-499be7c81c98" "4a755932-5ec2-595b-b90c-0517435fb556"
@@ -1142498,7 +1142498,7 @@
 			"ebda1b46-c816-5981-9bdc-5053821b67be"
 		)
 	)
-	(group "Wire: OL4.6 - TB66.BOT"
+	(group "Wire: OL4.6 - 1E.BOT"
 		(uuid "2af9e5ea-6278-4ef9-9990-c6cef154adab")
 		(members "2c503d85-6654-5b97-b9cd-c362a2cbe7c9" "41dd0d02-06f8-58c1-8f88-7eec3e6d3b3e"
 			"72c6f19a-676b-5fc1-b9b9-f08541508cbb" "76fb8398-55d9-548e-a23d-5018710136a5"
@@ -1142507,7 +1142507,7 @@
 			"f4249075-ada3-52fc-9eb2-015606774ea8" "f6008875-c471-5f20-acfe-049fda908c7f"
 		)
 	)
-	(group "Wire: M1.PE - TB51.1"
+	(group "Wire: M1.PE - G1.1"
 		(uuid "2f7ba403-abba-4ad7-be62-71c83e8c0b2c")
 		(members "03b3dd6f-7d1c-5cab-a367-8a670ff5e543" "5cc9ca57-d4e5-5668-9b14-e700c88f9bd8"
 			"5e85029c-d58c-53e0-a49d-f4a7f49ab6af" "5ed569d2-0fce-55b0-bca5-e5a2b1f68a08"
@@ -1142516,7 +1142516,7 @@
 			"adbde21d-b212-5f35-a442-4af1fd187a57" "cd160976-4a5d-5d40-a79d-b31d21c4a8b6"
 		)
 	)
-	(group "Wire: K6.3 - TB32.TOP"
+	(group "Wire: K6.3 - 5G.TOP"
 		(uuid "43e5f92d-09fe-4c54-8958-baec7121bbc5")
 		(members "00c80adc-336e-598a-96a5-346e67f92e71" "12982294-d1e7-48ff-bf59-5d82e09ce816"
 			"13da10d0-598c-5729-90f9-2c5dcd90d489" "198b5c31-1cf0-5f68-8993-8c2f02b08baf"
@@ -1142526,7 +1142526,7 @@
 			"ffa36058-6ba0-5fa3-b3cc-d8771ffdb47f"
 		)
 	)
-	(group "Wire: H2.X2 - TB11.TOP"
+	(group "Wire: H2.X2 - 2B.TOP"
 		(uuid "45652448-bace-4846-9af7-826fb2b2bdb8")
 		(members "39e4c4d1-8085-5a15-b43d-8d2e2bd23c86" "3d5bbaa3-4361-561d-8524-b6a4003fd251"
 			"50529a56-06fd-5ca2-84fb-b2c465c6a34b" "6a831474-71ae-53c9-ac7c-52bdf537e60a"
@@ -1142557,7 +1142557,7 @@
 			"fbb27d2e-4473-5f0b-9668-4fdfb17e4c5e"
 		)
 	)
-	(group "Wire: K6.5 - TB70.TOP"
+	(group "Wire: K6.5 - 5J.TOP"
 		(uuid "745f6520-5805-4957-beea-d086b184f0ae")
 		(members "1505177d-4882-417b-a5a1-57f019980373" "350c07b2-b355-587d-a1f7-6026ec252225"
 			"418aa234-41f2-5a5d-a2b1-215ffbf277fe" "4de51586-22ee-5f99-afb5-48d46d60eab1"
@@ -1142567,7 +1142567,7 @@
 			"f0405022-63f6-556d-993d-85f321627f35"
 		)
 	)
-	(group "Wire: K1.3 - TB42.TOP"
+	(group "Wire: K1.3 - 5C.TOP"
 		(uuid "1c14c0bf-a7e5-4061-99e1-c37371db4a96")
 		(members "2bc181ee-caa7-5151-961f-cf6a1022d7bc" "3135b4db-d245-5bb0-9296-f54858e19385"
 			"330516b9-a44e-5751-9237-239f8ab21cad" "37e405a3-82f9-5d05-bc5a-5996fa4e226d"
@@ -1142579,7 +1142579,7 @@
 			"f36e6276-b8be-5a75-b612-045f650b5510"
 		)
 	)
-	(group "Wire: K2.1 - TB40.TOP"
+	(group "Wire: K2.1 - 5A.TOP"
 		(uuid "c6052ea2-bb42-4ee6-a5fe-9a25ad26580a")
 		(members "17a4653d-719b-5147-af93-18654897f095" "1e4c18a6-300e-56a6-a12d-5e685732277f"
 			"3eff3b8e-70bf-5098-94a5-f1ebe9bccaac" "54f8b5c9-43b5-54a9-9c1a-e4dab9b335e7"
@@ -1142700,7 +1142700,7 @@
 				)
 			)
 		)
-		(property "Wire.BondingPlan" "TB50.1 to J8.PE: 12 AWG green/yellow to the existing lower-right enclosure grounding fixture on User.Drawings; endpoint concentric at (449.2876,449.2876) mm. 10 mm single ferrule at TB50.1; owner-selected 5/16 in McMaster 9388K35 ring at the lug."
+		(property "Wire.BondingPlan" "G6.1 to J8.PE: 12 AWG green/yellow to the existing lower-right enclosure grounding fixture on User.Drawings; endpoint concentric at (449.2876,449.2876) mm. 10 mm single ferrule at G6.1; owner-selected 5/16 in McMaster 9388K35 ring at the lug."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)

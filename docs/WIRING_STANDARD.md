@@ -36,43 +36,60 @@ purchased hardware, with their own part numbers and quantities. They are not
 stranded-wire stock, loose-wire schedule entries or ferrule requirements. Retain
 the HMX1-BBREV reversing busbar kit for K1/K2 as its own BOM item.
 
-### OEM terminal-bank jumper coverage — saved board, 2026-10-15
+### OEM terminal-bank jumper coverage — saved board, 2026-10-28
+
+Terminal references follow the owner-approved [module/letter numbering](Terminal_numbering.md).
+The number identifies one physical terminal strip; letters run left to right,
+skipping I and O. Grounding blocks use G1-G6 separately. Module numbering does
+not imply electrical commonality. The [11 x 17 jumper guide](Terminal_jumper_installation_guide.pdf)
+shows each independent jumper section and its installation checklist.
 
 The BOM includes **one pack of five KN-10J12 ten-pole screw-down jumper bars**
 for the placed KN-T12GRY-25 feedthrough blocks. AutomationDirect lists these
 OEM bars for KN-T12/KN-D12 blocks, rated 24 A / 750 V; KN-10JM12 is a different
-push-in accessory and is not the selected part.
+push-in accessory and is not the selected part. Jumper-screw tightening torque
+is **0.4-0.6 N m (3.5-5.3 lb-in)**.
 
-The entry-strip revision has fourteen jumpered feedthrough banks: eleven two-pole,
-two three-pole and one five-pole bank, requiring **33 contact poles and 19 adjacent links**.
-Cut the ten-pole stock into independent bank-length sections; retain useful
-remainders. The planned allocation fits four bars, leaving one full spare:
+The current saved board has **18 independent jumpered feedthrough banks**:
+thirteen two-pole, four three-pole, and one six-pole bank, requiring
+**44 contact poles and 26 adjacent links**. The six-pole 0V section includes
+2A through 2F. Four middle-right sequence-control banks are included. This
+supersedes the 2026-10-15 summary of 14 banks / 33 poles / 19 links.
 
-| Stock bar | Independent sections by circuit | Poles used |
+Cut the ten-pole stock into independent bank-length sections. The allocation
+uses all five bars, leaving six poles. Guide section IDs below identify the
+teal tags on the jumper guide; they are separate from terminal module numbers.
+
+| Stock bar | Separate guide sections and pole counts | Poles used |
 | --- | --- | --- |
-| 1 | 0V (5), +24V (3), CONTROL_RUN_ENABLE (2) | 10 |
-| 2 | L1_DIR (2), L2_DIR (2), L3_DIR (2), L1_SW (2), L2_SW (2) | 10 |
-| 3 | DIRECTION_ENABLE (3), DIRECTION_FWD_CMD (2), DIRECTION_REV_CMD (2), M1_T1 (2) | 9 |
-| 4 | M1_T2 (2), M1_T3 (2) | 4 |
-| 5 | Spare ten-pole bar | 0 |
+| A | 08 (6), 01 (2), 02 (2) | 10 |
+| B | 04 (3), 09 (3), 03 (2), 05 (2) | 10 |
+| C | 10 (3), 13 (3), 06 (2), 07 (2) | 10 |
+| D | 11 (2), 12 (2), 14 (2), 15 (2), 16 (2) | 10 |
+| E | 17 (2), 18 (2); six poles remain | 4 |
 
 Every section bridges only its own circuit. Use the OEM separators and top
 covers already listed in the BOM to separate exposed cut ends and cover the
-uninsulated bars, as described in the manufacturer's accessory guidance.
-The standalone incoming phase blocks TB79–TB81, E-stop block TB83, and six
-single-circuit motor/command entry feedthroughs require no inter-block jumper.
+uninsulated bars. Cut between poles, deburr, and remove all metal chips before
+fitting. Verify each bank's continuity and its isolation from adjacent different
+circuits before wiring.
+
+The incoming phase blocks **4E, 4F, 4G remain individually unjumpered**. E-stop
+block 4A and the nine single motor/command blocks on the upper rail also require
+no inter-block jumper. All 13 standalone gray blocks are shown without a teal
+bridge in the guide.
 
 The KN-G12SP-10 PE blocks connect through their conductive feet to the DIN
-rail; KN-10J12 is not specified for those blocks. Two PE JMP strokes depict
-the lower TB43/TB50 bank and upper TB51/TB52 bank. A separate 12 AWG wire joins
-TB51.2 to TB43.2. The rail-2 block TB98 adds a second 12 AWG wire from TB52.2
-to TB98.1. These wire jumpers bond all three rails. The JMP strokes are not
-KN-10J12 clips. Use the numbered wire clamps for jumpers; the PE pad represents
-the conductive foot and is not an additional wire terminal.
+rail; KN-10J12 is not specified for any PE block. Two PE JMP strokes depict
+the lower G5/G6 bank and upper G1/G2 bank. A separate 12 AWG wire joins
+G1.2 to G5.2. The rail-2 block G3 adds a second 12 AWG wire from G2.2
+to G3.1. These wire jumpers bond all three rails. The JMP strokes are not
+KN-10J12 clips. Use the numbered wire clamps for the bonding wires; the PE pad
+represents the conductive foot and is not an additional wire terminal.
 
 Sources: [KN-10J12 OEM listing](https://www.automationdirect.com/adc/shopping/catalog/wire_-a-_cable_termination/terminal_blocks/jumpers/kn-10j12),
-[Konnect-It accessory guidance](https://cdn.automationdirect.com/static/specs/konnectoverview.pdf),
-and [grounding-terminal rail connection](https://www.automationdirect.com/adc/overview/catalog/wire_-a-_cable_termination/terminal_blocks).
+[jumper selection and torque](https://cdn.automationdirect.com/static/specs/konnectacc.pdf),
+and [Konnect-It accessory guidance](https://cdn.automationdirect.com/static/specs/konnectoverview.pdf).
 
 ## Panel routing policy
 
@@ -313,10 +330,10 @@ intermediate termination. New discrete internal control wires remain 18 AWG.
 
 J1 is vertically aligned with the lower DIN rail at Y = 297 mm. Its four factory
 pigtails remain 22 AWG and are limited to the owner's approximately 200 mm
-supplied length. Their drawn routes are 64 mm (pin 1 to TB1.BOT), 41 mm (pin 2
-to TB83.TOP), 55 mm (pin 3 to TB83.BOT) and 138 mm (pin 4 to K3.A1+). The
+supplied length. Their drawn routes are 64 mm (pin 1 to 4B.BOT), 41 mm (pin 2
+to 4A.TOP), 55 mm (pin 3 to 4A.BOT) and 138 mm (pin 4 to K3.A1+). The
 leads connect directly to nearby lower-row clamps, outside the ducts, to retain
-length for end preparation. TB83 is the owner-approved single feedthrough that
+length for end preparation. 4A is the owner-approved single feedthrough that
 joins the two factory loop pigtails; it is a specific factory-interface exception
 to the usual two-node PTP rule. Do not add the stock-wire 100 mm cut allowance
 to a fixed factory lead or assume it can be extended without a real junction.
@@ -348,11 +365,11 @@ continuous-layer rules still apply.
 
 The subsequent owner direction is to populate more circuits before fixing final
 lane positions. Current lane coordinates remain provisional. Incoming cable
-cores land on bottom-left PCB-only blocks TB79 (L1_IN), TB80 (L2_IN), TB81
-(L3_IN) and TB82 (PE), between the M12 bank and K3. Each phase block's TOP,
+cores land on bottom-left PCB-only blocks 4E (L1_IN), 4F (L2_IN), 4G
+(L3_IN) and G4 (PE), between the M12 bank and K3. Each phase block's TOP,
 BOT and JMP contacts are internally common; the three phase blocks are separate
 and have no bridges between them. Separate 12 AWG panel wires feed FH1
-P3.A/P2.A/P1.A respectively. The 12 AWG TB82.1 to TB43.1 wire connects the
+P3.A/P2.A/P1.A respectively. The 12 AWG G4.1 to G5.1 wire connects the
 incoming PE landing to the main PE bank. J2's four cable-tail lengths end at
 these landing blocks and exclude the external supply cord.
 
@@ -415,12 +432,12 @@ finished cut-length schedule. Bank reassignment proposals are reviewed
 separately and are not applied by the lane pass. See the
 [onion routing review](reviews/onion_routing_2026-10-13/README.md).
 
-The subsequent TB11 return swap is applied: H2.X2 uses TB11.TOP and routes
-locally in D2; H1.X2 uses TB11.BOT and reaches D1 through D3 and the right
+The subsequent 2B return swap is applied: H2.X2 uses 2B.TOP and routes
+locally in D2; H1.X2 uses 2B.BOT and reaches D1 through D3 and the right
 chase. Both remain single 18 AWG wires. Bank placement, hardware bridges and
 all other wire paths were preserved in that pass. It reduced the drawing to
 273 proper XY crossings and 36.002 m of drawn wire, saving approximately 694 mm.
-See the [TB11 swap verification](reviews/tb11_return_swap_2026-10-13/README.md).
+See the [2B swap verification](reviews/tb11_return_swap_2026-10-13/README.md).
 
 The 2026-10-14 shortening pass is applied, including the short K5 same-device
 jumper. Seven physical wire paths change; placement, terminal assignments,
@@ -446,8 +463,8 @@ wires: K2.32 to K1.A1.BOT, OL4.96 to OL6.95, K6.32 to K5.31, K5.32 to
 K4.A1.BOT, and K5.44 to K6.A1.BOT. Nine surrounding approach/exit paths
 change with them, while placement, terminal assignments, wire sizes and all
 other routes stay fixed. Short parallel XY overlaps use separate continuous
-layers. TB12.TOP to K1.A2.BOT moves as a whole from In6.Cu to In8.Cu;
-TB20.TOP to K1.43 moves as a whole from In8.Cu to In16.Cu. No additional
+layers. 2C.TOP to K1.A2.BOT moves as a whole from In6.Cu to In8.Cu;
+1K.TOP to K1.43 moves as a whole from In8.Cu to In16.Cu. No additional
 layer or inline via is needed. The complete pass saves approximately 546 mm
 and reduces proper XY crossings from 265 to 232, with no wire pair gaining
 a crossing. The current drawn total is 34.801 m before cut allowances.
@@ -637,20 +654,20 @@ retain their internal geometry after the approved upper-rail move.
 
 | External conductor | Entry clamp | Panel-side destination(s) |
 |---|---|---|
-| M1 T1 | TB60.TOP | TB60.BOT to OL4.2; common TB61.BOT to K5.2 |
-| M1 T2 | TB63.TOP | TB63.BOT to OL4.4; common TB64.BOT to K5.4 |
-| M1 T3 | TB66.TOP | TB66.BOT to OL4.6; common TB67.BOT to K5.6 |
-| M1 T4 / T5 / T6 | TB31 / TB69 / TB72.TOP | Matching BOT to OL6.2 / .4 / .6 |
-| M1 PE | TB51.1 | TB51.2 to lower main PE bank TB43.2 |
-| S2 forward / reverse | TB73 / TB75.TOP | Common bank clamps to K1/K2 auxiliary contacts |
-| S2 direction enable | TB22.TOP | Common TB20/TB21 BOT clamps to K4.44 / K6.44 |
-| S2 run / S3 run | TB77 / TB78.TOP | TB77.BOT to middle run bank TB88–TB90; TB78.BOT to K6.43 |
-| S2 overload enable | TB68.TOP | TB68.BOT to OL6.96 |
-| S3 high / low speed | TB62 / TB65.TOP | Matching BOT to K5.43 / K6.31 |
-| S3 timed-low supply (1B) | TB84.TOP | TB84.BOT to TD2.18 |
-| S3 high enable (3B) | TB85.TOP | TB85.BOT to bank TB91–TB93 |
-| S3 high trigger (3T) | TB86.TOP | TB86.BOT to bank TB94–TB95 |
-| Command PE to S3 splice GS1 | TB52.1 | Bonded upper PE rail to TB51 and its lower-bank bond |
+| M1 T1 | 1A.TOP | 1A.BOT to OL4.2; common 1B.BOT to K5.2 |
+| M1 T2 | 1C.TOP | 1C.BOT to OL4.4; common 1D.BOT to K5.4 |
+| M1 T3 | 1E.TOP | 1E.BOT to OL4.6; common 1F.BOT to K5.6 |
+| M1 T4 / T5 / T6 | 1G / 1H / 1J.TOP | Matching BOT to OL6.2 / .4 / .6 |
+| M1 PE | G1.1 | G1.2 to lower main PE bank G5.2 |
+| S2 forward / reverse | 1N / 1Q.TOP | Common bank clamps to K1/K2 auxiliary contacts |
+| S2 direction enable | 1M.TOP | Common 1K/1L BOT clamps to K4.44 / K6.44 |
+| S2 run / S3 run | 1S / 1T.TOP | 1S.BOT to middle run bank 3A–3C; 1T.BOT to K6.43 |
+| S2 overload enable | 1W.TOP | 1W.BOT to OL6.96 |
+| S3 high / low speed | 1U / 1V.TOP | Matching BOT to K5.43 / K6.31 |
+| S3 timed-low supply (1B) | 1X.TOP | 1X.BOT to TD2.18 |
+| S3 high enable (3B) | 1Y.TOP | 1Y.BOT to bank 3D–3F |
+| S3 high trigger (3T) | 1Z.TOP | 1Z.BOT to bank 3G–3H |
+| Command PE to S3 splice GS1 | G2.1 | Bonded upper PE rail to G1 and its lower-bank bond |
 
 The original terminal references are retained even where the six reclaimed
 blocks change net. Rebuild only matching bank JMP links. All filled Controls silhouettes belong on B.Adhesive and stay opaque.
@@ -768,7 +785,7 @@ contact surface and provide secure thread engagement according to the
 hardware instructions. Their final mounting sites require physical inspection
 of the cast housings. The schematic/PCB now represents the branch as GS1
 (three-port PE splice), GL1 (S3 housing lug), and GL2 (S2 housing lug):
-TB52.1 to GS1, GS1 to GL1, and GS1 to GL2, all 14 AWG stranded copper.
+G2.1 to GS1, GS1 to GL1, and GS1 to GL2, all 14 AWG stranded copper.
 J3 includes an additional PE pass-through pair for the control-conduit bond.
 GS1's single logical PE node represents three independently clamped ports.
 The generic point footprints are drawing targets, not machining/CAD models
@@ -885,8 +902,8 @@ Sources: [FAZ-NA specifications](https://cdn.automationdirect.com/static/specs/e
 
 KN-G12SP-10 accepts 26–12 AWG. Use separate suitable clamps for the incoming cable PE, the 12 AWG motor-conduit PE and PSU PE wire. Its two wire clamps and conductive rail foot are electrically common. Prepare each conductor according to the terminal manufacturer's instructions. The 10 AWG bonding-jumper ends use compatible studs or a wire-splicing connector rated for that conductor; they do not enter these KN-G12SP-10 clamps.
 
-The current incoming PE continuation is `TB82.1` to `TB43.1`, using 12 AWG
-single ferrules with a 10 mm metal barrel. The PSU PE branch is `TB50.2` to
+The current incoming PE continuation is `G4.1` to `G5.1`, using 12 AWG
+single ferrules with a 10 mm metal barrel. The PSU PE branch is `G6.2` to
 `PS1.1_BOT`, using 14 AWG with a single ferrule at the PE block and the declared
 bare-wire termination at PS1. These are individual wire assignments; they do
 not set one gauge for the whole PE net or for unused block clamps. New landing
@@ -908,8 +925,8 @@ PE rail contact is a retained conductive foot, not a ferruled wire clamp.
 ## Bonding plan and conductor classification
 
 - Three prefab bonds: the enclosure-supplied pre-terminated jumper joins the dedicated enclosure-body and door lugs using supplied hardware; two separate GRDKIT01 whips join the motor-box WAGO PE splice to the motor body and machine frame. Each motor/frame whip retains its metal-part ring, with only its splice-end ring removed and that conductor stripped 13 mm. The motor and frame bonds are parallel branches at the J-box, with no series chain.
-- One cable-core PE connection: mains cable PE to incoming grounding block TB82, supplied within the incoming cable.
-- One discrete incoming PE continuation: TB82.1 to main PE block TB43.1, using 12 AWG green/yellow panel wire.
+- One cable-core PE connection: mains cable PE to incoming grounding block G4, supplied within the incoming cable.
+- One discrete incoming PE continuation: G4.1 to main PE block G5.1, using 12 AWG green/yellow panel wire.
 - One discrete external PE connection: the 12 AWG motor-conduit conductor between a suitable panel PE termination and the motor-end PE junction.
 - One discrete panel PE wire: PSU PE to a panel PE terminal, using the 14 AWG default subject to actual termination/protection requirements.
 - Rail and enclosure bonding revision, 2026-10-20: use the terminal-foot and wire-jumper paths below for rail PE continuity. Rail/duct mounting screws provide mechanical attachment; the bonding plan does not rely on those screws as the rail PE path. The owner confirms that the backplate mounts directly on four enclosure grounding lugs/studs. Retain those four mounting/bonding interfaces with the supplied bonding hardware and prepared conductive contact surfaces. Verify the installed backplate-to-enclosure bond. GBB supplies mounting and bonding fasteners. One McMaster 9388K35 ring for the owner-selected 5/16-inch lower-right enclosure grounding lug is purchased separately in the BOM. The enclosure-supplied door jumper and its body/door lugs and hardware require no separate purchase. The earlier requirement to drill and tap every mounting hole is superseded by this plan; self-drilling mounting screws may be used within their specified material and thickness limits.
@@ -917,26 +934,26 @@ PE rail contact is a retained conductive foot, not a ferruled wire clamp.
 ### Rail and enclosure bonding connections — 2026-10-20
 
 Rail 1 is the upper rail, rail 2 the middle rail and rail 3 the lower rail.
-The physical PCB layout contains TB98 at X=391, Y=67 mm on rail 2. Its right
+The physical PCB layout contains G3 at X=391, Y=67 mm on rail 2. Its right
 end bracket moves from X=395 to X=401 mm; the other rail devices stay in place.
-The new block leaves room for the existing end cover after TB97.
-TB98 is a PCB-only physical terminal, following the existing incoming-terminal
+The new block leaves room for the existing end cover after 3K.
+G3 is a PCB-only physical terminal, following the existing incoming-terminal
 convention. Its wire clamps and conductive rail foot are internally common.
 
 | Connection | Conductor / hardware | Saved-design status |
 |---|---|---|
-| Incoming cable PE to TB82.2 on rail 3 | Supplied 12 AWG cable core | Existing route; retain. |
-| TB82.1 to TB43.1 on rail 3 | 12 AWG green/yellow, single 10 mm ferrule at each end | Existing route; retain. |
-| Rail 3 TB43.2 to rail 1 TB51.2 | 12 AWG green/yellow, single 10 mm ferrule at each end | Existing route; retain. |
-| Rail 1 TB52.2 to rail 2 TB98.1 | 12 AWG green/yellow, single 10 mm ferrule at each end | Continuous PCB route; included in the regenerated schedule. |
-| Rail 3 TB50.1 (top clamp) to existing lower-right enclosure grounding lug J8.PE | 12 AWG green/yellow; 10 mm ferrule at TB50.1 and owner-selected McMaster 9388K35 ring at the 5/16-inch lug | Continuous F.Cu route; 630 mm cut estimate. J8 is concentric with the existing User.Drawings fixture. |
+| Incoming cable PE to G4.2 on rail 3 | Supplied 12 AWG cable core | Existing route; retain. |
+| G4.1 to G5.1 on rail 3 | 12 AWG green/yellow, single 10 mm ferrule at each end | Existing route; retain. |
+| Rail 3 G5.2 to rail 1 G1.2 | 12 AWG green/yellow, single 10 mm ferrule at each end | Existing route; retain. |
+| Rail 1 G2.2 to rail 2 G3.1 | 12 AWG green/yellow, single 10 mm ferrule at each end | Continuous PCB route; included in the regenerated schedule. |
+| Rail 3 G6.1 (top clamp) to existing lower-right enclosure grounding lug J8.PE | 12 AWG green/yellow; 10 mm ferrule at G6.1 and owner-selected McMaster 9388K35 ring at the 5/16-inch lug | Continuous F.Cu route; 630 mm cut estimate. J8 is concentric with the existing User.Drawings fixture. |
 | Backplate to enclosure | Four owner-confirmed mounting studs, supplied nuts/bonding hardware and conductive interfaces | Mechanical bond; verify continuity after assembly. A painted mounting interface alone is not proof of bonding. |
 | Dedicated enclosure-body ground lug to dedicated door lug | Enclosure-supplied pre-terminated jumper and hardware, confirmed by owner | Retain factory ring ends; no separate GRDKIT01 purchase for this branch. Do not rely on hinges. |
-| Rail 1 TB51.1 to motor-box PE splice M1.PE | Continuous 12 AWG green/yellow through motor conduit/J4 | Existing feed; retain. M1.PE represents the WAGO 221-613 inside the J-box. |
+| Rail 1 G1.1 to motor-box PE splice M1.PE | Continuous 12 AWG green/yellow through motor conduit/J4 | Existing feed; retain. M1.PE represents the WAGO 221-613 inside the J-box. |
 | Motor-box WAGO M1.PE to motor-bell stud J7.PE | Separate GRDKIT01 10 AWG whip; bare 13 mm end at WAGO, factory ring at motor stud | Existing route; 200 mm cut estimate. |
 | Motor-box WAGO M1.PE to machine-frame lug J5.PE | Separate GRDKIT01 10 AWG whip; bare 13 mm end at WAGO, factory ring at frame lug | Direct parallel branch; 170 mm cut estimate. No J5-to-J7 wire. |
 
-Use one conductor per numbered clamp. TB98.2 remains spare. KN-G12SP-10
+Use one conductor per numbered clamp. G3.2 remains spare. KN-G12SP-10
 accepts 26–12 AWG; do not insert the GRDKIT01 10 AWG strap ends into it.
 The owner identifies the selected lower-right grounding lug as 5/16 inch.
 J8 is an electrical routing endpoint centered at X=449.2876, Y=449.2876 mm,
@@ -953,12 +970,12 @@ J-box WAGO does not itself bond the metal J-box: verify its conductive bond
 to the motor body or provide an explicit suitable bonding connection.
 
 The revised requirement is six PE blocks, 63 terminal marker positions and
-15 loose 12 AWG single ferrules (12 existing, two for TB52–TB98, one for
-TB50.1–J8.PE). Existing purchase packs cover the PE block, markers and ferrules.
+15 loose 12 AWG single ferrules (12 existing, two for G2–G3, one for
+G6.1–J8.PE). Existing purchase packs cover the PE block, markers and ferrules.
 The rail-1-to-rail-2 jumper is routed continuously on In22.Cu, with a
 252.708 mm centerline and a 360 mm cut estimate under the existing schedule
 allowance and rounding rule. The resulting saved 12 AWG green/yellow loose-wire
-requirement, including the 630 mm TB50.1-to-J8.PE cut, is now 11.9 ft, rounded
+requirement, including the 630 mm G6.1-to-J8.PE cut, is now 11.9 ft, rounded
 upward to one decimal place; the 50 ft purchase is unchanged. Both new jumpers
 are included in the regenerated wire schedule and length totals. The schedule
 has 126 wires and the loose-stock totals cover 116 wires / 92.210 m. Verify
@@ -1043,12 +1060,12 @@ The generated CSV and editor use eight positional columns:
 separate column positions; they are not dictionary keys. Length is in millimetres.
 
 Pin labels include the reference, followed by an underscore and the terminal
-identifier, for example `PS1_PE`, `FH1_P2A`, `TB40_TOP`, `K1_A1_TOP`.
+identifier, for example `PS1_PE`, `FH1_P2A`, `5A_TOP`, `K1_A1_TOP`.
 Hidden PCB footprint fields `Wire.PinLabel.<electrical pin number>` supply
 aliases for PS1 and FH1. PS1 output aliases are `V1_NEG`, `V2_NEG`, `V1_POS`,
 `V2_POS`. Other compound identifiers replace delimiters with underscores.
 Electrical pad numbers, schematic connectivity and routing remain unchanged.
-Terminal-block device names display as `Terminal 40`, for example, for `TB40`.
+Terminal-block device names display as `Terminal 5A` for `5A`, and `Ground G1` for `G1`. See [Terminal_numbering.md](Terminal_numbering.md) for all 63 labels and their legacy cross-reference.
 
 Compact termination codes have no underscore between type and wire gauge:
 
@@ -1084,8 +1101,8 @@ K3.32/A2 use the same bare stranded-copper preparation as its other wired
 terminals. All used terminal-block fields have their existing 10 mm ferrule
 policies and actual routed gauges. K4 and K6 now have separate single-ferrule
 landings in the existing 0V bank; K6 uses its verified internally common lower
-A2 clamp. K4 retains `TB10.TOP → K4.A2.TOP`; K6 uses
-`TB14.BOT → K6.A2.BOT`, through D3 on the existing In9.Cu layer. No terminal
+A2 clamp. K4 retains `2A.TOP → K4.A2.TOP`; K6 uses
+`2E.BOT → K6.A2.BOT`, through D3 on the existing In9.Cu layer. No terminal
 block is added. Placement, all wire gauges, the other 92 routes, the 28 OEM
 bank-link strokes and the schematic are preserved. All 93 wires are continuous;
 the proper XY crossing total remains 232. The K6 route grows by approximately

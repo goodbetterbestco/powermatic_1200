@@ -4,6 +4,8 @@ Rev P is the current contactor-based design. Operator controls use 24 VDC; motor
 
 Backplate layout and DIN-rail/wire-duct installation are complete, as reported on 2026-10-27. All 20 mounting holes were drilled and tapped 10-24; the specified 10-24 fasteners worked well. See the [installation record](docs/Backpanel_screw_locations_source.md#installation-record--2026-10-27).
 
+Modules and terminal blocks are placed, as reported on 2026-10-28. Terminal labels use module number + letter, skipping I/O, with G1-G6 for grounding blocks. Jumper installation is the next assembly step.
+
 ## Active files
 
 - [BOM](BOM_other.csv): project requirements and purchasing quantities. `BOM_jlcpcb.csv` is reserved for a separate JLCPCB BOM when needed.
@@ -11,6 +13,9 @@ Backplate layout and DIN-rail/wire-duct installation are complete, as reported o
 - [Schematic](kicad/powermatic_1200/powermatic_1200.kicad_sch)
 - [Wiring standard](docs/WIRING_STANDARD.md)
 - [Signal names](docs/SIGNAL_NAMING.md)
+- [Terminal numbering and legacy cross-reference](docs/Terminal_numbering.md)
+- [11 x 17 terminal jumper guide](docs/Terminal_jumper_installation_guide.pdf)
+- [DIN-rail module layout](docs/DIN_rail_module_layout.pdf)
 - [Saved wire schedule](docs/Wire_schedule.csv)
 - [Wire length totals](docs/Wire_length_totals.csv)
 - [BOM quantity review](docs/BOM_quantity_review_2026-10-19.md)
