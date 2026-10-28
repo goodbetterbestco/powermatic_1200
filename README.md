@@ -2,6 +2,8 @@
 
 Rev P is the current contactor-based design. Operator controls use 24 VDC; motor-power switching is in the panel enclosure. Schematic, layout and commissioning work remain open.
 
+Backplate layout and DIN-rail/wire-duct installation are complete, as reported on 2026-10-27. All 20 mounting holes were drilled and tapped 10-24; the specified 10-24 fasteners worked well. See the [installation record](docs/Backpanel_screw_locations_source.md#installation-record--2026-10-27).
+
 ## Active files
 
 - [BOM](BOM_other.csv): project requirements and purchasing quantities. `BOM_jlcpcb.csv` is reserved for a separate JLCPCB BOM when needed.
@@ -15,7 +17,7 @@ Rev P is the current contactor-based design. Operator controls use 24 VDC; motor
 
 ## Project Review
 
-Double-click **Project Review.app** to launch the separate [bom_review editor](https://github.com/goodbetterbestco/bom_review), installed at `~/Projects/bom_review`. Use **Documents** to select a CSV in this project root. **Overwrite** saves the selected document; **Save file** downloads a copy. Refresh reloads the selected saved CSV.
+Double-click **Project Review.app** to launch the separate [bom_review editor](https://github.com/goodbetterbestco/bom_review), installed at `~/Projects/bom_review`. **Documents** lists root CSVs plus the saved wire schedule and wire-length totals in `docs/`. **Overwrite** saves the selected document; **Save file** downloads a copy. For **Wire_schedule.csv**, **Refresh** regenerates the schedule and length totals from saved KiCad; for other documents it reloads the saved CSV. The extractor and project configuration live in `~/Projects/bom_review/adapters/powermatic_1200/`, outside this hardware repository.
 
 `QUA` is the project requirement in pieces or feet. `PACK` is the amount per purchase unit, `ORDER` is the number of purchase units, and `COST` is the price per purchase unit. `LINE = ORDER × COST`. GBB items are on hand and keep `ORDER = 0`. The CSV is manually reviewed; the launcher does not regenerate it from KiCad.
 

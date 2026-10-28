@@ -720,11 +720,15 @@ at both ends. Local station jumpers/pigtails keep their drawn lengths and normal
 end allowances. Round every complete cut upward to 10 mm. Factory leads, mains
 cable and prefabricated bonding straps remain separate from loose stock.
 
-This section records the installed-run basis. The old
+This section records the installed-run basis. The old project-side
 `tools/wiring/external_lengths.json` and automatic Refresh software were removed
-during repository cleanup; recover any needed helper outside this repository.
-Regeneration must apply these assumptions to the saved panel-to-gland paths
-rather than substitute the illustrative exterior tracks. `Wire_length_totals.csv` aggregates estimated route length,
+during repository cleanup. Automatic wire generation was restored on 2026-10-27
+in `~/Projects/bom_review/adapters/powermatic_1200/`; software and configuration
+remain outside this hardware repository. Open Project Review, select
+`docs/Wire_schedule.csv` in Documents, and use Refresh to regenerate that file
+and `docs/Wire_length_totals.csv` together. Generation applies these assumptions
+to the current saved panel-to-gland paths rather than substituting the
+illustrative exterior tracks. `Wire_length_totals.csv` aggregates estimated route length,
 termination allowance, service slack and rounding. Purchase PACK/ORDER stay fixed.
 
 The measured 0.868-inch S3 knockouts correspond to the nominal 7/8-inch hole
@@ -1106,10 +1110,10 @@ estimate. See the [metadata and export verification](reviews/mechanical_interloc
 
 ## Where information belongs
 
-1. **Policy:** this document owns preferred gauge classes, application defaults and explicit exceptions. Root README and tools/wiring/README link here; avoid duplicating a second policy table in the BOM or generator.
+1. **Policy:** this document owns preferred gauge classes, application defaults and explicit exceptions. The root README and the external bom_review adapter documentation reference it; avoid duplicating a second policy table in the BOM or generator.
 2. **KiCad data:** custom schematic `Wire.Sizes` fields record per-terminal conductor sizing and `Wire.SizePlan` retains proposed bonding assemblies. M1.PE is the common WAGO 221-613 connector interface, with separate 12 AWG conduit and 10 AWG supplied-bond ports; each physical wire obtains its gauge from its other endpoint. Saved PCB trace paths own physical wire endpoints and route geometry; the old schematic `Wire.Wxxx` fields are no longer the schedule source. One combined `Termination.<pin>` field on each placed footprint owns the termination selection at that terminal. TERM 1 and TERM 2 are read from the source and destination footprints. M1 uses the illustrative `Controls:PWRM1200-MOTOR_Top_150mm` machine-layout footprint with T1–T6 and PE routing targets and no model. Glands provide explicit pass-through routing markers; S1 and J6 retain metadata-only representations. Bonding-strap attachment hardware belongs in the BOM; mechanical bonding points do not carry wire-schedule termination fields. Reports and wire records do not own duplicate termination selections. These fields do not define routes or wire allocation; completed routed paths generate wire rows, and missing gauge assignments and unrouted connections are reported.
-3. **Procurement:** `Powermatic_BOM_revP.csv` owns exact cable/device/spool/ferrule/lug/kit selections and purchase quantities. Include AWG and conductor count in cable descriptions and AWG in termination descriptions; retain the exact supplier part number. A preferred gauge without a required wire is not an automatic BOM purchase.
-4. **Live schedules:** `Wire_schedule.csv` is the single live physical-wire schedule. Finder launch or browser Refresh extracts completed saved PCB trace paths into it. CSV edits remain local and never update KiCad. Refresh exports completed saved trace paths; incomplete routing is reported. Retained busbars and explicitly declared installed station links do not generate cut-wire rows. `Powermatic_BOM_revP.csv` retains hidden SOURCE tags and stable keys so refresh updates KiCad-linked requirements while preserving Local purchasing rows and fields. QUA is project need, PACK is pieces/feet per purchased length or package, and ORDER is purchase quantity. No historical CSV variants are generated.
+3. **Procurement:** `BOM_other.csv` owns exact cable/device/spool/ferrule/lug/kit selections and purchase quantities. Include AWG and conductor count in cable descriptions and AWG in termination descriptions; retain the exact supplier part number. A preferred gauge without a required wire is not an automatic BOM purchase. The BOM is manually reviewed; wire Refresh does not change purchasing fields.
+4. **Live schedules:** `docs/Wire_schedule.csv` is the single live physical-wire schedule. The external bom_review adapter extracts completed saved PCB trace paths on wire-mode Finder launch or on Refresh while this schedule is selected in Documents. `docs/Wire_length_totals.csv` is regenerated with it, using the installed-run assumptions above. CSV edits remain local and never update KiCad. Incomplete routing is reported. Retained busbars and explicitly declared installed station links do not generate cut-wire rows. QUA is project need, PACK is pieces/feet per purchased length or package, and ORDER is purchase quantity. No historical CSV variants are generated.
 5. **Part specifications:** `_parts` datasheets and catalog entries own supplied cable/lead sizes, terminal wire ranges and manufacturer-specific termination requirements. Keep project-wide stock policy here rather than embedding it in reusable symbols.
 
 ## Current reconciliation items
