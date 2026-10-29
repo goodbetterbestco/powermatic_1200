@@ -1,6 +1,10 @@
 # Backpanel and enclosure cutout drawing
 
-Drawing: [Backpanel_screw_locations.pdf](Backpanel_screw_locations.pdf). Revision E, 2026-10-23. Two sheets; mm; 1:4 at actual size on 17 x 11 inch paper. Use written dimensions; do not scale.
+Current enclosure sheet: [Enclosure_knockout_layout.pdf](Enclosure_knockout_layout.pdf), Rev I, 2026-10-29; one portrait 11 x 17 inch sheet. It replaces the former Rev E enclosure page with three exterior views and A-E hole details. Details are 1:1 when printed on portrait tabloid at 96%; pilot sizes, punch part numbers and the E filing area are included. The right-face entry locations follow the owner's fabrication measurements; finished hole types are unchanged. Rev I specifies two McMaster 9357K15 gasketed plugs with hex retaining nuts for the unused A pair. See [enclosure drawing sources](Enclosure_knockout_layout_source.md).
+
+[Backpanel_screw_locations.pdf](Backpanel_screw_locations.pdf) retains the original landscape Rev E backpanel page and now includes the portrait Rev I enclosure sheet as page 2. The approved standalone [backpanel first sheet](Backpanel_screw_locations_page1.pdf) remains unchanged. All dimensions are mm; use written dimensions, not scaled measurements.
+
+The historical Rev E datum, location and profile records below remain as the source cross-reference. Legacy profiles C1-C5 correspond to the current A-E respectively.
 
 ## Installation record — 2026-10-27
 

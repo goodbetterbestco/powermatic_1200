@@ -71,12 +71,12 @@ Terminal 4C,4C_BOT,Coil Enable Relay,K3_31,18,280,F18_10mm,B18
 Terminal 4C,4C_TOP,Coil Enable Relay,K3_13,18,270,F18_10mm,B18
 Terminal 4D,4D_BOT,Fused Terminal,F4_OUT,18,330,F18_10mm,F18_10mm
 Terminal 4D,4D_TOP,White Indicator,H1_X1,18,1410,F18_10mm,F18_6mm
-Terminal 4E,4E_BOT,Mains Plug,J2_X,12,270,F12_10mm,B12
-Terminal 4E,4E_TOP,Fuse Holder,FH1_P3A,12,1210,F12_10mm,R12_1032_9mm
-Terminal 4F,4F_BOT,Mains Plug,J2_Y,12,270,F12_10mm,B12
-Terminal 4F,4F_TOP,Fuse Holder,FH1_P2A,12,1200,F12_10mm,R12_1032_9mm
-Terminal 4G,4G_BOT,Mains Plug,J2_Z,12,270,F12_10mm,B12
-Terminal 4G,4G_TOP,Fuse Holder,FH1_P1A,12,1150,F12_10mm,R12_1032_9mm
+Terminal 4E,4E_BOT,Mains Plug,J2_X,12,360,F12_10mm,B12
+Terminal 4E,4E_TOP,Fuse Holder,FH1_P3A,12,930,F12_10mm,R12_1032_9mm
+Terminal 4F,4F_BOT,Mains Plug,J2_Y,12,350,F12_10mm,B12
+Terminal 4F,4F_TOP,Fuse Holder,FH1_P2A,12,920,F12_10mm,R12_1032_9mm
+Terminal 4G,4G_BOT,Mains Plug,J2_Z,12,340,F12_10mm,B12
+Terminal 4G,4G_TOP,Fuse Holder,FH1_P1A,12,870,F12_10mm,R12_1032_9mm
 Terminal 5A,5A_BOT,Motor Disconnect,SW1_2,14,1130,F14_10mm,B14_12mm
 Terminal 5A,5A_TOP,HMC-9B30-11-DS K2,K2_1,14,1070,F14_10mm,B14
 Terminal 5B,5B_BOT,Circuit Breaker,Q1_1,14,940,F14_10mm,B14
@@ -100,8 +100,8 @@ Ground G1,G1_1,Two-Speed Motor,M1_PE,12,1100,F12_10mm,B12_13mm
 Ground G1,G1_2,Ground G5,G5_2,12,1080,F12_10mm,F12_10mm
 Ground G2,G2_1,Control PE Splice,GS1_PE,14,1350,F14_10mm,B14_13mm
 Ground G2,G2_2,Ground G3,G3_1,12,360,F12_10mm,F12_10mm
-Ground G4,G4_1,Ground G5,G5_1,12,430,F12_10mm,F12_10mm
-Ground G4,G4_2,Mains Plug,J2_G,12,270,F12_10mm,B12
+Ground G4,G4_1,Ground G5,G5_1,12,380,F12_10mm,F12_10mm
+Ground G4,G4_2,Mains Plug,J2_G,12,330,F12_10mm,B12
 Ground G6,G6_1,Enclosure Grounding Lug,J8_PE,12,630,F12_10mm,R12_516_15.494mm
 Ground G6,G6_2,DC Power Supply,PS1_PE,14,300,F14_10mm,B14_5mm
 Control Housing PE Grounding Kit (WGNDKT) GL1,GL1_PE,Control PE Splice,GS1_PE,14,120,B14,B14_13mm

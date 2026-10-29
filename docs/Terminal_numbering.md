@@ -9,10 +9,12 @@ The module number identifies one physically separate terminal strip. Module numb
 | 1 | Upper rail, right of K1/K2 | 1A-1Z, skipping I/O | 24 |
 | 2 | Middle rail, left of K6 | 2A-2F | 6 |
 | 3 | Middle rail, right of TD1/TD2 | 3A-3K, skipping I | 10 |
-| 4 | Lower rail, left of K3 | 4A-4G | 7 |
+| 4 | Lower left 4A-4D; incoming 4E-4G relocated to lower right | 4A-4G | 7 |
 | 5 | Lower rail, right of PS1 | 5A-5K, skipping I | 10 |
 
-Grounds: upper G1/G2, middle G3, lower-left G4, lower-right G5/G6.
+Grounds: upper G1/G2, middle G3, lower-right G5/G6 and relocated G4. The physical left-to-right order at the lower right ends with 4E, 4F, 4G, G4.
+
+Relocation exception, 2026-10-29: the owner requested retaining 4E/4F/4G/G4 when moving them to the lower right. Module 4 is therefore split across the two lower strips, and G4 no longer follows ground-number reading order. All existing terminal labels remain valid.
 
 The module number identifies physical location, not electrical commonality. Jumper sections remain independently defined in the jumper guide. In particular, 4E/4F/4G are three separate incoming phase circuits.
 
@@ -93,4 +95,6 @@ Legacy TB labels are retained in this table only for migration. Current design r
 Pre-renumbering board SHA-256: `c731a221f87b926be2c003654d6b80d86224b43d60473315bae08dab0162202a`.
 Renumbered board SHA-256: `b738d5c0a8aec3e600c9eabf21a384ae3e65b1bcc55b7f4382337b39da2ae1b6`.
 
-All terminal footprints, pad identities, nets and routed geometry are retained. The terminal blocks are PCB-level layout items; the saved electrical schematic contains no terminal-block reference instances to rename.
+The 2026-10-28 renumbering retained terminal placement, pad identities, nets and routed geometry. The terminal blocks are PCB-level layout items; the saved electrical schematic contains no terminal-block reference instances to rename.
+
+Right-entry relocation checkpoint, 2026-10-29: board SHA-256 `04f916bcc7674bb8db68ffcfc75c5fe25b5ecf4fd1e167e0c03079a843f9d11f`. Four terminals, the J2 mains-gland proxy, the affected cable-tail/fuse-feed/bonding routes and end-stop placement changed; all contactors remain in place.

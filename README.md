@@ -4,7 +4,7 @@ Rev P is the current contactor-based design. Operator controls use 24 VDC; motor
 
 Backplate layout and DIN-rail/wire-duct installation are complete, as reported on 2026-10-27. All 20 mounting holes were drilled and tapped 10-24; the specified 10-24 fasteners worked well. See the [installation record](docs/Backpanel_screw_locations_source.md#installation-record--2026-10-27).
 
-Modules and terminal blocks are placed, as reported on 2026-10-28. Terminal labels use module number + letter, skipping I/O, with G1-G6 for grounding blocks. Jumper installation is the next assembly step.
+Modules and terminal blocks were reported placed on 2026-10-28. The 2026-10-29 saved layout relocates incoming terminals 4E/4F/4G/G4 to the lower right and the mains entry to the right wall; the two alternate right-face motor/control holes are recorded in the enclosure drawing. Two McMaster 9357K15 gasketed plugs with hex retaining nuts cover the unused motor/control pair. Terminal labels use module number + letter, skipping I/O, with G1-G6 for grounding blocks. Jumper installation is the next assembly step.
 
 ## Active files
 
@@ -13,6 +13,7 @@ Modules and terminal blocks are placed, as reported on 2026-10-28. Terminal labe
 - [Schematic](kicad/powermatic_1200/powermatic_1200.kicad_sch)
 - [Wiring standard](docs/WIRING_STANDARD.md)
 - [Signal names](docs/SIGNAL_NAMING.md)
+- [Enclosure hole layout - 11 x 17 portrait](docs/Enclosure_knockout_layout.pdf)
 - [Terminal numbering and legacy cross-reference](docs/Terminal_numbering.md)
 - [11 x 17 terminal jumper guide](docs/Terminal_jumper_installation_guide.pdf)
 - [DIN-rail module layout](docs/DIN_rail_module_layout.pdf)

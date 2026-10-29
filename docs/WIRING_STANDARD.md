@@ -91,6 +91,45 @@ Sources: [KN-10J12 OEM listing](https://www.automationdirect.com/adc/shopping/ca
 [jumper selection and torque](https://cdn.automationdirect.com/static/specs/konnectacc.pdf),
 and [Konnect-It accessory guidance](https://cdn.automationdirect.com/static/specs/konnectoverview.pdf).
 
+## Right-face power entry and retained labels — 2026-10-29
+
+The mains gland J2 is on the right wall, centered across enclosure depth and
+70 mm above the enclosure bottom. Its native proxy is at X=485, Y=415 mm,
+rotated 90 degrees to face right. The three incoming phase terminals 4E/4F/4G
+and incoming PE terminal G4 are at the far right of the lower rail, after 5K.
+Their labels are retained by owner direction. Motor/control contactors and
+all other electrical modules retain their placement.
+
+The three fuse feeds retain their original upper-duct/chase paths and layers;
+only their lower-duct terminal approaches change. The four J2 cable tails use
+nested paths through the bottom duct to the right-face gland. G4.1 to G5.1
+remains a separate 12 AWG bonding wire. All 126 wire endpoint pairs and all
+18 rigid jumper sections remain unchanged. Only eight wire cuts change:
+
+| Wire endpoints | Current cut (mm) |
+| --- | ---: |
+| 4E.BOT to J2.X | 360 |
+| 4F.BOT to J2.Y | 350 |
+| 4G.BOT to J2.Z | 340 |
+| G4.2 to J2.G | 330 |
+| 4E.TOP to FH1.P3.A | 930 |
+| 4F.TOP to FH1.P2.A | 920 |
+| 4G.TOP to FH1.P1.A | 870 |
+| G4.1 to G5.1 | 380 |
+
+The left +24V strip gets one additional end stop. End-bracket requirement is
+10 pieces, covered by the existing 10-pack. The right-bank end stop and one
+separator are reused. Current loose 12 AWG requirements are 9.0 ft black and
+11.7 ft green/yellow, each rounded upward to one decimal place; purchase units
+are unchanged. Loose-stock totals are 116 wires / 91.320 m.
+
+The top motor/control entries remain routed as before. The added right-wall
+pair is an alternative entry arrangement, not an additional pair of circuits
+or glands. Fit two complete McMaster 9357K15 gasketed fiberglass plugs to whichever
+pair is unused. Each includes its gasket and hex retaining nut; no wing nut or
+additional fastener is required. Both top and right holes are shown on the
+current enclosure drawing.
+
 ## Panel routing policy
 
 This is an enclosure wiring layout, not a PCB manufacturing file. Tracks depict
@@ -365,8 +404,8 @@ continuous-layer rules still apply.
 
 The subsequent owner direction is to populate more circuits before fixing final
 lane positions. Current lane coordinates remain provisional. Incoming cable
-cores land on bottom-left PCB-only blocks 4E (L1_IN), 4F (L2_IN), 4G
-(L3_IN) and G4 (PE), between the M12 bank and K3. Each phase block's TOP,
+cores now land on lower-right PCB-only blocks 4E (L1_IN), 4F (L2_IN), 4G
+(L3_IN) and G4 (PE), after 5K; the original bottom-left location is superseded. Each phase block's TOP,
 BOT and JMP contacts are internally common; the three phase blocks are separate
 and have no bridges between them. Separate 12 AWG panel wires feed FH1
 P3.A/P2.A/P1.A respectively. The 12 AWG G4.1 to G5.1 wire connects the
@@ -1064,7 +1103,7 @@ identifier, for example `PS1_PE`, `FH1_P2A`, `5A_TOP`, `K1_A1_TOP`.
 Hidden PCB footprint fields `Wire.PinLabel.<electrical pin number>` supply
 aliases for PS1 and FH1. PS1 output aliases are `V1_NEG`, `V2_NEG`, `V1_POS`,
 `V2_POS`. Other compound identifiers replace delimiters with underscores.
-Electrical pad numbers, schematic connectivity and routing remain unchanged.
+Electrical pad numbers and schematic connectivity remain unchanged. Routing follows the current saved-board revision.
 Terminal-block device names display as `Terminal 5A` for `5A`, and `Ground G1` for `G1`. See [Terminal_numbering.md](Terminal_numbering.md) for all 63 labels and their legacy cross-reference.
 
 Compact termination codes have no underscore between type and wire gauge:

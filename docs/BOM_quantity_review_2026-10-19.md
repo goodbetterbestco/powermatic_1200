@@ -2,6 +2,25 @@
 
 Terminal references in this document use the 2026-10-28 [module/letter labels](Terminal_numbering.md). Historical quantity and installation findings retain their original dates.
 
+## Right-face entry revision — 2026-10-29
+
+The saved-board audit retains all 63 terminals and all 126 wire connections.
+One added left-bank end stop makes the KN-EB7V0-10 requirement 10 pieces;
+PACK 10 / ORDER 1 remains unchanged. The recalculated loose 12 AWG black
+requirement is 9.0 ft (9874T14), and green/yellow is 11.7 ft (6513T633).
+Their stock lengths, purchase units, prices and flags are unchanged. The
+regenerated loose-wire totals cover 116 wires / 91.320 m.
+
+Two McMaster 9357K15 gasketed fiberglass plugs close the unused top or right
+motor/control pair: QUA 2, PACK 1, ORDER 2, $10.83 each, LINE $21.66. This
+replaces the previously selected wing-nut seals on the same purchase line.
+Each plug includes its gasket and hex retaining nut; no extra fastener is
+required. Price and fit were checked on the [McMaster product page](https://www.mcmaster.com/9357K15/)
+on 2026-10-29. Unrelated purchasing fields and all receipt flags are preserved.
+
+The dated audit below is historical; the right-face entry drawing and current
+live wiring schedule contain the revised physical arrangement and cut lengths.
+
 ## Supplied door jumper and parallel motor bonds — 2026-10-20
 
 This revision supersedes the former three-GRDKIT01-assembly allocation and

@@ -1,12 +1,12 @@
 # Terminal jumper guide - review notes
 
-Review B, 2026-10-28. Companion to `Terminal_jumper_installation_guide.pdf`.
+Review C, 2026-10-29. Companion to `Terminal_jumper_installation_guide.pdf`.
 
 ## Basis
 
 - Saved board: `kicad/powermatic_1200/powermatic_1200.kicad_pcb`.
-- Board SHA-256: `b738d5c0a8aec3e600c9eabf21a384ae3e65b1bcc55b7f4382337b39da2ae1b6`.
-- Schematic SHA-256: `ec05a769f229676cdc260f3afbc86aff7428d5f3d3a0f636fb506abe6cc74894`.
+- Board SHA-256: `04f916bcc7674bb8db68ffcfc75c5fe25b5ecf4fd1e167e0c03079a843f9d11f`.
+- Schematic SHA-256: `44624c203ef204636e3e2a26707c9de9fd24220ea3aad5ed108cefe1c0faec4d`.
 - Extracted direct JMP-to-JMP tracks from the saved board; each numbered bank is one connected component of gray feedthrough blocks. All members are consecutive in their rail and share the same pad net.
 - Circuit names also exist in the current exported schematic netlist. The terminal-block placements are board-level layout items; this is not a claim that terminal symbols were checked in the schematic.
 - The supplied installation photo confirms the broad module arrangement. Individual terminal labels are not readable, so the as-built terminal identities still need review.
@@ -61,13 +61,8 @@ Review B, 2026-10-28. Companion to `Terminal_jumper_installation_guide.pdf`.
 
 ## Review status
 
-Review B uses the approved module/letter labels, with I/O skipped and G1-G6 for grounds. All 63 saved board terminal references, documentation and wire-schedule endpoints were updated together. Footprint placement, pad numbers, nets, tracks, wire lengths and BOM purchasing fields were preserved. The saved schematic contains no terminal-block reference instances to rename. See Terminal_numbering.md for the legacy cross-reference. This guide does not verify rail-bond continuity or authorize energization.
+Review C uses the approved module/letter labels, with I/O skipped and G1-G6 for grounds. All 63 saved board terminal references, documentation and wire-schedule endpoints were updated together. This revision moves 4E/4F/4G/G4 to the lower right and retains their labels. All 18 rigid jumper sections remain unchanged; the eight incoming power/bonding wire runs were regenerated separately. The saved schematic contains no terminal-block reference instances to rename. See Terminal_numbering.md for the legacy cross-reference. This guide does not verify rail-bond continuity or authorize energization.
 
-## Verification - 2026-10-28
+## Verification - 2026-10-29
 
-- Native KiCad reload comparison: all 63 terminal references follow the approved map; all 159 footprint positions/orientations, pad UUIDs/numbers/nets, and 1,265 routed track objects are unchanged.
-- Refresh generated 126 wires with complete saved-net route coverage. Every wire has the same pair of endpoints after renaming, with the same endpoint termination, gauge and cut length. From/To orientation and row order follow the new reference sorting.
-- Loose-stock length totals are byte-identical to the previous saved totals. BOM purchasing data and the saved schematic are unchanged.
-- The separate bom_review regression suite passed all 69 tests, including conduit allowances under the new terminal references.
-- Schematic ERC: 0 errors and the same pre-existing Controls:PWRM1200-MOTOR library-copy mismatch warning for M1 as before renumbering.
-- The jumper guide is one portrait 11 x 17 inch page. Both rendered drawings were visually reviewed, and all 63 current terminal labels are present.
+The current saved PCB SHA-256 is `04f916bcc7674bb8db68ffcfc75c5fe25b5ecf4fd1e167e0c03079a843f9d11f`. The four incoming terminals are at the far right, in order 4E/4F/4G/G4, with retained references. All contactors and the other terminal banks retain their placement. All 18 jumper sections, 44 poles and 26 rigid-bar adjacent links are unchanged. There are 63 terminal blocks, 10 end stops, and 126 generated wire records. Only the eight power-entry/bonding cuts listed in WIRING_STANDARD.md changed. Current loose-wire total: 91.320 m.
