@@ -2,13 +2,41 @@
 
 > Repository cleanup, 2026-10-19: references below to project scripts, generated review folders and extraction commands are historical. Those tools were removed; Project Review now edits the saved root CSVs. Technical wiring policy and installation assumptions remain here.
 
-Control signal names are governed by [SIGNAL_NAMING.md](SIGNAL_NAMING.md) and
+Control signal names are governed by [the control signal naming reference](#control-signal-naming-reference) and
 its linked shared standard. Use the schematic's native net names consistently
 in sizing declarations, physical wire records, PCB pad nets and generated outputs.
 
 Preferred gauge set: **12 AWG, 14 AWG, 16 AWG, 18 AWG and 22 AWG**. Use AWG consistently; the previously stated “12GA” means 12 AWG in this project. These are preferred conductor classes, not a requirement to replace factory leads or purchased bonding assemblies with those sizes.
 
 This document is the project policy. Actual conductor gauge and cable/part identity belong in the individual wiring records. Termination selections belong to the endpoint footprints' `Termination.<pin>` fields. A preferred gauge does not by itself establish ampacity, fault protection or terminal suitability.
+
+## Current document set - 2026-11-09
+
+The retained document set has eight files. [Panel drawings](Panel_drawings.pdf)
+combines the module layout, terminal jumper and marker guides, approved backpanel
+sheet, and Rev I enclosure-hole sheet. [Wire installation guide](Wire_installation_guide.pdf)
+combines the device-label and connector-preparation sheets with the 131-row checklist.
+Its preparation sheets are PDF pages 2-5; checklist pages are 6-8. Panel drawing
+page 6 must be printed at 96% for its 1:1 details. Other location views use written
+dimensions; the module-layout view is schematic.
+
+The 4 November K1/K2 wire-jumper plan supersedes the BB1/BB2 busbar artwork on
+the earlier module-layout sheet and the older busbar-retention wording below.
+The [129-row native schedule](Wire_schedule.csv), [wire totals](Wire_length_totals.csv),
+[connector inventory](Wire_connector_bins.csv), [installation order](Wire_installation_groups.json),
+and [termination-code mapping](Wire_termination_types.json) are retained unchanged.
+All three supporting inventory/order/mapping files are required by Project Review Refresh.
+Refresh does not rebuild the printable guide. The two supplemental pendant rows
+must be added when rebuilding it, using the retained record below.
+
+Backplate rail/duct installation was reported complete on 27 October: all 20
+holes were drilled and tapped 10-24, using the specified fasteners. Solid-carbide
+pilot drilling followed by drilling and tapping succeeded; self-drilling screws
+did not. This is the reported installation record, not a remeasurement.
+
+The sections below retain dated design history. Current installation sequence,
+terminal numbering, signal naming, and preparation source notes are consolidated
+in the reference sections at the end of this document.
 
 ## Conductor construction and purchased links
 
@@ -38,10 +66,10 @@ the HMX1-BBREV reversing busbar kit for K1/K2 as its own BOM item.
 
 ### OEM terminal-bank jumper coverage — saved board, 2026-10-28
 
-Terminal references follow the owner-approved [module/letter numbering](Terminal_numbering.md).
+Terminal references follow the owner-approved [module/letter numbering](#terminal-numbering-reference).
 The number identifies one physical terminal strip; letters run left to right,
 skipping I and O. Grounding blocks use G1-G6 separately. Module numbering does
-not imply electrical commonality. The [11 x 17 jumper guide](Terminal_jumper_installation_guide.pdf)
+not imply electrical commonality. The [11 x 17 jumper guide](Panel_drawings.pdf#page=3)
 shows each independent jumper section and its installation checklist.
 
 The BOM includes **one pack of five KN-10J12 ten-pole screw-down jumper bars**
@@ -74,9 +102,9 @@ uninsulated bars. Cut between poles, deburr, and remove all metal chips before
 fitting. Verify each bank's continuity and its isolation from adjacent different
 circuits before wiring.
 
-The incoming phase blocks **4E, 4F, 4G remain individually unjumpered**. E-stop
+The former incoming phase blocks 4E/4F/4G are removed. E-stop
 block 4A and the nine single motor/command blocks on the upper rail also require
-no inter-block jumper. All 13 standalone gray blocks are shown without a teal
+no inter-block jumper. All 10 standalone gray blocks are shown without a teal
 bridge in the guide.
 
 The KN-G12SP-10 PE blocks connect through their conductive feet to the DIN
@@ -91,44 +119,53 @@ Sources: [KN-10J12 OEM listing](https://www.automationdirect.com/adc/shopping/ca
 [jumper selection and torque](https://cdn.automationdirect.com/static/specs/konnectacc.pdf),
 and [Konnect-It accessory guidance](https://cdn.automationdirect.com/static/specs/konnectoverview.pdf).
 
-## Right-face power entry and retained labels — 2026-10-29
+## FH1 at lower-right power entry — 2026-10-30
 
-The mains gland J2 is on the right wall, centered across enclosure depth and
-70 mm above the enclosure bottom. Its native proxy is at X=485, Y=415 mm,
-rotated 90 degrees to face right. The three incoming phase terminals 4E/4F/4G
-and incoming PE terminal G4 are at the far right of the lower rail, after 5K.
-Their labels are retained by owner direction. Motor/control contactors and
-all other electrical modules retain their placement.
+Owner photo IMG_4273.JPG and installation reports establish the order
+`5K → G4 → existing end stop → FH1`. FH1 retains its 180-degree orientation;
+its three fuses and three covers move with it. Its right edge is approximately
+15 mm from the metal backplate edge. The DIN rails and wire ducts have not moved.
+The saved layout uses the measured edge clearance to anchor FH1; its enlarged
+2D module envelopes are routing proxies, not a physical clearance certification.
+All existing end-stop positions are retained.
 
-The three fuse feeds retain their original upper-duct/chase paths and layers;
-only their lower-duct terminal approaches change. The four J2 cable tails use
-nested paths through the bottom duct to the right-face gland. G4.1 to G5.1
-remains a separate 12 AWG bonding wire. All 126 wire endpoint pairs and all
-18 rigid jumper sections remain unchanged. Only eight wire cuts change:
+4E/4F/4G are removed. Incoming cable phases go directly to FH1's A terminals;
+B remains the fused side feeding SW1. Phase identities are retained:
 
 | Wire endpoints | Current cut (mm) |
 | --- | ---: |
-| 4E.BOT to J2.X | 360 |
-| 4F.BOT to J2.Y | 350 |
-| 4G.BOT to J2.Z | 340 |
-| G4.2 to J2.G | 330 |
-| 4E.TOP to FH1.P3.A | 930 |
-| 4F.TOP to FH1.P2.A | 920 |
-| 4G.TOP to FH1.P1.A | 870 |
-| G4.1 to G5.1 | 380 |
+| J2.X (L1) to FH1.P3.A | 290 |
+| J2.Y (L2) to FH1.P2.A | 260 |
+| J2.Z (L3) to FH1.P1.A | 230 |
+| FH1.P3.B to SW1.1 | 880 |
+| FH1.P2.B to SW1.3 | 880 |
+| FH1.P1.B to SW1.5 | 870 |
+| G4.2 to J2.G (unchanged) | 330 |
+| G4.1 to G5.1 (unchanged) | 380 |
 
-The left +24V strip gets one additional end stop. End-bracket requirement is
-10 pieces, covered by the existing 10-pack. The right-bank end stop and one
-separator are reused. Current loose 12 AWG requirements are 9.0 ft black and
-11.7 ft green/yellow, each rounded upward to one decimal place; purchase units
-are unchanged. Loose-stock totals are 116 wires / 91.320 m.
+The three cable phase cores are 12 AWG with the existing #10-32 ring terminations
+at FH1. The fused wires to SW1 remain 14 AWG. Cable-tail cuts exclude the external
+supply cord. G4 and both of its PE wires remain unchanged. All 18 rigid jumper
+sections, 44 poles and 26 links remain unchanged. The schedule now contains
+123 complete records, with no unrouted nets. Loose-stock totals are 113 wires /
+87.690 m. There is no discrete black 12 AWG wire requirement; black 14 AWG stock
+is 116.5 ft, rounded upward to one decimal place.
 
-The top motor/control entries remain routed as before. The added right-wall
-pair is an alternative entry arrangement, not an additional pair of circuits
-or glands. Fit two complete McMaster 9357K15 gasketed fiberglass plugs to whichever
-pair is unused. Each includes its gasket and hex retaining nut; no wing nut or
-additional fastener is required. Both top and right holes are shown on the
-current enclosure drawing.
+Ten end stops remain installed. One additional stop is desired at FH1's right
+end but is not installed or represented as available stock. The existing stop
+between G4 and FH1 must remain identifiable in the installation drawings.
+
+The terminal requirement is 54 gray blocks plus six PE blocks; two markers per
+block require 120 markers. Removing the three standalone phase blocks removes
+three end covers and six 12 AWG ferrules. End covers therefore change 31 to 28,
+and the 12 AWG single-ferrule requirement changes 15 to 9. Purchasing packs for
+these parts do not change. Separator and jumper-cover quantities are unchanged.
+The additional desired end stop is recorded as outstanding, not as installed.
+
+The mains gland J2 remains on the right wall, centered across enclosure depth,
+70 mm above the enclosure bottom. The top motor/control entries retain their
+routes; the two right-wall alternatives and two McMaster 9357K15 plugs retain
+the previously documented hole plan. FH1 relocation does not change hole locations.
 
 ## Panel routing policy
 
@@ -241,7 +278,7 @@ adding loose wires.
 Verified busbars, direct-mounted overload contacts, supplied suppressor leads,
 native internal jumper groups and documented retained/device-specific links are
 recognized before allocating new loose wiring. The component-specific exceptions
-below still apply, including the K1/K2 busbars and the K5 shorting bridge.
+below still apply, including the K1/K2 reversing jumpers and the K5 shorting bridge.
 Do not add redundant wires or TBs to recreate an existing fixed connection.
 
 All loose-wire junctions must land on actual device clamps, FT/TB clamps or an
@@ -380,9 +417,9 @@ to a fixed factory lead or assume it can be extended without a real junction.
 The placed K1/K2/K4/K5/K6 coil TOP/BOT pairs are internally common. Use the
 facing duplicate clamp to keep local wires in the working duct and avoid a
 second conductor at a device clamp. Suppressors remain supplied connections at
-A1.TOP/A2.TOP. S2's 1T-3T-5T straps remain retained; its required 2B-4B jumper
-is a separately routed 16 AWG station wire with one ring lug per conductor.
-It shares the 2B stud with the 16 AWG external lead; it is not declared retained.
+A1.TOP/A2.TOP. Owner confirmation on 2026-11-02 supersedes the former assumption that S2's 1T-3T-5T straps were installed. All three original pendant jumpers (2T-4B, 2B-4T and 3B-1B) have been removed. Add 1T-3T, 3T-5T and 2B-4B later: all three are 16 AWG blue station wires with bin RA ring terminals at both ends. The first two are explicit supplemental checklist rows; 2B-4B remains a native routed row.
+
+The owner also confirms removal of S3 straps 1T-3T, 5T-7T, 1B-2B, 3B-4B, 3B-5B and 6T-4T. Only 7B-8B remains. This matches the current timed speed-change schematic. No replacement S3 jumpers are pending.
 
 Block-to-block JMP bridges use a bold drawing stroke of **90% of the smaller
 endpoint JMP pad's outer diameter**: 3.6 mm for the 4 mm gray-block pads and
@@ -404,13 +441,10 @@ continuous-layer rules still apply.
 
 The subsequent owner direction is to populate more circuits before fixing final
 lane positions. Current lane coordinates remain provisional. Incoming cable
-cores now land on lower-right PCB-only blocks 4E (L1_IN), 4F (L2_IN), 4G
-(L3_IN) and G4 (PE), after 5K; the original bottom-left location is superseded. Each phase block's TOP,
-BOT and JMP contacts are internally common; the three phase blocks are separate
-and have no bridges between them. Separate 12 AWG panel wires feed FH1
-P3.A/P2.A/P1.A respectively. The 12 AWG G4.1 to G5.1 wire connects the
-incoming PE landing to the main PE bank. J2's four cable-tail lengths end at
-these landing blocks and exclude the external supply cord.
+phase cores land directly at lower-right FH1 P3.A/P2.A/P1.A for L1/L2/L3.
+The retired 4E/4F/4G blocks are absent. Incoming PE lands at G4.2; the separate
+12 AWG G4.1-to-G5.1 bond remains. J2 cable-tail lengths exclude the external
+supply cord. FH1's fused B terminals feed SW1 as before.
 
 The downstream routes continue through FH1 and SW1 to the existing phase banks,
 Q1/PS1 and K1/K2 through their supplied busbars. The motor-power routes continue
@@ -469,14 +503,14 @@ drawn wire. Parallel overlaps and shared-clamp joins are excluded from the
 crossing metric. This is a first pass, not proof of a global optimum or a
 finished cut-length schedule. Bank reassignment proposals are reviewed
 separately and are not applied by the lane pass. See the
-[onion routing review](reviews/onion_routing_2026-10-13/README.md).
+onion routing review (historical reference).
 
 The subsequent 2B return swap is applied: H2.X2 uses 2B.TOP and routes
 locally in D2; H1.X2 uses 2B.BOT and reaches D1 through D3 and the right
 chase. Both remain single 18 AWG wires. Bank placement, hardware bridges and
 all other wire paths were preserved in that pass. It reduced the drawing to
 273 proper XY crossings and 36.002 m of drawn wire, saving approximately 694 mm.
-See the [2B swap verification](reviews/tb11_return_swap_2026-10-13/README.md).
+See the 2B swap verification (historical reference).
 
 The 2026-10-14 shortening pass is applied, including the short K5 same-device
 jumper. Seven physical wire paths change; placement, terminal assignments,
@@ -485,7 +519,7 @@ reduces proper XY crossings from 273 to 267, with no wire pair gaining a
 crossing. That pass ended at 35.792 m of drawn wire, before cut allowances.
 All 93 physical wires remain on continuous individual layers, using the same
 nineteen drawing layers with twenty enabled. See the
-[applied shortening verification](reviews/applied_shortening_2026-10-14/README.md).
+applied shortening verification (historical reference).
 
 The same-assembly direct-routing pass shortens four further wires: K1.32 to
 K2.A1.BOT, K4.32 to K5.A1.BOT, and the two Q1 outputs to PS1's L/N inputs.
@@ -495,7 +529,7 @@ crossing. Each wire remains on one continuous layer. The L2 PSU feed moves as a 
 from B.Cu to existing In2.Cu to separate the overlapping runs; no additional
 layer is needed. All other routes, placement, terminal assignments, gauges
 and hardware bridges are preserved. See the
-[assembly-routing verification](reviews/assembly_direct_routes_2026-10-14/README.md).
+assembly-routing verification (historical reference).
 
 The coordinated approach pass is applied for the five remaining assembly
 wires: K2.32 to K1.A1.BOT, OL4.96 to OL6.95, K6.32 to K5.31, K5.32 to
@@ -509,7 +543,7 @@ and reduces proper XY crossings from 265 to 232, with no wire pair gaining
 a crossing. The current drawn total is 34.801 m before cut allowances.
 Native checks of the installed PCB verify all 93 physical wires and continuity
 against the saved schematic. See the
-[coordinated routing verification](reviews/coordinated_routing_applied_2026-10-14/README.md).
+coordinated routing verification (historical reference).
 
 ### Drawing and schedule rules
 
@@ -545,13 +579,13 @@ update does not add automatic enforcement of all the new routing/placement rules
 
 | Gauge | Project application | Current evidence / qualification |
 |---|---|---|
-| 12 AWG | Incoming mains cable phase and PE cores; discrete unfused feeds from the incoming landing blocks to FH1 and the main PE bank; discrete motor-conduit PE conductor | Selected McMaster 7081K33 is 12/4 SOOW. Owner specifies one 12 AWG PE conductor alongside T1–T6 in the motor conduit. KN-G12SP-10 includes 12 AWG in its wire range; conductor preparation and termination selection still apply. Existing incoming-phase schematic records specify 12 AWG, although their old terminal endpoints require reconciliation. |
+| 12 AWG | Incoming mains cable phase and PE cores; discrete PE feed from G4 to the main PE bank; discrete motor-conduit PE conductor | Selected McMaster 7081K33 is 12/4 SOOW. Owner specifies one 12 AWG PE conductor alongside T1–T6 in the motor conduit. KN-G12SP-10 includes 12 AWG in its wire range; conductor preparation and termination selection still apply. Incoming cable phase cores land directly at FH1; no loose black 12 AWG panel feeds remain. |
 | 14 AWG | Six motor-conduit conductors T1–T6; discrete panel motor-power and PSU AC-input wiring; default custom panel PE wiring where sizing permits | Owner specifies six motor conductors. Current BOM stocks 14 AWG black machine wire and 14 AWG green/yellow machine wire. Per-circuit protection and actual terminal specifications still govern. |
 | 16 AWG | Individual external control wires in conduit: five for S2 and six for S3 | Owner confirms individual wires and selects 16 AWG for both runs. Match circuit protection, wire product and terminations to the installed conductors. |
 | 18 AWG | New discrete 24 V control wiring inside the enclosure/operator stations, including coil/interlock/indicator circuits | Legacy control wiring uses 18 AWG. Match protection to the actual wires and factory leads in each branch before construction. |
 | 22 AWG | Small factory connector pigtails, specifically J1's T4171310004-001 M12 leads | The manufacturer drawing specifies 0.34 mm² / 22 AWG. This is a factory-lead class; use 18 AWG as the normal new discrete control-wire choice. Do not infer that all other connector/cable variants have the same leads. |
 
-The preferred classes do not automatically imply a loose-wire spool for every size. The incoming 12 AWG conductors and 22 AWG M12 leads are supplied by the selected cable/device; the motor-conduit 12 AWG PE and the new incoming-block continuations are separate discrete wires. The latter need 12 AWG black panel wire for the three unfused phase feeds and 12 AWG green/yellow panel wire for the PE link. Purchase discrete wire only where the physical wire list actually requires it.
+The preferred classes do not automatically imply a loose-wire spool for every size. The incoming 12 AWG phase conductors and 22 AWG M12 leads are supplied by the selected cable/device. Motor-conduit PE and the G4-to-G5 PE bond are separate 12 AWG green/yellow wires. Direct cable-to-FH1 termination eliminates the former three loose black 12 AWG phase feeds. Purchase discrete wire only where the physical wire list actually requires it.
 
 ## KiCad route widths and netclasses
 
@@ -612,7 +646,7 @@ them as immovable in shove mode.
 Sources: [NBS Handbook 100, Copper Wire Tables, table 1](https://nvlpubs.nist.gov/nistpubs/Legacy/hb/nbshandbook100.pdf),
 [KiCad 10 netclasses and interactive routing](https://docs.kicad.org/10.0/en/pcbnew/pcbnew.html).
 The saved assignment inventory is in
-[`reviews/routing_standards_2026-10-08/assignments.json`](reviews/routing_standards_2026-10-08/assignments.json).
+`reviews/routing_standards_2026-10-08/assignments.json` (historical reference).
 
 ## Discrete wire colors
 
@@ -633,6 +667,14 @@ These colors are stored with the sizing entries in the schematic's custom
 loose-wire stock color is inferred for them. J1's supplied 22 AWG pigtails retain
 pin 1 Brown, pin 2 White, pin 3 Blue and pin 4 Black. Jumpers and other retained
 or supplied connections remain separate from this discrete wire inventory.
+
+The schedule's `Color` is conductor insulation color, separate from ferrule or
+ring-terminal collar color. Refresh resolves native `Wire.Sizes` declarations
+by endpoint, net and AWG, retaining incoming and factory lead colors.
+The owner identified WXP-4A-1204-25 cores as GRN, RED, BLK and WHI on
+2026-10-30. J2's saved footprint assigns G/PE Green, X/L1 Black, Y/L2 Red
+and Z/L3 White. The two supplied 10 AWG GRDKIT01 bonds are Green/Yellow,
+as specified in the [Hammond manufacturer drawing](https://www.hammfg.com/files/parts/pdf/GRDKIT01.pdf?v=1697661958).
 
 ### Loose-wire purchase selection — 2026-10-14
 
@@ -859,24 +901,22 @@ This selection is stored in S3's corresponding footprint `Termination.<pin>` fie
 
 ## Component-specific exceptions
 
-### K1/K2 reversing busbars — owner selection, 2026-10-09
+### K1/K2 reversing jumpers — owner selection, 2026-11-04
 
-Use one HMX1-BBREV kit on K1/K2, represented by two PCB-only footprints:
-BB1 `HMX1-BBREV_TOP` is the upper/line-side piece; BB2 `HMX1-BBREV_BOT` is the
-lower/load-side piece. Each has six contact pads and three native KiCad
-`jumper_pad_groups`. TOP joins 1–1, 3–3 and 5–5; BOT joins 2–6, 4–4 and 6–2.
-The existing local BOM item remains one kit. TOP owns purchase quantity 1 and
-BOT quantity 0; both share `Wire.KitID=HMX1-BBREV_K1_K2` and retain the actual
-manufacturer MPN `HMX1-BBREV`. The exact TOP/BOT names are footprint IDs and
-`PartID` values, not separately orderable manufacturer part numbers.
+Remove both HMX1-BBREV pieces and install the six black 14 AWG jumpers in
+checklist rows 1–6. The line side connects R–R, S–S and T–T. The load side
+connects K1 U to K2 W, K1 V to K2 V, and K1 W to K2 U. This arrangement
+preserves the phase connections of the two factory bars.
 
-Both footprints bind host roles A/B to the K1/K2 footprint UUIDs and record each
-mated pad. Extraction checks host identity, exact overlap and net agreement,
-then recognizes the native jumper groups without adding loose-wire rows.
-Incoming and outgoing loose wires keep their K1/K2 terminal preparation
-selections. Unspecified overlapping terminals remain extraction errors. The
-front elevations preserve manufacturer geometry and logical routing targets;
-installed 3D depth and physical assembly fit have not been verified.
+The six double wire clamps are K2 R and K1 S, T, U, V and W. Fit two
+identical, individually crimped FE ferrules side by side at each shared clamp.
+FE is Phoenix Contact 3202533, 14 AWG, 10 mm metal contact, strip 13 mm.
+All twelve jumper ends and the six field-wire ends at these clamps use FE.
+The corresponding field-wire rows are 7, 8, 13, 16, 19 and 91.
+Fit one pair and check independent retention before preparing the set.
+The HMC-9B power-clamp torque is 2.25 N·m (20 lb·in).
+[IronHorse connections table](https://cdn.automationdirect.com/static/specs/ironhorsehmcandhtor.pdf#page=12)
+and [FE ferrule specifications](https://www.phoenixcontact.com/en-us/products/ferrule-ai-25-10-bu-3202533).
 
 No suitable catalogued IronHorse kit was found for K4/K5. Keep its existing
 wiring plan, including the K5 1–3–5 shorting bridge. HMX1-BBREV's reversing
@@ -897,13 +937,13 @@ wire stripping length. Strip wire according to the selected ferrule's instructio
 
 | Component / terminals | Selected preparation |
 |---|---|
-| Q1 pins 1/3 (`L1_SW`/`L2_SW`) and 2/4 (`L1_PSU`/`L2_PSU`) | Bare stranded copper, 14 AWG; strip per device instructions. Eaton does not recommend ferrules or crimp terminals for FAZ-NA. |
+| Q1 pins 1/3 (`L1_SW`/`L2_SW`) and 2/4 (`L1_PSU`/`L2_PSU`) | Bare stranded copper, 14 AWG; strip 12 mm per the [Eaton FAZ-NA lift-terminal instructions](https://www.eaton.com/content/dam/eaton/technicaldocumentation/il/circuit-breakers/miniature-circuit-breakers-mcb/eaton-mcb-faz-na-rt-du-il0191333zu.pdf). Eaton does not recommend ferrules or crimp terminals for FAZ-NA. |
 | PS1 `3_BOT` L (`L1_PSU`), `2_BOT` N (`L2_PSU`), `1_BOT` PE | Bare stranded copper, 14 AWG; 5 mm stripping per the NDR installation manual. These are the three AC-input/PE terminals, not three phase inputs. |
 | PS1 `1_TOP`/`2_TOP` (−V, `0V`) and `3_TOP`/`4_TOP` (+V, `+24V`) | Bare stranded copper, 18 AWG; 5 mm stripping per the NDR installation manual. |
 | H1/H2 X1 and X2 | Single ferrule, 18 AWG, standard 6 mm metal barrel; owner-selected length. |
 | KN-T12GRY-25 feedthrough clamps | One conductor and one single ferrule per clamp; 10 mm metal barrel. Use the internal common connection/OEM jumper bar for branches. |
 | KN-G12SP-10 ground clamps | Single ferrule only, one conductor per clamp; 10 mm metal barrel. |
-| FH1 `P1.A`, `P2.A`, `P3.A` (incoming) | Ring terminal for 12 AWG unfused panel wire from the incoming landing blocks; #10-32 screw; ring tongue OD ≤9 mm to clear the terminal recess. |
+| FH1 `P1.A`, `P2.A`, `P3.A` (incoming) | Panduit PMV6-5R-L yellow ring on 12 AWG; M5 ring hole on #10-32 device screw; actual ring width 9.5 mm; strip 8 mm (manufacturer range 7.9–8.7 mm). Identified from the supplied bag on 2026-10-30; supersedes the former 9 mm width limit. |
 | FH1 `P1.B`, `P2.B`, `P3.B` (fused) | Ring terminal for 14 AWG panel wire; #10-32 screw; ring tongue OD ≤9 mm to clear the terminal recess. |
 | SW1 pins 1-6 | Bare stranded copper, 14 AWG; 12 mm stripping per the disconnect instructions checked by the owner. |
 
@@ -914,21 +954,22 @@ or prohibit ferrules. The lamp choice records the owner's decision; it does not
 claim a completed physical fit check.
 
 FH1 uses the RM25030-3SR screw-terminal version. The AD drawing shows a nominal
-12.6 mm terminal-recess width; the selected 9 mm maximum ring OD keeps clearance
-within that width. AD/Z+F V70RK004012 is a sourcing candidate: 16–14 AWG,
-5 mm hole, 8.6 mm ring tongue width, 23 mm overall length. The catalog dimensions
-support lateral fit; screw seating, barrel/wire exit and cover clearance still
-require a physical assembly check. This selection replaces all six previous
-FH1 ferrule fields. Sources: [FH1 drawing](https://cdn.automationdirect.com/static/drawings/RM25030-3SR.pdf),
-[AD ring-terminal dimensions](https://cdn.automationdirect.com/static/specs/dinwiring.pdf),
-[Class R block terminal specification](https://cdn.automationdirect.com/static/specs/efusemodblocksr.pdf).
+12.6 mm terminal-recess width. The supplied incoming rings are Panduit
+PMV6-5R-L, identified from IMG_4274.JPG: yellow, M5 hole, 9.5 mm wide. Use an
+8 mm stripper setting, within the 7.9–8.7 mm range of manufacturer drawing
+A41187 rev10A. This replaces the former
+incoming-ring 9 mm width selection limit and the inferred PV10-10R-L identity.
+The three fused-side 14 AWG ends retain their selected blue #10 rings. Sources:
+[FH1 drawing](https://cdn.automationdirect.com/static/drawings/RM25030-3SR.pdf),
+[Panduit ring drawing](https://cdn.shopify.com/s/files/1/0843/1616/0235/files/Panduit-PMV6-5R-L-Ring-Terminal-Part-Drawings.pdf).
 
 AutomationDirect's Z+F catalog lists standard single-ferrule barrel lengths of
 8, 10 and 12 mm in the applicable wire sizes. The gray 18 AWG versions are
 0.75 mm² per conductor; the red versions are 1.0 mm² per conductor. Keep those
-capacities distinct when selecting a ferrule for the actual wire. This catalog
-availability does not assign a length to the remaining unverified terminals.
-The owner-selected 6 mm lamp ferrules require a separate source.
+capacities distinct when selecting a ferrule for the actual wire. Ferrule catalog
+lengths do not establish bare-device strip lengths; the practical bare settings
+are recorded below. The supplied 6 mm lamp ferrules are American Electrical
+1161010-S, identified from the owner's bag.
 
 Sources: [FAZ-NA specifications](https://cdn.automationdirect.com/static/specs/eatonfazna.pdf),
 [NDR installation manual](https://www.meanwell.com/Upload/PDF/NDR%20DIN%20rail.pdf),
@@ -1094,17 +1135,90 @@ The insulated Wago forms a wire-to-wire PE junction; placing it inside a metal m
 
 ## Wire schedule presentation
 
-The generated CSV and editor use eight positional columns:
-`From, Pin, To, Pin, AWG, Length, Term 1, Term 2`. The two `Pin` titles have
-separate column positions; they are not dictionary keys. Length is in millimetres.
+The 2026-11-02 operator workplan starts with [device labeling and connector-bin
+preparation](Wire_installation_guide.pdf#page=2), then the [installation checklist](Wire_installation_guide.pdf#page=6).
+The checklist has one 12-point font, up to 42 rows per sheet, checkboxes, plain columns,
+and no wire illustrations, color coding, legends or footnotes. The connector inventory remains editable in Wire_connector_bins.csv. The separate
+presentation CSVs and generation manifests were removed in the document cleanup;
+the checklist source hashes and supplemental rows are retained below. Rebuild
+and revalidate the printable guide after changes to the native wiring; Refresh
+regenerates the source CSV, not the printable checklist.
 
-Pin labels include the reference, followed by an underscore and the terminal
+The 2026-11-03 ordering revision puts all 12 grounding wires at the bottom:
+checklist rows 120–131. Non-grounding wires retain their relative order.
+[Installation groups](#installation-sequence) retain the bench versus
+off-backplane prerequisites and the order applied by Refresh.
+
+The 2026-11-03 [connector inventory revision](#preparation-source-notes)
+updates the connector type catalog, wire schedules and preparation PDF.
+Ferrules use FA–FK, rings RA–RJ, spade/fork and blade types SA–SG, and
+WAGO/wire-nut types WA–WB. The original preparation page 3 (now PDF page 4) maps labels onto the retained terminal case;
+the original page 4 (now PDF page 5) contains the
+[bin label placement chart](Wire_installation_guide.pdf#page=5). It maps 30 sidewall codes
+and their exact three-line description labels onto the four-row, eight-column
+McMaster 5158T52 organizer, with two spare bins. Old A–F map to FA–FF, G–J to RA–RD, and K/L to WA/WB;
+FG–FK are five additional 8 mm
+American Electrical ferrules from kit 1617050. The retained McMaster kit and
+3M 12-8-NB / SS-33-14-NB additions bring the inventory to 30 distinct types.
+Blade mating width is recorded in `Tab mm`, separately from screw/stud size.
+The live wire CSV, installation checklist, device-label references and manifest
+now use these codes. `na` identifies a connector already applied to the wire
+by the OEM. Six ends qualify: J5_PE, J7_PE and J1 pins 1–4. `8mm bare` (for
+example) gives the saved strip length for a conductor with no added connector.
+The four J2 plug clamps still show `bare` because no strip length is recorded. The approved
+mapping is saved in [Wire_termination_types.json](Wire_termination_types.json)
+and applied by Project Review on Refresh. Detailed preparation codes and strip
+settings remain in the native footprint fields and preparation evidence.
+Inventory availability does not change the selected parts or strip settings.
+
+Operator terminal-block and grounding-block endpoints use `_top` / `_bottom`.
+Ground pin 1 is top and pin 2 is bottom; F4 IN is top and OUT is bottom, checked
+against saved board geometry. Device references and missing terminal markings
+must be applied before wiring. Manufacturer terminal identifiers are retained
+where available. The label preparation table identifies the PSU output positions.
+HMC coil endpoints in the printed checklist use `A1_top`, `A2_top`,
+`A1_bottom` or `A2_bottom` for the physical clamp. The owner confirms the
+installed suppressors occupy both top clamps on K1, K2, K4, K5 and K6.
+All five contactors use the two bottom clamps for their field coil wires.
+The K4 and K5 A2 returns in rows 35 and 39 start at `2A_top` and `2E_top`.
+They pass through the right-hand chase to the lower duct and enter
+`K4_A2_bottom` and `K5_A2_bottom`. The K4 approach skirts OL4.
+PE1-PE3 identify separate ports of each three-port
+splice: GS1 in the controls housing and the M1 motor PE splice. FH1 remains physically rotated 180 degrees in the native layout. Operator labels
+now assign P1/P2/P3 left to right and A above/B below. The manifest maps each
+native terminal to its printed name.
+Bin assignments include the two WAGO splice models. Blank connector cells require no
+loose connector: existing bare-wire, plug-clamp and factory-end preparations
+remain unchanged. Wire colors use BLK, BLU, BRN, GRN, RED, WHT and GRN/YEL for
+the striped conductor. The temporary native extraction on 2026-11-02 matched
+all 123 rows of the saved live CSV. These presentation changes do not edit the
+native schematic, PCB, termination fields, BOM quantities or live CSV.
+
+
+The generated CSV and editor use eight positional columns:
+`From, Pin, To, Pin, AWG, Color, Term 1, Term 2`. The two `Pin` titles have
+separate column positions; they are not dictionary keys.
+
+The installation order is defined in [Wire_installation_groups.json](Wire_installation_groups.json)
+and summarized in [Wire_installation_groups.md](#installation-sequence).
+The saved plan assigns all 129 native wires exactly once to 23 numbered groups
+of at most ten wires. Bench non-grounding wiring comes first, followed by deferred
+non-grounding wiring and all grounding wires. The printable checklist adds the
+two supplemental pendant jumpers; its row ranges are recorded below.
+Group membership and within-group order use endpoint pairs rather than stale
+CSV row numbers. The bom_review extractor applies the plan after native wire
+extraction and length calculation, so Refresh preserves the installation order.
+Missing, obsolete or duplicate pairs and groups over ten wires stop extraction
+before publication. The printed checklist retains this order across three portrait 11x17 sheets without group headings. Ordering changes no native source data,
+connectivity, wire length, gauge, preparation or quantity.
+
+The native-extraction CSV pin labels include the reference, followed by an underscore and the terminal
 identifier, for example `PS1_PE`, `FH1_P2A`, `5A_TOP`, `K1_A1_TOP`.
 Hidden PCB footprint fields `Wire.PinLabel.<electrical pin number>` supply
 aliases for PS1 and FH1. PS1 output aliases are `V1_NEG`, `V2_NEG`, `V1_POS`,
 `V2_POS`. Other compound identifiers replace delimiters with underscores.
 Electrical pad numbers and schematic connectivity remain unchanged. Routing follows the current saved-board revision.
-Terminal-block device names display as `Terminal 5A` for `5A`, and `Ground G1` for `G1`. See [Terminal_numbering.md](Terminal_numbering.md) for all 63 labels and their legacy cross-reference.
+Terminal-block device names display as `Terminal 5A` for `5A`, and `Ground G1` for `G1`. See [the terminal numbering reference](#terminal-numbering-reference) for all 60 active labels and their legacy cross-reference.
 
 Compact termination codes have no underscore between type and wire gauge:
 
@@ -1121,6 +1235,46 @@ fields retain the full specification, including maximum ring-width limits,
 single-conductor restrictions and factory-connection descriptions. A terminal
 block's compact ferrule gauge comes from the actual routed wire; its source
 capability does not assign a gauge. Refresh regenerates the compact labels.
+
+### Connection-diagram preparation research — 2026-10-30
+
+The [connection diagram](Wire_installation_guide.pdf#page=6) and native `Termination.*`
+fields now identify all 127 crimp-end preparations from supplied bags and
+manufacturer data. See the complete [part/preparation table](#preparation-source-notes)
+and [endpoint evidence](#preparation-source-notes).
+
+Owner photographs IMG_4274.JPG and IMG_4275.JPG identify American Electrical
+11101075-S (gray, 0.75 mm², 10 mm barrel/strip), 11101010-S (red, 1 mm²,
+10 mm barrel/strip), 1161010-S (red, 1 mm², 6 mm barrel/strip), Phoenix
+3202533 (blue, 14 AWG, 10 mm barrel, strip 13 mm), Weidmüller 1476290000
+(gray, 12 AWG, 10 mm barrel, strip 12 mm), and McMaster 7950K24
+(black, 16 AWG, 10 mm barrel, strip 12 mm). The black part's preparation
+uses Weidmüller H1,5/16 DS SW data, identified from the supplier's UL file
+E499744 and complete listed geometry; the operator ID remains McMaster 7950K24.
+
+Panduit PMV6-5R-L incoming FH1 rings are yellow, M5 hole, 9.5 mm wide,
+strip 8 mm within the manufacturer's 7.9–8.7 mm range. Blue 3M 12-8-P (#8)
+and 12-10-P (#10) rings are 8.4 mm wide; yellow 3M 123-56-NB (5/16 inch) rings
+are 15.5 mm wide. All three 3M types use 9.5 mm stripping per their 3/8 inch
+instructions. The CSV has actual ring widths. No conditional crimp flags remain.
+
+The 23 gray 12 AWG/black 16 AWG ferrule ends now use 12 mm stripping, replacing
+the earlier 10 mm assumption. All connections, gauges, cut lengths and row
+order are unchanged. Q1 shows 12 mm stripping. The four J2 ends say only
+`plug`, per the owner; the mains cable is not factory terminated.
+
+The owner requested practical whole-millimetre starting settings for the remaining
+73 bare ends and accepts trimming an overlong end. Use **10 mm** on HMC power
+terminals 1–6, HTOR power outputs 2/4/6, and GL1/GL2 grounding lugs (27 ends).
+Use **8 mm** on HMC coils/auxiliaries, HTOR 95/96, KA1 and K3 (46 ends).
+These are project starting settings supported by comparable manufacturer terminal
+data, not exact-model published requirements. Sources and reasoning are in
+[the preparation source notes](#preparation-source-notes). Seat the first wire fully;
+the clamp grips copper and insulation reaches the entrance. Trim excess bare
+copper before tightening. Existing documented strip settings are retained,
+including TD1/TD2 at 7 mm, independently confirmed by owner photo IMG_4281.JPG.
+All field-prepared ends now have numeric settings in native `Termination.*`
+fields and the refreshed schedule; no amber preparation flags remain.
 
 ## Historical routed termination inventory — 2026-10-14
 
@@ -1153,16 +1307,16 @@ is now 23 pieces, still covered by its existing 100-piece pack. The remaining
 six single-ferrule and three ring-terminal SKUs require nine packs total,
 at $114.10 using the recorded BOM prices. Factory lug ends remain excluded.
 
-See the [single-ferrule conversion and current inventory](reviews/single_ferrules_2026-10-14/README.md).
-The earlier [connector inventory](reviews/termination_inventory_2026-10-14/README.md)
-and [repair verification](reviews/termination_metadata_repair_2026-10-14/README.md)
+See the single-ferrule conversion and current inventory (historical reference).
+The earlier connector inventory (historical reference)
+and repair verification (historical reference)
 remain historical snapshots. The live schedule now exports all 93 physical wires.
 Mechanical-interlock markers are explicitly excluded as wire terminals; the
 28 terminal-bank hardware bridges and 16 verified direct-mounted/supplied
 contacts participate in connectivity without becoming cut wires. Drawn enclosure
 coverage is complete. Metadata-only S1/J6 interfaces remain outside that drawn
 scope, and J2's external mains-cord length is excluded from its panel-tail
-estimate. See the [metadata and export verification](reviews/mechanical_interlock_metadata_2026-10-14/README.md).
+estimate. See the metadata and export verification (historical reference).
 
 ## Where information belongs
 
@@ -1211,7 +1365,7 @@ and Y=-254..462; the enclosure spans X=-23..485 and Y=-277..485. The taller
 layout grows upward from the existing lower-left datum. The official formed
 backplate geometry is retained in its catalog footprint and STEP; the flat
 board body is a routing proxy. Existing component positions and wire routes
-were preserved. See the [enclosure replacement review](reviews/enclosure_3020_2026-10-12/README.md).
+were preserved. See the enclosure replacement review (historical reference).
 
 ## Integer-grid DIN routing views
 
@@ -1220,5 +1374,392 @@ names. The formerly used `_Grid1mm` content was promoted to those base names;
 the suffix is not a current footprint-selection rule. Keep approved integer
 mounting datums and wiring targets while retaining nominal physical F.Fab/STEP
 geometry. The drawing-grid view does not change conductor or termination
-specifications. The [coordinate audit](reviews/din_grid_repack/README.md) records
+specifications. The coordinate audit (historical reference) records
 the earlier alignment work; current routing policy is defined above.
+
+### Terminal-label audit - 2026-11-02
+
+Wire_terminal_label_audit.csv distinguishes project labels from saved device
+identifiers. Device references are project labels. FH1 pole/end names and the
+PS1 output suffixes are project labels, not asserted manufacturer markings.
+PE1-PE3 are assigned physical ports on each PE splice. GL1/GL2 and J5/J7/J8
+PE labels are project bonding-point labels. Other device-terminal identifiers
+were retained from the saved design and have not all been verified against
+physical manufacturer markings. The prerequisite sheet is a labeling plan,
+not evidence that those markings have already been verified or installed.
+The wire checklist has exactly two Connector columns and no bin/strip columns.
+
+### Manufacturer terminal-marking corrections - 2026-11-02
+
+The operator checklist now retains the complete HMC power inscriptions R/1/L1,
+S/3/L2, T/5/L3, U/2/T1, V/4/T2 and W/6/T3; built-in auxiliary markings
+31NC/32NC and 43NO/44NO; HMX1-AUX11-F markings 51NC/52NC and 63NO/64NO;
+HTOR outputs 2T1/4T2/6T3 and NC/NO suffixes; and timer A3(+)/B1(+).
+The exact HC3096N.52 manufacturer circuit diagram confirms K3's contact numbers.
+PS1 uses -V/+V without invented output numbers, and its earth symbol; the first
+-V and first +V screws remain the scheduled physical connection locations.
+
+Wire_terminal_label_evidence.json records the document/photo basis and unresolved
+hardware. In particular, the catalog AUX11-F contact sketch conflicts with the
+one-NO/one-NC part description; the exact-part factory photo confirms 51NC/52NC
+and 63NO/64NO and governs the checklist. Device labels do not replace existing
+manufacturer terminal markings. Project terminal labels are applied only where
+markings are absent. Manufacturer verification is not complete for installed
+SW1, S2, S3, M1 lead tags and the exact J2 plug; these are not approved as verified
+manufacturer names merely because the old source schedule contains them.
+
+### Installed terminal markings - owner confirmation, 2026-11-02
+
+SW1 rear view: top left-right 5/L3, 3/L2, 1/L1; bottom left-right 6/T3,
+4/T2, 2T1. The operator checklist now uses these exact inscriptions.
+S2 has no terminal markings; apply the existing project 1T/1B-style terminal
+labels before wiring. These are intentionally project labels, not manufacturer
+markings. Motor leads are physically tagged T1-T6, confirmed by the owner.
+
+S3 actual markings, viewed from above with handle facing up: left top-down
+1,3,5,7; right top-down 2,4,6,8. The saved S3 footprint instead contains sixteen
+generic positions 1B/1T through 8B/8T. Its six scheduled endpoints cannot be
+translated by position alone. Rows 116-121 remain unresolved pending an actual
+contact/jumper mapping or LOW/HIGH continuity results. Do not apply the generic
+S3 names over its printed numbers. J2 exact plug markings also remain pending.
+
+Owner clarification superseding the preceding S3 mismatch finding: each of the
+eight numbered S3 sections has a top screw and bottom terminal, so there are
+sixteen physical terminals. Source 1T/1B-style identifiers correspond to the
+numbered section plus top/bottom position. Apply the missing individual terminal
+labels 1T/1B through 8T/8B; preserve the manufacturer's section numbers. S3 rows
+116-121 are resolved by this clarification. Only the exact J2 plug markings
+remain unconfirmed.
+
+Final J2 owner clarification, 2026-11-02: no terminal labels are present; the
+conductors are green, red, white and black. Operator endpoint names are J2_GRN,
+J2_RED, J2_WHT and J2_BLK, replacing source aliases G,Y,Z,X respectively using
+the existing saved Color fields. Apply matching color labels to the unmarked
+ends. These are project conductor identifiers, not asserted manufacturer
+markings. No phase, polarity, route or connection is changed. The terminal-name
+audit has no remaining unresolved devices; installation and electrical checks
+remain separate from this naming audit. Earlier pending-J2 statements are
+superseded by this owner confirmation.
+
+## Installation sequence
+
+Start with [device labels and connector bins](Wire_installation_guide.pdf#page=2), then use the [installation checklist](Wire_installation_guide.pdf#page=6).
+
+Non-grounding backplane wires occupy checklist rows 1–82; non-grounding off-backplane connections occupy rows 83–119. All 12 grounding wires are at the bottom, rows 120–131.
+
+Rows 1–82 and 120–123 have both endpoints on the backplane and can be completed on the bench. Rows 83–119 and 124–131 require the backplane to be installed and the off-backplane devices mounted. Defer the whole external connection, including its backplane end; do not leave attached external wire tails on the bench assembly.
+
+Rows 1–6 replace the two K1/K2 busbars. The paired wire landings use matching individual FE ferrules as specified in the [wiring standard](WIRING_STANDARD.md).
+
+| Priority | Stage | Installation group | Wires | Checklist rows |
+|---:|---|---|---:|---|
+| 01 | bench | Bench - K1/K2 reversing jumpers | 6 | 001–006 |
+| 02 | bench | Bench - Disconnect and PSU AC | 6 | 007–012 |
+| 03 | bench | Bench - Contactor power distribution | 9 | 013–021 |
+| 04 | bench | Bench - Motor power outputs | 9 | 022–030 |
+| 05 | bench | Bench - Star links and motor leads | 2 | 031–032 |
+| 06 | bench | Bench - DC return - source and coils | 7 | 033–039 |
+| 07 | bench | Bench - DC return - timers and lamps | 2 | 040–041 |
+| 08 | bench | Bench - Fused DC and safety chain | 7 | 042–048 |
+| 09 | bench | Bench - Coil interlock links | 8 | 049–056 |
+| 10 | bench | Bench - Direction control bank | 9 | 057–065 |
+| 11 | bench | Bench - Speed control bank | 9 | 066–074 |
+| 12 | bench | Bench - Timers and auxiliary contacts | 8 | 075–082 |
+| 13 | installation | Deferred - Incoming supply and fuses | 6 | 083–088 |
+| 14 | installation | Deferred - Disconnect and PSU AC | 3 | 089–091 |
+| 15 | installation | Deferred - Star links and motor leads | 6 | 092–097 |
+| 16 | installation | Deferred - DC return - timers and lamps | 2 | 098–099 |
+| 17 | installation | Deferred - E-stop connector | 4 | 100–103 |
+| 18 | installation | Deferred - Button station | 8 | 104–111 |
+| 19 | installation | Deferred - Speed selector | 6 | 112–117 |
+| 20 | installation | Deferred - Indicator feeds | 2 | 118–119 |
+| 21 | bench | Bench - PE - panel backbone | 4 | 120–123 |
+| 22 | installation | Deferred - PE - panel backbone | 2 | 124–125 |
+| 23 | installation | Deferred - PE - housings and motor | 6 | 126–131 |
+
+FH1 remains part of bench wiring because it is mounted on the lower DIN rail. Off-backplane devices: GL1, GL2, GS1, H1, H2, J1, J2, J5, J7, J8, M1, S2, S3, SW1. Their device labeling can wait until installation.
+
+The printed checklist retains the requested simple columns, with no added stage columns or group headings. Row numbers are checklist positions, not physical wire labels.
+
+The two pendant jumpers `S2_1T–S2_3T` and `S2_3T–S2_5T` are checklist rows 104 and 105, each 16AWG BLU with connector RA at both ends. The existing `S2_2B–S2_4B` jumper is row 111. All three remain pending installation. The added rows and the owner-confirmed removal state are saved in the [supplemental pendant-jumper record](#supplemental-pendant-jumper-record). These two new rows supplement 129 native extracted wires because the native model previously treated these links as retained.
+
+Native ordering is saved by endpoint pair in [Wire_installation_groups.json](Wire_installation_groups.json), which the native extractor applies on Refresh.
+
+### Supplemental pendant-jumper record
+
+The following record preserves the removed supplemental JSON source, including the owner-reported removals and the still-pending additions. The native 129-row extraction does not include its two added wires.
+
+```json
+{
+  "date": "2026-11-02",
+  "purpose": "Supplement native field-wire extraction with two pendant jumpers formerly assumed retained. Native schematic connectivity is unchanged.",
+  "insert_before_endpoint": "S2_2B",
+  "stage": "installation",
+  "wire_rows": [
+    [
+      "Button Station",
+      "S2_1T",
+      "Button Station",
+      "S2_3T",
+      "16",
+      "Blue",
+      "RA",
+      "RA"
+    ],
+    [
+      "Button Station",
+      "S2_3T",
+      "Button Station",
+      "S2_5T",
+      "16",
+      "Blue",
+      "RA",
+      "RA"
+    ]
+  ],
+  "preparation_reference": "S2_2B|R16_832_8.4mm",
+  "basis": "Use the same 16 AWG blue wire and bin RA #8 ring terminals as the existing scheduled S2 2B-4B jumper. Strip 9.5 mm.",
+  "owner_reported_complete": {
+    "S2_removed": [
+      "2T-4B",
+      "2B-4T",
+      "3B-1B"
+    ],
+    "S3_removed": [
+      "1T-3T",
+      "5T-7T",
+      "1B-2B",
+      "3B-4B",
+      "3B-5B",
+      "6T-4T"
+    ],
+    "S3_retained": [
+      "7B-8B"
+    ]
+  },
+  "pending_S2_additions": [
+    "1T-3T",
+    "3T-5T",
+    "2B-4B"
+  ],
+  "native_metadata_note": "S2 native Wire.Sizes still describes 1T-3T and 3T-5T as installed retained links. Owner confirmation supersedes that physical-state assumption; these checklist additions must not be omitted on regeneration."
+}
+```
+
+### Printable-checklist snapshot
+
+Native schedule SHA-256: `3fdc736ad7c13dac390511b3e5e3bbfcc5ce17f8d3339e2b9bfced8176a89d55`.
+
+Saved PCB SHA-256: `324ee3c385f0d15c04567307d334cd713a0c3957c40cb34137f0235f574841c5`.
+
+The retained PDF has 131 wires: 129 native plus two supplemental, with 262 endpoint preparations. These hashes identify the source used for the checklist, not electrical or mechanical qualification.
+
+## Terminal numbering reference
+
+Approved 2026-10-28. This is the current installed-label scheme for all 60 active terminal blocks.
+
+The module number identifies one physically separate terminal strip. Module numbers run top to bottom, then left to right. Letters run left to right within each strip and restart at A. Uppercase I and O are skipped. Ground blocks use G1-G6 in the same physical reading order and do not consume letters.
+
+| Module | Location | Labels | Gray blocks |
+| --- | --- | --- | --- |
+| 1 | Upper rail, right of K1/K2 | 1A-1Z, skipping I/O | 24 |
+| 2 | Middle rail, left of K6 | 2A-2F | 6 |
+| 3 | Middle rail, right of TD1/TD2 | 3A-3K, skipping I | 10 |
+| 4 | Lower left | 4A-4D | 4 |
+| 5 | Lower rail, right of PS1 | 5A-5K, skipping I | 10 |
+
+Grounds: upper G1/G2, middle G3, lower-right G5/G6 and relocated G4. The lower-right order ends with 5K, G4, the existing end stop, then FH1.
+
+Installation revision, 2026-10-30: FH1 moves to the lower-right rail in its original orientation. 4E/4F/4G (formerly TB79/TB80/TB81) are retired; do not reuse or renumber those IDs. G4 remains after 5K. The existing end stop is between G4 and FH1; another at FH1's right end is desired but not installed because stock is exhausted. Rails and ducts are unchanged. Owner photo IMG_4273.JPG confirms the arrangement; FH1's right edge is approximately 15 mm from the backplate edge.
+
+The module number identifies physical location, not electrical commonality. Jumper sections remain independently defined in the jumper guide.
+
+Printed-marker migration: retain the original seven printed pairs and their left-to-right order. Discard both copies of 4E (pair 6, position 10), 4F and 4G (pair 7, positions 1 and 2). G4 remains pair 7, position 3. There are 120 active markers, two for each of 60 terminal blocks. See the placement guide for separators and cuts.
+
+Wire-schedule endpoint labels use the new reference followed by the existing clamp identifier, such as `1A_TOP`, `2F_BOT`, or `G1_2`. Pad numbers and electrical connections are unchanged.
+
+### Current labels and legacy cross-reference
+
+Legacy TB labels are retained in this table only for migration. Current design references, guides, and wire schedules use the new labels.
+
+Rows follow saved physical order: upper to lower rail, then left to right.
+Checked against the saved PCB on 2026-10-30, including FH1 relocation and the retired phase terminals.
+
+| Rail | Module | Current label | Previous label | Circuit |
+| --- | --- | --- | --- | --- |
+| Upper | 1 | 1A | TB60 | M1_T1 |
+| Upper | 1 | 1B | TB61 | M1_T1 |
+| Upper | 1 | 1C | TB63 | M1_T2 |
+| Upper | 1 | 1D | TB64 | M1_T2 |
+| Upper | 1 | 1E | TB66 | M1_T3 |
+| Upper | 1 | 1F | TB67 | M1_T3 |
+| Upper | 1 | 1G | TB31 | M1_T4 |
+| Upper | 1 | 1H | TB69 | M1_T5 |
+| Upper | 1 | 1J | TB72 | M1_T6 |
+| Upper | Ground | G1 | TB51 | PE |
+| Upper | Ground | G2 | TB52 | PE |
+| Upper | 1 | 1K | TB20 | DIRECTION_ENABLE |
+| Upper | 1 | 1L | TB21 | DIRECTION_ENABLE |
+| Upper | 1 | 1M | TB22 | DIRECTION_ENABLE |
+| Upper | 1 | 1N | TB73 | DIRECTION_FWD_CMD |
+| Upper | 1 | 1P | TB74 | DIRECTION_FWD_CMD |
+| Upper | 1 | 1Q | TB75 | DIRECTION_REV_CMD |
+| Upper | 1 | 1R | TB76 | DIRECTION_REV_CMD |
+| Upper | 1 | 1S | TB77 | CONTROL_RUN_ENABLE |
+| Upper | 1 | 1T | TB78 | CONTROL_RUN_ENABLE |
+| Upper | 1 | 1U | TB62 | SPEED_HIGH_CMD |
+| Upper | 1 | 1V | TB65 | SPEED_LOW_CMD |
+| Upper | 1 | 1W | TB68 | CONTROL_OVERLOAD_ENABLE |
+| Upper | 1 | 1X | TB84 | SPEED_LOW_TIMED_ENABLE |
+| Upper | 1 | 1Y | TB85 | HIGH_SEQUENCE_ENABLE |
+| Upper | 1 | 1Z | TB86 | HIGH_SEQUENCE_TRIGGER |
+| Middle | 2 | 2A | TB10 | 0V |
+| Middle | 2 | 2B | TB11 | 0V |
+| Middle | 2 | 2C | TB12 | 0V |
+| Middle | 2 | 2D | TB13 | 0V |
+| Middle | 2 | 2E | TB14 | 0V |
+| Middle | 2 | 2F | TB87 | 0V |
+| Middle | 3 | 3A | TB88 | CONTROL_RUN_ENABLE |
+| Middle | 3 | 3B | TB89 | CONTROL_RUN_ENABLE |
+| Middle | 3 | 3C | TB90 | CONTROL_RUN_ENABLE |
+| Middle | 3 | 3D | TB91 | HIGH_SEQUENCE_ENABLE |
+| Middle | 3 | 3E | TB92 | HIGH_SEQUENCE_ENABLE |
+| Middle | 3 | 3F | TB93 | HIGH_SEQUENCE_ENABLE |
+| Middle | 3 | 3G | TB94 | HIGH_SEQUENCE_TRIGGER |
+| Middle | 3 | 3H | TB95 | HIGH_SEQUENCE_TRIGGER |
+| Middle | 3 | 3J | TB96 | LOW_SEQUENCE_ENABLE |
+| Middle | 3 | 3K | TB97 | LOW_SEQUENCE_ENABLE |
+| Middle | Ground | G3 | TB98 | PE |
+| Lower | 4 | 4A | TB83 | CONTROL_ESTOP_CONTACT_LINK |
+| Lower | 4 | 4B | TB1 | +24V |
+| Lower | 4 | 4C | TB2 | +24V |
+| Lower | 4 | 4D | TB3 | +24V |
+| Lower | Ground | G5 | TB43 | PE |
+| Lower | Ground | G6 | TB50 | PE |
+| Lower | 5 | 5A | TB40 | L1_SW |
+| Lower | 5 | 5B | TB41 | L1_SW |
+| Lower | 5 | 5C | TB42 | L2_SW |
+| Lower | 5 | 5D | TB30 | L2_SW |
+| Lower | 5 | 5E | TB23 | L1_DIR |
+| Lower | 5 | 5F | TB24 | L1_DIR |
+| Lower | 5 | 5G | TB32 | L2_DIR |
+| Lower | 5 | 5H | TB33 | L2_DIR |
+| Lower | 5 | 5J | TB70 | L3_DIR |
+| Lower | 5 | 5K | TB71 | L3_DIR |
+| Lower | Ground | G4 | TB82 | PE |
+
+### Source checkpoint
+
+Pre-renumbering board SHA-256: `c731a221f87b926be2c003654d6b80d86224b43d60473315bae08dab0162202a`.
+Renumbered board SHA-256: `b738d5c0a8aec3e600c9eabf21a384ae3e65b1bcc55b7f4382337b39da2ae1b6`.
+
+The 2026-10-28 renumbering retained terminal placement, pad identities, nets and routed geometry. The terminal blocks are PCB-level layout items; the saved electrical schematic contains no terminal-block reference instances to rename.
+
+Right-entry relocation checkpoint, 2026-10-29: board SHA-256 `04f916bcc7674bb8db68ffcfc75c5fe25b5ecf4fd1e167e0c03079a843f9d11f`. Four terminals, the J2 mains-gland proxy, the affected cable-tail/fuse-feed/bonding routes and end-stop placement changed; all contactors remain in place.
+
+FH1 lower-rail checkpoint, 2026-10-30: board SHA-256 `ae6e23858dedb8c8ed8c8496a666fec8cc5d9bbb19f879307e2eaf3af6232123`. 60 terminal blocks; 123 complete generated wire records. Saved schematic unchanged.
+
+## Control signal naming reference
+
+> The signal tables retain the 8 October naming update. Later owner-reported jumper removals and the installation sequence above govern physical installation; references here to retained links are historical assumptions.
+
+The shared signal naming standard (historical reference)
+governs this project. Use `[FUNCTION]_[DETAIL]_[ROLE]` in uppercase, with the
+detail omitted when unnecessary. The active functions are `CONTROL`,
+`DIRECTION`, and `SPEED`. Control signals use `CMD`, `ENABLE`, `FB`, `COIL`,
+or `LINK` as their role; power rails and motor power conductors retain their
+electrical names.
+
+The saved schematic owns net names and connectivity. PCB pad nets, embedded
+`Wire.Sizes` declarations, physical wire records and generated outputs must
+use that same native name. A leading `/` in KiCad exports denotes sheet scope
+and is not part of the functional naming convention. Reusable symbol pin names
+and physical terminal numbers remain manufacturer/contact functions.
+
+### Operator connections
+
+| Signal | S2/S3 terminal | Energized meaning |
+|---|---|---|
+| `CONTROL_OVERLOAD_ENABLE` | S2.5T; retained links to 1T and 3T | Feed has passed the upstream control enable and both overload NC contacts. |
+| `CONTROL_RUN_ENABLE` | S2.6T; S3.1B with retained link to 2B | The overload-qualified feed has also passed STOP's NC contact. |
+| `DIRECTION_ENABLE` | S2.2B with required link to 4B | Either speed contactor K4 or K6 has closed its auxiliary NO contact, supplying the direction start/holding circuits. |
+| `DIRECTION_FWD_CMD` | S2.1B | Forward command path is energized by the button or K1's holding contact. |
+| `DIRECTION_REV_CMD` | S2.3B | Reverse command path is energized by the button or K2's holding contact. |
+| `SPEED_LOW_CMD` | S3.1T with retained link to 3T | LOW selector command path is energized. |
+| `SPEED_HIGH_CMD` | S3.2T | HIGH selector command path is energized. |
+
+S2 retains five external conductors and S3 retains three. This naming update
+does not change any connection or establish installation of an unconfirmed link.
+The S2 2B-to-4B link remains required and physically unconfirmed.
+
+An energized command net does not prove a button remains pressed or a motor is
+moving. `CONTROL_RUN_ENABLE` is a positive permission path, not an active-high
+STOP request. Loss of a cumulative enable may result from any upstream open
+contact or missing feed; it does not uniquely diagnose the last device.
+
+### Other named control nets
+
+| Signal | Function |
+|---|---|
+| `CONTROL_ESTOP_ENABLE` | Feed through the E-stop contact chain to K3's coil. |
+| `CONTROL_ESTOP_DISABLED_FB` | K3 NC31-32 supplies the red H2 lamp when the E-stop enable relay is released and 24 V power is present. This also indicates an unplugged/broken E-stop loop or a failure to energize K3; it does not uniquely identify the physical button position. |
+| `CONTROL_LOW_OVERLOAD_ENABLE` | Intermediate feed after OL4's NC contact and before OL6's NC contact. |
+| `DIRECTION_FWD_COIL` | K1 coil feed after the reverse contactor's NC interlock. |
+| `DIRECTION_REV_COIL` | K2 coil feed after the forward contactor's NC interlock. |
+| `SPEED_LOW_COIL` | K4 coil feed after the high-speed interlocks. |
+| `SPEED_HIGH_SHORTING_COIL` | K5 shorting-contactor coil feed after K4's NC interlock. |
+| `SPEED_HIGH_COIL` | K6 coil feed after K5's NO sequencing contact. |
+| `SPEED_LOW_K6_NC_LINK` | Intermediate low-speed command path between K6's and K5's NC interlock contacts. |
+| `CONTROL_ESTOP_CONTACT_LINK` | Intermediate connection between the two E-stop NC contacts. |
+| `CONTROL_K3_CONTACT_LINK` | Intermediate connection between K3's series NO contacts. |
+
+`FB` is reserved for an actual feedback contact or sensor. No feedback signal
+introduced here indicates shaft motion. A contactor auxiliary contact confirms its defined
+contact state, not measured shaft speed or direction. `+24V`, `+24V_EN`, `0V`,
+`PE`, phase-stage names and motor terminal names remain power-net identifiers.
+
+### Verification of the naming update
+
+The 2026-10-08 update preserves all net terminal memberships, symbol pin functions
+and electrical types. PCB changes are name substitutions only. One schematic
+coil label rotates at its original connection point to avoid overlapping a
+neighboring symbol. Wires, UUIDs, terminal numbers, component positions and models
+are unchanged.
+Validate the final native netlist and embedded sizing declarations together.
+Review exported operator/control artwork for label readability.
+
+| Shared rule | Result | Evidence |
+|---|---|---|
+| `SCH-NAME-001` | Pass | All 17 explicitly named control nets use the shared roles. No remaining old-name usages were found in either repository's current searchable files. |
+| `SCH-NAME-002` | Pass | Operator/cumulative meanings are recorded above; the native exports were inspected, and the long K5 coil label was rotated without moving its connection point. |
+| `SCH-NAME-003` | Pass | Before/after native netlists retain all 64 net groups with identical terminal memberships, pin functions and electrical types. PCB sources retain every non-name byte; schematic sources differ only in names and one label rotation. |
+
+Native PCB loading confirms 90 footprints and 279 pads. The sizing validator
+classifies all 172 connected terminals, including eight external S2/S3 wires.
+All 27 existing wiring tests pass. Final ERC has zero errors and the same ten
+library-symbol-mismatch warnings as the baseline; its violation records are
+identical. These checks validate the rename, not fabrication or electrical release.
+
+## Preparation source notes
+
+The connector inventory and strip-setting chart are retained in PDF pages 3 and 5 of the wire installation guide. FA / McMaster 7950K16 accepts 22-20 AWG. FE is Phoenix 3202533 (14 AWG, 10 mm contact, strip 13 mm). FF is the supplied Weidmüller 1476290000 / McMaster 7950K31 (12 AWG, 10 mm contact, strip 12 mm). Historical per-end counts in the older preparation research are superseded by the saved current schedule.
+
+FG-FK have 8 mm barrels and strip settings. RE-RI and SA-SF use the recorded 9.5 mm project setting based on matching 3M terminal-family instructions; their exact loose-piece OEM identity remains unverified. RJ and SG use their identified 3M parts' 3/8 inch instruction, displayed as 9.5 mm.
+
+### Manufacturer evidence retained from the preparation research
+
+- American Electrical: [catalog](https://www.americanelectrical.com/uploads/catalog/American-Electrical-_-Insulated-Wire-Ferrules.pdf) and [installation instructions](https://www.americanelectrical.com/asset/wireferrule_install.pdf). The identified 10/10/6 mm ferrules use the corresponding 10/10/6 mm strip lengths.
+- Phoenix Contact: [3202533 manufacturer page](https://www.phoenixcontact.com/en-us/products/ferrule-ai-25-10-bu-3202533) specifies a 10 mm contact barrel and 13 mm strip.
+- Weidmüller: [1476290000 manufacturer page](https://eshop.weidmueller.com/en/h4018d-gr-sp/p/1476290000) explicitly states 10 mm contact length and 12 mm strip; the supplied bag independently prints 12 mm.
+- Black McMaster ferrule: [7950K24 supplier page](https://www.mcmaster.com/7950K24/) lists UL E499744, polypropylene, black16 AWG and 0.39 inch pin. Its drawing gives approximately 16 mm overall, 10 mm metal tube, 4 mm collar and 1.7 mm bore. The [UL certificate](https://assets.dam.weidmueller.com/assets/api/373ae775-5041-4cff-8c58-ca5b2d312ae6/original/E499744-Certificate-of-Compliace-Wire-End-Ferrules.pdf) identifies Weidmüller. These dimensions and registration match [H1,5/16 DS SW, 2092490000](https://eshop.weidmueller.com/en/h1516-ds-sw/p/2092490000), whose manufacturer specifies 12 mm stripping. This manufacturer model identification is inferred from registration and the complete listed geometry; the bag itself prints only McMaster7950K24. The operator schedule retains the actual supplier SKU.
+- Panduit: [A41187 rev10A drawing](https://cdn.shopify.com/s/files/1/0843/1616/0235/files/Panduit-PMV6-5R-L-Ring-Terminal-Part-Drawings.pdf) specifies 5/16 inch nominal strip (7.9 mm) with +0.8/-0 mm tolerance. The project setting is **8 mm**, within 7.9–8.7 mm. PMV6-5R-L replaces the former PV10-10R-L inference.
+- 3M blue rings: manufacturer instructions for 3M 12-8-P and 12-10-P explicitly list12-8-P and12-10-P with 0.33 inch width and specify3/8 inch stripping. The yellow123-56-NB [manufacturer instructions](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2293/123-6S_500-NB.pdf) also specify3/8 inch. The project uses **9.5 mm**, rounded from9.525 mm;10 mm has not been substituted.
+
+### Bare-wire starting-setting research basis
+
+- [Schneider Electric instruction 1378322_01A55-10](https://download.se.com/files?p_Doc_Ref=1378322_01A55&p_File_Name=1378322_01A55-10.pdf&p_enDocType=Instruction+sheet), page 1, gives **10 mm** on comparable small IEC contactor power terminals and **8 mm** on control terminals. This supports the project starting settings for HMC/HTOR/HMX1; it does not establish that these devices share a manufacturer or identical terminals.
+- [Panduit LAMA mechanical-lug drawing 03468NBA/00](https://www.panduit.com/content/dam/panduit/en/products/media/7/77/277/1277/111251277.pdf) gives **9.7 mm strip** on the LAMA6-14-C aluminum set-screw lug, with 26.9 mm overall length and 12.7 mm width. This is dimensional guidance for the WGNDKT's **10 mm** project starting setting, not an identification of the supplied lug as a Panduit part.
+- Owner literature photos IMG_4277/4278 confirm HMC/HTOR conductor ranges and torque but contain no strip length. Their 9.6/7.6 mm dimensions are maximum ring widths. IMG_4286 gives K3's small captive-screw connection and 0.5 Nm torque but no strip length; **8 mm** is a project starting choice for that terminal. No exact-model strip requirement was found in the online sources checked.
+- Owner photo IMG_4281 explicitly confirms **7 mm** stripping on RK7817 timers, for stranded wire with or without ferrules. TD1/TD2 retain that documented setting.
+
+Other documented settings remain Q1 **12 mm** per [Eaton instructions](https://www.eaton.com/content/dam/eaton/technicaldocumentation/il/circuit-breakers/miniature-circuit-breakers-mcb/eaton-mcb-faz-na-rt-du-il0191333zu.pdf), PS1 **5 mm**, TD1/TD2 **7 mm**, SW1 **12 mm** and WAGO **13 mm**. Existing crimp-part preparations above are unchanged. Six factory-terminated ends are retained without a new stripping instruction. Four J2 plug ends omit preparation details at the owner’s direction.

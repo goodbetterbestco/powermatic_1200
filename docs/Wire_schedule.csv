@@ -1,127 +1,130 @@
-From,Pin,To,Pin,AWG,Length,Term 1,Term 2
-Terminal 1A,1A_BOT,HTOR32-6-S OL4,OL4_2,14,950,F14_10mm,B14
-Terminal 1A,1A_TOP,Two-Speed Motor,M1_T1,14,1190,F14_10mm,B14_13mm
-Terminal 1B,1B_BOT,HMC-9B30-11-DS K5,K5_2,14,930,F14_10mm,B14
-Terminal 1C,1C_BOT,HTOR32-6-S OL4,OL4_4,14,890,F14_10mm,B14
-Terminal 1C,1C_TOP,Two-Speed Motor,M1_T2,14,1160,F14_10mm,B14_13mm
-Terminal 1D,1D_BOT,HMC-9B30-11-DS K5,K5_4,14,890,F14_10mm,B14
-Terminal 1E,1E_BOT,HTOR32-6-S OL4,OL4_6,14,900,F14_10mm,B14
-Terminal 1E,1E_TOP,Two-Speed Motor,M1_T3,14,1140,F14_10mm,B14_13mm
-Terminal 1F,1F_BOT,HMC-9B30-11-DS K5,K5_6,14,860,F14_10mm,B14
-Terminal 1G,1G_BOT,HTOR32-6-S OL6,OL6_2,14,980,F14_10mm,B14
-Terminal 1G,1G_TOP,Two-Speed Motor,M1_T4,14,1150,F14_10mm,B14_13mm
-Terminal 1H,1H_BOT,HTOR32-6-S OL6,OL6_4,14,950,F14_10mm,B14
-Terminal 1H,1H_TOP,Two-Speed Motor,M1_T5,14,1130,F14_10mm,B14_13mm
-Terminal 1J,1J_BOT,HTOR32-6-S OL6,OL6_6,14,890,F14_10mm,B14
-Terminal 1J,1J_TOP,Two-Speed Motor,M1_T6,14,1120,F14_10mm,B14_13mm
-Terminal 1K,1K_BOT,HMC-9B30-11-DS K4,K4_44,18,850,F18_10mm,B18
-Terminal 1L,1L_BOT,HMC-9B30-11-DS K6,K6_44,18,930,F18_10mm,B18
-Terminal 1M,1M_TOP,Button Station,S2_2B,16,1690,F16_10mm,R16_832_9mm
-Terminal 1N,1N_BOT,HMC-9B30-11-DS K2,K2_31,18,380,F18_10mm,B18
-Terminal 1N,1N_TOP,Button Station,S2_1B,16,1680,F16_10mm,R16_832_9mm
-Terminal 1P,1P_BOT,HMC-9B30-11-DS K1,K1_44,18,430,F18_10mm,B18
-Terminal 1Q,1Q_BOT,HMC-9B30-11-DS K1,K1_31,18,470,F18_10mm,B18
-Terminal 1Q,1Q_TOP,Button Station,S2_3B,16,1660,F16_10mm,R16_832_9mm
-Terminal 1R,1R_BOT,HMC-9B30-11-DS K2,K2_44,18,390,F18_10mm,B18
-Terminal 1S,1S_BOT,Terminal 3A,3A_TOP,18,280,F18_10mm,F18_10mm
-Terminal 1S,1S_TOP,Button Station,S2_6T,16,1660,F16_10mm,R16_832_9mm
-Terminal 1T,1T_BOT,HMC-9B30-11-DS K6,K6_43,18,950,F18_10mm,B18
-Terminal 1T,1T_TOP,Speed Switch,S3_2B,16,1280,F16_10mm,R16_832_9mm
-Terminal 1U,1U_BOT,HMC-9B30-11-DS K5,K5_43,16,350,F16_10mm,B16
-Terminal 1U,1U_TOP,Speed Switch,S3_2T,16,1270,F16_10mm,R16_832_9mm
-Terminal 1V,1V_BOT,HMC-9B30-11-DS K6,K6_31,16,480,F16_10mm,B16
-Terminal 1V,1V_TOP,Speed Switch,S3_1T,16,1270,F16_10mm,R16_832_9mm
-Terminal 1W,1W_BOT,HTOR32-6-S OL6,OL6_96,16,850,F16_10mm,B16
-Terminal 1W,1W_TOP,Button Station,S2_5T,16,1630,F16_10mm,R16_832_9mm
-Terminal 1X,1X_BOT,Multifunction Timer TD2,TD2_18,18,680,F18_10mm,B18_7mm
-Terminal 1X,1X_TOP,Speed Switch,S3_1B,16,1320,F16_10mm,R16_832_9mm
-Terminal 1Y,1Y_BOT,Terminal 3E,3E_TOP,18,300,F18_10mm,F18_10mm
-Terminal 1Y,1Y_TOP,Speed Switch,S3_3B,16,1300,F16_10mm,R16_832_9mm
-Terminal 1Z,1Z_BOT,Terminal 3H,3H_TOP,18,280,F18_10mm,F18_10mm
-Terminal 1Z,1Z_TOP,Speed Switch,S3_3T,16,1300,F16_10mm,R16_832_9mm
-Terminal 2A,2A_BOT,Coil Enable Relay,K3_A2,18,320,F18_10mm,B18
-Terminal 2A,2A_TOP,HMC-9B30-11-DS K4,K4_A2_TOP,18,380,F18_10mm,B18
-Terminal 2B,2B_BOT,White Indicator,H1_X2,18,1390,F18_10mm,F18_6mm
-Terminal 2B,2B_TOP,Red Indicator,H2_X2,18,1140,F18_10mm,F18_6mm
-Terminal 2C,2C_BOT,DC Power Supply,PS1_V1_NEG,18,380,F18_10mm,B18_5mm
-Terminal 2C,2C_TOP,HMC-9B30-11-DS K1,K1_A2_BOT,18,330,F18_10mm,B18
-Terminal 2D,2D_BOT,Multifunction Timer TD1,TD1_A2,18,950,F18_10mm,B18_7mm
-Terminal 2D,2D_TOP,HMC-9B30-11-DS K2,K2_A2_BOT,18,340,F18_10mm,B18
-Terminal 2E,2E_BOT,HMC-9B30-11-DS K6,K6_A2_BOT,18,380,F18_10mm,B18
-Terminal 2E,2E_TOP,HMC-9B30-11-DS K5,K5_A2_TOP,18,400,F18_10mm,B18
-Terminal 2F,2F_TOP,Multifunction Timer TD2,TD2_A2,18,460,F18_10mm,B18_7mm
-Terminal 3A,3A_BOT,HMC-9B30-11-DS K1,K1_43,18,930,F18_10mm,B18
-Terminal 3B,3B_BOT,HMC-9B30-11-DS K2,K2_43,18,870,F18_10mm,B18
-Terminal 3B,3B_TOP,HMC-9B30-11-DS K4,K4_31,18,410,F18_10mm,B18
-Terminal 3C,3C_BOT,HMC-9B30-11-DS K5,K5_31,18,760,F18_10mm,B18
-Terminal 3C,3C_TOP,HMC-9B30-11-DS K4,K4_43,18,840,F18_10mm,B18
-Terminal 3D,3D_BOT,Multifunction Timer TD1,TD1_A3,18,650,F18_10mm,B18_7mm
-Terminal 3D,3D_TOP,HMC-9B30-11-DS K4,K4_32,18,830,F18_10mm,B18
-Terminal 3E,3E_BOT,Multifunction Timer TD1,TD1_15,18,370,F18_10mm,B18_7mm
-Terminal 3F,3F_BOT,Auxiliary Contacts,KA1_63,18,830,F18_10mm,B18
-Terminal 3G,3G_BOT,Auxiliary Contacts,KA1_64,18,550,F18_10mm,B18
-Terminal 3G,3G_TOP,Multifunction Timer TD1,TD1_B1,18,320,F18_10mm,B18_7mm
-Terminal 3J,3J_BOT,Multifunction Timer TD2,TD2_A3,18,580,F18_10mm,B18_7mm
-Terminal 3J,3J_TOP,Auxiliary Contacts,KA1_52,18,890,F18_10mm,B18
-Terminal 3K,3K_BOT,Multifunction Timer TD2,TD2_15,18,390,F18_10mm,B18_7mm
-Terminal 4A,4A_BOT,M12 Panel Socket,J1_3,22,160,F22_10mm,supplier
-Terminal 4A,4A_TOP,M12 Panel Socket,J1_2,22,150,F22_10mm,supplier
-Terminal 4B,4B_BOT,M12 Panel Socket,J1_1,22,170,F22_10mm,supplier
-Terminal 4C,4C_BOT,Coil Enable Relay,K3_31,18,280,F18_10mm,B18
-Terminal 4C,4C_TOP,Coil Enable Relay,K3_13,18,270,F18_10mm,B18
-Terminal 4D,4D_BOT,Fused Terminal,F4_OUT,18,330,F18_10mm,F18_10mm
-Terminal 4D,4D_TOP,White Indicator,H1_X1,18,1410,F18_10mm,F18_6mm
-Terminal 4E,4E_BOT,Mains Plug,J2_X,12,360,F12_10mm,B12
-Terminal 4E,4E_TOP,Fuse Holder,FH1_P3A,12,930,F12_10mm,R12_1032_9mm
-Terminal 4F,4F_BOT,Mains Plug,J2_Y,12,350,F12_10mm,B12
-Terminal 4F,4F_TOP,Fuse Holder,FH1_P2A,12,920,F12_10mm,R12_1032_9mm
-Terminal 4G,4G_BOT,Mains Plug,J2_Z,12,340,F12_10mm,B12
-Terminal 4G,4G_TOP,Fuse Holder,FH1_P1A,12,870,F12_10mm,R12_1032_9mm
-Terminal 5A,5A_BOT,Motor Disconnect,SW1_2,14,1130,F14_10mm,B14_12mm
-Terminal 5A,5A_TOP,HMC-9B30-11-DS K2,K2_1,14,1070,F14_10mm,B14
-Terminal 5B,5B_BOT,Circuit Breaker,Q1_1,14,940,F14_10mm,B14
-Terminal 5C,5C_BOT,Motor Disconnect,SW1_4,14,1090,F14_10mm,B14_12mm
-Terminal 5C,5C_TOP,HMC-9B30-11-DS K1,K1_3,14,1180,F14_10mm,B14
-Terminal 5D,5D_BOT,Circuit Breaker,Q1_3,14,900,F14_10mm,B14
-Terminal 5E,5E_BOT,HMC-9B30-11-DS K1,K1_2,14,1170,F14_10mm,B14
-Terminal 5E,5E_TOP,HMC-9B30-11-DS K6,K6_1,14,920,F14_10mm,B14
-Terminal 5F,5F_BOT,HMC-9B30-11-DS K4,K4_1,14,1070,F14_10mm,B14
-Terminal 5G,5G_BOT,HMC-9B30-11-DS K1,K1_4,14,1150,F14_10mm,B14
-Terminal 5G,5G_TOP,HMC-9B30-11-DS K6,K6_3,14,930,F14_10mm,B14
-Terminal 5H,5H_BOT,HMC-9B30-11-DS K4,K4_3,14,1090,F14_10mm,B14
-Terminal 5J,5J_BOT,HMC-9B30-11-DS K1,K1_6,14,1160,F14_10mm,B14
-Terminal 5J,5J_TOP,HMC-9B30-11-DS K6,K6_5,14,900,F14_10mm,B14
-Terminal 5K,5K_BOT,HMC-9B30-11-DS K4,K4_5,14,1070,F14_10mm,B14
-Fused Terminal,F4_IN,DC Power Supply,PS1_V1_POS,18,320,F18_10mm,B18_5mm
-Fuse Holder,FH1_P1B,Motor Disconnect,SW1_5,14,1130,R14_1032_9mm,B14_12mm
-Fuse Holder,FH1_P2B,Motor Disconnect,SW1_3,14,1180,R14_1032_9mm,B14_12mm
-Fuse Holder,FH1_P3B,Motor Disconnect,SW1_1,14,1230,R14_1032_9mm,B14_12mm
-Ground G1,G1_1,Two-Speed Motor,M1_PE,12,1100,F12_10mm,B12_13mm
-Ground G1,G1_2,Ground G5,G5_2,12,1080,F12_10mm,F12_10mm
-Ground G2,G2_1,Control PE Splice,GS1_PE,14,1350,F14_10mm,B14_13mm
-Ground G2,G2_2,Ground G3,G3_1,12,360,F12_10mm,F12_10mm
-Ground G4,G4_1,Ground G5,G5_1,12,380,F12_10mm,F12_10mm
-Ground G4,G4_2,Mains Plug,J2_G,12,330,F12_10mm,B12
-Ground G6,G6_1,Enclosure Grounding Lug,J8_PE,12,630,F12_10mm,R12_516_15.494mm
-Ground G6,G6_2,DC Power Supply,PS1_PE,14,300,F14_10mm,B14_5mm
-Control Housing PE Grounding Kit (WGNDKT) GL1,GL1_PE,Control PE Splice,GS1_PE,14,120,B14,B14_13mm
-Control Housing PE Grounding Kit (WGNDKT) GL2,GL2_PE,Control PE Splice,GS1_PE,14,410,B14,B14_13mm
-Red Indicator,H2_X1,Coil Enable Relay,K3_32,18,1550,F18_6mm,B18
-M12 Panel Socket,J1_4,Coil Enable Relay,K3_A1_PLUS,22,240,supplier,B22
-Frame PE Lug,J5_PE,Two-Speed Motor,M1_PE,10,170,supplier,B10_13mm
-Motor Bell PE Stud,J7_PE,Two-Speed Motor,M1_PE,10,200,supplier,B10_13mm
-HMC-9B30-11-DS K1,K1_32,HMC-9B30-11-DS K2,K2_A1_BOT,18,150,B18,B18
-HMC-9B30-11-DS K1,K1_5,Motor Disconnect,SW1_6,14,1380,B14,B14_12mm
-HMC-9B30-11-DS K1,K1_A1_BOT,HMC-9B30-11-DS K2,K2_32,18,220,B18,B18
-Coil Enable Relay,K3_14,Coil Enable Relay,K3_23,18,110,B18,B18
-Coil Enable Relay,K3_24,HTOR32-6-S OL4,OL4_95,18,1030,B18,B18
-HMC-9B30-11-DS K4,K4_A1_BOT,HMC-9B30-11-DS K6,K6_32,18,150,B18,B18
-HMC-9B30-11-DS K5,K5_1,HMC-9B30-11-DS K5,K5_3,14,110,B14,B14
-HMC-9B30-11-DS K5,K5_3,HMC-9B30-11-DS K5,K5_5,14,110,B14,B14
-HMC-9B30-11-DS K5,K5_32,Auxiliary Contacts,KA1_51,18,260,B18,B18
-HMC-9B30-11-DS K5,K5_44,HMC-9B30-11-DS K6,K6_A1_BOT,18,340,B18,B18
-HMC-9B30-11-DS K5,K5_A1_BOT,Multifunction Timer TD1,TD1_18,18,340,B18,B18_7mm
-HTOR32-6-S OL4,OL4_96,HTOR32-6-S OL6,OL6_95,18,180,B18,B18
-DC Power Supply,PS1_N,Circuit Breaker,Q1_4,14,170,B14_5mm,B14
-DC Power Supply,PS1_L,Circuit Breaker,Q1_2,14,200,B14_5mm,B14
-Button Station,S2_2B,Button Station,S2_4B,16,150,R16_832_9mm,R16_832_9mm
+From,Pin,To,Pin,AWG,Color,Term 1,Term 2
+HMC-9B30-11-DS K1,K1_1,HMC-9B30-11-DS K2,K2_1,14,Black,FE,FE
+HMC-9B30-11-DS K1,K1_3,HMC-9B30-11-DS K2,K2_3,14,Black,FE,FE
+HMC-9B30-11-DS K1,K1_5,HMC-9B30-11-DS K2,K2_5,14,Black,FE,FE
+HMC-9B30-11-DS K1,K1_2,HMC-9B30-11-DS K2,K2_6,14,Black,FE,FE
+HMC-9B30-11-DS K1,K1_4,HMC-9B30-11-DS K2,K2_4,14,Black,FE,FE
+HMC-9B30-11-DS K1,K1_6,HMC-9B30-11-DS K2,K2_2,14,Black,FE,FE
+Terminal 5A,5A_TOP,HMC-9B30-11-DS K2,K2_1,14,Black,FE,FE
+Terminal 5C,5C_TOP,HMC-9B30-11-DS K1,K1_3,14,Black,FE,FE
+Terminal 5B,5B_BOT,Circuit Breaker,Q1_1,14,Black,FE,12mm bare
+Terminal 5D,5D_BOT,Circuit Breaker,Q1_3,14,Black,FE,12mm bare
+DC Power Supply,PS1_L,Circuit Breaker,Q1_2,14,Black,5mm bare,12mm bare
+DC Power Supply,PS1_N,Circuit Breaker,Q1_4,14,Black,5mm bare,12mm bare
+Terminal 5E,5E_BOT,HMC-9B30-11-DS K1,K1_2,14,Black,FE,FE
+Terminal 5E,5E_TOP,HMC-9B30-11-DS K6,K6_1,14,Black,FE,10mm bare
+Terminal 5F,5F_BOT,HMC-9B30-11-DS K4,K4_1,14,Black,FE,10mm bare
+Terminal 5G,5G_BOT,HMC-9B30-11-DS K1,K1_4,14,Black,FE,FE
+Terminal 5G,5G_TOP,HMC-9B30-11-DS K6,K6_3,14,Black,FE,10mm bare
+Terminal 5H,5H_BOT,HMC-9B30-11-DS K4,K4_3,14,Black,FE,10mm bare
+Terminal 5J,5J_BOT,HMC-9B30-11-DS K1,K1_6,14,Black,FE,FE
+Terminal 5J,5J_TOP,HMC-9B30-11-DS K6,K6_5,14,Black,FE,10mm bare
+Terminal 5K,5K_BOT,HMC-9B30-11-DS K4,K4_5,14,Black,FE,10mm bare
+Terminal 1A,1A_BOT,HTOR32-6-S OL4,OL4_2,14,Black,FE,10mm bare
+Terminal 1C,1C_BOT,HTOR32-6-S OL4,OL4_4,14,Black,FE,10mm bare
+Terminal 1E,1E_BOT,HTOR32-6-S OL4,OL4_6,14,Black,FE,10mm bare
+Terminal 1B,1B_BOT,HMC-9B30-11-DS K5,K5_2,14,Black,FE,10mm bare
+Terminal 1D,1D_BOT,HMC-9B30-11-DS K5,K5_4,14,Black,FE,10mm bare
+Terminal 1F,1F_BOT,HMC-9B30-11-DS K5,K5_6,14,Black,FE,10mm bare
+Terminal 1G,1G_BOT,HTOR32-6-S OL6,OL6_2,14,Black,FE,10mm bare
+Terminal 1H,1H_BOT,HTOR32-6-S OL6,OL6_4,14,Black,FE,10mm bare
+Terminal 1J,1J_BOT,HTOR32-6-S OL6,OL6_6,14,Black,FE,10mm bare
+HMC-9B30-11-DS K5,K5_1,HMC-9B30-11-DS K5,K5_3,14,Black,10mm bare,10mm bare
+HMC-9B30-11-DS K5,K5_3,HMC-9B30-11-DS K5,K5_5,14,Black,10mm bare,10mm bare
+Terminal 2C,2C_BOT,DC Power Supply,PS1_V1_NEG,18,Blue,FC,5mm bare
+Terminal 2A,2A_BOT,Coil Enable Relay,K3_A2,18,Blue,FC,8mm bare
+Terminal 2A,2A_TOP,HMC-9B30-11-DS K4,K4_A2_BOT,18,Blue,FC,8mm bare
+Terminal 2C,2C_TOP,HMC-9B30-11-DS K1,K1_A2_BOT,18,Blue,FC,8mm bare
+Terminal 2D,2D_TOP,HMC-9B30-11-DS K2,K2_A2_BOT,18,Blue,FC,8mm bare
+Terminal 2E,2E_BOT,HMC-9B30-11-DS K6,K6_A2_BOT,18,Blue,FC,8mm bare
+Terminal 2E,2E_TOP,HMC-9B30-11-DS K5,K5_A2_BOT,18,Blue,FC,8mm bare
+Terminal 2D,2D_BOT,Multifunction Timer TD1,TD1_A2,18,Blue,FC,7mm bare
+Terminal 2F,2F_TOP,Multifunction Timer TD2,TD2_A2,18,Blue,FC,7mm bare
+Fused Terminal,F4_IN,DC Power Supply,PS1_V1_POS,18,Blue,FC,5mm bare
+Terminal 4D,4D_BOT,Fused Terminal,F4_OUT,18,Blue,FC,FC
+Terminal 4C,4C_TOP,Coil Enable Relay,K3_13,18,Blue,FC,8mm bare
+Terminal 4C,4C_BOT,Coil Enable Relay,K3_31,18,Blue,FC,8mm bare
+Coil Enable Relay,K3_14,Coil Enable Relay,K3_23,18,Blue,8mm bare,8mm bare
+Coil Enable Relay,K3_24,HTOR32-6-S OL4,OL4_95,18,Blue,8mm bare,8mm bare
+HTOR32-6-S OL4,OL4_96,HTOR32-6-S OL6,OL6_95,18,Blue,8mm bare,8mm bare
+HMC-9B30-11-DS K1,K1_32,HMC-9B30-11-DS K2,K2_A1_BOT,18,Blue,8mm bare,8mm bare
+HMC-9B30-11-DS K1,K1_A1_BOT,HMC-9B30-11-DS K2,K2_32,18,Blue,8mm bare,8mm bare
+HMC-9B30-11-DS K4,K4_A1_BOT,HMC-9B30-11-DS K6,K6_32,18,Blue,8mm bare,8mm bare
+HMC-9B30-11-DS K5,K5_32,Auxiliary Contacts,KA1_51,18,Blue,8mm bare,8mm bare
+HMC-9B30-11-DS K5,K5_44,HMC-9B30-11-DS K6,K6_A1_BOT,18,Blue,8mm bare,8mm bare
+HMC-9B30-11-DS K5,K5_A1_BOT,Multifunction Timer TD1,TD1_18,18,Blue,8mm bare,7mm bare
+Terminal 3B,3B_TOP,HMC-9B30-11-DS K4,K4_31,18,Blue,FC,8mm bare
+Terminal 3D,3D_TOP,HMC-9B30-11-DS K4,K4_32,18,Blue,FC,8mm bare
+Terminal 1S,1S_BOT,Terminal 3A,3A_TOP,18,Blue,FC,FC
+Terminal 3A,3A_BOT,HMC-9B30-11-DS K1,K1_43,18,Blue,FC,8mm bare
+Terminal 3B,3B_BOT,HMC-9B30-11-DS K2,K2_43,18,Blue,FC,8mm bare
+Terminal 1N,1N_BOT,HMC-9B30-11-DS K2,K2_31,18,Blue,FC,8mm bare
+Terminal 1Q,1Q_BOT,HMC-9B30-11-DS K1,K1_31,18,Blue,FC,8mm bare
+Terminal 1P,1P_BOT,HMC-9B30-11-DS K1,K1_44,18,Blue,FC,8mm bare
+Terminal 1R,1R_BOT,HMC-9B30-11-DS K2,K2_44,18,Blue,FC,8mm bare
+Terminal 1K,1K_BOT,HMC-9B30-11-DS K4,K4_44,18,Blue,FC,8mm bare
+Terminal 1L,1L_BOT,HMC-9B30-11-DS K6,K6_44,18,Blue,FC,8mm bare
+Terminal 1Y,1Y_BOT,Terminal 3E,3E_TOP,18,Blue,FC,FC
+Terminal 1Z,1Z_BOT,Terminal 3H,3H_TOP,18,Blue,FC,FC
+Terminal 3C,3C_BOT,HMC-9B30-11-DS K5,K5_31,18,Blue,FC,8mm bare
+Terminal 3C,3C_TOP,HMC-9B30-11-DS K4,K4_43,18,Blue,FC,8mm bare
+Terminal 1T,1T_BOT,HMC-9B30-11-DS K6,K6_43,18,Blue,FC,8mm bare
+Terminal 1U,1U_BOT,HMC-9B30-11-DS K5,K5_43,16,Blue,FD,8mm bare
+Terminal 1V,1V_BOT,HMC-9B30-11-DS K6,K6_31,16,Blue,FD,8mm bare
+Terminal 1W,1W_BOT,HTOR32-6-S OL6,OL6_96,16,Blue,FD,8mm bare
+Terminal 1X,1X_BOT,Multifunction Timer TD2,TD2_18,18,Blue,FC,7mm bare
+Terminal 3D,3D_BOT,Multifunction Timer TD1,TD1_A3,18,Blue,FC,7mm bare
+Terminal 3E,3E_BOT,Multifunction Timer TD1,TD1_15,18,Blue,FC,7mm bare
+Terminal 3F,3F_BOT,Auxiliary Contacts,KA1_63,18,Blue,FC,8mm bare
+Terminal 3G,3G_BOT,Auxiliary Contacts,KA1_64,18,Blue,FC,8mm bare
+Terminal 3G,3G_TOP,Multifunction Timer TD1,TD1_B1,18,Blue,FC,7mm bare
+Terminal 3J,3J_BOT,Multifunction Timer TD2,TD2_A3,18,Blue,FC,7mm bare
+Terminal 3J,3J_TOP,Auxiliary Contacts,KA1_52,18,Blue,FC,8mm bare
+Terminal 3K,3K_BOT,Multifunction Timer TD2,TD2_15,18,Blue,FC,7mm bare
+Fuse Holder,FH1_P1A,Mains Plug,J2_Z,12,White,RC,bare
+Fuse Holder,FH1_P2A,Mains Plug,J2_Y,12,Red,RC,bare
+Fuse Holder,FH1_P3A,Mains Plug,J2_X,12,Black,RC,bare
+Fuse Holder,FH1_P1B,Motor Disconnect,SW1_5,14,Black,RB,12mm bare
+Fuse Holder,FH1_P2B,Motor Disconnect,SW1_3,14,Black,RB,12mm bare
+Fuse Holder,FH1_P3B,Motor Disconnect,SW1_1,14,Black,RB,12mm bare
+Terminal 5A,5A_BOT,Motor Disconnect,SW1_2,14,Black,FE,12mm bare
+Terminal 5C,5C_BOT,Motor Disconnect,SW1_4,14,Black,FE,12mm bare
+HMC-9B30-11-DS K1,K1_5,Motor Disconnect,SW1_6,14,Black,FE,12mm bare
+Terminal 1A,1A_TOP,Two-Speed Motor,M1_T1,14,Black,FE,WA
+Terminal 1C,1C_TOP,Two-Speed Motor,M1_T2,14,Black,FE,WA
+Terminal 1E,1E_TOP,Two-Speed Motor,M1_T3,14,Black,FE,WA
+Terminal 1G,1G_TOP,Two-Speed Motor,M1_T4,14,Black,FE,WA
+Terminal 1H,1H_TOP,Two-Speed Motor,M1_T5,14,Black,FE,WA
+Terminal 1J,1J_TOP,Two-Speed Motor,M1_T6,14,Black,FE,WA
+Terminal 2B,2B_BOT,White Indicator,H1_X2,18,Blue,FC,FB
+Terminal 2B,2B_TOP,Red Indicator,H2_X2,18,Blue,FC,FB
+Terminal 4A,4A_BOT,M12 Panel Socket,J1_3,22,Blue,FA,na
+Terminal 4A,4A_TOP,M12 Panel Socket,J1_2,22,White,FA,na
+Terminal 4B,4B_BOT,M12 Panel Socket,J1_1,22,Brown,FA,na
+M12 Panel Socket,J1_4,Coil Enable Relay,K3_A1_PLUS,22,Black,na,8mm bare
+Terminal 1M,1M_TOP,Button Station,S2_2B,16,Blue,FD,RA
+Terminal 1N,1N_TOP,Button Station,S2_1B,16,Blue,FD,RA
+Terminal 1Q,1Q_TOP,Button Station,S2_3B,16,Blue,FD,RA
+Terminal 1S,1S_TOP,Button Station,S2_6T,16,Blue,FD,RA
+Terminal 1W,1W_TOP,Button Station,S2_5T,16,Blue,FD,RA
+Button Station,S2_2B,Button Station,S2_4B,16,Blue,RA,RA
+Terminal 1T,1T_TOP,Speed Switch,S3_2B,16,Blue,FD,RA
+Terminal 1U,1U_TOP,Speed Switch,S3_2T,16,Blue,FD,RA
+Terminal 1V,1V_TOP,Speed Switch,S3_1T,16,Blue,FD,RA
+Terminal 1X,1X_TOP,Speed Switch,S3_1B,16,Blue,FD,RA
+Terminal 1Y,1Y_TOP,Speed Switch,S3_3B,16,Blue,FD,RA
+Terminal 1Z,1Z_TOP,Speed Switch,S3_3T,16,Blue,FD,RA
+Terminal 4D,4D_TOP,White Indicator,H1_X1,18,Blue,FC,FB
+Red Indicator,H2_X1,Coil Enable Relay,K3_32,18,Blue,FB,8mm bare
+Ground G4,G4_1,Ground G5,G5_1,12,Green/Yellow,FF,FF
+Ground G1,G1_2,Ground G5,G5_2,12,Green/Yellow,FF,FF
+Ground G2,G2_2,Ground G3,G3_1,12,Green/Yellow,FF,FF
+Ground G6,G6_2,DC Power Supply,PS1_PE,14,Green/Yellow,FE,5mm bare
+Ground G4,G4_2,Mains Plug,J2_G,12,Green,FF,bare
+Ground G6,G6_1,Enclosure Grounding Lug,J8_PE,12,Green/Yellow,FF,RD
+Control Housing PE Grounding Kit (WGNDKT) GL1,GL1_PE,Control PE Splice,GS1_PE,14,Green/Yellow,10mm bare,WB
+Control Housing PE Grounding Kit (WGNDKT) GL2,GL2_PE,Control PE Splice,GS1_PE,14,Green/Yellow,10mm bare,WB
+Ground G2,G2_1,Control PE Splice,GS1_PE,14,Green/Yellow,FE,WB
+Ground G1,G1_1,Two-Speed Motor,M1_PE,12,Green/Yellow,FF,WB
+Frame PE Lug,J5_PE,Two-Speed Motor,M1_PE,10,Green/Yellow,na,WB
+Motor Bell PE Stud,J7_PE,Two-Speed Motor,M1_PE,10,Green/Yellow,na,WB

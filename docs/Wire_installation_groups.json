@@ -1,0 +1,724 @@
+{
+  "schema": 1,
+  "date": "2026-11-04",
+  "max_group_wires": 10,
+  "purpose": "Non-grounding backplane wires first, then non-grounding off-backplane wires, with all grounding wires at the bottom. Preserve bench/installation stage eligibility. Connectivity, cut lengths, gauges and terminations remain owned by saved KiCad.",
+  "groups": [
+    {
+      "priority": 1,
+      "name": "Bench - K1/K2 reversing jumpers",
+      "reason": "Six individual jumpers replace the line and load bars. Fit the matching ferrules with the existing field wires at each shared clamp.",
+      "wires": [
+        [
+          "K1_1",
+          "K2_1"
+        ],
+        [
+          "K1_3",
+          "K2_3"
+        ],
+        [
+          "K1_5",
+          "K2_5"
+        ],
+        [
+          "K1_2",
+          "K2_6"
+        ],
+        [
+          "K1_4",
+          "K2_4"
+        ],
+        [
+          "K1_6",
+          "K2_2"
+        ]
+      ],
+      "stage": "bench"
+    },
+    {
+      "priority": 2,
+      "name": "Bench - Disconnect and PSU AC",
+      "reason": "Both endpoints are on the backplane; complete on the bench.",
+      "wires": [
+        [
+          "5A_TOP",
+          "K2_1"
+        ],
+        [
+          "5C_TOP",
+          "K1_3"
+        ],
+        [
+          "5B_BOT",
+          "Q1_1"
+        ],
+        [
+          "5D_BOT",
+          "Q1_3"
+        ],
+        [
+          "PS1_L",
+          "Q1_2"
+        ],
+        [
+          "PS1_N",
+          "Q1_4"
+        ]
+      ],
+      "stage": "bench"
+    },
+    {
+      "priority": 3,
+      "name": "Bench - Contactor power distribution",
+      "reason": "Both endpoints are on the backplane; complete on the bench.",
+      "wires": [
+        [
+          "5E_BOT",
+          "K1_2"
+        ],
+        [
+          "5E_TOP",
+          "K6_1"
+        ],
+        [
+          "5F_BOT",
+          "K4_1"
+        ],
+        [
+          "5G_BOT",
+          "K1_4"
+        ],
+        [
+          "5G_TOP",
+          "K6_3"
+        ],
+        [
+          "5H_BOT",
+          "K4_3"
+        ],
+        [
+          "5J_BOT",
+          "K1_6"
+        ],
+        [
+          "5J_TOP",
+          "K6_5"
+        ],
+        [
+          "5K_BOT",
+          "K4_5"
+        ]
+      ],
+      "stage": "bench"
+    },
+    {
+      "priority": 4,
+      "name": "Bench - Motor power outputs",
+      "reason": "Both endpoints are on the backplane; complete on the bench.",
+      "wires": [
+        [
+          "1A_BOT",
+          "OL4_2"
+        ],
+        [
+          "1C_BOT",
+          "OL4_4"
+        ],
+        [
+          "1E_BOT",
+          "OL4_6"
+        ],
+        [
+          "1B_BOT",
+          "K5_2"
+        ],
+        [
+          "1D_BOT",
+          "K5_4"
+        ],
+        [
+          "1F_BOT",
+          "K5_6"
+        ],
+        [
+          "1G_BOT",
+          "OL6_2"
+        ],
+        [
+          "1H_BOT",
+          "OL6_4"
+        ],
+        [
+          "1J_BOT",
+          "OL6_6"
+        ]
+      ],
+      "stage": "bench"
+    },
+    {
+      "priority": 5,
+      "name": "Bench - Star links and motor leads",
+      "reason": "Both endpoints are on the backplane; complete on the bench.",
+      "wires": [
+        [
+          "K5_1",
+          "K5_3"
+        ],
+        [
+          "K5_3",
+          "K5_5"
+        ]
+      ],
+      "stage": "bench"
+    },
+    {
+      "priority": 6,
+      "name": "Bench - DC return - source and coils",
+      "reason": "Both endpoints are on the backplane; complete on the bench.",
+      "wires": [
+        [
+          "2C_BOT",
+          "PS1_V1_NEG"
+        ],
+        [
+          "2A_BOT",
+          "K3_A2"
+        ],
+        [
+          "2A_TOP",
+          "K4_A2_BOT"
+        ],
+        [
+          "2C_TOP",
+          "K1_A2_BOT"
+        ],
+        [
+          "2D_TOP",
+          "K2_A2_BOT"
+        ],
+        [
+          "2E_BOT",
+          "K6_A2_BOT"
+        ],
+        [
+          "2E_TOP",
+          "K5_A2_BOT"
+        ]
+      ],
+      "stage": "bench"
+    },
+    {
+      "priority": 7,
+      "name": "Bench - DC return - timers and lamps",
+      "reason": "Both endpoints are on the backplane; complete on the bench.",
+      "wires": [
+        [
+          "2D_BOT",
+          "TD1_A2"
+        ],
+        [
+          "2F_TOP",
+          "TD2_A2"
+        ]
+      ],
+      "stage": "bench"
+    },
+    {
+      "priority": 8,
+      "name": "Bench - Fused DC and safety chain",
+      "reason": "Both endpoints are on the backplane; complete on the bench.",
+      "wires": [
+        [
+          "F4_IN",
+          "PS1_V1_POS"
+        ],
+        [
+          "4D_BOT",
+          "F4_OUT"
+        ],
+        [
+          "4C_TOP",
+          "K3_13"
+        ],
+        [
+          "4C_BOT",
+          "K3_31"
+        ],
+        [
+          "K3_14",
+          "K3_23"
+        ],
+        [
+          "K3_24",
+          "OL4_95"
+        ],
+        [
+          "OL4_96",
+          "OL6_95"
+        ]
+      ],
+      "stage": "bench"
+    },
+    {
+      "priority": 9,
+      "name": "Bench - Coil interlock links",
+      "reason": "Both endpoints are on the backplane; complete on the bench.",
+      "wires": [
+        [
+          "K1_32",
+          "K2_A1_BOT"
+        ],
+        [
+          "K1_A1_BOT",
+          "K2_32"
+        ],
+        [
+          "K4_A1_BOT",
+          "K6_32"
+        ],
+        [
+          "K5_32",
+          "KA1_51"
+        ],
+        [
+          "K5_44",
+          "K6_A1_BOT"
+        ],
+        [
+          "K5_A1_BOT",
+          "TD1_18"
+        ],
+        [
+          "3B_TOP",
+          "K4_31"
+        ],
+        [
+          "3D_TOP",
+          "K4_32"
+        ]
+      ],
+      "stage": "bench"
+    },
+    {
+      "priority": 10,
+      "name": "Bench - Direction control bank",
+      "reason": "Both endpoints are on the backplane; complete on the bench.",
+      "wires": [
+        [
+          "1S_BOT",
+          "3A_TOP"
+        ],
+        [
+          "3A_BOT",
+          "K1_43"
+        ],
+        [
+          "3B_BOT",
+          "K2_43"
+        ],
+        [
+          "1N_BOT",
+          "K2_31"
+        ],
+        [
+          "1Q_BOT",
+          "K1_31"
+        ],
+        [
+          "1P_BOT",
+          "K1_44"
+        ],
+        [
+          "1R_BOT",
+          "K2_44"
+        ],
+        [
+          "1K_BOT",
+          "K4_44"
+        ],
+        [
+          "1L_BOT",
+          "K6_44"
+        ]
+      ],
+      "stage": "bench"
+    },
+    {
+      "priority": 11,
+      "name": "Bench - Speed control bank",
+      "reason": "Both endpoints are on the backplane; complete on the bench.",
+      "wires": [
+        [
+          "1Y_BOT",
+          "3E_TOP"
+        ],
+        [
+          "1Z_BOT",
+          "3H_TOP"
+        ],
+        [
+          "3C_BOT",
+          "K5_31"
+        ],
+        [
+          "3C_TOP",
+          "K4_43"
+        ],
+        [
+          "1T_BOT",
+          "K6_43"
+        ],
+        [
+          "1U_BOT",
+          "K5_43"
+        ],
+        [
+          "1V_BOT",
+          "K6_31"
+        ],
+        [
+          "1W_BOT",
+          "OL6_96"
+        ],
+        [
+          "1X_BOT",
+          "TD2_18"
+        ]
+      ],
+      "stage": "bench"
+    },
+    {
+      "priority": 12,
+      "name": "Bench - Timers and auxiliary contacts",
+      "reason": "Both endpoints are on the backplane; complete on the bench.",
+      "wires": [
+        [
+          "3D_BOT",
+          "TD1_A3"
+        ],
+        [
+          "3E_BOT",
+          "TD1_15"
+        ],
+        [
+          "3F_BOT",
+          "KA1_63"
+        ],
+        [
+          "3G_BOT",
+          "KA1_64"
+        ],
+        [
+          "3G_TOP",
+          "TD1_B1"
+        ],
+        [
+          "3J_BOT",
+          "TD2_A3"
+        ],
+        [
+          "3J_TOP",
+          "KA1_52"
+        ],
+        [
+          "3K_BOT",
+          "TD2_15"
+        ]
+      ],
+      "stage": "bench"
+    },
+    {
+      "priority": 13,
+      "name": "Deferred - Incoming supply and fuses",
+      "reason": "Complete after the backplane is installed and the off-backplane devices are mounted.",
+      "wires": [
+        [
+          "FH1_P1A",
+          "J2_Z"
+        ],
+        [
+          "FH1_P2A",
+          "J2_Y"
+        ],
+        [
+          "FH1_P3A",
+          "J2_X"
+        ],
+        [
+          "FH1_P1B",
+          "SW1_5"
+        ],
+        [
+          "FH1_P2B",
+          "SW1_3"
+        ],
+        [
+          "FH1_P3B",
+          "SW1_1"
+        ]
+      ],
+      "stage": "installation"
+    },
+    {
+      "priority": 14,
+      "name": "Deferred - Disconnect and PSU AC",
+      "reason": "Complete after the backplane is installed and the off-backplane devices are mounted.",
+      "wires": [
+        [
+          "5A_BOT",
+          "SW1_2"
+        ],
+        [
+          "5C_BOT",
+          "SW1_4"
+        ],
+        [
+          "K1_5",
+          "SW1_6"
+        ]
+      ],
+      "stage": "installation"
+    },
+    {
+      "priority": 15,
+      "name": "Deferred - Star links and motor leads",
+      "reason": "Complete after the backplane is installed and the off-backplane devices are mounted.",
+      "wires": [
+        [
+          "1A_TOP",
+          "M1_T1"
+        ],
+        [
+          "1C_TOP",
+          "M1_T2"
+        ],
+        [
+          "1E_TOP",
+          "M1_T3"
+        ],
+        [
+          "1G_TOP",
+          "M1_T4"
+        ],
+        [
+          "1H_TOP",
+          "M1_T5"
+        ],
+        [
+          "1J_TOP",
+          "M1_T6"
+        ]
+      ],
+      "stage": "installation"
+    },
+    {
+      "priority": 16,
+      "name": "Deferred - DC return - timers and lamps",
+      "reason": "Complete after the backplane is installed and the off-backplane devices are mounted.",
+      "wires": [
+        [
+          "2B_BOT",
+          "H1_X2"
+        ],
+        [
+          "2B_TOP",
+          "H2_X2"
+        ]
+      ],
+      "stage": "installation"
+    },
+    {
+      "priority": 17,
+      "name": "Deferred - E-stop connector",
+      "reason": "Complete after the backplane is installed and the off-backplane devices are mounted.",
+      "wires": [
+        [
+          "4A_BOT",
+          "J1_3"
+        ],
+        [
+          "4A_TOP",
+          "J1_2"
+        ],
+        [
+          "4B_BOT",
+          "J1_1"
+        ],
+        [
+          "J1_4",
+          "K3_A1_PLUS"
+        ]
+      ],
+      "stage": "installation"
+    },
+    {
+      "priority": 18,
+      "name": "Deferred - Button station",
+      "reason": "Complete after the backplane is installed and the off-backplane devices are mounted.",
+      "wires": [
+        [
+          "1M_TOP",
+          "S2_2B"
+        ],
+        [
+          "1N_TOP",
+          "S2_1B"
+        ],
+        [
+          "1Q_TOP",
+          "S2_3B"
+        ],
+        [
+          "1S_TOP",
+          "S2_6T"
+        ],
+        [
+          "1W_TOP",
+          "S2_5T"
+        ],
+        [
+          "S2_2B",
+          "S2_4B"
+        ]
+      ],
+      "stage": "installation"
+    },
+    {
+      "priority": 19,
+      "name": "Deferred - Speed selector",
+      "reason": "Complete after the backplane is installed and the off-backplane devices are mounted.",
+      "wires": [
+        [
+          "1T_TOP",
+          "S3_2B"
+        ],
+        [
+          "1U_TOP",
+          "S3_2T"
+        ],
+        [
+          "1V_TOP",
+          "S3_1T"
+        ],
+        [
+          "1X_TOP",
+          "S3_1B"
+        ],
+        [
+          "1Y_TOP",
+          "S3_3B"
+        ],
+        [
+          "1Z_TOP",
+          "S3_3T"
+        ]
+      ],
+      "stage": "installation"
+    },
+    {
+      "priority": 20,
+      "name": "Deferred - Indicator feeds",
+      "reason": "Complete after the backplane is installed and the off-backplane devices are mounted.",
+      "wires": [
+        [
+          "4D_TOP",
+          "H1_X1"
+        ],
+        [
+          "H2_X1",
+          "K3_32"
+        ]
+      ],
+      "stage": "installation"
+    },
+    {
+      "priority": 21,
+      "name": "Bench - PE - panel backbone",
+      "reason": "Both endpoints are on the backplane; complete on the bench.",
+      "wires": [
+        [
+          "G4_1",
+          "G5_1"
+        ],
+        [
+          "G1_2",
+          "G5_2"
+        ],
+        [
+          "G2_2",
+          "G3_1"
+        ],
+        [
+          "G6_2",
+          "PS1_PE"
+        ]
+      ],
+      "stage": "bench"
+    },
+    {
+      "priority": 22,
+      "name": "Deferred - PE - panel backbone",
+      "reason": "Complete after the backplane is installed and the off-backplane devices are mounted.",
+      "wires": [
+        [
+          "G4_2",
+          "J2_G"
+        ],
+        [
+          "G6_1",
+          "J8_PE"
+        ]
+      ],
+      "stage": "installation"
+    },
+    {
+      "priority": 23,
+      "name": "Deferred - PE - housings and motor",
+      "reason": "Complete after the backplane is installed and the off-backplane devices are mounted.",
+      "wires": [
+        [
+          "GL1_PE",
+          "GS1_PE"
+        ],
+        [
+          "GL2_PE",
+          "GS1_PE"
+        ],
+        [
+          "G2_1",
+          "GS1_PE"
+        ],
+        [
+          "G1_1",
+          "M1_PE"
+        ],
+        [
+          "J5_PE",
+          "M1_PE"
+        ],
+        [
+          "J7_PE",
+          "M1_PE"
+        ]
+      ],
+      "stage": "installation"
+    }
+  ],
+  "off_backplane_devices": [
+    "GL1",
+    "GL2",
+    "GS1",
+    "H1",
+    "H2",
+    "J1",
+    "J2",
+    "J5",
+    "J7",
+    "J8",
+    "M1",
+    "S2",
+    "S3",
+    "SW1"
+  ]
+}

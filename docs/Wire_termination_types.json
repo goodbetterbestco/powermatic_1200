@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "inventory": "Wire_connector_bins.csv",
+  "purpose": "Operator termination types. Native KiCad preparation descriptions and strip settings remain unchanged.",
+  "native_code_to_type": {
+    "F22_10mm": "FA",
+    "F18_6mm": "FB",
+    "F18_10mm": "FC",
+    "F16_10mm": "FD",
+    "F14_10mm": "FE",
+    "F12_10mm": "FF",
+    "R16_832_8.4mm": "RA",
+    "R14_1032_8.4mm": "RB",
+    "R12_1032_9.5mm": "RC",
+    "R12_516_15.494mm": "RD"
+  },
+  "endpoint_types": {
+    "M1_T1": "WA",
+    "M1_T2": "WA",
+    "M1_T3": "WA",
+    "M1_T4": "WA",
+    "M1_T5": "WA",
+    "M1_T6": "WA",
+    "M1_PE": "WB",
+    "GS1_PE": "WB"
+  },
+  "oem_native_codes": [
+    "supplier"
+  ],
+  "oem_type": "na",
+  "bare_native_prefix": "B",
+  "bare_type": "bare",
+  "na_meaning": "Connector already applied to the wire by the OEM; retain it.",
+  "show_bare_strip_mm": true
+}
